@@ -71,5 +71,16 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-09T21:58:55.121779+00:00"
+  },
+  {
+    "symbol": "ETH/USD",
+    "tf": "1h",
+    "side": "BUY",
+    "entry": 1923.29,
+    "sl": 1911.4350934105478,
+    "final_r": 0.0,
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-09T23:41:36.963223+00:00"
   }
 ]
