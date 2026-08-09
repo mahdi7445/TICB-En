@@ -38,5 +38,16 @@
     "close_type": "opposite_signal",
     "close_reason": "Closed early - opposite signal appeared",
     "closed_at": "2026-08-09T18:01:33.433628+00:00"
+  },
+  {
+    "symbol": "ETH/USD",
+    "tf": "15m",
+    "side": "BUY",
+    "entry": 1917.6,
+    "sl": 1912.3863180548394,
+    "final_r": 0.0,
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "closed_at": "2026-08-09T19:24:05.997341+00:00"
   }
 ]
