@@ -16,5 +16,16 @@
     "sl": 64970.46889732676,
     "final_r": -1.0,
     "closed_at": "2026-08-09T10:56:12.278140+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "1h",
+    "side": "SELL",
+    "entry": 64841.19,
+    "sl": 65148.288391586706,
+    "final_r": -1.0,
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-09T14:08:50.062806+00:00"
   }
 ]
