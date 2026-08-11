@@ -53,5 +53,16 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-11T14:40:34.827265+00:00"
+  },
+  {
+    "symbol": "XAU/USD",
+    "tf": "15m",
+    "side": "BUY",
+    "entry": 4397.53738,
+    "sl": 4371.600543296161,
+    "final_r": -1.0,
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-11T15:49:31.004004+00:00"
   }
 ]
