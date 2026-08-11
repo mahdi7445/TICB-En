@@ -1522,8 +1522,9 @@
           "4": false
         },
         "trailing": false,
-        "closed": false,
-        "signal_message_id": 181
+        "closed": true,
+        "signal_message_id": 181,
+        "close_type": "stop"
       }
     },
     "XAU/USD|15m": {
