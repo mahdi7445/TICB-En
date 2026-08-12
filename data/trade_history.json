@@ -64,5 +64,27 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-11T15:49:31.004004+00:00"
+  },
+  {
+    "symbol": "XAU/USD",
+    "tf": "15m",
+    "side": "SELL",
+    "entry": 4368.52912,
+    "sl": 4415.619584711815,
+    "final_r": -1.0,
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "closed_at": "2026-08-12T08:16:32.244290+00:00"
+  },
+  {
+    "symbol": "XAU/USD",
+    "tf": "1h",
+    "side": "BUY",
+    "entry": 4376.94227,
+    "sl": 4331.674154717557,
+    "final_r": 0.0,
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "closed_at": "2026-08-12T08:17:02.229697+00:00"
   }
 ]
