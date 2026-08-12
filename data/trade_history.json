@@ -97,5 +97,16 @@
     "close_type": "opposite_signal",
     "close_reason": "Closed early - opposite signal appeared",
     "closed_at": "2026-08-12T18:58:00.114637+00:00"
+  },
+  {
+    "symbol": "XAU/USD",
+    "tf": "15m",
+    "side": "BUY",
+    "entry": 4408.00494,
+    "sl": 4379.329270146711,
+    "final_r": 0.0,
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "closed_at": "2026-08-12T21:39:57.129756+00:00"
   }
 ]
