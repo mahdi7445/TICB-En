@@ -141,5 +141,27 @@
     "close_type": "trailing_stop",
     "close_reason": "Trailing stop (Target 1-3 banked)",
     "closed_at": "2026-08-14T01:25:26.736013+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "side": "SELL",
+    "entry": 63380.42,
+    "sl": 64600.978141980704,
+    "final_r": -1.0,
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "closed_at": "2026-08-14T10:14:42.589042+00:00"
+  },
+  {
+    "symbol": "XAU/USD",
+    "tf": "15m",
+    "side": "SELL",
+    "entry": 4345.74769,
+    "sl": 4355.469026204154,
+    "final_r": 0.0,
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-14T10:15:07.528216+00:00"
   }
 ]
