@@ -185,5 +185,16 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-14T19:03:34.239428+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "side": "SELL",
+    "entry": 62901.82,
+    "sl": 63106.638637443706,
+    "final_r": -1.0,
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-15T05:44:15.810507+00:00"
   }
 ]
