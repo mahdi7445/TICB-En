@@ -5,8 +5,9 @@
     "side": "BUY",
     "entry": 0.2511,
     "sl": 0.2437,
-    "status": "pending",
-    "created_at": 1786884002
+    "status": "active",
+    "created_at": 1786884002,
+    "activated_at": "2026-08-16T13:53:19.498805+00:00"
   },
   {
     "id": "m-1786884013",
@@ -14,7 +15,8 @@
     "side": "SELL",
     "entry": 0.124,
     "sl": 0.1258,
-    "status": "pending",
-    "created_at": 1786884013
+    "status": "active",
+    "created_at": 1786884013,
+    "activated_at": "2026-08-16T13:53:22.117102+00:00"
   }
 ]
