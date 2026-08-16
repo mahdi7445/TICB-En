@@ -28,5 +28,14 @@
     "status": "active",
     "created_at": 1786891048,
     "activated_at": "2026-08-16T14:47:33.617466+00:00"
+  },
+  {
+    "id": "m-1786902083",
+    "symbol": "BTC/USD",
+    "side": "BUY",
+    "entry": 63260.01,
+    "sl": 63033.42,
+    "status": "pending",
+    "created_at": 1786902083
   }
 ]
