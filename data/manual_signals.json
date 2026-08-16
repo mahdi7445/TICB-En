@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "m-1786884002",
+    "symbol": "BTC/USD",
+    "side": "BUY",
+    "entry": 0.2511,
+    "sl": 0.2437,
+    "status": "pending",
+    "created_at": 1786884002
+  }
+]
