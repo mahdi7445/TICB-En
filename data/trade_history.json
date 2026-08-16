@@ -20,5 +20,16 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-16T13:53:41.452454+00:00"
+  },
+  {
+    "symbol": "ETH/USD",
+    "tf": "1m",
+    "side": "SELL",
+    "entry": 1885.41,
+    "sl": 1885.41,
+    "final_r": 1.0,
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1-2 banked, rest flat)",
+    "closed_at": "2026-08-16T16:15:25.725094+00:00"
   }
 ]
