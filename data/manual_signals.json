@@ -7,5 +7,14 @@
     "sl": 0.2437,
     "status": "pending",
     "created_at": 1786884002
+  },
+  {
+    "id": "m-1786884013",
+    "symbol": "BTC/USD",
+    "side": "SELL",
+    "entry": 0.124,
+    "sl": 0.1258,
+    "status": "pending",
+    "created_at": 1786884013
   }
 ]
