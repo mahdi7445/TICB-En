@@ -35,7 +35,8 @@
     "side": "BUY",
     "entry": 63260.01,
     "sl": 63033.42,
-    "status": "pending",
-    "created_at": 1786902083
+    "status": "active",
+    "created_at": 1786902083,
+    "activated_at": "2026-08-16T17:48:47.182534+00:00"
   }
 ]
