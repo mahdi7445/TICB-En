@@ -3024,11 +3024,12 @@
           "4": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ETH/USD",
         "tf_key": "5m",
         "display": "ETH",
-        "signal_message_id": 293
+        "signal_message_id": 293,
+        "close_type": "stop"
       }
     },
     "BTC/USD|15m": {
