@@ -42,5 +42,27 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-16T17:34:15.671048+00:00"
+  },
+  {
+    "symbol": "ETH/USD",
+    "tf": "1m",
+    "side": "SELL",
+    "entry": 1885.11,
+    "sl": 1874.388979371892,
+    "final_r": 1.8249999999999997,
+    "close_type": "runner_stop",
+    "close_reason": "Runner closed (all 4 targets + trailing runner)",
+    "closed_at": "2026-08-17T00:45:16.911852+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "manual",
+    "side": "BUY",
+    "entry": 63260.01,
+    "sl": 63033.42,
+    "final_r": -1.0,
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-17T00:45:59.935664+00:00"
   }
 ]
