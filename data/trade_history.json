@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "symbol": "BTC/USD",
+    "tf": "1m",
+    "side": "SELL",
+    "entry": 74671.57,
+    "sl": 75067.12906790845,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-21T02:36:45.640867+00:00"
+  }
+]
