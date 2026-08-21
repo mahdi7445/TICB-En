@@ -1530,7 +1530,8 @@
         "symbol": "ETH/USD",
         "tf_key": "1m",
         "display": "ETH",
-        "signal_message_id": 422
+        "signal_message_id": 422,
+        "_stop_pending_since": 1787319371.8518689
       }
     },
     "BTC/USD|5m": {
@@ -6073,6 +6074,6 @@
     "BTC/USD|1m": 1787278826,
     "ETH/USD|15m": 1787312140,
     "BTC/USD|5m": 1787319007,
-    "ETH/USD|1m": 1787318346
+    "ETH/USD|1m": 1787319371
   }
 }
