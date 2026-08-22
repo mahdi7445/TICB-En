@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "m-1787374289",
+    "symbol": "DOGE/USD",
+    "side": "BUY",
+    "entry": 0.1001,
+    "sl": 0.0977,
+    "status": "pending",
+    "created_at": 1787374289
+  }
+]
