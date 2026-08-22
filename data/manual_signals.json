@@ -5,7 +5,8 @@
     "side": "BUY",
     "entry": 0.1001,
     "sl": 0.0977,
-    "status": "pending",
-    "created_at": 1787374289
+    "status": "active",
+    "created_at": 1787374289,
+    "activated_at": "2026-08-22T08:40:25.889331+00:00"
   }
 ]
