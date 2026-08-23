@@ -10,5 +10,27 @@
     "forwarded_tracking": true,
     "tf_label": "1H",
     "activated_at": "2026-08-23T07:07:39.160794+00:00"
+  },
+  {
+    "id": "m-1787500308",
+    "symbol": "NEAR/USD",
+    "side": "SELL",
+    "entry": 1.81,
+    "sl": 2.01,
+    "status": "pending",
+    "created_at": 1787500308,
+    "forwarded_tracking": true,
+    "tf_label": "1H"
+  },
+  {
+    "id": "m-1787500332",
+    "symbol": "NEAR/USD",
+    "side": "BUY",
+    "entry": 1.95,
+    "sl": 1.77,
+    "status": "pending",
+    "created_at": 1787500332,
+    "forwarded_tracking": true,
+    "tf_label": "1H"
   }
 ]
