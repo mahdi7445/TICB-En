@@ -17,10 +17,11 @@
     "side": "SELL",
     "entry": 1.81,
     "sl": 2.01,
-    "status": "pending",
+    "status": "active",
     "created_at": 1787500308,
     "forwarded_tracking": true,
-    "tf_label": "1H"
+    "tf_label": "1H",
+    "activated_at": "2026-08-23T16:50:27.504837+00:00"
   },
   {
     "id": "m-1787500332",
@@ -28,9 +29,10 @@
     "side": "BUY",
     "entry": 1.95,
     "sl": 1.77,
-    "status": "pending",
+    "status": "active",
     "created_at": 1787500332,
     "forwarded_tracking": true,
-    "tf_label": "1H"
+    "tf_label": "1H",
+    "activated_at": "2026-08-23T16:50:32.754590+00:00"
   }
 ]
