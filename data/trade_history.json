@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "symbol": "ETH/USD",
+    "tf": "15m",
+    "side": "BUY",
+    "entry": 2413.91,
+    "sl": 2413.91,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "closed_at": "2026-08-23T16:44:37.358366+00:00"
+  }
+]
