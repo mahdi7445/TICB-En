@@ -1,0 +1,13 @@
+[
+  {
+    "kind": "forwarded_closed",
+    "ticker": "NEAR",
+    "tf_label": "1H",
+    "entry": 1.81,
+    "level": null,
+    "result_r": -0.68,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-23T15:50:59.588906+00:00"
+  }
+]
