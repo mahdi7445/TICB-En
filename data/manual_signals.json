@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "m-1787468702",
+    "symbol": "NEAR/USD",
+    "side": "SELL",
+    "entry": 1.81,
+    "sl": 2.01,
+    "status": "pending",
+    "created_at": 1787468702,
+    "forwarded_tracking": true,
+    "tf_label": "1H"
+  }
+]
