@@ -1,0 +1,24 @@
+[
+  {
+    "kind": "stop",
+    "ticker": "MORPHO",
+    "tf_label": "1M",
+    "entry": 2.78,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-24T15:30:07.641137+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "MORPHO",
+    "tf_label": "1M",
+    "entry": 2.78,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-24T15:30:36.662864+00:00"
+  }
+]
