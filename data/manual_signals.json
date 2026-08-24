@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "m-1787548746",
+    "symbol": "MORPHO/USD",
+    "side": "BUY",
+    "entry": 2.78,
+    "sl": 2.76,
+    "status": "pending",
+    "created_at": 1787548746,
+    "forwarded_tracking": true,
+    "tf_label": "1M"
+  }
+]
