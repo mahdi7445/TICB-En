@@ -1,0 +1,84 @@
+name: Subscription Bot
+
+# ⚠️ این ورک‌فلو به‌صورت پیوسته تا حدود ۵ ساعت و ۲۰ دقیقه اجرا می‌ماند تا پاسخ‌گویی به
+# دکمه‌ها/دستورات کاربر واقعاً آنی باشد (long-polling). این فقط روی ریپوی PUBLIC
+# منطقی است چون دقیقه‌های Actions روی ریپوی Public نامحدود و رایگان است؛ روی ریپوی
+# Private به‌سرعت سقف رایگان ۲۰۰۰ دقیقه در ماه تمام می‌شود.
+#
+# برای اینکه هیچ‌وقت شکاف/خاموشی نداشته باشیم، فاصله‌ی کرون (۵ ساعت) از مدت هر اجرا
+# (۵ ساعت و ۲۰ دقیقه) کوتاه‌تره؛ یعنی وقتی اجرای بعدی باید شروع بشه، اجرای قبلی هنوز
+# فعاله و در صف قرار می‌گیره (concurrency)، و به‌محض پایان اجرای قبلی بلافاصله شروع
+# می‌شه - بدون هیچ بازه‌ی خالی.
+#
+# ⚠️ ALTCOIN_SOURCE_CHANNEL_ID (اختیاری): اگه ست بشه، این ربات پیام‌های کانال آلتکوینِ
+# خودِ کاربر (دیپلوی دومِ همین سیستم) رو خودکار (بدون فوروارد دستی) در PRIVATE_CHANNEL_ID
+# کپی و در محاسبات/نتایج ثبت می‌کنه. پیش‌نیاز: همین ربات (همون BOT_TOKEN) باید از قبل به‌عنوان
+# ادمین به کانال دوم هم اضافه شده باشه - وگرنه channel_post آن کانال اصلاً به getUpdates
+# نمی‌رسه.
+
+on:
+  schedule:
+    - cron: "0 */5 * * *"   # هر ۵ ساعت یک‌بار (کوتاه‌تر از مدت هر اجرا، تا هم‌پوشانی کامل داشته باشیم)
+  workflow_dispatch:
+    inputs:
+      quick_test_seconds:
+        description: "برای تست سریع: چند ثانیه فقط اجرا شود (خالی=اجرای کامل ۵ ساعت و ۲۰ دقیقه)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: subscription-bot-loop
+  cancel-in-progress: false   # اگه اجرای قبلی هنوز فعاله، اجرای جدید صف می‌مونه تا اون تموم بشه (بدون هم‌پوشانیِ واقعی دو پردازش)
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340   # کمی بیشتر از ۵ ساعت و ۲۰ دقیقه‌ی حلقه، برای فرصت کامیت نهایی
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Configure git identity (for periodic auto-commits)
+        run: |
+          git config user.name "subscription-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Run bot (continuous loop)
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          PRIVATE_CHANNEL_ID: ${{ secrets.PRIVATE_CHANNEL_ID }}
+          PUBLIC_CHANNEL_LINK: ${{ secrets.PUBLIC_CHANNEL_LINK }}
+          ADMIN_USER_IDS: ${{ secrets.ADMIN_USER_IDS }}
+          WALLET_ADDRESS_TRC20: ${{ secrets.WALLET_ADDRESS_TRC20 }}
+          WALLET_ADDRESS_BEP20: ${{ secrets.WALLET_ADDRESS_BEP20 }}
+          BSCSCAN_API_KEY: ${{ secrets.BSCSCAN_API_KEY }}
+          PAYMENT_WINDOW_MINUTES: ${{ secrets.PAYMENT_WINDOW_MINUTES }}
+          ALTCOIN_SOURCE_CHANNEL_ID: ${{ secrets.ALTCOIN_SOURCE_CHANNEL_ID }}
+          LOOP_MAX_SECONDS: ${{ github.event.inputs.quick_test_seconds }}
+        run: python subscription_bot.py
+
+      - name: Final commit (safety net)
+        if: always()
+        run: |
+          git add data/
+          if git diff --quiet --cached; then
+            echo "no changes"
+          else
+            git commit -m "update subscription data [skip ci]"
+            git pull --rebase origin "${{ github.ref_name }}" || true
+            git push
+          fi
