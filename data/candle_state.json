@@ -8524,7 +8524,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
