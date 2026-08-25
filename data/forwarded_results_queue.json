@@ -64,5 +64,49 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-25T03:57:18.935021+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "1M",
+    "entry": 138.09,
+    "level": 1,
+    "result_r": 0.8,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T11:00:05.523288+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "1M",
+    "entry": 138.09,
+    "level": 2,
+    "result_r": 0.8,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T11:00:06.470519+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 101.54,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T11:00:38.062172+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.2258,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T11:00:55.632184+00:00"
   }
 ]
