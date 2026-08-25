@@ -72,5 +72,17 @@
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true
+  },
+  {
+    "id": "m-1787631486",
+    "symbol": "SOL/USD",
+    "side": "BUY",
+    "entry": 101.54,
+    "sl": 99.37,
+    "status": "pending",
+    "created_at": 1787631486,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true
   }
 ]
