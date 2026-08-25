@@ -229,5 +229,38 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-25T21:05:24.286662+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TRUMP",
+    "tf_label": "1M",
+    "entry": 2.24,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T21:08:03.452017+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 98.68,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T21:08:10.413779+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TRUMP",
+    "tf_label": "1M",
+    "entry": 2.24,
+    "level": 2,
+    "result_r": 0.8,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T21:08:11.398562+00:00"
   }
 ]
