@@ -9,5 +9,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-25T03:05:59.206884+00:00"
+  },
+  {
+    "kind": "forwarded_closed",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.2268,
+    "level": null,
+    "result_r": -0.03,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T03:30:26.352860+00:00"
   }
 ]
