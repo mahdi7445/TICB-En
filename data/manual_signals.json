@@ -127,5 +127,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-25T18:58:29.328172+00:00"
+  },
+  {
+    "id": "m-1787685364",
+    "symbol": "ENA/USD",
+    "side": "BUY",
+    "entry": 0.1489,
+    "sl": 0.1479,
+    "status": "pending",
+    "created_at": 1787685364,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
