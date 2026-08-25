@@ -8151,6 +8151,35 @@
           "dt_ms": 1787619600000
         }
       ]
+    },
+    "MANUAL|m-1787626688": {
+      "open_trade": {
+        "side": "SELL",
+        "entry": 0.818,
+        "sl": 0.8294,
+        "r": 0.011400000000000077,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "VIRTUAL/USD",
+        "tf_key": "manual",
+        "display": "VIRTUAL",
+        "opened_at_ms": 1787627053463,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m",
+        "signal_message_id": 479
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
@@ -8161,6 +8190,6 @@
     "4h": 1787618867
   },
   "live_last_checked": {
-    "MANUAL|m-1787624815": 1787626051
+    "MANUAL|m-1787624815": 1787627055
   }
 }
