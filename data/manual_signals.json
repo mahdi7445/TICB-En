@@ -199,10 +199,11 @@
     "side": "BUY",
     "entry": 0.1455,
     "sl": 0.1452,
-    "status": "pending",
+    "status": "skipped_duplicate",
     "created_at": 1787696290,
     "forwarded_tracking": true,
     "tf_label": "1M",
-    "silent": true
+    "silent": true,
+    "reject_reason": "duplicate of already-open trade 'MANUAL|m-1787693464' (same symbol/side, similar entry, opened recently)"
   }
 ]
