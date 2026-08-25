@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "symbol": "VIRTUAL/USD",
+    "tf": "manual",
+    "side": "SELL",
+    "entry": 0.818,
+    "sl": 0.8294,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-25T03:09:28.071338+00:00"
+  }
+]
