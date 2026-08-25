@@ -8581,8 +8581,8 @@
         "r": 0.0015000000000000013,
         "hit": {
           "1": false,
-          "2": false,
-          "4": false,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
