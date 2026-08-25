@@ -97,5 +97,17 @@
     "close_type": "sl_after_t2",
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "closed_at": "2026-08-25T19:08:38.832202+00:00"
+  },
+  {
+    "symbol": "ENA/USD",
+    "tf": "manual",
+    "side": "BUY",
+    "entry": 0.1489,
+    "sl": 0.1479,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-25T19:41:28.675203+00:00"
   }
 ]
