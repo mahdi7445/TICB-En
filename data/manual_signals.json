@@ -205,5 +205,17 @@
     "tf_label": "1M",
     "silent": true,
     "reject_reason": "duplicate of already-open trade 'MANUAL|m-1787693464' (same symbol/side, similar entry, opened recently)"
+  },
+  {
+    "id": "m-1787702136",
+    "symbol": "ENA/USD",
+    "side": "SELL",
+    "entry": 0.1428,
+    "sl": 0.1438,
+    "status": "pending",
+    "created_at": 1787702136,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
