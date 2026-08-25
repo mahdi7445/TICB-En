@@ -10,5 +10,17 @@
     "forwarded_tracking": false,
     "tf_label": "1H",
     "activated_at": "2026-08-25T02:31:25.572029+00:00"
+  },
+  {
+    "id": "m-1787626688",
+    "symbol": "VIRTUAL/USD",
+    "side": "SELL",
+    "entry": 0.818,
+    "sl": 0.8294,
+    "status": "pending",
+    "created_at": 1787626688,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
