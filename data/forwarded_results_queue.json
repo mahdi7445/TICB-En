@@ -273,5 +273,27 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-25T21:09:26.210946+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ENA",
+    "tf_label": "1M",
+    "entry": 0.1474,
+    "level": 2,
+    "result_r": 1.4,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T21:49:22.326792+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ENA",
+    "tf_label": "1M",
+    "entry": 0.1474,
+    "level": 4,
+    "result_r": 1.4,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T21:49:23.300779+00:00"
   }
 ]
