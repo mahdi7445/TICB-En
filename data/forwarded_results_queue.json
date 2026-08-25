@@ -119,5 +119,16 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-08-25T12:08:22.992186+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.2186,
+    "level": null,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T12:13:38.061405+00:00"
   }
 ]
