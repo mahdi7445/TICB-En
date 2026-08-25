@@ -10,5 +10,53 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-25T03:09:28.071338+00:00"
+  },
+  {
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "side": "BUY",
+    "entry": 0.2278,
+    "sl": 0.2252,
+    "final_r": -0.03,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "closed_at": "2026-08-25T06:08:09.655974+00:00"
+  },
+  {
+    "symbol": "VIRTUAL/USD",
+    "tf": "manual",
+    "side": "BUY",
+    "entry": 0.8241,
+    "sl": 0.8156,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-25T06:08:09.656194+00:00"
+  },
+  {
+    "symbol": "AERO/USD",
+    "tf": "manual",
+    "side": "SELL",
+    "entry": 0.5579,
+    "sl": 0.5661,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-25T06:08:09.656476+00:00"
+  },
+  {
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "side": "BUY",
+    "entry": 0.2258,
+    "sl": 0.2214,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-25T06:08:09.656768+00:00"
   }
 ]
