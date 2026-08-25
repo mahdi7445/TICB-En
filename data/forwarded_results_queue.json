@@ -72,8 +72,8 @@
     "entry": 138.09,
     "level": 1,
     "result_r": 0.8,
-    "status": "pending",
-    "attempts": 6,
+    "status": "unmatched",
+    "attempts": 8,
     "queued_at": "2026-08-25T11:00:05.523288+00:00"
   },
   {
@@ -83,8 +83,8 @@
     "entry": 138.09,
     "level": 2,
     "result_r": 0.8,
-    "status": "pending",
-    "attempts": 6,
+    "status": "unmatched",
+    "attempts": 8,
     "queued_at": "2026-08-25T11:00:06.470519+00:00"
   },
   {
@@ -116,8 +116,8 @@
     "entry": 0.2186,
     "level": 1,
     "result_r": 0.2,
-    "status": "pending",
-    "attempts": 1,
+    "status": "unmatched",
+    "attempts": 8,
     "queued_at": "2026-08-25T12:08:22.992186+00:00"
   },
   {
@@ -127,8 +127,8 @@
     "entry": 0.2186,
     "level": null,
     "result_r": 0.2,
-    "status": "pending",
-    "attempts": 1,
+    "status": "unmatched",
+    "attempts": 8,
     "queued_at": "2026-08-25T12:13:38.061405+00:00"
   }
 ]
