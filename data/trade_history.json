@@ -70,5 +70,17 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-25T11:02:32.983780+00:00"
+  },
+  {
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "side": "SELL",
+    "entry": 0.2186,
+    "sl": 0.2206,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-25T16:49:38.386634+00:00"
   }
 ]
