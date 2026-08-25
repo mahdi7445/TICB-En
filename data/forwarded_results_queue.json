@@ -50,8 +50,8 @@
     "entry": 0.3794,
     "level": 2,
     "result_r": 0.8,
-    "status": "pending",
-    "attempts": 7,
+    "status": "unmatched",
+    "attempts": 8,
     "queued_at": "2026-08-25T03:53:37.089355+00:00"
   },
   {
