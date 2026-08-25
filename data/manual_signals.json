@@ -114,5 +114,17 @@
     "tf_label": "5M",
     "silent": true,
     "activated_at": "2026-08-25T16:49:38.373156+00:00"
+  },
+  {
+    "id": "m-1787684161",
+    "symbol": "MORPHO/USD",
+    "side": "BUY",
+    "entry": 2.57,
+    "sl": 2.56,
+    "status": "pending",
+    "created_at": 1787684161,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
