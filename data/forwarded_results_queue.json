@@ -207,5 +207,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-25T20:40:04.891901+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ENA",
+    "tf_label": "1M",
+    "entry": 0.1474,
+    "level": 6,
+    "result_r": 2.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-25T20:58:03.301987+00:00"
   }
 ]
