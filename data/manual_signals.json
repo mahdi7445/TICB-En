@@ -60,5 +60,17 @@
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true
+  },
+  {
+    "id": "m-1787630654",
+    "symbol": "ADA/USD",
+    "side": "BUY",
+    "entry": 0.2258,
+    "sl": 0.2214,
+    "status": "pending",
+    "created_at": 1787630654,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true
   }
 ]
