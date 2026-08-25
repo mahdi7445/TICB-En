@@ -109,5 +109,22 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-25T19:41:28.675203+00:00"
+  },
+  {
+    "symbol": "ENA/USD",
+    "tf": "manual",
+    "side": "SELL",
+    "entry": 0.1474,
+    "sl": 0.1479,
+    "final_r": 3.48,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "close_type": "runner_stop",
+    "close_reason": "Runner closed (all 4 targets + trailing runner)",
+    "closed_at": "2026-08-25T21:07:00.040552+00:00"
   }
 ]
