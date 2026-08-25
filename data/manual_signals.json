@@ -36,5 +36,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-25T03:14:50.678737+00:00"
+  },
+  {
+    "id": "m-1787628340",
+    "symbol": "AERO/USD",
+    "side": "SELL",
+    "entry": 0.5579,
+    "sl": 0.5661,
+    "status": "pending",
+    "created_at": 1787628340,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
