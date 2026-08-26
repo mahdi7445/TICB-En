@@ -8660,9 +8660,9 @@
         "sl": 0.1438,
         "r": 0.0010000000000000009,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -8821,6 +8821,90 @@
           "label": "1M"
         },
         "logical_tf": "1m"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1787760773": {
+      "open_trade": {
+        "side": "SELL",
+        "entry": 0.3346,
+        "sl": 0.34,
+        "r": 0.005400000000000016,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TRX/USD",
+        "tf_key": "manual",
+        "display": "TRX",
+        "opened_at_ms": 1787772933911,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1787767587": {
+      "open_trade": {
+        "side": "SELL",
+        "entry": 11.25,
+        "sl": 11.6,
+        "r": 0.34999999999999964,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "LINK/USD",
+        "tf_key": "manual",
+        "display": "LINK",
+        "opened_at_ms": 1787772934536,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1787768546": {
+      "open_trade": {
+        "side": "SELL",
+        "entry": 228.5,
+        "sl": 240.71,
+        "r": 12.210000000000008,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TAO/USD",
+        "tf_key": "manual",
+        "display": "TAO",
+        "opened_at_ms": 1787772935363,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
       },
       "hist": []
     }

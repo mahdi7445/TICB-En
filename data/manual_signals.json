@@ -290,11 +290,12 @@
     "side": "SELL",
     "entry": 0.3346,
     "sl": 0.34,
-    "status": "pending",
+    "status": "active",
     "created_at": 1787760773,
     "forwarded_tracking": true,
     "tf_label": "1H",
-    "silent": true
+    "silent": true,
+    "activated_at": "2026-08-26T19:35:33.911195+00:00"
   },
   {
     "id": "m-1787767587",
@@ -302,11 +303,12 @@
     "side": "SELL",
     "entry": 11.25,
     "sl": 11.6,
-    "status": "pending",
+    "status": "active",
     "created_at": 1787767587,
     "forwarded_tracking": true,
     "tf_label": "1H",
-    "silent": true
+    "silent": true,
+    "activated_at": "2026-08-26T19:35:34.536212+00:00"
   },
   {
     "id": "m-1787768546",
@@ -314,10 +316,11 @@
     "side": "SELL",
     "entry": 228.5,
     "sl": 240.71,
-    "status": "pending",
+    "status": "active",
     "created_at": 1787768546,
     "forwarded_tracking": true,
     "tf_label": "1H",
-    "silent": true
+    "silent": true,
+    "activated_at": "2026-08-26T19:35:35.363023+00:00"
   }
 ]
