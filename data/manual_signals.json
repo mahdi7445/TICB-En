@@ -307,5 +307,17 @@
     "forwarded_tracking": true,
     "tf_label": "1H",
     "silent": true
+  },
+  {
+    "id": "m-1787768546",
+    "symbol": "TAO/USD",
+    "side": "SELL",
+    "entry": 228.5,
+    "sl": 240.71,
+    "status": "pending",
+    "created_at": 1787768546,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true
   }
 ]
