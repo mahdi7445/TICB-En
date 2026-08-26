@@ -322,5 +322,17 @@
     "tf_label": "1H",
     "silent": true,
     "activated_at": "2026-08-26T19:35:35.363023+00:00"
+  },
+  {
+    "id": "m-1787774585",
+    "symbol": "DOGE/USD",
+    "side": "SELL",
+    "entry": 0.0849,
+    "sl": 0.0879,
+    "status": "pending",
+    "created_at": 1787774585,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true
   }
 ]
