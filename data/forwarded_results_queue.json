@@ -372,5 +372,16 @@
     "status": "unmatched",
     "attempts": 8,
     "queued_at": "2026-08-26T08:58:01.788068+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 98.68,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-26T09:40:36.043554+00:00"
   }
 ]
