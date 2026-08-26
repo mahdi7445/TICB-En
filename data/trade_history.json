@@ -251,5 +251,18 @@
     "close_type": "breakeven",
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "closed_at": "2026-08-26T09:09:04.038584+00:00"
+  },
+  {
+    "symbol": "TRUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 2.22,
+    "sl": 2.24,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-26T10:20:47.367033+00:00"
   }
 ]
