@@ -170,5 +170,17 @@
     "close_type": "breakeven",
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "closed_at": "2026-08-26T00:02:56.075797+00:00"
+  },
+  {
+    "symbol": "LINK/USD",
+    "tf": "manual",
+    "side": "BUY",
+    "entry": 11.63,
+    "sl": 11.28,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-26T00:26:07.274142+00:00"
   }
 ]
