@@ -295,5 +295,17 @@
     "forwarded_tracking": true,
     "tf_label": "1H",
     "silent": true
+  },
+  {
+    "id": "m-1787767587",
+    "symbol": "LINK/USD",
+    "side": "SELL",
+    "entry": 11.25,
+    "sl": 11.6,
+    "status": "pending",
+    "created_at": 1787767587,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true
   }
 ]
