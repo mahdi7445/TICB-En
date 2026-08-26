@@ -8907,6 +8907,34 @@
         "logical_tf": "1h"
       },
       "hist": []
+    },
+    "MANUAL|m-1787774585": {
+      "open_trade": {
+        "side": "SELL",
+        "entry": 0.0849,
+        "sl": 0.0879,
+        "r": 0.0030000000000000027,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "DOGE/USD",
+        "tf_key": "manual",
+        "display": "DOGE",
+        "opened_at_ms": 1787774732444,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
