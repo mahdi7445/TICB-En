@@ -493,5 +493,38 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-26T19:39:09.546714+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.2047,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-26T22:38:49.965994+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "MON",
+    "tf_label": "1M",
+    "entry": 0.0285,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-26T22:38:50.340283+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "MON",
+    "tf_label": "1M",
+    "entry": 0.0285,
+    "level": null,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-26T22:38:50.703290+00:00"
   }
 ]

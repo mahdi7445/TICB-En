@@ -335,5 +335,17 @@
     "tf_label": "1H",
     "silent": true,
     "activated_at": "2026-08-26T20:05:32.444470+00:00"
+  },
+  {
+    "id": "m-1787783929",
+    "symbol": "MON/USD",
+    "side": "BUY",
+    "entry": 0.0285,
+    "sl": 0.0283,
+    "status": "pending",
+    "created_at": 1787783929,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
