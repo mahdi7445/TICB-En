@@ -283,5 +283,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-26T10:26:59.378367+00:00"
+  },
+  {
+    "id": "m-1787760773",
+    "symbol": "TRX/USD",
+    "side": "SELL",
+    "entry": 0.3346,
+    "sl": 0.34,
+    "status": "pending",
+    "created_at": 1787760773,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true
   }
 ]
