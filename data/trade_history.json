@@ -236,5 +236,20 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-26T08:53:52.217450+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "1m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 78846.7,
+    "sl": 78846.7,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "closed_at": "2026-08-26T09:09:04.038584+00:00"
   }
 ]
