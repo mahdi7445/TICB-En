@@ -230,5 +230,17 @@
     "forwarded_tracking": true,
     "tf_label": "1M",
     "silent": true
+  },
+  {
+    "id": "m-1787726353",
+    "symbol": "TRUMP/USD",
+    "side": "BUY",
+    "entry": 2.29,
+    "sl": 2.25,
+    "status": "pending",
+    "created_at": 1787726353,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
