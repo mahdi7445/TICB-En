@@ -339,5 +339,16 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-08-26T06:34:23.056693+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TRUMP",
+    "tf_label": "1M",
+    "entry": 2.29,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-26T07:57:08.213112+00:00"
   }
 ]
