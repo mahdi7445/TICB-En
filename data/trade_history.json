@@ -197,5 +197,44 @@
     "close_type": "sl_after_t2",
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "closed_at": "2026-08-26T01:09:55.184539+00:00"
+  },
+  {
+    "symbol": "TRUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 2.21,
+    "sl": 2.19,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "closed_at": "2026-08-26T08:53:48.436344+00:00"
+  },
+  {
+    "symbol": "TRUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 2.26,
+    "sl": 2.28,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "closed_at": "2026-08-26T08:53:50.541337+00:00"
+  },
+  {
+    "symbol": "TRUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 2.29,
+    "sl": 2.25,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-26T08:53:52.217450+00:00"
   }
 ]
