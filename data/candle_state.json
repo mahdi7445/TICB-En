@@ -8935,6 +8935,35 @@
         "logical_tf": "1h"
       },
       "hist": []
+    },
+    "MANUAL|m-1787783929": {
+      "open_trade": {
+        "side": "BUY",
+        "entry": 0.0285,
+        "sl": 0.0283,
+        "r": 0.00020000000000000226,
+        "hit": {
+          "1": true,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": true,
+        "symbol": "MON/USD",
+        "tf_key": "manual",
+        "display": "MON",
+        "opened_at_ms": 1787784085638,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m",
+        "close_type": "breakeven"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {

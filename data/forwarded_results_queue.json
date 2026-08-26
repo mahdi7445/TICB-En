@@ -501,8 +501,8 @@
     "entry": 0.2047,
     "level": null,
     "result_r": -1.0,
-    "status": "pending",
-    "attempts": 0,
+    "status": "unmatched",
+    "attempts": 8,
     "queued_at": "2026-08-26T22:38:49.965994+00:00"
   },
   {
@@ -512,7 +512,7 @@
     "entry": 0.0285,
     "level": 1,
     "result_r": 0.2,
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-26T22:38:50.340283+00:00"
   },
@@ -523,7 +523,7 @@
     "entry": 0.0285,
     "level": null,
     "result_r": 0.2,
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-26T22:38:50.703290+00:00"
   }
