@@ -361,5 +361,16 @@
     "status": "unmatched",
     "attempts": 8,
     "queued_at": "2026-08-26T08:08:43.327636+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TRAC",
+    "tf_label": "1M",
+    "entry": 0.3794,
+    "level": 4,
+    "result_r": 1.4,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-26T08:58:01.788068+00:00"
   }
 ]
