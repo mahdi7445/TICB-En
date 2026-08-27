@@ -322,5 +322,18 @@
     "close_type": "breakeven",
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "closed_at": "2026-08-27T08:18:39.150271+00:00"
+  },
+  {
+    "symbol": "VET/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.007023,
+    "sl": 0.007123,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-27T14:23:42.667477+00:00"
   }
 ]
