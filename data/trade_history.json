@@ -335,5 +335,18 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-27T14:23:42.667477+00:00"
+  },
+  {
+    "symbol": "KMNO/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 0.0293,
+    "sl": 0.0291,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-27T15:45:32.905941+00:00"
   }
 ]
