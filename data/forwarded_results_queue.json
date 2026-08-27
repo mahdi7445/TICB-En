@@ -526,5 +526,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-26T22:38:50.703290+00:00"
+  },
+  {
+    "kind": "forwarded_closed",
+    "ticker": "CRO",
+    "tf_label": "1H",
+    "entry": 0.0599,
+    "level": null,
+    "result_r": -0.16,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-27T03:08:11.345172+00:00"
   }
 ]
