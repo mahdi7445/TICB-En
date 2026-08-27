@@ -307,5 +307,20 @@
     "close_type": "forwarded_closed",
     "close_reason": "Closed (reported via a forwarded result message)",
     "closed_at": "2026-08-27T06:54:52.807818+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 79284.0,
+    "sl": 79284.0,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "closed_at": "2026-08-27T08:18:39.150271+00:00"
   }
 ]
