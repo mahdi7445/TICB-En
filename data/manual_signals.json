@@ -368,10 +368,11 @@
     "side": "SELL",
     "entry": 0.007023,
     "sl": 0.007123,
-    "status": "pending",
+    "status": "active",
     "created_at": 1787840045,
     "forwarded_tracking": true,
     "tf_label": "1M",
-    "silent": true
+    "silent": true,
+    "activated_at": "2026-08-27T14:17:15.783638+00:00"
   }
 ]
