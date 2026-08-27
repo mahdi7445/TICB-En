@@ -592,5 +592,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-27T15:45:06.243002+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "VET",
+    "tf_label": "1M",
+    "entry": 0.007106,
+    "level": 2,
+    "result_r": 0.8,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-27T16:11:54.069570+00:00"
   }
 ]
