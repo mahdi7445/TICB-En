@@ -9039,6 +9039,34 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|m-1787840611": {
+      "open_trade": {
+        "side": "BUY",
+        "entry": 0.007106,
+        "sl": 0.00696,
+        "r": 0.0001460000000000003,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "VET/USD",
+        "tf_key": "manual",
+        "display": "VET",
+        "opened_at_ms": 1787840716653,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
