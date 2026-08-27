@@ -8683,7 +8683,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ENA/USD",
         "tf_key": "manual",
         "display": "ENA",
@@ -8694,7 +8694,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
@@ -9129,19 +9130,19 @@
     }
   },
   "tf_last_checked": {
-    "1m": 1787855244,
-    "5m": 1787855244,
-    "15m": 1787855244,
-    "1h": 1787855244,
+    "1m": 1787861204,
+    "5m": 1787861204,
+    "15m": 1787861204,
+    "1h": 1787861204,
     "4h": 1787855244
   },
   "live_last_checked": {
     "MANUAL|m-1787624815": 1787703908,
-    "ETH/USD|1m": 1787855244,
+    "ETH/USD|1m": 1787861204,
     "BTC/USD|15m": 1787817679,
-    "BTC/USD|4h": 1787855244,
-    "BTC/USD|5m": 1787854462,
+    "BTC/USD|4h": 1787861204,
+    "BTC/USD|5m": 1787861204,
     "BTC/USD|1m": 1787734311,
-    "ETH/USD|4h": 1787855244
+    "ETH/USD|4h": 1787861204
   }
 }
