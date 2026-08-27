@@ -420,10 +420,11 @@
     "side": "BUY",
     "entry": 0.1672,
     "sl": 0.1415,
-    "status": "pending",
+    "status": "active",
     "created_at": 1787861705,
     "forwarded_tracking": true,
     "tf_label": "1M",
-    "silent": true
+    "silent": true,
+    "activated_at": "2026-08-27T20:16:51.519796+00:00"
   }
 ]
