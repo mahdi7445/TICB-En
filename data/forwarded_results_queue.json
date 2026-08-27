@@ -647,5 +647,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-27T17:35:24.432949+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "ENA",
+    "tf_label": "1M",
+    "entry": 0.1428,
+    "level": null,
+    "result_r": 2.1,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-27T18:28:15.640641+00:00"
   }
 ]
