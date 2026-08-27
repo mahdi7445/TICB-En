@@ -294,5 +294,18 @@
     "close_type": "breakeven",
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "closed_at": "2026-08-26T22:41:25.651486+00:00"
+  },
+  {
+    "symbol": "CRO/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 0.0594,
+    "sl": 0.057,
+    "final_r": -0.16,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "closed_at": "2026-08-27T06:54:52.807818+00:00"
   }
 ]
