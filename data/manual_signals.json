@@ -361,5 +361,17 @@
     "tf_label": "1H",
     "silent": true,
     "activated_at": "2026-08-27T06:54:52.794368+00:00"
+  },
+  {
+    "id": "m-1787840045",
+    "symbol": "VET/USD",
+    "side": "SELL",
+    "entry": 0.007023,
+    "sl": 0.007123,
+    "status": "pending",
+    "created_at": 1787840045,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
