@@ -9111,7 +9111,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "VET/USD",
         "tf_key": "manual",
         "display": "VET",
@@ -9122,7 +9122,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     }

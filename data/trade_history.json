@@ -364,5 +364,21 @@
     "close_type": "sl_after_t2",
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "closed_at": "2026-08-27T16:17:00.088060+00:00"
+  },
+  {
+    "symbol": "VET/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 0.007303,
+    "sl": 0.007207,
+    "final_r": 1.3,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "sl_after_t2",
+    "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
+    "closed_at": "2026-08-27T17:36:24.492738+00:00"
   }
 ]
