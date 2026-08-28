@@ -511,5 +511,33 @@
     "close_type": "opposite_signal",
     "close_reason": "Closed early - opposite signal appeared",
     "closed_at": "2026-08-28T09:43:07.565924+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "1m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 79400.75,
+    "sl": 79400.75,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "closed_at": "2026-08-28T10:56:48.143732+00:00"
+  },
+  {
+    "symbol": "ETH/USD",
+    "tf": "1m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 2488.2,
+    "sl": 2497.587184588772,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "closed_at": "2026-08-28T10:56:58.240283+00:00"
   }
 ]
