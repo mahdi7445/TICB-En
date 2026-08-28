@@ -426,5 +426,41 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-27T20:16:51.519796+00:00"
+  },
+  {
+    "id": "m-1787905992",
+    "symbol": "KMNO/USD",
+    "side": "BUY",
+    "entry": 0.0278,
+    "sl": 0.0267,
+    "status": "pending",
+    "created_at": 1787905992,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
+  },
+  {
+    "id": "m-1787905992",
+    "symbol": "TRUMP/USD",
+    "side": "BUY",
+    "entry": 2.76,
+    "sl": 2.19,
+    "status": "pending",
+    "created_at": 1787905992,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
+  },
+  {
+    "id": "m-1787905999",
+    "symbol": "TRUMP/USD",
+    "side": "BUY",
+    "entry": 2.8,
+    "sl": 2.77,
+    "status": "pending",
+    "created_at": 1787905999,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
