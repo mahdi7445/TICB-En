@@ -765,7 +765,7 @@
     "entry": 106.46,
     "level": null,
     "result_r": 0.2,
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-28T11:03:16.791012+00:00"
   },
@@ -776,8 +776,8 @@
     "entry": 2.74,
     "level": 1,
     "result_r": 0.2,
-    "status": "pending",
-    "attempts": 0,
+    "status": "unmatched",
+    "attempts": 8,
     "queued_at": "2026-08-28T11:03:32.209843+00:00"
   }
 ]

@@ -567,5 +567,20 @@
     "close_type": "forwarded_closed",
     "close_reason": "Closed (reported via a forwarded result message)",
     "closed_at": "2026-08-28T11:02:40.663176+00:00"
+  },
+  {
+    "symbol": "SOL/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 106.46,
+    "sl": 108.23,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "closed_at": "2026-08-28T11:04:58.871545+00:00"
   }
 ]
