@@ -8827,7 +8827,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TRUMP/USD",
         "tf_key": "manual",
         "display": "TRUMP",
@@ -8838,7 +8838,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "opposite_signal"
       },
       "hist": []
     },
@@ -9269,6 +9270,62 @@
           "label": "15M"
         },
         "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1787910065": {
+      "open_trade": {
+        "side": "SELL",
+        "entry": 0.1641,
+        "sl": 0.1697,
+        "r": 0.005599999999999994,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ENA/USD",
+        "tf_key": "manual",
+        "display": "ENA",
+        "opened_at_ms": 1787910186794,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1787910124": {
+      "open_trade": {
+        "side": "SELL",
+        "entry": 2.74,
+        "sl": 2.81,
+        "r": 0.06999999999999984,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TRUMP/USD",
+        "tf_key": "manual",
+        "display": "TRUMP",
+        "opened_at_ms": 1787910189069,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
       },
       "hist": []
     }
