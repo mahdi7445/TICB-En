@@ -478,5 +478,17 @@
     "tf_label": "15M",
     "silent": true,
     "activated_at": "2026-08-28T08:47:58.315055+00:00"
+  },
+  {
+    "id": "m-1787909652",
+    "symbol": "ADA/USD",
+    "side": "SELL",
+    "entry": 0.2089,
+    "sl": 0.2121,
+    "status": "pending",
+    "created_at": 1787909652,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true
   }
 ]
