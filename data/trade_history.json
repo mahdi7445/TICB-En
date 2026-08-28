@@ -539,5 +539,33 @@
     "close_type": "stop",
     "close_reason": "Stopped out (full loss)",
     "closed_at": "2026-08-28T10:56:58.240283+00:00"
+  },
+  {
+    "symbol": "TRUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 2.74,
+    "sl": 2.81,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "closed_at": "2026-08-28T11:02:39.147321+00:00"
+  },
+  {
+    "symbol": "TRUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 2.74,
+    "sl": 2.72,
+    "final_r": 0.3,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "closed_at": "2026-08-28T11:02:40.663176+00:00"
   }
 ]

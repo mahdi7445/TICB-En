@@ -9316,7 +9316,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TRUMP/USD",
         "tf_key": "manual",
         "display": "TRUMP",
@@ -9327,7 +9327,37 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "opposite_signal"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1787914867": {
+      "open_trade": {
+        "side": "BUY",
+        "entry": 2.74,
+        "sl": 2.72,
+        "r": 0.020000000000000018,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": true,
+        "symbol": "TRUMP/USD",
+        "tf_key": "manual",
+        "display": "TRUMP",
+        "opened_at_ms": 1787914960649,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m",
+        "close_type": "forwarded_closed"
       },
       "hist": []
     }
