@@ -746,5 +746,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-28T10:07:28.160469+00:00"
+  },
+  {
+    "kind": "forwarded_closed",
+    "ticker": "TRUMP",
+    "tf_label": "1M",
+    "entry": 2.74,
+    "level": null,
+    "result_r": 0.3,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-28T11:01:05.017716+00:00"
   }
 ]
