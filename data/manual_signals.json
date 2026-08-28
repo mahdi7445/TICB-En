@@ -491,5 +491,29 @@
     "tf_label": "15M",
     "silent": true,
     "activated_at": "2026-08-28T09:34:39.445215+00:00"
+  },
+  {
+    "id": "m-1787910065",
+    "symbol": "ENA/USD",
+    "side": "SELL",
+    "entry": 0.1641,
+    "sl": 0.1697,
+    "status": "pending",
+    "created_at": 1787910065,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
+  },
+  {
+    "id": "m-1787910124",
+    "symbol": "TRUMP/USD",
+    "side": "SELL",
+    "entry": 2.74,
+    "sl": 2.81,
+    "status": "pending",
+    "created_at": 1787910124,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
