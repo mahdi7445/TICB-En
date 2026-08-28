@@ -713,5 +713,27 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-28T08:33:20.212170+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TRUMP",
+    "tf_label": "1M",
+    "entry": 2.74,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-28T10:06:06.810251+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XRP",
+    "tf_label": "1H",
+    "entry": 1.45,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-28T10:06:17.354928+00:00"
   }
 ]
