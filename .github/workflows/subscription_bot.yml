@@ -1,0 +1,106 @@
+name: Subscription Bot
+
+# ⚠️ این ورک‌فلو به‌صورت پیوسته تا حدود ۵ ساعت و ۲۰ دقیقه اجرا می‌ماند تا پاسخ‌گویی به
+# دکمه‌ها/دستورات کاربر واقعاً آنی باشد (long-polling). این فقط روی ریپوی PUBLIC
+# منطقی است چون دقیقه‌های Actions روی ریپوی Public نامحدود و رایگان است؛ روی ریپوی
+# Private به‌سرعت سقف رایگان ۲۰۰۰ دقیقه در ماه تمام می‌شود.
+#
+# 🔴 رفعِ باگِ واقعیِ «ربات گاهی قطع می‌شود و باید دستی از Actions دوباره ران بشه»:
+# طراحی قبلی فقط به فاصله‌ی cron (۵ ساعت) کوتاه‌تر از مدت هر اجرا (۵ ساعت و ۲۰ دقیقه) تکیه
+# داشت. اما GitHub رسماً اعلام کرده «schedule می‌تونه در بارهای بالا با تاخیر زیاد اجرا بشه
+# یا کلاً رد بشه» - و این تاخیر دقیقاً در ابتدای هر ساعت (دقیقه‌ی صفر، جایی که این cron قبلاً
+# دقیقاً همونجا بود) بیشترین احتماله. وقتی این تاخیر از ~۲۰ دقیقه مارجین بیشتر بشه، اجرای
+# قبلی از قبل طبیعی تموم شده و شکاف واقعی رخ می‌ده - دقیقاً همون چیزی که مشاهده شد.
+#
+# راه‌حل قطعی: self-chaining. همون اولِ هر اجرا (نه انتهاش)، از طریق GitHub API خودش اجرای
+# بعدیِ همین ورک‌فلو رو مستقیم دیسپچ می‌کنه - کاملاً مستقل از قابل‌اعتماد بودن زمان‌بندیِ
+# cron. چون concurrency (پایین‌تر) با cancel-in-progress: false تنظیمه، این اجرای جدید فقط
+# صف می‌مونه تا اجرای فعلی تموم بشه، بعد بلافاصله (بدون هیچ شکاف) شروع می‌شه. cron همچنان
+# به‌عنوان پشتیبانِ دوم نگه داشته شده (برای حالت نادری که خودِ زنجیره پاره بشه)، ولی از
+# دقیقه‌ی صفر جابه‌جا شده (دقیقه‌ی ۷ - عمداً چند دقیقه زودتر/متفاوت از candle_signals.yml
+# تا این دو ورک‌فلو حتی برای پشتیبان هم دقیقاً هم‌زمان تریگر نخورن).
+#
+# ⚠️ ALTCOIN_SOURCE_CHANNEL_ID (اختیاری): اگه ست بشه، این ربات پیام‌های کانال آلتکوینِ
+# خودِ کاربر (دیپلوی دومِ همین سیستم) رو خودکار (بدون فوروارد دستی) در PRIVATE_CHANNEL_ID
+# کپی و در محاسبات/نتایج ثبت می‌کنه. پیش‌نیاز: همین ربات (همون BOT_TOKEN) باید از قبل به‌عنوان
+# ادمین به کانال دوم هم اضافه شده باشه - وگرنه channel_post آن کانال اصلاً به getUpdates
+# نمی‌رسه.
+
+on:
+  schedule:
+    - cron: "7 */5 * * *"   # پشتیبانِ دوم - self-chain پایین‌تر منبع اصلی تداومه، این فقط برای حالتی که زنجیره پاره بشه
+  workflow_dispatch:
+    inputs:
+      quick_test_seconds:
+        description: "برای تست سریع: چند ثانیه فقط اجرا شود (خالی=اجرای کامل ۵ ساعت و ۲۰ دقیقه)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  actions: write   # 🔴 لازم برای گام «Queue next run» پایین‌تر (فراخوانی workflow_dispatch از طریق GITHUB_TOKEN)
+
+concurrency:
+  group: subscription-bot-loop
+  cancel-in-progress: false   # اگه اجرای قبلی هنوز فعاله، اجرای جدید صف می‌مونه تا اون تموم بشه (بدون هم‌پوشانیِ واقعی دو پردازش)
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340   # کمی بیشتر از ۵ ساعت و ۲۰ دقیقه‌ی حلقه، برای فرصت کامیت نهایی
+
+    steps:
+      # 🔴 گام اول و بدون قید و شرط - عمداً همین‌جا، قبل از هر کار دیگه‌ای: تضمین می‌کنه که
+      # صرف‌نظر از اینکه بقیه‌ی این اجرا چطور پیش بره (موفق/کرش/هنگ/timeout)، اجرای بعدی از
+      # همین الان صف شده و منتظره. continue-on-error چون اگه همین یک گام شکست بخوره، نباید
+      # کل اجرای واقعی (پاسخ‌گویی به کاربران) رو با خودش متوقف کنه - در بدترین حالت، پشتیبان
+      # cron (بالا) بالاخره جبران می‌کنه.
+      - name: Queue next run (self-chain — doesn't depend on cron timing)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run "subscription_bot.yml" --ref "${{ github.ref_name }}"
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Configure git identity (for periodic auto-commits)
+        run: |
+          git config user.name "subscription-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Run bot (continuous loop)
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          PRIVATE_CHANNEL_ID: ${{ secrets.PRIVATE_CHANNEL_ID }}
+          PUBLIC_CHANNEL_LINK: ${{ secrets.PUBLIC_CHANNEL_LINK }}
+          ADMIN_USER_IDS: ${{ secrets.ADMIN_USER_IDS }}
+          WALLET_ADDRESS_TRC20: ${{ secrets.WALLET_ADDRESS_TRC20 }}
+          WALLET_ADDRESS_BEP20: ${{ secrets.WALLET_ADDRESS_BEP20 }}
+          BSCSCAN_API_KEY: ${{ secrets.BSCSCAN_API_KEY }}
+          PAYMENT_WINDOW_MINUTES: ${{ secrets.PAYMENT_WINDOW_MINUTES }}
+          ALTCOIN_SOURCE_CHANNEL_ID: ${{ secrets.ALTCOIN_SOURCE_CHANNEL_ID }}
+          LOOP_MAX_SECONDS: ${{ github.event.inputs.quick_test_seconds }}
+        run: python subscription_bot.py
+
+      - name: Final commit (safety net)
+        if: always()
+        run: |
+          git add data/
+          if git diff --quiet --cached; then
+            echo "no changes"
+          else
+            git commit -m "update subscription data [skip ci]"
+            git pull --rebase origin "${{ github.ref_name }}" || true
+            git push
+          fi
