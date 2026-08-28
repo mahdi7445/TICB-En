@@ -757,5 +757,27 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-28T11:01:05.017716+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 106.46,
+    "level": null,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-28T11:03:16.791012+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TRUMP",
+    "tf_label": "1M",
+    "entry": 2.74,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-28T11:03:32.209843+00:00"
   }
 ]
