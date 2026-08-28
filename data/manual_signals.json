@@ -465,5 +465,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-28T08:42:59.023760+00:00"
+  },
+  {
+    "id": "m-1787906788",
+    "symbol": "SOL/USD",
+    "side": "SELL",
+    "entry": 106.46,
+    "sl": 108.23,
+    "status": "pending",
+    "created_at": 1787906788,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true
   }
 ]
