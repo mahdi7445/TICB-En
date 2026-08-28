@@ -481,5 +481,20 @@
     "close_type": "sl_after_t2",
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "closed_at": "2026-08-28T08:43:16.052083+00:00"
+  },
+  {
+    "symbol": "ETH/USD",
+    "tf": "1m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 2508.97,
+    "sl": 2508.97,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "closed_at": "2026-08-28T09:00:20.945825+00:00"
   }
 ]
