@@ -739,5 +739,21 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-08-29T13:17:22.386000+00:00",
     "closed_at": "2026-08-29T13:42:47.158244+00:00"
+  },
+  {
+    "symbol": "SOL/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 98.68,
+    "sl": 101.2,
+    "final_r": 0.0,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-08-25T16:49:37.269000+00:00",
+    "closed_at": "2026-08-29T20:08:49.175349+00:00"
   }
 ]
