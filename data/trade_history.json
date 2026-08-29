@@ -725,5 +725,19 @@
     "close_reason": "Closed (reported via a forwarded result message)",
     "opened_at": "2026-08-29T11:22:03.444000+00:00",
     "closed_at": "2026-08-29T12:24:06.887283+00:00"
+  },
+  {
+    "symbol": "ZRO/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 1.06,
+    "sl": 1.07,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-08-29T13:17:22.386000+00:00",
+    "closed_at": "2026-08-29T13:42:47.158244+00:00"
   }
 ]
