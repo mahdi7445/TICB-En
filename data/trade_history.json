@@ -711,5 +711,19 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-08-29T11:11:17.808000+00:00",
     "closed_at": "2026-08-29T11:13:36.217828+00:00"
+  },
+  {
+    "symbol": "FET/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 0.1467,
+    "sl": 0.1456,
+    "final_r": 0.73,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-08-29T11:22:03.444000+00:00",
+    "closed_at": "2026-08-29T12:24:06.887283+00:00"
   }
 ]
