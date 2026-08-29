@@ -9523,6 +9523,34 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|m-1788002370": {
+      "open_trade": {
+        "side": "BUY",
+        "entry": 0.1467,
+        "sl": 0.1456,
+        "r": 0.0010999999999999899,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "FET/USD",
+        "tf_key": "manual",
+        "display": "FET",
+        "opened_at_ms": 1788002523444,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {

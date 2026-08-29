@@ -602,10 +602,11 @@
     "side": "BUY",
     "entry": 0.1467,
     "sl": 0.1456,
-    "status": "pending",
+    "status": "active",
     "created_at": 1788002370,
     "forwarded_tracking": true,
     "tf_label": "1M",
-    "silent": true
+    "silent": true,
+    "activated_at": "2026-08-29T11:22:03.444708+00:00"
   }
 ]
