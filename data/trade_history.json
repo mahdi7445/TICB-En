@@ -639,5 +639,19 @@
     "close_reason": "Closed early - opposite signal appeared",
     "opened_at": "2026-08-29T03:21:48.094000+00:00",
     "closed_at": "2026-08-29T03:28:22.596690+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "1m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 77685.42,
+    "sl": 77623.44670363351,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-08-29T03:28:24.098000+00:00",
+    "closed_at": "2026-08-29T08:54:30.350012+00:00"
   }
 ]
