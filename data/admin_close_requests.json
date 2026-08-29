@@ -32,13 +32,13 @@
   {
     "key": "BTC/USD|4h",
     "final_r": null,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-08-29T20:30:16.866858+00:00"
   },
   {
     "key": "ETH/USD|4h",
     "final_r": null,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-08-29T20:30:21.076095+00:00"
   }
 ]

@@ -811,5 +811,33 @@
     "close_reason": "admin_override",
     "opened_at": "2026-08-26T20:05:32.444000+00:00",
     "closed_at": "2026-08-29T20:11:49.940957+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "manual",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 79242.54,
+    "sl": 75682.39276397723,
+    "final_r": 0.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-08-25T16:50:46.691000+00:00",
+    "closed_at": "2026-08-29T20:31:22.117168+00:00"
+  },
+  {
+    "symbol": "ETH/USD",
+    "tf": "manual",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 2504.35,
+    "sl": 2382.9335632092934,
+    "final_r": 0.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-08-27T10:57:08.309000+00:00",
+    "closed_at": "2026-08-29T20:31:22.119305+00:00"
   }
 ]

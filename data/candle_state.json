@@ -6844,12 +6844,13 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BTC/USD",
         "tf_key": "4h",
         "display": "BTC",
         "opened_at_ms": 1787676646691,
-        "signal_message_id": 508
+        "signal_message_id": 508,
+        "close_type": "admin_override"
       }
     },
     "ETH/USD|4h": {
@@ -7611,12 +7612,13 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ETH/USD",
         "tf_key": "4h",
         "display": "ETH",
         "opened_at_ms": 1787828228309,
-        "signal_message_id": 625
+        "signal_message_id": 625,
+        "close_type": "admin_override"
       }
     },
     "MANUAL|m-1787624815": {
