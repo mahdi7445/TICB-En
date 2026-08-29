@@ -875,8 +875,8 @@
     "entry": 1.07,
     "level": null,
     "result_r": -1.0,
-    "status": "pending",
-    "attempts": 0,
+    "status": "unmatched",
+    "attempts": 8,
     "queued_at": "2026-08-29T10:03:02.841186+00:00"
   }
 ]
