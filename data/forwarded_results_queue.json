@@ -823,5 +823,16 @@
     "status": "unmatched",
     "attempts": 8,
     "queued_at": "2026-08-28T18:23:26.596158+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "KMNO",
+    "tf_label": "1M",
+    "entry": 0.0259,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-29T01:01:07.428605+00:00"
   }
 ]
