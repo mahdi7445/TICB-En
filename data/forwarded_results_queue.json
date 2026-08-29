@@ -922,5 +922,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-29T12:23:10.149388+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ZRO",
+    "tf_label": "1M",
+    "entry": 1.06,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-29T13:41:10.088560+00:00"
   }
 ]
