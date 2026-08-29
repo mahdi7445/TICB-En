@@ -697,5 +697,19 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-08-29T09:54:36.361000+00:00",
     "closed_at": "2026-08-29T10:37:54.553916+00:00"
+  },
+  {
+    "symbol": "FET/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.1461,
+    "sl": 0.1463,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-08-29T11:11:17.808000+00:00",
+    "closed_at": "2026-08-29T11:13:36.217828+00:00"
   }
 ]
