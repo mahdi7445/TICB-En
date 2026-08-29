@@ -543,5 +543,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-28T16:17:42.732971+00:00"
+  },
+  {
+    "id": "m-1787961624",
+    "symbol": "KMNO/USD",
+    "side": "SELL",
+    "entry": 0.0259,
+    "sl": 0.026,
+    "status": "pending",
+    "created_at": 1787961624,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
