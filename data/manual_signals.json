@@ -621,5 +621,17 @@
     "tf_label": "1M",
     "silent": true,
     "reject_reason": "duplicate of already-open trade 'MANUAL|m-1788002370' (same symbol/side, similar entry, opened recently)"
+  },
+  {
+    "id": "m-1788009385",
+    "symbol": "ZRO/USD",
+    "side": "SELL",
+    "entry": 1.06,
+    "sl": 1.07,
+    "status": "pending",
+    "created_at": 1788009385,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
