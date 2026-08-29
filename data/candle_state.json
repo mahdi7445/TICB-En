@@ -9588,11 +9588,39 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|m-1788040805": {
+      "open_trade": {
+        "side": "BUY",
+        "entry": 1.1,
+        "sl": 1.09,
+        "r": 0.010000000000000009,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ZRO/USD",
+        "tf_key": "manual",
+        "display": "ZRO",
+        "opened_at_ms": 1788040875030,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
-    "1m": 1788039865,
-    "5m": 1788040184,
+    "1m": 1788040836,
+    "5m": 1788040836,
     "15m": 1788040184,
     "1h": 1788039530,
     "4h": 1788032180
