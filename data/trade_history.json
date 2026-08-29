@@ -625,5 +625,19 @@
     "close_type": "breakeven",
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "closed_at": "2026-08-28T19:04:37.113488+00:00"
+  },
+  {
+    "symbol": "BTC/USD",
+    "tf": "1m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 77673.99,
+    "sl": 77730.46053682221,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-08-29T03:21:48.094000+00:00",
+    "closed_at": "2026-08-29T03:28:22.596690+00:00"
   }
 ]
