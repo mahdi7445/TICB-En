@@ -889,5 +889,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-29T10:13:37.018435+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "FET",
+    "tf_label": "1M",
+    "entry": 0.1472,
+    "level": null,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-29T10:36:20.647372+00:00"
   }
 ]
