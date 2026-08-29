@@ -556,5 +556,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-29T00:02:15.797728+00:00"
+  },
+  {
+    "id": "m-1787996528",
+    "symbol": "ZRO/USD",
+    "side": "BUY",
+    "entry": 1.07,
+    "sl": 1.06,
+    "status": "pending",
+    "created_at": 1787996528,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
