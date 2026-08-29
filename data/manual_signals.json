@@ -569,5 +569,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-29T09:44:18.084876+00:00"
+  },
+  {
+    "id": "m-1787997251",
+    "symbol": "FET/USD",
+    "side": "SELL",
+    "entry": 0.1472,
+    "sl": 0.1487,
+    "status": "pending",
+    "created_at": 1787997251,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
