@@ -755,5 +755,61 @@
     "close_reason": "admin_override",
     "opened_at": "2026-08-25T16:49:37.269000+00:00",
     "closed_at": "2026-08-29T20:08:49.175349+00:00"
+  },
+  {
+    "symbol": "MON/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 0.0279,
+    "sl": 0.0272,
+    "final_r": 0.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-08-26T08:53:52.204000+00:00",
+    "closed_at": "2026-08-29T20:11:49.930287+00:00"
+  },
+  {
+    "symbol": "LINK/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 11.25,
+    "sl": 11.6,
+    "final_r": 0.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-08-26T19:35:34.536000+00:00",
+    "closed_at": "2026-08-29T20:11:49.932657+00:00"
+  },
+  {
+    "symbol": "TAO/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 228.5,
+    "sl": 240.71,
+    "final_r": 0.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-08-26T19:35:35.363000+00:00",
+    "closed_at": "2026-08-29T20:11:49.939521+00:00"
+  },
+  {
+    "symbol": "DOGE/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 0.0849,
+    "sl": 0.0879,
+    "final_r": 0.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-08-26T20:05:32.444000+00:00",
+    "closed_at": "2026-08-29T20:11:49.940957+00:00"
   }
 ]
