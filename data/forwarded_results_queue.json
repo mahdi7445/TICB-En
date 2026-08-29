@@ -953,7 +953,7 @@
     "level": null,
     "result_r": -1.0,
     "status": "pending",
-    "attempts": 0,
+    "attempts": 5,
     "queued_at": "2026-08-29T21:04:28.608398+00:00"
   }
 ]
