@@ -653,5 +653,33 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-08-29T03:28:24.098000+00:00",
     "closed_at": "2026-08-29T08:54:30.350012+00:00"
+  },
+  {
+    "symbol": "ZRO/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 1.1,
+    "sl": 1.13,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-08-28T16:17:42.732000+00:00",
+    "closed_at": "2026-08-29T09:44:16.583186+00:00"
+  },
+  {
+    "symbol": "ZRO/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 1.07,
+    "sl": 1.06,
+    "final_r": -0.81,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-08-29T09:44:18.084000+00:00",
+    "closed_at": "2026-08-29T09:44:18.101061+00:00"
   }
 ]
