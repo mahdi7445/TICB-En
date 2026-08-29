@@ -681,5 +681,21 @@
     "close_reason": "Closed (reported via a forwarded result message)",
     "opened_at": "2026-08-29T09:44:18.084000+00:00",
     "closed_at": "2026-08-29T09:44:18.101061+00:00"
+  },
+  {
+    "symbol": "FET/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.1472,
+    "sl": 0.1487,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-08-29T09:54:36.361000+00:00",
+    "closed_at": "2026-08-29T10:37:54.553916+00:00"
   }
 ]
