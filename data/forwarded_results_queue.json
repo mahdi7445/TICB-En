@@ -20,5 +20,16 @@
     "status": "pending",
     "attempts": 60,
     "queued_at": "2026-08-30T23:17:05.277073+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PUMP",
+    "tf_label": "1M",
+    "entry": 0.004618,
+    "level": 2,
+    "result_r": 0.8,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-30T23:23:28.964887+00:00"
   }
 ]
