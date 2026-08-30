@@ -18,7 +18,7 @@
     "level": 1,
     "result_r": 0.2,
     "status": "pending",
-    "attempts": 109,
+    "attempts": 118,
     "queued_at": "2026-08-30T23:17:05.277073+00:00"
   },
   {
@@ -29,7 +29,7 @@
     "level": 2,
     "result_r": 0.8,
     "status": "pending",
-    "attempts": 40,
+    "attempts": 49,
     "queued_at": "2026-08-30T23:23:28.964887+00:00"
   }
 ]
