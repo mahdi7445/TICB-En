@@ -9312,7 +9312,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ENA/USD",
         "tf_key": "manual",
         "display": "ENA",
@@ -9323,7 +9323,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "admin_override"
       },
       "hist": []
     },

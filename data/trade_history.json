@@ -872,5 +872,21 @@
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "opened_at": "2026-08-30T07:35:30.516000+00:00",
     "closed_at": "2026-08-30T07:53:29.294939+00:00"
+  },
+  {
+    "symbol": "ENA/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.1641,
+    "sl": 0.1697,
+    "final_r": 1.0,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-08-28T09:43:06.794000+00:00",
+    "closed_at": "2026-08-30T10:14:54.698633+00:00"
   }
 ]
