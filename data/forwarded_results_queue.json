@@ -1,0 +1,13 @@
+[
+  {
+    "kind": "forwarded_closed",
+    "ticker": "PUMP",
+    "tf_label": "1M",
+    "entry": 0.004701,
+    "level": null,
+    "result_r": 1.14,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-30T22:33:07.572050+00:00"
+  }
+]
