@@ -955,5 +955,16 @@
     "status": "unmatched",
     "attempts": 8,
     "queued_at": "2026-08-29T21:04:28.608398+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "AAVE",
+    "tf_label": "1M",
+    "entry": 138.09,
+    "level": null,
+    "result_r": 3.4,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-30T01:08:24.600427+00:00"
   }
 ]
