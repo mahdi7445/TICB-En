@@ -964,7 +964,7 @@
     "level": null,
     "result_r": 3.4,
     "status": "pending",
-    "attempts": 0,
+    "attempts": 1,
     "queued_at": "2026-08-30T01:08:24.600427+00:00"
   },
   {
@@ -975,7 +975,7 @@
     "level": null,
     "result_r": -1.0,
     "status": "pending",
-    "attempts": 0,
+    "attempts": 1,
     "queued_at": "2026-08-30T01:49:58.275361+00:00"
   }
 ]
