@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "signal_id": "TC-000001",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-08-30T22:34:18.298340+00:00",
+        "price": 0.004618
+      },
+      {
+        "type": "forwarded_closed",
+        "ts": "2026-08-30T22:34:18.299800+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-08-30T22:34:18.299864+00:00",
+        "close_type": "forwarded_closed",
+        "final_r": 1.14
+      }
+    ],
+    "symbol": "PUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.004618,
+    "sl": 0.004661,
+    "final_r": 1.14,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-08-30T22:34:18.298000+00:00",
+    "closed_at": "2026-08-30T22:34:18.299864+00:00"
+  }
+]
