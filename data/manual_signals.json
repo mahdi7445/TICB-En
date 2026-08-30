@@ -660,5 +660,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-30T07:00:36.260095+00:00"
+  },
+  {
+    "id": "m-1788075185",
+    "symbol": "PUMP/USD",
+    "side": "SELL",
+    "entry": 0.004876,
+    "sl": 0.004895,
+    "status": "pending",
+    "created_at": 1788075185,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
