@@ -9644,6 +9644,34 @@
         "close_type": "breakeven"
       },
       "hist": []
+    },
+    "MANUAL|m-1788075185": {
+      "open_trade": {
+        "side": "SELL",
+        "entry": 0.004876,
+        "sl": 0.004895,
+        "r": 1.899999999999992e-05,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "PUMP/USD",
+        "tf_key": "manual",
+        "display": "PUMP",
+        "opened_at_ms": 1788075330516,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
