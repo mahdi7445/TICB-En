@@ -40,5 +40,11 @@
     "final_r": null,
     "status": "applied",
     "requested_at": "2026-08-29T20:30:21.076095+00:00"
+  },
+  {
+    "key": "MANUAL|m-1787910065",
+    "final_r": 1.0,
+    "status": "pending",
+    "requested_at": "2026-08-30T10:13:55.752144+00:00"
   }
 ]
