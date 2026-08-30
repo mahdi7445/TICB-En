@@ -839,5 +839,21 @@
     "close_reason": "admin_override",
     "opened_at": "2026-08-27T10:57:08.309000+00:00",
     "closed_at": "2026-08-29T20:31:22.119305+00:00"
+  },
+  {
+    "symbol": "PUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.004903,
+    "sl": 0.004919,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-08-30T07:00:36.260000+00:00",
+    "closed_at": "2026-08-30T07:04:26.379998+00:00"
   }
 ]

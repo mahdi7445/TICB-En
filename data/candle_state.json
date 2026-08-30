@@ -9623,13 +9623,13 @@
         "sl": 0.004919,
         "r": 1.599999999999952e-05,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PUMP/USD",
         "tf_key": "manual",
         "display": "PUMP",
@@ -9640,7 +9640,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "breakeven"
       },
       "hist": []
     }
