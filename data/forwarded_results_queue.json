@@ -9,5 +9,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-30T22:33:07.572050+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PUMP",
+    "tf_label": "1M",
+    "entry": 0.004618,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-30T23:17:05.277073+00:00"
   }
 ]
