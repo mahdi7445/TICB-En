@@ -7814,7 +7814,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "FARTCOIN/USD",
         "tf_key": "manual",
         "display": "FARTCOIN",
@@ -7824,6 +7824,17 @@
             "type": "opened",
             "ts": "2026-08-31T12:13:04.514034+00:00",
             "price": 0.175
+          },
+          {
+            "type": "stop",
+            "ts": "2026-08-31T12:40:37.180241+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-08-31T12:40:37.180358+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "forwarded_tracking": true,
@@ -7832,7 +7843,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "stop"
       },
       "hist": []
     }

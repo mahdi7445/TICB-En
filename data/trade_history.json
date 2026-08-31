@@ -186,5 +186,38 @@
     "close_reason": "admin_override",
     "opened_at": "2026-08-31T10:20:05.936000+00:00",
     "closed_at": "2026-08-31T11:23:41.665457+00:00"
+  },
+  {
+    "signal_id": "TC-000008",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-08-31T12:13:04.514034+00:00",
+        "price": 0.175
+      },
+      {
+        "type": "stop",
+        "ts": "2026-08-31T12:40:37.180241+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-08-31T12:40:37.180358+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "FARTCOIN/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 0.175,
+    "sl": 0.173,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-08-31T12:13:04.514000+00:00",
+    "closed_at": "2026-08-31T12:40:37.180358+00:00"
   }
 ]
