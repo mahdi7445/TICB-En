@@ -218,5 +218,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-31T22:26:39.388851+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TRUMP",
+    "tf_label": "1M",
+    "entry": 2.41,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-31T23:49:17.857586+00:00"
   }
 ]
