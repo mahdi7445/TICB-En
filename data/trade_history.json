@@ -79,5 +79,46 @@
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "opened_at": "2026-08-31T01:13:03.275000+00:00",
     "closed_at": "2026-08-31T02:14:51.895817+00:00"
+  },
+  {
+    "signal_id": "TC-000003",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-08-31T02:43:03.966834+00:00",
+        "price": 0.004352
+      },
+      {
+        "type": "rr",
+        "ts": "2026-08-31T02:50:40.473564+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-08-31T02:50:40.473586+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-08-31T02:50:40.473684+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "PUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.004352,
+    "sl": 0.004398,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-08-31T02:43:03.966000+00:00",
+    "closed_at": "2026-08-31T02:50:40.473684+00:00"
   }
 ]
