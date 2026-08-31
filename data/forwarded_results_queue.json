@@ -163,5 +163,16 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-08-31T10:54:44.261659+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "FARTCOIN",
+    "tf_label": "1M",
+    "entry": 0.175,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-31T12:39:39.953875+00:00"
   }
 ]
