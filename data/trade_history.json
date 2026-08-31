@@ -120,5 +120,38 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-08-31T02:43:03.966000+00:00",
     "closed_at": "2026-08-31T02:50:40.473684+00:00"
+  },
+  {
+    "signal_id": "TC-000004",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-08-31T02:45:21.259622+00:00",
+        "price": 2.35
+      },
+      {
+        "type": "stop",
+        "ts": "2026-08-31T03:11:15.242683+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-08-31T03:11:15.242800+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "TRUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 2.35,
+    "sl": 2.37,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-08-31T02:45:21.259000+00:00",
+    "closed_at": "2026-08-31T03:11:15.242800+00:00"
   }
 ]
