@@ -8047,6 +8047,42 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|m-1788219484": {
+      "open_trade": {
+        "signal_id": "TC-000013",
+        "side": "SELL",
+        "entry": 2.41,
+        "sl": 2.42,
+        "r": 0.009999999999999787,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TRUMP/USD",
+        "tf_key": "manual",
+        "display": "TRUMP",
+        "opened_at_ms": 1788219504650,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-08-31T23:38:24.650941+00:00",
+            "price": 2.41
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
