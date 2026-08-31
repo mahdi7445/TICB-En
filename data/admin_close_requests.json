@@ -22,5 +22,11 @@
     "final_r": 0.2,
     "status": "not_found",
     "requested_at": "2026-08-31T10:17:35.589571+00:00"
+  },
+  {
+    "key": "FARTCOIN|1M",
+    "final_r": 0.2,
+    "status": "pending",
+    "requested_at": "2026-08-31T10:20:05.971528+00:00"
   }
 ]
