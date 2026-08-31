@@ -336,5 +336,38 @@
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "opened_at": "2026-08-31T10:25:51.965000+00:00",
     "closed_at": "2026-08-31T21:25:07.679677+00:00"
+  },
+  {
+    "signal_id": "TC-000011",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-08-31T22:24:26.665528+00:00",
+        "price": 0.004417
+      },
+      {
+        "type": "stop",
+        "ts": "2026-08-31T22:27:31.270891+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-08-31T22:27:31.271033+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "PUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.004417,
+    "sl": 0.004442,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-08-31T22:24:26.665000+00:00",
+    "closed_at": "2026-08-31T22:27:31.271033+00:00"
   }
 ]
