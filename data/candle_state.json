@@ -7799,6 +7799,42 @@
         "close_type": "admin_override"
       },
       "hist": []
+    },
+    "MANUAL|m-1788178323": {
+      "open_trade": {
+        "signal_id": "TC-000008",
+        "side": "BUY",
+        "entry": 0.175,
+        "sl": 0.173,
+        "r": 0.0020000000000000018,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "FARTCOIN/USD",
+        "tf_key": "manual",
+        "display": "FARTCOIN",
+        "opened_at_ms": 1788178384514,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-08-31T12:13:04.514034+00:00",
+            "price": 0.175
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
