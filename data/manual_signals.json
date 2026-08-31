@@ -63,5 +63,17 @@
     "tf_label": "15M",
     "silent": true,
     "activated_at": "2026-08-31T10:20:05.936063+00:00"
+  },
+  {
+    "id": "m-1788178323",
+    "symbol": "FARTCOIN/USD",
+    "side": "BUY",
+    "entry": 0.175,
+    "sl": 0.173,
+    "status": "pending",
+    "created_at": 1788178323,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
