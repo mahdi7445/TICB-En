@@ -108,5 +108,27 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-08-31T02:21:47.326428+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PUMP",
+    "tf_label": "1M",
+    "entry": 0.004352,
+    "level": 1,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-31T02:49:49.286538+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "PUMP",
+    "tf_label": "1M",
+    "entry": 0.004352,
+    "level": null,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-31T02:49:51.354878+00:00"
   }
 ]
