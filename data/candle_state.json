@@ -8062,7 +8062,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TRUMP/USD",
         "tf_key": "manual",
         "display": "TRUMP",
@@ -8078,6 +8078,17 @@
             "ts": "2026-08-31T23:49:56.566524+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-08-31T23:52:14.928849+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-08-31T23:52:14.929003+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "forwarded_tracking": true,
@@ -8086,7 +8097,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "breakeven"
       },
       "hist": []
     }
