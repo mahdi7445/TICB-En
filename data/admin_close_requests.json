@@ -34,5 +34,11 @@
     "final_r": -1.0,
     "status": "applied",
     "requested_at": "2026-08-31T11:23:15.026052+00:00"
+  },
+  {
+    "key": "TC-000006",
+    "final_r": -1.0,
+    "status": "pending",
+    "requested_at": "2026-08-31T11:24:05.631689+00:00"
   }
 ]
