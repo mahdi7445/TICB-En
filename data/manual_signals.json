@@ -115,5 +115,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-31T22:24:26.665547+00:00"
+  },
+  {
+    "id": "m-1788219484",
+    "symbol": "TRUMP/USD",
+    "side": "SELL",
+    "entry": 2.41,
+    "sl": 2.42,
+    "status": "pending",
+    "created_at": 1788219484,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true
   }
 ]
