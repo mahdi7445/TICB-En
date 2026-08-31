@@ -28,5 +28,11 @@
     "final_r": 0.2,
     "status": "not_found",
     "requested_at": "2026-08-31T10:20:05.971528+00:00"
+  },
+  {
+    "key": "TC-000006",
+    "final_r": -1.0,
+    "status": "pending",
+    "requested_at": "2026-08-31T11:23:15.026052+00:00"
   }
 ]
