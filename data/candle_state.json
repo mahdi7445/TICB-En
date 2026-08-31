@@ -7766,7 +7766,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -7776,6 +7776,17 @@
             "type": "opened",
             "ts": "2026-08-31T10:20:05.936041+00:00",
             "price": 0.1967
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-08-31T11:23:41.665340+00:00",
+            "note": "manually closed by admin (final_r=-1.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-08-31T11:23:41.665457+00:00",
+            "close_type": "admin_override",
+            "final_r": -1.0
           }
         ],
         "forwarded_tracking": true,
@@ -7784,7 +7795,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "admin_override"
       },
       "hist": []
     }
