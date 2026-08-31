@@ -141,5 +141,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-31T03:09:42.629937+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "FARTCOIN",
+    "tf_label": "1M",
+    "entry": 0.1742,
+    "level": null,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-31T09:51:19.955919+00:00"
   }
 ]
