@@ -50,5 +50,17 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-31T02:45:21.259640+00:00"
+  },
+  {
+    "id": "m-1788171545",
+    "symbol": "ADA/USD",
+    "side": "BUY",
+    "entry": 0.1967,
+    "sl": 0.1946,
+    "status": "pending",
+    "created_at": 1788171545,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true
   }
 ]
