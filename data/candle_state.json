@@ -7862,7 +7862,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PUMP/USD",
         "tf_key": "manual",
         "display": "PUMP",
@@ -7872,6 +7872,17 @@
             "type": "opened",
             "ts": "2026-08-31T14:01:57.308914+00:00",
             "price": 0.004261
+          },
+          {
+            "type": "stop",
+            "ts": "2026-08-31T14:09:36.983887+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-08-31T14:09:36.984009+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "forwarded_tracking": true,
@@ -7880,7 +7891,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "stop"
       },
       "hist": []
     }

@@ -219,5 +219,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-08-31T12:13:04.514000+00:00",
     "closed_at": "2026-08-31T12:40:37.180358+00:00"
+  },
+  {
+    "signal_id": "TC-000009",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-08-31T14:01:57.308914+00:00",
+        "price": 0.004261
+      },
+      {
+        "type": "stop",
+        "ts": "2026-08-31T14:09:36.983887+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-08-31T14:09:36.984009+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "PUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.004261,
+    "sl": 0.004294,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-08-31T14:01:57.308000+00:00",
+    "closed_at": "2026-08-31T14:09:36.984009+00:00"
   }
 ]
