@@ -185,5 +185,16 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-08-31T12:55:23.969915+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "PUMP",
+    "tf_label": "1M",
+    "entry": 0.004261,
+    "level": null,
+    "result_r": -1.0,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-31T14:08:23.457105+00:00"
   }
 ]
