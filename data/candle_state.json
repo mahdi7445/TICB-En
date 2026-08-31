@@ -7967,6 +7967,42 @@
         "close_type": "sl_after_t2"
       },
       "hist": []
+    },
+    "MANUAL|m-1788215042": {
+      "open_trade": {
+        "signal_id": "TC-000011",
+        "side": "SELL",
+        "entry": 0.004417,
+        "sl": 0.004442,
+        "r": 2.499999999999985e-05,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "PUMP/USD",
+        "tf_key": "manual",
+        "display": "PUMP",
+        "opened_at_ms": 1788215066665,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-08-31T22:24:26.665528+00:00",
+            "price": 0.004417
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
