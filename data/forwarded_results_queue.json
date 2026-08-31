@@ -97,5 +97,16 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-08-31T02:14:03.558796+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "TRUMP",
+    "tf_label": "1M",
+    "entry": 2.74,
+    "level": null,
+    "result_r": 0.2,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-08-31T02:21:47.326428+00:00"
   }
 ]
