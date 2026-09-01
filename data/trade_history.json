@@ -451,5 +451,38 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-08-31T22:46:14.770000+00:00",
     "closed_at": "2026-09-01T00:09:01.735545+00:00"
+  },
+  {
+    "signal_id": "ALT-000022",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T06:40:01.619416+00:00",
+        "price": 0.029
+      },
+      {
+        "type": "forwarded_closed",
+        "ts": "2026-09-01T07:01:42.274584+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-01T07:01:42.274717+00:00",
+        "close_type": "forwarded_closed",
+        "final_r": -0.2
+      }
+    ],
+    "symbol": "SKR/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.029,
+    "sl": 0.0296,
+    "final_r": -0.2,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-09-01T06:40:01.619000+00:00",
+    "closed_at": "2026-09-01T07:01:42.274717+00:00"
   }
 ]

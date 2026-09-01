@@ -8129,7 +8129,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SKR/USD",
         "tf_key": "manual",
         "display": "SKR",
@@ -8139,6 +8139,17 @@
             "type": "opened",
             "ts": "2026-09-01T06:40:01.619416+00:00",
             "price": 0.029
+          },
+          {
+            "type": "forwarded_closed",
+            "ts": "2026-09-01T07:01:42.274584+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-01T07:01:42.274717+00:00",
+            "close_type": "forwarded_closed",
+            "final_r": -0.2
           }
         ],
         "forwarded_tracking": true,
@@ -8147,7 +8158,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "forwarded_closed"
       },
       "hist": []
     }
