@@ -8256,6 +8256,43 @@
         "close_type": "admin_override"
       },
       "hist": []
+    },
+    "MANUAL|m-1788259323": {
+      "open_trade": {
+        "signal_id": "TC-000015",
+        "source_signal_id": null,
+        "side": "BUY",
+        "entry": 0.1119,
+        "sl": 0.1107,
+        "r": 0.0011999999999999927,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ARB/USD",
+        "tf_key": "manual",
+        "display": "ARB",
+        "opened_at_ms": 1788259372325,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-01T10:42:52.325497+00:00",
+            "price": 0.1119
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
