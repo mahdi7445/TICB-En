@@ -348,5 +348,17 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-09-01T10:59:05.393638+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SKR",
+    "tf_label": "1M",
+    "entry": 0.027,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-01T11:16:06.865547+00:00"
   }
 ]
