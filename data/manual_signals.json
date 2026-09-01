@@ -247,11 +247,12 @@
     "side": "BUY",
     "entry": 0.027,
     "sl": 0.026,
-    "status": "pending",
+    "status": "rejected_stale",
     "created_at": 1788260349,
     "forwarded_tracking": true,
     "tf_label": "1M",
     "silent": true,
-    "source_signal_id": null
+    "source_signal_id": null,
+    "reject_reason": "live price (0.006235) is already past the stop-loss (0.02600)"
   }
 ]
