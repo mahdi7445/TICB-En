@@ -8266,7 +8266,7 @@
         "sl": 0.1107,
         "r": 0.0011999999999999927,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -8282,6 +8282,49 @@
             "type": "opened",
             "ts": "2026-09-01T10:42:52.325497+00:00",
             "price": 0.1119
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-01T10:52:22.665479+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1788259897": {
+      "open_trade": {
+        "signal_id": "TC-000016",
+        "source_signal_id": null,
+        "side": "SELL",
+        "entry": 0.3567,
+        "sl": 0.3591,
+        "r": 0.0023999999999999577,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "CRV/USD",
+        "tf_key": "manual",
+        "display": "CRV",
+        "opened_at_ms": 1788259942654,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-01T10:52:22.654678+00:00",
+            "price": 0.3567
           }
         ],
         "forwarded_tracking": true,

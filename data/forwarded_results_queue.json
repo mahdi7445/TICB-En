@@ -333,7 +333,7 @@
     "level": 1,
     "result_r": 0.2,
     "source_signal_id": null,
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-01T10:51:19.482046+00:00"
   }
