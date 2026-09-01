@@ -128,5 +128,18 @@
     "tf_label": "1M",
     "silent": true,
     "activated_at": "2026-08-31T23:38:24.650959+00:00"
+  },
+  {
+    "id": "m-1788244756",
+    "symbol": "SKR/USD",
+    "side": "SELL",
+    "entry": 0.029,
+    "sl": 0.0296,
+    "status": "pending",
+    "created_at": 1788244756,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000022"
   }
 ]
