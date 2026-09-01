@@ -170,5 +170,18 @@
     "silent": true,
     "source_signal_id": "ALT-000024",
     "reject_reason": "live price (0.006314) is already past the stop-loss (0.02850)"
+  },
+  {
+    "id": "m-1788251167",
+    "symbol": "ARB/USD",
+    "side": "SELL",
+    "entry": 0.111,
+    "sl": 0.1128,
+    "status": "pending",
+    "created_at": 1788251167,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000025"
   }
 ]
