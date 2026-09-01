@@ -352,5 +352,18 @@
     "silent": true,
     "source_signal_id": "ALT-000039",
     "activated_at": "2026-09-01T19:17:23.818868+00:00"
+  },
+  {
+    "id": "m-1788290404",
+    "symbol": "CRV/USD",
+    "side": "BUY",
+    "entry": 0.3689,
+    "sl": 0.3652,
+    "status": "pending",
+    "created_at": 1788290404,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000040"
   }
 ]
