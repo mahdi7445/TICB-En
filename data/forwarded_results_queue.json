@@ -336,5 +336,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-01T10:51:19.482046+00:00"
+  },
+  {
+    "kind": "forwarded_closed",
+    "ticker": "SKR",
+    "tf_label": "1M",
+    "entry": 0.0261,
+    "level": null,
+    "result_r": -0.62,
+    "source_signal_id": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-01T10:59:05.393638+00:00"
   }
 ]
