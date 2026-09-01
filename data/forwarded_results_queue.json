@@ -444,5 +444,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-01T18:24:08.183841+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "CRV",
+    "tf_label": "1M",
+    "entry": 0.3611,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000035",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-01T18:26:04.462822+00:00"
   }
 ]
