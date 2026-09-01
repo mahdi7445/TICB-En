@@ -8848,6 +8848,43 @@
         "logical_tf": "1h"
       },
       "hist": []
+    },
+    "MANUAL|m-1788297423": {
+      "open_trade": {
+        "signal_id": "ALT-000043",
+        "source_signal_id": "ALT-000043",
+        "side": "SELL",
+        "entry": 0.1061,
+        "sl": 0.1075,
+        "r": 0.0013999999999999985,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ARB/USD",
+        "tf_key": "manual",
+        "display": "ARB",
+        "opened_at_ms": 1788297497940,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-01T21:18:17.940650+00:00",
+            "price": 0.1061
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
