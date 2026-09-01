@@ -310,5 +310,18 @@
     "silent": true,
     "source_signal_id": "ALT-000036",
     "activated_at": "2026-09-01T18:20:27.293771+00:00"
+  },
+  {
+    "id": "m-1788287292",
+    "symbol": "ARB/USD",
+    "side": "SELL",
+    "entry": 0.1067,
+    "sl": 0.1083,
+    "status": "pending",
+    "created_at": 1788287292,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000037"
   }
 ]
