@@ -432,5 +432,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-01T11:31:15.038289+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "FLR",
+    "tf_label": "1M",
+    "entry": 0.006686,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000036",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-01T18:24:08.183841+00:00"
   }
 ]
