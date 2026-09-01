@@ -254,5 +254,18 @@
     "silent": true,
     "source_signal_id": null,
     "reject_reason": "live price (0.006235) is already past the stop-loss (0.02600)"
+  },
+  {
+    "id": "m-1788261842",
+    "symbol": "CRV/USD",
+    "side": "BUY",
+    "entry": 0.3593,
+    "sl": 0.3574,
+    "status": "pending",
+    "created_at": 1788261842,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": null
   }
 ]
