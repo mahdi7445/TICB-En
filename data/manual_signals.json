@@ -296,5 +296,18 @@
     "silent": true,
     "source_signal_id": "ALT-000035",
     "activated_at": "2026-09-01T18:17:22.278158+00:00"
+  },
+  {
+    "id": "m-1788286745",
+    "symbol": "FLR/USD",
+    "side": "SELL",
+    "entry": 0.006686,
+    "sl": 0.006719,
+    "status": "pending",
+    "created_at": 1788286745,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000036"
   }
 ]
