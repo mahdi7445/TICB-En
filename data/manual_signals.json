@@ -324,5 +324,18 @@
     "silent": true,
     "source_signal_id": "ALT-000037",
     "activated_at": "2026-09-01T18:29:42.950974+00:00"
+  },
+  {
+    "id": "m-1788289474",
+    "symbol": "LTC/USD",
+    "side": "BUY",
+    "entry": 49.34,
+    "sl": 47.97,
+    "status": "pending",
+    "created_at": 1788289474,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000038"
   }
 ]
