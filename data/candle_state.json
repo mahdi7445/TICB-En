@@ -8423,7 +8423,7 @@
         "sl": 102.72,
         "r": 1.6799999999999926,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -8439,6 +8439,12 @@
             "type": "opened",
             "ts": "2026-09-01T17:46:47.895954+00:00",
             "price": 101.04
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-01T18:29:42.965108+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "forwarded_tracking": true,
@@ -8525,6 +8531,43 @@
             "ts": "2026-09-01T18:25:03.370813+00:00",
             "level_r": 1,
             "note": "forwarded"
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1788287292": {
+      "open_trade": {
+        "signal_id": "ALT-000037",
+        "source_signal_id": "ALT-000037",
+        "side": "SELL",
+        "entry": 0.1067,
+        "sl": 0.1083,
+        "r": 0.0015999999999999903,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ARB/USD",
+        "tf_key": "manual",
+        "display": "ARB",
+        "opened_at_ms": 1788287382950,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-01T18:29:42.950956+00:00",
+            "price": 0.1067
           }
         ],
         "forwarded_tracking": true,
