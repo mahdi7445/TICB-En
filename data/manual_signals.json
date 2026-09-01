@@ -205,11 +205,12 @@
     "side": "SELL",
     "entry": 0.0261,
     "sl": 0.0275,
-    "status": "pending",
+    "status": "rejected_stale",
     "created_at": 1788258668,
     "forwarded_tracking": true,
     "tf_label": "1M",
     "silent": true,
-    "source_signal_id": null
+    "source_signal_id": null,
+    "reject_reason": "live price (0.006235) has already blown past the final target (6R)"
   }
 ]
