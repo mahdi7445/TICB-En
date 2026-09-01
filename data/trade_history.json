@@ -484,5 +484,38 @@
     "close_reason": "Closed (reported via a forwarded result message)",
     "opened_at": "2026-09-01T06:40:01.619000+00:00",
     "closed_at": "2026-09-01T07:01:42.274717+00:00"
+  },
+  {
+    "signal_id": "ALT-000025",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T08:26:57.891439+00:00",
+        "price": 0.111
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-01T08:36:29.374746+00:00",
+        "note": "manually closed by admin (final_r=-1.00)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-01T08:36:29.374923+00:00",
+        "close_type": "admin_override",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ARB/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.111,
+    "sl": 0.1128,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-01T08:26:57.891000+00:00",
+    "closed_at": "2026-09-01T08:36:29.374923+00:00"
   }
 ]

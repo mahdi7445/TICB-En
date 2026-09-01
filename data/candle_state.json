@@ -8217,7 +8217,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ARB/USD",
         "tf_key": "manual",
         "display": "ARB",
@@ -8227,6 +8227,17 @@
             "type": "opened",
             "ts": "2026-09-01T08:26:57.891439+00:00",
             "price": 0.111
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-01T08:36:29.374746+00:00",
+            "note": "manually closed by admin (final_r=-1.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-01T08:36:29.374923+00:00",
+            "close_type": "admin_override",
+            "final_r": -1.0
           }
         ],
         "forwarded_tracking": true,
@@ -8235,7 +8246,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "admin_override"
       },
       "hist": []
     }
