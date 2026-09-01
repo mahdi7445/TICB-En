@@ -517,5 +517,38 @@
     "close_reason": "admin_override",
     "opened_at": "2026-09-01T08:26:57.891000+00:00",
     "closed_at": "2026-09-01T08:36:29.374923+00:00"
+  },
+  {
+    "signal_id": "TC-000016",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T10:52:22.654678+00:00",
+        "price": 0.3567
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-01T11:19:48.142174+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-01T11:19:48.142336+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "CRV/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.3567,
+    "sl": 0.3591,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-01T10:52:22.654000+00:00",
+    "closed_at": "2026-09-01T11:19:48.142336+00:00"
   }
 ]
