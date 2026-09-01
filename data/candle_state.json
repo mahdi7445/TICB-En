@@ -8487,6 +8487,43 @@
         "logical_tf": "1m"
       },
       "hist": []
+    },
+    "MANUAL|m-1788286745": {
+      "open_trade": {
+        "signal_id": "ALT-000036",
+        "source_signal_id": "ALT-000036",
+        "side": "SELL",
+        "entry": 0.006686,
+        "sl": 0.006719,
+        "r": 3.300000000000004e-05,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "FLR/USD",
+        "tf_key": "manual",
+        "display": "FLR",
+        "opened_at_ms": 1788286827293,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-01T18:20:27.293751+00:00",
+            "price": 0.006686
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
