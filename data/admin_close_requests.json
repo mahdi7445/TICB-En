@@ -46,5 +46,11 @@
     "final_r": -1.0,
     "status": "not_found",
     "requested_at": "2026-09-01T08:32:48.016527+00:00"
+  },
+  {
+    "key": "ALT-000025",
+    "final_r": -1.0,
+    "status": "pending",
+    "requested_at": "2026-09-01T08:35:49.716984+00:00"
   }
 ]
