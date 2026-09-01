@@ -8460,7 +8460,7 @@
         "sl": 0.3676,
         "r": 0.006500000000000006,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -8476,6 +8476,12 @@
             "type": "opened",
             "ts": "2026-09-01T18:17:22.278137+00:00",
             "price": 0.3611
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-01T18:26:36.036504+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "forwarded_tracking": true,
