@@ -1020,5 +1020,38 @@
     "close_reason": "Closed early - opposite signal appeared",
     "opened_at": "2026-09-01T17:09:27.207000+00:00",
     "closed_at": "2026-09-01T21:48:06.914371+00:00"
+  },
+  {
+    "signal_id": "ALT-000044",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T21:29:05.491234+00:00",
+        "price": 0.3668
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-01T21:51:57.355383+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-01T21:51:57.355661+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "CRV/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.3668,
+    "sl": 0.3693,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-01T21:29:05.491000+00:00",
+    "closed_at": "2026-09-01T21:51:57.355661+00:00"
   }
 ]
