@@ -824,5 +824,79 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-09-01T18:29:42.950000+00:00",
     "closed_at": "2026-09-01T18:59:51.584741+00:00"
+  },
+  {
+    "signal_id": "ALT-000036",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T18:20:27.293751+00:00",
+        "price": 0.006686
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-01T18:25:03.370813+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "opposite_signal",
+        "ts": "2026-09-01T19:26:33.751675+00:00",
+        "price": 0.006663
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-01T19:26:34.336194+00:00",
+        "close_type": "opposite_signal",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "FLR/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.006686,
+    "sl": 0.006719,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-09-01T18:20:27.293000+00:00",
+    "closed_at": "2026-09-01T19:26:34.336194+00:00"
+  },
+  {
+    "signal_id": "ALT-000041",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T19:26:35.838031+00:00",
+        "price": 0.006663
+      },
+      {
+        "type": "forwarded_closed",
+        "ts": "2026-09-01T19:26:35.852353+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-01T19:26:35.852534+00:00",
+        "close_type": "forwarded_closed",
+        "final_r": 0.76
+      }
+    ],
+    "symbol": "FLR/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 0.006663,
+    "sl": 0.006645,
+    "final_r": 0.76,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-09-01T19:26:35.838000+00:00",
+    "closed_at": "2026-09-01T19:26:35.852534+00:00"
   }
 ]

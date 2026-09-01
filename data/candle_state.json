@@ -8533,7 +8533,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "FLR/USD",
         "tf_key": "manual",
         "display": "FLR",
@@ -8549,6 +8549,17 @@
             "ts": "2026-09-01T18:25:03.370813+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-09-01T19:26:33.751675+00:00",
+            "price": 0.006663
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-01T19:26:34.336194+00:00",
+            "close_type": "opposite_signal",
+            "final_r": 0.2
           }
         ],
         "forwarded_tracking": true,
@@ -8557,7 +8568,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "opposite_signal"
       },
       "hist": []
     },
@@ -8730,6 +8742,55 @@
           "label": "1M"
         },
         "logical_tf": "1m"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1788290768": {
+      "open_trade": {
+        "signal_id": "ALT-000041",
+        "source_signal_id": "ALT-000041",
+        "side": "BUY",
+        "entry": 0.006663,
+        "sl": 0.006645,
+        "r": 1.7999999999999787e-05,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": true,
+        "symbol": "FLR/USD",
+        "tf_key": "manual",
+        "display": "FLR",
+        "opened_at_ms": 1788290795838,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-01T19:26:35.838031+00:00",
+            "price": 0.006663
+          },
+          {
+            "type": "forwarded_closed",
+            "ts": "2026-09-01T19:26:35.852353+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-01T19:26:35.852534+00:00",
+            "close_type": "forwarded_closed",
+            "final_r": 0.76
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m",
+        "close_type": "forwarded_closed"
       },
       "hist": []
     }
