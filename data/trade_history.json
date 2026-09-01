@@ -742,5 +742,46 @@
     "close_reason": "Closed early - opposite signal appeared",
     "opened_at": "2026-09-01T11:24:19.934000+00:00",
     "closed_at": "2026-09-01T17:09:25.704379+00:00"
+  },
+  {
+    "signal_id": "ALT-000035",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T18:17:22.278137+00:00",
+        "price": 0.3611
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-01T18:26:36.036504+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-09-01T18:52:58.676795+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-01T18:52:58.677019+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "CRV/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.3611,
+    "sl": 0.3676,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-09-01T18:17:22.278000+00:00",
+    "closed_at": "2026-09-01T18:52:58.677019+00:00"
   }
 ]
