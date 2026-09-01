@@ -212,5 +212,18 @@
     "silent": true,
     "source_signal_id": null,
     "reject_reason": "live price (0.006235) has already blown past the final target (6R)"
+  },
+  {
+    "id": "m-1788259323",
+    "symbol": "ARB/USD",
+    "side": "BUY",
+    "entry": 0.1119,
+    "sl": 0.1107,
+    "status": "pending",
+    "created_at": 1788259323,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": null
   }
 ]
