@@ -783,5 +783,46 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-09-01T18:17:22.278000+00:00",
     "closed_at": "2026-09-01T18:52:58.677019+00:00"
+  },
+  {
+    "signal_id": "ALT-000037",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T18:29:42.950956+00:00",
+        "price": 0.1067
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-01T18:47:44.694761+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-09-01T18:59:51.584510+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-01T18:59:51.584741+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "ARB/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.1067,
+    "sl": 0.1083,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-09-01T18:29:42.950000+00:00",
+    "closed_at": "2026-09-01T18:59:51.584741+00:00"
   }
 ]
