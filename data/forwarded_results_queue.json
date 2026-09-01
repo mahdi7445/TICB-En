@@ -573,8 +573,8 @@
     "level": null,
     "result_r": 0.2,
     "source_signal_id": "ALT-000041",
-    "status": "pending",
-    "attempts": 116,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-01T19:57:52.716668+00:00"
   },
   {
