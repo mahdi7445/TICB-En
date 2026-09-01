@@ -550,7 +550,7 @@
     "result_r": 0.2,
     "source_signal_id": "ALT-000041",
     "status": "pending",
-    "attempts": 99,
+    "attempts": 108,
     "queued_at": "2026-09-01T19:45:03.898256+00:00"
   },
   {
@@ -562,7 +562,7 @@
     "result_r": 0.2,
     "source_signal_id": "ALT-000015",
     "status": "pending",
-    "attempts": 9,
+    "attempts": 18,
     "queued_at": "2026-09-01T19:53:01.954496+00:00"
   }
 ]
