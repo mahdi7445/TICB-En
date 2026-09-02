@@ -612,5 +612,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-01T21:51:04.641806+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TRUMP",
+    "tf_label": "1M",
+    "entry": 2.31,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000049",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-02T03:57:54.458986+00:00"
   }
 ]
