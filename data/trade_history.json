@@ -1119,5 +1119,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-02T03:55:55.825000+00:00",
     "closed_at": "2026-09-02T03:58:13.971949+00:00"
+  },
+  {
+    "signal_id": "TC-000023",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-02T06:04:00.940996+00:00",
+        "price": 2422.53
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-02T08:40:58.749500+00:00",
+        "price": 2406.8446723283196
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-02T08:40:59.210613+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 2421.46,
+    "sl": 2406.8446723283196,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-02T06:04:00.940000+00:00",
+    "closed_at": "2026-09-02T08:40:59.210613+00:00"
   }
 ]
