@@ -9079,7 +9079,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TRUMP/USD",
         "tf_key": "manual",
         "display": "TRUMP",
@@ -9089,6 +9089,17 @@
             "type": "opened",
             "ts": "2026-09-02T03:55:55.825848+00:00",
             "price": 2.31
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-02T03:58:13.971732+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-02T03:58:13.971949+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "forwarded_tracking": true,
@@ -9097,7 +9108,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "stop"
       },
       "hist": []
     }
