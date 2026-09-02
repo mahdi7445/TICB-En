@@ -9347,6 +9347,43 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|m-1788372022": {
+      "open_trade": {
+        "signal_id": "ALT-000058",
+        "source_signal_id": "ALT-000058",
+        "side": "BUY",
+        "entry": 2.18,
+        "sl": 2.17,
+        "r": 0.010000000000000231,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TRUMP/USD",
+        "tf_key": "manual",
+        "display": "TRUMP",
+        "opened_at_ms": 1788372043723,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-02T18:00:43.723079+00:00",
+            "price": 2.18
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
