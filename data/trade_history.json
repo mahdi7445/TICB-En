@@ -1308,5 +1308,38 @@
     "close_reason": "Closed early - opposite signal appeared",
     "opened_at": "2026-09-02T14:32:49.998000+00:00",
     "closed_at": "2026-09-02T17:29:14.177919+00:00"
+  },
+  {
+    "signal_id": "ALT-000057",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-02T17:29:15.680534+00:00",
+        "price": 2.16
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-02T17:59:10.411004+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-02T17:59:10.411309+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "TRUMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 2.16,
+    "sl": 2.18,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-02T17:29:15.680000+00:00",
+    "closed_at": "2026-09-02T17:59:10.411309+00:00"
   }
 ]
