@@ -520,5 +520,18 @@
     "silent": true,
     "source_signal_id": "ALT-000057",
     "activated_at": "2026-09-02T17:29:15.680599+00:00"
+  },
+  {
+    "id": "m-1788372022",
+    "symbol": "TRUMP/USD",
+    "side": "BUY",
+    "entry": 2.18,
+    "sl": 2.17,
+    "status": "pending",
+    "created_at": 1788372022,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000058"
   }
 ]
