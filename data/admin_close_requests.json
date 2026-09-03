@@ -82,5 +82,11 @@
     "final_r": null,
     "status": "applied",
     "requested_at": "2026-09-02T09:18:32.714600+00:00"
+  },
+  {
+    "key": "ALT-000039",
+    "final_r": 0.0,
+    "status": "pending",
+    "requested_at": "2026-09-03T19:29:37.511757+00:00"
   }
 ]
