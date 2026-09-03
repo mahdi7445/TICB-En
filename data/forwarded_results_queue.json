@@ -720,5 +720,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-02T20:23:13.750004+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 11.21,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000051",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-03T07:50:41.216116+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 11.21,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000051",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-03T07:50:44.572250+00:00"
   }
 ]
