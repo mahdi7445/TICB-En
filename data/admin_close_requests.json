@@ -106,5 +106,11 @@
     "final_r": 0.2,
     "status": "not_found",
     "requested_at": "2026-09-03T21:54:45.626339+00:00"
+  },
+  {
+    "key": "ALT-000046",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-09-03T22:44:00.457341+00:00"
   }
 ]
