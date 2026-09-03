@@ -8883,7 +8883,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XRP/USD",
         "tf_key": "manual",
         "display": "XRP",
@@ -8893,6 +8893,17 @@
             "type": "opened",
             "ts": "2026-09-01T19:17:23.818850+00:00",
             "price": 1.35
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-03T22:38:56.441130+00:00",
+            "note": "manually closed by admin (final_r=+0.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-03T22:38:56.441606+00:00",
+            "close_type": "admin_override",
+            "final_r": 0.0
           }
         ],
         "forwarded_tracking": true,
@@ -8901,7 +8912,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "admin_override"
       },
       "hist": []
     },
@@ -9030,7 +9042,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOGE/USD",
         "tf_key": "manual",
         "display": "DOGE",
@@ -9040,6 +9052,17 @@
             "type": "opened",
             "ts": "2026-09-01T20:06:08.273788+00:00",
             "price": 0.0819
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-03T22:38:56.887423+00:00",
+            "note": "manually closed by admin (final_r=-1.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-03T22:38:56.887833+00:00",
+            "close_type": "admin_override",
+            "final_r": -1.0
           }
         ],
         "forwarded_tracking": true,
@@ -9048,7 +9071,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "admin_override"
       },
       "hist": []
     },
@@ -9165,7 +9189,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XRP/USD",
         "tf_key": "manual",
         "display": "XRP",
@@ -9175,6 +9199,17 @@
             "type": "opened",
             "ts": "2026-09-01T21:33:42.204687+00:00",
             "price": 1.35
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-03T22:38:57.264807+00:00",
+            "note": "manually closed by admin (final_r=+0.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-03T22:38:57.265358+00:00",
+            "close_type": "admin_override",
+            "final_r": 0.0
           }
         ],
         "forwarded_tracking": true,
@@ -9183,7 +9218,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "admin_override"
       },
       "hist": []
     },

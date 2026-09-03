@@ -1551,5 +1551,104 @@
     "close_reason": "Runner closed (all 4 targets + trailing runner)",
     "opened_at": "2026-09-03T12:08:43.231000+00:00",
     "closed_at": "2026-09-03T14:53:32.214212+00:00"
+  },
+  {
+    "signal_id": "ALT-000039",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T19:17:23.818850+00:00",
+        "price": 1.35
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-03T22:38:56.441130+00:00",
+        "note": "manually closed by admin (final_r=+0.00)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-03T22:38:56.441606+00:00",
+        "close_type": "admin_override",
+        "final_r": 0.0
+      }
+    ],
+    "symbol": "XRP/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 1.35,
+    "sl": 1.38,
+    "final_r": 0.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-01T19:17:23.818000+00:00",
+    "closed_at": "2026-09-03T22:38:56.441606+00:00"
+  },
+  {
+    "signal_id": "ALT-000042",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T20:06:08.273788+00:00",
+        "price": 0.0819
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-03T22:38:56.887423+00:00",
+        "note": "manually closed by admin (final_r=-1.00)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-03T22:38:56.887833+00:00",
+        "close_type": "admin_override",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "DOGE/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 0.0819,
+    "sl": 0.0839,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-01T20:06:08.273000+00:00",
+    "closed_at": "2026-09-03T22:38:56.887833+00:00"
+  },
+  {
+    "signal_id": "ALT-000045",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T21:33:42.204687+00:00",
+        "price": 1.35
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-03T22:38:57.264807+00:00",
+        "note": "manually closed by admin (final_r=+0.00)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-03T22:38:57.265358+00:00",
+        "close_type": "admin_override",
+        "final_r": 0.0
+      }
+    ],
+    "symbol": "XRP/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "SELL",
+    "entry": 1.35,
+    "sl": 1.36,
+    "final_r": 0.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-01T21:33:42.204000+00:00",
+    "closed_at": "2026-09-03T22:38:57.265358+00:00"
   }
 ]

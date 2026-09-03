@@ -86,25 +86,25 @@
   {
     "key": "ALT-000039",
     "final_r": 0.0,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-09-03T19:29:37.511757+00:00"
   },
   {
     "key": "ALT-000042",
     "final_r": null,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-09-03T20:19:40.449475+00:00"
   },
   {
     "key": "ALT-000045",
     "final_r": 0.0,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-09-03T21:36:32.367540+00:00"
   },
   {
     "key": "ALT_000045",
     "final_r": 0.2,
-    "status": "pending",
+    "status": "not_found",
     "requested_at": "2026-09-03T21:54:45.626339+00:00"
   }
 ]
