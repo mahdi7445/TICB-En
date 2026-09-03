@@ -1489,5 +1489,67 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-09-01T17:59:26.169000+00:00",
     "closed_at": "2026-09-03T12:48:04.672322+00:00"
+  },
+  {
+    "signal_id": "TC-000025",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-03T12:08:43.231648+00:00",
+        "price": 77940.0
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-03T12:20:15.174506+00:00",
+        "price": 78123.39541293484,
+        "level_r": 1
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-03T12:42:09.577404+00:00",
+        "price": 78341.20082586969,
+        "level_r": 2
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-03T12:58:58.040654+00:00",
+        "price": 78776.81165173938,
+        "level_r": 4
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-03T14:31:57.486589+00:00",
+        "price": 79212.42247760907,
+        "level_r": 6
+      },
+      {
+        "type": "runner_stop",
+        "ts": "2026-09-03T14:53:31.762991+00:00",
+        "price": 80173.29188059774
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-03T14:53:32.214212+00:00",
+        "close_type": "runner_stop",
+        "final_r": 3.5
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 77905.59,
+    "sl": 80173.29188059774,
+    "final_r": 3.5,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "close_type": "runner_stop",
+    "close_reason": "Runner closed (all 4 targets + trailing runner)",
+    "opened_at": "2026-09-03T12:08:43.231000+00:00",
+    "closed_at": "2026-09-03T14:53:32.214212+00:00"
   }
 ]
