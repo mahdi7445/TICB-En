@@ -94,5 +94,11 @@
     "final_r": null,
     "status": "pending",
     "requested_at": "2026-09-03T20:19:40.449475+00:00"
+  },
+  {
+    "key": "ALT-000045",
+    "final_r": 0.0,
+    "status": "pending",
+    "requested_at": "2026-09-03T21:36:32.367540+00:00"
   }
 ]
