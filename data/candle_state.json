@@ -8840,7 +8840,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LTC/USD",
         "tf_key": "manual",
         "display": "LTC",
@@ -8856,6 +8856,17 @@
             "ts": "2026-09-03T11:56:54.754078+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-03T22:45:49.677656+00:00",
+            "note": "manually closed by admin (final_r=+0.20)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-03T22:45:49.678019+00:00",
+            "close_type": "admin_override",
+            "final_r": 0.2
           }
         ],
         "forwarded_tracking": true,
@@ -8865,7 +8876,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1788475240926
+        "_stale_alert_sent_at_ms": 1788475240926,
+        "close_type": "admin_override"
       },
       "hist": []
     },

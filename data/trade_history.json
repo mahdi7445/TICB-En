@@ -1683,5 +1683,46 @@
     "close_reason": "admin_override",
     "opened_at": "2026-09-01T21:59:17.901000+00:00",
     "closed_at": "2026-09-03T22:45:22.519955+00:00"
+  },
+  {
+    "signal_id": "ALT-000038",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T19:05:17.235865+00:00",
+        "price": 49.34
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-03T11:56:54.754078+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-03T22:45:49.677656+00:00",
+        "note": "manually closed by admin (final_r=+0.20)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-03T22:45:49.678019+00:00",
+        "close_type": "admin_override",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "LTC/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 49.34,
+    "sl": 47.97,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-01T19:05:17.235000+00:00",
+    "closed_at": "2026-09-03T22:45:49.678019+00:00"
   }
 ]
