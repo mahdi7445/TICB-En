@@ -729,8 +729,8 @@
     "level": 1,
     "result_r": 0.2,
     "source_signal_id": "ALT-000051",
-    "status": "pending",
-    "attempts": 117,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-03T07:50:41.216116+00:00"
   },
   {
@@ -741,8 +741,8 @@
     "level": null,
     "result_r": 0.2,
     "source_signal_id": "ALT-000051",
-    "status": "pending",
-    "attempts": 117,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-03T07:50:44.572250+00:00"
   },
   {
@@ -753,8 +753,8 @@
     "level": 1,
     "result_r": 2.0,
     "source_signal_id": "ALT-000048",
-    "status": "pending",
-    "attempts": 117,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-03T08:53:53.005106+00:00"
   },
   {
@@ -765,8 +765,8 @@
     "level": 2,
     "result_r": 2.0,
     "source_signal_id": "ALT-000048",
-    "status": "pending",
-    "attempts": 117,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-03T08:53:54.736246+00:00"
   },
   {
@@ -777,8 +777,8 @@
     "level": 4,
     "result_r": 2.0,
     "source_signal_id": "ALT-000048",
-    "status": "pending",
-    "attempts": 117,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-03T08:53:56.486678+00:00"
   },
   {
@@ -789,8 +789,8 @@
     "level": 6,
     "result_r": 2.0,
     "source_signal_id": "ALT-000048",
-    "status": "pending",
-    "attempts": 117,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-03T08:53:58.347384+00:00"
   },
   {
@@ -813,8 +813,8 @@
     "level": 1,
     "result_r": 0.2,
     "source_signal_id": "ALT-000052",
-    "status": "pending",
-    "attempts": 117,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-03T09:35:42.532713+00:00"
   },
   {
@@ -825,8 +825,8 @@
     "level": null,
     "result_r": 0.2,
     "source_signal_id": "ALT-000052",
-    "status": "pending",
-    "attempts": 117,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-03T09:35:46.264692+00:00"
   }
 ]
