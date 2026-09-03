@@ -1650,5 +1650,38 @@
     "close_reason": "admin_override",
     "opened_at": "2026-09-01T21:33:42.204000+00:00",
     "closed_at": "2026-09-03T22:38:57.265358+00:00"
+  },
+  {
+    "signal_id": "ALT-000046",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-01T21:59:17.901738+00:00",
+        "price": 0.3686
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-03T22:45:22.519611+00:00",
+        "note": "manually closed by admin (final_r=-1.00)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-03T22:45:22.519955+00:00",
+        "close_type": "admin_override",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "CRV/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 0.3686,
+    "sl": 0.3658,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-01T21:59:17.901000+00:00",
+    "closed_at": "2026-09-03T22:45:22.519955+00:00"
   }
 ]
