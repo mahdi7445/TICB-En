@@ -804,5 +804,29 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-03T09:07:19.370493+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AVAX",
+    "tf_label": "1H",
+    "entry": 7.2,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000052",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-03T09:35:42.532713+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "AVAX",
+    "tf_label": "1H",
+    "entry": 7.2,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000052",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-03T09:35:46.264692+00:00"
   }
 ]
