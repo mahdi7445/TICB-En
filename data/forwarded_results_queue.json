@@ -780,5 +780,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-03T08:53:56.486678+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARB",
+    "tf_label": "1M",
+    "entry": 0.1103,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000048",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-03T08:53:58.347384+00:00"
   }
 ]
