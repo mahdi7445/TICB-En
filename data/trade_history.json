@@ -1669,6 +1669,11 @@
         "ts": "2026-09-03T22:45:22.519955+00:00",
         "close_type": "admin_override",
         "final_r": -1.0
+      },
+      {
+        "type": "admin_edit",
+        "ts": "2026-09-04T10:49:50.892773+00:00",
+        "note": "admin corrected final_r from -1.00 to -1.00"
       }
     ],
     "symbol": "CRV/USD",
