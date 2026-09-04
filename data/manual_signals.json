@@ -562,5 +562,18 @@
     "silent": true,
     "source_signal_id": "ALT-000063",
     "activated_at": "2026-09-04T09:39:54.707215+00:00"
+  },
+  {
+    "id": "m-1788520923",
+    "symbol": "USELESS/USD",
+    "side": "BUY",
+    "entry": 0.2603,
+    "sl": 0.2416,
+    "status": "pending",
+    "created_at": 1788520923,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000064"
   }
 ]
