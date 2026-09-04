@@ -107,6 +107,7 @@ jobs:
           ADMIN_USER_IDS: ${{ secrets.ADMIN_USER_IDS }}
           FORCE_RUN_ALL: ${{ (github.event.inputs.force_run_all == 'true') && '1' || '' }}
           LOOP_MAX_SECONDS: ${{ github.event.inputs.quick_test_seconds }}
+          DISABLED_AUTO_TIMEFRAMES: ${{ secrets.DISABLED_AUTO_TIMEFRAMES }}
         run: python candle_engine.py
 
       - name: Final commit (safety net)
