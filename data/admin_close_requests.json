@@ -130,5 +130,11 @@
     "final_r": null,
     "status": "already_closed_needs_value",
     "requested_at": "2026-09-04T10:50:10.015424+00:00"
+  },
+  {
+    "key": "ALT-000038",
+    "final_r": 0.2,
+    "status": "pending",
+    "requested_at": "2026-09-04T11:26:02.185139+00:00"
   }
 ]
