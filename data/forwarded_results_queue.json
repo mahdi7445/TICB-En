@@ -864,5 +864,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-04T12:49:24.455994+00:00"
+  },
+  {
+    "kind": "forwarded_closed",
+    "ticker": "USELESS",
+    "tf_label": "1M",
+    "entry": 0.2521,
+    "level": null,
+    "result_r": -0.88,
+    "source_signal_id": "ALT-000065",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-04T14:21:03.910458+00:00"
   }
 ]
