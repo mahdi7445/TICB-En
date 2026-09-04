@@ -133,7 +133,7 @@ TIMEFRAMES = {
 # دقیقاً طبق قبل کار می‌کنن. پیش‌فرض «1m» است (طبق تصمیم صریح کاربر)؛ برای برگردوندنش، فقط
 # کافیه این secret رو حذف کنید یا خالی بذارید.
 DISABLED_AUTO_TIMEFRAMES = set(
-    tf.strip().lower() for tf in os.environ.get("DISABLED_AUTO_TIMEFRAMES", "1m").split(",") if tf.strip()
+    tf.strip().lower() for tf in os.environ.get("DISABLED_AUTO_TIMEFRAMES").split(",") if tf.strip()
 )
 
 # 🔴 گارد ضدِ drift: subscription_bot.py مستقل از این دیکشنری، از VALID_TIMEFRAME_LABELS
