@@ -1959,5 +1959,46 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-04T11:23:00.086000+00:00",
     "closed_at": "2026-09-04T12:50:35.629151+00:00"
+  },
+  {
+    "signal_id": "TC-000027",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-04T03:47:20.977356+00:00",
+        "price": 2507.74
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-04T10:21:18.253833+00:00",
+        "price": 2539.9341673836843,
+        "level_r": 1
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-09-04T12:55:02.375693+00:00",
+        "price": 2506.9
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-04T12:55:02.814232+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "1h",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 2506.9,
+    "sl": 2506.9,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-09-04T03:47:20.977000+00:00",
+    "closed_at": "2026-09-04T12:55:02.814232+00:00"
   }
 ]
