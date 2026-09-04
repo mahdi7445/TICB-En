@@ -1713,6 +1713,11 @@
         "ts": "2026-09-03T22:45:49.678019+00:00",
         "close_type": "admin_override",
         "final_r": 0.2
+      },
+      {
+        "type": "admin_edit",
+        "ts": "2026-09-04T11:26:49.084195+00:00",
+        "note": "admin corrected final_r from +0.20 to +0.20"
       }
     ],
     "symbol": "LTC/USD",
