@@ -9644,7 +9644,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "USELESS/USD",
         "tf_key": "manual",
         "display": "USELESS",
@@ -9654,6 +9654,17 @@
             "type": "opened",
             "ts": "2026-09-04T09:39:54.707192+00:00",
             "price": 0.2795
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-04T10:17:01.381902+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-04T10:17:01.382347+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "forwarded_tracking": true,
@@ -9662,7 +9673,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "stop"
       },
       "hist": []
     }
