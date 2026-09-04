@@ -9628,6 +9628,43 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|m-1788514742": {
+      "open_trade": {
+        "signal_id": "ALT-000063",
+        "source_signal_id": "ALT-000063",
+        "side": "BUY",
+        "entry": 0.2795,
+        "sl": 0.2605,
+        "r": 0.019000000000000017,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "USELESS/USD",
+        "tf_key": "manual",
+        "display": "USELESS",
+        "opened_at_ms": 1788514794707,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-04T09:39:54.707192+00:00",
+            "price": 0.2795
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
