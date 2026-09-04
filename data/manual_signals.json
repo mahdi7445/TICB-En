@@ -604,5 +604,18 @@
     "silent": true,
     "source_signal_id": "ALT-000066",
     "activated_at": "2026-09-04T14:22:21.891688+00:00"
+  },
+  {
+    "id": "m-1788552323",
+    "symbol": "SOL/USD",
+    "side": "SELL",
+    "entry": 101.69,
+    "sl": 105.52,
+    "status": "pending",
+    "created_at": 1788552323,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000068"
   }
 ]
