@@ -618,5 +618,18 @@
     "silent": true,
     "source_signal_id": "ALT-000068",
     "activated_at": "2026-09-04T20:06:39.212532+00:00"
+  },
+  {
+    "id": "m-1788577463",
+    "symbol": "HBAR/USD",
+    "side": "BUY",
+    "entry": 0.079,
+    "sl": 0.0766,
+    "status": "pending",
+    "created_at": 1788577463,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000073"
   }
 ]
