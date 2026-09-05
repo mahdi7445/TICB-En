@@ -142,5 +142,11 @@
     "final_r": 0.2,
     "status": "not_found",
     "requested_at": "2026-09-05T07:01:13.625354+00:00"
+  },
+  {
+    "key": "ALT_000072",
+    "final_r": 0.2,
+    "status": "pending",
+    "requested_at": "2026-09-05T07:20:58.651583+00:00"
   }
 ]
