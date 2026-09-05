@@ -2066,5 +2066,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-04T14:22:21.891000+00:00",
     "closed_at": "2026-09-04T14:26:11.022728+00:00"
+  },
+  {
+    "signal_id": "ALT-000073",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-05T06:44:30.455087+00:00",
+        "price": 0.079
+      },
+      {
+        "type": "forwarded_closed",
+        "ts": "2026-09-05T06:44:30.718405+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-05T06:44:30.718706+00:00",
+        "close_type": "forwarded_closed",
+        "final_r": -0.58
+      }
+    ],
+    "symbol": "HBAR/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 0.079,
+    "sl": 0.0766,
+    "final_r": -0.58,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-09-05T06:44:30.455000+00:00",
+    "closed_at": "2026-09-05T06:44:30.718706+00:00"
   }
 ]
