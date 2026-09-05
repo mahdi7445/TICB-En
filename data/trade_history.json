@@ -2132,5 +2132,71 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-04T20:06:39.212000+00:00",
     "closed_at": "2026-09-05T07:09:55.074918+00:00"
+  },
+  {
+    "signal_id": "TC-000030",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-05T11:16:31.709633+00:00",
+        "price": 2454.21
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-05T17:26:35.383423+00:00",
+        "price": 2458.471204991513
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-05T17:26:35.840996+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 2453.5,
+    "sl": 2458.471204991513,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-05T11:16:31.709000+00:00",
+    "closed_at": "2026-09-05T17:26:35.840996+00:00"
+  },
+  {
+    "signal_id": "TC-000029",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-04T22:45:31.569125+00:00",
+        "price": 2452.18
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-05T17:26:53.452759+00:00",
+        "price": 2463.7359150071443
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-05T17:26:53.857739+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 2452.11,
+    "sl": 2463.7359150071443,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-04T22:45:31.569000+00:00",
+    "closed_at": "2026-09-05T17:26:53.857739+00:00"
   }
 ]
