@@ -2099,5 +2099,38 @@
     "close_reason": "Closed (reported via a forwarded result message)",
     "opened_at": "2026-09-05T06:44:30.455000+00:00",
     "closed_at": "2026-09-05T06:44:30.718706+00:00"
+  },
+  {
+    "signal_id": "ALT-000068",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-04T20:06:39.212507+00:00",
+        "price": 101.69
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-05T07:09:55.074597+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-05T07:09:55.074918+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "SOL/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 101.69,
+    "sl": 105.52,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-04T20:06:39.212000+00:00",
+    "closed_at": "2026-09-05T07:09:55.074918+00:00"
   }
 ]
