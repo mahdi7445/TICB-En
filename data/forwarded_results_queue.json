@@ -46,5 +46,53 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-06T05:59:35.911973+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "4H",
+    "entry": 3.7,
+    "level": 1,
+    "result_r": 2.0,
+    "source_signal_id": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T07:59:49.077586+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "4H",
+    "entry": 3.7,
+    "level": 2,
+    "result_r": 2.0,
+    "source_signal_id": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T07:59:50.845757+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "4H",
+    "entry": 3.7,
+    "level": 4,
+    "result_r": 2.0,
+    "source_signal_id": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T07:59:52.660807+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "4H",
+    "entry": 3.7,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T07:59:54.385798+00:00"
   }
 ]
