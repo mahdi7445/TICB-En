@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "m-1788681810",
+    "symbol": "XLM/USD",
+    "side": "BUY",
+    "entry": 0.1856,
+    "sl": 0.1824,
+    "status": "pending",
+    "created_at": 1788681810,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000075"
+  }
+]
