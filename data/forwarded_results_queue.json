@@ -106,5 +106,29 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-06T08:03:21.920467+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZEC",
+    "tf_label": "1H",
+    "entry": 836.58,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T08:35:25.209813+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZEC",
+    "tf_label": "1H",
+    "entry": 836.58,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T08:35:28.380914+00:00"
   }
 ]
