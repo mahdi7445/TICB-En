@@ -130,5 +130,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-06T08:35:28.380914+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "BCH",
+    "tf_label": "1H",
+    "entry": 253.2,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000069",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T08:50:14.046461+00:00"
   }
 ]

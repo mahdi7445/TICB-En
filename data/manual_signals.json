@@ -11,5 +11,18 @@
     "tf_label": "1H",
     "silent": true,
     "source_signal_id": "ALT-000075"
+  },
+  {
+    "id": "m-1788684617",
+    "symbol": "BCH/USD",
+    "side": "BUY",
+    "entry": 259.5,
+    "sl": 252.87,
+    "status": "pending",
+    "created_at": 1788684617,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000076"
   }
 ]
