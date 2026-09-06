@@ -10,5 +10,17 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-09-06T03:36:38.501261+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "HBAR",
+    "tf_label": "1H",
+    "entry": 0.079,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000073",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T04:29:20.392934+00:00"
   }
 ]
