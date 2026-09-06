@@ -154,5 +154,29 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-09-06T09:05:20.230063+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "1H",
+    "entry": 0.2194,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000078",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T15:02:24.129007+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "ZEC",
+    "tf_label": "1H",
+    "entry": 836.58,
+    "level": null,
+    "result_r": 3.32,
+    "source_signal_id": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T15:02:59.158359+00:00"
   }
 ]
