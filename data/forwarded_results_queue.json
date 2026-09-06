@@ -94,5 +94,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-06T07:59:54.385798+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XLM",
+    "tf_label": "1H",
+    "entry": 0.179,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000071",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-06T08:03:21.920467+00:00"
   }
 ]
