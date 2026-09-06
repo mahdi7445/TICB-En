@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "signal_id": "ALT-000075",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-06T09:29:15.239758+00:00",
+        "price": 0.1856
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-06T09:29:15.406997+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-06T09:29:15.407067+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "XLM/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 0.1856,
+    "sl": 0.1824,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-06T09:29:15.239000+00:00",
+    "closed_at": "2026-09-06T09:29:15.407067+00:00"
+  },
+  {
+    "signal_id": "ALT-000076",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-06T09:29:15.394129+00:00",
+        "price": 259.5
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-06T09:29:15.407720+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-06T09:29:15.407806+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BCH/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 259.5,
+    "sl": 252.87,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-06T09:29:15.394000+00:00",
+    "closed_at": "2026-09-06T09:29:15.407806+00:00"
+  }
+]
