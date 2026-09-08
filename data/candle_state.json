@@ -7822,6 +7822,43 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|m-1788826025": {
+      "open_trade": {
+        "signal_id": "ALT-000081",
+        "source_signal_id": "ALT-000081",
+        "side": "SELL",
+        "entry": 6.86,
+        "sl": 7.24,
+        "r": 0.3799999999999999,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "UNI/USD",
+        "tf_key": "manual",
+        "display": "UNI",
+        "opened_at_ms": 1788826072239,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-08T00:07:52.239229+00:00",
+            "price": 6.86
+          }
+        ],
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
