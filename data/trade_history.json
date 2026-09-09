@@ -314,6 +314,11 @@
         "ts": "2026-09-09T09:35:41.408358+00:00",
         "close_type": "opposite_signal",
         "final_r": -1.0
+      },
+      {
+        "type": "admin_edit",
+        "ts": "2026-09-09T10:15:50.487428+00:00",
+        "note": "admin corrected final_r from -1.00 to -1.00"
       }
     ],
     "symbol": "ADA/USD",
@@ -361,5 +366,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-09T09:35:42.909000+00:00",
     "closed_at": "2026-09-09T09:35:42.922434+00:00"
+  },
+  {
+    "signal_id": "ALT-000081",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-08T00:07:52.239229+00:00",
+        "price": 6.86
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-09T10:15:50.021326+00:00",
+        "note": "manually closed by admin (final_r=-1.00)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-09T10:15:50.021466+00:00",
+        "close_type": "admin_override",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "UNI/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 6.86,
+    "sl": 7.24,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-08T00:07:52.239000+00:00",
+    "closed_at": "2026-09-09T10:15:50.021466+00:00"
   }
 ]

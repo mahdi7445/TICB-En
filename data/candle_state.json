@@ -7877,7 +7877,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "UNI/USD",
         "tf_key": "manual",
         "display": "UNI",
@@ -7887,6 +7887,17 @@
             "type": "opened",
             "ts": "2026-09-08T00:07:52.239229+00:00",
             "price": 6.86
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-09T10:15:50.021326+00:00",
+            "note": "manually closed by admin (final_r=-1.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-09T10:15:50.021466+00:00",
+            "close_type": "admin_override",
+            "final_r": -1.0
           }
         ],
         "forwarded_tracking": true,
@@ -7895,7 +7906,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "admin_override"
       },
       "hist": []
     },
