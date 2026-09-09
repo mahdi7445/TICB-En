@@ -10,5 +10,17 @@
     "final_r": 0.2,
     "status": "not_found",
     "requested_at": "2026-09-09T10:12:28.671723+00:00"
+  },
+  {
+    "key": "ALT-000084",
+    "final_r": 0.2,
+    "status": "pending",
+    "requested_at": "2026-09-09T10:13:46.884420+00:00"
+  },
+  {
+    "key": "ALT-000081",
+    "final_r": -1.0,
+    "status": "pending",
+    "requested_at": "2026-09-09T10:13:58.089484+00:00"
   }
 ]
