@@ -235,8 +235,8 @@
     "level": 1,
     "result_r": 0.2,
     "source_signal_id": "ALT-000084",
-    "status": "pending",
-    "attempts": 117,
+    "status": "unmatched",
+    "attempts": 120,
     "queued_at": "2026-09-09T08:06:38.167735+00:00"
   },
   {
@@ -248,7 +248,7 @@
     "result_r": 0.2,
     "source_signal_id": "ALT-000084",
     "status": "pending",
-    "attempts": 108,
+    "attempts": 117,
     "queued_at": "2026-09-09T08:06:41.664533+00:00"
   }
 ]
