@@ -295,5 +295,71 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-09T09:01:53.791000+00:00",
     "closed_at": "2026-09-09T09:02:40.604508+00:00"
+  },
+  {
+    "signal_id": "ALT-000086",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-09T08:33:34.551948+00:00",
+        "price": 0.2226
+      },
+      {
+        "type": "opposite_signal",
+        "ts": "2026-09-09T09:35:40.892982+00:00",
+        "price": 0.2204
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-09T09:35:41.408358+00:00",
+        "close_type": "opposite_signal",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 0.2226,
+    "sl": 0.2206,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-09-09T08:33:34.551000+00:00",
+    "closed_at": "2026-09-09T09:35:41.408358+00:00"
+  },
+  {
+    "signal_id": "ALT-000088",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-09T09:35:42.909611+00:00",
+        "price": 0.2204
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-09T09:35:42.922313+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-09T09:35:42.922434+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "SELL",
+    "entry": 0.2204,
+    "sl": 0.2236,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-09T09:35:42.909000+00:00",
+    "closed_at": "2026-09-09T09:35:42.922434+00:00"
   }
 ]
