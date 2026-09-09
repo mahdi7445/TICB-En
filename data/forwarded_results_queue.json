@@ -298,5 +298,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-09-09T09:35:02.038708+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "HBAR",
+    "tf_label": "1H",
+    "entry": 0.07898,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000073",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-09T09:37:21.542420+00:00"
   }
 ]
