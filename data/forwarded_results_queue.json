@@ -250,5 +250,17 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-09-09T08:06:41.664533+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ZEC",
+    "tf_label": "1H",
+    "entry": 1128.01,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000083",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-09T08:47:55.010978+00:00"
   }
 ]
