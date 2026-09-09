@@ -238,5 +238,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-09T08:06:38.167735+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 12.66,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000084",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-09T08:06:41.664533+00:00"
   }
 ]
