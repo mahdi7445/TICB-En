@@ -12,5 +12,19 @@
     "silent": true,
     "source_signal_id": "ALT-000096",
     "signal_message_id": 1238
+  },
+  {
+    "id": "m-1789064830",
+    "symbol": "SOL/USD",
+    "side": "SELL",
+    "entry": 99.97,
+    "sl": 102.66,
+    "status": "pending",
+    "created_at": 1789064830,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000097",
+    "signal_message_id": 1239
   }
 ]
