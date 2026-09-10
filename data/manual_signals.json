@@ -1,1 +1,16 @@
-	[]
+[
+  {
+    "id": "m-1789064771",
+    "symbol": "SOL/USD",
+    "side": "SELL",
+    "entry": 99.4,
+    "sl": 100.65,
+    "status": "pending",
+    "created_at": 1789064771,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000096",
+    "signal_message_id": 1238
+  }
+]
