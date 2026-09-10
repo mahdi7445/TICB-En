@@ -28,5 +28,19 @@
     "source_signal_id": "ALT-000097",
     "signal_message_id": 1239,
     "reject_reason": "duplicate of already-open trade 'MANUAL|m-1789064771' (same symbol/side, similar entry, opened recently)"
+  },
+  {
+    "id": "m-1789064957",
+    "symbol": "BCH/USD",
+    "side": "SELL",
+    "entry": 227.0,
+    "sl": 252.94,
+    "status": "pending",
+    "created_at": 1789064957,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000098",
+    "signal_message_id": 1240
   }
 ]
