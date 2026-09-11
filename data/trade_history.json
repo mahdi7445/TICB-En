@@ -138,5 +138,38 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-09-10T18:40:20.960000+00:00",
     "closed_at": "2026-09-11T14:32:25.650840+00:00"
+  },
+  {
+    "signal_id": "ALT-000102",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-11T22:04:39.112603+00:00",
+        "price": 225.82
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-11T23:32:30.306916+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-11T23:32:30.307043+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BCH/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 225.82,
+    "sl": 228.0,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-11T22:04:39.112000+00:00",
+    "closed_at": "2026-09-11T23:32:30.307043+00:00"
   }
 ]
