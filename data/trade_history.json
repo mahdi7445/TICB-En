@@ -97,5 +97,46 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-11T11:32:54.503000+00:00",
     "closed_at": "2026-09-11T12:38:36.492920+00:00"
+  },
+  {
+    "signal_id": "ALT-000099",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-10T18:40:20.960259+00:00",
+        "price": 7.62
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-11T11:31:00.678038+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-09-11T14:32:25.650719+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-11T14:32:25.650840+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "AVAX/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 7.62,
+    "sl": 7.91,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-09-10T18:40:20.960000+00:00",
+    "closed_at": "2026-09-11T14:32:25.650840+00:00"
   }
 ]
