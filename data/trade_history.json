@@ -1,1 +1,35 @@
-	[]
+[
+  {
+    "signal_id": "TC-000009",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-11T11:32:43.791115+00:00",
+        "price": 76850.65
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-11T12:05:43.975348+00:00",
+        "price": 77116.27222310715
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-11T12:05:44.490821+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 76837.74,
+    "sl": 77116.27222310715,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-11T11:32:43.791000+00:00",
+    "closed_at": "2026-09-11T12:05:44.490821+00:00"
+  }
+]
