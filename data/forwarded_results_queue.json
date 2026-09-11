@@ -34,5 +34,17 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-09-11T13:52:50.997339+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "AVAX",
+    "tf_label": "1H",
+    "entry": 7.62,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000099",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-11T14:30:45.416088+00:00"
   }
 ]
