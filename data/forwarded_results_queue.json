@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "kind": "target_hit",
+    "ticker": "AVAX",
+    "tf_label": "1H",
+    "entry": 7.62,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000099",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-11T11:30:23.368940+00:00"
+  }
+]
