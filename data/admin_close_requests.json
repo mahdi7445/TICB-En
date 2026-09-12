@@ -4,5 +4,11 @@
     "final_r": -1.0,
     "status": "not_found",
     "requested_at": "2026-09-12T08:07:04.652730+00:00"
+  },
+  {
+    "key": "ALT-000098",
+    "final_r": 0.0,
+    "status": "pending",
+    "requested_at": "2026-09-12T18:51:17.649045+00:00"
   }
 ]
