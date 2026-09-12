@@ -204,5 +204,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-12T01:04:09.773000+00:00",
     "closed_at": "2026-09-12T01:21:40.733059+00:00"
+  },
+  {
+    "signal_id": "ALT-000098",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-10T18:30:38.693316+00:00",
+        "price": 227.0
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-12T18:52:19.289718+00:00",
+        "note": "manually closed by admin (final_r=+0.00)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-12T18:52:19.289830+00:00",
+        "close_type": "admin_override",
+        "final_r": 0.0
+      }
+    ],
+    "symbol": "BCH/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 227.0,
+    "sl": 252.94,
+    "final_r": 0.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-10T18:30:38.693000+00:00",
+    "closed_at": "2026-09-12T18:52:19.289830+00:00"
   }
 ]

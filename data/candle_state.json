@@ -7741,7 +7741,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BCH/USD",
         "tf_key": "manual",
         "display": "BCH",
@@ -7751,6 +7751,17 @@
             "type": "opened",
             "ts": "2026-09-10T18:30:38.693316+00:00",
             "price": 227.0
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-12T18:52:19.289718+00:00",
+            "note": "manually closed by admin (final_r=+0.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-12T18:52:19.289830+00:00",
+            "close_type": "admin_override",
+            "final_r": 0.0
           }
         ],
         "signal_message_id": 1240,
@@ -7761,7 +7772,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1789238137751
+        "_stale_alert_sent_at_ms": 1789238137751,
+        "close_type": "admin_override"
       },
       "hist": []
     },
