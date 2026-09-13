@@ -432,5 +432,60 @@
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "opened_at": "2026-09-13T07:16:34.217000+00:00",
     "closed_at": "2026-09-13T15:32:21.284952+00:00"
+  },
+  {
+    "signal_id": "TC-000018",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-13T07:27:36.631590+00:00",
+        "price": 2515.28
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-13T08:35:21.559708+00:00",
+        "price": 2506.1762509281057,
+        "level_r": 1
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-13T08:35:21.559717+00:00",
+        "price": 2497.7125018562115,
+        "level_r": 2
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-13T09:32:27.568432+00:00",
+        "price": 2480.785003712423,
+        "level_r": 4
+      },
+      {
+        "type": "sl_after_t3",
+        "ts": "2026-09-13T16:18:24.770972+00:00",
+        "price": 2497.7125018562115
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-13T16:18:25.273643+00:00",
+        "close_type": "sl_after_t3",
+        "final_r": 2.0999999999999996
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 2514.64,
+    "sl": 2497.7125018562115,
+    "final_r": 2.0999999999999996,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "close_type": "sl_after_t3",
+    "close_reason": "Stopped after Target 3 (Target 1-3 banked, rest closed at Target 2 price)",
+    "opened_at": "2026-09-13T07:27:36.631000+00:00",
+    "closed_at": "2026-09-13T16:18:25.273643+00:00"
   }
 ]
