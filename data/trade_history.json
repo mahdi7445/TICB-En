@@ -270,5 +270,38 @@
     "close_reason": "Closed early - opposite signal appeared",
     "opened_at": "2026-09-11T14:15:18.902000+00:00",
     "closed_at": "2026-09-13T05:02:06.083451+00:00"
+  },
+  {
+    "signal_id": "ALT-000103",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-11T22:07:01.141935+00:00",
+        "price": 11.52
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-13T05:42:07.211032+00:00",
+        "note": "manually closed by admin (final_r=-1.00)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-13T05:42:07.211167+00:00",
+        "close_type": "admin_override",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "LINK/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 11.52,
+    "sl": 12.35,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-11T22:07:01.141000+00:00",
+    "closed_at": "2026-09-13T05:42:07.211167+00:00"
   }
 ]

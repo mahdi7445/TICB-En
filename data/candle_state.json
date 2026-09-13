@@ -7898,7 +7898,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LINK/USD",
         "tf_key": "manual",
         "display": "LINK",
@@ -7908,6 +7908,17 @@
             "type": "opened",
             "ts": "2026-09-11T22:07:01.141935+00:00",
             "price": 11.52
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-13T05:42:07.211032+00:00",
+            "note": "manually closed by admin (final_r=-1.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-13T05:42:07.211167+00:00",
+            "close_type": "admin_override",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 1272,
@@ -7917,7 +7928,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "admin_override"
       },
       "hist": []
     }
