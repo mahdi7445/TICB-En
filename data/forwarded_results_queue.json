@@ -94,5 +94,17 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-09-12T12:32:19.861939+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 101.44,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000107",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-13T01:41:59.543096+00:00"
   }
 ]
