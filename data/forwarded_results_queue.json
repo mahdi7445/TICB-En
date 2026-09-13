@@ -142,5 +142,17 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-09-13T08:30:20.501191+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AVAX",
+    "tf_label": "1H",
+    "entry": 7.44,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000108",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-13T09:24:13.957288+00:00"
   }
 ]
