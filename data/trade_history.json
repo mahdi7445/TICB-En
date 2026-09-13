@@ -237,5 +237,38 @@
     "close_reason": "admin_override",
     "opened_at": "2026-09-10T18:30:38.693000+00:00",
     "closed_at": "2026-09-12T18:52:19.289830+00:00"
+  },
+  {
+    "signal_id": "TC-000011",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-11T14:15:18.902487+00:00",
+        "price": 2613.91
+      },
+      {
+        "type": "opposite_signal",
+        "ts": "2026-09-13T05:02:05.524526+00:00",
+        "price": 2520.03
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-13T05:02:06.083451+00:00",
+        "close_type": "opposite_signal",
+        "final_r": -0.6774317321572314
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 2616.36,
+    "sl": 2474.1611695831784,
+    "final_r": -0.6774317321572314,
+    "targets_hit": [],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-09-11T14:15:18.902000+00:00",
+    "closed_at": "2026-09-13T05:02:06.083451+00:00"
   }
 ]
