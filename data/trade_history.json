@@ -351,5 +351,38 @@
     "close_reason": "Closed early - opposite signal appeared",
     "opened_at": "2026-09-13T05:02:07.585000+00:00",
     "closed_at": "2026-09-13T07:27:35.129528+00:00"
+  },
+  {
+    "signal_id": "TC-000012",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-11T15:21:11.478726+00:00",
+        "price": 2603.15
+      },
+      {
+        "type": "opposite_signal",
+        "ts": "2026-09-13T09:26:12.493876+00:00",
+        "price": 2493.01
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-13T09:26:13.060336+00:00",
+        "close_type": "opposite_signal",
+        "final_r": -0.6115718671706646
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 2615.88,
+    "sl": 2414.971477885604,
+    "final_r": -0.6115718671706646,
+    "targets_hit": [],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-09-11T15:21:11.478000+00:00",
+    "closed_at": "2026-09-13T09:26:13.060336+00:00"
   }
 ]
