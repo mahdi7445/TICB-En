@@ -8076,6 +8076,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|m-1789311879": {
+      "open_trade": {
+        "signal_id": "ALT-000112",
+        "source_signal_id": "ALT-000112",
+        "side": "SELL",
+        "entry": 1096.13,
+        "sl": 1169.04,
+        "r": 72.90999999999985,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ZEC/USD",
+        "tf_key": "manual",
+        "display": "ZEC",
+        "opened_at_ms": 1789313647803,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-13T15:34:07.803517+00:00",
+            "price": 1096.13
+          }
+        ],
+        "signal_message_id": 1317,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
