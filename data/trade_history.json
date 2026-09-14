@@ -586,5 +586,38 @@
     "close_reason": "admin_override",
     "opened_at": "2026-09-11T21:09:55.029000+00:00",
     "closed_at": "2026-09-14T02:16:18.460776+00:00"
+  },
+  {
+    "signal_id": "ALT-000109",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-13T09:19:27.091531+00:00",
+        "price": 100.05
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-14T06:08:40.605163+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-14T06:08:40.605357+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "SOL/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 100.05,
+    "sl": 101.76,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-13T09:19:27.091000+00:00",
+    "closed_at": "2026-09-14T06:08:40.605357+00:00"
   }
 ]
