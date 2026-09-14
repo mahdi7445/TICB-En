@@ -1549,7 +1549,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ETH/USD",
         "tf_key": "1m",
         "display": "ETH",
@@ -1559,9 +1559,21 @@
             "type": "opened",
             "ts": "2026-09-11T21:09:55.029940+00:00",
             "price": 2536.15
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-14T02:16:18.460498+00:00",
+            "note": "manually closed by admin (final_r=+0.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-14T02:16:18.460776+00:00",
+            "close_type": "admin_override",
+            "final_r": 0.0
           }
         ],
-        "signal_message_id": 1269
+        "signal_message_id": 1269,
+        "close_type": "admin_override"
       }
     },
     "BTC/USD|5m": {
@@ -3932,7 +3944,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BTC/USD",
         "tf_key": "15m",
         "display": "BTC",
@@ -3942,9 +3954,21 @@
             "type": "opened",
             "ts": "2026-09-11T21:27:17.166040+00:00",
             "price": 77362.68
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-09-14T02:16:17.982218+00:00",
+            "note": "manually closed by admin (final_r=+0.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-14T02:16:17.982405+00:00",
+            "close_type": "admin_override",
+            "final_r": 0.0
           }
         ],
-        "signal_message_id": 1270
+        "signal_message_id": 1270,
+        "close_type": "admin_override"
       }
     },
     "ETH/USD|15m": {

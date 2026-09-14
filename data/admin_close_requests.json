@@ -26,13 +26,13 @@
   {
     "key": "TC-000014",
     "final_r": 0.0,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-09-13T22:58:25.229655+00:00"
   },
   {
     "key": "TC-000013",
     "final_r": 0.0,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-09-13T22:58:28.237500+00:00"
   }
 ]
