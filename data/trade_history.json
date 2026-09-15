@@ -726,5 +726,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-13T09:19:27.091000+00:00",
     "closed_at": "2026-09-15T14:37:15.915773+00:00"
+  },
+  {
+    "signal_id": "ALT-000112",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-13T15:34:07.803517+00:00",
+        "price": 1096.13
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-09-15T15:39:14.937157+00:00",
+        "note": "manually closed by admin (final_r=-1.00)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-15T15:39:14.937392+00:00",
+        "close_type": "admin_override",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ZEC/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 1096.13,
+    "sl": 1169.04,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-09-13T15:34:07.803000+00:00",
+    "closed_at": "2026-09-15T15:39:14.937392+00:00"
   }
 ]
