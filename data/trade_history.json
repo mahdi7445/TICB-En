@@ -693,5 +693,38 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-09-15T00:17:47.845000+00:00",
     "closed_at": "2026-09-15T13:06:23.659152+00:00"
+  },
+  {
+    "signal_id": "ALT-000111",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-13T09:19:27.091705+00:00",
+        "price": 0.2044
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-15T14:37:15.915558+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-15T14:37:15.915773+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 0.2044,
+    "sl": 0.2085,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-13T09:19:27.091000+00:00",
+    "closed_at": "2026-09-15T14:37:15.915773+00:00"
   }
 ]
