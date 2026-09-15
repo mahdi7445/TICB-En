@@ -406,5 +406,41 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-15T18:44:45.136080+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "5M",
+    "entry": 103.21,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000117",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-15T18:50:39.659949+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XLM",
+    "tf_label": "1M",
+    "entry": 0.1907,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000123",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-15T18:50:41.372634+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "XLM",
+    "tf_label": "1M",
+    "entry": 0.1907,
+    "level": null,
+    "result_r": 3.23,
+    "source_signal_id": "ALT-000123",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-15T18:50:43.258293+00:00"
   }
 ]
