@@ -759,5 +759,60 @@
     "close_reason": "admin_override",
     "opened_at": "2026-09-13T15:34:07.803000+00:00",
     "closed_at": "2026-09-15T15:39:14.937392+00:00"
+  },
+  {
+    "signal_id": "ALT-000123",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-15T21:03:13.805165+00:00",
+        "price": 0.1907
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-15T21:03:13.816894+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-15T21:03:13.817080+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-15T21:03:13.817086+00:00",
+        "level_r": 4,
+        "note": "forwarded"
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-15T21:03:13.817093+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-15T21:03:13.817259+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "XLM/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.1907,
+    "sl": 0.1928,
+    "final_r": -1.0,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-15T21:03:13.805000+00:00",
+    "closed_at": "2026-09-15T21:03:13.817259+00:00"
   }
 ]
