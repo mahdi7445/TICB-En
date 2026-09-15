@@ -346,5 +346,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-15T17:38:28.676652+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XLM",
+    "tf_label": "1M",
+    "entry": 0.1907,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000123",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-15T18:35:30.087040+00:00"
   }
 ]
