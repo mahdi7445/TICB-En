@@ -178,5 +178,19 @@
     "source_signal_id": "ALT-000119",
     "signal_message_id": 1343,
     "activated_at": "2026-09-15T00:50:22.993361+00:00"
+  },
+  {
+    "id": "m-1789445127",
+    "symbol": "UNI/USD",
+    "side": "BUY",
+    "entry": 6.55,
+    "sl": 6.3,
+    "status": "pending",
+    "created_at": 1789445127,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000120",
+    "signal_message_id": 1349
   }
 ]
