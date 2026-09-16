@@ -814,5 +814,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-15T21:03:13.805000+00:00",
     "closed_at": "2026-09-15T21:03:13.817259+00:00"
+  },
+  {
+    "signal_id": "ALT-000120",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-15T04:06:27.158922+00:00",
+        "price": 6.55
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-16T07:45:24.865949+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-16T07:45:24.866238+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "UNI/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 6.55,
+    "sl": 6.3,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-15T04:06:27.158000+00:00",
+    "closed_at": "2026-09-16T07:45:24.866238+00:00"
   }
 ]
