@@ -847,5 +847,104 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-15T04:06:27.158000+00:00",
     "closed_at": "2026-09-16T07:45:24.866238+00:00"
+  },
+  {
+    "signal_id": "ALT-000124",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-16T07:45:24.846716+00:00",
+        "price": 5.41
+      },
+      {
+        "type": "opposite_signal",
+        "ts": "2026-09-16T07:47:13.381053+00:00",
+        "price": 5.45
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-16T07:47:13.956433+00:00",
+        "close_type": "opposite_signal",
+        "final_r": -0.8000000000000036
+      }
+    ],
+    "symbol": "INJ/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 5.41,
+    "sl": 5.46,
+    "final_r": -0.8000000000000036,
+    "targets_hit": [],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-09-16T07:45:24.846000+00:00",
+    "closed_at": "2026-09-16T07:47:13.956433+00:00"
+  },
+  {
+    "signal_id": "ALT-000125",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-16T07:47:12.292648+00:00",
+        "price": 0.8182
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-16T07:47:15.473655+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-16T07:47:15.473851+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "FIL/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.8182,
+    "sl": 0.8225,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-16T07:47:12.292000+00:00",
+    "closed_at": "2026-09-16T07:47:15.473851+00:00"
+  },
+  {
+    "signal_id": "ALT-000127",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-16T07:47:15.459036+00:00",
+        "price": 5.45
+      },
+      {
+        "type": "forwarded_closed",
+        "ts": "2026-09-16T07:47:15.475404+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-16T07:47:15.475597+00:00",
+        "close_type": "forwarded_closed",
+        "final_r": 0.3
+      }
+    ],
+    "symbol": "INJ/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "BUY",
+    "entry": 5.45,
+    "sl": 5.43,
+    "final_r": 0.3,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-09-16T07:47:15.459000+00:00",
+    "closed_at": "2026-09-16T07:47:15.475597+00:00"
   }
 ]

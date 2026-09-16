@@ -8486,7 +8486,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "INJ/USD",
         "tf_key": "manual",
         "display": "INJ",
@@ -8496,6 +8496,17 @@
             "type": "opened",
             "ts": "2026-09-16T07:45:24.846716+00:00",
             "price": 5.41
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-09-16T07:47:13.381053+00:00",
+            "price": 5.45
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-16T07:47:13.956433+00:00",
+            "close_type": "opposite_signal",
+            "final_r": -0.8000000000000036
           }
         ],
         "signal_message_id": 1384,
@@ -8505,7 +8516,109 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "opposite_signal",
+        "final_r_exact": -0.8000000000000036
+      },
+      "hist": []
+    },
+    "MANUAL|m-1789534022": {
+      "open_trade": {
+        "signal_id": "ALT-000125",
+        "source_signal_id": "ALT-000125",
+        "side": "SELL",
+        "entry": 0.8182,
+        "sl": 0.8225,
+        "r": 0.0042999999999999705,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": true,
+        "symbol": "FIL/USD",
+        "tf_key": "manual",
+        "display": "FIL",
+        "opened_at_ms": 1789544832292,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-16T07:47:12.292648+00:00",
+            "price": 0.8182
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-16T07:47:15.473655+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-16T07:47:15.473851+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
+          }
+        ],
+        "signal_message_id": 1385,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m",
+        "close_type": "stop"
+      },
+      "hist": []
+    },
+    "MANUAL|m-1789542546": {
+      "open_trade": {
+        "signal_id": "ALT-000127",
+        "source_signal_id": "ALT-000127",
+        "side": "BUY",
+        "entry": 5.45,
+        "sl": 5.43,
+        "r": 0.020000000000000462,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": true,
+        "symbol": "INJ/USD",
+        "tf_key": "manual",
+        "display": "INJ",
+        "opened_at_ms": 1789544835459,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-16T07:47:15.459036+00:00",
+            "price": 5.45
+          },
+          {
+            "type": "forwarded_closed",
+            "ts": "2026-09-16T07:47:15.475404+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-16T07:47:15.475597+00:00",
+            "close_type": "forwarded_closed",
+            "final_r": 0.3
+          }
+        ],
+        "signal_message_id": 1390,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m",
+        "close_type": "forwarded_closed"
       },
       "hist": []
     }
