@@ -236,5 +236,19 @@
     "silent": true,
     "source_signal_id": "ALT-000125",
     "signal_message_id": 1385
+  },
+  {
+    "id": "m-1789539305",
+    "symbol": "INJ/USD",
+    "side": "SELL",
+    "entry": 5.4,
+    "sl": 5.43,
+    "status": "pending",
+    "created_at": 1789539305,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000126",
+    "signal_message_id": 1388
   }
 ]
