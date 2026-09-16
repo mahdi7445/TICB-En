@@ -268,5 +268,19 @@
     "source_signal_id": "ALT-000127",
     "signal_message_id": 1390,
     "activated_at": "2026-09-16T07:47:15.459068+00:00"
+  },
+  {
+    "id": "m-1789564885",
+    "symbol": "XAUT/USD",
+    "side": "BUY",
+    "entry": 4347.1,
+    "sl": 4274.42,
+    "status": "pending",
+    "created_at": 1789564885,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000130",
+    "signal_message_id": 1406
   }
 ]
