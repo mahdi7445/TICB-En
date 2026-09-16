@@ -222,5 +222,19 @@
     "silent": true,
     "source_signal_id": "ALT-000124",
     "signal_message_id": 1384
+  },
+  {
+    "id": "m-1789534022",
+    "symbol": "FIL/USD",
+    "side": "SELL",
+    "entry": 0.8182,
+    "sl": 0.8225,
+    "status": "pending",
+    "created_at": 1789534022,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000125",
+    "signal_message_id": 1385
   }
 ]
