@@ -282,5 +282,19 @@
     "silent": true,
     "source_signal_id": "ALT-000130",
     "signal_message_id": 1406
+  },
+  {
+    "id": "m-1789567503",
+    "symbol": "XRP/USD",
+    "side": "SELL",
+    "entry": 1.28,
+    "sl": 1.3,
+    "status": "pending",
+    "created_at": 1789567503,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000131",
+    "signal_message_id": 1407
   }
 ]
