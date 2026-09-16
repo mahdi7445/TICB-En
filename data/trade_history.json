@@ -946,5 +946,53 @@
     "close_reason": "Closed (reported via a forwarded result message)",
     "opened_at": "2026-09-16T07:47:15.459000+00:00",
     "closed_at": "2026-09-16T07:47:15.475597+00:00"
+  },
+  {
+    "signal_id": "TC-000022",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-16T09:41:13.449324+00:00",
+        "price": 75908.82
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-16T11:37:34.479778+00:00",
+        "price": 76050.256815792,
+        "level_r": 1
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-16T11:54:50.788670+00:00",
+        "price": 76172.50363158401,
+        "level_r": 2
+      },
+      {
+        "type": "sl_after_t2",
+        "ts": "2026-09-16T12:28:32.271755+00:00",
+        "price": 76050.256815792
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-16T12:28:32.861812+00:00",
+        "close_type": "sl_after_t2",
+        "final_r": 1.3
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "1m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 75928.01,
+    "sl": 76050.256815792,
+    "final_r": 1.3,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "sl_after_t2",
+    "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
+    "opened_at": "2026-09-16T09:41:13.449000+00:00",
+    "closed_at": "2026-09-16T12:28:32.861812+00:00"
   }
 ]
