@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "signal_id": "ALT-000136",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-17T11:08:37.521967+00:00",
+        "price": 5.02e-06
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-17T15:08:12.293528+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-17T21:16:35.541909+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "sl_after_t2",
+        "ts": "2026-09-17T21:18:17.192307+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-17T21:18:17.192389+00:00",
+        "close_type": "sl_after_t2",
+        "final_r": 1.3
+      }
+    ],
+    "symbol": "SHIB/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 5.02e-06,
+    "sl": 4.905e-06,
+    "final_r": 1.3,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "sl_after_t2",
+    "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
+    "opened_at": "2026-09-17T11:08:37.521000+00:00",
+    "closed_at": "2026-09-17T21:18:17.192389+00:00"
+  }
+]
