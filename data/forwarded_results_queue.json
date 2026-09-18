@@ -46,5 +46,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-09-18T03:42:21.915507+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "1H",
+    "entry": 3.15,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000137",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-18T05:07:12.593498+00:00"
   }
 ]
