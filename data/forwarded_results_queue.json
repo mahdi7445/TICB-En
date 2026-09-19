@@ -154,5 +154,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-19T01:07:22.642890+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 104.98,
+    "level": null,
+    "result_r": 1.3,
+    "source_signal_id": "ALT-000139",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-19T09:04:47.388118+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 1.32,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000140",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-19T09:04:58.289622+00:00"
   }
 ]
