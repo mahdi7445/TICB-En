@@ -190,5 +190,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-19T09:05:09.151037+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TAO",
+    "tf_label": "1H",
+    "entry": 223.5,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000133",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-19T11:19:46.316402+00:00"
   }
 ]
