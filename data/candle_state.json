@@ -8181,7 +8181,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ZEC/USD",
         "tf_key": "manual",
         "display": "ZEC",
@@ -8191,6 +8191,17 @@
             "type": "opened",
             "ts": "2026-09-20T18:06:56.289186+00:00",
             "price": 1451.76
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-09-20T22:03:04.608164+00:00",
+            "price": 1481.83
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-20T22:03:05.113405+00:00",
+            "close_type": "opposite_signal",
+            "final_r": -1.0073701842546072
           }
         ],
         "signal_message_id": 1487,
@@ -8200,7 +8211,9 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "opposite_signal",
+        "final_r_exact": -1.0073701842546072
       },
       "hist": []
     },
@@ -8358,6 +8371,120 @@
           }
         ],
         "signal_message_id": 1497,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000148": {
+      "open_trade": {
+        "signal_id": "ALT-000148",
+        "source_signal_id": "ALT-000148",
+        "side": "BUY",
+        "entry": 765.88,
+        "sl": 744.71,
+        "r": 21.16999999999996,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "BNB/USD",
+        "tf_key": "manual",
+        "display": "BNB",
+        "opened_at_ms": 1789941784608,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-20T22:03:04.608018+00:00",
+            "price": 765.88
+          }
+        ],
+        "signal_message_id": 1498,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000149": {
+      "open_trade": {
+        "signal_id": "ALT-000149",
+        "source_signal_id": "ALT-000149",
+        "side": "BUY",
+        "entry": 1481.83,
+        "sl": 1408.45,
+        "r": 73.37999999999988,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ZEC/USD",
+        "tf_key": "manual",
+        "display": "ZEC",
+        "opened_at_ms": 1789941786615,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-20T22:03:06.615210+00:00",
+            "price": 1481.83
+          }
+        ],
+        "signal_message_id": 1499,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000150": {
+      "open_trade": {
+        "signal_id": "ALT-000150",
+        "source_signal_id": "ALT-000150",
+        "side": "BUY",
+        "entry": 0.0869,
+        "sl": 0.08394,
+        "r": 0.0029600000000000043,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "DOGE/USD",
+        "tf_key": "manual",
+        "display": "DOGE",
+        "opened_at_ms": 1789941786615,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-20T22:03:06.615463+00:00",
+            "price": 0.0869
+          }
+        ],
+        "signal_message_id": 1500,
         "forwarded_tracking": true,
         "manual_tf_cfg": {
           "td_interval": "1h",
