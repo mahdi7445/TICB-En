@@ -238,5 +238,47 @@
     "source_signal_id": "ALT-000150",
     "signal_message_id": 1500,
     "activated_at": "2026-09-20T22:03:06.615479+00:00"
+  },
+  {
+    "id": "src-ALT-000151",
+    "symbol": "LINK/USD",
+    "side": "BUY",
+    "entry": 12.45,
+    "sl": 11.87,
+    "status": "pending",
+    "created_at": 1789941772,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000151",
+    "signal_message_id": 1501
+  },
+  {
+    "id": "src-ALT-000152",
+    "symbol": "XLM/USD",
+    "side": "BUY",
+    "entry": 0.1957,
+    "sl": 0.1866,
+    "status": "pending",
+    "created_at": 1789941792,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000152",
+    "signal_message_id": 1503
+  },
+  {
+    "id": "src-ALT-000153",
+    "symbol": "NEAR/USD",
+    "side": "BUY",
+    "entry": 4.2,
+    "sl": 3.45,
+    "status": "pending",
+    "created_at": 1789941803,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000153",
+    "signal_message_id": 1504
   }
 ]
