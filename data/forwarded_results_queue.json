@@ -310,5 +310,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-20T21:11:08.566187+00:00"
+  },
+  {
+    "kind": "forwarded_closed",
+    "ticker": "SUI",
+    "tf_label": "1H",
+    "entry": 0.7227,
+    "level": null,
+    "result_r": 2.56,
+    "source_signal_id": "ALT-000134",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-20T22:23:05.101427+00:00"
   }
 ]
