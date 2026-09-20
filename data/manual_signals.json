@@ -148,5 +148,33 @@
     "source_signal_id": "ALT-000144",
     "signal_message_id": 1489,
     "activated_at": "2026-09-20T18:20:28.903012+00:00"
+  },
+  {
+    "id": "src-ALT-000145",
+    "symbol": "SOL/USD",
+    "side": "BUY",
+    "entry": 110.43,
+    "sl": 108.75,
+    "status": "pending",
+    "created_at": 1789936266,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000145",
+    "signal_message_id": 1492
+  },
+  {
+    "id": "src-ALT-000146",
+    "symbol": "ADA/USD",
+    "side": "BUY",
+    "entry": 0.2284,
+    "sl": 0.2246,
+    "status": "pending",
+    "created_at": 1789936286,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000146",
+    "signal_message_id": 1493
   }
 ]
