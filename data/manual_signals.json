@@ -280,5 +280,19 @@
     "silent": true,
     "source_signal_id": "ALT-000153",
     "signal_message_id": 1504
+  },
+  {
+    "id": "src-ALT-000154",
+    "symbol": "LTC/USD",
+    "side": "BUY",
+    "entry": 58.87,
+    "sl": 56.2,
+    "status": "pending",
+    "created_at": 1789941846,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000154",
+    "signal_message_id": 1505
   }
 ]
