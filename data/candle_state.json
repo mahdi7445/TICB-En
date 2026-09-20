@@ -7758,7 +7758,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SUI/USD",
         "tf_key": "manual",
         "display": "SUI",
@@ -7786,6 +7786,17 @@
             "ts": "2026-09-20T18:51:09.289234+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "forwarded_closed",
+            "ts": "2026-09-20T22:23:54.969896+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-20T22:23:54.970048+00:00",
+            "close_type": "forwarded_closed",
+            "final_r": 2.56
           }
         ],
         "signal_message_id": 1416,
@@ -7796,7 +7807,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1789882068709
+        "_stale_alert_sent_at_ms": 1789882068709,
+        "close_type": "forwarded_closed"
       },
       "hist": []
     },
@@ -8637,6 +8649,44 @@
           }
         ],
         "signal_message_id": 1505,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000155": {
+      "open_trade": {
+        "signal_id": "ALT-000155",
+        "source_signal_id": "ALT-000155",
+        "side": "BUY",
+        "entry": 0.8848,
+        "sl": 0.7977,
+        "r": 0.08710000000000007,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SUI/USD",
+        "tf_key": "manual",
+        "display": "SUI",
+        "opened_at_ms": 1789943034955,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-20T22:23:54.955509+00:00",
+            "price": 0.8848
+          }
+        ],
+        "signal_message_id": 1507,
         "forwarded_tracking": true,
         "manual_tf_cfg": {
           "td_interval": "1h",

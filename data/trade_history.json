@@ -542,5 +542,60 @@
     "close_reason": "Closed early - opposite signal appeared",
     "opened_at": "2026-09-20T18:06:56.289000+00:00",
     "closed_at": "2026-09-20T22:03:05.113405+00:00"
+  },
+  {
+    "signal_id": "ALT-000134",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-17T05:08:49.923979+00:00",
+        "price": 0.7227
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-18T07:58:28.016226+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-19T05:22:09.833020+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-20T18:51:09.289234+00:00",
+        "level_r": 4,
+        "note": "forwarded"
+      },
+      {
+        "type": "forwarded_closed",
+        "ts": "2026-09-20T22:23:54.969896+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-20T22:23:54.970048+00:00",
+        "close_type": "forwarded_closed",
+        "final_r": 2.56
+      }
+    ],
+    "symbol": "SUI/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 0.7227,
+    "sl": 0.6737,
+    "final_r": 2.56,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-09-17T05:08:49.923000+00:00",
+    "closed_at": "2026-09-20T22:23:54.970048+00:00"
   }
 ]
