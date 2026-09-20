@@ -7712,7 +7712,7 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1789795410857
+        "_stale_alert_sent_at_ms": 1789882068709
       },
       "hist": []
     },
@@ -7763,7 +7763,7 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1789795410857
+        "_stale_alert_sent_at_ms": 1789882068709
       },
       "hist": []
     },
@@ -8131,7 +8131,7 @@
   },
   "live_last_checked": {
     "ETH/USD|15m": 1789775437,
-    "BTC/USD|5m": 1789881069,
+    "BTC/USD|5m": 1789882060,
     "ETH/USD|5m": 1789881695,
     "BTC/USD|4h": 1789881695
   }
