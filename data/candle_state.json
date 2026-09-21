@@ -8263,7 +8263,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -8288,6 +8288,12 @@
             "type": "rr",
             "ts": "2026-09-21T08:34:00.999449+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-21T14:39:06.436332+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
