@@ -478,5 +478,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-21T22:14:40.714711+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 1.4,
+    "level": null,
+    "result_r": 3.39,
+    "source_signal_id": "ALT-000144",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-21T23:36:34.745507+00:00"
   }
 ]
