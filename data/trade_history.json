@@ -719,5 +719,61 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-09-21T01:54:57.060000+00:00",
     "closed_at": "2026-09-21T02:28:03.209083+00:00"
+  },
+  {
+    "signal_id": "ALT-000144",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-20T18:20:28.902992+00:00",
+        "price": 1.4
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-21T00:15:53.498201+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-21T08:34:00.999449+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-21T14:39:06.436332+00:00",
+        "level_r": 4,
+        "note": "forwarded"
+      },
+      {
+        "type": "runner_stop",
+        "ts": "2026-09-21T23:37:39.234895+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-21T23:37:39.235093+00:00",
+        "close_type": "runner_stop",
+        "final_r": 3.39
+      }
+    ],
+    "symbol": "XRP/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 1.4,
+    "sl": 1.38,
+    "final_r": 3.39,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "close_type": "runner_stop",
+    "close_reason": "Runner closed (all 4 targets + trailing runner)",
+    "opened_at": "2026-09-20T18:20:28.902000+00:00",
+    "closed_at": "2026-09-21T23:37:39.235093+00:00"
   }
 ]

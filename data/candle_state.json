@@ -8264,10 +8264,10 @@
           "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XRP/USD",
         "tf_key": "manual",
         "display": "XRP",
@@ -8295,6 +8295,17 @@
             "ts": "2026-09-21T14:39:06.436332+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-09-21T23:37:39.234895+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-21T23:37:39.235093+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.39
           }
         ],
         "signal_message_id": 1489,
@@ -8304,7 +8315,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "runner_stop"
       },
       "hist": []
     },
