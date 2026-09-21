@@ -454,5 +454,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-21T12:01:01.804611+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 1.4,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000144",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-21T14:38:04.995444+00:00"
   }
 ]
