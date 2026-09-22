@@ -8567,9 +8567,9 @@
         "sl": 0.08394,
         "r": 0.0029600000000000043,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -8583,6 +8583,24 @@
             "type": "opened",
             "ts": "2026-09-20T22:03:06.615463+00:00",
             "price": 0.0869
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-22T02:25:04.446228+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-22T02:25:04.446252+00:00",
+            "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-09-22T02:25:04.446261+00:00",
+            "level_r": 4,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 1500,
