@@ -730,5 +730,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-22T10:23:17.540348+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "TAO",
+    "tf_label": "1H",
+    "entry": 223.5,
+    "level": null,
+    "result_r": 3.79,
+    "source_signal_id": "ALT-000133",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-22T10:37:15.642307+00:00"
   }
 ]
