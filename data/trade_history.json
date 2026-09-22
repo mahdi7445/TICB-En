@@ -1158,5 +1158,55 @@
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "opened_at": "2026-09-20T22:24:42.018000+00:00",
     "closed_at": "2026-09-22T10:24:19.552648+00:00"
+  },
+  {
+    "signal_id": "ALT-000133",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-17T03:24:48.466047+00:00",
+        "price": 223.5
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-19T05:22:09.833033+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-19T11:20:20.031228+00:00",
+        "level_r": 4,
+        "note": "forwarded"
+      },
+      {
+        "type": "runner_stop",
+        "ts": "2026-09-22T10:38:26.204833+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-22T10:38:26.205105+00:00",
+        "close_type": "runner_stop",
+        "final_r": 3.79
+      }
+    ],
+    "symbol": "TAO/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 223.5,
+    "sl": 211.8,
+    "final_r": 3.79,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "close_type": "runner_stop",
+    "close_reason": "Runner closed (all 4 targets + trailing runner)",
+    "opened_at": "2026-09-17T03:24:48.466000+00:00",
+    "closed_at": "2026-09-22T10:38:26.205105+00:00"
   }
 ]

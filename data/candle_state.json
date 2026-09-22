@@ -7763,13 +7763,13 @@
         "sl": 211.8,
         "r": 11.699999999999989,
         "hit": {
-          "1": false,
+          "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TAO/USD",
         "tf_key": "manual",
         "display": "TAO",
@@ -7791,6 +7791,17 @@
             "ts": "2026-09-19T11:20:20.031228+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-09-22T10:38:26.204833+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-22T10:38:26.205105+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.79
           }
         ],
         "signal_message_id": 1415,
@@ -7801,7 +7812,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1790055408390
+        "_stale_alert_sent_at_ms": 1790055408390,
+        "close_type": "runner_stop"
       },
       "hist": []
     },
