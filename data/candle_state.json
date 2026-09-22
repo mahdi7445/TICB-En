@@ -8840,7 +8840,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "NEAR/USD",
         "tf_key": "manual",
         "display": "NEAR",
@@ -8850,6 +8850,17 @@
             "type": "opened",
             "ts": "2026-09-20T22:03:54.652261+00:00",
             "price": 4.2
+          },
+          {
+            "type": "forwarded_closed",
+            "ts": "2026-09-22T11:05:26.891025+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-22T11:05:26.891271+00:00",
+            "close_type": "forwarded_closed",
+            "final_r": 0.41
           }
         ],
         "signal_message_id": 1504,
@@ -8859,7 +8870,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "forwarded_closed"
       },
       "hist": []
     },
@@ -9084,6 +9096,44 @@
         },
         "logical_tf": "1h",
         "close_type": "sl_after_t3"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000158": {
+      "open_trade": {
+        "signal_id": "ALT-000158",
+        "source_signal_id": "ALT-000158",
+        "side": "BUY",
+        "entry": 4.5,
+        "sl": 4.09,
+        "r": 0.41000000000000014,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "NEAR/USD",
+        "tf_key": "manual",
+        "display": "NEAR",
+        "opened_at_ms": 1790075126876,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-22T11:05:26.876813+00:00",
+            "price": 4.5
+          }
+        ],
+        "signal_message_id": 1563,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
       },
       "hist": []
     }

@@ -1208,5 +1208,38 @@
     "close_reason": "Runner closed (all 4 targets + trailing runner)",
     "opened_at": "2026-09-17T03:24:48.466000+00:00",
     "closed_at": "2026-09-22T10:38:26.205105+00:00"
+  },
+  {
+    "signal_id": "ALT-000153",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-20T22:03:54.652261+00:00",
+        "price": 4.2
+      },
+      {
+        "type": "forwarded_closed",
+        "ts": "2026-09-22T11:05:26.891025+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-22T11:05:26.891271+00:00",
+        "close_type": "forwarded_closed",
+        "final_r": 0.41
+      }
+    ],
+    "symbol": "NEAR/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 4.2,
+    "sl": 3.45,
+    "final_r": 0.41,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-09-20T22:03:54.652000+00:00",
+    "closed_at": "2026-09-22T11:05:26.891271+00:00"
   }
 ]
