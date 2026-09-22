@@ -694,5 +694,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-22T09:06:40.360245+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LTC",
+    "tf_label": "1H",
+    "entry": 58.87,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000154",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-22T09:49:08.584234+00:00"
   }
 ]
