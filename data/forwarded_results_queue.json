@@ -514,5 +514,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-22T00:19:44.030498+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "BNB",
+    "tf_label": "1H",
+    "entry": 765.88,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000148",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-22T01:22:52.025575+00:00"
   }
 ]
