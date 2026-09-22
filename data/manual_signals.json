@@ -343,5 +343,19 @@
     "source_signal_id": "ALT-000157",
     "signal_message_id": 1520,
     "activated_at": "2026-09-21T05:06:04.950209+00:00"
+  },
+  {
+    "id": "src-ALT-000158",
+    "symbol": "NEAR/USD",
+    "side": "BUY",
+    "entry": 4.5,
+    "sl": 4.09,
+    "status": "pending",
+    "created_at": 1790075081,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000158",
+    "signal_message_id": 1563
   }
 ]

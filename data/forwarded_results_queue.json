@@ -742,5 +742,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-22T10:37:15.642307+00:00"
+  },
+  {
+    "kind": "forwarded_closed",
+    "ticker": "NEAR",
+    "tf_label": "1H",
+    "entry": 4.2,
+    "level": null,
+    "result_r": 0.41,
+    "source_signal_id": "ALT-000153",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-22T11:04:35.195839+00:00"
   }
 ]
