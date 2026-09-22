@@ -775,5 +775,60 @@
     "close_reason": "Runner closed (all 4 targets + trailing runner)",
     "opened_at": "2026-09-20T18:20:28.902000+00:00",
     "closed_at": "2026-09-21T23:37:39.235093+00:00"
+  },
+  {
+    "signal_id": "ALT-000145",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-20T20:31:49.409988+00:00",
+        "price": 110.43
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-21T00:13:33.994035+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-21T08:34:00.999427+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-21T12:01:37.776530+00:00",
+        "level_r": 4,
+        "note": "forwarded"
+      },
+      {
+        "type": "sl_after_t3",
+        "ts": "2026-09-22T08:04:22.376725+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-22T08:04:22.376943+00:00",
+        "close_type": "sl_after_t3",
+        "final_r": 2.1
+      }
+    ],
+    "symbol": "SOL/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 110.43,
+    "sl": 108.75,
+    "final_r": 2.1,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "close_type": "sl_after_t3",
+    "close_reason": "Stopped after Target 3 (Target 1-3 banked, rest closed at Target 2 price)",
+    "opened_at": "2026-09-20T20:31:49.409000+00:00",
+    "closed_at": "2026-09-22T08:04:22.376943+00:00"
   }
 ]
