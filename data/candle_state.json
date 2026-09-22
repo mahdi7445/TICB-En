@@ -8492,7 +8492,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SOL/USD",
         "tf_key": "manual",
         "display": "SOL",
@@ -8514,6 +8514,17 @@
             "ts": "2026-09-21T08:44:13.498805+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-09-22T09:06:24.064003+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-22T09:06:24.064246+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 1.3
           }
         ],
         "signal_message_id": 1497,
@@ -8523,7 +8534,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
@@ -8968,7 +8980,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XRP/USD",
         "tf_key": "manual",
         "display": "XRP",
@@ -8996,6 +9008,17 @@
             "ts": "2026-09-21T22:15:52.161938+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-09-22T09:06:24.066374+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-22T09:06:24.066603+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 1520,
@@ -9005,7 +9028,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     }
