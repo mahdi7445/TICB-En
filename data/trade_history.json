@@ -926,5 +926,38 @@
     "close_reason": "Stopped after Target 3 (Target 1-3 banked, rest closed at Target 2 price)",
     "opened_at": "2026-09-20T22:03:06.615000+00:00",
     "closed_at": "2026-09-22T08:46:51.316475+00:00"
+  },
+  {
+    "signal_id": "TC-000031",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-22T06:09:11.467120+00:00",
+        "price": 85397.37
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-22T08:57:19.973705+00:00",
+        "price": 85925.38724431476
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-22T08:57:20.563967+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 85372.93,
+    "sl": 85925.38724431476,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-22T06:09:11.467000+00:00",
+    "closed_at": "2026-09-22T08:57:20.563967+00:00"
   }
 ]
