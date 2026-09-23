@@ -1241,5 +1241,46 @@
     "close_reason": "Closed (reported via a forwarded result message)",
     "opened_at": "2026-09-20T22:03:54.652000+00:00",
     "closed_at": "2026-09-22T11:05:26.891271+00:00"
+  },
+  {
+    "signal_id": "ALT-000159",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-22T15:05:23.825645+00:00",
+        "price": 1532.4
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-23T17:06:43.958311+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-09-23T17:06:43.958348+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-23T17:06:43.958598+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "ZEC/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 1532.4,
+    "sl": 1430.05,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-09-22T15:05:23.825000+00:00",
+    "closed_at": "2026-09-23T17:06:43.958598+00:00"
   }
 ]
