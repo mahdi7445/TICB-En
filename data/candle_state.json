@@ -8561,7 +8561,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BNB/USD",
         "tf_key": "manual",
         "display": "BNB",
@@ -8577,6 +8577,17 @@
             "ts": "2026-09-22T01:23:12.766108+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-09-23T17:35:22.297762+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-23T17:35:22.298040+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 1498,
@@ -8587,7 +8598,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1790114753007
+        "_stale_alert_sent_at_ms": 1790114753007,
+        "close_type": "breakeven"
       },
       "hist": []
     },
@@ -8730,7 +8742,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LINK/USD",
         "tf_key": "manual",
         "display": "LINK",
@@ -8746,6 +8758,17 @@
             "ts": "2026-09-22T09:07:11.107895+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-09-23T17:35:22.300468+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-23T17:35:22.300697+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 1501,
@@ -8756,7 +8779,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1790114753007
+        "_stale_alert_sent_at_ms": 1790114753007,
+        "close_type": "breakeven"
       },
       "hist": []
     },
