@@ -778,5 +778,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-23T17:06:14.056368+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "BNB",
+    "tf_label": "1H",
+    "entry": 765.88,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000148",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-23T17:33:47.195773+00:00"
   }
 ]
