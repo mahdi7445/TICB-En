@@ -1714,5 +1714,115 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-09-24T06:44:17.763000+00:00",
     "closed_at": "2026-09-24T09:48:31.401229+00:00"
+  },
+  {
+    "signal_id": "TC-000032",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-23T08:41:04.307829+00:00",
+        "price": 86151.37
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-23T11:45:47.114543+00:00",
+        "price": 85472.04201691622,
+        "level_r": 1
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-23T14:31:54.166293+00:00",
+        "price": 84745.25403383245,
+        "level_r": 2
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-24T09:31:33.303788+00:00",
+        "price": 83291.67806766489,
+        "level_r": 4
+      },
+      {
+        "type": "sl_after_t3",
+        "ts": "2026-09-24T14:35:09.258852+00:00",
+        "price": 84745.25403383245
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-24T14:35:09.683744+00:00",
+        "close_type": "sl_after_t3",
+        "final_r": 2.0999999999999996
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 86198.83,
+    "sl": 84745.25403383245,
+    "final_r": 2.0999999999999996,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "close_type": "sl_after_t3",
+    "close_reason": "Stopped after Target 3 (Target 1-3 banked, rest closed at Target 2 price)",
+    "opened_at": "2026-09-23T08:41:04.307000+00:00",
+    "closed_at": "2026-09-24T14:35:09.683744+00:00"
+  },
+  {
+    "signal_id": "TC-000033",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-23T08:41:16.346041+00:00",
+        "price": 2745.3
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-23T12:19:50.575844+00:00",
+        "price": 2715.696072176675,
+        "level_r": 1
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-23T14:15:28.369373+00:00",
+        "price": 2684.96214435335,
+        "level_r": 2
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-24T09:48:20.403296+00:00",
+        "price": 2623.4942887067004,
+        "level_r": 4
+      },
+      {
+        "type": "sl_after_t3",
+        "ts": "2026-09-24T14:35:19.252111+00:00",
+        "price": 2684.96214435335
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-24T14:35:19.629398+00:00",
+        "close_type": "sl_after_t3",
+        "final_r": 2.0999999999999996
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 2746.43,
+    "sl": 2684.96214435335,
+    "final_r": 2.0999999999999996,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "close_type": "sl_after_t3",
+    "close_reason": "Stopped after Target 3 (Target 1-3 banked, rest closed at Target 2 price)",
+    "opened_at": "2026-09-23T08:41:16.346000+00:00",
+    "closed_at": "2026-09-24T14:35:19.629398+00:00"
   }
 ]
