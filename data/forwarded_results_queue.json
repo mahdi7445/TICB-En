@@ -874,5 +874,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-24T02:11:52.658211+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.2405,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000171",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-24T09:16:09.290762+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.2413,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000172",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-24T09:16:16.657747+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 114.85,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000164",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-24T09:16:34.230839+00:00"
   }
 ]
