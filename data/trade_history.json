@@ -1673,5 +1673,46 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-23T22:46:59.808000+00:00",
     "closed_at": "2026-09-24T09:17:14.330233+00:00"
+  },
+  {
+    "signal_id": "TC-000035",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-24T06:44:17.763737+00:00",
+        "price": 83978.02
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-24T09:31:51.848090+00:00",
+        "price": 83344.89756036217,
+        "level_r": 1
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-09-24T09:48:30.661462+00:00",
+        "price": 84190.87
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-24T09:48:31.401229+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "1h",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 84190.87,
+    "sl": 84190.87,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-09-24T06:44:17.763000+00:00",
+    "closed_at": "2026-09-24T09:48:31.401229+00:00"
   }
 ]
