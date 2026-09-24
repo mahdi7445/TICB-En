@@ -9419,7 +9419,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SOL/USD",
         "tf_key": "manual",
         "display": "SOL",
@@ -9429,6 +9429,17 @@
             "type": "opened",
             "ts": "2026-09-23T22:46:59.808605+00:00",
             "price": 114.85
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-24T09:17:14.330034+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-24T09:17:14.330233+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 1588,
@@ -9438,7 +9449,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -9685,7 +9697,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -9695,6 +9707,17 @@
             "type": "opened",
             "ts": "2026-09-24T03:20:00.140174+00:00",
             "price": 0.2405
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-24T09:17:14.325563+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-24T09:17:14.325810+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 1600,
@@ -9704,7 +9727,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -9723,7 +9747,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -9733,6 +9757,17 @@
             "type": "opened",
             "ts": "2026-09-24T05:46:18.851779+00:00",
             "price": 0.2413
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-24T09:17:14.327894+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-24T09:17:14.328101+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 1601,
@@ -9742,7 +9777,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     }
