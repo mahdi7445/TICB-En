@@ -9309,7 +9309,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "_stale_alert_sent_at_ms": 1790370560384
       },
       "hist": []
     },
