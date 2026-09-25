@@ -9871,6 +9871,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000173": {
+      "open_trade": {
+        "signal_id": "ALT-000173",
+        "source_signal_id": "ALT-000173",
+        "side": "BUY",
+        "entry": 118.14,
+        "sl": 115.5,
+        "r": 2.6400000000000006,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SOL/USD",
+        "tf_key": "manual",
+        "display": "SOL",
+        "opened_at_ms": 1790331634822,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-25T10:20:34.822801+00:00",
+            "price": 118.14
+          }
+        ],
+        "signal_message_id": 1621,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
