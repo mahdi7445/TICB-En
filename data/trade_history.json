@@ -1857,5 +1857,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-23T23:05:57.041000+00:00",
     "closed_at": "2026-09-25T02:11:23.340803+00:00"
+  },
+  {
+    "signal_id": "ALT-000170",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-24T02:08:40.362312+00:00",
+        "price": 0.9543
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-25T02:45:00.994588+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-25T02:45:00.994922+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "SUI/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 0.9543,
+    "sl": 1.0,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-24T02:08:40.362000+00:00",
+    "closed_at": "2026-09-25T02:45:00.994922+00:00"
   }
 ]
