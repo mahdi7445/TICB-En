@@ -943,7 +943,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000167",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-25T10:01:14.270691+00:00"
   }
