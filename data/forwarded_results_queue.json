@@ -922,5 +922,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-25T02:10:37.768647+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SUI",
+    "tf_label": "1H",
+    "entry": 0.9543,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000170",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-25T02:43:56.694063+00:00"
   }
 ]
