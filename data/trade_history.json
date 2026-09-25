@@ -1971,5 +1971,71 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-23T23:06:44.509000+00:00",
     "closed_at": "2026-09-25T10:01:50.106460+00:00"
+  },
+  {
+    "signal_id": "ALT-000168",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-23T23:23:15.888327+00:00",
+        "price": 5.61e-06
+      },
+      {
+        "type": "opposite_signal",
+        "ts": "2026-09-25T11:06:31.677283+00:00",
+        "price": 5.86e-06
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-25T11:06:32.313623+00:00",
+        "close_type": "opposite_signal",
+        "final_r": -0.5319148936170209
+      }
+    ],
+    "symbol": "SHIB/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 5.61e-06,
+    "sl": 6.08e-06,
+    "final_r": -0.5319148936170209,
+    "targets_hit": [],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-09-23T23:23:15.888000+00:00",
+    "closed_at": "2026-09-25T11:06:32.313623+00:00"
+  },
+  {
+    "signal_id": "ALT-000175",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-25T11:06:33.817320+00:00",
+        "price": 5.86e-06
+      },
+      {
+        "type": "forwarded_closed",
+        "ts": "2026-09-25T11:06:33.833766+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-25T11:06:33.834078+00:00",
+        "close_type": "forwarded_closed",
+        "final_r": -0.53
+      }
+    ],
+    "symbol": "SHIB/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 5.86e-06,
+    "sl": 5.683e-06,
+    "final_r": -0.53,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-09-25T11:06:33.817000+00:00",
+    "closed_at": "2026-09-25T11:06:33.834078+00:00"
   }
 ]
