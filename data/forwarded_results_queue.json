@@ -1030,5 +1030,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-26T19:19:19.064935+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SHIB",
+    "tf_label": "1H",
+    "entry": 5.86e-06,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000175",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-26T19:38:03.658067+00:00"
   }
 ]
