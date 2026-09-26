@@ -1114,5 +1114,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-26T22:02:07.143313+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "CRO",
+    "tf_label": "1H",
+    "entry": 0.0614,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000163",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-26T23:06:07.824255+00:00"
   }
 ]
