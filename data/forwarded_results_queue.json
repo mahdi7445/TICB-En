@@ -1078,5 +1078,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-09-26T21:08:10.823086+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 1.52,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000182",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-26T21:28:36.603715+00:00"
   }
 ]
