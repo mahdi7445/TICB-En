@@ -9329,7 +9329,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "CRO/USD",
         "tf_key": "manual",
         "display": "CRO",
@@ -9339,6 +9339,17 @@
             "type": "opened",
             "ts": "2026-09-23T22:21:33.575284+00:00",
             "price": 0.0614
+          },
+          {
+            "type": "stop",
+            "ts": "2026-09-26T23:07:05.356909+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-26T23:07:05.357292+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 1587,
@@ -9349,7 +9360,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1790461782942
+        "_stale_alert_sent_at_ms": 1790461782942,
+        "close_type": "stop"
       },
       "hist": []
     },
