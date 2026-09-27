@@ -1126,5 +1126,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-26T23:06:07.824255+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.2531,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000184",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-27T04:39:41.068095+00:00"
   }
 ]
