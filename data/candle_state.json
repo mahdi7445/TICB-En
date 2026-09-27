@@ -10122,7 +10122,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "_stale_alert_sent_at_ms": 1790521698712
       },
       "hist": []
     },
@@ -10160,7 +10161,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "_stale_alert_sent_at_ms": 1790521698712
       },
       "hist": []
     },
@@ -10198,7 +10200,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "_stale_alert_sent_at_ms": 1790521698712
       },
       "hist": []
     },
@@ -10536,18 +10539,18 @@
     }
   },
   "tf_last_checked": {
-    "1m": 1790520623,
+    "1m": 1790521641,
     "5m": 1790521321,
-    "15m": 1790520623,
+    "15m": 1790521641,
     "1h": 1790520623,
     "4h": 1790514315
   },
   "live_last_checked": {
     "ETH/USD|15m": 1790514636,
     "BTC/USD|5m": 1790487421,
-    "ETH/USD|5m": 1790520623,
-    "BTC/USD|4h": 1790520623,
+    "ETH/USD|5m": 1790521641,
+    "BTC/USD|4h": 1790521641,
     "BTC/USD|1h": 1790242260,
-    "BTC/USD|15m": 1790520623
+    "BTC/USD|15m": 1790521641
   }
 }
