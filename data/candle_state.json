@@ -10412,6 +10412,44 @@
         "logical_tf": "1h"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000186": {
+      "open_trade": {
+        "signal_id": "ALT-000186",
+        "source_signal_id": "ALT-000186",
+        "side": "SELL",
+        "entry": 1.51,
+        "sl": 1.52,
+        "r": 0.010000000000000009,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "XRP/USD",
+        "tf_key": "manual",
+        "display": "XRP",
+        "opened_at_ms": 1790485485394,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-27T05:04:45.394142+00:00",
+            "price": 1.51
+          }
+        ],
+        "signal_message_id": 1661,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
