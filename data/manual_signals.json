@@ -837,5 +837,33 @@
     "silent": true,
     "source_signal_id": "ALT-000190",
     "signal_message_id": 1697
+  },
+  {
+    "id": "src-ALT-000191",
+    "symbol": "XRP/USD",
+    "side": "SELL",
+    "entry": 1.48,
+    "sl": 1.54,
+    "status": "pending",
+    "created_at": 1790608787,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000191",
+    "signal_message_id": 1698
+  },
+  {
+    "id": "src-ALT-000192",
+    "symbol": "ADA/USD",
+    "side": "SELL",
+    "entry": 0.2407,
+    "sl": 0.2555,
+    "status": "pending",
+    "created_at": 1790608799,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000192",
+    "signal_message_id": 1699
   }
 ]
