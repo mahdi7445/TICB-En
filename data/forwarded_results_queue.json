@@ -1222,5 +1222,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-28T09:03:49.398183+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "UNI",
+    "tf_label": "1H",
+    "entry": 9.72,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000179",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-28T09:19:18.161536+00:00"
   }
 ]
