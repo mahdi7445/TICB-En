@@ -1162,5 +1162,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-27T07:56:42.073940+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SUI",
+    "tf_label": "1H",
+    "entry": 1.13,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000180",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-09-28T00:23:21.858451+00:00"
   }
 ]
