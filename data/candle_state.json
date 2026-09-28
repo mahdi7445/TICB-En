@@ -10159,7 +10159,7 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1790521698712
+        "_stale_alert_sent_at_ms": 1790608356403
       },
       "hist": []
     },
@@ -10255,7 +10255,7 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1790521698712
+        "_stale_alert_sent_at_ms": 1790608356403
       },
       "hist": []
     },
