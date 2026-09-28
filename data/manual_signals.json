@@ -808,5 +808,19 @@
     "source_signal_id": "ALT-000188",
     "signal_message_id": 1688,
     "activated_at": "2026-09-28T10:07:48.804962+00:00"
+  },
+  {
+    "id": "src-ALT-000189",
+    "symbol": "XAUT/USD",
+    "side": "SELL",
+    "entry": 4159.9,
+    "sl": 4231.4,
+    "status": "pending",
+    "created_at": 1790601753,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000189",
+    "signal_message_id": 1692
   }
 ]
