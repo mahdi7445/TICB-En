@@ -10206,7 +10206,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SUI/USD",
         "tf_key": "manual",
         "display": "SUI",
@@ -10222,6 +10222,17 @@
             "ts": "2026-09-28T00:24:15.522515+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-09-29T05:39:57.922145+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-09-29T05:39:57.922718+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 1636,
@@ -10232,7 +10243,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1790608356403
+        "_stale_alert_sent_at_ms": 1790608356403,
+        "close_type": "breakeven"
       },
       "hist": []
     },

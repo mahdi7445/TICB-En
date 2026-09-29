@@ -2916,5 +2916,46 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-29T00:31:35.067000+00:00",
     "closed_at": "2026-09-29T01:35:50.027568+00:00"
+  },
+  {
+    "signal_id": "ALT-000180",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-25T15:06:50.734178+00:00",
+        "price": 1.13
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-28T00:24:15.522515+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-09-29T05:39:57.922145+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-29T05:39:57.922718+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "SUI/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 1.13,
+    "sl": 0.9845,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-09-25T15:06:50.734000+00:00",
+    "closed_at": "2026-09-29T05:39:57.922718+00:00"
   }
 ]
