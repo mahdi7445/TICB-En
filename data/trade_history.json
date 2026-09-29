@@ -3031,5 +3031,38 @@
     "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
     "opened_at": "2026-09-26T23:03:59.597000+00:00",
     "closed_at": "2026-09-29T08:01:59.147014+00:00"
+  },
+  {
+    "signal_id": "ALT-000191",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-28T15:21:00.919910+00:00",
+        "price": 1.48
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-29T12:37:03.982021+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-29T12:37:03.982489+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "XRP/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 1.48,
+    "sl": 1.54,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-28T15:21:00.919000+00:00",
+    "closed_at": "2026-09-29T12:37:03.982489+00:00"
   }
 ]
