@@ -10866,12 +10866,50 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000193": {
+      "open_trade": {
+        "signal_id": "ALT-000193",
+        "source_signal_id": "ALT-000193",
+        "side": "SELL",
+        "entry": 0.2218,
+        "sl": 0.2405,
+        "r": 0.018699999999999994,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "XLM/USD",
+        "tf_key": "manual",
+        "display": "XLM",
+        "opened_at_ms": 1790712276161,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-09-29T20:04:36.161012+00:00",
+            "price": 0.2218
+          }
+        ],
+        "signal_message_id": 1720,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
-    "1m": 1790711286,
+    "1m": 1790712276,
     "5m": 1790711949,
-    "15m": 1790711286,
+    "15m": 1790712276,
     "1h": 1790709669,
     "4h": 1790704057
   },
@@ -10879,7 +10917,7 @@
     "ETH/USD|15m": 1790664640,
     "BTC/USD|5m": 1790711949,
     "ETH/USD|5m": 1790553589,
-    "BTC/USD|4h": 1790711286,
+    "BTC/USD|4h": 1790712276,
     "BTC/USD|1h": 1790242260,
     "BTC/USD|15m": 1790644747
   }
