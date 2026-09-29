@@ -3178,5 +3178,38 @@
     "close_reason": "Closed early - opposite signal appeared",
     "opened_at": "2026-09-29T03:35:15.113000+00:00",
     "closed_at": "2026-09-29T13:23:05.454118+00:00"
+  },
+  {
+    "signal_id": "TC-000051",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-29T13:23:06.958722+00:00",
+        "price": 84446.69
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-29T13:44:39.541942+00:00",
+        "price": 84054.05119618781
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-29T13:44:40.142940+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 84440.14,
+    "sl": 84054.05119618781,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-29T13:23:06.958000+00:00",
+    "closed_at": "2026-09-29T13:44:40.142940+00:00"
   }
 ]
