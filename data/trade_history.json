@@ -3277,5 +3277,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-30T02:19:29.035000+00:00",
     "closed_at": "2026-09-30T04:54:20.066428+00:00"
+  },
+  {
+    "signal_id": "ALT-000196",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-30T05:47:04.337385+00:00",
+        "price": 1.5
+      },
+      {
+        "type": "forwarded_closed",
+        "ts": "2026-09-30T07:01:25.611430+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-30T07:01:25.612156+00:00",
+        "close_type": "forwarded_closed",
+        "final_r": -0.79
+      }
+    ],
+    "symbol": "XRP/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 1.5,
+    "sl": 1.49,
+    "final_r": -0.79,
+    "targets_hit": [],
+    "close_type": "forwarded_closed",
+    "close_reason": "Closed (reported via a forwarded result message)",
+    "opened_at": "2026-09-30T05:47:04.337000+00:00",
+    "closed_at": "2026-09-30T07:01:25.612156+00:00"
   }
 ]
