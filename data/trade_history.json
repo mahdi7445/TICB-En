@@ -3376,5 +3376,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-30T01:37:00.514000+00:00",
     "closed_at": "2026-09-30T09:54:54.358581+00:00"
+  },
+  {
+    "signal_id": "ALT-000192",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-28T15:21:00.920636+00:00",
+        "price": 0.2407
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-30T13:32:00.690225+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-30T13:32:00.690827+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 0.2407,
+    "sl": 0.2555,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-28T15:21:00.920000+00:00",
+    "closed_at": "2026-09-30T13:32:00.690827+00:00"
   }
 ]
