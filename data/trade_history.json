@@ -3343,5 +3343,38 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-09-30T07:02:13.223000+00:00",
     "closed_at": "2026-09-30T09:33:19.791009+00:00"
+  },
+  {
+    "signal_id": "TC-000053",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-30T01:37:00.514288+00:00",
+        "price": 2672.24
+      },
+      {
+        "type": "stop",
+        "ts": "2026-09-30T09:54:53.609974+00:00",
+        "price": 2694.2026432697066
+      },
+      {
+        "type": "closed",
+        "ts": "2026-09-30T09:54:54.358581+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 2670.08,
+    "sl": 2694.2026432697066,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-30T01:37:00.514000+00:00",
+    "closed_at": "2026-09-30T09:54:54.358581+00:00"
   }
 ]
