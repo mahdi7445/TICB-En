@@ -10731,7 +10731,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "_stale_alert_sent_at_ms": 1790774734957
       },
       "hist": []
     },
@@ -11109,7 +11110,7 @@
   },
   "live_last_checked": {
     "ETH/USD|15m": 1790774048,
-    "BTC/USD|5m": 1790773722,
+    "BTC/USD|5m": 1790774726,
     "ETH/USD|5m": 1790553589,
     "BTC/USD|4h": 1790774048,
     "BTC/USD|1h": 1790242260,
