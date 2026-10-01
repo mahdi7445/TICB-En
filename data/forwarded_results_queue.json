@@ -1354,5 +1354,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-09-30T13:31:06.866795+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LTC",
+    "tf_label": "1H",
+    "entry": 67.05,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000195",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-01T08:51:39.424494+00:00"
   }
 ]
