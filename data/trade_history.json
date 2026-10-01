@@ -3553,5 +3553,38 @@
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "opened_at": "2026-09-30T12:24:20.998000+00:00",
     "closed_at": "2026-09-30T13:47:44.439804+00:00"
+  },
+  {
+    "signal_id": "ALT-000195",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-30T05:06:08.673927+00:00",
+        "price": 67.05
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-01T08:51:58.866527+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-01T08:51:58.867073+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "LTC/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 67.05,
+    "sl": 68.27,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-30T05:06:08.673000+00:00",
+    "closed_at": "2026-10-01T08:51:58.867073+00:00"
   }
 ]
