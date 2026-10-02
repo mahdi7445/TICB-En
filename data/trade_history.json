@@ -3770,5 +3770,53 @@
     "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
     "opened_at": "2026-10-02T07:26:54.247000+00:00",
     "closed_at": "2026-10-02T09:27:40.985354+00:00"
+  },
+  {
+    "signal_id": "TC-000059",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-02T00:15:04.792927+00:00",
+        "price": 84903.0
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-02T03:02:04.505119+00:00",
+        "price": 85455.26066581506,
+        "level_r": 1
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-02T04:24:07.223628+00:00",
+        "price": 86022.00133163012,
+        "level_r": 2
+      },
+      {
+        "type": "opposite_signal",
+        "ts": "2026-10-02T10:50:32.627564+00:00",
+        "price": 86428.01
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-02T10:50:33.220153+00:00",
+        "close_type": "opposite_signal",
+        "final_r": 2.158196167012274
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 84888.52,
+    "sl": 85455.26066581506,
+    "final_r": 2.158196167012274,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-10-02T00:15:04.792000+00:00",
+    "closed_at": "2026-10-02T10:50:33.220153+00:00"
   }
 ]
