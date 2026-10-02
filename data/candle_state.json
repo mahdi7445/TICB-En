@@ -11560,6 +11560,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000198": {
+      "open_trade": {
+        "signal_id": "ALT-000198",
+        "source_signal_id": "ALT-000198",
+        "side": "BUY",
+        "entry": 0.2411,
+        "sl": 0.2402,
+        "r": 0.0009000000000000119,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ADA/USD",
+        "tf_key": "manual",
+        "display": "ADA",
+        "opened_at_ms": 1790981452703,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-02T22:50:52.703446+00:00",
+            "price": 0.2411
+          }
+        ],
+        "signal_message_id": 1776,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
