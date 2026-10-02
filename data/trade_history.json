@@ -3619,5 +3619,60 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-10-01T08:33:55.055000+00:00",
     "closed_at": "2026-10-01T09:29:15.710823+00:00"
+  },
+  {
+    "signal_id": "TC-000058",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-01T16:27:49.335079+00:00",
+        "price": 84340.02
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-01T17:36:28.761071+00:00",
+        "price": 84908.16471549236,
+        "level_r": 1
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-02T04:02:01.649026+00:00",
+        "price": 85521.74943098471,
+        "level_r": 2
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-02T04:40:28.392019+00:00",
+        "price": 86748.91886196942,
+        "level_r": 4
+      },
+      {
+        "type": "opposite_signal",
+        "ts": "2026-10-02T04:40:30.339860+00:00",
+        "price": 86527.96
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-02T04:40:30.701478+00:00",
+        "close_type": "opposite_signal",
+        "final_r": 2.6739610036941057
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 84294.58,
+    "sl": 85521.74943098471,
+    "final_r": 2.6739610036941057,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "close_type": "opposite_signal",
+    "close_reason": "Closed early - opposite signal appeared",
+    "opened_at": "2026-10-01T16:27:49.335000+00:00",
+    "closed_at": "2026-10-02T04:40:30.701478+00:00"
   }
 ]
