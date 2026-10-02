@@ -7400,7 +7400,7 @@
           }
         ],
         "signal_message_id": 1479,
-        "_stale_alert_sent_at_ms": 1790881787007
+        "_stale_alert_sent_at_ms": 1790968528396
       },
       "pending_signal": null
     },
@@ -11563,15 +11563,15 @@
     }
   },
   "tf_last_checked": {
-    "1m": 1790967519,
-    "5m": 1790967845,
+    "1m": 1790968488,
+    "5m": 1790968488,
     "15m": 1790967845,
     "1h": 1790964891,
     "4h": 1790967186
   },
   "live_last_checked": {
     "ETH/USD|15m": 1790932233,
-    "BTC/USD|5m": 1790967519,
+    "BTC/USD|5m": 1790968488,
     "ETH/USD|5m": 1790931598,
     "BTC/USD|4h": 1790967845,
     "BTC/USD|1h": 1790242260,
