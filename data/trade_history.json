@@ -3818,5 +3818,46 @@
     "close_reason": "Closed early - opposite signal appeared",
     "opened_at": "2026-10-02T00:15:04.792000+00:00",
     "closed_at": "2026-10-02T10:50:33.220153+00:00"
+  },
+  {
+    "signal_id": "TC-000063",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-02T10:50:34.726251+00:00",
+        "price": 86413.54
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-02T11:06:53.128196+00:00",
+        "price": 86424.01999999999,
+        "level_r": 1
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-02T11:23:27.668257+00:00",
+        "price": 86298.01
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-02T11:23:28.032221+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 86298.01,
+    "sl": 86298.01,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-02T10:50:34.726000+00:00",
+    "closed_at": "2026-10-02T11:23:28.032221+00:00"
   }
 ]
