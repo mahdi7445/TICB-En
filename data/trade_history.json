@@ -3954,5 +3954,46 @@
     "close_reason": "Runner closed (all 4 targets + trailing runner)",
     "opened_at": "2026-10-02T22:50:52.703000+00:00",
     "closed_at": "2026-10-03T00:35:29.310810+00:00"
+  },
+  {
+    "signal_id": "ALT-000199",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-03T02:18:58.911276+00:00",
+        "price": 0.2477
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-03T02:31:21.648497+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-03T02:36:09.853374+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-03T02:36:09.853995+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 0.2477,
+    "sl": 0.2471,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-03T02:18:58.911000+00:00",
+    "closed_at": "2026-10-03T02:36:09.853995+00:00"
   }
 ]
