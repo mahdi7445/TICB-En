@@ -4069,5 +4069,38 @@
     "close_reason": "admin_override",
     "opened_at": "2026-09-28T13:22:55.046000+00:00",
     "closed_at": "2026-10-03T14:24:28.441344+00:00"
+  },
+  {
+    "signal_id": "TC-000065",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-03T15:30:20.072630+00:00",
+        "price": 84873.11
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-03T15:46:34.259067+00:00",
+        "price": 84780.0
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-03T15:46:34.869782+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 84834.0,
+    "sl": 84780.0,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-03T15:30:20.072000+00:00",
+    "closed_at": "2026-10-03T15:46:34.869782+00:00"
   }
 ]
