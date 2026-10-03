@@ -3892,5 +3892,67 @@
     "close_reason": "Stopped out (full loss)",
     "opened_at": "2026-10-02T04:40:32.207000+00:00",
     "closed_at": "2026-10-03T00:03:05.368653+00:00"
+  },
+  {
+    "signal_id": "ALT-000198",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-02T22:50:52.703446+00:00",
+        "price": 0.2411
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-02T22:54:45.514428+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-02T23:22:58.641578+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-02T23:42:01.024492+00:00",
+        "level_r": 4,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-03T00:24:23.601850+00:00",
+        "level_r": 6,
+        "note": "forwarded"
+      },
+      {
+        "type": "runner_stop",
+        "ts": "2026-10-03T00:35:29.310097+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-03T00:35:29.310810+00:00",
+        "close_type": "runner_stop",
+        "final_r": 3.28
+      }
+    ],
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 0.2411,
+    "sl": 0.2402,
+    "final_r": 3.28,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "close_type": "runner_stop",
+    "close_reason": "Runner closed (all 4 targets + trailing runner)",
+    "opened_at": "2026-10-02T22:50:52.703000+00:00",
+    "closed_at": "2026-10-03T00:35:29.310810+00:00"
   }
 ]
