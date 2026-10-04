@@ -988,5 +988,19 @@
     "source_signal_id": "ALT-000202",
     "signal_message_id": 1800,
     "activated_at": "2026-10-04T11:05:52.662210+00:00"
+  },
+  {
+    "id": "src-ALT-000203",
+    "symbol": "SOL/USD",
+    "side": "BUY",
+    "entry": 121.53,
+    "sl": 121.42,
+    "status": "pending",
+    "created_at": 1791117132,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000203",
+    "signal_message_id": 1806
   }
 ]
