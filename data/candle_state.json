@@ -11955,7 +11955,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SOL/USD",
         "tf_key": "manual",
         "display": "SOL",
@@ -11965,6 +11965,17 @@
             "type": "opened",
             "ts": "2026-10-04T12:33:46.986305+00:00",
             "price": 121.53
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-04T12:46:55.216870+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-04T12:46:55.217606+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 1806,
@@ -11974,7 +11985,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
