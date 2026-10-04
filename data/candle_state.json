@@ -2515,7 +2515,7 @@
         ],
         "signal_message_id": 1799,
         "mfe_r": 0.215,
-        "mae_r": -0.189
+        "mae_r": -0.585
       },
       "pending_signal": null
     },
@@ -11882,8 +11882,8 @@
   },
   "live_last_checked": {
     "ETH/USD|15m": 1791002345,
-    "BTC/USD|5m": 1791109235,
-    "ETH/USD|5m": 1791109235,
+    "BTC/USD|5m": 1791110239,
+    "ETH/USD|5m": 1791110239,
     "BTC/USD|4h": 1791109895,
     "BTC/USD|1h": 1790242260,
     "BTC/USD|15m": 1791041403
