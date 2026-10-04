@@ -2513,7 +2513,9 @@
             "price": 85330.71
           }
         ],
-        "signal_message_id": 1802
+        "signal_message_id": 1802,
+        "mfe_r": 0.0,
+        "mae_r": -0.488
       },
       "pending_signal": null
     },
@@ -11932,7 +11934,7 @@
   },
   "live_last_checked": {
     "ETH/USD|15m": 1791002345,
-    "BTC/USD|5m": 1791111240,
+    "BTC/USD|5m": 1791112249,
     "ETH/USD|5m": 1791111240,
     "BTC/USD|4h": 1791111897,
     "BTC/USD|1h": 1790242260,
