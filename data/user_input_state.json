@@ -1,1 +1,10 @@
-{}
+{
+  "378486866": {
+    "kind": "possize_stop_leverage",
+    "data": {
+      "balance": 100.0,
+      "risk_pct": 2.0
+    },
+    "ts": 1791111428
+  }
+}
