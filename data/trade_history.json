@@ -4174,5 +4174,41 @@
     "r_pct": 0.1778,
     "mfe_r": 0.503,
     "mae_r": -1.0
+  },
+  {
+    "signal_id": "TC-000068",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-04T11:04:59.905994+00:00",
+        "price": 85330.71
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-04T12:11:13.783752+00:00",
+        "price": 85344.81
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-04T12:11:14.418422+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 85203.66,
+    "sl": 85344.81,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-04T11:04:59.905000+00:00",
+    "closed_at": "2026-10-04T12:11:14.418422+00:00",
+    "r_pct": 0.1657,
+    "mfe_r": 0.0,
+    "mae_r": -1.0
   }
 ]
