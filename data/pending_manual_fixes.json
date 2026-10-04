@@ -31,5 +31,16 @@
     "note": "❌ Stop-loss must be below entry for BUY, or above entry for SELL.",
     "created_at": 1791117166,
     "signal_message_id": 1807
+  },
+  {
+    "id": "f1791125383",
+    "symbol": "XRP/USD",
+    "side": "BUY",
+    "entry": 1.5,
+    "sl": 1.5,
+    "source_signal_id": "ALT-000205",
+    "note": "❌ Stop-loss must be below entry for BUY, or above entry for SELL.",
+    "created_at": 1791125383,
+    "signal_message_id": 1810
   }
 ]
