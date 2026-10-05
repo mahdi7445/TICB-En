@@ -4246,5 +4246,41 @@
     "r_pct": 0.0905,
     "mfe_r": null,
     "mae_r": null
+  },
+  {
+    "signal_id": "ALT-000202",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-04T11:05:52.662190+00:00",
+        "price": 551.54
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-05T04:09:12.161049+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-05T04:09:12.161675+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "XMR/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 551.54,
+    "sl": 551.12,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-04T11:05:52.662000+00:00",
+    "closed_at": "2026-10-05T04:09:12.161675+00:00",
+    "r_pct": 0.0762,
+    "mfe_r": null,
+    "mae_r": null
   }
 ]
