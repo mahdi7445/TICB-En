@@ -4390,5 +4390,49 @@
     "r_pct": 1.6412,
     "mfe_r": null,
     "mae_r": null
+  },
+  {
+    "signal_id": "TC-000069",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-06T11:02:54.370292+00:00",
+        "price": 86200.0
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-06T11:19:27.603274+00:00",
+        "price": 86314.70000000001,
+        "level_r": 1
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-06T12:42:00.175487+00:00",
+        "price": 86161.35
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-06T12:42:00.665705+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 86161.35,
+    "sl": 86161.35,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-06T11:02:54.370000+00:00",
+    "closed_at": "2026-10-06T12:42:00.665705+00:00",
+    "r_pct": 0.178,
+    "mfe_r": 1.613,
+    "mae_r": -0.596
   }
 ]
