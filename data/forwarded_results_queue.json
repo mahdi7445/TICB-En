@@ -1594,5 +1594,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-10-07T01:37:50.350802+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "1H",
+    "entry": 5.2,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000207",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-07T03:53:30.394255+00:00"
   }
 ]
