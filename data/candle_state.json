@@ -6884,7 +6884,7 @@
           }
         ],
         "signal_message_id": 1835,
-        "mfe_r": 0.0,
+        "mfe_r": 0.446,
         "mae_r": -0.1
       },
       "pending_signal": null
@@ -12268,6 +12268,6 @@
     "BTC/USD|4h": 1791367343,
     "BTC/USD|1h": 1790242260,
     "BTC/USD|15m": 1791289512,
-    "ETH/USD|1h": 1791366714
+    "ETH/USD|1h": 1791367704
   }
 }
