@@ -1606,5 +1606,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-10-07T03:53:30.394255+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XLM",
+    "tf_label": "1H",
+    "entry": 0.2218,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000193",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-07T08:33:51.808194+00:00"
   }
 ]
