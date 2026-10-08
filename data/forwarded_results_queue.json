@@ -1690,5 +1690,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-08T16:49:11.603643+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "BCH",
+    "tf_label": "1H",
+    "entry": 306.8,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000188",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-08T17:51:44.430531+00:00"
   }
 ]
