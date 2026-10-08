@@ -12418,6 +12418,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000210": {
+      "open_trade": {
+        "signal_id": "ALT-000210",
+        "source_signal_id": "ALT-000210",
+        "side": "SELL",
+        "entry": 0.3328,
+        "sl": 0.3341,
+        "r": 0.0013000000000000234,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TRX/USD",
+        "tf_key": "manual",
+        "display": "TRX",
+        "opened_at_ms": 1791497041050,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-08T22:04:01.050250+00:00",
+            "price": 0.3328
+          }
+        ],
+        "signal_message_id": 1856,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
