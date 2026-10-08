@@ -1678,5 +1678,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-08T04:23:13.170823+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOGE",
+    "tf_label": "1H",
+    "entry": 0.09235,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000161",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-08T16:49:11.603643+00:00"
   }
 ]
