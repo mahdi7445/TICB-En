@@ -4521,5 +4521,41 @@
     "r_pct": 1.0109,
     "mfe_r": 2.2,
     "mae_r": -0.612
+  },
+  {
+    "signal_id": "ALT-000177",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-25T13:02:08.285010+00:00",
+        "price": 120.74
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-08T04:24:14.994234+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-08T04:24:14.995095+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "SOL/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 120.74,
+    "sl": 114.85,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-09-25T13:02:08.285000+00:00",
+    "closed_at": "2026-10-08T04:24:14.995095+00:00",
+    "r_pct": 4.8783,
+    "mfe_r": null,
+    "mae_r": null
   }
 ]
