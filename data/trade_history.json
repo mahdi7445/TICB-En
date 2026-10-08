@@ -4557,5 +4557,41 @@
     "r_pct": 4.8783,
     "mfe_r": null,
     "mae_r": null
+  },
+  {
+    "signal_id": "ALT-000209",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-08T18:08:37.352627+00:00",
+        "price": 9.94
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-08T21:09:15.015628+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-08T21:09:15.016347+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "AVAX/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 9.94,
+    "sl": 10.13,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-08T18:08:37.352000+00:00",
+    "closed_at": "2026-10-08T21:09:15.016347+00:00",
+    "r_pct": 1.9115,
+    "mfe_r": null,
+    "mae_r": null
   }
 ]
