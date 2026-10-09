@@ -4731,5 +4731,41 @@
     "r_pct": 0.3361,
     "mfe_r": 0.556,
     "mae_r": -1.0
+  },
+  {
+    "signal_id": "ALT-000212",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-09T02:50:56.490617+00:00",
+        "price": 1.387
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-09T02:55:33.476162+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-09T02:55:33.476915+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "XRP/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 1.387,
+    "sl": 1.391,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-09T02:50:56.490000+00:00",
+    "closed_at": "2026-10-09T02:55:33.476915+00:00",
+    "r_pct": 0.2884,
+    "mfe_r": null,
+    "mae_r": null
   }
 ]
