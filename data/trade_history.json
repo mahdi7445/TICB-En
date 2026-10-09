@@ -4651,5 +4651,49 @@
     "r_pct": 0.9325,
     "mfe_r": 4.802,
     "mae_r": -0.752
+  },
+  {
+    "signal_id": "TC-000027",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-09-20T03:10:22.723561+00:00",
+        "price": 81249.99
+      },
+      {
+        "type": "rr",
+        "ts": "2026-09-21T09:35:49.408266+00:00",
+        "price": 84293.5426146256,
+        "level_r": 1
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-09T00:53:33.392344+00:00",
+        "price": 80443.86
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-09T00:53:33.762919+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "4h",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 80443.86,
+    "sl": 80443.86,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-09-20T03:10:22.723000+00:00",
+    "closed_at": "2026-10-09T00:53:33.762919+00:00",
+    "r_pct": 4.7856,
+    "mfe_r": 1.703,
+    "mae_r": 0.0
   }
 ]
