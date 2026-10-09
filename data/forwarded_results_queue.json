@@ -1774,5 +1774,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-09T09:55:40.949692+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "ZEC",
+    "tf_label": "1H",
+    "entry": 1192.3,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000211",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-09T13:41:07.180616+00:00"
   }
 ]
