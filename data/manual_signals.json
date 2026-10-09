@@ -1108,5 +1108,19 @@
     "source_signal_id": "ALT-000212",
     "signal_message_id": 1862,
     "activated_at": "2026-10-09T02:50:56.490640+00:00"
+  },
+  {
+    "id": "src-ALT-000213",
+    "symbol": "BNB/USD",
+    "side": "BUY",
+    "entry": 741.17,
+    "sl": 737.9,
+    "status": "pending",
+    "created_at": 1791522119,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000213",
+    "signal_message_id": 1866
   }
 ]
