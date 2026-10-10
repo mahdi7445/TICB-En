@@ -1834,5 +1834,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-10T00:53:08.896869+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "BAT",
+    "tf_label": "1M",
+    "entry": 0.1351,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000217",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-10T03:28:14.861314+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "BAT",
+    "tf_label": "1M",
+    "entry": 0.1351,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000217",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-10T03:28:22.033174+00:00"
   }
 ]
