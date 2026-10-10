@@ -1822,5 +1822,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-10T00:05:55.954335+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TRX",
+    "tf_label": "1H",
+    "entry": 0.3328,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000210",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-10T00:53:08.896869+00:00"
   }
 ]
