@@ -12956,6 +12956,44 @@
         "close_type": "sl_after_t2"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000219": {
+      "open_trade": {
+        "signal_id": "ALT-000219",
+        "source_signal_id": "ALT-000219",
+        "side": "BUY",
+        "entry": 0.221,
+        "sl": 0.2194,
+        "r": 0.0015999999999999903,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ENA/USD",
+        "tf_key": "manual",
+        "display": "ENA",
+        "opened_at_ms": 1791647496881,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-10T15:51:36.881648+00:00",
+            "price": 0.221
+          }
+        ],
+        "signal_message_id": 1890,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
