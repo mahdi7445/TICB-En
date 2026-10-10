@@ -13062,13 +13062,13 @@
         "sl": 0.13117,
         "r": 0.0003999999999999837,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BAT/USD",
         "tf_key": "manual",
         "display": "BAT",
@@ -13078,6 +13078,23 @@
             "type": "opened",
             "ts": "2026-10-10T17:55:15.227458+00:00",
             "price": 0.13157
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-10T18:01:09.079279+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-10T18:01:09.079310+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-10T18:01:09.080187+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 1894,
@@ -13087,7 +13104,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "breakeven"
       },
       "hist": []
     }

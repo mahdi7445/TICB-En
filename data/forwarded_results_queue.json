@@ -1975,7 +1975,7 @@
     "level": 1,
     "result_r": 0.2,
     "source_signal_id": "ALT-000221",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-10T18:00:13.666061+00:00"
   },
@@ -1987,7 +1987,7 @@
     "level": null,
     "result_r": 0.2,
     "source_signal_id": "ALT-000221",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-10T18:00:15.953486+00:00"
   }
