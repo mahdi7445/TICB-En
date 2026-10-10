@@ -1954,5 +1954,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-10T17:46:29.240716+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "STRK",
+    "tf_label": "1M",
+    "entry": 0.09468,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000220",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-10T17:50:43.845763+00:00"
   }
 ]
