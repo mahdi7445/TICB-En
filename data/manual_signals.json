@@ -1213,5 +1213,19 @@
     "source_signal_id": "ALT-000219",
     "signal_message_id": 1890,
     "activated_at": "2026-10-10T15:51:36.881668+00:00"
+  },
+  {
+    "id": "src-ALT-000220",
+    "symbol": "STRK/USD",
+    "side": "SELL",
+    "entry": 0.09468,
+    "sl": 0.09524,
+    "status": "pending",
+    "created_at": 1791654243,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000220",
+    "signal_message_id": 1891
   }
 ]
