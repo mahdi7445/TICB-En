@@ -12980,8 +12980,8 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
-          "6": false
+          "4": true,
+          "6": true
         },
         "trailing": false,
         "closed": false,
@@ -13005,6 +13005,18 @@
             "type": "rr",
             "ts": "2026-10-11T13:39:57.755591+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-11T17:26:55.707972+00:00",
+            "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-11T17:26:55.708001+00:00",
+            "level_r": 6,
             "note": "forwarded"
           }
         ],
