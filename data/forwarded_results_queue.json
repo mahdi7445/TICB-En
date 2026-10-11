@@ -2014,5 +2014,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-11T13:38:51.515475+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ENA",
+    "tf_label": "1H",
+    "entry": 0.221,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000219",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-11T17:26:17.762227+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ENA",
+    "tf_label": "1H",
+    "entry": 0.221,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000219",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-11T17:26:19.702045+00:00"
   }
 ]
