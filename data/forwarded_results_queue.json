@@ -2074,5 +2074,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-11T18:17:42.955466+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "ENA",
+    "tf_label": "1H",
+    "entry": 0.221,
+    "level": null,
+    "result_r": 4.47,
+    "source_signal_id": "ALT-000219",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-11T19:26:32.549671+00:00"
   }
 ]
