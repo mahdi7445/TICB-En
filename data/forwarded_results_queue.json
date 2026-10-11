@@ -1990,5 +1990,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-10T18:00:15.953486+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ENA",
+    "tf_label": "1H",
+    "entry": 0.221,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000219",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-11T01:57:43.618281+00:00"
   }
 ]
