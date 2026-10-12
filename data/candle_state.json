@@ -13281,6 +13281,56 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000225": {
+      "open_trade": {
+        "signal_id": "ALT-000225",
+        "source_signal_id": "ALT-000225",
+        "side": "SELL",
+        "entry": 0.10141,
+        "sl": 0.10172,
+        "r": 0.0003100000000000047,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": true,
+        "symbol": "STRK/USD",
+        "tf_key": "manual",
+        "display": "STRK",
+        "opened_at_ms": 1791791269402,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-12T07:47:49.402111+00:00",
+            "price": 0.10141
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-12T07:47:49.426231+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-12T07:47:49.427061+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
+          }
+        ],
+        "signal_message_id": 1915,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m",
+        "close_type": "stop"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
