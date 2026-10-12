@@ -2110,5 +2110,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-12T07:47:02.971102+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "1H",
+    "entry": 5.88,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000223",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-12T08:15:52.104747+00:00"
   }
 ]
