@@ -13418,10 +13418,10 @@
           "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "STRK/USD",
         "tf_key": "manual",
         "display": "STRK",
@@ -13449,6 +13449,23 @@
             "ts": "2026-10-12T09:14:11.155102+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-12T09:14:57.989060+00:00",
+            "level_r": 6,
+            "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-10-12T09:14:57.989089+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-12T09:14:57.989778+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.34
           }
         ],
         "signal_message_id": 1922,
@@ -13458,7 +13475,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "runner_stop"
       },
       "hist": []
     }
