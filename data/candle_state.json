@@ -13538,7 +13538,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BAT/USD",
         "tf_key": "manual",
         "display": "BAT",
@@ -13548,6 +13548,17 @@
             "type": "opened",
             "ts": "2026-10-12T19:19:27.442214+00:00",
             "price": 0.1517
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-12T19:28:18.633431+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-12T19:28:18.634316+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 1933,
@@ -13557,7 +13568,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "stop"
       },
       "hist": []
     }
