@@ -5720,5 +5720,48 @@
     "stop_pct": 1.1237,
     "fee_r_est": 0.1335,
     "net_r_est": -1.1335
+  },
+  {
+    "signal_id": "TC-000074",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-12T05:39:16.934218+00:00",
+        "price": 83780.5
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-12T12:40:49.113686+00:00",
+        "price": 83276.75
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-12T12:40:49.597010+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "4h",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 83925.45,
+    "sl": 83276.75,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-12T05:39:16.934000+00:00",
+    "closed_at": "2026-10-12T12:40:49.597010+00:00",
+    "r_pct": 0.7729,
+    "mfe_r": 0.658,
+    "mae_r": -1.0,
+    "quality_tier": "verified",
+    "strategy": "pin+htf1d-v1",
+    "htf_trend": 1,
+    "htf_aligned": true,
+    "stop_pct": 0.7729,
+    "fee_r_est": 0.1941,
+    "net_r_est": -1.1941
   }
 ]
