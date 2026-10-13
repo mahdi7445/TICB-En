@@ -372,3 +372,198 @@ def gen_dow(d, step_ms, thr=2.0):
             if c[i] < Ls[1][1] and ("D", Ls[1][0]) not in used:
                 used.add(("D", Ls[1][0])); idx.append(i); side.append(-1); sl.append(Hs[1][1] + 0.1 * atr[i]); tp.append(np.nan)
     return _pack(idx, side, sl, tp)
+
+
+# ============================================================================= round 3: two-leg v2 (user spec), SMC, equal-lows sweep
+def _neg(d):
+    """Mirror image of a candle dict (short side = the same long code on negated prices)."""
+    return {"t": d["t"], "o": -d["o"], "h": -d["l"], "l": -d["h"], "c": -d["c"], "v": d["v"]}
+
+
+def _both(fn, d, **kw):
+    """Run a long-only detector `fn(o,h,l,c,atr,**kw) -> [(i, stop, tp)]` on d and on its mirror; merge to (idx, side, sl, tp)."""
+    atr = _atr(d); dn = _neg(d)
+    L = fn(d["o"], d["h"], d["l"], d["c"], atr, **kw)
+    S = fn(dn["o"], dn["h"], dn["l"], dn["c"], atr, **kw)
+    rows = [(i, 1, s, t) for i, s, t in L] + [(i, -1, -s, -t) for i, s, t in S]
+    rows.sort(key=lambda r: r[0])
+    return _pack([r[0] for r in rows], [r[1] for r in rows], [r[2] for r in rows], [r[3] for r in rows])
+
+
+def _twoleg2_long(o, h, l, c, atr, m=3, thr=1.2, size_tol=0.6, retr_min=0.25, sr_tol=1.5, window=15, retest_window=12,
+                  min_rr=1.2, sweep=True, need_support=True, entry="retest", nl_mult=2):
+    """TWO-LEG + V, exactly as specified (long version; short = mirror).
+      leg 1 DOWN (H0->L1), pullback to H2, leg 2 DOWN (H2->V low) of a similar size;
+      the V low must sit on a FLOOR zone (an earlier swing low) and - if sweep=True - must PIERCE it (liquidity under the
+      old low is taken) while price closes back above the old low;
+      NECKLINE = the highest high of the last `nl_mult*m` bars before the V low (the top of the V);
+      entry="retest": after a CLOSE above the neckline wait for price to come BACK to the neckline and bounce
+                      (low <= neckline+0.1ATR, bullish close above it) -> signal at that close;
+      entry="break" : signal on the neckline-break close itself (for comparison);
+      stop = under the V low / sweep wick - 0.1 ATR;  target = H2 (the top where leg 2 started).
+    Strictly causal: pivots are used only after their confirm bar; the fractal V low j=i-m is known at bar i."""
+    n = len(h); out = []
+    piv = _zigzag_pivots_up(h, l, atr, thr)
+    pend = None; last_sig = -10**9; pj = 0
+    for i in range(2 * m + 1, n):
+        while pj < len(piv) and piv[pj][3] <= i:
+            pj += 1
+        if math.isnan(atr[i]):
+            continue
+        if pend is not None:
+            neck, stop, tgt, phase, exp = pend
+            if l[i] <= stop:
+                pend = None
+            elif phase == 0:
+                if c[i] > neck:
+                    if entry == "break":
+                        if (tgt - c[i]) >= min_rr * (c[i] - stop):
+                            out.append((i, stop, tgt)); last_sig = i
+                        pend = None
+                    else:
+                        pend = (neck, stop, tgt, 1, i + retest_window)
+                elif i > exp:
+                    pend = None
+            else:
+                if h[i] >= tgt or i > exp or c[i] < neck - 0.5 * atr[i]:
+                    pend = None
+                elif l[i] <= neck + 0.1 * atr[i] and c[i] > neck and c[i] > o[i]:
+                    if (tgt - c[i]) >= min_rr * (c[i] - stop):
+                        out.append((i, stop, tgt)); last_sig = i
+                    pend = None
+        if pend is not None or i - last_sig < 2 * m:
+            continue
+        j = i - m
+        if l[j] != l[j - m:j + m + 1].min():
+            continue
+        known = piv[:pj]
+        hs = [p for p in known if p[2] == "H" and p[0] < j]
+        if not hs:
+            continue
+        H2 = hs[-1]
+        prev = [p for p in known if p[0] < H2[0]]
+        if len(prev) < 2 or prev[-1][2] != "L" or prev[-2][2] != "H":
+            continue
+        L1, H0 = prev[-1], prev[-2]
+        leg1 = H0[1] - L1[1]; leg2 = H2[1] - l[j]
+        if leg1 <= 0 or leg2 <= 0 or abs(leg2 / leg1 - 1.0) > size_tol:
+            continue
+        if not (retr_min <= (H2[1] - L1[1]) / leg1 < 1.0):
+            continue
+        a = atr[j] if not math.isnan(atr[j]) else atr[i]
+        sup = [p[1] for p in known if p[2] == "L" and p[0] < H2[0]]
+        near = [s_ for s_ in sup if abs(l[j] - s_) <= sr_tol * a or l[j] < s_]
+        if need_support or sweep:
+            if not [s_ for s_ in sup if abs(l[j] - s_) <= sr_tol * a]:
+                continue
+        if sweep:
+            lvl = min([s_ for s_ in sup if abs(l[j] - s_) <= sr_tol * a], key=lambda s_: abs(l[j] - s_))
+            if not (l[j] < lvl - 0.02 * a and max(c[j:j + m + 1]) > lvl):
+                continue
+        neck = float(h[max(j - nl_mult * m, 0):j + 1].max())
+        stop = float(l[j - m:j + m + 1].min()) - 0.1 * a
+        tgt = H2[1]
+        if neck >= tgt or l[j + 1:i + 1].size and l[j + 1:i + 1].min() <= stop:
+            continue
+        broke = bool(c[j + 1:i + 1].size and (c[j + 1:i + 1] > neck).any())
+        if broke:
+            if entry == "break" or h[j + 1:i + 1].max() >= tgt:
+                continue
+            pend = (neck, stop, tgt, 1, i + retest_window)
+        else:
+            pend = (neck, stop, tgt, 0, i + window)
+    return out
+
+
+def gen_two_leg2(d, step_ms, **kw):
+    """Two-leg + V v2 (both directions). kw: m, thr, size_tol, retr_min, sr_tol, sweep, need_support, entry, min_rr, window, retest_window."""
+    return _both(_twoleg2_long, d, **kw)
+
+
+def _smc_long(o, h, l, c, atr, m=3, kind="ob", mode="any", zone_window=30, fvg_impulse=1.0):
+    """Smart-money structure (long version; short = mirror).
+    Swings = m-bar fractals (known m bars later). BOS = close beyond the last swing high while the structure was already
+    up; CHoCH = the same close while it was down (first break against the trend).
+    kind="ob" : after the chosen break (mode = "bos" | "choch" | "any") the ORDER BLOCK = last bearish candle of the leg that
+                made the break; signal when price comes back into the block and closes bullish above its low.
+    kind="fvg": bullish fair-value gap (low[i] > high[i-2]) created by an impulse candle >= fvg_impulse ATR while the
+                structure is up; signal when price retraces into the gap and closes bullish above the gap low.
+    stop = under the block / gap - buffer; target = the high of the impulse leg (OB) or none (FVG)."""
+    n = len(h); out = []
+    sh = None; sw = None; trend = 0; zones = []
+    for i in range(2 * m + 1, n):
+        if math.isnan(atr[i]):
+            continue
+        j = i - m
+        if h[j] == h[j - m:j + m + 1].max() and (sh is None or j > sh[0]):
+            sh = [j, h[j], False]
+        if l[j] == l[j - m:j + m + 1].min() and (sw is None or j > sw[0]):
+            sw = [j, l[j], False]
+        # 1) resolve open zones (zones created on an earlier bar only)
+        keep = []
+        for z in zones:
+            zlo, zhi, stop, tgt, born, exp = z
+            if c[i] < zlo or i > exp:
+                continue
+            if l[i] <= zhi and c[i] > o[i] and c[i] >= zlo:
+                if not math.isnan(tgt) and tgt <= c[i]:
+                    tgt = float("nan")
+                out.append((i, stop, tgt))
+                continue
+            keep.append(z)
+        zones = keep[-4:]
+        # 2) structure
+        if sh is not None and not sh[2] and c[i] > sh[1]:
+            was = trend; sh[2] = True; trend = 1
+            kb = "bos" if was == 1 else "choch"
+            if kind == "ob" and (mode == "any" or mode == kb) and sw is not None and sw[0] < i:
+                ob = None
+                for k in range(i - 1, max(sw[0] - 3, 0) - 1, -1):   # last bearish candle at / just before the swing low
+                    if c[k] < o[k]:
+                        ob = k; break
+                if ob is not None:
+                    zones.append((float(l[ob]), float(h[ob]), float(l[ob]) - 0.1 * atr[i], float(h[sw[0]:i + 1].max()), i, i + zone_window))
+        if sw is not None and not sw[2] and c[i] < sw[1]:
+            sw[2] = True; trend = -1
+        # 3) fair-value gap
+        if kind == "fvg" and i >= 2 and (trend == 1 or mode == "any") and l[i] > h[i - 2] and (c[i - 1] - o[i - 1]) >= fvg_impulse * atr[i]:
+            zones.append((float(h[i - 2]), float(l[i]), float(h[i - 2]) - 0.25 * atr[i], float("nan"), i, i + zone_window))
+    return out
+
+
+def gen_smc(d, step_ms, **kw):
+    return _both(_smc_long, d, **kw)
+
+
+def _eql_long(o, h, l, c, atr, m=3, tol=0.15, life=150, tp_look=30):
+    """Equal-lows liquidity pool (long version): two confirmed swing lows within `tol` ATR of each other = a pool of stops.
+    A later bar that wicks UNDER the pool and CLOSES back above it takes the liquidity -> long. Stop under the wick,
+    target = highest high of the last `tp_look` bars."""
+    n = len(h); out = []; lows = []; levels = []
+    for i in range(2 * m + 1, n):
+        if math.isnan(atr[i]):
+            continue
+        j = i - m
+        if l[j] == l[j - m:j + m + 1].min():
+            for q in lows:
+                if j - q[0] <= life and abs(q[1] - l[j]) <= tol * atr[i] and q[0] != j:
+                    levels.append([min(q[1], l[j]), i + life, False]); break
+            lows.append((j, float(l[j])))
+            lows = lows[-30:]
+        keep = []; fired = None
+        for lv in levels:
+            if lv[1] < i:
+                continue
+            if l[i] < lv[0] - 0.02 * atr[i] and c[i] > lv[0]:
+                fired = True                              # one signal per bar; every pool this bar swept is consumed
+                continue
+            keep.append(lv)
+        if fired:
+            tp = float(h[max(0, i - tp_look):i].max())
+            out.append((i, float(l[i]) - 0.1 * atr[i], tp if tp > c[i] else float("nan")))
+        levels = keep[-8:]
+    return out
+
+
+def gen_eql(d, step_ms, **kw):
+    return _both(_eql_long, d, **kw)
