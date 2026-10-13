@@ -13594,7 +13594,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "STRK/USD",
         "tf_key": "manual",
         "display": "STRK",
@@ -13604,6 +13604,17 @@
             "type": "opened",
             "ts": "2026-10-13T05:51:52.133098+00:00",
             "price": 0.08712
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-13T05:53:18.359159+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-13T05:53:18.360005+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 1939,
@@ -13613,7 +13624,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "stop"
       },
       "hist": []
     }
