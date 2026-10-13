@@ -2242,5 +2242,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-13T05:52:54.230005+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PONS",
+    "tf_label": "1M",
+    "entry": 0.299,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000230",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-13T13:04:37.450023+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "PONS",
+    "tf_label": "1M",
+    "entry": 0.299,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000230",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-13T13:04:41.349440+00:00"
   }
 ]
