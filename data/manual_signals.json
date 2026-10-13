@@ -1363,5 +1363,19 @@
     "source_signal_id": "ALT-000229",
     "signal_message_id": 1939,
     "activated_at": "2026-10-13T05:51:52.133120+00:00"
+  },
+  {
+    "id": "src-ALT-000230",
+    "symbol": "PONS/USD",
+    "side": "BUY",
+    "entry": 0.299,
+    "sl": 0.2977,
+    "status": "pending",
+    "created_at": 1791896286,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000230",
+    "signal_message_id": 1941
   }
 ]
