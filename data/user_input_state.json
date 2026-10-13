@@ -1,7 +1,7 @@
 {
   "378486866": {
-    "kind": "setrisk_balance",
+    "kind": "lookup_signal",
     "data": {},
-    "ts": 1791182990
+    "ts": 1791850394
   }
 }
