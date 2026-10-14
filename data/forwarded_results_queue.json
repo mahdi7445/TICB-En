@@ -2266,5 +2266,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-13T13:04:41.349440+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "BAT",
+    "tf_label": "1M",
+    "entry": 0.1954,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000231",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-14T06:40:05.127890+00:00"
   }
 ]
