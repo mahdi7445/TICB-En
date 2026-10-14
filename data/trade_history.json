@@ -6110,5 +6110,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "TC-000077",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-14T15:33:30.502893+00:00",
+        "price": 2439.38
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-14T15:45:03.320795+00:00",
+        "price": 2431.9
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-14T15:45:04.046700+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "BUY",
+    "entry": 2441.25,
+    "sl": 2431.9,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-14T15:33:30.502000+00:00",
+    "closed_at": "2026-10-14T15:45:04.046700+00:00",
+    "r_pct": 0.383,
+    "mfe_r": 0.0,
+    "mae_r": -1.0,
+    "quality_tier": "experimental",
+    "strategy": "pin+htf1d-v1",
+    "htf_trend": 0,
+    "htf_aligned": false,
+    "stop_pct": 0.383,
+    "fee_r_est": 0.3916,
+    "net_r_est": -1.3916
   }
 ]
