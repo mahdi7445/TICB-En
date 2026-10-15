@@ -14049,7 +14049,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ZAMA/USD",
         "tf_key": "manual",
         "display": "ZAMA",
@@ -14065,6 +14065,17 @@
             "ts": "2026-10-15T12:03:12.360026+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-15T12:09:03.167115+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-15T12:09:03.168108+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 1975,
@@ -14074,7 +14085,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "breakeven"
       },
       "hist": []
     }

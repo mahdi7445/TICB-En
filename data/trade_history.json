@@ -6334,5 +6334,56 @@
     "stop_pct": 0.4854,
     "fee_r_est": 0.309,
     "net_r_est": 1.791
+  },
+  {
+    "signal_id": "ALT-000236",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-15T12:00:40.914651+00:00",
+        "price": 0.07385
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-15T12:03:12.360026+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-15T12:09:03.167115+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-15T12:09:03.168108+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "ZAMA/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.07385,
+    "sl": 0.07414,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-15T12:00:40.914000+00:00",
+    "closed_at": "2026-10-15T12:09:03.168108+00:00",
+    "r_pct": 0.3927,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
