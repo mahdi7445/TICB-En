@@ -2446,5 +2446,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-15T12:02:22.443303+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ZAMA",
+    "tf_label": "1M",
+    "entry": 0.07385,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000236",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-15T12:08:18.807864+00:00"
   }
 ]
