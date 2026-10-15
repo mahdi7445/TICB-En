@@ -14033,6 +14033,44 @@
         "close_type": "sl_after_t2"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000236": {
+      "open_trade": {
+        "signal_id": "ALT-000236",
+        "source_signal_id": "ALT-000236",
+        "side": "SELL",
+        "entry": 0.07385,
+        "sl": 0.07414,
+        "r": 0.0002899999999999986,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ZAMA/USD",
+        "tf_key": "manual",
+        "display": "ZAMA",
+        "opened_at_ms": 1792065640914,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-15T12:00:40.914651+00:00",
+            "price": 0.07385
+          }
+        ],
+        "signal_message_id": 1975,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
