@@ -1453,5 +1453,19 @@
     "source_signal_id": "ALT-000235",
     "signal_message_id": 1970,
     "activated_at": "2026-10-15T02:39:09.708586+00:00"
+  },
+  {
+    "id": "src-ALT-000236",
+    "symbol": "ZAMA/USD",
+    "side": "SELL",
+    "entry": 0.07385,
+    "sl": 0.07414,
+    "status": "pending",
+    "created_at": 1792065606,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000236",
+    "signal_message_id": 1975
   }
 ]
