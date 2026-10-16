@@ -2482,5 +2482,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-15T17:46:27.704409+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "STRK",
+    "tf_label": "1M",
+    "entry": 0.08424,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000238",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-16T05:14:10.728380+00:00"
   }
 ]
