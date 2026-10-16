@@ -1528,5 +1528,19 @@
     "source_signal_id": "ALT-000240",
     "signal_message_id": 1995,
     "activated_at": "2026-10-16T14:05:31.408501+00:00"
+  },
+  {
+    "id": "src-ALT-000241",
+    "symbol": "STRK/USD",
+    "side": "SELL",
+    "entry": 0.07704,
+    "sl": 0.0772,
+    "status": "pending",
+    "created_at": 1792160944,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000241",
+    "signal_message_id": 1998
   }
 ]
