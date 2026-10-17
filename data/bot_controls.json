@@ -37,8 +37,8 @@
   "weekly_loss_limit_r": 8.0
  },
  "ticb": {
-  "daily_loss_filter": false,
-  "daily_loss_limit_r": 3.0,
+  "daily_loss_filter": true,
+  "daily_loss_limit_r": 5.0,
   "max_open_filter": false,
   "max_open_trades": 6,
   "max_per_day_filter": false,
