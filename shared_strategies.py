@@ -584,7 +584,7 @@ def _rsi(c, n=14):
     return out
 
 
-def _hdv_long(o, h, l, c, atr, thr=1.5, rsi_n=14, lookback=80, inside=True, brk_wait=4, ib_wait=10, buf_atr=0.1):
+def _hdv_long(o, h, l, c, atr, thr=1.5, rsi_n=14, lookback=80, inside=True, brk_wait=4, ib_wait=10, buf_atr=0.1, stop_mode="swing"):
     """HIDDEN BULLISH DIVERGENCE + INSIDE-BAR confirmation (long version; short = mirror).
       1) swing low = ATR-zigzag low (price reversed by >= thr ATR after it) - the 'bottom candle'; known only after that reversal;
       2) hidden bullish divergence: the new swing low is HIGHER than the previous swing low (within `lookback` bars) while RSI at
@@ -592,7 +592,8 @@ def _hdv_long(o, h, l, c, atr, thr=1.5, rsi_n=14, lookback=80, inside=True, brk_
       3) confirmation: within `ib_wait` bars an INSIDE BAR (high <= prev high and low >= prev low, low above the stop) forms;
          then a CLOSE above the inside bar's high within `brk_wait` bars gives the signal (inside=False: a bullish bar that
          closes above the previous bar's high is enough);
-      4) stop = under the swing-low candle - buf_atr*ATR; exits are decided by the lab (the bot's 4-target ladder).
+      4) stop = under the swing-low candle - buf_atr*ATR (stop_mode="swing", the default); stop_mode="ib" puts it under the INSIDE
+         BAR's low instead (much tighter), "mid" halfway between the two; exits are decided by the lab (the bot's 4-target ladder).
     Causal: a swing low is only used from its zigzag confirm bar on; the bars between it and the confirm bar are replayed."""
     n = len(h); out = []
     rsi = _rsi(c, rsi_n)
@@ -601,20 +602,23 @@ def _hdv_long(o, h, l, c, atr, thr=1.5, rsi_n=14, lookback=80, inside=True, brk_
     st = None                            # active setup: [stop, phase, trigger, deadline]
     def advance(k, live=True):
         nonlocal st
-        stop, phase, trig, dl = st
+        stop, phase, trig, dl = st[:4]
         if l[k] <= stop or k > dl:
             st = None; return
         if phase == 0:
             if inside:
                 if h[k] <= h[k - 1] and l[k] >= l[k - 1] and l[k] > stop:
                     st[1] = 1; st[2] = float(h[k]); st[3] = k + brk_wait
+                    ibs = float(l[k]) - buf_atr * atr[k]
+                    if stop_mode == "ib": st[0] = max(stop, ibs)
+                    elif stop_mode == "mid": st[0] = 0.5 * (stop + max(stop, ibs))
             elif c[k] > o[k] and c[k] > h[k - 1]:
                 if live:
                     out.append((k, stop, float("nan")))
                 st = None                  # a trigger that fired BEFORE the setup was known (replay) is dropped, never back-dated
         elif c[k] > trig:
             if live:
-                out.append((k, stop, float("nan")))
+                out.append((k, st[0], float("nan")))
             st = None
     pj = 0; last_replayed = -1
     for i in range(1, n):
