@@ -1,0 +1,81 @@
+# Verdict round for (a) the 19 low-timeframe strategies from the two text files and (b) CNDL = the bots' ORIGINAL candle-signal
+# strategy on every timeframe (1m/5m/15m/1h/4h, one verdict per timeframe: "CNDL@5m" ...). All with ALL exit ladders (--design).
+# Strict PASS rules: t>=4, train/test/last-20% all >0, >=50% symbols positive, PF>=1.2, win>=40%, still >0 at 1.5x cost.
+# Output: data/lowtf_verdicts.json is committed to the repo -> admin panel unlocks PASS strategies; bots read it (SGNL remotely).
+name: Strategy lab lowtf verdicts
+concurrency:
+  group: strategy-lab-lowtf-verdicts
+  cancel-in-progress: true
+on:
+  workflow_dispatch:
+    inputs:
+      fee:
+        description: "Round-trip fee+slippage in % of price"
+        default: "0.10"
+permissions:
+  contents: write
+jobs:
+  part:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    strategy:
+      fail-fast: false
+      max-parallel: 6      # سقف هم‌زمانی: سهمیه‌ی رایگان ۲۰ جاب است؛ بقیه برای ربات‌ها (Candle Engine / Subscription Bot / SGNL) آزاد بماند
+      matrix:
+        group:
+          - { id: s1, symbols: "BTCUSDT ETHUSDT SOLUSDT XRPUSDT DOGEUSDT ADAUSDT" }
+          - { id: s2, symbols: "LINKUSDT AVAXUSDT LTCUSDT DOTUSDT ATOMUSDT NEARUSDT" }
+          - { id: s3, symbols: "UNIUSDT BCHUSDT ETCUSDT TRXUSDT XLMUSDT FILUSDT" }
+          - { id: s4, symbols: "AAVEUSDT ALGOUSDT SANDUSDT ICPUSDT ARBUSDT OPUSDT" }
+          - { id: s5, symbols: "INJUSDT SUIUSDT HBARUSDT BATUSDT" }
+        tf:
+          - { id: 1m, d1: 90, d5: 0, d15: 200 }
+          - { id: 5m, d1: 0, d5: 730, d15: 200 }
+          - { id: 15m, d1: 0, d5: 0, d15: 2000 }
+          - { id: 1h, d1: 0, d5: 0, d15: 2000 }
+          - { id: 4h, d1: 0, d5: 0, d15: 2000 }
+    env:
+      TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Back-test ${{ matrix.tf.id }} / ${{ matrix.group.id }}
+        run: python -u strategy_lab.py --fetch ${{ matrix.group.symbols }} --tf ${{ matrix.tf.id }} --days1 ${{ matrix.tf.d1 }} --days5 ${{ matrix.tf.d5 }} --days15 ${{ matrix.tf.d15 }} --days1h ${{ matrix.tf.d15 }} --days4h ${{ matrix.tf.d15 }} --design --gens CNDL RFD SWR RSM MTS DKS TKF TKM TKS SMM SMS LSM TPB TPS VCB VCR FBR MRA MRB MTC --dump part_${{ matrix.tf.id }}_${{ matrix.group.id }}.pkl 2>&1 | tee log_${{ matrix.tf.id }}_${{ matrix.group.id }}.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: vpart-${{ matrix.tf.id }}-${{ matrix.group.id }}
+          if-no-files-found: warn
+          path: |
+            part_*.pkl
+            log_*.txt
+  merge:
+    needs: [part]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with: { path: parts }
+      - name: Verdicts
+        run: |
+          mkdir -p data
+          python -u strategy_lab.py --design --merge $(find parts -name 'part_*.pkl' | sort) --fee ${{ github.event.inputs.fee }} --verdicts data/lowtf_verdicts.json 2>&1 | tee lowtf_verdicts_report.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lowtf-verdicts
+          path: |
+            lowtf_verdicts_report.txt
+            data/lowtf_verdicts.json
+      - name: Commit verdicts
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git add data/lowtf_verdicts.json
+          git diff --cached --quiet || (git commit -m "lowtf verdicts (lab)" && git pull --rebase && git push)
