@@ -14434,6 +14434,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000243": {
+      "open_trade": {
+        "signal_id": "ALT-000243",
+        "source_signal_id": "ALT-000243",
+        "side": "BUY",
+        "entry": 0.1775,
+        "sl": 0.1763,
+        "r": 0.0011999999999999789,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "BAT/USD",
+        "tf_key": "manual",
+        "display": "BAT",
+        "opened_at_ms": 1792243205863,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-17T13:20:05.863261+00:00",
+            "price": 0.1775
+          }
+        ],
+        "signal_message_id": 2007,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
