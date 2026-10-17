@@ -1558,5 +1558,19 @@
     "source_signal_id": "ALT-000242",
     "signal_message_id": 2003,
     "activated_at": "2026-10-16T17:10:20.622798+00:00"
+  },
+  {
+    "id": "src-ALT-000243",
+    "symbol": "BAT/USD",
+    "side": "BUY",
+    "entry": 0.1775,
+    "sl": 0.1763,
+    "status": "pending",
+    "created_at": 1792243151,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000243",
+    "signal_message_id": 2007
   }
 ]
