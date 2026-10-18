@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "code": "TICOFFCD",
+    "percent": 20.0,
+    "max_uses": null,
+    "used": 0,
+    "expires_at": null,
+    "active": true
+  }
+]
