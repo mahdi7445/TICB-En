@@ -1618,5 +1618,19 @@
     "source_signal_id": "ALT-000247",
     "signal_message_id": 2018,
     "activated_at": "2026-10-18T03:08:39.059400+00:00"
+  },
+  {
+    "id": "src-ALT-000248",
+    "symbol": "CRO/USD",
+    "side": "SELL",
+    "entry": 0.05689,
+    "sl": 0.05725,
+    "status": "pending",
+    "created_at": 1792293758,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000248",
+    "signal_message_id": 2019
   }
 ]
