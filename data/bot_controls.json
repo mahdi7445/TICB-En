@@ -1,4 +1,7 @@
 {
+ "_public": {
+  "from": "2026-10-18T16:28"
+ },
  "sgnl": {
   "daily_loss_filter": false,
   "daily_loss_limit_r": 3.0,
