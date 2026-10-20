@@ -8,18 +8,18 @@
     "SWP|ETH/USD|4h": 1792440000000,
     "TS1|BTC/USD|1h": 1792454400000,
     "TS1|ETH/USD|1h": 1792454400000,
-    "CN1M|BTC/USD|1m": 1792458780000,
-    "CN1M|ETH/USD|1m": 1792458780000,
-    "CN5M|BTC/USD|5m": 1792458300000,
-    "CN5M|ETH/USD|5m": 1792458300000,
-    "CN15|BTC/USD|15m": 1792457100000,
-    "CN15|ETH/USD|15m": 1792457100000,
+    "CN1M|BTC/USD|1m": 1792458840000,
+    "CN1M|ETH/USD|1m": 1792458840000,
+    "CN5M|BTC/USD|5m": 1792458600000,
+    "CN5M|ETH/USD|5m": 1792458600000,
+    "CN15|BTC/USD|15m": 1792458000000,
+    "CN15|ETH/USD|15m": 1792458000000,
     "CN1H|BTC/USD|1h": 1792454400000,
     "CN1H|ETH/USD|1h": 1792454400000,
     "CN4H|BTC/USD|4h": 1792440000000,
     "CN4H|ETH/USD|4h": 1792440000000,
-    "TKF|BTC/USD|5m": 1792458300000,
-    "TKF|ETH/USD|5m": 1792458300000,
+    "TKF|BTC/USD|5m": 1792458600000,
+    "TKF|ETH/USD|5m": 1792458600000,
     "TPS|BTC/USD|1h": 1792454400000,
     "TPS|ETH/USD|1h": 1792454400000,
     "MRA|BTC/USD|1h": 1792454400000,
@@ -30,39 +30,39 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 312,
+      "checks": 314,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792458864
+      "last_check": 1792458927
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 62,
+      "checks": 64,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792458624
+      "last_check": 1792458929
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 62,
+      "checks": 64,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792458624
+      "last_check": 1792458932
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 20,
+      "checks": 22,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792458043
+      "last_check": 1792458932
     },
     "TS1": {
       "since": 1792450810,
