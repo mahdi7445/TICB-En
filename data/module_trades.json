@@ -37,7 +37,9 @@
     "HOT|ARB/USD|15m|SELL": 1792500300000,
     "HOT|NEAR/USD|15m|SELL": 1792500300000,
     "HOT|TIA/USD|15m|BUY": 1792500300000,
-    "HOT|WLD/USD|15m|BUY": 1792500300000
+    "HOT|WLD/USD|15m|BUY": 1792500300000,
+    "HOT|ZRO/USD|5m|SELL": 1792500900000,
+    "HOT|ZRO/USD|15m|SELL": 1792500300000
   },
   "diag": {
     "CN1M": {
@@ -150,14 +152,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 137,
+      "checks": 139,
       "nodata": 0,
       "raw": 0,
       "blocked": {
         "no_pullback": 101
       },
       "opened": 0,
-      "last_check": 1792501223
+      "last_check": 1792501362
     },
     "SMS": {
       "since": 1792499819,
@@ -183,25 +185,20 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792501323,
-    "buy": [
-      [
-        "TIA/USD",
-        4.26
-      ],
-      [
-        "WLD/USD",
-        4.01
-      ]
-    ],
+    "ts": 1792501357,
+    "buy": [],
     "sell": [
       [
-        "ARB/USD",
-        -4.41
+        "NEAR/USD",
+        -5.03
       ],
       [
-        "NEAR/USD",
-        -4.02
+        "ARB/USD",
+        -4.87
+      ],
+      [
+        "ZRO/USD",
+        -4.13
       ]
     ],
     "pool": 26
