@@ -8,8 +8,8 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792494000000,
     "TS1|ETH/USD|1h": 1792494000000,
-    "CN1M|BTC/USD|1m": 1792498920000,
-    "CN1M|ETH/USD|1m": 1792498920000,
+    "CN1M|BTC/USD|1m": 1792498980000,
+    "CN1M|ETH/USD|1m": 1792498980000,
     "CN5M|BTC/USD|5m": 1792498500000,
     "CN5M|ETH/USD|5m": 1792498500000,
     "CN15|BTC/USD|15m": 1792497600000,
@@ -28,17 +28,18 @@
     "MRB|ETH/USD|1h": 1792494000000,
     "HOT|ARB/USD|5m|SELL": 1792498500000,
     "HOT|NEAR/USD|5m|SELL": 1792498500000,
-    "HOT|TIA/USD|5m|BUY": 1792498500000
+    "HOT|TIA/USD|5m|BUY": 1792498500000,
+    "HOT|WLD/USD|5m|BUY": 1792498500000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1636,
+      "checks": 1638,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792498984
+      "last_check": 1792499049
     },
     "CN5M": {
       "since": 1792449613,
@@ -141,14 +142,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 97,
+      "checks": 98,
       "nodata": 0,
       "raw": 0,
       "blocked": {
-        "no_pullback": 81
+        "no_pullback": 82
       },
       "opened": 0,
-      "last_check": 1792498813
+      "last_check": 1792499052
     }
   },
   "hot_daily": {
@@ -156,21 +157,25 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792499016,
+    "ts": 1792499082,
     "buy": [
       [
         "TIA/USD",
-        5.39
+        4.52
+      ],
+      [
+        "WLD/USD",
+        3.07
       ]
     ],
     "sell": [
       [
-        "NEAR/USD",
-        -4.46
+        "ARB/USD",
+        -4.31
       ],
       [
-        "ARB/USD",
-        -4.36
+        "NEAR/USD",
+        -3.9
       ]
     ],
     "pool": 27
