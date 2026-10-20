@@ -8,12 +8,12 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792494000000,
     "TS1|ETH/USD|1h": 1792494000000,
-    "CN1M|BTC/USD|1m": 1792499280000,
-    "CN1M|ETH/USD|1m": 1792499280000,
-    "CN5M|BTC/USD|5m": 1792498800000,
-    "CN5M|ETH/USD|5m": 1792498800000,
-    "CN15|BTC/USD|15m": 1792497600000,
-    "CN15|ETH/USD|15m": 1792497600000,
+    "CN1M|BTC/USD|1m": 1792499340000,
+    "CN1M|ETH/USD|1m": 1792499340000,
+    "CN5M|BTC/USD|5m": 1792499100000,
+    "CN5M|ETH/USD|5m": 1792499100000,
+    "CN15|BTC/USD|15m": 1792498500000,
+    "CN15|ETH/USD|15m": 1792498500000,
     "CN1H|BTC/USD|1h": 1792494000000,
     "CN1H|ETH/USD|1h": 1792494000000,
     "CN4H|BTC/USD|4h": 1792483200000,
@@ -26,29 +26,29 @@
     "MRA|ETH/USD|1h": 1792494000000,
     "MRB|BTC/USD|1h": 1792494000000,
     "MRB|ETH/USD|1h": 1792494000000,
-    "HOT|ARB/USD|5m|SELL": 1792498800000,
-    "HOT|NEAR/USD|5m|SELL": 1792498800000,
-    "HOT|TIA/USD|5m|BUY": 1792498800000,
-    "HOT|WLD/USD|5m|BUY": 1792498800000
+    "HOT|ARB/USD|5m|SELL": 1792499100000,
+    "HOT|NEAR/USD|5m|SELL": 1792499100000,
+    "HOT|TIA/USD|5m|BUY": 1792499100000,
+    "HOT|WLD/USD|5m|BUY": 1792499100000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1648,
+      "checks": 1650,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792499370
+      "last_check": 1792499403
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 332,
+      "checks": 334,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792499117
+      "last_check": 1792499405
     },
     "TKF": {
       "since": 1792449614,
@@ -61,12 +61,12 @@
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 110,
+      "checks": 112,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792498527
+      "last_check": 1792499408
     },
     "TS1": {
       "since": 1792450810,
@@ -142,14 +142,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 102,
+      "checks": 106,
       "nodata": 0,
       "raw": 0,
       "blocked": {
-        "no_pullback": 84
+        "no_pullback": 86
       },
       "opened": 0,
-      "last_check": 1792499122
+      "last_check": 1792499412
     }
   },
   "hot_daily": {
@@ -157,7 +157,7 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792499369,
+    "ts": 1792499432,
     "buy": [
       [
         "TIA/USD",
