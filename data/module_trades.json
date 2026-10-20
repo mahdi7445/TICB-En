@@ -8,10 +8,10 @@
     "SWP|ETH/USD|4h": 1792468800000,
     "TS1|BTC/USD|1h": 1792490400000,
     "TS1|ETH/USD|1h": 1792490400000,
-    "CN1M|BTC/USD|1m": 1792496280000,
-    "CN1M|ETH/USD|1m": 1792496280000,
-    "CN5M|BTC/USD|5m": 1792495800000,
-    "CN5M|ETH/USD|5m": 1792495800000,
+    "CN1M|BTC/USD|1m": 1792496400000,
+    "CN1M|ETH/USD|1m": 1792496400000,
+    "CN5M|BTC/USD|5m": 1792496100000,
+    "CN5M|ETH/USD|5m": 1792496100000,
     "CN15|BTC/USD|15m": 1792494900000,
     "CN15|ETH/USD|15m": 1792494900000,
     "CN1H|BTC/USD|1h": 1792490400000,
@@ -26,27 +26,27 @@
     "MRA|ETH/USD|1h": 1792490400000,
     "MRB|BTC/USD|1h": 1792490400000,
     "MRB|ETH/USD|1h": 1792490400000,
-    "HOT|ARB/USD|5m|SELL": 1792495800000,
-    "HOT|NEAR/USD|5m|SELL": 1792495800000
+    "HOT|ARB/USD|5m|SELL": 1792496100000,
+    "HOT|NEAR/USD|5m|SELL": 1792496100000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1548,
+      "checks": 1552,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792496364
+      "last_check": 1792496477
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 312,
+      "checks": 314,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792496113
+      "last_check": 1792496448
     },
     "TKF": {
       "since": 1792449614,
@@ -140,14 +140,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 70,
+      "checks": 72,
       "nodata": 0,
       "raw": 0,
       "blocked": {
-        "no_pullback": 66
+        "no_pullback": 67
       },
       "opened": 0,
-      "last_check": 1792496115
+      "last_check": 1792496450
     }
   },
   "hot_daily": {
@@ -155,7 +155,7 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792496395,
+    "ts": 1792496475,
     "buy": [],
     "sell": [
       [
