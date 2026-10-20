@@ -7162,5 +7162,48 @@
     "net_r_est": null,
     "module": "CN5M",
     "ladder": "CLASSIC"
+  },
+  {
+    "signal_id": "TC-000082",
+    "events": [
+      {
+        "type": "stop",
+        "price": 4.723387718982505,
+        "final_r": -1.0,
+        "ts": "2026-10-20T13:47:54.225069+00:00"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-20T13:47:54.905238+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "NEAR/USD",
+    "tf": "15m",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 4.6671,
+    "sl": 4.723387718982505,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "stop",
+    "opened_at": "2026-10-20T13:15:23.235000+00:00",
+    "closed_at": "2026-10-20T13:47:54.905238+00:00",
+    "r_pct": 1.2061,
+    "mfe_r": 0.1261,
+    "mae_r": 1.1619,
+    "quality_tier": "hot",
+    "strategy": "module:HOT",
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": 1.2061,
+    "fee_r_est": null,
+    "net_r_est": null,
+    "module": "HOT",
+    "ladder": "B4",
+    "trigger": "TPB",
+    "hot_move_pct": -4.6
   }
 ]
