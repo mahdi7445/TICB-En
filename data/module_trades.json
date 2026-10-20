@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792537739999,
+      "last_ms": 1792537799999,
       "bar_ms": 1792497600000,
       "mfe_r": 0.1037,
       "mae_r": 0.2293,
@@ -48,7 +48,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792537794497
+      "polled_ms": 1792537851716
     },
     "TC-000088": {
       "id": "TC-000088",
@@ -78,7 +78,7 @@
       "status": "open",
       "opened_ms": 1792515003718,
       "armed_ms": 1792515003718,
-      "last_ms": 1792537739999,
+      "last_ms": 1792537799999,
       "bar_ms": 1792514700000,
       "mfe_r": 0.6829,
       "mae_r": 0.7048,
@@ -86,7 +86,7 @@
       "tier": "candidate",
       "profile": "B4",
       "msg_id": 2048,
-      "polled_ms": 1792537794497
+      "polled_ms": 1792537851716
     }
   },
   "seen": [],
@@ -257,7 +257,7 @@
       "blocked": {
         "no_pullback": 210,
         "time_budget": 1,
-        "daily_cap": 762
+        "daily_cap": 763
       },
       "opened": 4,
       "last_check": 1792511133
