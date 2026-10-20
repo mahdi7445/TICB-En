@@ -28,7 +28,7 @@
       "status": "open",
       "opened_ms": 1792502123235,
       "armed_ms": 1792502123235,
-      "last_ms": 1792503719999,
+      "last_ms": 1792503779999,
       "bar_ms": 1792501200000,
       "mfe_r": 0.1261,
       "mae_r": 0.8936,
@@ -39,7 +39,7 @@
       "hot_move_pct": -4.6,
       "max_hold_ms": 21600000,
       "msg_id": 2036,
-      "polled_ms": 1792503756147
+      "polled_ms": 1792503817511
     }
   },
   "seen": [],
@@ -50,8 +50,8 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792497600000,
     "TS1|ETH/USD|1h": 1792497600000,
-    "CN1M|BTC/USD|1m": 1792503660000,
-    "CN1M|ETH/USD|1m": 1792503660000,
+    "CN1M|BTC/USD|1m": 1792503720000,
+    "CN1M|ETH/USD|1m": 1792503720000,
     "CN5M|BTC/USD|5m": 1792503300000,
     "CN5M|ETH/USD|5m": 1792503300000,
     "CN15|BTC/USD|15m": 1792502100000,
@@ -71,7 +71,7 @@
     "HOT|ARB/USD|5m|SELL": 1792503300000,
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792503300000,
-    "HOT|WLD/USD|5m|BUY": 1792502700000,
+    "HOT|WLD/USD|5m|BUY": 1792503300000,
     "SMS|BTC/USD|5m": 1792503300000,
     "SMS|ETH/USD|5m": 1792503300000,
     "TPB|BTC/USD|1h": 1792497600000,
@@ -86,12 +86,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1794,
+      "checks": 1796,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792503746
+      "last_check": 1792503810
     },
     "CN5M": {
       "since": 1792449613,
@@ -194,14 +194,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 177,
+      "checks": 178,
       "nodata": 0,
       "raw": 1,
       "blocked": {
-        "no_pullback": 129
+        "no_pullback": 130
       },
       "opened": 1,
-      "last_check": 1792503615
+      "last_check": 1792503812
     },
     "SMS": {
       "since": 1792499819,
@@ -227,28 +227,32 @@
     "n": 1
   },
   "hot_last": {
-    "ts": 1792503776,
+    "ts": 1792503808,
     "buy": [
       [
         "TIA/USD",
-        3.04
+        3.51
+      ],
+      [
+        "WLD/USD",
+        3.2
       ]
     ],
     "sell": [
       [
-        "ZRO/USD",
-        -6.69
+        "ARB/USD",
+        -4.56
       ],
       [
-        "ARB/USD",
-        -4.92
+        "ZRO/USD",
+        -3.97
       ],
       [
         "NEAR/USD",
-        -4.72
+        -3.9
       ]
     ],
-    "pool": 27
+    "pool": 28
   },
   "hot_cd": {
     "NEAR/USD": 1792505723235
