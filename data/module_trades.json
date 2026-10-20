@@ -18,8 +18,8 @@
     "CN1H|ETH/USD|1h": 1792494000000,
     "CN4H|BTC/USD|4h": 1792483200000,
     "CN4H|ETH/USD|4h": 1792483200000,
-    "TKF|BTC/USD|5m": 1792460100000,
-    "TKF|ETH/USD|5m": 1792460100000,
+    "TKF|BTC/USD|5m": 1792499100000,
+    "TKF|ETH/USD|5m": 1792499100000,
     "TPS|BTC/USD|1h": 1792494000000,
     "TPS|ETH/USD|1h": 1792494000000,
     "MRA|BTC/USD|1h": 1792494000000,
@@ -52,12 +52,12 @@
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 74,
+      "checks": 76,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792460432
+      "last_check": 1792499515
     },
     "CN15": {
       "since": 1792449921,
@@ -157,25 +157,16 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792499464,
-    "buy": [
-      [
-        "TIA/USD",
-        4.52
-      ],
-      [
-        "WLD/USD",
-        3.07
-      ]
-    ],
+    "ts": 1792499508,
+    "buy": [],
     "sell": [
       [
         "ARB/USD",
-        -4.31
+        -4.06
       ],
       [
         "NEAR/USD",
-        -3.9
+        -4.03
       ]
     ],
     "pool": 27
