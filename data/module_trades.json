@@ -1,46 +1,5 @@
 {
   "trades": {
-    "TC-000086": {
-      "id": "TC-000086",
-      "module": "HOT",
-      "symbol": "BAT/USD",
-      "tf": "5m",
-      "side": "BUY",
-      "entry": 0.21721,
-      "sl0": 0.21228951934303247,
-      "sl": 0.21228951934303247,
-      "risk": 0.004920480656967513,
-      "targets": [
-        0.23689192262787004
-      ],
-      "levels": [
-        4.0
-      ],
-      "weights": [
-        1.0
-      ],
-      "trail": 0.0,
-      "hit": [
-        false
-      ],
-      "runner_on": false,
-      "best": 0.21721,
-      "status": "open",
-      "opened_ms": 1792511126364,
-      "armed_ms": 1792511126364,
-      "last_ms": 1792513199999,
-      "bar_ms": 1792510800000,
-      "mfe_r": 0.9227,
-      "mae_r": 0.8007,
-      "events": [],
-      "tier": "hot",
-      "profile": "B4",
-      "trigger": "TPB",
-      "hot_move_pct": 11.03,
-      "max_hold_ms": 21600000,
-      "msg_id": 2045,
-      "polled_ms": 1792513239209
-    },
     "TC-000087": {
       "id": "TC-000087",
       "module": "SWP",
@@ -81,15 +40,15 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792513199999,
+      "last_ms": 1792513319999,
       "bar_ms": 1792497600000,
-      "mfe_r": 0.0941,
+      "mfe_r": 0.097,
       "mae_r": 0.0364,
       "events": [],
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792513239209
+      "polled_ms": 1792513329309
     }
   },
   "seen": [],
@@ -100,8 +59,8 @@
     "SWP|ETH/USD|4h": 1792497600000,
     "TS1|BTC/USD|1h": 1792508400000,
     "TS1|ETH/USD|1h": 1792508400000,
-    "CN1M|BTC/USD|1m": 1792513200000,
-    "CN1M|ETH/USD|1m": 1792513200000,
+    "CN1M|BTC/USD|1m": 1792513260000,
+    "CN1M|ETH/USD|1m": 1792513260000,
     "CN5M|BTC/USD|5m": 1792512900000,
     "CN5M|ETH/USD|5m": 1792512900000,
     "CN15|BTC/USD|15m": 1792512000000,
@@ -146,12 +105,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 2108,
+      "checks": 2110,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792513284
+      "last_check": 1792513332
     },
     "CN5M": {
       "since": 1792449613,
@@ -260,7 +219,7 @@
       "blocked": {
         "no_pullback": 210,
         "time_budget": 1,
-        "daily_cap": 63
+        "daily_cap": 65
       },
       "opened": 4,
       "last_check": 1792511133

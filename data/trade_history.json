@@ -7343,5 +7343,48 @@
     "ladder": "B4",
     "trigger": "TPB",
     "hot_move_pct": 3.51
+  },
+  {
+    "signal_id": "TC-000086",
+    "events": [
+      {
+        "type": "stop",
+        "price": 0.21228951934303247,
+        "final_r": -1.0,
+        "ts": "2026-10-20T16:22:09.568058+00:00"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-20T16:22:10.310839+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BAT/USD",
+    "tf": "5m",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 0.21721,
+    "sl": 0.21228951934303247,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "stop",
+    "opened_at": "2026-10-20T15:45:26.364000+00:00",
+    "closed_at": "2026-10-20T16:22:10.310839+00:00",
+    "r_pct": 2.2653,
+    "mfe_r": 0.9227,
+    "mae_r": 1.1259,
+    "quality_tier": "hot",
+    "strategy": "module:HOT",
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": 2.2653,
+    "fee_r_est": null,
+    "net_r_est": null,
+    "module": "HOT",
+    "ladder": "B4",
+    "trigger": "TPB",
+    "hot_move_pct": 11.03
   }
 ]
