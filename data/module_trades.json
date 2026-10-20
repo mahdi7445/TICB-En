@@ -2,49 +2,49 @@
   "trades": {},
   "seen": [],
   "checked": {
-    "HDV3|BTC/USD|4h": 1792440000000,
-    "HDV3|ETH/USD|4h": 1792440000000,
-    "SWP|BTC/USD|4h": 1792440000000,
-    "SWP|ETH/USD|4h": 1792440000000,
-    "TS1|BTC/USD|1h": 1792461600000,
-    "TS1|ETH/USD|1h": 1792461600000,
-    "CN1M|BTC/USD|1m": 1792468680000,
-    "CN1M|ETH/USD|1m": 1792468680000,
-    "CN5M|BTC/USD|5m": 1792468200000,
-    "CN5M|ETH/USD|5m": 1792468200000,
-    "CN15|BTC/USD|15m": 1792467000000,
-    "CN15|ETH/USD|15m": 1792467000000,
-    "CN1H|BTC/USD|1h": 1792461600000,
-    "CN1H|ETH/USD|1h": 1792461600000,
-    "CN4H|BTC/USD|4h": 1792440000000,
-    "CN4H|ETH/USD|4h": 1792440000000,
+    "HDV3|BTC/USD|4h": 1792454400000,
+    "HDV3|ETH/USD|4h": 1792454400000,
+    "SWP|BTC/USD|4h": 1792454400000,
+    "SWP|ETH/USD|4h": 1792454400000,
+    "TS1|BTC/USD|1h": 1792465200000,
+    "TS1|ETH/USD|1h": 1792465200000,
+    "CN1M|BTC/USD|1m": 1792468740000,
+    "CN1M|ETH/USD|1m": 1792468740000,
+    "CN5M|BTC/USD|5m": 1792468500000,
+    "CN5M|ETH/USD|5m": 1792468500000,
+    "CN15|BTC/USD|15m": 1792467900000,
+    "CN15|ETH/USD|15m": 1792467900000,
+    "CN1H|BTC/USD|1h": 1792465200000,
+    "CN1H|ETH/USD|1h": 1792465200000,
+    "CN4H|BTC/USD|4h": 1792454400000,
+    "CN4H|ETH/USD|4h": 1792454400000,
     "TKF|BTC/USD|5m": 1792460100000,
     "TKF|ETH/USD|5m": 1792460100000,
-    "TPS|BTC/USD|1h": 1792461600000,
-    "TPS|ETH/USD|1h": 1792461600000,
-    "MRA|BTC/USD|1h": 1792461600000,
-    "MRA|ETH/USD|1h": 1792461600000,
-    "MRB|BTC/USD|1h": 1792461600000,
-    "MRB|ETH/USD|1h": 1792461600000
+    "TPS|BTC/USD|1h": 1792465200000,
+    "TPS|ETH/USD|1h": 1792465200000,
+    "MRA|BTC/USD|1h": 1792465200000,
+    "MRA|ETH/USD|1h": 1792465200000,
+    "MRB|BTC/USD|1h": 1792465200000,
+    "MRB|ETH/USD|1h": 1792465200000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 638,
+      "checks": 640,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792468757
+      "last_check": 1792468826
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 128,
+      "checks": 130,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792468531
+      "last_check": 1792468829
     },
     "TKF": {
       "since": 1792449614,
@@ -57,84 +57,84 @@
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 42,
+      "checks": 44,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792467911
+      "last_check": 1792468831
     },
     "TS1": {
       "since": 1792450810,
-      "checks": 10,
+      "checks": 12,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792465225
+      "last_check": 1792468824
     },
     "CN1H": {
       "since": 1792450819,
-      "checks": 10,
+      "checks": 12,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792465232
+      "last_check": 1792468831
     },
     "TPS": {
       "since": 1792450819,
-      "checks": 10,
+      "checks": 12,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792465232
+      "last_check": 1792468832
     },
     "MRA": {
       "since": 1792450819,
-      "checks": 10,
+      "checks": 12,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792465232
+      "last_check": 1792468834
     },
     "MRB": {
       "since": 1792450819,
-      "checks": 10,
+      "checks": 12,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792465232
+      "last_check": 1792468834
     },
     "HDV3": {
       "since": 1792454401,
-      "checks": 2,
+      "checks": 4,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792454402
+      "last_check": 1792468821
     },
     "SWP": {
       "since": 1792454402,
-      "checks": 2,
+      "checks": 4,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792454402
+      "last_check": 1792468822
     },
     "CN4H": {
       "since": 1792454412,
-      "checks": 2,
+      "checks": 4,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792454412
+      "last_check": 1792468831
     }
   }
 }
