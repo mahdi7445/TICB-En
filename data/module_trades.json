@@ -8,10 +8,10 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792494000000,
     "TS1|ETH/USD|1h": 1792494000000,
-    "CN1M|BTC/USD|1m": 1792498980000,
-    "CN1M|ETH/USD|1m": 1792498980000,
-    "CN5M|BTC/USD|5m": 1792498500000,
-    "CN5M|ETH/USD|5m": 1792498500000,
+    "CN1M|BTC/USD|1m": 1792499040000,
+    "CN1M|ETH/USD|1m": 1792499040000,
+    "CN5M|BTC/USD|5m": 1792498800000,
+    "CN5M|ETH/USD|5m": 1792498800000,
     "CN15|BTC/USD|15m": 1792497600000,
     "CN15|ETH/USD|15m": 1792497600000,
     "CN1H|BTC/USD|1h": 1792494000000,
@@ -26,29 +26,29 @@
     "MRA|ETH/USD|1h": 1792494000000,
     "MRB|BTC/USD|1h": 1792494000000,
     "MRB|ETH/USD|1h": 1792494000000,
-    "HOT|ARB/USD|5m|SELL": 1792498500000,
-    "HOT|NEAR/USD|5m|SELL": 1792498500000,
-    "HOT|TIA/USD|5m|BUY": 1792498500000,
-    "HOT|WLD/USD|5m|BUY": 1792498500000
+    "HOT|ARB/USD|5m|SELL": 1792498800000,
+    "HOT|NEAR/USD|5m|SELL": 1792498800000,
+    "HOT|TIA/USD|5m|BUY": 1792498800000,
+    "HOT|WLD/USD|5m|BUY": 1792498800000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1638,
+      "checks": 1640,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792499049
+      "last_check": 1792499115
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 330,
+      "checks": 332,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792498809
+      "last_check": 1792499117
     },
     "TKF": {
       "since": 1792449614,
@@ -142,14 +142,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 98,
+      "checks": 102,
       "nodata": 0,
       "raw": 0,
       "blocked": {
-        "no_pullback": 82
+        "no_pullback": 84
       },
       "opened": 0,
-      "last_check": 1792499052
+      "last_check": 1792499122
     }
   },
   "hot_daily": {
@@ -157,7 +157,7 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792499082,
+    "ts": 1792499113,
     "buy": [
       [
         "TIA/USD",
