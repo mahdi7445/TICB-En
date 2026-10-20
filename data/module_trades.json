@@ -8,10 +8,10 @@
     "SWP|ETH/USD|4h": 1792468800000,
     "TS1|BTC/USD|1h": 1792486800000,
     "TS1|ETH/USD|1h": 1792486800000,
-    "CN1M|BTC/USD|1m": 1792490820000,
-    "CN1M|ETH/USD|1m": 1792490820000,
-    "CN5M|BTC/USD|5m": 1792490400000,
-    "CN5M|ETH/USD|5m": 1792490400000,
+    "CN1M|BTC/USD|1m": 1792490940000,
+    "CN1M|ETH/USD|1m": 1792490940000,
+    "CN5M|BTC/USD|5m": 1792490700000,
+    "CN5M|ETH/USD|5m": 1792490700000,
     "CN15|BTC/USD|15m": 1792489500000,
     "CN15|ETH/USD|15m": 1792489500000,
     "CN1H|BTC/USD|1h": 1792486800000,
@@ -26,27 +26,27 @@
     "MRA|ETH/USD|1h": 1792486800000,
     "MRB|BTC/USD|1h": 1792486800000,
     "MRB|ETH/USD|1h": 1792486800000,
-    "HOT|ARB/USD|5m|SELL": 1792490400000,
-    "HOT|NEAR/USD|5m|SELL": 1792490400000
+    "HOT|ARB/USD|5m|SELL": 1792490700000,
+    "HOT|NEAR/USD|5m|SELL": 1792490700000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1368,
+      "checks": 1372,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792490887
+      "last_check": 1792491016
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 276,
+      "checks": 278,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792490731
+      "last_check": 1792491018
     },
     "TKF": {
       "since": 1792449614,
@@ -140,14 +140,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 34,
+      "checks": 36,
       "nodata": 0,
       "raw": 0,
       "blocked": {
-        "no_pullback": 33
+        "no_pullback": 35
       },
       "opened": 0,
-      "last_check": 1792490733
+      "last_check": 1792491022
     }
   },
   "hot_daily": {
@@ -155,16 +155,16 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792490918,
+    "ts": 1792491015,
     "buy": [],
     "sell": [
       [
         "NEAR/USD",
-        -4.15
+        -4.32
       ],
       [
         "ARB/USD",
-        -3.9
+        -4.01
       ]
     ],
     "pool": 27
