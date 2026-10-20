@@ -8,8 +8,8 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792494000000,
     "TS1|ETH/USD|1h": 1792494000000,
-    "CN1M|BTC/USD|1m": 1792500000000,
-    "CN1M|ETH/USD|1m": 1792500000000,
+    "CN1M|BTC/USD|1m": 1792500060000,
+    "CN1M|ETH/USD|1m": 1792500060000,
     "CN5M|BTC/USD|5m": 1792499700000,
     "CN5M|ETH/USD|5m": 1792499700000,
     "CN15|BTC/USD|15m": 1792498500000,
@@ -28,24 +28,25 @@
     "MRB|ETH/USD|1h": 1792494000000,
     "HOT|ARB/USD|5m|SELL": 1792499700000,
     "HOT|NEAR/USD|5m|SELL": 1792499700000,
-    "HOT|TIA/USD|5m|BUY": 1792499100000,
+    "HOT|TIA/USD|5m|BUY": 1792499700000,
     "HOT|WLD/USD|5m|BUY": 1792499100000,
     "SMS|BTC/USD|5m": 1792499700000,
     "SMS|ETH/USD|5m": 1792499700000,
     "TPB|BTC/USD|1h": 1792494000000,
     "TPB|ETH/USD|1h": 1792494000000,
     "HOT|ARB/USD|15m|SELL": 1792498500000,
-    "HOT|NEAR/USD|15m|SELL": 1792498500000
+    "HOT|NEAR/USD|15m|SELL": 1792498500000,
+    "HOT|TIA/USD|15m|BUY": 1792498500000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1672,
+      "checks": 1674,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792500065
+      "last_check": 1792500129
     },
     "CN5M": {
       "since": 1792449613,
@@ -148,14 +149,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 112,
+      "checks": 114,
       "nodata": 0,
       "raw": 0,
       "blocked": {
-        "no_pullback": 89
+        "no_pullback": 90
       },
       "opened": 0,
-      "last_check": 1792500036
+      "last_check": 1792500135
     },
     "SMS": {
       "since": 1792499819,
@@ -181,16 +182,21 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792500095,
-    "buy": [],
+    "ts": 1792500127,
+    "buy": [
+      [
+        "TIA/USD",
+        3.9
+      ]
+    ],
     "sell": [
       [
-        "ARB/USD",
-        -4.06
+        "NEAR/USD",
+        -4.4
       ],
       [
-        "NEAR/USD",
-        -4.03
+        "ARB/USD",
+        -4.31
       ]
     ],
     "pool": 27
