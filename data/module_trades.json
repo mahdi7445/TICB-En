@@ -8,8 +8,8 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792504800000,
     "TS1|ETH/USD|1h": 1792504800000,
-    "CN1M|BTC/USD|1m": 1792509240000,
-    "CN1M|ETH/USD|1m": 1792509240000,
+    "CN1M|BTC/USD|1m": 1792509300000,
+    "CN1M|ETH/USD|1m": 1792509300000,
     "CN5M|BTC/USD|5m": 1792509000000,
     "CN5M|ETH/USD|5m": 1792509000000,
     "CN15|BTC/USD|15m": 1792508400000,
@@ -26,7 +26,7 @@
     "MRA|ETH/USD|1h": 1792504800000,
     "MRB|BTC/USD|1h": 1792504800000,
     "MRB|ETH/USD|1h": 1792504800000,
-    "HOT|ARB/USD|5m|SELL": 1792504500000,
+    "HOT|ARB/USD|5m|SELL": 1792509000000,
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792509000000,
@@ -34,7 +34,7 @@
     "SMS|ETH/USD|5m": 1792509000000,
     "TPB|BTC/USD|1h": 1792504800000,
     "TPB|ETH/USD|1h": 1792504800000,
-    "HOT|ARB/USD|15m|SELL": 1792503900000,
+    "HOT|ARB/USD|15m|SELL": 1792508400000,
     "HOT|NEAR/USD|15m|SELL": 1792501200000,
     "HOT|TIA/USD|15m|BUY": 1792506600000,
     "HOT|WLD/USD|15m|BUY": 1792508400000,
@@ -45,7 +45,7 @@
     "HOT|BAT/USD|5m|BUY": 1792509000000,
     "HOT|BAT/USD|15m|BUY": 1792508400000,
     "HOT|ZEC/USD|5m|BUY": 1792509000000,
-    "HOT|ZEC/USD|15m|BUY": 1792507500000,
+    "HOT|ZEC/USD|15m|BUY": 1792508400000,
     "HOT|INJ/USD|5m|BUY": 1792506900000,
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
@@ -54,12 +54,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1978,
+      "checks": 1980,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792509322
+      "last_check": 1792509387
     },
     "CN5M": {
       "since": 1792449613,
@@ -162,15 +162,15 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 277,
+      "checks": 280,
       "nodata": 0,
       "raw": 3,
       "blocked": {
-        "no_pullback": 205,
+        "no_pullback": 207,
         "time_budget": 1
       },
       "opened": 3,
-      "last_check": 1792509337
+      "last_check": 1792509356
     },
     "SMS": {
       "since": 1792499819,
@@ -196,31 +196,32 @@
     "n": 3
   },
   "hot_last": {
-    "ts": 1792509320,
+    "ts": 1792509386,
     "buy": [
       [
         "BAT/USD",
-        12.97
+        11.16
       ],
       [
         "VVV/USD",
-        7.63
+        5.88
       ],
       [
         "WLD/USD",
-        7.45
+        5.58
       ],
       [
         "ZEC/USD",
-        5.07
-      ],
-      [
-        "ENA/USD",
-        4.55
+        3.1
       ]
     ],
-    "sell": [],
-    "pool": 32
+    "sell": [
+      [
+        "ARB/USD",
+        -4.01
+      ]
+    ],
+    "pool": 33
   },
   "hot_cd": {
     "NEAR/USD": 1792505723235,
