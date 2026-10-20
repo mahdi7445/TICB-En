@@ -28,7 +28,7 @@
       "status": "open",
       "opened_ms": 1792503903782,
       "armed_ms": 1792503903782,
-      "last_ms": 1792507619999,
+      "last_ms": 1792507679999,
       "bar_ms": 1792503000000,
       "mfe_r": 2.1675,
       "mae_r": 0.1402,
@@ -39,7 +39,7 @@
       "hot_move_pct": 3.51,
       "max_hold_ms": 21600000,
       "msg_id": 2037,
-      "polled_ms": 1792507631200
+      "polled_ms": 1792507686761
     }
   },
   "seen": [],
@@ -50,8 +50,8 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792501200000,
     "TS1|ETH/USD|1h": 1792501200000,
-    "CN1M|BTC/USD|1m": 1792507500000,
-    "CN1M|ETH/USD|1m": 1792507500000,
+    "CN1M|BTC/USD|1m": 1792507620000,
+    "CN1M|ETH/USD|1m": 1792507620000,
     "CN5M|BTC/USD|5m": 1792507200000,
     "CN5M|ETH/USD|5m": 1792507200000,
     "CN15|BTC/USD|15m": 1792506600000,
@@ -96,12 +96,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1920,
+      "checks": 1924,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792507583
+      "last_check": 1792507681
     },
     "CN5M": {
       "since": 1792449613,
@@ -237,7 +237,7 @@
     "n": 3
   },
   "hot_last": {
-    "ts": 1792507616,
+    "ts": 1792507680,
     "buy": [
       [
         "BAT/USD",
