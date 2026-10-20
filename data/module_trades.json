@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792514039999,
+      "last_ms": 1792514099999,
       "bar_ms": 1792497600000,
       "mfe_r": 0.1037,
       "mae_r": 0.0364,
@@ -48,7 +48,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792514090110
+      "polled_ms": 1792514146168
     }
   },
   "seen": [],
@@ -219,7 +219,7 @@
       "blocked": {
         "no_pullback": 210,
         "time_budget": 1,
-        "daily_cap": 87
+        "daily_cap": 88
       },
       "opened": 4,
       "last_check": 1792511133
