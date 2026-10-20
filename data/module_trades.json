@@ -28,7 +28,7 @@
       "status": "open",
       "opened_ms": 1792503903782,
       "armed_ms": 1792503903782,
-      "last_ms": 1792504979999,
+      "last_ms": 1792505039999,
       "bar_ms": 1792503000000,
       "mfe_r": 0.8735,
       "mae_r": 0.1186,
@@ -39,7 +39,48 @@
       "hot_move_pct": 3.51,
       "max_hold_ms": 21600000,
       "msg_id": 2037,
-      "polled_ms": 1792505012935
+      "polled_ms": 1792505075800
+    },
+    "TC-000084": {
+      "id": "TC-000084",
+      "module": "HOT",
+      "symbol": "BAT/USD",
+      "tf": "15m",
+      "side": "BUY",
+      "entry": 0.20121,
+      "sl0": 0.19586802968814596,
+      "sl": 0.19586802968814596,
+      "risk": 0.005341970311854044,
+      "targets": [
+        0.22257788124741618
+      ],
+      "levels": [
+        4.0
+      ],
+      "weights": [
+        1.0
+      ],
+      "trail": 0.0,
+      "hit": [
+        false
+      ],
+      "runner_on": false,
+      "best": 0.20121,
+      "status": "open",
+      "opened_ms": 1792505058095,
+      "armed_ms": 1792505058095,
+      "last_ms": 1792505058095,
+      "bar_ms": 1792503900000,
+      "mfe_r": 0.0,
+      "mae_r": 0.0,
+      "events": [],
+      "tier": "hot",
+      "profile": "B4",
+      "trigger": "TPB",
+      "hot_move_pct": 5.47,
+      "max_hold_ms": 21600000,
+      "msg_id": 2039,
+      "polled_ms": 1792505075800
     }
   },
   "seen": [],
@@ -50,8 +91,8 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792501200000,
     "TS1|ETH/USD|1h": 1792501200000,
-    "CN1M|BTC/USD|1m": 1792504920000,
-    "CN1M|ETH/USD|1m": 1792504920000,
+    "CN1M|BTC/USD|1m": 1792504980000,
+    "CN1M|ETH/USD|1m": 1792504980000,
     "CN5M|BTC/USD|5m": 1792504500000,
     "CN5M|ETH/USD|5m": 1792504500000,
     "CN15|BTC/USD|15m": 1792503900000,
@@ -81,17 +122,23 @@
     "HOT|TIA/USD|15m|BUY": 1792503000000,
     "HOT|WLD/USD|15m|BUY": 1792503900000,
     "HOT|ZRO/USD|5m|SELL": 1792503900000,
-    "HOT|ZRO/USD|15m|SELL": 1792503000000
+    "HOT|ZRO/USD|15m|SELL": 1792503000000,
+    "HOT|VVV/USD|5m|BUY": 1792504500000,
+    "HOT|VVV/USD|15m|BUY": 1792503900000,
+    "HOT|BAT/USD|5m|BUY": 1792504500000,
+    "HOT|BAT/USD|15m|BUY": 1792503900000,
+    "HOT|ZEC/USD|5m|BUY": 1792504500000,
+    "HOT|ZEC/USD|15m|BUY": 1792503900000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1836,
+      "checks": 1838,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792505007
+      "last_check": 1792505059
     },
     "CN5M": {
       "since": 1792449613,
@@ -194,14 +241,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 195,
+      "checks": 201,
       "nodata": 0,
-      "raw": 2,
+      "raw": 3,
       "blocked": {
-        "no_pullback": 140
+        "no_pullback": 144
       },
-      "opened": 2,
-      "last_check": 1792504829
+      "opened": 3,
+      "last_check": 1792505070
     },
     "SMS": {
       "since": 1792499819,
@@ -224,34 +271,38 @@
   },
   "hot_daily": {
     "day": "2026-10-20",
-    "n": 2
+    "n": 3
   },
   "hot_last": {
-    "ts": 1792505006,
+    "ts": 1792505092,
     "buy": [
       [
-        "TIA/USD",
-        3.9
+        "VVV/USD",
+        5.76
+      ],
+      [
+        "BAT/USD",
+        5.47
+      ],
+      [
+        "ZEC/USD",
+        5.14
       ],
       [
         "WLD/USD",
-        3.76
-      ]
-    ],
-    "sell": [
-      [
-        "ARB/USD",
-        -4.11
+        4.23
       ],
       [
-        "NEAR/USD",
-        -3.53
+        "TIA/USD",
+        3.9
       ]
     ],
+    "sell": [],
     "pool": 27
   },
   "hot_cd": {
     "NEAR/USD": 1792505723235,
-    "TIA/USD": 1792507503782
+    "TIA/USD": 1792507503782,
+    "BAT/USD": 1792508658095
   }
 }
