@@ -1,56 +1,5 @@
 {
-  "trades": {
-    "TC-000081": {
-      "id": "TC-000081",
-      "module": "CN5M",
-      "symbol": "ETH/USD",
-      "tf": "5m",
-      "side": "BUY",
-      "entry": 2394.72,
-      "sl0": 2388.79,
-      "sl": 2388.79,
-      "risk": 5.929999999999836,
-      "targets": [
-        2400.6499999999996,
-        2406.5799999999995,
-        2418.439999999999,
-        2430.299999999999
-      ],
-      "levels": [
-        1.0,
-        2.0,
-        4.0,
-        6.0
-      ],
-      "weights": [
-        0.2,
-        0.3,
-        0.15,
-        0.1
-      ],
-      "trail": 1.5,
-      "hit": [
-        false,
-        false,
-        false,
-        false
-      ],
-      "runner_on": false,
-      "best": 2394.72,
-      "status": "open",
-      "opened_ms": 1792460716071,
-      "armed_ms": 1792460716071,
-      "last_ms": 1792461839999,
-      "bar_ms": 1792460400000,
-      "mfe_r": 0.7184,
-      "mae_r": 0.7791,
-      "events": [],
-      "tier": "orig",
-      "profile": "CLASSIC",
-      "msg_id": 2034,
-      "polled_ms": 1792461861215
-    }
-  },
+  "trades": {},
   "seen": [],
   "checked": {
     "HDV3|BTC/USD|4h": 1792440000000,
@@ -59,10 +8,10 @@
     "SWP|ETH/USD|4h": 1792440000000,
     "TS1|BTC/USD|1h": 1792458000000,
     "TS1|ETH/USD|1h": 1792458000000,
-    "CN1M|BTC/USD|1m": 1792461780000,
-    "CN1M|ETH/USD|1m": 1792461780000,
-    "CN5M|BTC/USD|5m": 1792461300000,
-    "CN5M|ETH/USD|5m": 1792461300000,
+    "CN1M|BTC/USD|1m": 1792461840000,
+    "CN1M|ETH/USD|1m": 1792461840000,
+    "CN5M|BTC/USD|5m": 1792461600000,
+    "CN5M|ETH/USD|5m": 1792461600000,
     "CN15|BTC/USD|15m": 1792460700000,
     "CN15|ETH/USD|15m": 1792460700000,
     "CN1H|BTC/USD|1h": 1792458000000,
@@ -81,21 +30,21 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 412,
+      "checks": 414,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792461851
+      "last_check": 1792461914
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 82,
+      "checks": 84,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792461616
+      "last_check": 1792461916
     },
     "TKF": {
       "since": 1792449614,
