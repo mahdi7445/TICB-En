@@ -7300,5 +7300,48 @@
     "ladder": "Q3",
     "trigger": null,
     "hot_move_pct": null
+  },
+  {
+    "signal_id": "TC-000083",
+    "events": [
+      {
+        "type": "stop",
+        "price": 0.629326840685417,
+        "final_r": -1.0,
+        "ts": "2026-10-20T15:14:10.804540+00:00"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-20T15:14:12.042270+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "TIA/USD",
+    "tf": "15m",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 0.6386,
+    "sl": 0.629326840685417,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "stop",
+    "opened_at": "2026-10-20T13:45:03.782000+00:00",
+    "closed_at": "2026-10-20T15:14:12.042270+00:00",
+    "r_pct": 1.4521,
+    "mfe_r": 2.1675,
+    "mae_r": 1.6068,
+    "quality_tier": "hot",
+    "strategy": "module:HOT",
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": 1.4521,
+    "fee_r_est": null,
+    "net_r_est": null,
+    "module": "HOT",
+    "ladder": "B4",
+    "trigger": "TPB",
+    "hot_move_pct": 3.51
   }
 ]

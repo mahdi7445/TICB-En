@@ -1,47 +1,5 @@
 {
-  "trades": {
-    "TC-000083": {
-      "id": "TC-000083",
-      "module": "HOT",
-      "symbol": "TIA/USD",
-      "tf": "15m",
-      "side": "BUY",
-      "entry": 0.6386,
-      "sl0": 0.629326840685417,
-      "sl": 0.629326840685417,
-      "risk": 0.009273159314582946,
-      "targets": [
-        0.6756926372583317
-      ],
-      "levels": [
-        4.0
-      ],
-      "weights": [
-        1.0
-      ],
-      "trail": 0.0,
-      "hit": [
-        false
-      ],
-      "runner_on": false,
-      "best": 0.6386,
-      "status": "open",
-      "opened_ms": 1792503903782,
-      "armed_ms": 1792503903782,
-      "last_ms": 1792509179999,
-      "bar_ms": 1792503000000,
-      "mfe_r": 2.1675,
-      "mae_r": 0.5176,
-      "events": [],
-      "tier": "hot",
-      "profile": "B4",
-      "trigger": "TPB",
-      "hot_move_pct": 3.51,
-      "max_hold_ms": 21600000,
-      "msg_id": 2037,
-      "polled_ms": 1792509190807
-    }
-  },
+  "trades": {},
   "seen": [],
   "checked": {
     "HDV3|BTC/USD|4h": 1792483200000,
@@ -50,8 +8,8 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792504800000,
     "TS1|ETH/USD|1h": 1792504800000,
-    "CN1M|BTC/USD|1m": 1792509120000,
-    "CN1M|ETH/USD|1m": 1792509120000,
+    "CN1M|BTC/USD|1m": 1792509180000,
+    "CN1M|ETH/USD|1m": 1792509180000,
     "CN5M|BTC/USD|5m": 1792508700000,
     "CN5M|ETH/USD|5m": 1792508700000,
     "CN15|BTC/USD|15m": 1792507500000,
@@ -96,12 +54,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1974,
+      "checks": 1976,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792509193
+      "last_check": 1792509258
     },
     "CN5M": {
       "since": 1792449613,
@@ -237,7 +195,7 @@
     "n": 3
   },
   "hot_last": {
-    "ts": 1792509223,
+    "ts": 1792509257,
     "buy": [
       [
         "BAT/USD",
