@@ -28,7 +28,7 @@
       "status": "open",
       "opened_ms": 1792503903782,
       "armed_ms": 1792503903782,
-      "last_ms": 1792508939999,
+      "last_ms": 1792508999999,
       "bar_ms": 1792503000000,
       "mfe_r": 2.1675,
       "mae_r": 0.2588,
@@ -39,7 +39,7 @@
       "hot_move_pct": 3.51,
       "max_hold_ms": 21600000,
       "msg_id": 2037,
-      "polled_ms": 1792508983745
+      "polled_ms": 1792509042405
     }
   },
   "seen": [],
@@ -50,18 +50,18 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792504800000,
     "TS1|ETH/USD|1h": 1792504800000,
-    "CN1M|BTC/USD|1m": 1792508880000,
-    "CN1M|ETH/USD|1m": 1792508880000,
-    "CN5M|BTC/USD|5m": 1792508400000,
-    "CN5M|ETH/USD|5m": 1792508400000,
+    "CN1M|BTC/USD|1m": 1792508940000,
+    "CN1M|ETH/USD|1m": 1792508940000,
+    "CN5M|BTC/USD|5m": 1792508700000,
+    "CN5M|ETH/USD|5m": 1792508700000,
     "CN15|BTC/USD|15m": 1792507500000,
     "CN15|ETH/USD|15m": 1792507500000,
     "CN1H|BTC/USD|1h": 1792504800000,
     "CN1H|ETH/USD|1h": 1792504800000,
     "CN4H|BTC/USD|4h": 1792483200000,
     "CN4H|ETH/USD|4h": 1792483200000,
-    "TKF|BTC/USD|5m": 1792508400000,
-    "TKF|ETH/USD|5m": 1792508400000,
+    "TKF|BTC/USD|5m": 1792508700000,
+    "TKF|ETH/USD|5m": 1792508700000,
     "TPS|BTC/USD|1h": 1792504800000,
     "TPS|ETH/USD|1h": 1792504800000,
     "MRA|BTC/USD|1h": 1792504800000,
@@ -71,9 +71,9 @@
     "HOT|ARB/USD|5m|SELL": 1792504500000,
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
-    "HOT|WLD/USD|5m|BUY": 1792508400000,
-    "SMS|BTC/USD|5m": 1792508400000,
-    "SMS|ETH/USD|5m": 1792508400000,
+    "HOT|WLD/USD|5m|BUY": 1792508700000,
+    "SMS|BTC/USD|5m": 1792508700000,
+    "SMS|ETH/USD|5m": 1792508700000,
     "TPB|BTC/USD|1h": 1792504800000,
     "TPB|ETH/USD|1h": 1792504800000,
     "HOT|ARB/USD|15m|SELL": 1792503900000,
@@ -82,44 +82,44 @@
     "HOT|WLD/USD|15m|BUY": 1792507500000,
     "HOT|ZRO/USD|5m|SELL": 1792503900000,
     "HOT|ZRO/USD|15m|SELL": 1792503000000,
-    "HOT|VVV/USD|5m|BUY": 1792508400000,
+    "HOT|VVV/USD|5m|BUY": 1792508700000,
     "HOT|VVV/USD|15m|BUY": 1792507500000,
-    "HOT|BAT/USD|5m|BUY": 1792508400000,
+    "HOT|BAT/USD|5m|BUY": 1792508700000,
     "HOT|BAT/USD|15m|BUY": 1792507500000,
-    "HOT|ZEC/USD|5m|BUY": 1792508400000,
+    "HOT|ZEC/USD|5m|BUY": 1792508700000,
     "HOT|ZEC/USD|15m|BUY": 1792507500000,
     "HOT|INJ/USD|5m|BUY": 1792506900000,
     "HOT|INJ/USD|15m|BUY": 1792505700000,
-    "HOT|ENA/USD|5m|BUY": 1792508400000,
+    "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1966,
+      "checks": 1968,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792508951
+      "last_check": 1792509017
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 396,
+      "checks": 398,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792508719
+      "last_check": 1792509020
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 138,
+      "checks": 140,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792508719
+      "last_check": 1792509020
     },
     "CN15": {
       "since": 1792449921,
@@ -204,23 +204,23 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 265,
+      "checks": 270,
       "nodata": 0,
       "raw": 3,
       "blocked": {
-        "no_pullback": 202
+        "no_pullback": 205
       },
       "opened": 3,
-      "last_check": 1792508725
+      "last_check": 1792509027
     },
     "SMS": {
       "since": 1792499819,
-      "checks": 62,
+      "checks": 64,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792508719
+      "last_check": 1792509020
     },
     "TPB": {
       "since": 1792499822,
@@ -237,7 +237,7 @@
     "n": 3
   },
   "hot_last": {
-    "ts": 1792508983,
+    "ts": 1792509047,
     "buy": [
       [
         "BAT/USD",
