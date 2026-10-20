@@ -8,8 +8,8 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792494000000,
     "TS1|ETH/USD|1h": 1792494000000,
-    "CN1M|BTC/USD|1m": 1792500660000,
-    "CN1M|ETH/USD|1m": 1792500660000,
+    "CN1M|BTC/USD|1m": 1792500720000,
+    "CN1M|ETH/USD|1m": 1792500720000,
     "CN5M|BTC/USD|5m": 1792500300000,
     "CN5M|ETH/USD|5m": 1792500300000,
     "CN15|BTC/USD|15m": 1792499400000,
@@ -29,24 +29,25 @@
     "HOT|ARB/USD|5m|SELL": 1792500300000,
     "HOT|NEAR/USD|5m|SELL": 1792500300000,
     "HOT|TIA/USD|5m|BUY": 1792500300000,
-    "HOT|WLD/USD|5m|BUY": 1792499100000,
+    "HOT|WLD/USD|5m|BUY": 1792500300000,
     "SMS|BTC/USD|5m": 1792500300000,
     "SMS|ETH/USD|5m": 1792500300000,
     "TPB|BTC/USD|1h": 1792494000000,
     "TPB|ETH/USD|1h": 1792494000000,
     "HOT|ARB/USD|15m|SELL": 1792499400000,
     "HOT|NEAR/USD|15m|SELL": 1792499400000,
-    "HOT|TIA/USD|15m|BUY": 1792499400000
+    "HOT|TIA/USD|15m|BUY": 1792499400000,
+    "HOT|WLD/USD|15m|BUY": 1792499400000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1694,
+      "checks": 1696,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792500721
+      "last_check": 1792500788
     },
     "CN5M": {
       "since": 1792449613,
@@ -149,14 +150,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 123,
+      "checks": 125,
       "nodata": 0,
       "raw": 0,
       "blocked": {
-        "no_pullback": 93
+        "no_pullback": 95
       },
       "opened": 0,
-      "last_check": 1792500629
+      "last_check": 1792500756
     },
     "SMS": {
       "since": 1792499819,
@@ -182,24 +183,28 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792500720,
+    "ts": 1792500786,
     "buy": [
       [
         "TIA/USD",
-        3.9
+        4.26
+      ],
+      [
+        "WLD/USD",
+        4.01
       ]
     ],
     "sell": [
       [
-        "NEAR/USD",
-        -4.4
+        "ARB/USD",
+        -4.41
       ],
       [
-        "ARB/USD",
-        -4.31
+        "NEAR/USD",
+        -4.02
       ]
     ],
-    "pool": 27
+    "pool": 26
   },
   "hot_cd": {}
 }
