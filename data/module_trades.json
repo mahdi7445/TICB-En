@@ -28,7 +28,7 @@
       "status": "open",
       "opened_ms": 1792502123235,
       "armed_ms": 1792502123235,
-      "last_ms": 1792502519999,
+      "last_ms": 1792502579999,
       "bar_ms": 1792501200000,
       "mfe_r": 0.0,
       "mae_r": 0.5436,
@@ -39,7 +39,7 @@
       "hot_move_pct": -4.6,
       "max_hold_ms": 21600000,
       "msg_id": 2036,
-      "polled_ms": 1792502539537
+      "polled_ms": 1792502597387
     }
   },
   "seen": [],
@@ -70,7 +70,7 @@
     "MRB|ETH/USD|1h": 1792497600000,
     "HOT|ARB/USD|5m|SELL": 1792502100000,
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
-    "HOT|TIA/USD|5m|BUY": 1792500900000,
+    "HOT|TIA/USD|5m|BUY": 1792502100000,
     "HOT|WLD/USD|5m|BUY": 1792502100000,
     "SMS|BTC/USD|5m": 1792502100000,
     "SMS|ETH/USD|5m": 1792502100000,
@@ -78,7 +78,7 @@
     "TPB|ETH/USD|1h": 1792497600000,
     "HOT|ARB/USD|15m|SELL": 1792501200000,
     "HOT|NEAR/USD|15m|SELL": 1792501200000,
-    "HOT|TIA/USD|15m|BUY": 1792500300000,
+    "HOT|TIA/USD|15m|BUY": 1792501200000,
     "HOT|WLD/USD|15m|BUY": 1792501200000,
     "HOT|ZRO/USD|5m|SELL": 1792502100000,
     "HOT|ZRO/USD|15m|SELL": 1792501200000
@@ -194,14 +194,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 157,
+      "checks": 159,
       "nodata": 0,
       "raw": 1,
       "blocked": {
-        "no_pullback": 114
+        "no_pullback": 116
       },
       "opened": 1,
-      "last_check": 1792502418
+      "last_check": 1792502577
     },
     "SMS": {
       "since": 1792499819,
@@ -227,28 +227,32 @@
     "n": 1
   },
   "hot_last": {
-    "ts": 1792502539,
+    "ts": 1792502574,
     "buy": [
       [
         "WLD/USD",
-        3.8
+        3.41
+      ],
+      [
+        "TIA/USD",
+        3.14
       ]
     ],
     "sell": [
       [
         "ZRO/USD",
-        -6.22
+        -6.49
       ],
       [
         "ARB/USD",
-        -4.61
+        -4.82
       ],
       [
         "NEAR/USD",
-        -4.6
+        -4.42
       ]
     ],
-    "pool": 26
+    "pool": 27
   },
   "hot_cd": {
     "NEAR/USD": 1792505723235
