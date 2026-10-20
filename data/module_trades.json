@@ -8,12 +8,12 @@
     "SWP|ETH/USD|4h": 1792468800000,
     "TS1|BTC/USD|1h": 1792483200000,
     "TS1|ETH/USD|1h": 1792483200000,
-    "CN1M|BTC/USD|1m": 1792489380000,
-    "CN1M|ETH/USD|1m": 1792489380000,
-    "CN5M|BTC/USD|5m": 1792488900000,
-    "CN5M|ETH/USD|5m": 1792488900000,
-    "CN15|BTC/USD|15m": 1792487700000,
-    "CN15|ETH/USD|15m": 1792487700000,
+    "CN1M|BTC/USD|1m": 1792489440000,
+    "CN1M|ETH/USD|1m": 1792489440000,
+    "CN5M|BTC/USD|5m": 1792489200000,
+    "CN5M|ETH/USD|5m": 1792489200000,
+    "CN15|BTC/USD|15m": 1792488600000,
+    "CN15|ETH/USD|15m": 1792488600000,
     "CN1H|BTC/USD|1h": 1792483200000,
     "CN1H|ETH/USD|1h": 1792483200000,
     "CN4H|BTC/USD|4h": 1792468800000,
@@ -26,27 +26,27 @@
     "MRA|ETH/USD|1h": 1792483200000,
     "MRB|BTC/USD|1h": 1792483200000,
     "MRB|ETH/USD|1h": 1792483200000,
-    "HOT|ARB/USD|5m|SELL": 1792488900000,
-    "HOT|NEAR/USD|5m|SELL": 1792488900000
+    "HOT|ARB/USD|5m|SELL": 1792489200000,
+    "HOT|NEAR/USD|5m|SELL": 1792489200000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1320,
+      "checks": 1322,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792489453
+      "last_check": 1792489516
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 266,
+      "checks": 268,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792489215
+      "last_check": 1792489519
     },
     "TKF": {
       "since": 1792449614,
@@ -59,12 +59,12 @@
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 88,
+      "checks": 90,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792488612
+      "last_check": 1792489521
     },
     "TS1": {
       "since": 1792450810,
@@ -140,14 +140,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 24,
+      "checks": 26,
       "nodata": 0,
       "raw": 0,
       "blocked": {
-        "no_pullback": 23
+        "no_pullback": 25
       },
       "opened": 0,
-      "last_check": 1792489217
+      "last_check": 1792489524
     }
   },
   "hot_daily": {
@@ -155,7 +155,7 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792489483,
+    "ts": 1792489515,
     "buy": [],
     "sell": [
       [
