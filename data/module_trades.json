@@ -8,56 +8,56 @@
     "SWP|ETH/USD|4h": 1792483200000,
     "TS1|BTC/USD|1h": 1792494000000,
     "TS1|ETH/USD|1h": 1792494000000,
-    "CN1M|BTC/USD|1m": 1792499580000,
-    "CN1M|ETH/USD|1m": 1792499580000,
-    "CN5M|BTC/USD|5m": 1792499100000,
-    "CN5M|ETH/USD|5m": 1792499100000,
+    "CN1M|BTC/USD|1m": 1792499640000,
+    "CN1M|ETH/USD|1m": 1792499640000,
+    "CN5M|BTC/USD|5m": 1792499400000,
+    "CN5M|ETH/USD|5m": 1792499400000,
     "CN15|BTC/USD|15m": 1792498500000,
     "CN15|ETH/USD|15m": 1792498500000,
     "CN1H|BTC/USD|1h": 1792494000000,
     "CN1H|ETH/USD|1h": 1792494000000,
     "CN4H|BTC/USD|4h": 1792483200000,
     "CN4H|ETH/USD|4h": 1792483200000,
-    "TKF|BTC/USD|5m": 1792499100000,
-    "TKF|ETH/USD|5m": 1792499100000,
+    "TKF|BTC/USD|5m": 1792499400000,
+    "TKF|ETH/USD|5m": 1792499400000,
     "TPS|BTC/USD|1h": 1792494000000,
     "TPS|ETH/USD|1h": 1792494000000,
     "MRA|BTC/USD|1h": 1792494000000,
     "MRA|ETH/USD|1h": 1792494000000,
     "MRB|BTC/USD|1h": 1792494000000,
     "MRB|ETH/USD|1h": 1792494000000,
-    "HOT|ARB/USD|5m|SELL": 1792499100000,
-    "HOT|NEAR/USD|5m|SELL": 1792499100000,
+    "HOT|ARB/USD|5m|SELL": 1792499400000,
+    "HOT|NEAR/USD|5m|SELL": 1792499400000,
     "HOT|TIA/USD|5m|BUY": 1792499100000,
     "HOT|WLD/USD|5m|BUY": 1792499100000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 1658,
+      "checks": 1660,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792499660
+      "last_check": 1792499723
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 334,
+      "checks": 336,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792499405
+      "last_check": 1792499726
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 76,
+      "checks": 78,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792499515
+      "last_check": 1792499726
     },
     "CN15": {
       "since": 1792449921,
@@ -142,14 +142,14 @@
     },
     "HOT": {
       "since": 1792486027,
-      "checks": 106,
+      "checks": 108,
       "nodata": 0,
       "raw": 0,
       "blocked": {
-        "no_pullback": 86
+        "no_pullback": 87
       },
       "opened": 0,
-      "last_check": 1792499412
+      "last_check": 1792499728
     }
   },
   "hot_daily": {
@@ -157,7 +157,7 @@
     "n": 0
   },
   "hot_last": {
-    "ts": 1792499690,
+    "ts": 1792499722,
     "buy": [],
     "sell": [
       [
