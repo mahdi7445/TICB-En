@@ -25,7 +25,7 @@
   "hot_top_n": 5,
   "hot_universe": 40,
   "hot_window_h": 6,
-  "lowtf_max_per_day": 5,
+  "lowtf_max_per_day": 6,
   "max_open_filter": false,
   "max_open_trades": 6,
   "max_per_day_filter": false,
