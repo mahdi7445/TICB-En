@@ -1663,5 +1663,19 @@
     "source_signal_id": "ALT-000250",
     "signal_message_id": 2053,
     "activated_at": "2026-10-21T01:35:38.303130+00:00"
+  },
+  {
+    "id": "src-ALT-000251",
+    "symbol": "COMP/USD",
+    "side": "SELL",
+    "entry": 25.51,
+    "sl": 25.7,
+    "status": "pending",
+    "created_at": 1792590186,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000251",
+    "signal_message_id": 2059
   }
 ]
