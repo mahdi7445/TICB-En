@@ -1678,5 +1678,19 @@
     "source_signal_id": "ALT-000251",
     "signal_message_id": 2059,
     "activated_at": "2026-10-21T13:44:19.457103+00:00"
+  },
+  {
+    "id": "src-ALT-000252",
+    "symbol": "CVX/USD",
+    "side": "BUY",
+    "entry": 2.634,
+    "sl": 2.624,
+    "status": "pending",
+    "created_at": 1792622062,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000252",
+    "signal_message_id": 2067
   }
 ]
