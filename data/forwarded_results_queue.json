@@ -2719,7 +2719,7 @@
     "level": 1,
     "result_r": 0.2,
     "source_signal_id": "ALT-000250",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-21T01:52:56.008214+00:00"
   }
