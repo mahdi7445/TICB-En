@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792543919999,
+      "last_ms": 1792543979999,
       "bar_ms": 1792497600000,
       "mfe_r": 0.1037,
       "mae_r": 0.245,
@@ -48,7 +48,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792543928262
+      "polled_ms": 1792543986660
     },
     "TC-000088": {
       "id": "TC-000088",
@@ -78,7 +78,7 @@
       "status": "open",
       "opened_ms": 1792515003718,
       "armed_ms": 1792515003718,
-      "last_ms": 1792543919999,
+      "last_ms": 1792543979999,
       "bar_ms": 1792514700000,
       "mfe_r": 0.7515,
       "mae_r": 0.7048,
@@ -86,7 +86,7 @@
       "tier": "candidate",
       "profile": "B4",
       "msg_id": 2048,
-      "polled_ms": 1792543928262
+      "polled_ms": 1792543986660
     },
     "TC-000089": {
       "id": "TC-000089",
@@ -128,7 +128,7 @@
       "status": "open",
       "opened_ms": 1792542602504,
       "armed_ms": 1792542602504,
-      "last_ms": 1792543919999,
+      "last_ms": 1792543979999,
       "bar_ms": 1792541700000,
       "mfe_r": 0.1095,
       "mae_r": 0.2504,
@@ -136,7 +136,7 @@
       "tier": "orig",
       "profile": "B4",
       "msg_id": 2051,
-      "polled_ms": 1792543928262
+      "polled_ms": 1792543986660
     }
   },
   "seen": [],
@@ -147,8 +147,8 @@
     "SWP|ETH/USD|4h": 1792526400000,
     "TS1|BTC/USD|1h": 1792537200000,
     "TS1|ETH/USD|1h": 1792537200000,
-    "CN1M|BTC/USD|1m": 1792543860000,
-    "CN1M|ETH/USD|1m": 1792543860000,
+    "CN1M|BTC/USD|1m": 1792543920000,
+    "CN1M|ETH/USD|1m": 1792543920000,
     "CN5M|BTC/USD|5m": 1792543500000,
     "CN5M|ETH/USD|5m": 1792543500000,
     "CN15|BTC/USD|15m": 1792542600000,
@@ -193,12 +193,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 3120,
+      "checks": 3122,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792543923
+      "last_check": 1792544005
     },
     "CN5M": {
       "since": 1792449613,
