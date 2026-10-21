@@ -40,15 +40,15 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792594079999,
+      "last_ms": 1792594139999,
       "bar_ms": 1792497600000,
       "mfe_r": 0.1037,
-      "mae_r": 0.6913,
+      "mae_r": 0.7502,
       "events": [],
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792594087323
+      "polled_ms": 1792594145550
     },
     "TC-000088": {
       "id": "TC-000088",
@@ -78,15 +78,15 @@
       "status": "open",
       "opened_ms": 1792515003718,
       "armed_ms": 1792515003718,
-      "last_ms": 1792594079999,
+      "last_ms": 1792594139999,
       "bar_ms": 1792514700000,
-      "mfe_r": 2.7047,
+      "mfe_r": 2.9627,
       "mae_r": 0.7048,
       "events": [],
       "tier": "candidate",
       "profile": "B4",
       "msg_id": 2048,
-      "polled_ms": 1792594087323
+      "polled_ms": 1792594145550
     },
     "TC-000091": {
       "id": "TC-000091",
@@ -96,7 +96,7 @@
       "side": "BUY",
       "entry": 83151.9,
       "sl0": 82028.06891576565,
-      "sl": 82028.06891576565,
+      "sl": 83151.9,
       "risk": 1123.831084234349,
       "targets": [
         84275.73108423434,
@@ -118,7 +118,7 @@
       ],
       "trail": 0.0,
       "hit": [
-        false,
+        true,
         false,
         false,
         false
@@ -128,15 +128,23 @@
       "status": "open",
       "opened_ms": 1792573216072,
       "armed_ms": 1792573216072,
-      "last_ms": 1792594079999,
+      "last_ms": 1792594139999,
       "bar_ms": 1792569600000,
-      "mfe_r": 0.9771,
+      "mfe_r": 1.1088,
       "mae_r": 0.0238,
-      "events": [],
+      "events": [
+        {
+          "type": "target",
+          "index": 0,
+          "price": 84275.73108423434,
+          "banked": 0.0,
+          "ts": "2026-10-21T14:49:08.268817+00:00"
+        }
+      ],
       "tier": "candidate",
       "profile": "B4",
       "msg_id": 2058,
-      "polled_ms": 1792594087323
+      "polled_ms": 1792594145550
     },
     "TC-000092": {
       "id": "TC-000092",
@@ -146,7 +154,7 @@
       "side": "BUY",
       "entry": 83724.7,
       "sl0": 83154.2,
-      "sl": 83154.2,
+      "sl": 83724.7,
       "risk": 570.5,
       "targets": [
         84295.2,
@@ -168,7 +176,7 @@
       ],
       "trail": 0.0,
       "hit": [
-        false,
+        true,
         false,
         false,
         false
@@ -178,15 +186,23 @@
       "status": "open",
       "opened_ms": 1792591233011,
       "armed_ms": 1792591233011,
-      "last_ms": 1792594079999,
+      "last_ms": 1792594139999,
       "bar_ms": 1792590300000,
-      "mfe_r": 0.9208,
+      "mfe_r": 1.1802,
       "mae_r": 0.3679,
-      "events": [],
+      "events": [
+        {
+          "type": "target",
+          "index": 0,
+          "price": 84295.2,
+          "banked": 0.0,
+          "ts": "2026-10-21T14:49:10.262494+00:00"
+        }
+      ],
       "tier": "orig",
       "profile": "B4",
       "msg_id": 2061,
-      "polled_ms": 1792594087323
+      "polled_ms": 1792594145550
     }
   },
   "seen": [],
@@ -197,8 +213,8 @@
     "SWP|ETH/USD|4h": 1792569600000,
     "TS1|BTC/USD|1h": 1792587600000,
     "TS1|ETH/USD|1h": 1792587600000,
-    "CN1M|BTC/USD|1m": 1792593960000,
-    "CN1M|ETH/USD|1m": 1792593960000,
+    "CN1M|BTC/USD|1m": 1792594080000,
+    "CN1M|ETH/USD|1m": 1792594080000,
     "CN5M|BTC/USD|5m": 1792593600000,
     "CN5M|ETH/USD|5m": 1792593600000,
     "CN15|BTC/USD|15m": 1792593000000,
@@ -243,12 +259,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 4764,
+      "checks": 4768,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792594033
+      "last_check": 1792594167
     },
     "CN5M": {
       "since": 1792449613,
