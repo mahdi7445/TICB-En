@@ -7523,5 +7523,56 @@
     "ladder": "B4",
     "trigger": null,
     "hot_move_pct": null
+  },
+  {
+    "signal_id": "ALT-000251",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-21T13:44:19.457083+00:00",
+        "price": 25.51
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-21T13:46:23.545907+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-21T14:26:10.392989+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-21T14:26:10.394232+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "COMP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 25.51,
+    "sl": 25.7,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-21T13:44:19.457000+00:00",
+    "closed_at": "2026-10-21T14:26:10.394232+00:00",
+    "r_pct": 0.7448,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
