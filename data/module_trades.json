@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792591679999,
+      "last_ms": 1792591739999,
       "bar_ms": 1792497600000,
       "mfe_r": 0.1037,
       "mae_r": 0.534,
@@ -48,7 +48,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792591737933
+      "polled_ms": 1792591796641
     },
     "TC-000088": {
       "id": "TC-000088",
@@ -78,7 +78,7 @@
       "status": "open",
       "opened_ms": 1792515003718,
       "armed_ms": 1792515003718,
-      "last_ms": 1792591679999,
+      "last_ms": 1792591739999,
       "bar_ms": 1792514700000,
       "mfe_r": 2.0165,
       "mae_r": 0.7048,
@@ -86,7 +86,7 @@
       "tier": "candidate",
       "profile": "B4",
       "msg_id": 2048,
-      "polled_ms": 1792591737933
+      "polled_ms": 1792591796641
     },
     "TC-000091": {
       "id": "TC-000091",
@@ -128,7 +128,7 @@
       "status": "open",
       "opened_ms": 1792573216072,
       "armed_ms": 1792573216072,
-      "last_ms": 1792591679999,
+      "last_ms": 1792591739999,
       "bar_ms": 1792569600000,
       "mfe_r": 0.6257,
       "mae_r": 0.0238,
@@ -136,7 +136,7 @@
       "tier": "candidate",
       "profile": "B4",
       "msg_id": 2058,
-      "polled_ms": 1792591737933
+      "polled_ms": 1792591796641
     },
     "TC-000092": {
       "id": "TC-000092",
@@ -186,7 +186,7 @@
       "tier": "orig",
       "profile": "B4",
       "msg_id": 2061,
-      "polled_ms": 1792591737933
+      "polled_ms": 1792591796641
     }
   },
   "seen": [],
@@ -197,18 +197,18 @@
     "SWP|ETH/USD|4h": 1792569600000,
     "TS1|BTC/USD|1h": 1792587600000,
     "TS1|ETH/USD|1h": 1792587600000,
-    "CN1M|BTC/USD|1m": 1792591680000,
-    "CN1M|ETH/USD|1m": 1792591680000,
-    "CN5M|BTC/USD|5m": 1792591200000,
-    "CN5M|ETH/USD|5m": 1792591200000,
+    "CN1M|BTC/USD|1m": 1792591740000,
+    "CN1M|ETH/USD|1m": 1792591740000,
+    "CN5M|BTC/USD|5m": 1792591500000,
+    "CN5M|ETH/USD|5m": 1792591500000,
     "CN15|BTC/USD|15m": 1792590300000,
     "CN15|ETH/USD|15m": 1792590300000,
     "CN1H|BTC/USD|1h": 1792587600000,
     "CN1H|ETH/USD|1h": 1792587600000,
     "CN4H|BTC/USD|4h": 1792569600000,
     "CN4H|ETH/USD|4h": 1792569600000,
-    "TKF|BTC/USD|5m": 1792591200000,
-    "TKF|ETH/USD|5m": 1792591200000,
+    "TKF|BTC/USD|5m": 1792591500000,
+    "TKF|ETH/USD|5m": 1792591500000,
     "TPS|BTC/USD|1h": 1792587600000,
     "TPS|ETH/USD|1h": 1792587600000,
     "MRA|BTC/USD|1h": 1792587600000,
@@ -219,8 +219,8 @@
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792510500000,
-    "SMS|BTC/USD|5m": 1792591200000,
-    "SMS|ETH/USD|5m": 1792591200000,
+    "SMS|BTC/USD|5m": 1792591500000,
+    "SMS|ETH/USD|5m": 1792591500000,
     "TPB|BTC/USD|1h": 1792587600000,
     "TPB|ETH/USD|1h": 1792587600000,
     "HOT|ARB/USD|15m|SELL": 1792509300000,
@@ -243,32 +243,32 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 4688,
+      "checks": 4690,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792591744
+      "last_check": 1792591806
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 948,
+      "checks": 950,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792591508
+      "last_check": 1792591809
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 690,
+      "checks": 692,
       "nodata": 0,
       "raw": 2,
       "blocked": {
         "already_open": 1
       },
       "opened": 1,
-      "last_check": 1792591508
+      "last_check": 1792591809
     },
     "CN15": {
       "since": 1792449921,
@@ -366,12 +366,12 @@
     },
     "SMS": {
       "since": 1792499819,
-      "checks": 614,
+      "checks": 616,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792591508
+      "last_check": 1792591809
     },
     "TPB": {
       "since": 1792499822,
