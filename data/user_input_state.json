@@ -1,7 +1,14 @@
 {
   "378486866": {
-    "kind": "adm_sig",
-    "data": {},
-    "ts": 1792673889
+    "kind": "adm_cmd",
+    "data": {
+      "key": "manual",
+      "vals": [
+        "Btc",
+        "SELL",
+        "15M"
+      ]
+    },
+    "ts": 1792673926
   }
 }
