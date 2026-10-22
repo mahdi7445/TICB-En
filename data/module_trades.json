@@ -48,43 +48,43 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792655940645
+      "polled_ms": 1792655996316
     }
   },
   "seen": [],
   "checked": {
-    "HDV3|BTC/USD|4h": 1792627200000,
-    "HDV3|ETH/USD|4h": 1792627200000,
-    "SWP|BTC/USD|4h": 1792627200000,
-    "SWP|ETH/USD|4h": 1792627200000,
-    "TS1|BTC/USD|1h": 1792648800000,
-    "TS1|ETH/USD|1h": 1792648800000,
-    "CN1M|BTC/USD|1m": 1792655880000,
-    "CN1M|ETH/USD|1m": 1792655880000,
-    "CN5M|BTC/USD|5m": 1792655400000,
-    "CN5M|ETH/USD|5m": 1792655400000,
-    "CN15|BTC/USD|15m": 1792654200000,
-    "CN15|ETH/USD|15m": 1792654200000,
-    "CN1H|BTC/USD|1h": 1792648800000,
-    "CN1H|ETH/USD|1h": 1792648800000,
-    "CN4H|BTC/USD|4h": 1792627200000,
-    "CN4H|ETH/USD|4h": 1792627200000,
-    "TKF|BTC/USD|5m": 1792655400000,
-    "TKF|ETH/USD|5m": 1792655400000,
-    "TPS|BTC/USD|1h": 1792648800000,
-    "TPS|ETH/USD|1h": 1792648800000,
-    "MRA|BTC/USD|1h": 1792648800000,
-    "MRA|ETH/USD|1h": 1792648800000,
-    "MRB|BTC/USD|1h": 1792648800000,
-    "MRB|ETH/USD|1h": 1792648800000,
+    "HDV3|BTC/USD|4h": 1792641600000,
+    "HDV3|ETH/USD|4h": 1792641600000,
+    "SWP|BTC/USD|4h": 1792641600000,
+    "SWP|ETH/USD|4h": 1792641600000,
+    "TS1|BTC/USD|1h": 1792652400000,
+    "TS1|ETH/USD|1h": 1792652400000,
+    "CN1M|BTC/USD|1m": 1792655940000,
+    "CN1M|ETH/USD|1m": 1792655940000,
+    "CN5M|BTC/USD|5m": 1792655700000,
+    "CN5M|ETH/USD|5m": 1792655700000,
+    "CN15|BTC/USD|15m": 1792655100000,
+    "CN15|ETH/USD|15m": 1792655100000,
+    "CN1H|BTC/USD|1h": 1792652400000,
+    "CN1H|ETH/USD|1h": 1792652400000,
+    "CN4H|BTC/USD|4h": 1792641600000,
+    "CN4H|ETH/USD|4h": 1792641600000,
+    "TKF|BTC/USD|5m": 1792655700000,
+    "TKF|ETH/USD|5m": 1792655700000,
+    "TPS|BTC/USD|1h": 1792652400000,
+    "TPS|ETH/USD|1h": 1792652400000,
+    "MRA|BTC/USD|1h": 1792652400000,
+    "MRA|ETH/USD|1h": 1792652400000,
+    "MRB|BTC/USD|1h": 1792652400000,
+    "MRB|ETH/USD|1h": 1792652400000,
     "HOT|ARB/USD|5m|SELL": 1792510500000,
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792510500000,
-    "SMS|BTC/USD|5m": 1792655400000,
-    "SMS|ETH/USD|5m": 1792655400000,
-    "TPB|BTC/USD|1h": 1792648800000,
-    "TPB|ETH/USD|1h": 1792648800000,
+    "SMS|BTC/USD|5m": 1792655700000,
+    "SMS|ETH/USD|5m": 1792655700000,
+    "TPB|BTC/USD|1h": 1792652400000,
+    "TPB|ETH/USD|1h": 1792652400000,
     "HOT|ARB/USD|15m|SELL": 1792509300000,
     "HOT|NEAR/USD|15m|SELL": 1792501200000,
     "HOT|TIA/USD|15m|BUY": 1792506600000,
@@ -105,113 +105,113 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 6804,
+      "checks": 6806,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792655969
+      "last_check": 1792656007
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 1376,
+      "checks": 1378,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792655712
+      "last_check": 1792656010
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 1118,
+      "checks": 1120,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792655712
+      "last_check": 1792656012
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 458,
+      "checks": 460,
       "nodata": 0,
       "raw": 4,
       "blocked": {},
       "opened": 4,
-      "last_check": 1792655121
+      "last_check": 1792656012
     },
     "TS1": {
       "since": 1792450810,
-      "checks": 114,
+      "checks": 116,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792652407
+      "last_check": 1792656005
     },
     "CN1H": {
       "since": 1792450819,
-      "checks": 114,
+      "checks": 116,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792652414
+      "last_check": 1792656012
     },
     "TPS": {
       "since": 1792450819,
-      "checks": 114,
+      "checks": 116,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792652414
+      "last_check": 1792656012
     },
     "MRA": {
       "since": 1792450819,
-      "checks": 114,
+      "checks": 116,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792652414
+      "last_check": 1792656012
     },
     "MRB": {
       "since": 1792450819,
-      "checks": 114,
+      "checks": 116,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792652414
+      "last_check": 1792656012
     },
     "HDV3": {
       "since": 1792454401,
-      "checks": 28,
+      "checks": 30,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792641615
+      "last_check": 1792656002
     },
     "SWP": {
       "since": 1792454402,
-      "checks": 28,
+      "checks": 30,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792641615
+      "last_check": 1792656002
     },
     "CN4H": {
       "since": 1792454412,
-      "checks": 28,
+      "checks": 30,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792641625
+      "last_check": 1792656012
     },
     "HOT": {
       "since": 1792486027,
@@ -228,21 +228,21 @@
     },
     "SMS": {
       "since": 1792499819,
-      "checks": 1042,
+      "checks": 1044,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792655712
+      "last_check": 1792656012
     },
     "TPB": {
       "since": 1792499822,
-      "checks": 88,
+      "checks": 90,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792652414
+      "last_check": 1792656012
     }
   },
   "hot_daily": {
