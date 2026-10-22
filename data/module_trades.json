@@ -40,53 +40,15 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792655399999,
+      "last_ms": 1792655459999,
       "bar_ms": 1792497600000,
-      "mfe_r": 0.1458,
+      "mfe_r": 0.1914,
       "mae_r": 0.9262,
       "events": [],
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792655409713
-    },
-    "TC-000088": {
-      "id": "TC-000088",
-      "module": "TKF",
-      "symbol": "BTC/USD",
-      "tf": "5m",
-      "side": "BUY",
-      "entry": 82698.1,
-      "sl0": 82124.33020112372,
-      "sl": 82124.33020112372,
-      "risk": 573.7697988762811,
-      "targets": [
-        84993.17919550513
-      ],
-      "levels": [
-        4.0
-      ],
-      "weights": [
-        1.0
-      ],
-      "trail": 0.0,
-      "hit": [
-        false
-      ],
-      "runner_on": false,
-      "best": 82698.1,
-      "status": "open",
-      "opened_ms": 1792515003718,
-      "armed_ms": 1792515003718,
-      "last_ms": 1792655399999,
-      "bar_ms": 1792514700000,
-      "mfe_r": 3.733,
-      "mae_r": 0.9591,
-      "events": [],
-      "tier": "candidate",
-      "profile": "B4",
-      "msg_id": 2048,
-      "polled_ms": 1792655409713
+      "polled_ms": 1792655467032
     }
   },
   "seen": [],
@@ -97,8 +59,8 @@
     "SWP|ETH/USD|4h": 1792627200000,
     "TS1|BTC/USD|1h": 1792648800000,
     "TS1|ETH/USD|1h": 1792648800000,
-    "CN1M|BTC/USD|1m": 1792655340000,
-    "CN1M|ETH/USD|1m": 1792655340000,
+    "CN1M|BTC/USD|1m": 1792655400000,
+    "CN1M|ETH/USD|1m": 1792655400000,
     "CN5M|BTC/USD|5m": 1792655100000,
     "CN5M|ETH/USD|5m": 1792655100000,
     "CN15|BTC/USD|15m": 1792654200000,
@@ -143,12 +105,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 6786,
+      "checks": 6788,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792655422
+      "last_check": 1792655485
     },
     "CN5M": {
       "since": 1792449613,
