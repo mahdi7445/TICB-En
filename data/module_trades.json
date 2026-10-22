@@ -59,8 +59,8 @@
     "SWP|ETH/USD|4h": 1792670400000,
     "TS1|BTC/USD|1h": 1792681200000,
     "TS1|ETH/USD|1h": 1792681200000,
-    "CN1M|BTC/USD|1m": 1792686060000,
-    "CN1M|ETH/USD|1m": 1792686060000,
+    "CN1M|BTC/USD|1m": 1792686120000,
+    "CN1M|ETH/USD|1m": 1792686120000,
     "CN5M|BTC/USD|5m": 1792685700000,
     "CN5M|ETH/USD|5m": 1792685700000,
     "CN15|BTC/USD|15m": 1792684800000,
@@ -105,12 +105,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 7808,
+      "checks": 7810,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792686128
+      "last_check": 1792686192
     },
     "CN5M": {
       "since": 1792449613,
