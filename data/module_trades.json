@@ -59,18 +59,18 @@
     "SWP|ETH/USD|4h": 1792670400000,
     "TS1|BTC/USD|1h": 1792692000000,
     "TS1|ETH/USD|1h": 1792692000000,
-    "CN1M|BTC/USD|1m": 1792698780000,
-    "CN1M|ETH/USD|1m": 1792698780000,
-    "CN5M|BTC/USD|5m": 1792698300000,
-    "CN5M|ETH/USD|5m": 1792698300000,
+    "CN1M|BTC/USD|1m": 1792698840000,
+    "CN1M|ETH/USD|1m": 1792698840000,
+    "CN5M|BTC/USD|5m": 1792698600000,
+    "CN5M|ETH/USD|5m": 1792698600000,
     "CN15|BTC/USD|15m": 1792697400000,
     "CN15|ETH/USD|15m": 1792697400000,
     "CN1H|BTC/USD|1h": 1792692000000,
     "CN1H|ETH/USD|1h": 1792692000000,
     "CN4H|BTC/USD|4h": 1792670400000,
     "CN4H|ETH/USD|4h": 1792670400000,
-    "TKF|BTC/USD|5m": 1792698300000,
-    "TKF|ETH/USD|5m": 1792698300000,
+    "TKF|BTC/USD|5m": 1792698600000,
+    "TKF|ETH/USD|5m": 1792698600000,
     "TPS|BTC/USD|1h": 1792692000000,
     "TPS|ETH/USD|1h": 1792692000000,
     "MRA|BTC/USD|1h": 1792692000000,
@@ -81,8 +81,8 @@
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792510500000,
-    "SMS|BTC/USD|5m": 1792698300000,
-    "SMS|ETH/USD|5m": 1792698300000,
+    "SMS|BTC/USD|5m": 1792698600000,
+    "SMS|ETH/USD|5m": 1792698600000,
     "TPB|BTC/USD|1h": 1792692000000,
     "TPB|ETH/USD|1h": 1792692000000,
     "HOT|ARB/USD|15m|SELL": 1792509300000,
@@ -105,32 +105,32 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 8228,
+      "checks": 8230,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792698867
+      "last_check": 1792698931
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 1662,
+      "checks": 1664,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1792698625
+      "last_check": 1792698933
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 1404,
+      "checks": 1406,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792698625
+      "last_check": 1792698933
     },
     "CN15": {
       "since": 1792449921,
@@ -228,12 +228,12 @@
     },
     "SMS": {
       "since": 1792499819,
-      "checks": 1328,
+      "checks": 1330,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792698625
+      "last_check": 1792698933
     },
     "TPB": {
       "since": 1792499822,
