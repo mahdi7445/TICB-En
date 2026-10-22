@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792681859999,
+      "last_ms": 1792681919999,
       "bar_ms": 1792497600000,
       "mfe_r": 0.4933,
       "mae_r": 0.9262,
@@ -48,57 +48,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792681865080
-    },
-    "TC-000094": {
-      "id": "TC-000094",
-      "module": "CN5M",
-      "symbol": "ETH/USD",
-      "tf": "5m",
-      "side": "BUY",
-      "entry": 2407.79,
-      "sl0": 2394.69,
-      "sl": 2394.69,
-      "risk": 13.099999999999909,
-      "targets": [
-        2420.89,
-        2433.99,
-        2460.1899999999996,
-        2486.3899999999994
-      ],
-      "levels": [
-        1.0,
-        2.0,
-        4.0,
-        6.0
-      ],
-      "weights": [
-        0.2,
-        0.3,
-        0.15,
-        0.1
-      ],
-      "trail": 1.5,
-      "hit": [
-        false,
-        false,
-        false,
-        false
-      ],
-      "runner_on": false,
-      "best": 2407.79,
-      "status": "open",
-      "opened_ms": 1792677604677,
-      "armed_ms": 1792677604677,
-      "last_ms": 1792681859999,
-      "bar_ms": 1792677300000,
-      "mfe_r": 0.5511,
-      "mae_r": 0.8595,
-      "events": [],
-      "tier": "orig",
-      "profile": "CLASSIC",
-      "msg_id": 2077,
-      "polled_ms": 1792681865080
+      "polled_ms": 1792681926365
     }
   },
   "seen": [],
@@ -109,8 +59,8 @@
     "SWP|ETH/USD|4h": 1792656000000,
     "TS1|BTC/USD|1h": 1792677600000,
     "TS1|ETH/USD|1h": 1792677600000,
-    "CN1M|BTC/USD|1m": 1792681800000,
-    "CN1M|ETH/USD|1m": 1792681800000,
+    "CN1M|BTC/USD|1m": 1792681860000,
+    "CN1M|ETH/USD|1m": 1792681860000,
     "CN5M|BTC/USD|5m": 1792681500000,
     "CN5M|ETH/USD|5m": 1792681500000,
     "CN15|BTC/USD|15m": 1792680300000,
@@ -155,12 +105,12 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 7666,
+      "checks": 7668,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792681887
+      "last_check": 1792681921
     },
     "CN5M": {
       "since": 1792449613,
