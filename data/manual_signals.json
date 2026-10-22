@@ -1693,5 +1693,33 @@
     "source_signal_id": "ALT-000252",
     "signal_message_id": 2067,
     "activated_at": "2026-10-21T22:34:59.450771+00:00"
+  },
+  {
+    "id": "src-ALT-000253",
+    "symbol": "UNI/USD",
+    "side": "BUY",
+    "entry": 7.03,
+    "sl": 6.35,
+    "status": "pending",
+    "created_at": 1792713328,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000253",
+    "signal_message_id": 2082
+  },
+  {
+    "id": "src-ALT-000254",
+    "symbol": "AAVE/USD",
+    "side": "BUY",
+    "entry": 146.75,
+    "sl": 135.02,
+    "status": "pending",
+    "created_at": 1792713329,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000254",
+    "signal_message_id": 2083
   }
 ]
