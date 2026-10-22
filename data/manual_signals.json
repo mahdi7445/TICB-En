@@ -1721,5 +1721,61 @@
     "silent": true,
     "source_signal_id": "ALT-000254",
     "signal_message_id": 2083
+  },
+  {
+    "id": "src-ALT-000255",
+    "symbol": "TAO/USD",
+    "side": "BUY",
+    "entry": 256.5,
+    "sl": 236.3,
+    "status": "pending",
+    "created_at": 1792713331,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000255",
+    "signal_message_id": 2084
+  },
+  {
+    "id": "src-ALT-000256",
+    "symbol": "TIA/USD",
+    "side": "BUY",
+    "entry": 0.5636,
+    "sl": 0.4834,
+    "status": "pending",
+    "created_at": 1792713332,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000256",
+    "signal_message_id": 2085
+  },
+  {
+    "id": "src-ALT-000257",
+    "symbol": "LDO/USD",
+    "side": "BUY",
+    "entry": 0.381,
+    "sl": 0.3496,
+    "status": "pending",
+    "created_at": 1792713332,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000257",
+    "signal_message_id": 2086
+  },
+  {
+    "id": "src-ALT-000258",
+    "symbol": "SOL/USD",
+    "side": "BUY",
+    "entry": 103.53,
+    "sl": 98.23,
+    "status": "pending",
+    "created_at": 1792713334,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000258",
+    "signal_message_id": 2087
   }
 ]
