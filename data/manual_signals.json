@@ -2188,5 +2188,47 @@
     "source_signal_id": "ALT-000285",
     "signal_message_id": 2132,
     "activated_at": "2026-10-23T08:11:11.268252+00:00"
+  },
+  {
+    "id": "src-ALT-000286",
+    "symbol": "LTC/USD",
+    "side": "SELL",
+    "entry": 59.31,
+    "sl": 59.52,
+    "status": "pending",
+    "created_at": 1792743148,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000286",
+    "signal_message_id": 2133
+  },
+  {
+    "id": "src-ALT-000287",
+    "symbol": "XLM/USD",
+    "side": "SELL",
+    "entry": 0.1773,
+    "sl": 0.1782,
+    "status": "pending",
+    "created_at": 1792743157,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000287",
+    "signal_message_id": 2134
+  },
+  {
+    "id": "src-ALT-000288",
+    "symbol": "XRP/USD",
+    "side": "SELL",
+    "entry": 1.321,
+    "sl": 1.326,
+    "status": "pending",
+    "created_at": 1792743187,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000288",
+    "signal_message_id": 2135
   }
 ]
