@@ -3691,7 +3691,7 @@
     "level": 1,
     "result_r": 0.0,
     "source_signal_id": "ALT-000314",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T21:02:44.046142+00:00"
   }
