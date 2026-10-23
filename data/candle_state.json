@@ -17518,7 +17518,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ATOM/USD",
         "tf_key": "manual",
         "display": "ATOM",
@@ -17528,6 +17528,17 @@
             "type": "opened",
             "ts": "2026-10-23T17:41:41.421911+00:00",
             "price": 1.771
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-23T18:37:25.189647+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T18:37:25.190884+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2197,
@@ -17537,7 +17548,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
