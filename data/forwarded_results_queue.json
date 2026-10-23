@@ -3238,5 +3238,65 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T11:43:51.877498+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ICP",
+    "tf_label": "1H",
+    "entry": 2.756,
+    "level": 0.75,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000296",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T12:23:27.356074+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ADA",
+    "tf_label": "1H",
+    "entry": 0.21664,
+    "level": 0.75,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000298",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T12:23:29.505364+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ADA",
+    "tf_label": "1H",
+    "entry": 0.21664,
+    "level": 1.5,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000298",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T12:23:30.266765+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ADA",
+    "tf_label": "1H",
+    "entry": 0.21664,
+    "level": 2.25,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000298",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T12:23:30.769136+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "ADA",
+    "tf_label": "1H",
+    "entry": 0.21664,
+    "level": null,
+    "result_r": 1.5,
+    "source_signal_id": "ALT-000298",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T12:23:31.222715+00:00"
   }
 ]
