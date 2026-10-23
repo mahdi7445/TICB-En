@@ -3298,5 +3298,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T12:23:31.222715+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOT",
+    "tf_label": "5M",
+    "entry": 1.174,
+    "level": 1,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000294",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T12:32:35.042876+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ICP",
+    "tf_label": "1H",
+    "entry": 2.756,
+    "level": null,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000296",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T12:32:36.002069+00:00"
   }
 ]
