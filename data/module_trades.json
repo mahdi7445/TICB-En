@@ -107,34 +107,34 @@
     "HDV3|ETH/USD|4h": 1792728000000,
     "SWP|BTC/USD|4h": 1792728000000,
     "SWP|ETH/USD|4h": 1792728000000,
-    "TS1|BTC/USD|1h": 1792742400000,
-    "TS1|ETH/USD|1h": 1792742400000,
-    "CN1M|BTC/USD|1m": 1792749480000,
-    "CN1M|ETH/USD|1m": 1792749480000,
-    "CN5M|BTC/USD|5m": 1792749000000,
-    "CN5M|ETH/USD|5m": 1792749000000,
-    "CN15|BTC/USD|15m": 1792747800000,
-    "CN15|ETH/USD|15m": 1792747800000,
-    "CN1H|BTC/USD|1h": 1792742400000,
-    "CN1H|ETH/USD|1h": 1792742400000,
+    "TS1|BTC/USD|1h": 1792746000000,
+    "TS1|ETH/USD|1h": 1792746000000,
+    "CN1M|BTC/USD|1m": 1792749540000,
+    "CN1M|ETH/USD|1m": 1792749540000,
+    "CN5M|BTC/USD|5m": 1792749300000,
+    "CN5M|ETH/USD|5m": 1792749300000,
+    "CN15|BTC/USD|15m": 1792748700000,
+    "CN15|ETH/USD|15m": 1792748700000,
+    "CN1H|BTC/USD|1h": 1792746000000,
+    "CN1H|ETH/USD|1h": 1792746000000,
     "CN4H|BTC/USD|4h": 1792728000000,
     "CN4H|ETH/USD|4h": 1792728000000,
-    "TKF|BTC/USD|5m": 1792749000000,
-    "TKF|ETH/USD|5m": 1792749000000,
-    "TPS|BTC/USD|1h": 1792742400000,
-    "TPS|ETH/USD|1h": 1792742400000,
-    "MRA|BTC/USD|1h": 1792742400000,
-    "MRA|ETH/USD|1h": 1792742400000,
-    "MRB|BTC/USD|1h": 1792742400000,
-    "MRB|ETH/USD|1h": 1792742400000,
+    "TKF|BTC/USD|5m": 1792749300000,
+    "TKF|ETH/USD|5m": 1792749300000,
+    "TPS|BTC/USD|1h": 1792746000000,
+    "TPS|ETH/USD|1h": 1792746000000,
+    "MRA|BTC/USD|1h": 1792746000000,
+    "MRA|ETH/USD|1h": 1792746000000,
+    "MRB|BTC/USD|1h": 1792746000000,
+    "MRB|ETH/USD|1h": 1792746000000,
     "HOT|ARB/USD|5m|SELL": 1792510500000,
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792510500000,
     "SMS|BTC/USD|5m": 1792728900000,
     "SMS|ETH/USD|5m": 1792728900000,
-    "TPB|BTC/USD|1h": 1792742400000,
-    "TPB|ETH/USD|1h": 1792742400000,
+    "TPB|BTC/USD|1h": 1792746000000,
+    "TPB|ETH/USD|1h": 1792746000000,
     "HOT|ARB/USD|15m|SELL": 1792509300000,
     "HOT|NEAR/USD|15m|SELL": 1792501200000,
     "HOT|TIA/USD|15m|BUY": 1792506600000,
@@ -151,92 +151,92 @@
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000,
-    "FBR|BTC/USD|5m": 1792749000000,
-    "FBR|ETH/USD|5m": 1792749000000
+    "FBR|BTC/USD|5m": 1792749300000,
+    "FBR|ETH/USD|5m": 1792749300000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 9898,
+      "checks": 9900,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792749549
+      "last_check": 1792749615
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 2000,
+      "checks": 2002,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1792749312
+      "last_check": 1792749618
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 1742,
+      "checks": 1744,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792749312
+      "last_check": 1792749620
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 666,
+      "checks": 668,
       "nodata": 0,
       "raw": 4,
       "blocked": {},
       "opened": 4,
-      "last_check": 1792748722
+      "last_check": 1792749620
     },
     "TS1": {
       "since": 1792450810,
-      "checks": 166,
+      "checks": 168,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792746017
+      "last_check": 1792749613
     },
     "CN1H": {
       "since": 1792450819,
-      "checks": 166,
+      "checks": 168,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792746024
+      "last_check": 1792749620
     },
     "TPS": {
       "since": 1792450819,
-      "checks": 166,
+      "checks": 168,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792746024
+      "last_check": 1792749620
     },
     "MRA": {
       "since": 1792450819,
-      "checks": 166,
+      "checks": 168,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792746024
+      "last_check": 1792749620
     },
     "MRB": {
       "since": 1792450819,
-      "checks": 166,
+      "checks": 168,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792746024
+      "last_check": 1792749620
     },
     "HDV3": {
       "since": 1792454401,
@@ -289,21 +289,21 @@
     },
     "TPB": {
       "since": 1792499822,
-      "checks": 140,
+      "checks": 142,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792746024
+      "last_check": 1792749620
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 66,
+      "checks": 68,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792749312
+      "last_check": 1792749620
     }
   },
   "hot_daily": {
