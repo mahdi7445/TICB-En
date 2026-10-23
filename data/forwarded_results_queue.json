@@ -3550,5 +3550,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T18:44:20.873387+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ETC",
+    "tf_label": "1H",
+    "entry": 7.895,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000308",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T19:07:52.825245+00:00"
   }
 ]
