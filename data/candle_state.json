@@ -16797,7 +16797,7 @@
         "sl": 1.162,
         "r": 0.01200000000000001,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -16813,6 +16813,12 @@
             "type": "opened",
             "ts": "2026-10-23T11:23:59.746997+00:00",
             "price": 1.174
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-23T12:33:50.198527+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2160,
@@ -16873,13 +16879,13 @@
         "sl": 2.767,
         "r": 0.01100000000000012,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ICP/USD",
         "tf_key": "manual",
         "display": "ICP",
@@ -16889,6 +16895,17 @@
             "type": "opened",
             "ts": "2026-10-23T12:14:35.872308+00:00",
             "price": 2.756
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-23T12:33:50.198566+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T12:33:50.199964+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.0
           }
         ],
         "signal_message_id": 2163,
@@ -16898,7 +16915,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "breakeven"
       },
       "hist": []
     },
