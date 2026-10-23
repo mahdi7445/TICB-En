@@ -1978,5 +1978,19 @@
     "source_signal_id": "ALT-000271",
     "signal_message_id": 2107,
     "activated_at": "2026-10-23T03:50:16.681941+00:00"
+  },
+  {
+    "id": "src-ALT-000272",
+    "symbol": "DOT/USD",
+    "side": "SELL",
+    "entry": 1.1829,
+    "sl": 1.1851,
+    "status": "pending",
+    "created_at": 1792728399,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000272",
+    "signal_message_id": 2108
   }
 ]
