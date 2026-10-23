@@ -9487,5 +9487,91 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000274",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-23T05:05:42.973693+00:00",
+        "price": 286.49
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-23T14:19:41.037185+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-23T14:19:41.038631+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BCH/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 286.49,
+    "sl": 282.3,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-23T05:05:42.973000+00:00",
+    "closed_at": "2026-10-23T14:19:41.038631+00:00",
+    "r_pct": 1.4625,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000302",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-23T14:11:38.705189+00:00",
+        "price": 0.118
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-23T14:19:41.047731+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-23T14:19:41.048950+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "OP/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 0.118,
+    "sl": 0.1171,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-23T14:11:38.705000+00:00",
+    "closed_at": "2026-10-23T14:19:41.048950+00:00",
+    "r_pct": 0.7627,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
