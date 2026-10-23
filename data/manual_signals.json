@@ -2038,5 +2038,19 @@
     "source_signal_id": "ALT-000275",
     "signal_message_id": 2114,
     "reject_reason": "duplicate of already-open trade 'MANUAL|src-ALT-000271' (same symbol/side, similar entry, opened recently)"
+  },
+  {
+    "id": "src-ALT-000276",
+    "symbol": "RENDER/USD",
+    "side": "BUY",
+    "entry": 1.798,
+    "sl": 1.793,
+    "status": "pending",
+    "created_at": 1792732829,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000276",
+    "signal_message_id": 2117
   }
 ]
