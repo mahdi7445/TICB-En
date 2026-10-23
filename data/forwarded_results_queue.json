@@ -3370,5 +3370,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T13:28:37.426857+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "AKE",
+    "tf_label": "15M",
+    "entry": 0.03325,
+    "level": null,
+    "result_r": 0.33,
+    "source_signal_id": "ALT-000283",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T13:36:15.275865+00:00"
   }
 ]
