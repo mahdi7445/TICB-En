@@ -2233,5 +2233,19 @@
     "source_signal_id": "ALT-000288",
     "signal_message_id": 2135,
     "reject_reason": "duplicate of already-open trade 'MANUAL|src-ALT-000284' (same symbol/side, similar entry, opened recently)"
+  },
+  {
+    "id": "src-ALT-000289",
+    "symbol": "DOGE/USD",
+    "side": "SELL",
+    "entry": 0.07999,
+    "sl": 0.08031,
+    "status": "pending",
+    "created_at": 1792744141,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000289",
+    "signal_message_id": 2139
   }
 ]
