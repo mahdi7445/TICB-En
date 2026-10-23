@@ -109,18 +109,18 @@
     "SWP|ETH/USD|4h": 1792742400000,
     "TS1|BTC/USD|1h": 1792756800000,
     "TS1|ETH/USD|1h": 1792756800000,
-    "CN1M|BTC/USD|1m": 1792761180000,
-    "CN1M|ETH/USD|1m": 1792761180000,
-    "CN5M|BTC/USD|5m": 1792760700000,
-    "CN5M|ETH/USD|5m": 1792760700000,
-    "CN15|BTC/USD|15m": 1792759500000,
-    "CN15|ETH/USD|15m": 1792759500000,
+    "CN1M|BTC/USD|1m": 1792761240000,
+    "CN1M|ETH/USD|1m": 1792761240000,
+    "CN5M|BTC/USD|5m": 1792761000000,
+    "CN5M|ETH/USD|5m": 1792761000000,
+    "CN15|BTC/USD|15m": 1792760400000,
+    "CN15|ETH/USD|15m": 1792760400000,
     "CN1H|BTC/USD|1h": 1792756800000,
     "CN1H|ETH/USD|1h": 1792756800000,
     "CN4H|BTC/USD|4h": 1792742400000,
     "CN4H|ETH/USD|4h": 1792742400000,
-    "TKF|BTC/USD|5m": 1792760700000,
-    "TKF|ETH/USD|5m": 1792760700000,
+    "TKF|BTC/USD|5m": 1792761000000,
+    "TKF|ETH/USD|5m": 1792761000000,
     "TPS|BTC/USD|1h": 1792756800000,
     "TPS|ETH/USD|1h": 1792756800000,
     "MRA|BTC/USD|1h": 1792756800000,
@@ -151,47 +151,47 @@
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000,
-    "FBR|BTC/USD|5m": 1792760700000,
-    "FBR|ETH/USD|5m": 1792760700000
+    "FBR|BTC/USD|5m": 1792761000000,
+    "FBR|ETH/USD|5m": 1792761000000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 10284,
+      "checks": 10286,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792761242
+      "last_check": 1792761307
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 2078,
+      "checks": 2080,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1792761049
+      "last_check": 1792761309
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 1820,
+      "checks": 1822,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792761049
+      "last_check": 1792761312
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 692,
+      "checks": 694,
       "nodata": 0,
       "raw": 4,
       "blocked": {},
       "opened": 4,
-      "last_check": 1792760425
+      "last_check": 1792761312
     },
     "TS1": {
       "since": 1792450810,
@@ -298,12 +298,12 @@
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 144,
+      "checks": 146,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792761049
+      "last_check": 1792761312
     }
   },
   "hot_daily": {
