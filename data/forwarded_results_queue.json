@@ -3802,5 +3802,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T23:05:53.457914+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 6.923,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000320",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T23:53:46.007995+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 1175.42,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000321",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T23:53:46.825231+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "JUP",
+    "tf_label": "5M",
+    "entry": 0.2979,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000322",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T23:53:48.055692+00:00"
   }
 ]
