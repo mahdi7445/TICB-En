@@ -3658,5 +3658,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T20:23:44.568128+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "APT",
+    "tf_label": "15M",
+    "entry": 0.7454,
+    "level": null,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000316",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T20:31:20.092507+00:00"
   }
 ]
