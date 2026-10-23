@@ -2338,5 +2338,47 @@
     "source_signal_id": "ALT-000295",
     "signal_message_id": 2162,
     "activated_at": "2026-10-23T12:08:16.878486+00:00"
+  },
+  {
+    "id": "src-ALT-000296",
+    "symbol": "ICP/USD",
+    "side": "SELL",
+    "entry": 2.756,
+    "sl": 2.767,
+    "status": "pending",
+    "created_at": 1792757639,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000296",
+    "signal_message_id": 2163
+  },
+  {
+    "id": "src-ALT-000297",
+    "symbol": "SEI/USD",
+    "side": "SELL",
+    "entry": 0.05772,
+    "sl": 0.05804,
+    "status": "pending",
+    "created_at": 1792757640,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000297",
+    "signal_message_id": 2164
+  },
+  {
+    "id": "src-ALT-000298",
+    "symbol": "ADA/USD",
+    "side": "SELL",
+    "entry": 0.21664,
+    "sl": 0.21697,
+    "status": "pending",
+    "created_at": 1792757641,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000298",
+    "signal_message_id": 2165
   }
 ]
