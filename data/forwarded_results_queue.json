@@ -3166,5 +3166,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T10:40:25.969896+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "LTC",
+    "tf_label": "1H",
+    "entry": 58.94,
+    "level": null,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000265",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T11:03:55.550704+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 12.15,
+    "level": 2,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000290",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T11:04:01.280094+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 4.92,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000291",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T11:04:02.605573+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 1214.05,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000293",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T11:04:03.871625+00:00"
   }
 ]
