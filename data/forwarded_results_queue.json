@@ -2806,5 +2806,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T01:48:17.365103+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "FIL",
+    "tf_label": "15M",
+    "entry": 0.992,
+    "level": 1,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000267",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T02:43:55.990299+00:00"
   }
 ]
