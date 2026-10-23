@@ -48,7 +48,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792731843153
+      "polled_ms": 1792731898788
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -98,7 +98,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1792731843153
+      "polled_ms": 1792731898788
     }
   },
   "seen": [],
@@ -109,18 +109,18 @@
     "SWP|ETH/USD|4h": 1792713600000,
     "TS1|BTC/USD|1h": 1792728000000,
     "TS1|ETH/USD|1h": 1792728000000,
-    "CN1M|BTC/USD|1m": 1792731780000,
-    "CN1M|ETH/USD|1m": 1792731780000,
-    "CN5M|BTC/USD|5m": 1792731300000,
-    "CN5M|ETH/USD|5m": 1792731300000,
+    "CN1M|BTC/USD|1m": 1792731840000,
+    "CN1M|ETH/USD|1m": 1792731840000,
+    "CN5M|BTC/USD|5m": 1792731600000,
+    "CN5M|ETH/USD|5m": 1792731600000,
     "CN15|BTC/USD|15m": 1792730700000,
     "CN15|ETH/USD|15m": 1792730700000,
     "CN1H|BTC/USD|1h": 1792728000000,
     "CN1H|ETH/USD|1h": 1792728000000,
     "CN4H|BTC/USD|4h": 1792713600000,
     "CN4H|ETH/USD|4h": 1792713600000,
-    "TKF|BTC/USD|5m": 1792731300000,
-    "TKF|ETH/USD|5m": 1792731300000,
+    "TKF|BTC/USD|5m": 1792731600000,
+    "TKF|ETH/USD|5m": 1792731600000,
     "TPS|BTC/USD|1h": 1792728000000,
     "TPS|ETH/USD|1h": 1792728000000,
     "MRA|BTC/USD|1h": 1792728000000,
@@ -155,32 +155,32 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 9314,
+      "checks": 9316,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792731846
+      "last_check": 1792731911
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 1882,
+      "checks": 1884,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1792731630
+      "last_check": 1792731913
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 1624,
+      "checks": 1626,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792731632
+      "last_check": 1792731913
     },
     "CN15": {
       "since": 1792449921,
