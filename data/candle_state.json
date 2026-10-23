@@ -16729,7 +16729,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ZEC/USD",
         "tf_key": "manual",
         "display": "ZEC",
@@ -16751,6 +16751,17 @@
             "ts": "2026-10-23T11:05:02.610935+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-10-23T11:21:34.258519+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T11:21:34.259871+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 1.3
           }
         ],
         "signal_message_id": 2152,
@@ -16760,7 +16771,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     }
