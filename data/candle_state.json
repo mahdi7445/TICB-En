@@ -15742,7 +15742,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOT/USD",
         "tf_key": "manual",
         "display": "DOT",
@@ -15752,6 +15752,17 @@
             "type": "opened",
             "ts": "2026-10-23T04:07:34.343459+00:00",
             "price": 1.1829
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-23T04:15:40.198696+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T04:15:40.199952+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2108,
@@ -15761,7 +15772,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "stop"
       },
       "hist": []
     }
