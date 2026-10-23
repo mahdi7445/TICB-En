@@ -1811,5 +1811,47 @@
     "silent": true,
     "source_signal_id": "ALT-000260",
     "signal_message_id": 2089
+  },
+  {
+    "id": "src-ALT-000261",
+    "symbol": "INJ/USD",
+    "side": "BUY",
+    "entry": 7.9,
+    "sl": 6.96,
+    "status": "pending",
+    "created_at": 1792714118,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000261",
+    "signal_message_id": 2090
+  },
+  {
+    "id": "src-ALT-000262",
+    "symbol": "SEI/USD",
+    "side": "BUY",
+    "entry": 0.05703,
+    "sl": 0.05202,
+    "status": "pending",
+    "created_at": 1792714118,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000262",
+    "signal_message_id": 2091
+  },
+  {
+    "id": "src-ALT-000263",
+    "symbol": "ALGO/USD",
+    "side": "BUY",
+    "entry": 0.1068,
+    "sl": 0.09946,
+    "status": "pending",
+    "created_at": 1792714119,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000263",
+    "signal_message_id": 2092
   }
 ]
