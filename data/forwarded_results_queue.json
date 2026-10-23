@@ -3694,5 +3694,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T21:02:44.046142+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "POL",
+    "tf_label": "4H",
+    "entry": 0.09063,
+    "level": null,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000314",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T22:03:01.563375+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 1218.89,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000317",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T22:03:02.395421+00:00"
   }
 ]
