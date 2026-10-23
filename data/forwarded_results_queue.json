@@ -3682,5 +3682,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T20:54:41.633990+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "POL",
+    "tf_label": "4H",
+    "entry": 0.09063,
+    "level": 1,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000314",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T21:02:44.046142+00:00"
   }
 ]
