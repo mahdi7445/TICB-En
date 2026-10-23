@@ -17340,6 +17340,44 @@
         "close_type": "breakeven"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000304": {
+      "open_trade": {
+        "signal_id": "ALT-000304",
+        "source_signal_id": "ALT-000304",
+        "side": "SELL",
+        "entry": 7.79,
+        "sl": 7.85,
+        "r": 0.05999999999999961,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "INJ/USD",
+        "tf_key": "manual",
+        "display": "INJ",
+        "opened_at_ms": 1792775489205,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-23T17:11:29.205095+00:00",
+            "price": 7.79
+          }
+        ],
+        "signal_message_id": 2190,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
