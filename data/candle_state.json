@@ -16001,6 +16001,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000278": {
+      "open_trade": {
+        "signal_id": "ALT-000278",
+        "source_signal_id": "ALT-000278",
+        "side": "BUY",
+        "entry": 262.73,
+        "sl": 259.97,
+        "r": 2.759999999999991,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TAO/USD",
+        "tf_key": "manual",
+        "display": "TAO",
+        "opened_at_ms": 1792735816130,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-23T06:10:16.130512+00:00",
+            "price": 262.73
+          }
+        ],
+        "signal_message_id": 2122,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
