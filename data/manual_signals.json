@@ -1783,5 +1783,33 @@
     "source_signal_id": "ALT-000258",
     "signal_message_id": 2087,
     "activated_at": "2026-10-22T23:56:35.304998+00:00"
+  },
+  {
+    "id": "src-ALT-000259",
+    "symbol": "ATOM/USD",
+    "side": "BUY",
+    "entry": 1.72,
+    "sl": 1.6,
+    "status": "pending",
+    "created_at": 1792714114,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000259",
+    "signal_message_id": 2088
+  },
+  {
+    "id": "src-ALT-000260",
+    "symbol": "ARB/USD",
+    "side": "BUY",
+    "entry": 0.1789,
+    "sl": 0.159,
+    "status": "pending",
+    "created_at": 1792714115,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000260",
+    "signal_message_id": 2089
   }
 ]
