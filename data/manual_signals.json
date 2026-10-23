@@ -2473,5 +2473,33 @@
     "source_signal_id": "ALT-000304",
     "signal_message_id": 2190,
     "activated_at": "2026-10-23T17:11:29.205121+00:00"
+  },
+  {
+    "id": "src-ALT-000305",
+    "symbol": "DOT/USD",
+    "side": "SELL",
+    "entry": 1.1243,
+    "sl": 1.1258,
+    "status": "pending",
+    "created_at": 1792775900,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000305",
+    "signal_message_id": 2191
+  },
+  {
+    "id": "src-ALT-000306",
+    "symbol": "NEAR/USD",
+    "side": "SELL",
+    "entry": 4.869,
+    "sl": 4.877,
+    "status": "pending",
+    "created_at": 1792775901,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000306",
+    "signal_message_id": 2192
   }
 ]
