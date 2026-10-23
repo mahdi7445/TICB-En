@@ -3442,5 +3442,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T14:17:29.356457+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PUMP",
+    "tf_label": "1M",
+    "entry": 0.004604,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000303",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T14:52:45.101280+00:00"
   }
 ]
