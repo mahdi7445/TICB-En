@@ -17109,7 +17109,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "INJ/USD",
         "tf_key": "manual",
         "display": "INJ",
@@ -17119,6 +17119,17 @@
             "type": "opened",
             "ts": "2026-10-23T13:15:39.291878+00:00",
             "price": 7.94
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-23T13:52:52.396207+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T13:52:52.397607+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2175,
@@ -17128,7 +17139,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
