@@ -3526,5 +3526,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T17:47:47.520986+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ATOM",
+    "tf_label": "5M",
+    "entry": 1.771,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000307",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T18:36:17.943177+00:00"
   }
 ]
