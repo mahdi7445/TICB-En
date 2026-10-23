@@ -15166,6 +15166,82 @@
         "logical_tf": "4h"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000259": {
+      "open_trade": {
+        "signal_id": "ALT-000259",
+        "source_signal_id": "ALT-000259",
+        "side": "BUY",
+        "entry": 1.72,
+        "sl": 1.6,
+        "r": 0.11999999999999988,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ATOM/USD",
+        "tf_key": "manual",
+        "display": "ATOM",
+        "opened_at_ms": 1792714142373,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-23T00:09:02.373076+00:00",
+            "price": 1.72
+          }
+        ],
+        "signal_message_id": 2088,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000260": {
+      "open_trade": {
+        "signal_id": "ALT-000260",
+        "source_signal_id": "ALT-000260",
+        "side": "BUY",
+        "entry": 0.1789,
+        "sl": 0.159,
+        "r": 0.0199,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ARB/USD",
+        "tf_key": "manual",
+        "display": "ARB",
+        "opened_at_ms": 1792714142374,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-23T00:09:02.374137+00:00",
+            "price": 0.1789
+          }
+        ],
+        "signal_message_id": 2089,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
