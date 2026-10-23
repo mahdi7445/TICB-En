@@ -11645,7 +11645,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BCH/USD",
         "tf_key": "manual",
         "display": "BCH",
@@ -11661,6 +11661,17 @@
             "ts": "2026-10-08T17:52:12.835832+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-10-23T05:05:40.919238+00:00",
+            "price": 286.49
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T05:05:41.466894+00:00",
+            "close_type": "opposite_signal",
+            "final_r": 0.7287341360234307
           }
         ],
         "signal_message_id": 1688,
@@ -11671,7 +11682,9 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1792668082609
+        "_stale_alert_sent_at_ms": 1792668082609,
+        "close_type": "opposite_signal",
+        "final_r_exact": 0.7287341360234307
       },
       "hist": []
     },
@@ -15836,6 +15849,44 @@
         },
         "logical_tf": "5m",
         "close_type": "stop"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000274": {
+      "open_trade": {
+        "signal_id": "ALT-000274",
+        "source_signal_id": "ALT-000274",
+        "side": "BUY",
+        "entry": 286.49,
+        "sl": 282.3,
+        "r": 4.189999999999998,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "BCH/USD",
+        "tf_key": "manual",
+        "display": "BCH",
+        "opened_at_ms": 1792731942973,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-23T05:05:42.973693+00:00",
+            "price": 286.49
+          }
+        ],
+        "signal_message_id": 2113,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
       },
       "hist": []
     }
