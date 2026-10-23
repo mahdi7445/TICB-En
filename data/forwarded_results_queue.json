@@ -3058,5 +3058,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T08:51:04.662434+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "RENDER",
+    "tf_label": "15M",
+    "entry": 1.796,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000271",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T09:16:16.171538+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "RENDER",
+    "tf_label": "1H",
+    "entry": 1.797,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000275",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T09:16:17.246341+00:00"
   }
 ]
