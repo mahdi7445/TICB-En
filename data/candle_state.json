@@ -17756,13 +17756,13 @@
         "sl": 7.778,
         "r": 0.0029999999999992255,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "INJ/USD",
         "tf_key": "manual",
         "display": "INJ",
@@ -17772,6 +17772,35 @@
             "type": "opened",
             "ts": "2026-10-23T19:50:51.389410+00:00",
             "price": 7.775
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-23T19:57:08.018856+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-23T19:57:08.018884+00:00",
+            "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-23T19:57:08.018895+00:00",
+            "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-10-23T19:57:08.018908+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T19:57:08.020085+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 2208,
@@ -17781,7 +17810,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     }
