@@ -7968,5 +7968,107 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000268",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-23T02:46:17.698879+00:00",
+        "price": 148.74
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-23T03:00:32.317371+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-23T03:07:53.818715+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-23T03:07:53.819871+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "AAVE/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 148.74,
+    "sl": 148.24,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-23T02:46:17.698000+00:00",
+    "closed_at": "2026-10-23T03:07:53.819871+00:00",
+    "r_pct": 0.3362,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000269",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-23T02:53:03.273548+00:00",
+        "price": 59.37
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-23T03:00:32.317402+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-23T03:07:53.824980+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-23T03:07:53.825720+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "LTC/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 59.37,
+    "sl": 59.25,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-23T02:53:03.273000+00:00",
+    "closed_at": "2026-10-23T03:07:53.825720+00:00",
+    "r_pct": 0.2021,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
