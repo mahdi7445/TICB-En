@@ -3226,5 +3226,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T11:20:23.343383+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 12.15,
+    "level": null,
+    "result_r": 1.0,
+    "source_signal_id": "ALT-000290",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T11:43:51.877498+00:00"
   }
 ]
