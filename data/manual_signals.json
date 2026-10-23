@@ -1962,5 +1962,19 @@
     "silent": true,
     "source_signal_id": "ALT-000270",
     "signal_message_id": 2106
+  },
+  {
+    "id": "src-ALT-000271",
+    "symbol": "RENDER/USD",
+    "side": "BUY",
+    "entry": 1.796,
+    "sl": 1.782,
+    "status": "pending",
+    "created_at": 1792727366,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000271",
+    "signal_message_id": 2107
   }
 ]
