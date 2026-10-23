@@ -16029,7 +16029,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TAO/USD",
         "tf_key": "manual",
         "display": "TAO",
@@ -16039,6 +16039,17 @@
             "type": "opened",
             "ts": "2026-10-23T06:10:16.130512+00:00",
             "price": 262.73
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-23T09:33:12.873532+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T09:33:12.875053+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2122,
@@ -16048,7 +16059,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -16167,7 +16179,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "UNI/USD",
         "tf_key": "manual",
         "display": "UNI",
@@ -16177,6 +16189,17 @@
             "type": "opened",
             "ts": "2026-10-23T06:33:53.823816+00:00",
             "price": 7.23
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-23T09:33:12.883992+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T09:33:12.885230+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2125,
@@ -16186,7 +16209,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -16519,7 +16543,7 @@
         "sl": 12.21,
         "r": 0.0600000000000005,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -16535,6 +16559,12 @@
             "type": "opened",
             "ts": "2026-10-23T09:19:26.147357+00:00",
             "price": 12.15
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-23T09:33:12.895919+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2144,
