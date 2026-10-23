@@ -2008,5 +2008,33 @@
     "source_signal_id": "ALT-000273",
     "signal_message_id": 2111,
     "activated_at": "2026-10-23T04:47:30.379810+00:00"
+  },
+  {
+    "id": "src-ALT-000274",
+    "symbol": "BCH/USD",
+    "side": "BUY",
+    "entry": 286.49,
+    "sl": 282.3,
+    "status": "pending",
+    "created_at": 1792731885,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000274",
+    "signal_message_id": 2113
+  },
+  {
+    "id": "src-ALT-000275",
+    "symbol": "RENDER/USD",
+    "side": "BUY",
+    "entry": 1.797,
+    "sl": 1.782,
+    "status": "pending",
+    "created_at": 1792731886,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000275",
+    "signal_message_id": 2114
   }
 ]
