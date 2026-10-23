@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792730039999,
+      "last_ms": 1792730099999,
       "bar_ms": 1792497600000,
       "mfe_r": 0.6771,
       "mae_r": 0.9262,
@@ -48,7 +48,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792730049242
+      "polled_ms": 1792730118751
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -90,7 +90,7 @@
       "status": "open",
       "opened_ms": 1792699221674,
       "armed_ms": 1792699221674,
-      "last_ms": 1792730039999,
+      "last_ms": 1792730099999,
       "bar_ms": 1792684800000,
       "mfe_r": 0.273,
       "mae_r": 0.0867,
@@ -98,7 +98,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1792730049242
+      "polled_ms": 1792730118751
     }
   },
   "seen": [],
@@ -109,18 +109,18 @@
     "SWP|ETH/USD|4h": 1792713600000,
     "TS1|BTC/USD|1h": 1792724400000,
     "TS1|ETH/USD|1h": 1792724400000,
-    "CN1M|BTC/USD|1m": 1792729980000,
-    "CN1M|ETH/USD|1m": 1792729980000,
-    "CN5M|BTC/USD|5m": 1792729500000,
-    "CN5M|ETH/USD|5m": 1792729500000,
+    "CN1M|BTC/USD|1m": 1792730040000,
+    "CN1M|ETH/USD|1m": 1792730040000,
+    "CN5M|BTC/USD|5m": 1792729800000,
+    "CN5M|ETH/USD|5m": 1792729800000,
     "CN15|BTC/USD|15m": 1792728900000,
     "CN15|ETH/USD|15m": 1792728900000,
     "CN1H|BTC/USD|1h": 1792724400000,
     "CN1H|ETH/USD|1h": 1792724400000,
     "CN4H|BTC/USD|4h": 1792713600000,
     "CN4H|ETH/USD|4h": 1792713600000,
-    "TKF|BTC/USD|5m": 1792729500000,
-    "TKF|ETH/USD|5m": 1792729500000,
+    "TKF|BTC/USD|5m": 1792729800000,
+    "TKF|ETH/USD|5m": 1792729800000,
     "TPS|BTC/USD|1h": 1792724400000,
     "TPS|ETH/USD|1h": 1792724400000,
     "MRA|BTC/USD|1h": 1792724400000,
@@ -155,32 +155,32 @@
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 9254,
+      "checks": 9256,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792730061
+      "last_check": 1792730122
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 1870,
+      "checks": 1872,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1792729834
+      "last_check": 1792730124
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 1612,
+      "checks": 1614,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792729837
+      "last_check": 1792730124
     },
     "CN15": {
       "since": 1792449921,
