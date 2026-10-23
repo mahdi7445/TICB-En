@@ -16309,7 +16309,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "AKE/USD",
         "tf_key": "manual",
         "display": "AKE",
@@ -16319,6 +16319,17 @@
             "type": "opened",
             "ts": "2026-10-23T07:38:28.484838+00:00",
             "price": 0.03325
+          },
+          {
+            "type": "module_closed",
+            "ts": "2026-10-23T13:37:13.450898+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T13:37:13.452365+00:00",
+            "close_type": "module_closed",
+            "final_r": 0.33
           }
         ],
         "signal_message_id": 2128,
@@ -16328,7 +16339,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "module_closed"
       },
       "hist": []
     },
