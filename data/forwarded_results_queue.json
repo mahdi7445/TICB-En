@@ -3574,5 +3574,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-10-23T19:11:09.566622+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "PUMP",
+    "tf_label": "1M",
+    "entry": 0.004504,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000310",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T19:11:12.230009+00:00"
   }
 ]
