@@ -17842,13 +17842,13 @@
         "sl": 0.985,
         "r": 0.015000000000000013,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "FIL/USD",
         "tf_key": "manual",
         "display": "FIL",
@@ -17858,6 +17858,17 @@
             "type": "opened",
             "ts": "2026-10-23T20:10:31.747736+00:00",
             "price": 0.97
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-10-23T23:06:21.666395+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T23:06:21.667697+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 1.5
           }
         ],
         "signal_message_id": 2213,
@@ -17867,7 +17878,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
