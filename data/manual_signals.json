@@ -2593,5 +2593,33 @@
     "source_signal_id": "ALT-000312",
     "signal_message_id": 2208,
     "activated_at": "2026-10-23T19:50:51.389434+00:00"
+  },
+  {
+    "id": "src-ALT-000313",
+    "symbol": "FIL/USD",
+    "side": "SELL",
+    "entry": 0.97,
+    "sl": 0.985,
+    "status": "pending",
+    "created_at": 1792786180,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000313",
+    "signal_message_id": 2213
+  },
+  {
+    "id": "src-ALT-000314",
+    "symbol": "POL/USD",
+    "side": "BUY",
+    "entry": 0.09063,
+    "sl": 0.09027,
+    "status": "pending",
+    "created_at": 1792786181,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000314",
+    "signal_message_id": 2214
   }
 ]
