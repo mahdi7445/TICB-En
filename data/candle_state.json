@@ -17724,7 +17724,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "QNT/USD",
         "tf_key": "manual",
         "display": "QNT",
@@ -17734,6 +17734,17 @@
             "type": "opened",
             "ts": "2026-10-23T19:27:35.664883+00:00",
             "price": 180.86
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-23T20:55:45.685528+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T20:55:45.686726+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2207,
@@ -17743,7 +17754,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
