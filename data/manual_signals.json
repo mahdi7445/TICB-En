@@ -2173,5 +2173,19 @@
     "source_signal_id": "ALT-000284",
     "signal_message_id": 2131,
     "activated_at": "2026-10-23T08:07:07.951148+00:00"
+  },
+  {
+    "id": "src-ALT-000285",
+    "symbol": "DOT/USD",
+    "side": "SELL",
+    "entry": 1.18,
+    "sl": 1.29,
+    "status": "pending",
+    "created_at": 1792743010,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000285",
+    "signal_message_id": 2132
   }
 ]
