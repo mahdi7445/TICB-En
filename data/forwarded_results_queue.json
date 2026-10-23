@@ -3754,5 +3754,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T22:50:02.666619+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "FIL",
+    "tf_label": "1H",
+    "entry": 0.97,
+    "level": 1.5,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000313",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T22:57:57.837780+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "FIL",
+    "tf_label": "1H",
+    "entry": 0.97,
+    "level": 2.25,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000313",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T22:57:58.611902+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ATOM",
+    "tf_label": "15M",
+    "entry": 1.728,
+    "level": 2,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000318",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T22:57:59.376595+00:00"
   }
 ]
