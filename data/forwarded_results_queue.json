@@ -3418,5 +3418,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T14:08:20.881021+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "BCH",
+    "tf_label": "1H",
+    "entry": 286.49,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000274",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T14:17:27.529602+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "OP",
+    "tf_label": "15M",
+    "entry": 0.118,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000302",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T14:17:29.356457+00:00"
   }
 ]
