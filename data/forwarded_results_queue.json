@@ -3082,5 +3082,41 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-10-23T09:16:17.246341+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TAO",
+    "tf_label": "1H",
+    "entry": 262.73,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000278",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T09:32:00.611860+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "UNI",
+    "tf_label": "15M",
+    "entry": 7.23,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000281",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T09:32:01.625918+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 12.15,
+    "level": 1,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000290",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T09:32:06.449740+00:00"
   }
 ]
