@@ -8825,5 +8825,99 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000265",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-23T02:08:16.362735+00:00",
+        "price": 58.94
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-23T05:19:41.651503+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-23T11:05:02.591809+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-23T11:05:02.593120+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.0
+      }
+    ],
+    "symbol": "LTC/USD",
+    "tf": "manual",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 58.94,
+    "sl": 58.21,
+    "final_r": 0.0,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-23T02:08:16.362000+00:00",
+    "closed_at": "2026-10-23T11:05:02.593120+00:00",
+    "r_pct": 1.2385,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000291",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-23T09:51:15.864008+00:00",
+        "price": 4.92
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-23T11:05:02.601546+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-23T11:05:02.602685+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "NEAR/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 4.92,
+    "sl": 4.87,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-23T09:51:15.864000+00:00",
+    "closed_at": "2026-10-23T11:05:02.602685+00:00",
+    "r_pct": 1.0163,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
