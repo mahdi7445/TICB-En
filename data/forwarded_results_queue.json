@@ -2878,5 +2878,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T03:07:25.455294+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "DOT",
+    "tf_label": "1M",
+    "entry": 1.1829,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000272",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-23T04:14:29.213235+00:00"
   }
 ]
