@@ -16949,13 +16949,13 @@
         "sl": 0.21697,
         "r": 0.00032999999999999696,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -16965,6 +16965,17 @@
             "type": "opened",
             "ts": "2026-10-23T12:14:35.875512+00:00",
             "price": 0.21664
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-10-23T12:24:42.955926+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-23T12:24:42.957366+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 1.5
           }
         ],
         "signal_message_id": 2165,
@@ -16974,7 +16985,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     }
