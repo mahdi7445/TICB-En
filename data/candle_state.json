@@ -19505,7 +19505,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TAO/USD",
         "tf_key": "manual",
         "display": "TAO",
@@ -19527,6 +19527,17 @@
             "ts": "2026-10-24T09:47:50.115311+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-10-24T10:04:49.526866+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T10:04:49.528626+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 1.3
           }
         ],
         "signal_message_id": 2309,
@@ -19536,7 +19547,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
