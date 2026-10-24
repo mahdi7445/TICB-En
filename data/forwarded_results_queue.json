@@ -4570,5 +4570,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T15:24:26.291991+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "RENDER",
+    "tf_label": "1H",
+    "entry": 1.71,
+    "level": null,
+    "result_r": 0.75,
+    "source_signal_id": "ALT-000319",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T16:17:59.447040+00:00"
   }
 ]
