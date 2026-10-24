@@ -2876,5 +2876,19 @@
     "silent": true,
     "source_signal_id": "ALT-000331",
     "signal_message_id": 2261
+  },
+  {
+    "id": "src-ALT-000332",
+    "symbol": "TAO/USD",
+    "side": "BUY",
+    "entry": 254.09,
+    "sl": 253.26,
+    "status": "pending",
+    "created_at": 1792810034,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000332",
+    "signal_message_id": 2262
   }
 ]
