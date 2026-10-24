@@ -4066,5 +4066,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T05:13:28.987379+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 102.51,
+    "level": 1,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000337",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T05:21:10.496075+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "ARB",
+    "tf_label": "15M",
+    "entry": 0.1714,
+    "level": null,
+    "result_r": 1.0,
+    "source_signal_id": "ALT-000338",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T05:21:11.465883+00:00"
   }
 ]
