@@ -19589,6 +19589,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000348": {
+      "open_trade": {
+        "signal_id": "ALT-000348",
+        "source_signal_id": "ALT-000348",
+        "side": "SELL",
+        "entry": 0.07719,
+        "sl": 0.07903,
+        "r": 0.0018400000000000083,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "DOGE/USD",
+        "tf_key": "manual",
+        "display": "DOGE",
+        "opened_at_ms": 1792836435588,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T10:07:15.588300+00:00",
+            "price": 0.07719
+          }
+        ],
+        "signal_message_id": 2316,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
