@@ -4258,5 +4258,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T08:48:49.455842+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "15M",
+    "entry": 6.95,
+    "level": 2,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000340",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T09:05:13.654082+00:00"
   }
 ]
