@@ -18262,7 +18262,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ZEC/USD",
         "tf_key": "manual",
         "display": "ZEC",
@@ -18278,6 +18278,17 @@
             "ts": "2026-10-23T23:54:41.229702+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-24T00:25:59.920097+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T00:25:59.921288+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2237,
@@ -18287,7 +18298,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
@@ -18306,7 +18318,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "JUP/USD",
         "tf_key": "manual",
         "display": "JUP",
@@ -18322,6 +18334,17 @@
             "ts": "2026-10-23T23:54:41.229714+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-24T00:25:59.929962+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T00:25:59.930964+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2238,
@@ -18331,7 +18354,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
@@ -18497,8 +18521,8 @@
         "r": 0.0007999999999999952,
         "hit": {
           "1": true,
-          "2": false,
-          "4": false,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -18517,6 +18541,18 @@
             "type": "rr",
             "ts": "2026-10-24T00:18:26.120813+00:00",
             "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T00:25:59.938475+00:00",
+            "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T00:25:59.938496+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
