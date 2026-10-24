@@ -4090,5 +4090,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T05:21:11.465883+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 102.56,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000335",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T05:23:32.220660+00:00"
   }
 ]
