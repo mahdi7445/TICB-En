@@ -18966,6 +18966,12 @@
             "ts": "2026-10-24T05:22:28.399240+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T05:24:09.600822+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2275,
@@ -19114,6 +19120,44 @@
           "label": "5M"
         },
         "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000340": {
+      "open_trade": {
+        "signal_id": "ALT-000340",
+        "source_signal_id": "ALT-000340",
+        "side": "SELL",
+        "entry": 6.95,
+        "sl": 7.02,
+        "r": 0.0699999999999994,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "UNI/USD",
+        "tf_key": "manual",
+        "display": "UNI",
+        "opened_at_ms": 1792819449442,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T05:24:09.442846+00:00",
+            "price": 6.95
+          }
+        ],
+        "signal_message_id": 2285,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
       },
       "hist": []
     }
