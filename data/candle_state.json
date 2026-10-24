@@ -15309,7 +15309,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SEI/USD",
         "tf_key": "manual",
         "display": "SEI",
@@ -15319,6 +15319,17 @@
             "type": "opened",
             "ts": "2026-10-23T00:09:52.116604+00:00",
             "price": 0.05703
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-10-24T08:08:04.821363+00:00",
+            "price": 0.05492
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T08:08:05.391751+00:00",
+            "close_type": "opposite_signal",
+            "final_r": -0.4211576846307386
           }
         ],
         "signal_message_id": 2091,
@@ -15328,7 +15339,9 @@
           "bar_seconds": 14400,
           "label": "4H"
         },
-        "logical_tf": "4h"
+        "logical_tf": "4h",
+        "close_type": "opposite_signal",
+        "final_r_exact": -0.4211576846307386
       },
       "hist": []
     },
@@ -19336,6 +19349,44 @@
         },
         "logical_tf": "15m",
         "close_type": "stop"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000343": {
+      "open_trade": {
+        "signal_id": "ALT-000343",
+        "source_signal_id": "ALT-000343",
+        "side": "SELL",
+        "entry": 0.05492,
+        "sl": 0.06405,
+        "r": 0.00913,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SEI/USD",
+        "tf_key": "manual",
+        "display": "SEI",
+        "opened_at_ms": 1792829286904,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T08:08:06.904769+00:00",
+            "price": 0.05492
+          }
+        ],
+        "signal_message_id": 2303,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
       },
       "hist": []
     }
