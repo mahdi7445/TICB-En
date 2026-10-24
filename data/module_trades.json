@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1792835639999,
+      "last_ms": 1792835699999,
       "bar_ms": 1792497600000,
       "mfe_r": 0.8795,
       "mae_r": 0.9262,
@@ -48,7 +48,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792835673494
+      "polled_ms": 1792835731287
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -90,7 +90,7 @@
       "status": "open",
       "opened_ms": 1792699221674,
       "armed_ms": 1792699221674,
-      "last_ms": 1792835639999,
+      "last_ms": 1792835699999,
       "bar_ms": 1792684800000,
       "mfe_r": 0.2787,
       "mae_r": 0.3128,
@@ -98,7 +98,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1792835673494
+      "polled_ms": 1792835731287
     }
   },
   "seen": [],
@@ -109,18 +109,18 @@
     "SWP|ETH/USD|4h": 1792814400000,
     "TS1|BTC/USD|1h": 1792828800000,
     "TS1|ETH/USD|1h": 1792828800000,
-    "CN1M|BTC/USD|1m": 1792835580000,
-    "CN1M|ETH/USD|1m": 1792835580000,
-    "CN5M|BTC/USD|5m": 1792835100000,
-    "CN5M|ETH/USD|5m": 1792835100000,
+    "CN1M|BTC/USD|1m": 1792835640000,
+    "CN1M|ETH/USD|1m": 1792835640000,
+    "CN5M|BTC/USD|5m": 1792835400000,
+    "CN5M|ETH/USD|5m": 1792835400000,
     "CN15|BTC/USD|15m": 1792834200000,
     "CN15|ETH/USD|15m": 1792834200000,
     "CN1H|BTC/USD|1h": 1792828800000,
     "CN1H|ETH/USD|1h": 1792828800000,
     "CN4H|BTC/USD|4h": 1792814400000,
     "CN4H|ETH/USD|4h": 1792814400000,
-    "TKF|BTC/USD|5m": 1792835100000,
-    "TKF|ETH/USD|5m": 1792835100000,
+    "TKF|BTC/USD|5m": 1792835400000,
+    "TKF|ETH/USD|5m": 1792835400000,
     "TPS|BTC/USD|1h": 1792828800000,
     "TPS|ETH/USD|1h": 1792828800000,
     "MRA|BTC/USD|1h": 1792828800000,
@@ -151,38 +151,38 @@
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000,
-    "FBR|BTC/USD|5m": 1792835100000,
-    "FBR|ETH/USD|5m": 1792835100000
+    "FBR|BTC/USD|5m": 1792835400000,
+    "FBR|ETH/USD|5m": 1792835400000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 12750,
+      "checks": 12752,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792835668
+      "last_check": 1792835734
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 2574,
+      "checks": 2576,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1792835406
+      "last_check": 1792835737
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 2316,
+      "checks": 2318,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792835406
+      "last_check": 1792835737
     },
     "CN15": {
       "since": 1792449921,
@@ -300,12 +300,12 @@
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 640,
+      "checks": 642,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792835406
+      "last_check": 1792835737
     }
   },
   "hot_daily": {
