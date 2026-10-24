@@ -3838,5 +3838,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-23T23:53:48.055692+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 6.923,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000320",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T00:17:10.032168+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARB",
+    "tf_label": "5M",
+    "entry": 0.1712,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000327",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T00:17:18.061861+00:00"
   }
 ]
