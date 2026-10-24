@@ -18977,6 +18977,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000336": {
+      "open_trade": {
+        "signal_id": "ALT-000336",
+        "source_signal_id": "ALT-000336",
+        "side": "SELL",
+        "entry": 738.56,
+        "sl": 740.37,
+        "r": 1.8100000000000591,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "BNB/USD",
+        "tf_key": "manual",
+        "display": "BNB",
+        "opened_at_ms": 1792816571649,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T04:36:11.649084+00:00",
+            "price": 738.56
+          }
+        ],
+        "signal_message_id": 2276,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
