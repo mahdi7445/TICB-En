@@ -4522,5 +4522,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T15:11:04.820139+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ALGO",
+    "tf_label": "1H",
+    "entry": 0.1046,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000345",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T15:17:58.823823+00:00"
   }
 ]
