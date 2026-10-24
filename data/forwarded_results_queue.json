@@ -4582,5 +4582,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T16:17:59.447040+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "1H",
+    "entry": 7.63,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000352",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T16:30:34.255352+00:00"
   }
 ]
