@@ -18688,7 +18688,7 @@
         "sl": 11.819,
         "r": 0.034999999999998366,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -18704,6 +18704,12 @@
             "type": "opened",
             "ts": "2026-10-24T02:47:18.779940+00:00",
             "price": 11.854
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T03:12:03.779318+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2260,
@@ -18726,7 +18732,7 @@
         "sl": 0.9596,
         "r": 0.0028000000000000247,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -18742,6 +18748,12 @@
             "type": "opened",
             "ts": "2026-10-24T02:47:18.781374+00:00",
             "price": 0.9624
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T03:12:03.779356+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2261,
@@ -18764,13 +18776,13 @@
         "sl": 253.26,
         "r": 0.8300000000000125,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TAO/USD",
         "tf_key": "manual",
         "display": "TAO",
@@ -18780,6 +18792,23 @@
             "type": "opened",
             "ts": "2026-10-24T02:48:45.230637+00:00",
             "price": 254.09
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T03:12:03.779376+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-24T03:12:03.779396+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T03:12:03.780763+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.0
           }
         ],
         "signal_message_id": 2262,
@@ -18789,7 +18818,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
