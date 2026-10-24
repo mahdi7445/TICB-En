@@ -4462,5 +4462,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T14:18:50.765078+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "15M",
+    "entry": 4.48,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000350",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:25:17.835450+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "OP",
+    "tf_label": "1H",
+    "entry": 0.1114,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000351",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:25:18.633187+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "OP",
+    "tf_label": "1H",
+    "entry": 0.1114,
+    "level": null,
+    "result_r": 2.5,
+    "source_signal_id": "ALT-000351",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:25:19.530784+00:00"
   }
 ]
