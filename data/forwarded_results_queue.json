@@ -4642,5 +4642,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T20:04:26.003139+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "INJ",
+    "tf_label": "1H",
+    "entry": 7.63,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000352",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T23:17:08.398229+00:00"
   }
 ]
