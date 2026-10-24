@@ -19925,6 +19925,120 @@
         "logical_tf": "1h"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000354": {
+      "open_trade": {
+        "signal_id": "ALT-000354",
+        "source_signal_id": "ALT-000354",
+        "side": "SELL",
+        "entry": 0.0761,
+        "sl": 0.07843,
+        "r": 0.0023299999999999987,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "DOGE/USD",
+        "tf_key": "manual",
+        "display": "DOGE",
+        "opened_at_ms": 1792854409045,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T15:06:49.045046+00:00",
+            "price": 0.0761
+          }
+        ],
+        "signal_message_id": 2338,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000355": {
+      "open_trade": {
+        "signal_id": "ALT-000355",
+        "source_signal_id": "ALT-000355",
+        "side": "SELL",
+        "entry": 4.316e-06,
+        "sl": 4.436e-06,
+        "r": 1.2000000000000055e-07,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "PEPE/USD",
+        "tf_key": "manual",
+        "display": "PEPE",
+        "opened_at_ms": 1792854409046,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T15:06:49.046548+00:00",
+            "price": 4.316e-06
+          }
+        ],
+        "signal_message_id": 2339,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000356": {
+      "open_trade": {
+        "signal_id": "ALT-000356",
+        "source_signal_id": "ALT-000356",
+        "side": "SELL",
+        "entry": 23.75,
+        "sl": 24.02,
+        "r": 0.2699999999999996,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "VVV/USD",
+        "tf_key": "manual",
+        "display": "VVV",
+        "opened_at_ms": 1792854409047,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T15:06:49.047927+00:00",
+            "price": 23.75
+          }
+        ],
+        "signal_message_id": 2340,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
