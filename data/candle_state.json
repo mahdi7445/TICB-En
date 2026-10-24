@@ -18694,7 +18694,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LINK/USD",
         "tf_key": "manual",
         "display": "LINK",
@@ -18710,6 +18710,17 @@
             "ts": "2026-10-24T03:12:03.779318+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-24T03:50:36.511157+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T03:50:36.512602+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.0
           }
         ],
         "signal_message_id": 2260,
@@ -18719,7 +18730,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
