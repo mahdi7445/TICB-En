@@ -19192,7 +19192,7 @@
         "sl": 7.02,
         "r": 0.0699999999999994,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -19208,6 +19208,12 @@
             "type": "opened",
             "ts": "2026-10-24T05:24:09.442846+00:00",
             "price": 6.95
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T07:32:24.829495+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2285,
@@ -19292,7 +19298,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "NEAR/USD",
         "tf_key": "manual",
         "display": "NEAR",
@@ -19302,6 +19308,17 @@
             "type": "opened",
             "ts": "2026-10-24T07:25:01.572372+00:00",
             "price": 4.636
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-24T07:32:24.829538+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T07:32:24.831099+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2299,
@@ -19311,7 +19328,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     }
