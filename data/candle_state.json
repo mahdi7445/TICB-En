@@ -18206,7 +18206,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "UNI/USD",
         "tf_key": "manual",
         "display": "UNI",
@@ -18222,6 +18222,17 @@
             "ts": "2026-10-23T23:54:41.229680+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-24T00:18:26.110736+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T00:18:26.111895+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2236,
@@ -18231,7 +18242,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
@@ -18484,7 +18496,7 @@
         "sl": 0.172,
         "r": 0.0007999999999999952,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -18500,6 +18512,12 @@
             "type": "opened",
             "ts": "2026-10-24T00:07:59.902352+00:00",
             "price": 0.1712
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T00:18:26.120813+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2247,
