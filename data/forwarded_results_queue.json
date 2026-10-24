@@ -4018,5 +4018,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T03:49:53.165483+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "SUI",
+    "tf_label": "15M",
+    "entry": 0.9624,
+    "level": null,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000331",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T03:57:55.656137+00:00"
   }
 ]
