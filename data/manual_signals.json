@@ -2743,5 +2743,61 @@
     "source_signal_id": "ALT-000322",
     "signal_message_id": 2238,
     "activated_at": "2026-10-23T23:47:16.199982+00:00"
+  },
+  {
+    "id": "src-ALT-000323",
+    "symbol": "ALGO/USD",
+    "side": "SELL",
+    "entry": 0.1059,
+    "sl": 0.1168,
+    "status": "pending",
+    "created_at": 1792800320,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000323",
+    "signal_message_id": 2242
+  },
+  {
+    "id": "src-ALT-000324",
+    "symbol": "LINK/USD",
+    "side": "BUY",
+    "entry": 11.82,
+    "sl": 11.11,
+    "status": "pending",
+    "created_at": 1792800329,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000324",
+    "signal_message_id": 2243
+  },
+  {
+    "id": "src-ALT-000325",
+    "symbol": "NEAR/USD",
+    "side": "BUY",
+    "entry": 4.68,
+    "sl": 4.15,
+    "status": "pending",
+    "created_at": 1792800330,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000325",
+    "signal_message_id": 2244
+  },
+  {
+    "id": "src-ALT-000326",
+    "symbol": "FIL/USD",
+    "side": "BUY",
+    "entry": 0.959,
+    "sl": 0.8677,
+    "status": "pending",
+    "created_at": 1792800331,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000326",
+    "signal_message_id": 2245
   }
 ]
