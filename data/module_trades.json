@@ -109,18 +109,18 @@
     "SWP|ETH/USD|4h": 1792800000000,
     "TS1|BTC/USD|1h": 1792814400000,
     "TS1|ETH/USD|1h": 1792814400000,
-    "CN1M|BTC/USD|1m": 1792818180000,
-    "CN1M|ETH/USD|1m": 1792818180000,
-    "CN5M|BTC/USD|5m": 1792817700000,
-    "CN5M|ETH/USD|5m": 1792817700000,
+    "CN1M|BTC/USD|1m": 1792818240000,
+    "CN1M|ETH/USD|1m": 1792818240000,
+    "CN5M|BTC/USD|5m": 1792818000000,
+    "CN5M|ETH/USD|5m": 1792818000000,
     "CN15|BTC/USD|15m": 1792817100000,
     "CN15|ETH/USD|15m": 1792817100000,
     "CN1H|BTC/USD|1h": 1792814400000,
     "CN1H|ETH/USD|1h": 1792814400000,
     "CN4H|BTC/USD|4h": 1792800000000,
     "CN4H|ETH/USD|4h": 1792800000000,
-    "TKF|BTC/USD|5m": 1792817700000,
-    "TKF|ETH/USD|5m": 1792817700000,
+    "TKF|BTC/USD|5m": 1792818000000,
+    "TKF|ETH/USD|5m": 1792818000000,
     "TPS|BTC/USD|1h": 1792814400000,
     "TPS|ETH/USD|1h": 1792814400000,
     "MRA|BTC/USD|1h": 1792814400000,
@@ -151,38 +151,38 @@
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000,
-    "FBR|BTC/USD|5m": 1792817700000,
-    "FBR|ETH/USD|5m": 1792817700000
+    "FBR|BTC/USD|5m": 1792818000000,
+    "FBR|ETH/USD|5m": 1792818000000
   },
   "diag": {
     "CN1M": {
       "since": 1792449421,
-      "checks": 12172,
+      "checks": 12174,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792818255
+      "last_check": 1792818319
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 2458,
+      "checks": 2460,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1792818061
+      "last_check": 1792818322
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 2200,
+      "checks": 2202,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792818063
+      "last_check": 1792818322
     },
     "CN15": {
       "since": 1792449921,
@@ -300,12 +300,12 @@
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 524,
+      "checks": 526,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792818063
+      "last_check": 1792818322
     }
   },
   "hot_daily": {
