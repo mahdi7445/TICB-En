@@ -11270,5 +11270,70 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000336",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-24T04:36:11.649084+00:00",
+        "price": 738.56
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-24T06:11:31.172342+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-24T07:58:56.683781+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-24T09:31:37.836025+00:00",
+        "level_r": 4,
+        "note": "forwarded"
+      },
+      {
+        "type": "module_closed",
+        "ts": "2026-10-24T09:31:37.836067+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-24T09:31:37.837745+00:00",
+        "close_type": "module_closed",
+        "final_r": 4.0
+      }
+    ],
+    "symbol": "BNB/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 738.56,
+    "sl": 740.37,
+    "final_r": 4.0,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "close_type": "module_closed",
+    "close_reason": "module_closed",
+    "opened_at": "2026-10-24T04:36:11.649000+00:00",
+    "closed_at": "2026-10-24T09:31:37.837745+00:00",
+    "r_pct": 0.2451,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
