@@ -11120,5 +11120,69 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000335",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-24T04:32:56.820915+00:00",
+        "price": 102.56
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-24T05:22:28.399240+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-24T05:24:09.600822+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-24T06:11:31.172400+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "sl_after_t2",
+        "ts": "2026-10-24T07:07:28.732371+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-24T07:07:28.733995+00:00",
+        "close_type": "sl_after_t2",
+        "final_r": 1.0
+      }
+    ],
+    "symbol": "SOL/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 102.56,
+    "sl": 102.88,
+    "final_r": 1.0,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "sl_after_t2",
+    "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
+    "opened_at": "2026-10-24T04:32:56.820000+00:00",
+    "closed_at": "2026-10-24T07:07:28.733995+00:00",
+    "r_pct": 0.312,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
