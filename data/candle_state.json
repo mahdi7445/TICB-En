@@ -18944,7 +18944,7 @@
         "sl": 102.88,
         "r": 0.3199999999999932,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -18960,6 +18960,12 @@
             "type": "opened",
             "ts": "2026-10-24T04:32:56.820915+00:00",
             "price": 102.56
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T05:22:28.399240+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2275,
@@ -19026,7 +19032,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ARB/USD",
         "tf_key": "manual",
         "display": "ARB",
@@ -19048,6 +19054,17 @@
             "ts": "2026-10-24T05:14:15.915414+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-10-24T05:22:28.399277+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T05:22:28.400715+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 1.0
           }
         ],
         "signal_message_id": 2278,
@@ -19057,7 +19074,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     }
