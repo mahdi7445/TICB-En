@@ -4534,5 +4534,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T15:17:58.823823+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ATOM",
+    "tf_label": "4H",
+    "entry": 1.72,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000259",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T15:24:05.858838+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "RENDER",
+    "tf_label": "1H",
+    "entry": 1.71,
+    "level": 1.5,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000319",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T15:24:12.825496+00:00"
   }
 ]
