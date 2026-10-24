@@ -19521,7 +19521,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ALGO/USD",
         "tf_key": "manual",
         "display": "ALGO",
@@ -19543,6 +19543,17 @@
             "ts": "2026-10-24T15:19:04.417640+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-10-24T16:56:15.997876+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T16:56:15.999013+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 2.5
           }
         ],
         "signal_message_id": 2306,
@@ -19552,7 +19563,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
