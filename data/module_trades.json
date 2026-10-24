@@ -140,15 +140,15 @@
       "status": "open",
       "opened_ms": 1792809921771,
       "armed_ms": 1792809921771,
-      "last_ms": 1792809921771,
+      "last_ms": 1792809959999,
       "bar_ms": 1792809000000,
       "mfe_r": 0.0,
-      "mae_r": 0.0,
+      "mae_r": 0.03,
       "events": [],
       "tier": "orig",
       "profile": "B4",
       "msg_id": 2259,
-      "polled_ms": 1792809935036
+      "polled_ms": 1792809991691
     }
   },
   "seen": [],
