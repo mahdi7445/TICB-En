@@ -4471,7 +4471,7 @@
     "level": 4,
     "result_r": 1.7,
     "source_signal_id": "ALT-000350",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T14:25:17.835450+00:00"
   },
@@ -4483,7 +4483,7 @@
     "level": 4,
     "result_r": 1.7,
     "source_signal_id": "ALT-000351",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T14:25:18.633187+00:00"
   },
@@ -4495,7 +4495,7 @@
     "level": null,
     "result_r": 2.5,
     "source_signal_id": "ALT-000351",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T14:25:19.530784+00:00"
   }

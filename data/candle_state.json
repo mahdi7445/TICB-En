@@ -19737,7 +19737,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -19756,6 +19756,12 @@
             "type": "rr",
             "ts": "2026-10-24T14:19:21.672656+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T14:25:59.850598+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
@@ -19781,11 +19787,11 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "OP/USD",
         "tf_key": "manual",
         "display": "OP",
@@ -19801,6 +19807,23 @@
             "ts": "2026-10-24T14:19:21.672676+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-24T14:25:59.850631+00:00",
+            "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-10-24T14:25:59.850654+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-24T14:25:59.851873+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 2.5
           }
         ],
         "signal_message_id": 2323,
@@ -19810,7 +19833,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
