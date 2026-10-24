@@ -2818,5 +2818,19 @@
     "source_signal_id": "ALT-000327",
     "signal_message_id": 2247,
     "activated_at": "2026-10-24T00:07:59.902369+00:00"
+  },
+  {
+    "id": "src-ALT-000328",
+    "symbol": "ADA/USD",
+    "side": "SELL",
+    "entry": 0.2092,
+    "sl": 0.2097,
+    "status": "pending",
+    "created_at": 1792802893,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000328",
+    "signal_message_id": 2254
   }
 ]
