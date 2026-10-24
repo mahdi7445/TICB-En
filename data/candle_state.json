@@ -19739,6 +19739,120 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000351": {
+      "open_trade": {
+        "signal_id": "ALT-000351",
+        "source_signal_id": "ALT-000351",
+        "side": "SELL",
+        "entry": 0.1114,
+        "sl": 0.1121,
+        "r": 0.0007000000000000062,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "OP/USD",
+        "tf_key": "manual",
+        "display": "OP",
+        "opened_at_ms": 1792850790925,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T14:06:30.925746+00:00",
+            "price": 0.1114
+          }
+        ],
+        "signal_message_id": 2323,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000352": {
+      "open_trade": {
+        "signal_id": "ALT-000352",
+        "source_signal_id": "ALT-000352",
+        "side": "SELL",
+        "entry": 7.63,
+        "sl": 7.72,
+        "r": 0.08999999999999986,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "INJ/USD",
+        "tf_key": "manual",
+        "display": "INJ",
+        "opened_at_ms": 1792850790927,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T14:06:30.927157+00:00",
+            "price": 7.63
+          }
+        ],
+        "signal_message_id": 2324,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000353": {
+      "open_trade": {
+        "signal_id": "ALT-000353",
+        "source_signal_id": "ALT-000353",
+        "side": "SELL",
+        "entry": 138.53,
+        "sl": 140.88,
+        "r": 2.3499999999999943,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "AAVE/USD",
+        "tf_key": "manual",
+        "display": "AAVE",
+        "opened_at_ms": 1792850790928,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-24T14:06:30.928456+00:00",
+            "price": 138.53
+          }
+        ],
+        "signal_message_id": 2325,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
