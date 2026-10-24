@@ -4306,5 +4306,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T09:38:58.267335+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TAO",
+    "tf_label": "5M",
+    "entry": 249.06,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000346",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T09:46:46.722282+00:00"
   }
 ]
