@@ -3862,5 +3862,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T00:17:18.061861+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 1175.42,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000321",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T00:25:34.815183+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "JUP",
+    "tf_label": "5M",
+    "entry": 0.2979,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000322",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T00:25:35.606058+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARB",
+    "tf_label": "5M",
+    "entry": 0.1712,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000327",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T00:25:41.724726+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARB",
+    "tf_label": "5M",
+    "entry": 0.1712,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000327",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T00:25:42.500099+00:00"
   }
 ]
