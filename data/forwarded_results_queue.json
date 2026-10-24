@@ -4378,5 +4378,89 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T12:22:13.758463+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "RENDER",
+    "tf_label": "1H",
+    "entry": 1.71,
+    "level": 0.75,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000319",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:18:36.788178+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "15M",
+    "entry": 6.95,
+    "level": 3,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000340",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:18:43.601860+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "15M",
+    "entry": 6.95,
+    "level": 4,
+    "result_r": 4.0,
+    "source_signal_id": "ALT-000340",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:18:44.380716+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "UNI",
+    "tf_label": "15M",
+    "entry": 6.95,
+    "level": null,
+    "result_r": 4.0,
+    "source_signal_id": "ALT-000340",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:18:44.943402+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ALGO",
+    "tf_label": "1H",
+    "entry": 0.1046,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000345",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:18:47.213757+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "15M",
+    "entry": 4.48,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000350",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:18:49.574075+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "OP",
+    "tf_label": "1H",
+    "entry": 0.1114,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000351",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T14:18:50.765078+00:00"
   }
 ]
