@@ -3958,5 +3958,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T02:55:37.796538+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 11.854,
+    "level": 1,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000330",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T03:10:42.646531+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SUI",
+    "tf_label": "15M",
+    "entry": 0.9624,
+    "level": 1,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000331",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T03:10:43.482268+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TAO",
+    "tf_label": "15M",
+    "entry": 254.09,
+    "level": 1,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000332",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T03:10:44.741686+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "TAO",
+    "tf_label": "15M",
+    "entry": 254.09,
+    "level": null,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000332",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T03:10:45.565221+00:00"
   }
 ]
