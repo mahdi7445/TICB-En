@@ -2968,5 +2968,19 @@
     "source_signal_id": "ALT-000337",
     "signal_message_id": 2277,
     "reject_reason": "duplicate of already-open trade 'MANUAL|src-ALT-000335' (same symbol/side, similar entry, opened recently)"
+  },
+  {
+    "id": "src-ALT-000338",
+    "symbol": "ARB/USD",
+    "side": "SELL",
+    "entry": 0.1714,
+    "sl": 0.1717,
+    "status": "pending",
+    "created_at": 1792818430,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000338",
+    "signal_message_id": 2278
   }
 ]
