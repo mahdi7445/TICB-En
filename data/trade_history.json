@@ -11868,5 +11868,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000356",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-24T15:06:49.047927+00:00",
+        "price": 23.75
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-24T18:40:05.382583+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-24T18:40:05.383688+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "VVV/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "SELL",
+    "entry": 23.75,
+    "sl": 24.02,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-24T15:06:49.047000+00:00",
+    "closed_at": "2026-10-24T18:40:05.383688+00:00",
+    "r_pct": 1.1368,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
