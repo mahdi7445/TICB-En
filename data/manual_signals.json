@@ -2938,5 +2938,33 @@
     "source_signal_id": "ALT-000335",
     "signal_message_id": 2275,
     "activated_at": "2026-10-24T04:32:56.820937+00:00"
+  },
+  {
+    "id": "src-ALT-000336",
+    "symbol": "BNB/USD",
+    "side": "SELL",
+    "entry": 738.56,
+    "sl": 740.37,
+    "status": "pending",
+    "created_at": 1792816488,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000336",
+    "signal_message_id": 2276
+  },
+  {
+    "id": "src-ALT-000337",
+    "symbol": "SOL/USD",
+    "side": "SELL",
+    "entry": 102.51,
+    "sl": 102.75,
+    "status": "pending",
+    "created_at": 1792816493,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000337",
+    "signal_message_id": 2277
   }
 ]
