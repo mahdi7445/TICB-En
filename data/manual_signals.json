@@ -3020,12 +3020,13 @@
     "side": "SELL",
     "entry": 102.16,
     "sl": 102.41,
-    "status": "pending",
+    "status": "active",
     "created_at": 1792824552,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000341",
-    "signal_message_id": 2295
+    "signal_message_id": 2295,
+    "activated_at": "2026-10-24T06:50:31.776535+00:00"
   }
 ]
