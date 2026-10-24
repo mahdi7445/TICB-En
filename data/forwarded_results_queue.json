@@ -4606,5 +4606,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-24T16:56:02.208166+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "VVV",
+    "tf_label": "5M",
+    "entry": 23.75,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000356",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-24T18:39:14.389076+00:00"
   }
 ]
