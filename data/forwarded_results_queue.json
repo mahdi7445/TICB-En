@@ -4870,5 +4870,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T17:00:38.271507+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TAO",
+    "tf_label": "15M",
+    "entry": 251.49,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000371",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T17:15:06.341892+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "TAO",
+    "tf_label": "15M",
+    "entry": 251.49,
+    "level": null,
+    "result_r": 2.25,
+    "source_signal_id": "ALT-000371",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T17:15:07.128952+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "CAP",
+    "tf_label": "5M",
+    "entry": 0.102,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000373",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T17:15:08.533768+00:00"
   }
 ]
