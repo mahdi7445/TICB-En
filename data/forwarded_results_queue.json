@@ -4678,5 +4678,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T05:47:14.881317+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ATOM",
+    "tf_label": "1H",
+    "entry": 1.626,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000361",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T06:51:20.774879+00:00"
   }
 ]
