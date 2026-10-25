@@ -20252,7 +20252,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XMR/USD",
         "tf_key": "manual",
         "display": "XMR",
@@ -20262,6 +20262,17 @@
             "type": "opened",
             "ts": "2026-10-25T03:07:13.808726+00:00",
             "price": 615.32
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-25T03:52:13.583752+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-25T03:52:13.585367+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2357,
@@ -20271,7 +20282,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     },
