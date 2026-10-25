@@ -4918,5 +4918,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T17:22:19.546739+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "CAP",
+    "tf_label": "5M",
+    "entry": 0.102,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000373",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T17:41:45.647428+00:00"
   }
 ]
