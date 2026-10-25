@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792888741166
+      "polled_ms": 1792888799369
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -106,7 +106,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1792888741166
+      "polled_ms": 1792888799369
     }
   },
   "seen": [],
@@ -127,8 +127,8 @@
     "CN1H|ETH/USD|1h": 1792882800000,
     "CN4H|BTC/USD|4h": 1792872000000,
     "CN4H|ETH/USD|4h": 1792872000000,
-    "TKF|BTC/USD|5m": 1792888200000,
-    "TKF|ETH/USD|5m": 1792888200000,
+    "TKF|BTC/USD|5m": 1792888500000,
+    "TKF|ETH/USD|5m": 1792888500000,
     "TPS|BTC/USD|1h": 1792882800000,
     "TPS|ETH/USD|1h": 1792882800000,
     "MRA|BTC/USD|1h": 1792882800000,
@@ -159,8 +159,8 @@
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000,
-    "FBR|BTC/USD|5m": 1792888200000,
-    "FBR|ETH/USD|5m": 1792888200000
+    "FBR|BTC/USD|5m": 1792888500000,
+    "FBR|ETH/USD|5m": 1792888500000
   },
   "diag": {
     "CN1M": {
@@ -183,14 +183,14 @@
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 2670,
+      "checks": 2672,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792888511
+      "last_check": 1792888817
     },
     "CN15": {
       "since": 1792449921,
@@ -308,12 +308,12 @@
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 994,
+      "checks": 996,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1792888511
+      "last_check": 1792888817
     }
   },
   "hot_daily": {
