@@ -4942,5 +4942,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T21:05:00.056505+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 8.941,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000376",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T21:12:32.418947+00:00"
   }
 ]
