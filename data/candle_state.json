@@ -20493,6 +20493,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000364": {
+      "open_trade": {
+        "signal_id": "ALT-000364",
+        "source_signal_id": "ALT-000364",
+        "side": "SELL",
+        "entry": 0.361,
+        "sl": 0.362,
+        "r": 0.0010000000000000009,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "LDO/USD",
+        "tf_key": "manual",
+        "display": "LDO",
+        "opened_at_ms": 1792923770588,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-25T10:22:50.588941+00:00",
+            "price": 0.361
+          }
+        ],
+        "signal_message_id": 2370,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
