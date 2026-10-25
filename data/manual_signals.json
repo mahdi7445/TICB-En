@@ -3417,5 +3417,19 @@
     "silent": true,
     "source_signal_id": "ALT-000367",
     "signal_message_id": 2377
+  },
+  {
+    "id": "src-ALT-000368",
+    "symbol": "WLD/USD",
+    "side": "SELL",
+    "entry": 0.4457,
+    "sl": 0.456,
+    "status": "pending",
+    "created_at": 1792931726,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000368",
+    "signal_message_id": 2378
   }
 ]
