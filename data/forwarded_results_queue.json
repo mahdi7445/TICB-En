@@ -4750,5 +4750,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T11:46:48.889304+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "WLD",
+    "tf_label": "5M",
+    "entry": 0.4549,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000363",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T11:53:40.850842+00:00"
   }
 ]
