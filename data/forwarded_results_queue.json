@@ -4762,5 +4762,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T11:53:40.850842+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "INJ",
+    "tf_label": "15M",
+    "entry": 7.55,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000362",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T11:59:42.521923+00:00"
   }
 ]
