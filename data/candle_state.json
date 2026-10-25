@@ -19465,7 +19465,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SEI/USD",
         "tf_key": "manual",
         "display": "SEI",
@@ -19475,6 +19475,17 @@
             "type": "opened",
             "ts": "2026-10-24T08:08:06.904769+00:00",
             "price": 0.05492
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-25T09:20:58.543220+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-25T09:20:58.545233+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2303,
@@ -19484,7 +19495,8 @@
           "bar_seconds": 14400,
           "label": "4H"
         },
-        "logical_tf": "4h"
+        "logical_tf": "4h",
+        "close_type": "stop"
       },
       "hist": []
     },
