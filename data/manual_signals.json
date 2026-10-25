@@ -3508,5 +3508,19 @@
     "source_signal_id": "ALT-000373",
     "signal_message_id": 2393,
     "activated_at": "2026-10-25T17:03:04.279577+00:00"
+  },
+  {
+    "id": "src-ALT-000374",
+    "symbol": "LTC/USD",
+    "side": "BUY",
+    "entry": 56.93,
+    "sl": 56.7,
+    "status": "pending",
+    "created_at": 1792951398,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000374",
+    "signal_message_id": 2399
   }
 ]
