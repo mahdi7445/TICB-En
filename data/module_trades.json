@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1792966500375
+      "polled_ms": 1792966558019
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -106,7 +106,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1792966500375
+      "polled_ms": 1792966558019
     },
     "TC-000097": {
       "id": "TC-000097",
@@ -156,7 +156,7 @@
       "tier": "candidate",
       "profile": "Q2",
       "msg_id": 2369,
-      "polled_ms": 1792966500375
+      "polled_ms": 1792966558019
     }
   },
   "seen": [],
@@ -171,14 +171,14 @@
     "CN1M|ETH/USD|1m": 1792837920000,
     "CN5M|BTC/USD|5m": 1792837500000,
     "CN5M|ETH/USD|5m": 1792837500000,
-    "CN15|BTC/USD|15m": 1792964700000,
-    "CN15|ETH/USD|15m": 1792964700000,
+    "CN15|BTC/USD|15m": 1792965600000,
+    "CN15|ETH/USD|15m": 1792965600000,
     "CN1H|BTC/USD|1h": 1792962000000,
     "CN1H|ETH/USD|1h": 1792962000000,
     "CN4H|BTC/USD|4h": 1792944000000,
     "CN4H|ETH/USD|4h": 1792944000000,
-    "TKF|BTC/USD|5m": 1792965900000,
-    "TKF|ETH/USD|5m": 1792965900000,
+    "TKF|BTC/USD|5m": 1792966200000,
+    "TKF|ETH/USD|5m": 1792966200000,
     "TPS|BTC/USD|1h": 1792962000000,
     "TPS|ETH/USD|1h": 1792962000000,
     "MRA|BTC/USD|1h": 1792962000000,
@@ -209,8 +209,8 @@
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000,
-    "FBR|BTC/USD|5m": 1792965900000,
-    "FBR|ETH/USD|5m": 1792965900000
+    "FBR|BTC/USD|5m": 1792966200000,
+    "FBR|ETH/USD|5m": 1792966200000
   },
   "diag": {
     "CN1M": {
@@ -233,23 +233,23 @@
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 3188,
+      "checks": 3190,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1792966232
+      "last_check": 1792966522
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 982,
+      "checks": 984,
       "nodata": 0,
       "raw": 5,
       "blocked": {},
       "opened": 5,
-      "last_check": 1792965606
+      "last_check": 1792966520
     },
     "TS1": {
       "since": 1792450810,
@@ -358,12 +358,12 @@
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 1512,
+      "checks": 1514,
       "nodata": 0,
       "raw": 1,
       "blocked": {},
       "opened": 1,
-      "last_check": 1792966237
+      "last_check": 1792966522
     }
   },
   "hot_daily": {
