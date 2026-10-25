@@ -4930,5 +4930,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T17:41:45.647428+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "QNT",
+    "tf_label": "5M",
+    "entry": 194.01,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000375",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T21:05:00.056505+00:00"
   }
 ]
