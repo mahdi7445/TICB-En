@@ -20649,6 +20649,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000367": {
+      "open_trade": {
+        "signal_id": "ALT-000367",
+        "source_signal_id": "ALT-000367",
+        "side": "BUY",
+        "entry": 604.26,
+        "sl": 601.6,
+        "r": 2.659999999999968,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "XMR/USD",
+        "tf_key": "manual",
+        "display": "XMR",
+        "opened_at_ms": 1792931733559,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-25T12:35:33.559251+00:00",
+            "price": 604.26
+          }
+        ],
+        "signal_message_id": 2377,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
