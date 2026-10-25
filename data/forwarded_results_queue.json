@@ -4774,5 +4774,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T11:59:42.521923+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "PEPE",
+    "tf_label": "15M",
+    "entry": 4.467e-06,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000366",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T12:47:48.529283+00:00"
   }
 ]
