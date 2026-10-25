@@ -4906,5 +4906,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T17:15:08.533768+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "AAVE",
+    "tf_label": "1H",
+    "entry": 138.53,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000353",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T17:22:19.546739+00:00"
   }
 ]
