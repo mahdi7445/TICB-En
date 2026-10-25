@@ -4726,5 +4726,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T09:20:18.528155+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LDO",
+    "tf_label": "15M",
+    "entry": 0.361,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000364",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T11:40:19.091936+00:00"
   }
 ]
