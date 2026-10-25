@@ -4810,5 +4810,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T14:56:26.347235+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ATOM",
+    "tf_label": "1H",
+    "entry": 1.626,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000361",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T15:03:18.036979+00:00"
   }
 ]
