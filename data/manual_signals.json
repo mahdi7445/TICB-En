@@ -3448,5 +3448,33 @@
     "source_signal_id": "ALT-000369",
     "signal_message_id": 2381,
     "activated_at": "2026-10-25T14:04:18.422506+00:00"
+  },
+  {
+    "id": "src-ALT-000370",
+    "symbol": "UNI/USD",
+    "side": "BUY",
+    "entry": 6.87,
+    "sl": 6.82,
+    "status": "pending",
+    "created_at": 1792946837,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000370",
+    "signal_message_id": 2386
+  },
+  {
+    "id": "src-ALT-000371",
+    "symbol": "TAO/USD",
+    "side": "BUY",
+    "entry": 251.49,
+    "sl": 250.74,
+    "status": "pending",
+    "created_at": 1792946851,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000371",
+    "signal_message_id": 2387
   }
 ]
