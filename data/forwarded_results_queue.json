@@ -5002,5 +5002,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-25T22:53:52.155627+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ARB",
+    "tf_label": "15M",
+    "entry": 0.1693,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000372",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-25T23:33:35.757097+00:00"
   }
 ]
