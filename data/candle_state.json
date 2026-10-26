@@ -22138,7 +22138,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ALGO/USD",
         "tf_key": "manual",
         "display": "ALGO",
@@ -22148,6 +22148,17 @@
             "type": "opened",
             "ts": "2026-10-26T05:47:23.208891+00:00",
             "price": 0.10441
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T06:14:55.291908+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T06:14:55.293707+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2448,
@@ -22157,7 +22168,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     }
