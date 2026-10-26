@@ -5194,5 +5194,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T05:19:20.386842+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ALGO",
+    "tf_label": "15M",
+    "entry": 0.10441,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000397",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T06:13:25.124062+00:00"
   }
 ]
