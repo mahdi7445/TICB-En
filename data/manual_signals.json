@@ -3582,5 +3582,19 @@
     "silent": true,
     "source_signal_id": "ALT-000378",
     "signal_message_id": 2412
+  },
+  {
+    "id": "src-ALT-000379",
+    "symbol": "LDO/USD",
+    "side": "SELL",
+    "entry": 0.365,
+    "sl": 0.369,
+    "status": "pending",
+    "created_at": 1792973476,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000379",
+    "signal_message_id": 2413
   }
 ]
