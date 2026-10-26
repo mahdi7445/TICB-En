@@ -5134,5 +5134,17 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-10-26T04:19:03.567420+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "OP",
+    "tf_label": "15M",
+    "entry": 0.11,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000381",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T04:58:28.329616+00:00"
   }
 ]
