@@ -22472,13 +22472,13 @@
         "sl": 0.03243,
         "r": 0.0005799999999999972,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XDC/USD",
         "tf_key": "manual",
         "display": "XDC",
@@ -22488,6 +22488,23 @@
             "type": "opened",
             "ts": "2026-10-26T10:04:28.211689+00:00",
             "price": 0.03301
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-26T20:07:29.871355+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-26T20:07:29.871397+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T20:07:29.872745+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2462,
@@ -22497,7 +22514,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "breakeven"
       },
       "hist": []
     },
