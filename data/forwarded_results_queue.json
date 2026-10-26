@@ -5338,5 +5338,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T17:05:49.740118+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ZEC",
+    "tf_label": "15M",
+    "entry": 1249.58,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000408",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T19:38:48.644877+00:00"
   }
 ]
