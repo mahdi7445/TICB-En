@@ -21500,7 +21500,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LINK/USD",
         "tf_key": "manual",
         "display": "LINK",
@@ -21510,6 +21510,17 @@
             "type": "opened",
             "ts": "2026-10-26T02:35:40.228021+00:00",
             "price": 11.36
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T05:06:01.550428+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T05:06:01.552207+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2419,
@@ -21519,7 +21530,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -21538,7 +21550,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SUI/USD",
         "tf_key": "manual",
         "display": "SUI",
@@ -21548,6 +21560,17 @@
             "type": "opened",
             "ts": "2026-10-26T02:35:40.230547+00:00",
             "price": 0.9088
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T05:06:01.564803+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T05:06:01.566503+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2420,
@@ -21557,7 +21580,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -21576,7 +21600,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LTC/USD",
         "tf_key": "manual",
         "display": "LTC",
@@ -21586,6 +21610,17 @@
             "type": "opened",
             "ts": "2026-10-26T02:35:40.232571+00:00",
             "price": 56.41
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T05:06:01.578648+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T05:06:01.580359+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2421,
@@ -21595,7 +21630,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
