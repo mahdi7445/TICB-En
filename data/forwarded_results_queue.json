@@ -5242,5 +5242,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T07:19:00.789038+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TAO",
+    "tf_label": "15M",
+    "entry": 248.64,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000401",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T08:29:50.372432+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ALGO",
+    "tf_label": "15M",
+    "entry": 0.1029,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000402",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T08:29:51.361820+00:00"
   }
 ]
