@@ -5398,5 +5398,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T21:05:51.394712+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XRP",
+    "tf_label": "1H",
+    "entry": 1.296,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000411",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T23:09:55.150079+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PEPE",
+    "tf_label": "15M",
+    "entry": 4.281e-06,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000414",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T23:09:58.429781+00:00"
   }
 ]
