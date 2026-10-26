@@ -22734,7 +22734,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XRP/USD",
         "tf_key": "manual",
         "display": "XRP",
@@ -22744,6 +22744,17 @@
             "type": "opened",
             "ts": "2026-10-26T18:06:20.791852+00:00",
             "price": 1.298
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T21:06:52.881014+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T21:06:52.882506+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2475,
@@ -22753,7 +22764,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -22772,7 +22784,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -22782,6 +22794,17 @@
             "type": "opened",
             "ts": "2026-10-26T18:07:12.051193+00:00",
             "price": 0.2068
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T21:06:52.895185+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T21:06:52.896512+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2476,
@@ -22791,7 +22814,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     },
