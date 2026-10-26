@@ -5098,5 +5098,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T03:10:22.711975+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "DOGE",
+    "tf_label": "15M",
+    "entry": 0.07616,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000393",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T04:12:31.754914+00:00"
   }
 ]
