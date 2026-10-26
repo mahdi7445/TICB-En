@@ -21601,7 +21601,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "AVAX/USD",
         "tf_key": "manual",
         "display": "AVAX",
@@ -21611,6 +21611,17 @@
             "type": "opened",
             "ts": "2026-10-26T02:35:40.234562+00:00",
             "price": 8.829
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T03:11:25.458574+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T03:11:25.460464+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2422,
@@ -21620,7 +21631,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -21639,7 +21651,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "HBAR/USD",
         "tf_key": "manual",
         "display": "HBAR",
@@ -21649,6 +21661,17 @@
             "type": "opened",
             "ts": "2026-10-26T02:36:28.050411+00:00",
             "price": 0.07665
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T03:11:25.475891+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T03:11:25.477774+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2423,
@@ -21658,7 +21681,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -21677,7 +21701,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ARB/USD",
         "tf_key": "manual",
         "display": "ARB",
@@ -21687,6 +21711,17 @@
             "type": "opened",
             "ts": "2026-10-26T02:36:28.052472+00:00",
             "price": 0.1668
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T03:11:25.489179+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T03:11:25.490824+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2424,
@@ -21696,7 +21731,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -21715,7 +21751,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SHIB/USD",
         "tf_key": "manual",
         "display": "SHIB",
@@ -21725,6 +21761,17 @@
             "type": "opened",
             "ts": "2026-10-26T02:36:28.054596+00:00",
             "price": 4.818e-06
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T03:11:25.502242+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T03:11:25.503886+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2425,
@@ -21734,7 +21781,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -21753,7 +21801,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PEPE/USD",
         "tf_key": "manual",
         "display": "PEPE",
@@ -21763,6 +21811,17 @@
             "type": "opened",
             "ts": "2026-10-26T02:36:28.056642+00:00",
             "price": 4.248e-06
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T03:11:25.515658+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T03:11:25.517285+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2426,
@@ -21772,7 +21831,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
