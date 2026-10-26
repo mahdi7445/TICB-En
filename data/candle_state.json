@@ -22502,7 +22502,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "OP/USD",
         "tf_key": "manual",
         "display": "OP",
@@ -22512,6 +22512,17 @@
             "type": "opened",
             "ts": "2026-10-26T12:10:15.170238+00:00",
             "price": 0.1107
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T15:04:04.372453+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T15:04:04.374293+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2464,
@@ -22521,7 +22532,8 @@
           "bar_seconds": 14400,
           "label": "4H"
         },
-        "logical_tf": "4h"
+        "logical_tf": "4h",
+        "close_type": "stop"
       },
       "hist": []
     },
