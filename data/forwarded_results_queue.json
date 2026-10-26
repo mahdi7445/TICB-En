@@ -5374,5 +5374,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T20:06:00.599622+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XRP",
+    "tf_label": "1H",
+    "entry": 1.298,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000409",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T21:05:48.225203+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "1H",
+    "entry": 0.2068,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000410",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T21:05:51.394712+00:00"
   }
 ]
