@@ -5290,5 +5290,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T08:43:05.345619+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "POL",
+    "tf_label": "15M",
+    "entry": 0.08892,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000405",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T14:23:30.260840+00:00"
   }
 ]
