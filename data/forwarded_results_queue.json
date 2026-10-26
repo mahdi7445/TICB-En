@@ -5146,5 +5146,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T04:58:28.329616+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 11.36,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000383",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T05:05:19.214520+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SUI",
+    "tf_label": "15M",
+    "entry": 0.9088,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000384",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T05:05:20.218735+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LTC",
+    "tf_label": "15M",
+    "entry": 56.41,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000385",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T05:05:21.648685+00:00"
   }
 ]
