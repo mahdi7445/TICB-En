@@ -3643,5 +3643,61 @@
     "source_signal_id": "ALT-000382",
     "signal_message_id": 2417,
     "activated_at": "2026-10-26T02:02:57.763456+00:00"
+  },
+  {
+    "id": "src-ALT-000383",
+    "symbol": "LINK/USD",
+    "side": "SELL",
+    "entry": 11.36,
+    "sl": 11.41,
+    "status": "pending",
+    "created_at": 1792982111,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000383",
+    "signal_message_id": 2419
+  },
+  {
+    "id": "src-ALT-000384",
+    "symbol": "SUI/USD",
+    "side": "SELL",
+    "entry": 0.9088,
+    "sl": 0.9158,
+    "status": "pending",
+    "created_at": 1792982112,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000384",
+    "signal_message_id": 2420
+  },
+  {
+    "id": "src-ALT-000385",
+    "symbol": "LTC/USD",
+    "side": "SELL",
+    "entry": 56.41,
+    "sl": 56.72,
+    "status": "pending",
+    "created_at": 1792982113,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000385",
+    "signal_message_id": 2421
+  },
+  {
+    "id": "src-ALT-000386",
+    "symbol": "AVAX/USD",
+    "side": "SELL",
+    "entry": 8.829,
+    "sl": 8.868,
+    "status": "pending",
+    "created_at": 1792982114,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000386",
+    "signal_message_id": 2422
   }
 ]
