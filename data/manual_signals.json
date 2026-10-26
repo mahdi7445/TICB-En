@@ -3837,5 +3837,19 @@
     "silent": true,
     "source_signal_id": "ALT-000396",
     "signal_message_id": 2447
+  },
+  {
+    "id": "src-ALT-000397",
+    "symbol": "ALGO/USD",
+    "side": "BUY",
+    "entry": 0.10441,
+    "sl": 0.10401,
+    "status": "pending",
+    "created_at": 1792993547,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000397",
+    "signal_message_id": 2448
   }
 ]
