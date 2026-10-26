@@ -4063,5 +4063,19 @@
     "source_signal_id": "ALT-000412",
     "signal_message_id": 2478,
     "reject_reason": "duplicate of already-open trade 'MANUAL|src-ALT-000410' (same symbol/side, similar entry, opened recently)"
+  },
+  {
+    "id": "src-ALT-000413",
+    "symbol": "FIL/USD",
+    "side": "SELL",
+    "entry": 0.899,
+    "sl": 0.912,
+    "status": "pending",
+    "created_at": 1793048620,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000413",
+    "signal_message_id": 2486
   }
 ]
