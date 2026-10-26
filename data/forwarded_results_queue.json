@@ -5206,5 +5206,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T06:13:25.124062+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SEI",
+    "tf_label": "15M",
+    "entry": 0.05248,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000396",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T06:19:46.914536+00:00"
   }
 ]
