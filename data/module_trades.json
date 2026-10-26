@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793027879999,
+      "last_ms": 1793027939999,
       "bar_ms": 1792497600000,
       "mfe_r": 1.3512,
       "mae_r": 0.9262,
@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793027936779
+      "polled_ms": 1793027993553
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1792699221674,
       "armed_ms": 1792699221674,
-      "last_ms": 1793027879999,
+      "last_ms": 1793027939999,
       "bar_ms": 1792684800000,
       "mfe_r": 0.2787,
       "mae_r": 0.9536,
@@ -106,7 +106,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1793027936779
+      "polled_ms": 1793027993553
     },
     "TC-000097": {
       "id": "TC-000097",
@@ -148,7 +148,7 @@
       "status": "open",
       "opened_ms": 1792922405976,
       "armed_ms": 1792922405976,
-      "last_ms": 1793027879999,
+      "last_ms": 1793027939999,
       "bar_ms": 1792918800000,
       "mfe_r": 0.7576,
       "mae_r": 0.8252,
@@ -156,65 +156,7 @@
       "tier": "candidate",
       "profile": "Q2",
       "msg_id": 2369,
-      "polled_ms": 1793027936779
-    },
-    "TC-000100": {
-      "id": "TC-000100",
-      "module": "FBR",
-      "symbol": "ETH/USD",
-      "tf": "5m",
-      "side": "SELL",
-      "entry": 2329.99,
-      "sl0": 2342.768240500294,
-      "sl": 2329.99,
-      "risk": 12.778240500294032,
-      "targets": [
-        2304.4335189994117,
-        2278.8770379988237,
-        2253.3205569982356,
-        2214.9858354973535
-      ],
-      "levels": [
-        2.0,
-        4.0,
-        6.0,
-        9.0
-      ],
-      "weights": [
-        0.35,
-        0.25,
-        0.15,
-        0.1
-      ],
-      "trail": 2.0,
-      "hit": [
-        true,
-        false,
-        false,
-        false
-      ],
-      "runner_on": false,
-      "best": 2329.99,
-      "status": "open",
-      "opened_ms": 1793009110963,
-      "armed_ms": 1793009110963,
-      "last_ms": 1793027879999,
-      "bar_ms": 1793008800000,
-      "mfe_r": 2.9456,
-      "mae_r": 0.3193,
-      "events": [
-        {
-          "type": "target",
-          "index": 0,
-          "price": 2304.4335189994117,
-          "banked": 0.7,
-          "ts": "2026-10-26T13:33:39.965266+00:00"
-        }
-      ],
-      "tier": "candidate",
-      "profile": "Q3",
-      "msg_id": 2463,
-      "polled_ms": 1793027936779
+      "polled_ms": 1793027993553
     },
     "TC-000101": {
       "id": "TC-000101",
@@ -264,7 +206,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 2466,
-      "polled_ms": 1793027936779
+      "polled_ms": 1793027993553
     }
   },
   "seen": [],
@@ -285,8 +227,8 @@
     "CN1H|ETH/USD|1h": 1793023200000,
     "CN4H|BTC/USD|4h": 1793001600000,
     "CN4H|ETH/USD|4h": 1793001600000,
-    "TKF|BTC/USD|5m": 1793027400000,
-    "TKF|ETH/USD|5m": 1793027400000,
+    "TKF|BTC/USD|5m": 1793027700000,
+    "TKF|ETH/USD|5m": 1793027700000,
     "TPS|BTC/USD|1h": 1793023200000,
     "TPS|ETH/USD|1h": 1793023200000,
     "MRA|BTC/USD|1h": 1793023200000,
@@ -317,8 +259,8 @@
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000,
-    "FBR|BTC/USD|5m": 1793027400000,
-    "FBR|ETH/USD|5m": 1793027400000
+    "FBR|BTC/USD|5m": 1793027700000,
+    "FBR|ETH/USD|5m": 1793027700000
   },
   "diag": {
     "CN1M": {
@@ -341,14 +283,14 @@
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 3598,
+      "checks": 3600,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1793027735
+      "last_check": 1793028009
     },
     "CN15": {
       "since": 1792449921,
@@ -466,12 +408,12 @@
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 1922,
+      "checks": 1924,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1793027735
+      "last_check": 1793028009
     }
   },
   "hot_daily": {
