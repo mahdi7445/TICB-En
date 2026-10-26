@@ -5302,5 +5302,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T14:23:30.260840+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "OP",
+    "tf_label": "4H",
+    "entry": 0.1107,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000404",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T15:02:54.488404+00:00"
   }
 ]
