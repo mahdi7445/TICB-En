@@ -22616,7 +22616,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TIA/USD",
         "tf_key": "manual",
         "display": "TIA",
@@ -22626,6 +22626,17 @@
             "type": "opened",
             "ts": "2026-10-26T16:47:55.997110+00:00",
             "price": 0.5303
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T17:07:22.835810+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T17:07:22.837661+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2472,
@@ -22635,7 +22646,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     }
