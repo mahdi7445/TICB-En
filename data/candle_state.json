@@ -21361,7 +21361,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "RENDER/USD",
         "tf_key": "manual",
         "display": "RENDER",
@@ -21371,6 +21371,17 @@
             "type": "opened",
             "ts": "2026-10-26T01:03:44.980007+00:00",
             "price": 1.719
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-26T01:48:13.429007+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T01:48:13.430848+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2414,
@@ -21380,7 +21391,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     }

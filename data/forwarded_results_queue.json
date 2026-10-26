@@ -5023,7 +5023,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000380",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T01:47:58.113831+00:00"
   }
