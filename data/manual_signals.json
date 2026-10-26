@@ -3792,5 +3792,19 @@
     "silent": true,
     "source_signal_id": "ALT-000392",
     "signal_message_id": 2434
+  },
+  {
+    "id": "src-ALT-000393",
+    "symbol": "DOGE/USD",
+    "side": "SELL",
+    "entry": 0.07616,
+    "sl": 0.07641,
+    "status": "pending",
+    "created_at": 1792987542,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000393",
+    "signal_message_id": 2435
   }
 ]
