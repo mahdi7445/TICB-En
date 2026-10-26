@@ -5026,5 +5026,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T01:47:58.113831+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XMR",
+    "tf_label": "15M",
+    "entry": 589.2,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000391",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T03:02:41.732872+00:00"
   }
 ]
