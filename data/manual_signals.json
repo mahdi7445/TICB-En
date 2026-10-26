@@ -4025,12 +4025,13 @@
     "side": "BUY",
     "entry": 0.2068,
     "sl": 0.2039,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793037959,
     "forwarded_tracking": true,
     "tf_label": "1H",
     "silent": true,
     "source_signal_id": "ALT-000410",
-    "signal_message_id": 2476
+    "signal_message_id": 2476,
+    "activated_at": "2026-10-26T18:07:12.051211+00:00"
   }
 ]
