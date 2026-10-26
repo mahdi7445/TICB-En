@@ -21623,6 +21623,196 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000387": {
+      "open_trade": {
+        "signal_id": "ALT-000387",
+        "source_signal_id": "ALT-000387",
+        "side": "SELL",
+        "entry": 0.07665,
+        "sl": 0.07705,
+        "r": 0.0003999999999999976,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "HBAR/USD",
+        "tf_key": "manual",
+        "display": "HBAR",
+        "opened_at_ms": 1792982188050,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-26T02:36:28.050411+00:00",
+            "price": 0.07665
+          }
+        ],
+        "signal_message_id": 2423,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000388": {
+      "open_trade": {
+        "signal_id": "ALT-000388",
+        "source_signal_id": "ALT-000388",
+        "side": "SELL",
+        "entry": 0.1668,
+        "sl": 0.1679,
+        "r": 0.0010999999999999899,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ARB/USD",
+        "tf_key": "manual",
+        "display": "ARB",
+        "opened_at_ms": 1792982188052,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-26T02:36:28.052472+00:00",
+            "price": 0.1668
+          }
+        ],
+        "signal_message_id": 2424,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000389": {
+      "open_trade": {
+        "signal_id": "ALT-000389",
+        "source_signal_id": "ALT-000389",
+        "side": "SELL",
+        "entry": 4.818e-06,
+        "sl": 4.839e-06,
+        "r": 2.099999999999946e-08,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SHIB/USD",
+        "tf_key": "manual",
+        "display": "SHIB",
+        "opened_at_ms": 1792982188054,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-26T02:36:28.054596+00:00",
+            "price": 4.818e-06
+          }
+        ],
+        "signal_message_id": 2425,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000390": {
+      "open_trade": {
+        "signal_id": "ALT-000390",
+        "source_signal_id": "ALT-000390",
+        "side": "SELL",
+        "entry": 4.248e-06,
+        "sl": 4.267e-06,
+        "r": 1.9000000000000157e-08,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "PEPE/USD",
+        "tf_key": "manual",
+        "display": "PEPE",
+        "opened_at_ms": 1792982188056,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-26T02:36:28.056642+00:00",
+            "price": 4.248e-06
+          }
+        ],
+        "signal_message_id": 2426,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000391": {
+      "open_trade": {
+        "signal_id": "ALT-000391",
+        "source_signal_id": "ALT-000391",
+        "side": "SELL",
+        "entry": 589.2,
+        "sl": 591.58,
+        "r": 2.3799999999999955,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "XMR/USD",
+        "tf_key": "manual",
+        "display": "XMR",
+        "opened_at_ms": 1792982188058,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-26T02:36:28.058586+00:00",
+            "price": 589.2
+          }
+        ],
+        "signal_message_id": 2427,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {

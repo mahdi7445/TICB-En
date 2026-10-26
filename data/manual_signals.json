@@ -3710,13 +3710,14 @@
     "side": "SELL",
     "entry": 0.07665,
     "sl": 0.07705,
-    "status": "pending",
+    "status": "active",
     "created_at": 1792982123,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000387",
-    "signal_message_id": 2423
+    "signal_message_id": 2423,
+    "activated_at": "2026-10-26T02:36:28.050432+00:00"
   },
   {
     "id": "src-ALT-000388",
@@ -3724,13 +3725,14 @@
     "side": "SELL",
     "entry": 0.1668,
     "sl": 0.1679,
-    "status": "pending",
+    "status": "active",
     "created_at": 1792982126,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000388",
-    "signal_message_id": 2424
+    "signal_message_id": 2424,
+    "activated_at": "2026-10-26T02:36:28.052482+00:00"
   },
   {
     "id": "src-ALT-000389",
@@ -3738,13 +3740,14 @@
     "side": "SELL",
     "entry": 4.818e-06,
     "sl": 4.839e-06,
-    "status": "pending",
+    "status": "active",
     "created_at": 1792982138,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000389",
-    "signal_message_id": 2425
+    "signal_message_id": 2425,
+    "activated_at": "2026-10-26T02:36:28.054618+00:00"
   },
   {
     "id": "src-ALT-000390",
@@ -3752,13 +3755,14 @@
     "side": "SELL",
     "entry": 4.248e-06,
     "sl": 4.267e-06,
-    "status": "pending",
+    "status": "active",
     "created_at": 1792982139,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000390",
-    "signal_message_id": 2426
+    "signal_message_id": 2426,
+    "activated_at": "2026-10-26T02:36:28.056652+00:00"
   },
   {
     "id": "src-ALT-000391",
@@ -3766,12 +3770,13 @@
     "side": "SELL",
     "entry": 589.2,
     "sl": 591.58,
-    "status": "pending",
+    "status": "active",
     "created_at": 1792982140,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000391",
-    "signal_message_id": 2427
+    "signal_message_id": 2427,
+    "activated_at": "2026-10-26T02:36:28.058596+00:00"
   }
 ]
