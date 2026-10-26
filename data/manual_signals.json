@@ -3875,12 +3875,13 @@
     "side": "SELL",
     "entry": 1.0052,
     "sl": 1.0078,
-    "status": "pending",
+    "status": "active",
     "created_at": 1792998387,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000399",
-    "signal_message_id": 2452
+    "signal_message_id": 2452,
+    "activated_at": "2026-10-26T07:07:24.867241+00:00"
   }
 ]
