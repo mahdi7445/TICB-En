@@ -5038,5 +5038,65 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-26T03:02:41.732872+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 8.829,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000386",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T03:10:18.573819+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "HBAR",
+    "tf_label": "15M",
+    "entry": 0.07665,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000387",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T03:10:19.594586+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ARB",
+    "tf_label": "15M",
+    "entry": 0.1668,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000388",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T03:10:20.560420+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SHIB",
+    "tf_label": "15M",
+    "entry": 4.818e-06,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000389",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T03:10:21.574995+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "PEPE",
+    "tf_label": "15M",
+    "entry": 4.248e-06,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000390",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-26T03:10:22.711975+00:00"
   }
 ]
