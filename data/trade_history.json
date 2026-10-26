@@ -13530,5 +13530,48 @@
     "ladder": "Q1",
     "trigger": null,
     "hot_move_pct": null
+  },
+  {
+    "signal_id": "ALT-000381",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-26T01:49:00.186297+00:00",
+        "price": 0.11
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-26T04:59:30.647922+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-26T04:59:30.649689+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "OP/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 0.11,
+    "sl": 0.1111,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-26T01:49:00.186000+00:00",
+    "closed_at": "2026-10-26T04:59:30.649689+00:00",
+    "r_pct": 1.0,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
