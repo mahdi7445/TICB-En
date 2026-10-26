@@ -14089,5 +14089,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000405",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-26T14:09:31.536845+00:00",
+        "price": 0.08892
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-26T14:25:04.564396+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-26T14:25:04.566382+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "POL/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 0.08892,
+    "sl": 0.08992,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-26T14:09:31.536000+00:00",
+    "closed_at": "2026-10-26T14:25:04.566382+00:00",
+    "r_pct": 1.1246,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
