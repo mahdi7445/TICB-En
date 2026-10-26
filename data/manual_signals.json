@@ -3575,13 +3575,14 @@
     "side": "SELL",
     "entry": 0.3299,
     "sl": 0.3331,
-    "status": "pending",
+    "status": "active",
     "created_at": 1792973388,
     "forwarded_tracking": true,
     "tf_label": "4H",
     "silent": true,
     "source_signal_id": "ALT-000378",
-    "signal_message_id": 2412
+    "signal_message_id": 2412,
+    "activated_at": "2026-10-26T00:10:47.943597+00:00"
   },
   {
     "id": "src-ALT-000379",
