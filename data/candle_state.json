@@ -19520,7 +19520,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "APT/USD",
         "tf_key": "manual",
         "display": "APT",
@@ -19536,6 +19536,17 @@
             "ts": "2026-10-25T08:40:44.799188+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-26T15:12:16.864757+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-26T15:12:16.866649+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.7
           }
         ],
         "signal_message_id": 2305,
@@ -19546,7 +19557,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1793002419362
+        "_stale_alert_sent_at_ms": 1793002419362,
+        "close_type": "breakeven"
       },
       "hist": []
     },
