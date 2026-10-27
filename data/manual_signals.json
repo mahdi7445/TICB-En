@@ -4198,5 +4198,19 @@
     "source_signal_id": "ALT-000421",
     "signal_message_id": 2506,
     "activated_at": "2026-10-27T10:24:36.549694+00:00"
+  },
+  {
+    "id": "src-ALT-000422",
+    "symbol": "CAP/USD",
+    "side": "BUY",
+    "entry": 0.1024,
+    "sl": 0.09545,
+    "status": "pending",
+    "created_at": 1793100604,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000422",
+    "signal_message_id": 2510
   }
 ]
