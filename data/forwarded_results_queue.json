@@ -5506,5 +5506,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-27T05:06:24.125767+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 11.325,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000417",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-27T05:27:03.785513+00:00"
   }
 ]
