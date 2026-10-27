@@ -4228,5 +4228,19 @@
     "source_signal_id": "ALT-000423",
     "signal_message_id": 2514,
     "activated_at": "2026-10-27T14:50:58.987264+00:00"
+  },
+  {
+    "id": "src-ALT-000424",
+    "symbol": "DOGE/USD",
+    "side": "SELL",
+    "entry": 0.0777,
+    "sl": 0.07813,
+    "status": "pending",
+    "created_at": 1793113843,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000424",
+    "signal_message_id": 2516
   }
 ]
