@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793087040053
+      "polled_ms": 1793087095317
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -106,7 +106,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1793087040053
+      "polled_ms": 1793087095317
     },
     "TC-000097": {
       "id": "TC-000097",
@@ -156,7 +156,7 @@
       "tier": "candidate",
       "profile": "Q2",
       "msg_id": 2369,
-      "polled_ms": 1793087040053
+      "polled_ms": 1793087095317
     },
     "TC-000101": {
       "id": "TC-000101",
@@ -206,7 +206,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 2466,
-      "polled_ms": 1793087040053
+      "polled_ms": 1793087095317
     }
   },
   "seen": [],
@@ -221,14 +221,14 @@
     "CN1M|ETH/USD|1m": 1792837920000,
     "CN5M|BTC/USD|5m": 1792837500000,
     "CN5M|ETH/USD|5m": 1792837500000,
-    "CN15|BTC/USD|15m": 1793085300000,
-    "CN15|ETH/USD|15m": 1793085300000,
+    "CN15|BTC/USD|15m": 1793086200000,
+    "CN15|ETH/USD|15m": 1793086200000,
     "CN1H|BTC/USD|1h": 1793080800000,
     "CN1H|ETH/USD|1h": 1793080800000,
     "CN4H|BTC/USD|4h": 1793059200000,
     "CN4H|ETH/USD|4h": 1793059200000,
-    "TKF|BTC/USD|5m": 1793086500000,
-    "TKF|ETH/USD|5m": 1793086500000,
+    "TKF|BTC/USD|5m": 1793086800000,
+    "TKF|ETH/USD|5m": 1793086800000,
     "TPS|BTC/USD|1h": 1793080800000,
     "TPS|ETH/USD|1h": 1793080800000,
     "MRA|BTC/USD|1h": 1793080800000,
@@ -259,8 +259,8 @@
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000,
-    "FBR|BTC/USD|5m": 1793086500000,
-    "FBR|ETH/USD|5m": 1793086500000
+    "FBR|BTC/USD|5m": 1793086800000,
+    "FBR|ETH/USD|5m": 1793086800000
   },
   "diag": {
     "CN1M": {
@@ -283,23 +283,23 @@
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 3992,
+      "checks": 3994,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1793086805
+      "last_check": 1793087117
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 1250,
+      "checks": 1252,
       "nodata": 0,
       "raw": 6,
       "blocked": {},
       "opened": 6,
-      "last_check": 1793086210
+      "last_check": 1793087115
     },
     "TS1": {
       "since": 1792450810,
@@ -408,12 +408,12 @@
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 2316,
+      "checks": 2318,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1793086805
+      "last_check": 1793087117
     }
   },
   "hot_daily": {
