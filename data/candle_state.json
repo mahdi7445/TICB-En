@@ -23234,7 +23234,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "NEAR/USD",
         "tf_key": "manual",
         "display": "NEAR",
@@ -23256,6 +23256,17 @@
             "ts": "2026-10-27T12:49:09.019425+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-10-27T13:35:58.015532+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-27T13:35:58.017460+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 2.5
           }
         ],
         "signal_message_id": 2506,
@@ -23265,7 +23276,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
