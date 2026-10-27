@@ -4325,12 +4325,13 @@
     "side": "SELL",
     "entry": 288.73,
     "sl": 306.87,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793131492,
     "forwarded_tracking": true,
     "tf_label": "4H",
     "silent": true,
     "source_signal_id": "ALT-000430",
-    "signal_message_id": 2529
+    "signal_message_id": 2529,
+    "activated_at": "2026-10-27T20:06:34.659457+00:00"
   }
 ]
