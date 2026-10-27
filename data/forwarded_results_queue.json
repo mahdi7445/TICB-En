@@ -5566,5 +5566,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-27T12:34:25.415605+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 4.41,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000421",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-27T12:47:58.046450+00:00"
   }
 ]
