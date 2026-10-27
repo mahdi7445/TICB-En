@@ -22924,6 +22924,44 @@
         "close_type": "breakeven"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000415": {
+      "open_trade": {
+        "signal_id": "ALT-000415",
+        "source_signal_id": "ALT-000415",
+        "side": "SELL",
+        "entry": 0.3289,
+        "sl": 0.33,
+        "r": 0.0010999999999999899,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TRX/USD",
+        "tf_key": "manual",
+        "display": "TRX",
+        "opened_at_ms": 1793059653947,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-27T00:07:33.947347+00:00",
+            "price": 0.3289
+          }
+        ],
+        "signal_message_id": 2494,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
