@@ -23018,6 +23018,44 @@
         "close_type": "sl_after_t2"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000417": {
+      "open_trade": {
+        "signal_id": "ALT-000417",
+        "source_signal_id": "ALT-000417",
+        "side": "BUY",
+        "entry": 11.325,
+        "sl": 11.298,
+        "r": 0.026999999999999247,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "LINK/USD",
+        "tf_key": "manual",
+        "display": "LINK",
+        "opened_at_ms": 1793075688589,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-27T04:34:48.589923+00:00",
+            "price": 11.325
+          }
+        ],
+        "signal_message_id": 2500,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
