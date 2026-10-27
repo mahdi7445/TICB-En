@@ -14846,5 +14846,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000423",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-27T14:50:58.987243+00:00",
+        "price": 742.68
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-27T14:58:14.316270+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-27T14:58:14.318278+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BNB/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 742.68,
+    "sl": 740.85,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-27T14:50:58.987000+00:00",
+    "closed_at": "2026-10-27T14:58:14.318278+00:00",
+    "r_pct": 0.2464,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
