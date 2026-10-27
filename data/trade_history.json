@@ -15061,5 +15061,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000422",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-27T11:31:18.447023+00:00",
+        "price": 0.1024
+      },
+      {
+        "type": "module_closed",
+        "ts": "2026-10-27T17:35:38.664789+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-27T17:35:38.666776+00:00",
+        "close_type": "module_closed",
+        "final_r": -0.44
+      }
+    ],
+    "symbol": "CAP/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 0.1024,
+    "sl": 0.09545,
+    "final_r": -0.44,
+    "targets_hit": [],
+    "close_type": "module_closed",
+    "close_reason": "module_closed",
+    "opened_at": "2026-10-27T11:31:18.447000+00:00",
+    "closed_at": "2026-10-27T17:35:38.666776+00:00",
+    "r_pct": 6.7871,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
