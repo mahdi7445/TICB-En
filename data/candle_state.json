@@ -19751,7 +19751,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOGE/USD",
         "tf_key": "manual",
         "display": "DOGE",
@@ -19761,6 +19761,17 @@
             "type": "opened",
             "ts": "2026-10-24T10:07:15.588300+00:00",
             "price": 0.07719
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-27T23:54:17.725020+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-27T23:54:17.727291+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2316,
@@ -19771,7 +19782,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_stale_alert_sent_at_ms": 1793095927714
+        "_stale_alert_sent_at_ms": 1793095927714,
+        "close_type": "stop"
       },
       "hist": []
     },
