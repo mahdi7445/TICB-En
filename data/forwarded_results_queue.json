@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t3",
-    "ticker": "XRP",
-    "tf_label": "15M",
-    "entry": 1.32,
-    "level": null,
-    "result_r": 2.1,
-    "source_signal_id": "ALT-000140",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-19T09:04:58.289622+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ADA",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T16:36:15.028438+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LDO",
+    "tf_label": "15M",
+    "entry": 0.373,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000458",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T16:49:35.362781+00:00"
   }
 ]
