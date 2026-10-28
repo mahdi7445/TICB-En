@@ -4648,5 +4648,19 @@
     "source_signal_id": "ALT-000453",
     "signal_message_id": 2589,
     "activated_at": "2026-10-28T14:09:12.411907+00:00"
+  },
+  {
+    "id": "src-ALT-000454",
+    "symbol": "XRP/USD",
+    "side": "BUY",
+    "entry": 1.319,
+    "sl": 1.315,
+    "status": "pending",
+    "created_at": 1793196839,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000454",
+    "signal_message_id": 2591
   }
 ]
