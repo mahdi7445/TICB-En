@@ -4557,5 +4557,47 @@
     "silent": true,
     "source_signal_id": "ALT-000446",
     "signal_message_id": 2576
+  },
+  {
+    "id": "src-ALT-000447",
+    "symbol": "SUI/USD",
+    "side": "BUY",
+    "entry": 0.9389,
+    "sl": 0.9307,
+    "status": "pending",
+    "created_at": 1793189298,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000447",
+    "signal_message_id": 2577
+  },
+  {
+    "id": "src-ALT-000448",
+    "symbol": "LDO/USD",
+    "side": "BUY",
+    "entry": 0.377,
+    "sl": 0.372,
+    "status": "pending",
+    "created_at": 1793189298,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000448",
+    "signal_message_id": 2578
+  },
+  {
+    "id": "src-ALT-000449",
+    "symbol": "LINK/USD",
+    "side": "SELL",
+    "entry": 11.75,
+    "sl": 11.88,
+    "status": "pending",
+    "created_at": 1793189307,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000449",
+    "signal_message_id": 2579
   }
 ]
