@@ -23791,11 +23791,11 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
-          "6": false
+          "4": true,
+          "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LINK/USD",
         "tf_key": "manual",
         "display": "LINK",
@@ -23811,6 +23811,29 @@
             "ts": "2026-10-28T02:01:01.046101+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-28T02:23:50.517671+00:00",
+            "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-28T02:23:50.517711+00:00",
+            "level_r": 6,
+            "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-10-28T02:23:50.517740+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-28T02:23:50.519745+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.43
           }
         ],
         "signal_message_id": 2536,
@@ -23820,7 +23843,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "runner_stop"
       },
       "hist": []
     },
