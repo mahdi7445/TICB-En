@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "XLM",
-    "tf_label": "1H",
-    "entry": 0.1957,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000152",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T00:19:44.030498+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "BNB",
     "tf_label": "1H",
     "entry": 765.88,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T21:29:00.529354+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "HBAR",
+    "tf_label": "15M",
+    "entry": 0.0752,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000474",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T23:47:47.954031+00:00"
   }
 ]
