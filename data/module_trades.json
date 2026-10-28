@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793216640046
+      "polled_ms": 1793216697520
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -106,7 +106,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1793216640046
+      "polled_ms": 1793216697520
     }
   },
   "seen": [],
@@ -121,14 +121,14 @@
     "CN1M|ETH/USD|1m": 1792837920000,
     "CN5M|BTC/USD|5m": 1792837500000,
     "CN5M|ETH/USD|5m": 1792837500000,
-    "CN15|BTC/USD|15m": 1793214900000,
-    "CN15|ETH/USD|15m": 1793214900000,
+    "CN15|BTC/USD|15m": 1793215800000,
+    "CN15|ETH/USD|15m": 1793215800000,
     "CN1H|BTC/USD|1h": 1793210400000,
     "CN1H|ETH/USD|1h": 1793210400000,
     "CN4H|BTC/USD|4h": 1793188800000,
     "CN4H|ETH/USD|4h": 1793188800000,
-    "TKF|BTC/USD|5m": 1793216100000,
-    "TKF|ETH/USD|5m": 1793216100000,
+    "TKF|BTC/USD|5m": 1793216400000,
+    "TKF|ETH/USD|5m": 1793216400000,
     "TPS|BTC/USD|1h": 1793210400000,
     "TPS|ETH/USD|1h": 1793210400000,
     "MRA|BTC/USD|1h": 1793210400000,
@@ -159,8 +159,8 @@
     "HOT|INJ/USD|15m|BUY": 1792505700000,
     "HOT|ENA/USD|5m|BUY": 1792508700000,
     "HOT|ENA/USD|15m|BUY": 1792507500000,
-    "FBR|BTC/USD|5m": 1793216100000,
-    "FBR|ETH/USD|5m": 1793216100000
+    "FBR|BTC/USD|5m": 1793216400000,
+    "FBR|ETH/USD|5m": 1793216400000
   },
   "diag": {
     "CN1M": {
@@ -183,23 +183,23 @@
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 4856,
+      "checks": 4858,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1793216445
+      "last_check": 1793216732
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 1538,
+      "checks": 1540,
       "nodata": 0,
       "raw": 6,
       "blocked": {},
       "opened": 6,
-      "last_check": 1793215832
+      "last_check": 1793216730
     },
     "TS1": {
       "since": 1792450810,
@@ -308,12 +308,12 @@
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 3180,
+      "checks": 3182,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1793216445
+      "last_check": 1793216732
     }
   },
   "hot_daily": {
