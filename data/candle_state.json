@@ -25587,7 +25587,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "FIL/USD",
         "tf_key": "manual",
         "display": "FIL",
@@ -25609,6 +25609,17 @@
             "ts": "2026-10-28T20:07:02.943533+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-10-28T20:15:12.635911+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-28T20:15:12.637600+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.9
           }
         ],
         "signal_message_id": 2621,
@@ -25618,7 +25629,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
@@ -25651,6 +25663,12 @@
           {
             "type": "rr",
             "ts": "2026-10-28T20:07:02.943565+00:00",
+            "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-28T20:15:12.635866+00:00",
             "level_r": 2,
             "note": "forwarded"
           }
