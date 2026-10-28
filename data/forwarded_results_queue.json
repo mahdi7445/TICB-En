@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 104.98,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000139",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-19T09:04:47.388118+00:00"
-  },
-  {
     "kind": "sl_after_t3",
     "ticker": "XRP",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T15:51:45.993062+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "RENDER",
+    "tf_label": "15M",
+    "entry": 1.67,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000459",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T16:36:15.028438+00:00"
   }
 ]
