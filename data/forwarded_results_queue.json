@@ -5962,5 +5962,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T10:29:36.723978+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "ATOM",
+    "tf_label": "15M",
+    "entry": 1.6395,
+    "level": null,
+    "result_r": 2.25,
+    "source_signal_id": "ALT-000443",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T11:10:44.427407+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.2075,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000445",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T11:10:46.368429+00:00"
   }
 ]
