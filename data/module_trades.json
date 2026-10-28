@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793175959999,
+      "last_ms": 1793176019999,
       "bar_ms": 1792497600000,
       "mfe_r": 1.3512,
       "mae_r": 0.9262,
@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793175983416
+      "polled_ms": 1793176043260
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1792699221674,
       "armed_ms": 1792699221674,
-      "last_ms": 1793175959999,
+      "last_ms": 1793176019999,
       "bar_ms": 1792684800000,
       "mfe_r": 0.2787,
       "mae_r": 0.9536,
@@ -106,57 +106,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1793175983416
-    },
-    "TC-000097": {
-      "id": "TC-000097",
-      "module": "TPS",
-      "symbol": "ETH/USD",
-      "tf": "1h",
-      "side": "SELL",
-      "entry": 2324.79,
-      "sl0": 2369.775453919014,
-      "sl": 2369.775453919014,
-      "risk": 44.98545391901416,
-      "targets": [
-        2234.8190921619716,
-        2189.8336382429575,
-        2099.862730404929,
-        1964.9063686478867
-      ],
-      "levels": [
-        2.0,
-        3.0,
-        5.0,
-        8.0
-      ],
-      "weights": [
-        0.3,
-        0.25,
-        0.15,
-        0.1
-      ],
-      "trail": 1.5,
-      "hit": [
-        false,
-        false,
-        false,
-        false
-      ],
-      "runner_on": false,
-      "best": 2324.79,
-      "status": "open",
-      "opened_ms": 1792922405976,
-      "armed_ms": 1792922405976,
-      "last_ms": 1793175959999,
-      "bar_ms": 1792918800000,
-      "mfe_r": 0.7576,
-      "mae_r": 0.9154,
-      "events": [],
-      "tier": "candidate",
-      "profile": "Q2",
-      "msg_id": 2369,
-      "polled_ms": 1793175983416
+      "polled_ms": 1793176043260
     }
   },
   "seen": [],
