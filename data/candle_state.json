@@ -25189,7 +25189,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ENA/USD",
         "tf_key": "manual",
         "display": "ENA",
@@ -25199,6 +25199,17 @@
             "type": "opened",
             "ts": "2026-10-28T17:19:49.399086+00:00",
             "price": 0.1955
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-28T17:52:12.900779+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-28T17:52:12.902613+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2609,
@@ -25208,7 +25219,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
