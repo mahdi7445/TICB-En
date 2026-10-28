@@ -5878,5 +5878,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T08:20:51.148534+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 11.73,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000435",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T08:34:10.064371+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 11.73,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000436",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T08:34:10.890081+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "APT",
+    "tf_label": "1H",
+    "entry": 0.6934,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000439",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T08:34:11.989820+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LINK",
+    "tf_label": "5M",
+    "entry": 11.76,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000440",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T08:34:13.191992+00:00"
   }
 ]
