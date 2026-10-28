@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "ADA",
-    "tf_label": "15M",
-    "entry": 0.2284,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000146",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-20T21:11:08.566187+00:00"
-  },
-  {
-    "kind": "forwarded_closed",
-    "ticker": "SUI",
-    "tf_label": "1H",
-    "entry": 0.7227,
-    "level": null,
-    "result_r": 2.56,
-    "source_signal_id": "ALT-000134",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-20T22:23:05.101427+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "SOL",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-10-28T19:50:14.190129+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PONS",
+    "tf_label": "1M",
+    "entry": 0.2885,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000469",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T19:51:23.237080+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "PONS",
+    "tf_label": "1M",
+    "entry": 0.2885,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000469",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T19:51:25.739408+00:00"
   }
 ]
