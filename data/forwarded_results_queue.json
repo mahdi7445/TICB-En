@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 104.98,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000139",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-18T15:58:43.498356+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "ADA",
     "tf_label": "15M",
     "entry": 0.216,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T14:24:20.236539+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XLM",
+    "tf_label": "15M",
+    "entry": 0.1687,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000455",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T15:04:23.108335+00:00"
   }
 ]
