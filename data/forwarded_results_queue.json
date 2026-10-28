@@ -5887,7 +5887,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000435",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T08:34:10.064371+00:00"
   },
@@ -5899,7 +5899,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000436",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T08:34:10.890081+00:00"
   },
@@ -5911,7 +5911,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000439",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T08:34:11.989820+00:00"
   },
@@ -5923,7 +5923,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000440",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T08:34:13.191992+00:00"
   }
