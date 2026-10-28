@@ -24795,7 +24795,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "JUP/USD",
         "tf_key": "manual",
         "display": "JUP",
@@ -24805,6 +24805,17 @@
             "type": "opened",
             "ts": "2026-10-28T13:08:23.155301+00:00",
             "price": 0.278
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-28T18:06:08.964707+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-28T18:06:08.966353+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2588,
@@ -24814,7 +24825,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
