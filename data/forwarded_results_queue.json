@@ -5734,5 +5734,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-27T23:53:18.366980+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TAO",
+    "tf_label": "15M",
+    "entry": 255.61,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000432",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T00:21:18.756569+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LTC",
+    "tf_label": "15M",
+    "entry": 57.16,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000433",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T00:21:19.576524+00:00"
   }
 ]
