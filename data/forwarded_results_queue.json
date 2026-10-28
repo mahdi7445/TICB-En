@@ -5806,5 +5806,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T02:09:25.049199+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 11.555,
+    "level": 4,
+    "result_r": 2.15,
+    "source_signal_id": "ALT-000431",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T02:22:30.444690+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 11.555,
+    "level": 6,
+    "result_r": 2.75,
+    "source_signal_id": "ALT-000431",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T02:22:30.869554+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 11.555,
+    "level": null,
+    "result_r": 3.43,
+    "source_signal_id": "ALT-000431",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T02:22:31.662492+00:00"
   }
 ]
