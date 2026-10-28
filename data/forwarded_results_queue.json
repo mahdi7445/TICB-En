@@ -5842,5 +5842,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T02:22:31.662492+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "PONS",
+    "tf_label": "1M",
+    "entry": 0.2921,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000438",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T07:32:42.971641+00:00"
   }
 ]
