@@ -5959,7 +5959,7 @@
     "level": 2,
     "result_r": 0.6,
     "source_signal_id": "ALT-000466",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T19:50:13.404967+00:00"
   },
@@ -5971,7 +5971,7 @@
     "level": 2,
     "result_r": 0.6,
     "source_signal_id": "ALT-000467",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T19:50:14.190129+00:00"
   },
