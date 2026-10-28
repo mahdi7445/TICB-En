@@ -4430,12 +4430,13 @@
     "side": "SELL",
     "entry": 0.2921,
     "sl": 0.2929,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793172743,
     "forwarded_tracking": true,
     "tf_label": "1M",
     "silent": true,
     "source_signal_id": "ALT-000438",
-    "signal_message_id": 2553
+    "signal_message_id": 2553,
+    "activated_at": "2026-10-28T07:34:31.617656+00:00"
   }
 ]
