@@ -5866,5 +5866,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T07:57:12.710762+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LDO",
+    "tf_label": "1H",
+    "entry": 0.374,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000434",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T08:20:51.148534+00:00"
   }
 ]
