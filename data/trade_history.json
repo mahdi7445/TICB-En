@@ -15448,5 +15448,57 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000427",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-27T18:36:41.212104+00:00",
+        "price": 1296.11
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-27T23:14:43.098551+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "module_closed",
+        "ts": "2026-10-28T00:36:51.151931+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-28T00:36:51.155009+00:00",
+        "close_type": "module_closed",
+        "final_r": 0.95
+      }
+    ],
+    "symbol": "ZEC/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 1296.11,
+    "sl": 1284.72,
+    "final_r": 0.95,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "module_closed",
+    "close_reason": "module_closed",
+    "opened_at": "2026-10-27T18:36:41.212000+00:00",
+    "closed_at": "2026-10-28T00:36:51.155009+00:00",
+    "r_pct": 0.8788,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
