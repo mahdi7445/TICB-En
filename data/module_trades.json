@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793189459999,
+      "last_ms": 1793189519999,
       "bar_ms": 1792497600000,
       "mfe_r": 1.3512,
       "mae_r": 0.9262,
@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793189477651
+      "polled_ms": 1793189533417
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1792699221674,
       "armed_ms": 1792699221674,
-      "last_ms": 1793189459999,
+      "last_ms": 1793189519999,
       "bar_ms": 1792684800000,
       "mfe_r": 0.2787,
       "mae_r": 0.9536,
@@ -106,7 +106,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1793189477651
+      "polled_ms": 1793189533417
     },
     "TC-000102": {
       "id": "TC-000102",
@@ -148,65 +148,15 @@
       "status": "open",
       "opened_ms": 1793188825263,
       "armed_ms": 1793188825263,
-      "last_ms": 1793189459999,
+      "last_ms": 1793189519999,
       "bar_ms": 1793174400000,
       "mfe_r": 0.0289,
-      "mae_r": 0.389,
+      "mae_r": 0.4286,
       "events": [],
       "tier": "orig",
       "profile": "Q2",
       "msg_id": 2574,
-      "polled_ms": 1793189477651
-    },
-    "TC-000103": {
-      "id": "TC-000103",
-      "module": "CN4H",
-      "symbol": "ETH/USD",
-      "tf": "4h",
-      "side": "BUY",
-      "entry": 2359.01,
-      "sl0": 2347.74,
-      "sl": 2347.74,
-      "risk": 11.270000000000437,
-      "targets": [
-        2381.550000000001,
-        2392.8200000000015,
-        2415.3600000000024,
-        2449.1700000000037
-      ],
-      "levels": [
-        2.0,
-        3.0,
-        5.0,
-        8.0
-      ],
-      "weights": [
-        0.3,
-        0.25,
-        0.15,
-        0.1
-      ],
-      "trail": 1.5,
-      "hit": [
-        false,
-        false,
-        false,
-        false
-      ],
-      "runner_on": false,
-      "best": 2359.01,
-      "status": "open",
-      "opened_ms": 1793188825263,
-      "armed_ms": 1793188825263,
-      "last_ms": 1793189459999,
-      "bar_ms": 1793174400000,
-      "mfe_r": 0.0035,
-      "mae_r": 0.8642,
-      "events": [],
-      "tier": "orig",
-      "profile": "Q2",
-      "msg_id": 2575,
-      "polled_ms": 1793189477651
+      "polled_ms": 1793189533417
     }
   },
   "seen": [],
