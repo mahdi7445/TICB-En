@@ -25615,13 +25615,13 @@
         "sl": 0.2877,
         "r": 0.0007999999999999674,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PONS/USD",
         "tf_key": "manual",
         "display": "PONS",
@@ -25631,6 +25631,23 @@
             "type": "opened",
             "ts": "2026-10-28T19:49:53.007653+00:00",
             "price": 0.2885
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-28T19:52:23.023539+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-28T19:52:23.023576+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-28T19:52:23.025305+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2626,
@@ -25640,7 +25657,46 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "breakeven"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000470": {
+      "open_trade": {
+        "signal_id": "ALT-000470",
+        "source_signal_id": "ALT-000470",
+        "side": "BUY",
+        "entry": 0.1038,
+        "sl": 0.103,
+        "r": 0.000800000000000009,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ALGO/USD",
+        "tf_key": "manual",
+        "display": "ALGO",
+        "opened_at_ms": 1793217142993,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-28T19:52:22.993580+00:00",
+            "price": 0.1038
+          }
+        ],
+        "signal_message_id": 2629,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
       },
       "hist": []
     }
