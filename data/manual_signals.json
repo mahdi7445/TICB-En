@@ -4520,12 +4520,13 @@
     "side": "BUY",
     "entry": 1.016,
     "sl": 1.009,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793180919,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000444",
-    "signal_message_id": 2568
+    "signal_message_id": 2568,
+    "activated_at": "2026-10-28T09:50:04.766712+00:00"
   }
 ]
