@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "NEAR",
-    "tf_label": "1H",
-    "entry": 3.15,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000137",
-    "status": "unmatched",
-    "attempts": 120,
-    "queued_at": "2026-09-20T16:39:05.999674+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "NEAR",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "pending",
     "attempts": 65,
     "queued_at": "2026-10-28T19:36:55.905836+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.2043,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000465",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T19:44:01.557105+00:00"
   }
 ]
