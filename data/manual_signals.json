@@ -4483,5 +4483,33 @@
     "source_signal_id": "ALT-000441",
     "signal_message_id": 2559,
     "activated_at": "2026-10-28T08:23:00.366189+00:00"
+  },
+  {
+    "id": "src-ALT-000442",
+    "symbol": "NEAR/USD",
+    "side": "BUY",
+    "entry": 4.737,
+    "sl": 4.717,
+    "status": "pending",
+    "created_at": 1793180126,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000442",
+    "signal_message_id": 2565
+  },
+  {
+    "id": "src-ALT-000443",
+    "symbol": "ATOM/USD",
+    "side": "BUY",
+    "entry": 1.6395,
+    "sl": 1.6357,
+    "status": "pending",
+    "created_at": 1793180127,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000443",
+    "signal_message_id": 2566
   }
 ]
