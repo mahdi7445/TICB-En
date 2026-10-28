@@ -1,30 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 111.73,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000141",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-20T02:56:36.748155+00:00"
-  },
-  {
-    "kind": "sl_after_t3",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 111.73,
-    "level": null,
-    "result_r": 2.1,
-    "source_signal_id": "ALT-000141",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-20T16:33:11.765226+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "NEAR",
     "tf_label": "1H",
     "entry": 3.15,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T19:20:09.056000+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 11.75,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000449",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T19:36:55.015919+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 11.75,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000450",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T19:36:55.905836+00:00"
   }
 ]
