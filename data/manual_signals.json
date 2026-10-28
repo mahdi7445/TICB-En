@@ -4603,5 +4603,19 @@
     "source_signal_id": "ALT-000449",
     "signal_message_id": 2579,
     "activated_at": "2026-10-28T12:09:19.348408+00:00"
+  },
+  {
+    "id": "src-ALT-000451",
+    "symbol": "POL/USD",
+    "side": "SELL",
+    "entry": 0.09129,
+    "sl": 0.09178,
+    "status": "pending",
+    "created_at": 1793191563,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000451",
+    "signal_message_id": 2587
   }
 ]
