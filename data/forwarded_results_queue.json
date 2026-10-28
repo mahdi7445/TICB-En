@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "TAO",
-    "tf_label": "1H",
-    "entry": 223.5,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000133",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-19T11:19:46.316402+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "XRP",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T17:37:43.292717+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ENA",
+    "tf_label": "5M",
+    "entry": 0.1955,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000460",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T17:50:22.102145+00:00"
   }
 ]
