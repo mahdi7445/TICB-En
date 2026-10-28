@@ -5782,5 +5782,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T01:34:52.540562+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "15M",
+    "entry": 11.555,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000431",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-28T02:00:40.320065+00:00"
   }
 ]
