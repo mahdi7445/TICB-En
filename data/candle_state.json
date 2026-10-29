@@ -27411,6 +27411,44 @@
         "logical_tf": "1h"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000506": {
+      "open_trade": {
+        "signal_id": "ALT-000506",
+        "source_signal_id": "ALT-000506",
+        "side": "SELL",
+        "entry": 278.68,
+        "sl": 279.74,
+        "r": 1.0600000000000023,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "BCH/USD",
+        "tf_key": "manual",
+        "display": "BCH",
+        "opened_at_ms": 1793260101807,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-29T07:48:21.807724+00:00",
+            "price": 278.68
+          }
+        ],
+        "signal_message_id": 2728,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
