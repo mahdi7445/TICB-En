@@ -1,17 +1,5 @@
 [
   {
-    "kind": "runner_stop",
-    "ticker": "TAO",
-    "tf_label": "1H",
-    "entry": 223.5,
-    "level": null,
-    "result_r": 3.79,
-    "source_signal_id": "ALT-000133",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T10:37:15.642307+00:00"
-  },
-  {
     "kind": "forwarded_closed",
     "ticker": "NEAR",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T02:05:44.181439+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "USELESS",
+    "tf_label": "1M",
+    "entry": 0.1552,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000482",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T02:10:24.613772+00:00"
   }
 ]
