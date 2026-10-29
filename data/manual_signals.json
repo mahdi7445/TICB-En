@@ -5083,5 +5083,19 @@
     "source_signal_id": "ALT-000482",
     "signal_message_id": 2683,
     "activated_at": "2026-10-29T02:08:57.418437+00:00"
+  },
+  {
+    "id": "src-ALT-000483",
+    "symbol": "LDO/USD",
+    "side": "SELL",
+    "entry": 0.364,
+    "sl": 0.367,
+    "status": "pending",
+    "created_at": 1793241194,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000483",
+    "signal_message_id": 2692
   }
 ]
