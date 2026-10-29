@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "LTC",
-    "tf_label": "1H",
-    "entry": 58.87,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000154",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-23T18:37:02.474020+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "LTC",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T02:32:44.860641+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XMR",
+    "tf_label": "15M",
+    "entry": 583.94,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000492",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T04:44:32.907655+00:00"
   }
 ]
