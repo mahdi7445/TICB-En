@@ -5090,12 +5090,13 @@
     "side": "SELL",
     "entry": 0.364,
     "sl": 0.367,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793241194,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000483",
-    "signal_message_id": 2692
+    "signal_message_id": 2692,
+    "activated_at": "2026-10-29T02:34:11.868242+00:00"
   }
 ]
