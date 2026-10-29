@@ -5503,5 +5503,33 @@
     "source_signal_id": "ALT-000510",
     "signal_message_id": 2745,
     "activated_at": "2026-10-29T12:18:59.630388+00:00"
+  },
+  {
+    "id": "src-ALT-000511",
+    "symbol": "XLM/USD",
+    "side": "SELL",
+    "entry": 0.1704,
+    "sl": 0.171,
+    "status": "pending",
+    "created_at": 1793281812,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000511",
+    "signal_message_id": 2751
+  },
+  {
+    "id": "src-ALT-000512",
+    "symbol": "HBAR/USD",
+    "side": "SELL",
+    "entry": 0.07413,
+    "sl": 0.07432,
+    "status": "pending",
+    "created_at": 1793281813,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000512",
+    "signal_message_id": 2752
   }
 ]
