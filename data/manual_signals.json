@@ -5930,12 +5930,13 @@
     "side": "SELL",
     "entry": 1.249,
     "sl": 1.2517,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793313522,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000542",
-    "signal_message_id": 2863
+    "signal_message_id": 2863,
+    "activated_at": "2026-10-29T22:40:05.866350+00:00"
   }
 ]
