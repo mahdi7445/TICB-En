@@ -19765,5 +19765,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "TC-000095",
+    "events": [
+      {
+        "type": "stop",
+        "price": 2274.727371953767,
+        "final_r": -1.0,
+        "ts": "2026-10-29T20:42:56.032056+00:00"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T20:42:56.616828+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "4h",
+    "logical_tf": "4h",
+    "side": "BUY",
+    "entry": 2384.14,
+    "sl": 2274.727371953767,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "stop",
+    "opened_at": "2026-10-22T20:00:21.674000+00:00",
+    "closed_at": "2026-10-29T20:42:56.616828+00:00",
+    "r_pct": 4.5892,
+    "mfe_r": 0.2787,
+    "mae_r": 1.0249,
+    "quality_tier": "verified",
+    "strategy": "module:SWP",
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": 4.5892,
+    "fee_r_est": null,
+    "net_r_est": null,
+    "module": "SWP",
+    "ladder": "CLASSIC",
+    "trigger": null,
+    "hot_move_pct": null
   }
 ]
