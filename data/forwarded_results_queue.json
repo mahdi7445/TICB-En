@@ -1,42 +1,6 @@
 [
   {
     "kind": "sl_after_t3",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 110.43,
-    "level": null,
-    "result_r": 2.1,
-    "source_signal_id": "ALT-000145",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T08:03:25.116180+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ZEC",
-    "tf_label": "1H",
-    "entry": 1481.83,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000149",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T08:46:09.256751+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "ZEC",
-    "tf_label": "1H",
-    "entry": 1481.83,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000149",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T08:46:12.771310+00:00"
-  },
-  {
-    "kind": "sl_after_t3",
     "ticker": "DOGE",
     "tf_label": "1H",
     "entry": 0.0869,
@@ -5998,5 +5962,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T01:19:05.152075+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "PEPE",
+    "tf_label": "15M",
+    "entry": 4.92e-06,
+    "level": null,
+    "result_r": 1.49,
+    "source_signal_id": "ALT-000468",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T01:39:09.024541+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SUI",
+    "tf_label": "15M",
+    "entry": 0.9447,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000472",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T01:39:10.042388+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "15M",
+    "entry": 134.72,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000473",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T01:39:11.221669+00:00"
   }
 ]
