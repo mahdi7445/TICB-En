@@ -1,29 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "XRP",
-    "tf_label": "1H",
-    "entry": 1.52,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000185",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-28T05:34:42.790297+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "XRP",
-    "tf_label": "1H",
-    "entry": 1.52,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000185",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-28T09:03:49.398183+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "UNI",
     "tf_label": "1H",
@@ -5998,5 +5974,29 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-10-29T14:38:02.351551+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "PEPE",
+    "tf_label": "4H",
+    "entry": 4.281e-06,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000392",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T14:38:05.045333+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SEI",
+    "tf_label": "1H",
+    "entry": 0.05153,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000501",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T14:38:08.015990+00:00"
   }
 ]
