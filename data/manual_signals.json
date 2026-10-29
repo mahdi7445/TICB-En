@@ -5788,5 +5788,47 @@
     "source_signal_id": "ALT-000530",
     "signal_message_id": 2838,
     "activated_at": "2026-10-29T21:38:26.887781+00:00"
+  },
+  {
+    "id": "src-ALT-000531",
+    "symbol": "SEI/USD",
+    "side": "SELL",
+    "entry": 0.04851,
+    "sl": 0.04862,
+    "status": "pending",
+    "created_at": 1793311890,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000531",
+    "signal_message_id": 2844
+  },
+  {
+    "id": "src-ALT-000532",
+    "symbol": "LDO/USD",
+    "side": "SELL",
+    "entry": 0.329,
+    "sl": 0.334,
+    "status": "pending",
+    "created_at": 1793311893,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000532",
+    "signal_message_id": 2845
+  },
+  {
+    "id": "src-ALT-000533",
+    "symbol": "JUP/USD",
+    "side": "SELL",
+    "entry": 0.2554,
+    "sl": 0.2575,
+    "status": "pending",
+    "created_at": 1793311905,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000533",
+    "signal_message_id": 2846
   }
 ]
