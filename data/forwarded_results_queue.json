@@ -1,42 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "ENA",
-    "tf_label": "1H",
-    "entry": 0.221,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000219",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-11T17:26:17.762227+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ENA",
-    "tf_label": "1H",
-    "entry": 0.221,
-    "level": 6,
-    "result_r": 2.0,
-    "source_signal_id": "ALT-000219",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-11T17:26:19.702045+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ADA",
-    "tf_label": "5M",
-    "entry": 0.2543,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000222",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-11T18:07:31.256116+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "ADA",
     "tf_label": "5M",
     "entry": 0.2543,
@@ -5998,5 +5962,41 @@
     "status": "pending",
     "attempts": 57,
     "queued_at": "2026-10-29T22:37:57.545092+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "DOGE",
+    "tf_label": "5M",
+    "entry": 0.07598,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000534",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T22:44:21.416889+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "5M",
+    "entry": 10.9,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000535",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T22:44:22.107929+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XRP",
+    "tf_label": "5M",
+    "entry": 1.249,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000542",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T22:44:24.618251+00:00"
   }
 ]
