@@ -5030,12 +5030,13 @@
     "side": "BUY",
     "entry": 1.639,
     "sl": 1.601,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793232175,
     "forwarded_tracking": true,
     "tf_label": "4H",
     "silent": true,
     "source_signal_id": "ALT-000479",
-    "signal_message_id": 2659
+    "signal_message_id": 2659,
+    "activated_at": "2026-10-29T00:03:14.748089+00:00"
   }
 ]
