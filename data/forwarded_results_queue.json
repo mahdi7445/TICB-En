@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "ADA",
-    "tf_label": "5M",
-    "entry": 0.2543,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000222",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-11T18:17:42.955466+00:00"
-  },
-  {
     "kind": "runner_stop",
     "ticker": "ENA",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T22:57:42.951224+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "FIL",
+    "tf_label": "5M",
+    "entry": 0.825,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000543",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T23:18:25.180047+00:00"
   }
 ]
