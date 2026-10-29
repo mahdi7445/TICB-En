@@ -27405,7 +27405,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LDO/USD",
         "tf_key": "manual",
         "display": "LDO",
@@ -27415,6 +27415,17 @@
             "type": "opened",
             "ts": "2026-10-29T07:07:48.485926+00:00",
             "price": 0.363
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T11:20:42.535710+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T11:20:42.538638+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2723,
@@ -27424,7 +27435,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     },
