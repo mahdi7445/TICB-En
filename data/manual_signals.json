@@ -5668,5 +5668,61 @@
     "source_signal_id": "ALT-000522",
     "signal_message_id": 2790,
     "activated_at": "2026-10-29T20:08:32.702282+00:00"
+  },
+  {
+    "id": "src-ALT-000523",
+    "symbol": "ATOM/USD",
+    "side": "SELL",
+    "entry": 1.569,
+    "sl": 1.577,
+    "status": "pending",
+    "created_at": 1793305731,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000523",
+    "signal_message_id": 2793
+  },
+  {
+    "id": "src-ALT-000524",
+    "symbol": "ICP/USD",
+    "side": "SELL",
+    "entry": 2.521,
+    "sl": 2.528,
+    "status": "pending",
+    "created_at": 1793305737,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000524",
+    "signal_message_id": 2794
+  },
+  {
+    "id": "src-ALT-000525",
+    "symbol": "INJ/USD",
+    "side": "SELL",
+    "entry": 7.81,
+    "sl": 7.85,
+    "status": "pending",
+    "created_at": 1793305742,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000525",
+    "signal_message_id": 2795
+  },
+  {
+    "id": "src-ALT-000526",
+    "symbol": "PEPE/USD",
+    "side": "SELL",
+    "entry": 5.156e-06,
+    "sl": 5.223e-06,
+    "status": "pending",
+    "created_at": 1793305753,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000526",
+    "signal_message_id": 2796
   }
 ]
