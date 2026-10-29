@@ -27836,7 +27836,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XLM/USD",
         "tf_key": "manual",
         "display": "XLM",
@@ -27846,6 +27846,17 @@
             "type": "opened",
             "ts": "2026-10-29T13:51:29.629631+00:00",
             "price": 0.1704
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T14:06:03.668112+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T14:06:03.671308+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2751,
@@ -27855,7 +27866,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
