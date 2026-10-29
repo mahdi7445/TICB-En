@@ -18608,7 +18608,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "FIL/USD",
         "tf_key": "manual",
         "display": "FIL",
@@ -18618,6 +18618,17 @@
             "type": "opened",
             "ts": "2026-10-24T00:06:20.244205+00:00",
             "price": 0.959
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T07:19:52.793091+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T07:19:52.795664+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2245,
@@ -18628,7 +18639,8 @@
           "label": "4H"
         },
         "logical_tf": "4h",
-        "_stale_alert_sent_at_ms": 1793233014315
+        "_stale_alert_sent_at_ms": 1793233014315,
+        "close_type": "stop"
       },
       "hist": []
     },
