@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793241059999,
+      "last_ms": 1793241119999,
       "bar_ms": 1792497600000,
       "mfe_r": 1.3512,
       "mae_r": 0.9262,
@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793241093131
+      "polled_ms": 1793241152729
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1792699221674,
       "armed_ms": 1792699221674,
-      "last_ms": 1793241059999,
+      "last_ms": 1793241119999,
       "bar_ms": 1792684800000,
       "mfe_r": 0.2787,
       "mae_r": 0.9536,
@@ -106,7 +106,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1793241093131
+      "polled_ms": 1793241152729
     },
     "TC-000104": {
       "id": "TC-000104",
@@ -116,7 +116,7 @@
       "side": "SELL",
       "entry": 2358.95,
       "sl0": 2368.95,
-      "sl": 2310.44,
+      "sl": 2307.69,
       "risk": 10.0,
       "targets": [
         2338.95,
@@ -144,13 +144,13 @@
         true
       ],
       "runner_on": true,
-      "best": 2295.44,
+      "best": 2292.69,
       "status": "open",
       "opened_ms": 1793223912720,
       "armed_ms": 1793223912720,
-      "last_ms": 1793241059999,
+      "last_ms": 1793241119999,
       "bar_ms": 1793223000000,
-      "mfe_r": 6.351,
+      "mfe_r": 6.626,
       "mae_r": 0.674,
       "events": [
         {
@@ -185,7 +185,7 @@
       "tier": "orig",
       "profile": "Q1",
       "msg_id": 2650,
-      "polled_ms": 1793241093131
+      "polled_ms": 1793241152729
     }
   },
   "seen": [],
