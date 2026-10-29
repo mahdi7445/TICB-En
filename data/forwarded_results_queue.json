@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ADA",
-    "tf_label": "15M",
-    "entry": 0.2407,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000192",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-30T13:31:06.866795+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "LTC",
     "tf_label": "1H",
     "entry": 67.05,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T17:47:35.575166+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SHIB",
+    "tf_label": "5M",
+    "entry": 4.987e-06,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000520",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T17:54:22.438543+00:00"
   }
 ]
