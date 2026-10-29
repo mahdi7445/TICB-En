@@ -18004,5 +18004,134 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000484",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-29T02:46:26.474201+00:00",
+        "price": 0.07747
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-29T04:52:07.424436+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T04:52:07.426196+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "DOGE/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 0.07747,
+    "sl": 0.0781,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-29T02:46:26.474000+00:00",
+    "closed_at": "2026-10-29T04:52:07.426196+00:00",
+    "r_pct": 0.8132,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000486",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-29T02:46:26.477726+00:00",
+        "price": 6.92
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-29T04:52:07.436907+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T04:52:07.438482+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "UNI/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 6.92,
+    "sl": 7.03,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-29T02:46:26.477000+00:00",
+    "closed_at": "2026-10-29T04:52:07.438482+00:00",
+    "r_pct": 1.5896,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000489",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-29T02:46:26.482570+00:00",
+        "price": 0.05108
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-29T04:52:07.448432+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T04:52:07.449976+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "SEI/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 0.05108,
+    "sl": 0.05167,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-29T02:46:26.482000+00:00",
+    "closed_at": "2026-10-29T04:52:07.449976+00:00",
+    "r_pct": 1.1551,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]

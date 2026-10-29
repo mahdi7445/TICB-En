@@ -26509,7 +26509,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOGE/USD",
         "tf_key": "manual",
         "display": "DOGE",
@@ -26519,6 +26519,17 @@
             "type": "opened",
             "ts": "2026-10-29T02:46:26.474201+00:00",
             "price": 0.07747
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T04:52:07.424436+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T04:52:07.426196+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2693,
@@ -26528,7 +26539,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -26585,7 +26597,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "UNI/USD",
         "tf_key": "manual",
         "display": "UNI",
@@ -26595,6 +26607,17 @@
             "type": "opened",
             "ts": "2026-10-29T02:46:26.477726+00:00",
             "price": 6.92
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T04:52:07.436907+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T04:52:07.438482+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2695,
@@ -26604,7 +26627,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -26699,7 +26723,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SEI/USD",
         "tf_key": "manual",
         "display": "SEI",
@@ -26709,6 +26733,17 @@
             "type": "opened",
             "ts": "2026-10-29T02:46:26.482570+00:00",
             "price": 0.05108
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T04:52:07.448432+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T04:52:07.449976+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2698,
@@ -26718,7 +26753,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
