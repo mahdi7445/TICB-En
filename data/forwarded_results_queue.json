@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "BNB",
-    "tf_label": "1H",
-    "entry": 765.88,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000148",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T01:22:52.025575+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "CRO",
     "tf_label": "1H",
     "entry": 0.05831,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-28T23:47:47.954031+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "HBAR",
+    "tf_label": "15M",
+    "entry": 0.0752,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000474",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T00:30:18.132115+00:00"
   }
 ]
