@@ -28036,7 +28036,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -28046,6 +28046,17 @@
             "type": "opened",
             "ts": "2026-10-29T16:11:57.955329+00:00",
             "price": 0.2078
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T16:25:07.869075+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T16:25:07.871736+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2768,
@@ -28055,7 +28066,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
