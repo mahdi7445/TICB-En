@@ -5021,5 +5021,19 @@
     "silent": true,
     "source_signal_id": "ALT-000478",
     "signal_message_id": 2658
+  },
+  {
+    "id": "src-ALT-000479",
+    "symbol": "ATOM/USD",
+    "side": "BUY",
+    "entry": 1.639,
+    "sl": 1.601,
+    "status": "pending",
+    "created_at": 1793232175,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000479",
+    "signal_message_id": 2659
   }
 ]
