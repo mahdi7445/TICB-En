@@ -29125,7 +29125,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LDO/USD",
         "tf_key": "manual",
         "display": "LDO",
@@ -29135,6 +29135,17 @@
             "type": "opened",
             "ts": "2026-10-29T22:12:19.022086+00:00",
             "price": 0.329
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T22:31:41.354072+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T22:31:41.356297+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2845,
@@ -29144,7 +29155,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -29163,7 +29175,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "JUP/USD",
         "tf_key": "manual",
         "display": "JUP",
@@ -29173,6 +29185,17 @@
             "type": "opened",
             "ts": "2026-10-29T22:12:19.024008+00:00",
             "price": 0.2554
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T22:31:41.367392+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T22:31:41.369060+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2846,
@@ -29182,7 +29205,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -29277,7 +29301,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SUI/USD",
         "tf_key": "manual",
         "display": "SUI",
@@ -29287,6 +29311,17 @@
             "type": "opened",
             "ts": "2026-10-29T22:25:16.118310+00:00",
             "price": 0.8842
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T22:31:41.390244+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T22:31:41.391969+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2850,
@@ -29296,7 +29331,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
