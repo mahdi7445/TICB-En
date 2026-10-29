@@ -1,18 +1,6 @@
 [
   {
     "kind": "breakeven",
-    "ticker": "SUI",
-    "tf_label": "1H",
-    "entry": 1.13,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000180",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-29T05:39:06.769196+00:00"
-  },
-  {
-    "kind": "breakeven",
     "ticker": "ADA",
     "tf_label": "1H",
     "entry": 0.2523,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T16:10:30.346963+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.2078,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000516",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T16:24:27.311116+00:00"
   }
 ]
