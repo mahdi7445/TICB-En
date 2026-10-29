@@ -1,41 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "NEAR",
-    "tf_label": "1H",
-    "entry": 5.2,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000207",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-10-07T08:41:03.993652+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "XAUT",
-    "tf_label": "1H",
-    "entry": 4159.9,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000189",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-10-07T12:41:24.589217+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "XAUT",
-    "tf_label": "1H",
-    "entry": 4159.9,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000189",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-10-07T14:19:58.085668+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "ADA",
     "tf_label": "1H",
@@ -5998,5 +5962,41 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-10-29T20:42:25.033777+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ICP",
+    "tf_label": "5M",
+    "entry": 2.521,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000524",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T20:42:32.330017+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 7.81,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000525",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T20:42:33.365449+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PEPE",
+    "tf_label": "5M",
+    "entry": 5.156e-06,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000526",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T20:42:34.562937+00:00"
   }
 ]
