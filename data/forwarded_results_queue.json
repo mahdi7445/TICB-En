@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "SHIB",
-    "tf_label": "1H",
-    "entry": 5.49e-06,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000156",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T04:08:35.835858+00:00"
-  },
-  {
     "kind": "sl_after_t3",
     "ticker": "SOL",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T01:12:35.849265+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.206,
+    "level": null,
+    "result_r": 2.25,
+    "source_signal_id": "ALT-000475",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T01:19:05.152075+00:00"
   }
 ]
