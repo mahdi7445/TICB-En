@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793242379999,
+      "last_ms": 1793242439999,
       "bar_ms": 1792497600000,
       "mfe_r": 1.3512,
       "mae_r": 0.9262,
@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793242426417
+      "polled_ms": 1793242485600
     },
     "TC-000095": {
       "id": "TC-000095",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1792699221674,
       "armed_ms": 1792699221674,
-      "last_ms": 1793242379999,
+      "last_ms": 1793242439999,
       "bar_ms": 1792684800000,
       "mfe_r": 0.2787,
       "mae_r": 0.9536,
@@ -106,86 +106,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2079,
-      "polled_ms": 1793242426417
-    },
-    "TC-000104": {
-      "id": "TC-000104",
-      "module": "CN15",
-      "symbol": "ETH/USD",
-      "tf": "15m",
-      "side": "SELL",
-      "entry": 2358.95,
-      "sl0": 2368.95,
-      "sl": 2305.57,
-      "risk": 10.0,
-      "targets": [
-        2338.95,
-        2328.95,
-        2318.95,
-        2298.95
-      ],
-      "levels": [
-        2.0,
-        3.0,
-        4.0,
-        6.0
-      ],
-      "weights": [
-        0.3,
-        0.25,
-        0.2,
-        0.1
-      ],
-      "trail": 1.5,
-      "hit": [
-        true,
-        true,
-        true,
-        true
-      ],
-      "runner_on": true,
-      "best": 2290.57,
-      "status": "open",
-      "opened_ms": 1793223912720,
-      "armed_ms": 1793223912720,
-      "last_ms": 1793242379999,
-      "bar_ms": 1793223000000,
-      "mfe_r": 6.838,
-      "mae_r": 0.674,
-      "events": [
-        {
-          "type": "target",
-          "index": 0,
-          "price": 2338.95,
-          "banked": 0.6,
-          "ts": "2026-10-29T01:32:16.236626+00:00"
-        },
-        {
-          "type": "target",
-          "index": 1,
-          "price": 2328.95,
-          "banked": 1.35,
-          "ts": "2026-10-29T01:43:28.850663+00:00"
-        },
-        {
-          "type": "target",
-          "index": 2,
-          "price": 2318.95,
-          "banked": 2.15,
-          "ts": "2026-10-29T01:49:48.106206+00:00"
-        },
-        {
-          "type": "target",
-          "index": 3,
-          "price": 2298.95,
-          "banked": 2.75,
-          "ts": "2026-10-29T02:17:31.415184+00:00"
-        }
-      ],
-      "tier": "orig",
-      "profile": "Q1",
-      "msg_id": 2650,
-      "polled_ms": 1793242426417
+      "polled_ms": 1793242485600
     }
   },
   "seen": [],
