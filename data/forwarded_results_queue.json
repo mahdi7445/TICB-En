@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "AVAX",
-    "tf_label": "1H",
-    "entry": 10.28,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000162",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-29T13:14:59.504598+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "SOL",
     "tf_label": "5M",
     "entry": 119.78,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T17:20:01.227045+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOT",
+    "tf_label": "5M",
+    "entry": 1.005,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000518",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T17:40:36.197212+00:00"
   }
 ]
