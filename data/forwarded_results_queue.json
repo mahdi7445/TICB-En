@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "LINK",
-    "tf_label": "1H",
-    "entry": 12.45,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000151",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-23T17:34:35.962895+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "NEAR",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T02:20:40.846504+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "AAVE",
+    "tf_label": "15M",
+    "entry": 134.72,
+    "level": null,
+    "result_r": 3.7,
+    "source_signal_id": "ALT-000473",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T02:26:19.315147+00:00"
   }
 ]
