@@ -4,18 +4,6 @@
     "ticker": "DOGE",
     "tf_label": "1H",
     "entry": 0.0869,
-    "level": 1,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000150",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T02:24:15.236109+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "DOGE",
-    "tf_label": "1H",
-    "entry": 0.0869,
     "level": 2,
     "result_r": 1.4,
     "source_signal_id": "ALT-000150",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T00:56:36.908061+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.206,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000475",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T01:05:01.479614+00:00"
   }
 ]
