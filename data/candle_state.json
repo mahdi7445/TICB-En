@@ -28156,7 +28156,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -28181,6 +28181,12 @@
             "type": "rr",
             "ts": "2026-10-29T17:49:05.658397+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-29T18:44:54.582507+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
