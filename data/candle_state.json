@@ -27479,7 +27479,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SHIB/USD",
         "tf_key": "manual",
         "display": "SHIB",
@@ -27489,6 +27489,17 @@
             "type": "opened",
             "ts": "2026-10-29T07:07:48.489169+00:00",
             "price": 4.852e-06
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T13:09:29.477974+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T13:09:29.480548+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2724,
@@ -27498,7 +27509,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     },
