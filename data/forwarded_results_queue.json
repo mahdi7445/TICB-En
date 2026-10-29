@@ -4,30 +4,6 @@
     "ticker": "ENA",
     "tf_label": "1H",
     "entry": 0.221,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000219",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-11T01:57:43.618281+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ENA",
-    "tf_label": "1H",
-    "entry": 0.221,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000219",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-11T13:38:51.515475+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ENA",
-    "tf_label": "1H",
-    "entry": 0.221,
     "level": 4,
     "result_r": 1.4,
     "source_signal_id": "ALT-000219",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T22:31:20.878390+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "HBAR",
+    "tf_label": "5M",
+    "entry": 0.06969,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000538",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T22:37:56.803364+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SHIB",
+    "tf_label": "5M",
+    "entry": 4.662e-06,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000540",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T22:37:57.545092+00:00"
   }
 ]
