@@ -1,30 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "BAT",
-    "tf_label": "1M",
-    "entry": 0.13157,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000221",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-10T18:00:13.666061+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "BAT",
-    "tf_label": "1M",
-    "entry": 0.13157,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000221",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-10T18:00:15.953486+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "ENA",
     "tf_label": "1H",
     "entry": 0.221,
@@ -5998,5 +5974,29 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-10-29T22:31:17.266404+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XLM",
+    "tf_label": "5M",
+    "entry": 0.1638,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000537",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T22:31:19.528833+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ICP",
+    "tf_label": "5M",
+    "entry": 2.407,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000539",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T22:31:20.878390+00:00"
   }
 ]
