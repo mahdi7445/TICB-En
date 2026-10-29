@@ -4993,5 +4993,33 @@
     "source_signal_id": "ALT-000476",
     "signal_message_id": 2655,
     "activated_at": "2026-10-28T23:25:27.297551+00:00"
+  },
+  {
+    "id": "src-ALT-000477",
+    "symbol": "OP/USD",
+    "side": "SELL",
+    "entry": 0.1131,
+    "sl": 0.1205,
+    "status": "pending",
+    "created_at": 1793232086,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000477",
+    "signal_message_id": 2657
+  },
+  {
+    "id": "src-ALT-000478",
+    "symbol": "XRP/USD",
+    "side": "SELL",
+    "entry": 1.33,
+    "sl": 1.38,
+    "status": "pending",
+    "created_at": 1793232087,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000478",
+    "signal_message_id": 2658
   }
 ]
