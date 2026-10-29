@@ -27091,7 +27091,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LTC/USD",
         "tf_key": "manual",
         "display": "LTC",
@@ -27101,6 +27101,17 @@
             "type": "opened",
             "ts": "2026-10-29T07:07:48.466818+00:00",
             "price": 57.11
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T12:40:03.392637+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T12:40:03.395303+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2716,
@@ -27110,7 +27121,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     },
