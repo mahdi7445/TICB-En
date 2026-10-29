@@ -17361,5 +17361,57 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000474",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-28T23:22:10.392576+00:00",
+        "price": 0.0752
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-28T23:48:27.781274+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-29T00:31:05.611347+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T00:31:05.613211+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.6
+      }
+    ],
+    "symbol": "HBAR/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 0.0752,
+    "sl": 0.07542,
+    "final_r": 0.6,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-28T23:22:10.392000+00:00",
+    "closed_at": "2026-10-29T00:31:05.613211+00:00",
+    "r_pct": 0.2926,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
