@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "XLM",
-    "tf_label": "1H",
-    "entry": 0.1957,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000152",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T09:06:40.360245+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "LTC",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T01:58:28.278704+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ALGO",
+    "tf_label": "4H",
+    "entry": 0.1059,
+    "level": 0.5,
+    "result_r": 0.0,
+    "source_signal_id": "ALT-000323",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T02:05:27.790512+00:00"
   }
 ]
