@@ -27391,7 +27391,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SEI/USD",
         "tf_key": "manual",
         "display": "SEI",
@@ -27401,6 +27401,17 @@
             "type": "opened",
             "ts": "2026-10-29T07:07:48.483175+00:00",
             "price": 0.05153
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T14:39:21.418184+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T14:39:21.421408+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2722,
@@ -27411,7 +27422,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_replay_checked_ms": 1793283724416
+        "_replay_checked_ms": 1793283724416,
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -27918,6 +27930,44 @@
         },
         "logical_tf": "5m",
         "close_type": "stop"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000514": {
+      "open_trade": {
+        "signal_id": "ALT-000514",
+        "source_signal_id": "ALT-000514",
+        "side": "BUY",
+        "entry": 134.56,
+        "sl": 132.88,
+        "r": 1.6800000000000068,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "AAVE/USD",
+        "tf_key": "manual",
+        "display": "AAVE",
+        "opened_at_ms": 1793284761372,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-29T14:39:21.372239+00:00",
+            "price": 134.56
+          }
+        ],
+        "signal_message_id": 2762,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
       },
       "hist": []
     }
