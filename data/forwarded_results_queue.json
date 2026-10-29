@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "CRO",
-    "tf_label": "1H",
-    "entry": 0.05831,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000135",
-    "status": "unmatched",
-    "attempts": 120,
-    "queued_at": "2026-09-22T01:54:08.857023+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "DOGE",
     "tf_label": "1H",
     "entry": 0.0869,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T00:30:18.132115+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "1H",
+    "entry": 4.76,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000480",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T00:56:36.908061+00:00"
   }
 ]
