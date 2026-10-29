@@ -5953,5 +5953,33 @@
     "source_signal_id": "ALT-000543",
     "signal_message_id": 2868,
     "activated_at": "2026-10-29T23:06:12.748743+00:00"
+  },
+  {
+    "id": "src-ALT-000544",
+    "symbol": "OP/USD",
+    "side": "SELL",
+    "entry": 0.1008,
+    "sl": 0.1015,
+    "status": "pending",
+    "created_at": 1793318295,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000544",
+    "signal_message_id": 2872
+  },
+  {
+    "id": "src-ALT-000545",
+    "symbol": "TRX/USD",
+    "side": "SELL",
+    "entry": 0.3601,
+    "sl": 0.3679,
+    "status": "pending",
+    "created_at": 1793318311,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000545",
+    "signal_message_id": 2873
   }
 ]
