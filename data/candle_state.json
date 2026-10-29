@@ -26471,7 +26471,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LDO/USD",
         "tf_key": "manual",
         "display": "LDO",
@@ -26481,6 +26481,17 @@
             "type": "opened",
             "ts": "2026-10-29T02:34:11.868219+00:00",
             "price": 0.364
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T05:13:27.735979+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T05:13:27.737749+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2692,
@@ -26490,7 +26501,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -26559,7 +26571,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ATOM/USD",
         "tf_key": "manual",
         "display": "ATOM",
@@ -26569,6 +26581,17 @@
             "type": "opened",
             "ts": "2026-10-29T02:46:26.475953+00:00",
             "price": 1.59
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T05:13:27.747284+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T05:13:27.748746+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2694,
@@ -26578,7 +26601,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -26647,7 +26671,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ICP/USD",
         "tf_key": "manual",
         "display": "ICP",
@@ -26657,6 +26681,17 @@
             "type": "opened",
             "ts": "2026-10-29T02:46:26.479366+00:00",
             "price": 2.529
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T05:13:27.758213+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T05:13:27.759699+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2696,
@@ -26666,7 +26701,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -26685,7 +26721,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "APT/USD",
         "tf_key": "manual",
         "display": "APT",
@@ -26695,6 +26731,17 @@
             "type": "opened",
             "ts": "2026-10-29T02:46:26.480971+00:00",
             "price": 0.6582
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T05:13:27.769019+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T05:13:27.770478+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2697,
@@ -26704,7 +26751,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -26773,7 +26821,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "RENDER/USD",
         "tf_key": "manual",
         "display": "RENDER",
@@ -26783,6 +26831,17 @@
             "type": "opened",
             "ts": "2026-10-29T02:47:16.113170+00:00",
             "price": 1.617
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T05:13:27.779826+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T05:13:27.781332+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2699,
@@ -26792,7 +26851,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
