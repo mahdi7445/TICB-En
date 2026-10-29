@@ -19225,5 +19225,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "TC-000105",
+    "events": [
+      {
+        "type": "stop",
+        "price": 80400.0,
+        "final_r": -1.0,
+        "ts": "2026-10-29T14:18:13.852161+00:00"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T14:18:14.297633+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "1h",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 79856.5,
+    "sl": 80400.0,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "stop",
+    "opened_at": "2026-10-29T07:00:23.539000+00:00",
+    "closed_at": "2026-10-29T14:18:14.297633+00:00",
+    "r_pct": 0.6806,
+    "mfe_r": 0.2442,
+    "mae_r": 1.0039,
+    "quality_tier": "orig",
+    "strategy": "module:CN1H",
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": 0.6806,
+    "fee_r_est": null,
+    "net_r_est": null,
+    "module": "CN1H",
+    "ladder": "Q3",
+    "trigger": null,
+    "hot_move_pct": null
   }
 ]
