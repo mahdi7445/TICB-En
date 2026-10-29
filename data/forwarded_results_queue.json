@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "1H",
-    "entry": 12.45,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000151",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T09:06:20.817620+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "XLM",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T01:45:14.782884+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "15M",
+    "entry": 134.72,
+    "level": 6,
+    "result_r": 2.75,
+    "source_signal_id": "ALT-000473",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T01:58:28.278704+00:00"
   }
 ]
