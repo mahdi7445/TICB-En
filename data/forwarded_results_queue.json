@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "XRP",
-    "tf_label": "5M",
-    "entry": 1.54,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000181",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-26T21:32:38.229523+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "ZEC",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T12:05:22.794425+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 7.883,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000509",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T12:24:51.933771+00:00"
   }
 ]
