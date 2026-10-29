@@ -1,18 +1,6 @@
 [
   {
     "kind": "breakeven",
-    "ticker": "SHIB",
-    "tf_label": "1H",
-    "entry": 5.86e-06,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000175",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-09-26T21:08:10.823086+00:00"
-  },
-  {
-    "kind": "breakeven",
     "ticker": "XRP",
     "tf_label": "15M",
     "entry": 1.52,
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-10-29T11:04:02.401739+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LDO",
+    "tf_label": "1H",
+    "entry": 0.363,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000502",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T11:19:27.150580+00:00"
   }
 ]
