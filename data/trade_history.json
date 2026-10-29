@@ -19808,5 +19808,106 @@
     "ladder": "CLASSIC",
     "trigger": null,
     "hot_move_pct": null
+  },
+  {
+    "signal_id": "ALT-000260",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-23T00:09:02.374137+00:00",
+        "price": 0.1789
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-29T20:43:03.614619+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T20:43:03.616477+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ARB/USD",
+    "tf": "manual",
+    "logical_tf": "4h",
+    "side": "BUY",
+    "entry": 0.1789,
+    "sl": 0.159,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-23T00:09:02.374000+00:00",
+    "closed_at": "2026-10-29T20:43:03.616477+00:00",
+    "r_pct": 11.1235,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000358",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-24T16:05:48.289228+00:00",
+        "price": 1143.32
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-27T12:34:57.338886+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-29T16:11:10.626134+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "sl_after_t2",
+        "ts": "2026-10-29T20:43:03.626861+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T20:43:03.628696+00:00",
+        "close_type": "sl_after_t2",
+        "final_r": 1.3
+      }
+    ],
+    "symbol": "ZEC/USD",
+    "tf": "manual",
+    "logical_tf": "4h",
+    "side": "BUY",
+    "entry": 1143.32,
+    "sl": 1019.42,
+    "final_r": 1.3,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "sl_after_t2",
+    "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
+    "opened_at": "2026-10-24T16:05:48.289000+00:00",
+    "closed_at": "2026-10-29T20:43:03.628696+00:00",
+    "r_pct": 10.8369,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
