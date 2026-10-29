@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "UNI",
-    "tf_label": "1H",
-    "entry": 9.72,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000179",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-28T09:19:18.161536+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ADA",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T14:38:08.015990+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "5M",
+    "entry": 134.56,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000514",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T15:40:10.405768+00:00"
   }
 ]
