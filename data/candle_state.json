@@ -29225,7 +29225,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOGE/USD",
         "tf_key": "manual",
         "display": "DOGE",
@@ -29235,6 +29235,17 @@
             "type": "opened",
             "ts": "2026-10-29T22:25:16.114263+00:00",
             "price": 0.07598
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T22:45:59.505694+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T22:45:59.507802+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2848,
@@ -29244,7 +29255,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -29257,7 +29269,7 @@
         "sl": 10.99,
         "r": 0.08999999999999986,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -29273,6 +29285,12 @@
             "type": "opened",
             "ts": "2026-10-29T22:25:16.116427+00:00",
             "price": 10.9
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-29T22:45:59.518739+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2849,
@@ -29501,7 +29519,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XRP/USD",
         "tf_key": "manual",
         "display": "XRP",
@@ -29511,6 +29529,17 @@
             "type": "opened",
             "ts": "2026-10-29T22:40:05.866326+00:00",
             "price": 1.249
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T22:45:59.518766+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T22:45:59.520452+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2863,
@@ -29520,7 +29549,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
