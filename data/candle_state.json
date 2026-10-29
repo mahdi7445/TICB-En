@@ -26391,7 +26391,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "USELESS/USD",
         "tf_key": "manual",
         "display": "USELESS",
@@ -26413,6 +26413,17 @@
             "ts": "2026-10-29T02:13:50.433218+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-10-29T02:21:13.333002+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T02:21:13.334889+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 1.3
           }
         ],
         "signal_message_id": 2683,
@@ -26422,7 +26433,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     }
