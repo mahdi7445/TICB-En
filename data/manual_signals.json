@@ -5728,5 +5728,19 @@
     "source_signal_id": "ALT-000526",
     "signal_message_id": 2796,
     "activated_at": "2026-10-29T20:29:45.665047+00:00"
+  },
+  {
+    "id": "src-ALT-000527",
+    "symbol": "APT/USD",
+    "side": "SELL",
+    "entry": 0.6207,
+    "sl": 0.6296,
+    "status": "pending",
+    "created_at": 1793307824,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000527",
+    "signal_message_id": 2832
   }
 ]
