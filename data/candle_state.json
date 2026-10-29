@@ -28179,7 +28179,7 @@
           "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOT/USD",
         "tf_key": "manual",
         "display": "DOT",
@@ -28213,6 +28213,17 @@
             "ts": "2026-10-29T20:07:44.803831+00:00",
             "level_r": 6,
             "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-10-29T20:15:56.772104+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T20:15:56.773916+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.38
           }
         ],
         "signal_message_id": 2772,
@@ -28222,7 +28233,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "runner_stop"
       },
       "hist": []
     },
