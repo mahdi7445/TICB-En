@@ -1,18 +1,6 @@
 [
   {
     "kind": "breakeven",
-    "ticker": "ZEC",
-    "tf_label": "1H",
-    "entry": 1532.4,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000159",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-23T17:06:14.056368+00:00"
-  },
-  {
-    "kind": "breakeven",
     "ticker": "BNB",
     "tf_label": "1H",
     "entry": 765.88,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T02:13:39.285296+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ALGO",
+    "tf_label": "4H",
+    "entry": 0.1068,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000263",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T02:19:21.447013+00:00"
   }
 ]
