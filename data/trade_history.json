@@ -19483,5 +19483,56 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000514",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-29T14:39:21.372239+00:00",
+        "price": 134.56
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-29T15:41:37.268660+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-29T17:20:48.399098+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T17:20:48.401899+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "AAVE/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 134.56,
+    "sl": 132.88,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-29T14:39:21.372000+00:00",
+    "closed_at": "2026-10-29T17:20:48.401899+00:00",
+    "r_pct": 1.2485,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
