@@ -1,29 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 118.14,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000173",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-27T07:56:42.073940+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "SUI",
-    "tf_label": "1H",
-    "entry": 1.13,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000180",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-28T00:23:21.858451+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "SOL",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T13:08:01.067551+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "QNT",
+    "tf_label": "15M",
+    "entry": 192.94,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000508",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T13:56:57.241456+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "HBAR",
+    "tf_label": "5M",
+    "entry": 0.07413,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000512",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T13:56:59.369040+00:00"
   }
 ]
