@@ -1,41 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "LTC",
-    "tf_label": "1H",
-    "entry": 58.87,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000154",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T09:49:08.584234+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "SUI",
-    "tf_label": "1H",
-    "entry": 0.8848,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000155",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T09:49:34.808365+00:00"
-  },
-  {
-    "kind": "sl_after_t2",
-    "ticker": "SHIB",
-    "tf_label": "1H",
-    "entry": 5.49e-06,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000156",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-22T10:23:17.540348+00:00"
-  },
-  {
     "kind": "runner_stop",
     "ticker": "TAO",
     "tf_label": "1H",
@@ -5998,5 +5962,41 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-10-29T02:05:27.790512+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SUI",
+    "tf_label": "15M",
+    "entry": 0.9447,
+    "level": 6,
+    "result_r": 2.75,
+    "source_signal_id": "ALT-000472",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T02:05:39.421236+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "SUI",
+    "tf_label": "15M",
+    "entry": 0.9447,
+    "level": null,
+    "result_r": 3.64,
+    "source_signal_id": "ALT-000472",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T02:05:40.032808+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ATOM",
+    "tf_label": "4H",
+    "entry": 1.639,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000479",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T02:05:44.181439+00:00"
   }
 ]
