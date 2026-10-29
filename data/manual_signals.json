@@ -5638,5 +5638,33 @@
     "source_signal_id": "ALT-000520",
     "signal_message_id": 2777,
     "activated_at": "2026-10-29T17:42:17.962240+00:00"
+  },
+  {
+    "id": "src-ALT-000521",
+    "symbol": "DOGE/USD",
+    "side": "SELL",
+    "entry": 0.07917,
+    "sl": 0.08331,
+    "status": "pending",
+    "created_at": 1793304481,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000521",
+    "signal_message_id": 2789
+  },
+  {
+    "id": "src-ALT-000522",
+    "symbol": "POL/USD",
+    "side": "SELL",
+    "entry": 0.09203,
+    "sl": 0.09733,
+    "status": "pending",
+    "created_at": 1793304482,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000522",
+    "signal_message_id": 2790
   }
 ]
