@@ -1,41 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "TAO",
-    "tf_label": "1H",
-    "entry": 304.7,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000174",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-26T19:19:19.064935+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "SHIB",
-    "tf_label": "1H",
-    "entry": 5.86e-06,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000175",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-09-26T19:38:03.658067+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "XRP",
-    "tf_label": "5M",
-    "entry": 1.54,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000181",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-26T20:40:05.175429+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "XRP",
     "tf_label": "15M",
@@ -5998,5 +5962,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T10:50:09.983709+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.2017,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000481",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T10:57:07.743303+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XLM",
+    "tf_label": "1H",
+    "entry": 0.1678,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000497",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T10:57:11.015881+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "1H",
+    "entry": 99.94,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000504",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T10:57:16.964886+00:00"
   }
 ]
