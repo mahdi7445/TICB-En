@@ -25882,10 +25882,10 @@
           "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SUI/USD",
         "tf_key": "manual",
         "display": "SUI",
@@ -25907,6 +25907,23 @@
             "ts": "2026-10-29T01:46:47.249943+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-29T02:06:32.360653+00:00",
+            "level_r": 6,
+            "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-10-29T02:06:32.360692+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T02:06:32.362361+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.64
           }
         ],
         "signal_message_id": 2651,
@@ -25916,7 +25933,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "runner_stop"
       },
       "hist": []
     },
@@ -26217,7 +26235,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ATOM/USD",
         "tf_key": "manual",
         "display": "ATOM",
@@ -26227,6 +26245,17 @@
             "type": "opened",
             "ts": "2026-10-29T00:03:14.748069+00:00",
             "price": 1.639
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T02:06:32.371440+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T02:06:32.372815+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2659,
@@ -26236,7 +26265,8 @@
           "bar_seconds": 14400,
           "label": "4H"
         },
-        "logical_tf": "4h"
+        "logical_tf": "4h",
+        "close_type": "stop"
       },
       "hist": []
     },
