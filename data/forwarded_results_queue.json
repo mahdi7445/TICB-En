@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "XRP",
-    "tf_label": "15M",
-    "entry": 1.48,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000191",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-29T12:36:29.350431+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "SOL",
     "tf_label": "15M",
     "entry": 117.88,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T16:38:12.721179+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "HBAR",
+    "tf_label": "5M",
+    "entry": 0.07443,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000519",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T17:06:04.986315+00:00"
   }
 ]
