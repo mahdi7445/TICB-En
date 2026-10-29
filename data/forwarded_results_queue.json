@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ZEC",
-    "tf_label": "1H",
-    "entry": 1507.43,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000169",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-09-26T22:02:07.143313+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "CRO",
     "tf_label": "1H",
     "entry": 0.0614,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-29T12:24:51.933771+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ETC",
+    "tf_label": "1H",
+    "entry": 7.39,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000499",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-29T12:32:01.154885+00:00"
   }
 ]
