@@ -27281,7 +27281,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TAO/USD",
         "tf_key": "manual",
         "display": "TAO",
@@ -27291,6 +27291,17 @@
             "type": "opened",
             "ts": "2026-10-29T07:07:48.480456+00:00",
             "price": 247.85
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T10:51:20.691620+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T10:51:20.694215+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2721,
@@ -27300,7 +27311,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -27433,7 +27445,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -27443,6 +27455,17 @@
             "type": "opened",
             "ts": "2026-10-29T07:07:49.640397+00:00",
             "price": 0.1978
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T10:51:20.711280+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T10:51:20.713637+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2726,
@@ -27452,7 +27475,8 @@
           "bar_seconds": 3600,
           "label": "1H"
         },
-        "logical_tf": "1h"
+        "logical_tf": "1h",
+        "close_type": "stop"
       },
       "hist": []
     },
