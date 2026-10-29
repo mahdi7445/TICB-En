@@ -17456,5 +17456,57 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000475",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-28T23:23:00.159925+00:00",
+        "price": 0.206
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-29T01:06:15.270243+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "sl_after_t2",
+        "ts": "2026-10-29T01:19:57.904020+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-29T01:19:57.905658+00:00",
+        "close_type": "sl_after_t2",
+        "final_r": 2.25
+      }
+    ],
+    "symbol": "ADA/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 0.206,
+    "sl": 0.2066,
+    "final_r": 2.25,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "sl_after_t2",
+    "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
+    "opened_at": "2026-10-28T23:23:00.159000+00:00",
+    "closed_at": "2026-10-29T01:19:57.905658+00:00",
+    "r_pct": 0.2913,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
