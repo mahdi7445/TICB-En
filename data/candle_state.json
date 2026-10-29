@@ -28906,7 +28906,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LTC/USD",
         "tf_key": "manual",
         "display": "LTC",
@@ -28916,6 +28916,17 @@
             "type": "opened",
             "ts": "2026-10-29T21:38:26.883633+00:00",
             "price": 55.89
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T21:50:57.758646+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T21:50:57.760699+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2836,
@@ -28925,7 +28936,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -28944,7 +28956,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOT/USD",
         "tf_key": "manual",
         "display": "DOT",
@@ -28954,6 +28966,17 @@
             "type": "opened",
             "ts": "2026-10-29T21:38:26.885855+00:00",
             "price": 0.9332
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T21:50:57.771913+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T21:50:57.773867+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2837,
@@ -28963,7 +28986,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -28982,7 +29006,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SOL/USD",
         "tf_key": "manual",
         "display": "SOL",
@@ -28992,6 +29016,17 @@
             "type": "opened",
             "ts": "2026-10-29T21:38:26.887777+00:00",
             "price": 97.59
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-29T21:50:57.784440+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-29T21:50:57.786106+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2838,
@@ -29001,7 +29036,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
