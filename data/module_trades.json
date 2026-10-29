@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793307539999,
+      "last_ms": 1793307599999,
       "bar_ms": 1792497600000,
       "mfe_r": 1.7178,
       "mae_r": 0.9262,
@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793307552741
+      "polled_ms": 1793307611448
     }
   },
   "seen": [],
@@ -69,8 +69,8 @@
     "TS1|ETH/USD|1h": 1793257200000,
     "CN1M|BTC/USD|1m": 1792837920000,
     "CN1M|ETH/USD|1m": 1792837920000,
-    "CN5M|BTC/USD|5m": 1793307000000,
-    "CN5M|ETH/USD|5m": 1793307000000,
+    "CN5M|BTC/USD|5m": 1793307300000,
+    "CN5M|ETH/USD|5m": 1793307300000,
     "CN15|BTC/USD|15m": 1793265300000,
     "CN15|ETH/USD|15m": 1793265300000,
     "CN1H|BTC/USD|1h": 1793257200000,
@@ -79,8 +79,8 @@
     "CN4H|ETH/USD|4h": 1793289600000,
     "TKF|BTC/USD|5m": 1793263200000,
     "TKF|ETH/USD|5m": 1793263200000,
-    "TPS|BTC/USD|1h": 1793300400000,
-    "TPS|ETH/USD|1h": 1793300400000,
+    "TPS|BTC/USD|1h": 1793304000000,
+    "TPS|ETH/USD|1h": 1793304000000,
     "MRA|BTC/USD|1h": 1793257200000,
     "MRA|ETH/USD|1h": 1793257200000,
     "MRB|BTC/USD|1h": 1793257200000,
@@ -111,8 +111,8 @@
     "HOT|ENA/USD|15m|BUY": 1792507500000,
     "FBR|BTC/USD|5m": 1793263200000,
     "FBR|ETH/USD|5m": 1793263200000,
-    "TKF|BTC/USD|15m": 1793305800000,
-    "TKF|ETH/USD|15m": 1793305800000
+    "TKF|BTC/USD|15m": 1793306700000,
+    "TKF|ETH/USD|15m": 1793306700000
   },
   "diag": {
     "CN1M": {
@@ -126,23 +126,23 @@
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 2870,
+      "checks": 2872,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1793307317
+      "last_check": 1793307623
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 5268,
+      "checks": 5270,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1793306712
+      "last_check": 1793307626
     },
     "CN15": {
       "since": 1792449921,
@@ -173,12 +173,12 @@
     },
     "TPS": {
       "since": 1792450819,
-      "checks": 476,
+      "checks": 478,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1793304036
+      "last_check": 1793307628
     },
     "MRA": {
       "since": 1792450819,
