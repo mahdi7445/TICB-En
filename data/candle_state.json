@@ -31965,7 +31965,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -31991,6 +31991,12 @@
             "ts": "2026-10-30T19:31:23.980501+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T19:51:08.034912+00:00",
+            "level_r": 4,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3004,
@@ -32013,7 +32019,7 @@
         "sl": 93.92,
         "r": 0.3400000000000034,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -32029,6 +32035,12 @@
             "type": "opened",
             "ts": "2026-10-30T19:11:54.399406+00:00",
             "price": 94.26
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T19:51:08.034980+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3005,
@@ -32101,8 +32113,8 @@
         "sl": 0.8802,
         "r": 0.0025000000000000577,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -32117,6 +32129,18 @@
             "type": "opened",
             "ts": "2026-10-30T19:43:18.774829+00:00",
             "price": 0.8827
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T19:51:08.035032+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T19:51:08.035096+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3012,
