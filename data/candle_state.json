@@ -31857,13 +31857,13 @@
         "sl": 7.18,
         "r": 0.08999999999999986,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "INJ/USD",
         "tf_key": "manual",
         "display": "INJ",
@@ -31873,6 +31873,17 @@
             "type": "opened",
             "ts": "2026-10-30T17:56:16.902677+00:00",
             "price": 7.09
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-30T19:56:48.367801+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T19:56:48.371185+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.6
           }
         ],
         "signal_message_id": 2997,
@@ -31882,7 +31893,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
