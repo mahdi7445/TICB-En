@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "XLM",
-    "tf_label": "15M",
-    "entry": 0.1773,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000287",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T09:40:05.284301+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ATOM",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T19:23:15.597368+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.4513,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000587",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T19:29:40.031466+00:00"
   }
 ]
