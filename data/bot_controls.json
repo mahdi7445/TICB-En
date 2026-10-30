@@ -3,7 +3,7 @@
   "from": ""
  },
  "sgnl": {
-  "_profile": "v9-2026-10-29",
+  "_profile": "v10-2026-10-30",
   "daily_loss_filter": false,
   "daily_loss_limit_r": 3.0,
   "hot_cooldown_min": 60,
@@ -58,7 +58,7 @@
   "mod_SWR": false,
   "mod_TKF": true,
   "mod_TKM": false,
-  "mod_TKS": false,
+  "mod_TKS": true,
   "mod_TPB": false,
   "mod_TPS": true,
   "mod_TS1": false,
@@ -207,7 +207,7 @@
   "prof_SWR": "auto",
   "prof_TKF": "Q3",
   "prof_TKM": "auto",
-  "prof_TKS": "auto",
+  "prof_TKS": "Q2",
   "prof_TPB": "auto",
   "prof_TPS": "H3",
   "prof_TS1": "auto",
