@@ -4,18 +4,6 @@
     "ticker": "ADA",
     "tf_label": "1H",
     "entry": 0.21664,
-    "level": 1.5,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000298",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T12:23:30.266765+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ADA",
-    "tf_label": "1H",
-    "entry": 0.21664,
     "level": 2.25,
     "result_r": 0.0,
     "source_signal_id": "ALT-000298",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T20:19:53.045289+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "TRX",
+    "tf_label": "5M",
+    "entry": 0.341,
+    "level": null,
+    "result_r": 2.43,
+    "source_signal_id": "ALT-000579",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T20:59:40.355408+00:00"
   }
 ]
