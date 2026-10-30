@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ADA",
-    "tf_label": "1H",
-    "entry": 0.21664,
-    "level": 2.25,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000298",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T12:23:30.769136+00:00"
-  },
-  {
     "kind": "sl_after_t3",
     "ticker": "ADA",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T20:59:40.355408+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "CRV",
+    "tf_label": "15M",
+    "entry": 0.2853,
+    "level": null,
+    "result_r": -0.17,
+    "source_signal_id": "ALT-000582",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T21:42:19.820759+00:00"
   }
 ]
