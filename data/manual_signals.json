@@ -6132,5 +6132,19 @@
     "silent": true,
     "source_signal_id": "ALT-000556",
     "signal_message_id": 2912
+  },
+  {
+    "id": "src-ALT-000557",
+    "symbol": "ICP/USD",
+    "side": "SELL",
+    "entry": 2.36,
+    "sl": 2.383,
+    "status": "pending",
+    "created_at": 1793325097,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000557",
+    "signal_message_id": 2913
   }
 ]
