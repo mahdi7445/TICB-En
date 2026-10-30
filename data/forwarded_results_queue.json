@@ -1,18 +1,6 @@
 [
   {
     "kind": "breakeven",
-    "ticker": "AAVE",
-    "tf_label": "5M",
-    "entry": 148.74,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000268",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T03:07:24.557241+00:00"
-  },
-  {
-    "kind": "breakeven",
     "ticker": "LTC",
     "tf_label": "5M",
     "entry": 59.37,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T12:48:42.907556+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "BNB",
+    "tf_label": "5M",
+    "entry": 697.62,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000575",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T13:02:46.396643+00:00"
   }
 ]
