@@ -26337,7 +26337,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "OP/USD",
         "tf_key": "manual",
         "display": "OP",
@@ -26359,6 +26359,17 @@
             "ts": "2026-10-30T00:20:05.016010+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-10-30T12:49:22.266167+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T12:49:22.269035+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 1.3
           }
         ],
         "signal_message_id": 2657,
@@ -26369,7 +26380,8 @@
           "label": "4H"
         },
         "logical_tf": "4h",
-        "_replay_checked_ms": 1793362994836
+        "_replay_checked_ms": 1793362994836,
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
