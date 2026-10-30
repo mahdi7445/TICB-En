@@ -1,54 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "DOT",
-    "tf_label": "15M",
-    "entry": 1.189,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000292",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T10:40:25.105266+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ZEC",
-    "tf_label": "5M",
-    "entry": 1214.05,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000293",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T10:40:25.969896+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "LTC",
-    "tf_label": "1H",
-    "entry": 58.94,
-    "level": null,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000265",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T11:03:55.550704+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "15M",
-    "entry": 12.15,
-    "level": 2,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000290",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T11:04:01.280094+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "NEAR",
     "tf_label": "5M",
     "entry": 4.92,
@@ -5998,5 +5950,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T19:29:48.266087+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.4513,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000587",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T19:49:53.322054+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "5M",
+    "entry": 94.26,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000588",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T19:49:54.253194+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SUI",
+    "tf_label": "5M",
+    "entry": 0.8827,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000590",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T19:49:55.178812+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SUI",
+    "tf_label": "5M",
+    "entry": 0.8827,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000590",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T19:49:56.151470+00:00"
   }
 ]
