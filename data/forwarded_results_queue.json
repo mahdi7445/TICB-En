@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "SUI",
-    "tf_label": "1H",
-    "entry": 0.9759,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000247",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-18T04:04:42.469773+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "CRO",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T06:11:15.867759+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "JUP",
+    "tf_label": "5M",
+    "entry": 0.2529,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000566",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T06:18:33.678914+00:00"
   }
 ]
