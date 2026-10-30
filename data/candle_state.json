@@ -30433,6 +30433,120 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000560": {
+      "open_trade": {
+        "signal_id": "ALT-000560",
+        "source_signal_id": "ALT-000560",
+        "side": "BUY",
+        "entry": 4.16,
+        "sl": 3.57,
+        "r": 0.5900000000000003,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "NEAR/USD",
+        "tf_key": "manual",
+        "display": "NEAR",
+        "opened_at_ms": 1793333310105,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-30T04:08:30.105510+00:00",
+            "price": 4.16
+          }
+        ],
+        "signal_message_id": 2920,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000561": {
+      "open_trade": {
+        "signal_id": "ALT-000561",
+        "source_signal_id": "ALT-000561",
+        "side": "BUY",
+        "entry": 0.1578,
+        "sl": 0.1382,
+        "r": 0.019600000000000006,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ARB/USD",
+        "tf_key": "manual",
+        "display": "ARB",
+        "opened_at_ms": 1793333310108,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-30T04:08:30.108736+00:00",
+            "price": 0.1578
+          }
+        ],
+        "signal_message_id": 2921,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000562": {
+      "open_trade": {
+        "signal_id": "ALT-000562",
+        "source_signal_id": "ALT-000562",
+        "side": "BUY",
+        "entry": 97.01,
+        "sl": 90.32,
+        "r": 6.690000000000012,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SOL/USD",
+        "tf_key": "manual",
+        "display": "SOL",
+        "opened_at_ms": 1793333310111,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-30T04:08:30.111836+00:00",
+            "price": 97.01
+          }
+        ],
+        "signal_message_id": 2922,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
