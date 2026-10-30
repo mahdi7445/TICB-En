@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "UNI",
-    "tf_label": "15M",
-    "entry": 7.23,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000281",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T09:32:01.625918+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "LINK",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T18:22:53.194937+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "15M",
+    "entry": 7.09,
+    "level": 1.5,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000585",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T18:36:04.079810+00:00"
   }
 ]
