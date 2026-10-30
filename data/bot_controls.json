@@ -36,7 +36,7 @@
   "max_stop_pct": 8.0,
   "min_stop_filter": false,
   "min_stop_pct": 0.2,
-  "mod_CN15": false,
+  "mod_CN15": true,
   "mod_CN1H": false,
   "mod_CN1M": false,
   "mod_CN4H": true,
