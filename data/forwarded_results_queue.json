@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ADA",
-    "tf_label": "1H",
-    "entry": 0.2197,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000246",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-18T03:51:37.966781+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "SUI",
     "tf_label": "1H",
     "entry": 0.9759,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T05:56:35.866979+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "TRX",
+    "tf_label": "5M",
+    "entry": 0.3601,
+    "level": null,
+    "result_r": 1.3,
+    "source_signal_id": "ALT-000545",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T06:11:15.867759+00:00"
   }
 ]
