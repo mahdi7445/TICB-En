@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "ZAMA",
-    "tf_label": "1M",
-    "entry": 0.07385,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000236",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-15T12:08:18.807864+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "BAT",
     "tf_label": "1M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T02:18:54.308789+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ICP",
+    "tf_label": "5M",
+    "entry": 2.36,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000557",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T03:19:00.826638+00:00"
   }
 ]
