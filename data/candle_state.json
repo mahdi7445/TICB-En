@@ -31169,7 +31169,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XMR/USD",
         "tf_key": "manual",
         "display": "XMR",
@@ -31185,6 +31185,17 @@
             "ts": "2026-10-30T08:12:05.202018+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-30T08:19:30.807286+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T08:19:30.810487+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2957,
@@ -31194,7 +31205,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "breakeven"
       },
       "hist": []
     }
