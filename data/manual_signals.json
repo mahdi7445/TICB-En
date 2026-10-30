@@ -5983,5 +5983,19 @@
     "source_signal_id": "ALT-000545",
     "signal_message_id": 2873,
     "activated_at": "2026-10-29T23:59:52.304638+00:00"
+  },
+  {
+    "id": "src-ALT-000547",
+    "symbol": "ZEC/USD",
+    "side": "BUY",
+    "entry": 1219.13,
+    "sl": 1063.82,
+    "status": "pending",
+    "created_at": 1793318924,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000547",
+    "signal_message_id": 2874
   }
 ]
