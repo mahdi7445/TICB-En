@@ -30401,7 +30401,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ALGO/USD",
         "tf_key": "manual",
         "display": "ALGO",
@@ -30429,6 +30429,17 @@
             "ts": "2026-10-30T06:26:20.520279+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-10-30T07:49:02.036940+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T07:49:02.039805+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 2916,
@@ -30438,7 +30449,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
@@ -30789,7 +30801,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "JUP/USD",
         "tf_key": "manual",
         "display": "JUP",
@@ -30817,6 +30829,17 @@
             "ts": "2026-10-30T06:19:05.960253+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-10-30T07:49:02.059228+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T07:49:02.061883+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 2927,
@@ -30826,7 +30849,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
