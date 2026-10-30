@@ -30383,6 +30383,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000559": {
+      "open_trade": {
+        "signal_id": "ALT-000559",
+        "source_signal_id": "ALT-000559",
+        "side": "BUY",
+        "entry": 0.0992,
+        "sl": 0.0988,
+        "r": 0.0003999999999999976,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "OP/USD",
+        "tf_key": "manual",
+        "display": "OP",
+        "opened_at_ms": 1793332783632,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-30T03:59:43.632413+00:00",
+            "price": 0.0992
+          }
+        ],
+        "signal_message_id": 2918,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
