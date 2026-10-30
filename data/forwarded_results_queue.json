@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "LTC",
-    "tf_label": "15M",
-    "entry": 59.31,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000286",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T08:43:19.837294+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "DOGE",
     "tf_label": "5M",
     "entry": 0.07999,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T16:52:30.745782+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TRX",
+    "tf_label": "5M",
+    "entry": 0.341,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000579",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T17:41:01.587960+00:00"
   }
 ]
