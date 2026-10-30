@@ -6125,13 +6125,14 @@
     "side": "SELL",
     "entry": 8.16,
     "sl": 8.23,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793325087,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000556",
-    "signal_message_id": 2912
+    "signal_message_id": 2912,
+    "activated_at": "2026-10-30T01:51:49.206514+00:00"
   },
   {
     "id": "src-ALT-000557",

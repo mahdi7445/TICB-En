@@ -30237,6 +30237,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000556": {
+      "open_trade": {
+        "signal_id": "ALT-000556",
+        "source_signal_id": "ALT-000556",
+        "side": "SELL",
+        "entry": 8.16,
+        "sl": 8.23,
+        "r": 0.07000000000000028,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "AVAX/USD",
+        "tf_key": "manual",
+        "display": "AVAX",
+        "opened_at_ms": 1793325109206,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-30T01:51:49.206494+00:00",
+            "price": 8.16
+          }
+        ],
+        "signal_message_id": 2912,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
