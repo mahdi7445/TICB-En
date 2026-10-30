@@ -32149,7 +32149,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SUI/USD",
         "tf_key": "manual",
         "display": "SUI",
@@ -32177,6 +32177,17 @@
             "ts": "2026-10-30T20:06:37.191451+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-10-30T20:13:55.778212+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T20:13:55.781382+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 3012,
@@ -32186,7 +32197,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
