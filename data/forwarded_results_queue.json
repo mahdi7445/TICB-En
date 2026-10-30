@@ -1,17 +1,5 @@
 [
   {
-    "kind": "module_closed",
-    "ticker": "AKE",
-    "tf_label": "15M",
-    "entry": 0.03325,
-    "level": null,
-    "result_r": 0.33,
-    "source_signal_id": "ALT-000283",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T13:36:15.275865+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "INJ",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T23:16:27.448915+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TAO",
+    "tf_label": "5M",
+    "entry": 236.01,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000594",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T23:50:45.299340+00:00"
   }
 ]
