@@ -23950,7 +23950,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BCH/USD",
         "tf_key": "manual",
         "display": "BCH",
@@ -23966,6 +23966,17 @@
             "ts": "2026-10-29T20:50:31.240813+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-30T15:07:16.867624+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T15:07:16.870690+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2529,
@@ -23977,7 +23988,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1793303233739,
-        "_stale_alert_sent_at_ms": 1793304593942
+        "_stale_alert_sent_at_ms": 1793304593942,
+        "close_type": "breakeven"
       },
       "hist": []
     },
