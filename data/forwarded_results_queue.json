@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "AAVE",
-    "tf_label": "5M",
-    "entry": 148.74,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000268",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T02:59:25.994113+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "LTC",
     "tf_label": "5M",
     "entry": 59.37,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T10:41:58.395071+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOGE",
+    "tf_label": "1H",
+    "entry": 0.09235,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000161",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T12:08:00.660338+00:00"
   }
 ]
