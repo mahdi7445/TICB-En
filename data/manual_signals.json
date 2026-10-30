@@ -6515,12 +6515,13 @@
     "side": "SELL",
     "entry": 0.2853,
     "sl": 0.2919,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793374924,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000582",
-    "signal_message_id": 2992
+    "signal_message_id": 2992,
+    "activated_at": "2026-10-30T15:43:20.228000+00:00"
   }
 ]
