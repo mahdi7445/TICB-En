@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "NEAR",
-    "tf_label": "5M",
-    "entry": 4.92,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000291",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T11:04:02.605573+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ZEC",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T19:49:56.151470+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "INJ",
+    "tf_label": "15M",
+    "entry": 7.09,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000585",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T19:56:29.442678+00:00"
   }
 ]
