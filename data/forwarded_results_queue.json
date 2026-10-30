@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "FIL",
-    "tf_label": "15M",
-    "entry": 0.992,
-    "level": null,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000267",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T02:51:29.736665+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "AAVE",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T08:37:46.953192+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "POL",
+    "tf_label": "4H",
+    "entry": 0.09203,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000522",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T10:41:58.395071+00:00"
   }
 ]
