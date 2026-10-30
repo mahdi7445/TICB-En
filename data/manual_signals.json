@@ -6358,5 +6358,19 @@
     "source_signal_id": "ALT-000571",
     "signal_message_id": 2950,
     "activated_at": "2026-10-30T07:14:53.201127+00:00"
+  },
+  {
+    "id": "src-ALT-000572",
+    "symbol": "TAO/USD",
+    "side": "SELL",
+    "entry": 237.08,
+    "sl": 237.71,
+    "status": "pending",
+    "created_at": 1793345238,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000572",
+    "signal_message_id": 2951
   }
 ]
