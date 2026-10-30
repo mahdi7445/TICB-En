@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793356139999,
+      "last_ms": 1793356199999,
       "bar_ms": 1792497600000,
       "mfe_r": 2.4624,
       "mae_r": 0.9262,
@@ -63,7 +63,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793356162240
+      "polled_ms": 1793356218945
     }
   },
   "seen": [],
@@ -118,8 +118,8 @@
     "HOT|ENA/USD|15m|BUY": 1792507500000,
     "FBR|BTC/USD|5m": 1793263200000,
     "FBR|ETH/USD|5m": 1793263200000,
-    "TKF|BTC/USD|15m": 1793354400000,
-    "TKF|ETH/USD|15m": 1793354400000
+    "TKF|BTC/USD|15m": 1793355300000,
+    "TKF|ETH/USD|15m": 1793355300000
   },
   "diag": {
     "CN1M": {
@@ -142,14 +142,14 @@
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 5376,
+      "checks": 5378,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1793355321
+      "last_check": 1793356208
     },
     "CN15": {
       "since": 1792449921,
