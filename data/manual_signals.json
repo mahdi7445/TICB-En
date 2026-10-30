@@ -6590,13 +6590,14 @@
     "side": "BUY",
     "entry": 0.4513,
     "sl": 0.4493,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793387417,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000587",
-    "signal_message_id": 3004
+    "signal_message_id": 3004,
+    "activated_at": "2026-10-30T19:11:07.157388+00:00"
   },
   {
     "id": "src-ALT-000588",
