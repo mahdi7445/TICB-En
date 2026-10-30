@@ -31075,13 +31075,13 @@
         "sl": 0.3399,
         "r": 0.008500000000000008,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TRX/USD",
         "tf_key": "manual",
         "display": "TRX",
@@ -31091,6 +31091,23 @@
             "type": "opened",
             "ts": "2026-10-30T07:14:53.201107+00:00",
             "price": 0.3484
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T08:38:19.471753+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-30T08:38:19.471821+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T08:38:19.475009+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2950,
@@ -31100,7 +31117,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
