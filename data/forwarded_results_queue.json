@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "INJ",
-    "tf_label": "5M",
-    "entry": 8.3,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000277",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T05:58:10.393108+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "LTC",
     "tf_label": "15M",
     "entry": 59.63,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T14:33:01.809058+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "SHIB",
+    "tf_label": "5M",
+    "entry": 4.781e-06,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000577",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T14:46:39.207987+00:00"
   }
 ]
