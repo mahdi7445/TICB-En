@@ -1,29 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "STRK",
-    "tf_label": "1M",
-    "entry": 0.07704,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000241",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-16T14:29:28.449770+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "STRK",
-    "tf_label": "1M",
-    "entry": 0.07704,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000241",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-16T14:29:30.575879+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "STRK",
     "tf_label": "1M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T04:55:22.759535+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ALGO",
+    "tf_label": "5M",
+    "entry": 0.09353,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000558",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T05:09:23.553586+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "JUP",
+    "tf_label": "5M",
+    "entry": 0.2529,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000566",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T05:09:30.390581+00:00"
   }
 ]
