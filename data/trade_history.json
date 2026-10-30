@@ -23455,5 +23455,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000582",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-30T15:43:20.227981+00:00",
+        "price": 0.2853
+      },
+      {
+        "type": "module_closed",
+        "ts": "2026-10-30T21:43:04.562331+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-30T21:43:04.565573+00:00",
+        "close_type": "module_closed",
+        "final_r": -0.17
+      }
+    ],
+    "symbol": "CRV/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 0.2853,
+    "sl": 0.2919,
+    "final_r": -0.17,
+    "targets_hit": [],
+    "close_type": "module_closed",
+    "close_reason": "module_closed",
+    "opened_at": "2026-10-30T15:43:20.227000+00:00",
+    "closed_at": "2026-10-30T21:43:04.565573+00:00",
+    "r_pct": 2.3134,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]

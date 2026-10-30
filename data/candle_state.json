@@ -31751,7 +31751,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "CRV/USD",
         "tf_key": "manual",
         "display": "CRV",
@@ -31761,6 +31761,17 @@
             "type": "opened",
             "ts": "2026-10-30T15:43:20.227981+00:00",
             "price": 0.2853
+          },
+          {
+            "type": "module_closed",
+            "ts": "2026-10-30T21:43:04.562331+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T21:43:04.565573+00:00",
+            "close_type": "module_closed",
+            "final_r": -0.17
           }
         ],
         "signal_message_id": 2992,
@@ -31770,7 +31781,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "module_closed"
       },
       "hist": []
     },
