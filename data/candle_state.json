@@ -31978,7 +31978,7 @@
           "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
         "closed": false,
@@ -32008,6 +32008,12 @@
             "type": "rr",
             "ts": "2026-10-30T19:51:08.034912+00:00",
             "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T19:57:35.330464+00:00",
+            "level_r": 6,
             "note": "forwarded"
           }
         ],
