@@ -6508,5 +6508,19 @@
     "source_signal_id": "ALT-000581",
     "signal_message_id": 2988,
     "activated_at": "2026-10-30T15:22:47.489213+00:00"
+  },
+  {
+    "id": "src-ALT-000582",
+    "symbol": "CRV/USD",
+    "side": "SELL",
+    "entry": 0.2853,
+    "sl": 0.2919,
+    "status": "pending",
+    "created_at": 1793374924,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000582",
+    "signal_message_id": 2992
   }
 ]
