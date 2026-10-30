@@ -31416,7 +31416,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -31441,6 +31441,12 @@
             "type": "rr",
             "ts": "2026-10-30T13:51:45.330518+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T14:19:46.723593+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
