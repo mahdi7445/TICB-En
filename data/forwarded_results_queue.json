@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "BAT",
-    "tf_label": "1M",
-    "entry": 0.1891,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000237",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-15T17:46:27.704409+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "STRK",
     "tf_label": "1M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T03:45:06.441999+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "OP",
+    "tf_label": "5M",
+    "entry": 0.0992,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000559",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T04:07:26.408798+00:00"
   }
 ]
