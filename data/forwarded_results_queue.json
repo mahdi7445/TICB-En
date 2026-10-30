@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ADA",
-    "tf_label": "15M",
-    "entry": 0.2248,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000250",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-21T01:52:56.008214+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ADA",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T06:52:30.160631+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TAO",
+    "tf_label": "5M",
+    "entry": 237.08,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000572",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T07:33:57.017650+00:00"
   }
 ]
