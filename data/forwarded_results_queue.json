@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "CVX",
-    "tf_label": "1M",
-    "entry": 2.634,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000252",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-21T22:39:09.995070+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "CVX",
     "tf_label": "1M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T07:47:42.597204+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 584.26,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000573",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T08:11:19.011803+00:00"
   }
 ]
