@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "SOL",
-    "tf_label": "5M",
-    "entry": 105.62,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000240",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-16T14:18:10.200290+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "STRK",
     "tf_label": "1M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T04:48:46.730167+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 6.75,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000564",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T04:55:22.759535+00:00"
   }
 ]
