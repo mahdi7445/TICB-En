@@ -6275,12 +6275,13 @@
     "side": "BUY",
     "entry": 0.2529,
     "sl": 0.2515,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793334953,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000566",
-    "signal_message_id": 2927
+    "signal_message_id": 2927,
+    "activated_at": "2026-10-30T04:37:08.437668+00:00"
   }
 ]
