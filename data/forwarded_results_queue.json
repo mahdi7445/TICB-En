@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "INJ",
-    "tf_label": "1M",
-    "entry": 8.646,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000242",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-16T17:11:42.745885+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "BAT",
     "tf_label": "1M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T05:16:21.001178+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 7.36,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000565",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T05:16:23.278720+00:00"
   }
 ]
