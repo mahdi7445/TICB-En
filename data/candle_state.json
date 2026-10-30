@@ -30787,7 +30787,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "POL/USD",
         "tf_key": "manual",
         "display": "POL",
@@ -30797,6 +30797,17 @@
             "type": "opened",
             "ts": "2026-10-30T05:31:52.401348+00:00",
             "price": 0.08884
+          },
+          {
+            "type": "stop",
+            "ts": "2026-10-30T05:51:16.874169+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T05:51:16.877148+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2936,
@@ -30806,7 +30817,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
