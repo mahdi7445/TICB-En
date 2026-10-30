@@ -1,29 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "POL",
-    "tf_label": "15M",
-    "entry": 0.09198,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000282",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T07:59:27.019541+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "POL",
-    "tf_label": "15M",
-    "entry": 0.09198,
-    "level": null,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000282",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T08:19:19.224011+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "XRP",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T15:20:52.141798+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 1245.48,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000580",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T15:27:37.195404+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "FIL",
+    "tf_label": "5M",
+    "entry": 0.877,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000581",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T15:27:38.162513+00:00"
   }
 ]
