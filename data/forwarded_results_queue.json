@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ZAMA",
-    "tf_label": "1M",
-    "entry": 0.07385,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000236",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-15T12:02:22.443303+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ZAMA",
     "tf_label": "1M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T00:40:17.517879+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "5M",
+    "entry": 8.16,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000556",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T02:18:54.308789+00:00"
   }
 ]
