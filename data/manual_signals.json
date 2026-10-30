@@ -6140,12 +6140,13 @@
     "side": "SELL",
     "entry": 2.36,
     "sl": 2.383,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793325097,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000557",
-    "signal_message_id": 2913
+    "signal_message_id": 2913,
+    "activated_at": "2026-10-30T01:52:36.694943+00:00"
   }
 ]
