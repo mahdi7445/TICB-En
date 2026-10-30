@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "APT",
-    "tf_label": "5M",
-    "entry": 0.7577,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000264",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T01:48:17.365103+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "FIL",
-    "tf_label": "15M",
-    "entry": 0.992,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000267",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T02:43:55.990299+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "FIL",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T08:18:18.037275+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TRX",
+    "tf_label": "5M",
+    "entry": 0.3484,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000571",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T08:37:46.118497+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "TRX",
+    "tf_label": "5M",
+    "entry": 0.3484,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000571",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T08:37:46.953192+00:00"
   }
 ]
