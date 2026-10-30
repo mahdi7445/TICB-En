@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ZEC",
-    "tf_label": "5M",
-    "entry": 1214.05,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000293",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T11:04:03.871625+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "ZEC",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-10-30T19:56:29.442678+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.4513,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000587",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T19:56:33.452283+00:00"
   }
 ]
