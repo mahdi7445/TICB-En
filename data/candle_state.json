@@ -28584,7 +28584,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "POL/USD",
         "tf_key": "manual",
         "display": "POL",
@@ -28600,6 +28600,17 @@
             "ts": "2026-10-30T00:20:05.016060+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-30T10:42:21.669023+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T10:42:21.672205+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2790,
@@ -28610,7 +28621,8 @@
           "label": "4H"
         },
         "logical_tf": "4h",
-        "_replay_checked_ms": 1793355150601
+        "_replay_checked_ms": 1793355150601,
+        "close_type": "breakeven"
       },
       "hist": []
     },
