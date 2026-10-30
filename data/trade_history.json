@@ -22890,5 +22890,99 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000580",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-30T15:08:07.065731+00:00",
+        "price": 1245.48
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-30T15:21:12.343329+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-10-30T15:28:42.477554+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-30T15:28:42.480634+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "ZEC/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 1245.48,
+    "sl": 1234.06,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-10-30T15:08:07.065000+00:00",
+    "closed_at": "2026-10-30T15:28:42.480634+00:00",
+    "r_pct": 0.9169,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000581",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-30T15:22:47.489191+00:00",
+        "price": 0.877
+      },
+      {
+        "type": "stop",
+        "ts": "2026-10-30T15:28:42.500937+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-30T15:28:42.504126+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "FIL/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 0.877,
+    "sl": 0.868,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-10-30T15:22:47.489000+00:00",
+    "closed_at": "2026-10-30T15:28:42.504126+00:00",
+    "r_pct": 1.0262,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
