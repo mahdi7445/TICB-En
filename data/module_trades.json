@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793387819999,
+      "last_ms": 1793387879999,
       "bar_ms": 1792497600000,
       "mfe_r": 2.5319,
       "mae_r": 0.9262,
@@ -63,57 +63,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793387823801
-    },
-    "TC-000108": {
-      "id": "TC-000108",
-      "module": "CN5M",
-      "symbol": "ETH/USD",
-      "tf": "5m",
-      "side": "BUY",
-      "entry": 2230.23,
-      "sl0": 2224.75,
-      "sl": 2224.75,
-      "risk": 5.480000000000018,
-      "targets": [
-        2235.71,
-        2241.19,
-        2252.15,
-        2263.11
-      ],
-      "levels": [
-        1.0,
-        2.0,
-        4.0,
-        6.0
-      ],
-      "weights": [
-        0.2,
-        0.3,
-        0.15,
-        0.1
-      ],
-      "trail": 1.5,
-      "hit": [
-        false,
-        false,
-        false,
-        false
-      ],
-      "runner_on": false,
-      "best": 2230.23,
-      "status": "open",
-      "opened_ms": 1793387701248,
-      "armed_ms": 1793387701248,
-      "last_ms": 1793387819999,
-      "bar_ms": 1793387400000,
-      "mfe_r": 0.0,
-      "mae_r": 0.7263,
-      "events": [],
-      "tier": "orig",
-      "profile": "CLASSIC",
-      "msg_id": 3006,
-      "polled_ms": 1793387823801
+      "polled_ms": 1793387881799
     }
   },
   "seen": [],
