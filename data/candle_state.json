@@ -31895,9 +31895,9 @@
         "sl": 0.1103,
         "r": 0.0005000000000000004,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -31911,6 +31911,24 @@
             "type": "opened",
             "ts": "2026-10-30T18:10:16.612135+00:00",
             "price": 0.1108
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T18:16:48.685098+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T18:16:48.685167+00:00",
+            "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-10-30T18:16:48.685219+00:00",
+            "level_r": 4,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 2998,
