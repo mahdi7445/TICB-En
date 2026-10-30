@@ -6343,5 +6343,19 @@
     "source_signal_id": "ALT-000570",
     "signal_message_id": 2949,
     "activated_at": "2026-10-30T06:59:48.000214+00:00"
+  },
+  {
+    "id": "src-ALT-000571",
+    "symbol": "TRX/USD",
+    "side": "BUY",
+    "entry": 0.3484,
+    "sl": 0.3399,
+    "status": "pending",
+    "created_at": 1793344418,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000571",
+    "signal_message_id": 2950
   }
 ]
