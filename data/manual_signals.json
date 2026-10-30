@@ -6568,5 +6568,19 @@
     "source_signal_id": "ALT-000585",
     "signal_message_id": 2997,
     "activated_at": "2026-10-30T17:56:16.902698+00:00"
+  },
+  {
+    "id": "src-ALT-000586",
+    "symbol": "OP/USD",
+    "side": "BUY",
+    "entry": 0.1108,
+    "sl": 0.1103,
+    "status": "pending",
+    "created_at": 1793383791,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000586",
+    "signal_message_id": 2998
   }
 ]
