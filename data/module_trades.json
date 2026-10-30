@@ -78,8 +78,8 @@
     "CN1M|ETH/USD|1m": 1792837920000,
     "CN5M|BTC/USD|5m": 1793394000000,
     "CN5M|ETH/USD|5m": 1793394000000,
-    "CN15|BTC/USD|15m": 1793265300000,
-    "CN15|ETH/USD|15m": 1793265300000,
+    "CN15|BTC/USD|15m": 1793393100000,
+    "CN15|ETH/USD|15m": 1793393100000,
     "CN1H|BTC/USD|1h": 1793257200000,
     "CN1H|ETH/USD|1h": 1793257200000,
     "CN4H|BTC/USD|4h": 1793376000000,
@@ -155,12 +155,12 @@
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 1648,
+      "checks": 1650,
       "nodata": 0,
       "raw": 7,
       "blocked": {},
       "opened": 7,
-      "last_check": 1793266213
+      "last_check": 1793394480
     },
     "TS1": {
       "since": 1792450810,
