@@ -31587,7 +31587,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TRX/USD",
         "tf_key": "manual",
         "display": "TRX",
@@ -31603,6 +31603,17 @@
             "ts": "2026-10-30T17:41:39.868610+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "module_closed",
+            "ts": "2026-10-30T21:00:39.658847+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-30T21:00:39.691255+00:00",
+            "close_type": "module_closed",
+            "final_r": 2.43
           }
         ],
         "signal_message_id": 2983,
@@ -31614,7 +31625,8 @@
         },
         "logical_tf": "5m",
         "_replay_checked_ms": 1793393935005,
-        "_stale_alert_sent_at_ms": 1793393935005
+        "_stale_alert_sent_at_ms": 1793393935005,
+        "close_type": "module_closed"
       },
       "hist": []
     },

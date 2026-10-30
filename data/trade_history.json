@@ -23403,5 +23403,57 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000579",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-10-30T14:55:14.864876+00:00",
+        "price": 0.341
+      },
+      {
+        "type": "rr",
+        "ts": "2026-10-30T17:41:39.868610+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "module_closed",
+        "ts": "2026-10-30T21:00:39.658847+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-10-30T21:00:39.691255+00:00",
+        "close_type": "module_closed",
+        "final_r": 2.43
+      }
+    ],
+    "symbol": "TRX/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "SELL",
+    "entry": 0.341,
+    "sl": 0.343,
+    "final_r": 2.43,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "module_closed",
+    "close_reason": "module_closed",
+    "opened_at": "2026-10-30T14:55:14.864000+00:00",
+    "closed_at": "2026-10-30T21:00:39.691255+00:00",
+    "r_pct": 0.5865,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
