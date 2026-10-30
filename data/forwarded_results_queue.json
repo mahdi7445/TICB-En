@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "LTC",
-    "tf_label": "5M",
-    "entry": 59.37,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000269",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T02:59:27.018183+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "AAVE",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T12:08:00.660338+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "OP",
+    "tf_label": "4H",
+    "entry": 0.1131,
+    "level": null,
+    "result_r": 1.3,
+    "source_signal_id": "ALT-000477",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T12:48:42.907556+00:00"
   }
 ]
