@@ -1,29 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "LTC",
-    "tf_label": "5M",
-    "entry": 59.37,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000269",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T03:07:25.455294+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "DOT",
-    "tf_label": "1M",
-    "entry": 1.1829,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000272",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T04:14:29.213235+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "AAVE",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T13:02:46.396643+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 6.87,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000576",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T13:36:44.110838+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 6.87,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000576",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T13:36:44.890983+00:00"
   }
 ]
