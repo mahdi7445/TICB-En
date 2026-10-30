@@ -1,29 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "COMP",
-    "tf_label": "1M",
-    "entry": 25.51,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000251",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-21T14:24:20.142208+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "CVX",
-    "tf_label": "1M",
-    "entry": 2.634,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000252",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-21T22:39:08.095031+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "CVX",
     "tf_label": "1M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T07:40:48.146696+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "ALGO",
+    "tf_label": "5M",
+    "entry": 0.09353,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000558",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T07:47:38.039508+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "JUP",
+    "tf_label": "5M",
+    "entry": 0.2529,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000566",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T07:47:42.597204+00:00"
   }
 ]
