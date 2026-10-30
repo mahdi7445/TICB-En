@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793318879999,
+      "last_ms": 1793318939999,
       "bar_ms": 1792497600000,
       "mfe_r": 1.9747,
       "mae_r": 0.9262,
@@ -56,7 +56,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793318907385
+      "polled_ms": 1793318965743
     }
   },
   "seen": [],
