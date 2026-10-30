@@ -118,8 +118,8 @@
     "HOT|ENA/USD|15m|BUY": 1792507500000,
     "FBR|BTC/USD|5m": 1793263200000,
     "FBR|ETH/USD|5m": 1793263200000,
-    "TKF|BTC/USD|15m": 1793355300000,
-    "TKF|ETH/USD|15m": 1793355300000
+    "TKF|BTC/USD|15m": 1793356200000,
+    "TKF|ETH/USD|15m": 1793356200000
   },
   "diag": {
     "CN1M": {
@@ -142,14 +142,14 @@
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 5378,
+      "checks": 5380,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1793356208
+      "last_check": 1793357114
     },
     "CN15": {
       "since": 1792449921,
