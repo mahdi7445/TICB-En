@@ -6068,5 +6068,47 @@
     "silent": true,
     "source_signal_id": "ALT-000552",
     "signal_message_id": 2887
+  },
+  {
+    "id": "src-ALT-000553",
+    "symbol": "ZEC/USD",
+    "side": "SELL",
+    "entry": 1226.18,
+    "sl": 1229.31,
+    "status": "pending",
+    "created_at": 1793319589,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000553",
+    "signal_message_id": 2888
+  },
+  {
+    "id": "src-ALT-000554",
+    "symbol": "BNB/USD",
+    "side": "SELL",
+    "entry": 694.26,
+    "sl": 698.47,
+    "status": "pending",
+    "created_at": 1793319593,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000554",
+    "signal_message_id": 2889
+  },
+  {
+    "id": "src-ALT-000555",
+    "symbol": "ADA/USD",
+    "side": "SELL",
+    "entry": 0.1894,
+    "sl": 0.1906,
+    "status": "pending",
+    "created_at": 1793319600,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000555",
+    "signal_message_id": 2890
   }
 ]
