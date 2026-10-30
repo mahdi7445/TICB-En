@@ -31023,6 +31023,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000571": {
+      "open_trade": {
+        "signal_id": "ALT-000571",
+        "source_signal_id": "ALT-000571",
+        "side": "BUY",
+        "entry": 0.3484,
+        "sl": 0.3399,
+        "r": 0.008500000000000008,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TRX/USD",
+        "tf_key": "manual",
+        "display": "TRX",
+        "opened_at_ms": 1793344493201,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-30T07:14:53.201107+00:00",
+            "price": 0.3484
+          }
+        ],
+        "signal_message_id": 2950,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
