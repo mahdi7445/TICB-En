@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "LTC",
-    "tf_label": "15M",
-    "entry": 59.63,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000279",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T07:27:49.797274+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "AVAX",
     "tf_label": "15M",
     "entry": 9.313,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T14:46:39.207987+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "BCH",
+    "tf_label": "4H",
+    "entry": 288.73,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000430",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T15:06:56.853427+00:00"
   }
 ]
