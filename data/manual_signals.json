@@ -6628,5 +6628,19 @@
     "source_signal_id": "ALT-000589",
     "signal_message_id": 3007,
     "activated_at": "2026-10-30T19:17:31.733242+00:00"
+  },
+  {
+    "id": "src-ALT-000590",
+    "symbol": "SUI/USD",
+    "side": "BUY",
+    "entry": 0.8827,
+    "sl": 0.8802,
+    "status": "pending",
+    "created_at": 1793389388,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000590",
+    "signal_message_id": 3012
   }
 ]
