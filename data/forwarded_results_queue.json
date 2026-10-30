@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "LTC",
-    "tf_label": "1H",
-    "entry": 58.94,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000265",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T05:19:01.470495+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "RENDER",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T13:50:23.915373+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SHIB",
+    "tf_label": "5M",
+    "entry": 4.781e-06,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000577",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T14:18:47.096703+00:00"
   }
 ]
