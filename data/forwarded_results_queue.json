@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ATOM",
-    "tf_label": "15M",
-    "entry": 1.78,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000266",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T05:50:05.185812+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "INJ",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-30T14:25:54.367266+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.4485,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000578",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-30T14:33:01.809058+00:00"
   }
 ]
