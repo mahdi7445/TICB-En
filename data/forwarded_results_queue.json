@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "NEAR",
-    "tf_label": "15M",
-    "entry": 4.869,
-    "level": null,
-    "result_r": 1.0,
-    "source_signal_id": "ALT-000306",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T17:24:45.089288+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "INJ",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-10-31T08:28:11.722125+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SHIB",
+    "tf_label": "15M",
+    "entry": 4.787e-06,
+    "level": 4,
+    "result_r": 2.15,
+    "source_signal_id": "ALT-000597",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-31T08:28:14.845730+00:00"
   }
 ]
