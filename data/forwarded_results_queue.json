@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ATOM",
-    "tf_label": "5M",
-    "entry": 1.771,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000307",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T18:36:17.943177+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "LINK",
     "tf_label": "15M",
     "entry": 12.011,
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-10-31T08:56:16.454697+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "KMNO",
+    "tf_label": "1H",
+    "entry": 0.03195,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000598",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-31T12:37:23.893796+00:00"
   }
 ]
