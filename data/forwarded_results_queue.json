@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "INJ",
-    "tf_label": "15M",
-    "entry": 7.79,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000304",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T17:47:47.520986+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "ATOM",
     "tf_label": "5M",
     "entry": 1.771,
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-10-31T08:28:14.845730+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "SHIB",
+    "tf_label": "15M",
+    "entry": 4.787e-06,
+    "level": null,
+    "result_r": 2.9,
+    "source_signal_id": "ALT-000597",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-31T08:56:16.454697+00:00"
   }
 ]
