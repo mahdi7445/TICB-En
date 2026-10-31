@@ -68,26 +68,26 @@
   },
   "seen": [],
   "checked": {
-    "HDV3|BTC/USD|4h": 1793404800000,
-    "HDV3|ETH/USD|4h": 1793404800000,
-    "SWP|BTC/USD|4h": 1793404800000,
-    "SWP|ETH/USD|4h": 1793404800000,
+    "HDV3|BTC/USD|4h": 1793419200000,
+    "HDV3|ETH/USD|4h": 1793419200000,
+    "SWP|BTC/USD|4h": 1793419200000,
+    "SWP|ETH/USD|4h": 1793419200000,
     "TS1|BTC/USD|1h": 1793257200000,
     "TS1|ETH/USD|1h": 1793257200000,
     "CN1M|BTC/USD|1m": 1792837920000,
     "CN1M|ETH/USD|1m": 1792837920000,
-    "CN5M|BTC/USD|5m": 1793433000000,
-    "CN5M|ETH/USD|5m": 1793433000000,
-    "CN15|BTC/USD|15m": 1793431800000,
-    "CN15|ETH/USD|15m": 1793431800000,
+    "CN5M|BTC/USD|5m": 1793433300000,
+    "CN5M|ETH/USD|5m": 1793433300000,
+    "CN15|BTC/USD|15m": 1793432700000,
+    "CN15|ETH/USD|15m": 1793432700000,
     "CN1H|BTC/USD|1h": 1793257200000,
     "CN1H|ETH/USD|1h": 1793257200000,
-    "CN4H|BTC/USD|4h": 1793404800000,
-    "CN4H|ETH/USD|4h": 1793404800000,
+    "CN4H|BTC/USD|4h": 1793419200000,
+    "CN4H|ETH/USD|4h": 1793419200000,
     "TKF|BTC/USD|5m": 1793263200000,
     "TKF|ETH/USD|5m": 1793263200000,
-    "TPS|BTC/USD|1h": 1793426400000,
-    "TPS|ETH/USD|1h": 1793426400000,
+    "TPS|BTC/USD|1h": 1793430000000,
+    "TPS|ETH/USD|1h": 1793430000000,
     "MRA|BTC/USD|1h": 1793257200000,
     "MRA|ETH/USD|1h": 1793257200000,
     "MRB|BTC/USD|1h": 1793257200000,
@@ -118,10 +118,10 @@
     "HOT|ENA/USD|15m|BUY": 1792507500000,
     "FBR|BTC/USD|5m": 1793263200000,
     "FBR|ETH/USD|5m": 1793263200000,
-    "TKF|BTC/USD|15m": 1793431800000,
-    "TKF|ETH/USD|15m": 1793431800000,
-    "TKS|BTC/USD|15m": 1793431800000,
-    "TKS|ETH/USD|15m": 1793431800000
+    "TKF|BTC/USD|15m": 1793432700000,
+    "TKF|ETH/USD|15m": 1793432700000,
+    "TKS|BTC/USD|15m": 1793432700000,
+    "TKS|ETH/USD|15m": 1793432700000
   },
   "diag": {
     "CN1M": {
@@ -135,32 +135,32 @@
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 3634,
+      "checks": 3636,
       "nodata": 0,
       "raw": 4,
       "blocked": {},
       "opened": 4,
-      "last_check": 1793433321
+      "last_check": 1793433634
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 5548,
+      "checks": 5550,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1793432771
+      "last_check": 1793433637
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 1736,
+      "checks": 1738,
       "nodata": 0,
       "raw": 7,
       "blocked": {},
       "opened": 7,
-      "last_check": 1793432771
+      "last_check": 1793433636
     },
     "TS1": {
       "since": 1792450810,
@@ -182,12 +182,12 @@
     },
     "TPS": {
       "since": 1792450819,
-      "checks": 546,
+      "checks": 548,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1793430008
+      "last_check": 1793433639
     },
     "MRA": {
       "since": 1792450819,
@@ -209,32 +209,32 @@
     },
     "HDV3": {
       "since": 1792454401,
-      "checks": 136,
+      "checks": 138,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1793419206
+      "last_check": 1793433631
     },
     "SWP": {
       "since": 1792454402,
-      "checks": 136,
+      "checks": 138,
       "nodata": 0,
       "raw": 4,
       "blocked": {
         "already_open": 2
       },
       "opened": 2,
-      "last_check": 1793419206
+      "last_check": 1793433631
     },
     "CN4H": {
       "since": 1792454412,
-      "checks": 136,
+      "checks": 138,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1793419211
+      "last_check": 1793433636
     },
     "HOT": {
       "since": 1792486027,
@@ -278,12 +278,12 @@
     },
     "TKS": {
       "since": 1793360230,
-      "checks": 164,
+      "checks": 166,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1793432771
+      "last_check": 1793433639
     }
   },
   "hot_daily": {
