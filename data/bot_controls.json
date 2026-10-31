@@ -256,7 +256,7 @@
   "max_open_trades": 8,
   "max_per_day_filter": true,
   "max_same_side": 3,
-  "max_signals_per_day": 10,
+  "max_signals_per_day": 6,
   "max_stop_filter": false,
   "max_stop_pct": 8.0,
   "min_stop_filter": false,
