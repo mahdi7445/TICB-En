@@ -32446,6 +32446,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000595": {
+      "open_trade": {
+        "signal_id": "ALT-000595",
+        "source_signal_id": "ALT-000595",
+        "side": "BUY",
+        "entry": 1.615,
+        "sl": 1.606,
+        "r": 0.008999999999999897,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "RENDER/USD",
+        "tf_key": "manual",
+        "display": "RENDER",
+        "opened_at_ms": 1793407821614,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-10-31T00:50:21.614847+00:00",
+            "price": 1.615
+          }
+        ],
+        "signal_message_id": 3040,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
