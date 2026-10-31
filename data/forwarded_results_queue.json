@@ -5983,7 +5983,7 @@
     "level": 3,
     "result_r": 2.15,
     "source_signal_id": "ALT-000597",
-    "status": "pending",
+    "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-10-31T08:28:11.722125+00:00"
   },
