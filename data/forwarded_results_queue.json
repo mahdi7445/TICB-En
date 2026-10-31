@@ -4,18 +4,6 @@
     "ticker": "NEAR",
     "tf_label": "15M",
     "entry": 4.869,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000306",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T17:24:41.712536+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "NEAR",
-    "tf_label": "15M",
-    "entry": 4.869,
     "level": 2,
     "result_r": 0.0,
     "source_signal_id": "ALT-000306",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-31T04:47:18.957910+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "KMNO",
+    "tf_label": "1H",
+    "entry": 0.03195,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000598",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-31T07:51:37.837619+00:00"
   }
 ]
