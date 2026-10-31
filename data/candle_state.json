@@ -26315,13 +26315,13 @@
         "sl": 0.07616,
         "r": 0.0003000000000000086,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ZAMA/USD",
         "tf_key": "manual",
         "display": "ZAMA",
@@ -26331,6 +26331,17 @@
             "type": "opened",
             "ts": "2026-10-28T23:25:27.297533+00:00",
             "price": 0.07586
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-10-31T09:05:32.055552+00:00",
+            "note": "manually closed by admin (final_r=+0.20)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-31T09:05:32.058874+00:00",
+            "close_type": "admin_override",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 2655,
@@ -26342,7 +26353,8 @@
         },
         "logical_tf": "1m",
         "_replay_checked_ms": 1793402135365,
-        "_stale_alert_sent_at_ms": 1793437175578
+        "_stale_alert_sent_at_ms": 1793437175578,
+        "close_type": "admin_override"
       },
       "hist": []
     },
