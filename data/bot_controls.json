@@ -254,7 +254,7 @@
   "lowtf_max_per_day": 5,
   "max_open_filter": true,
   "max_open_trades": 8,
-  "max_per_day_filter": false,
+  "max_per_day_filter": true,
   "max_same_side": 3,
   "max_signals_per_day": 10,
   "max_stop_filter": false,
