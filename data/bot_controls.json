@@ -252,7 +252,7 @@
   "hot_universe": 40,
   "hot_window_h": 6,
   "lowtf_max_per_day": 5,
-  "max_open_filter": false,
+  "max_open_filter": true,
   "max_open_trades": 5,
   "max_per_day_filter": false,
   "max_same_side": 3,
