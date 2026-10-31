@@ -6703,5 +6703,19 @@
     "source_signal_id": "ALT-000594",
     "signal_message_id": 3030,
     "activated_at": "2026-10-30T22:18:57.867838+00:00"
+  },
+  {
+    "id": "src-ALT-000595",
+    "symbol": "RENDER/USD",
+    "side": "BUY",
+    "entry": 1.615,
+    "sl": 1.606,
+    "status": "pending",
+    "created_at": 1793407760,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000595",
+    "signal_message_id": 3040
   }
 ]
