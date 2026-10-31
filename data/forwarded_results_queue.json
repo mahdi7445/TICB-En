@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "PUMP",
-    "tf_label": "1M",
-    "entry": 0.004604,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000303",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T14:53:19.731368+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "DOT",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-31T01:31:07.020929+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOT",
+    "tf_label": "5M",
+    "entry": 0.973,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000596",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-31T02:27:26.245725+00:00"
   }
 ]
