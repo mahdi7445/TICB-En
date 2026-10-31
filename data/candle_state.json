@@ -30348,13 +30348,13 @@
         "sl": 0.1906,
         "r": 0.0011999999999999789,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -30364,6 +30364,17 @@
             "type": "opened",
             "ts": "2026-10-30T00:20:53.750154+00:00",
             "price": 0.1894
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-10-31T07:40:13.279123+00:00",
+            "note": "manually closed by admin (final_r=+2.10)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-31T07:40:13.282881+00:00",
+            "close_type": "admin_override",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 2890,
@@ -30375,7 +30386,8 @@
         },
         "logical_tf": "5m",
         "_replay_checked_ms": 1793432065431,
-        "_stale_alert_sent_at_ms": 1793427942468
+        "_stale_alert_sent_at_ms": 1793427942468,
+        "close_type": "admin_override"
       },
       "hist": []
     },
@@ -32622,7 +32634,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SHIB/USD",
         "tf_key": "manual",
         "display": "SHIB",
@@ -32638,6 +32650,17 @@
             "ts": "2026-10-31T04:48:00.646915+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-10-31T07:40:14.554119+00:00",
+            "note": "manually closed by admin (final_r=+1.30)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-31T07:40:14.557154+00:00",
+            "close_type": "admin_override",
+            "final_r": 1.3
           }
         ],
         "signal_message_id": 3047,
@@ -32649,7 +32672,8 @@
         },
         "logical_tf": "15m",
         "_replay_checked_ms": 1793432065431,
-        "_stale_alert_sent_at_ms": 1793432065431
+        "_stale_alert_sent_at_ms": 1793432065431,
+        "close_type": "admin_override"
       },
       "hist": []
     },

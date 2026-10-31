@@ -52,14 +52,14 @@
   {
     "key": "ALT-000555",
     "final_r": null,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-10-31T07:38:38.606852+00:00",
     "mode": "replay"
   },
   {
     "key": "ALT-000597",
     "final_r": null,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-10-31T07:38:43.125403+00:00",
     "mode": "replay"
   }
