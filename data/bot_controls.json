@@ -439,9 +439,9 @@
   "prof_VCB": "auto",
   "prof_VCR": "auto",
   "risk_pct": 0.5,
-  "same_side_filter": false,
+  "same_side_filter": true,
   "show_risk_hint": true,
-  "streak_filter": false,
+  "streak_filter": true,
   "streak_losses": 4,
   "streak_pause_min": 240,
   "tf_15m": true,
@@ -449,7 +449,7 @@
   "tf_1m": true,
   "tf_4h": true,
   "tf_5m": true,
-  "weekly_loss_filter": false,
+  "weekly_loss_filter": true,
   "weekly_loss_limit_r": 8.0
  }
 }
