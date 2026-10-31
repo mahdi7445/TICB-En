@@ -32704,7 +32704,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "KMNO/USD",
         "tf_key": "manual",
         "display": "KMNO",
@@ -32720,6 +32720,17 @@
             "ts": "2026-10-31T07:52:30.141993+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-10-31T12:38:24.570683+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-10-31T12:38:24.573831+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 3050,
@@ -32730,7 +32741,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_replay_checked_ms": 1793448517682
+        "_replay_checked_ms": 1793448517682,
+        "close_type": "breakeven"
       },
       "hist": []
     }
