@@ -213,7 +213,7 @@
   "prof_TS1": "auto",
   "prof_VCB": "auto",
   "prof_VCR": "auto",
-  "risk_pct": 1.0,
+  "risk_pct": 0.5,
   "same_side_filter": true,
   "show_risk_hint": true,
   "streak_filter": true,
