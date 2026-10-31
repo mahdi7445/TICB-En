@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "OP",
-    "tf_label": "15M",
-    "entry": 0.118,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000302",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T14:17:29.356457+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "PUMP",
-    "tf_label": "1M",
-    "entry": 0.004604,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000303",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T14:52:45.101280+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "PUMP",
     "tf_label": "1M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-10-31T01:24:18.059295+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "SOL",
+    "tf_label": "5M",
+    "entry": 94.26,
+    "level": null,
+    "result_r": 3.55,
+    "source_signal_id": "ALT-000588",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-31T01:31:03.826146+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOT",
+    "tf_label": "5M",
+    "entry": 0.973,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000596",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-10-31T01:31:07.020929+00:00"
   }
 ]
