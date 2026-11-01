@@ -4,7 +4,7 @@
  },
  "sgnl": {
   "_profile": "v10-2026-10-30",
-  "daily_loss_filter": false,
+  "daily_loss_filter": true,
   "daily_loss_limit_r": 3.0,
   "hot_cooldown_min": 60,
   "hot_max_hold_h": 6,
