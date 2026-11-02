@@ -172,7 +172,7 @@
   "mx_VCR_day": 0,
   "mx_VCR_maxstop": 0.0,
   "mx_VCR_side": "both",
-  "nat_min_stop_filter": true,
+  "nat_min_stop_filter": false,
   "nat_min_stop_pct": 1.25,
   "nat_side": "both",
   "nat_tf_15m": true,
