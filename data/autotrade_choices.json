@@ -1,0 +1,21 @@
+{
+  "users": {
+    "7234639636": {
+      "exchange": "nobitex",
+      "chosen_at": 1793688817,
+      "chosen_by": "user",
+      "name": "پشتیبانی آنلاین",
+      "history": [
+        {
+          "ts": 1793688817,
+          "from": null,
+          "to": "nobitex",
+          "by": "user"
+        }
+      ]
+    }
+  },
+  "settings": {
+    "enabled": true
+  }
+}
