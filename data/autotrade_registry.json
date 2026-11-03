@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "enabled": false,
-  "generated_at": 1793713587,
+  "enabled": true,
+  "generated_at": 1793713593,
   "entries": {
     "7234639636": {
       "exchange": "toobit",
@@ -10,5 +10,5 @@
       "chosen_at": 1793707493
     }
   },
-  "sig": "65070f2d25214e8d8555c7d71dff76a76e8d808fe0fa07b3e72c5154a905d33e"
+  "sig": "27f2043ed00f451629930fea1e86d58f5b06775dbbdfcda39f7263318e68d35d"
 }
