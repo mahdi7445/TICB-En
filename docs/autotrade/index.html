@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="robots" content="noindex">
+<title>Auto Trading</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  :root {
+    --bg: #0d1117; --card: #161c26; --card2: #1b2230; --text: #e8edf4; --muted: #8b97a8; --line: #263041;
+    --accent: #2dd4bf; --accent-ink: #04201c; --warn: #f5b942; --warn-bg: rgba(245,185,66,.1); --ok: #34d399; --danger: #f87171;
+    --radius: 16px;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f3f5f9; --card: #ffffff; --card2: #f6f8fb; --text: #0f1722; --muted: #5d6b7e; --line: #dde3ec;
+            --accent: #0d9488; --accent-ink: #ffffff; --warn: #9a6700; --warn-bg: rgba(245,185,66,.16); --ok: #059669; --danger: #dc2626; }
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, system-ui, sans-serif; }
+  body { padding: 18px 16px calc(112px + env(safe-area-inset-bottom)); max-width: 560px; margin: 0 auto; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+  .logo { width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; font-size: 22px;
+    background: linear-gradient(135deg, var(--accent), #38bdf8); color: var(--accent-ink); flex: none; }
+  h1 { font-size: 20px; line-height: 1.15; margin: 0; letter-spacing: -.01em; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 999px; font-size: 12px; font-weight: 600;
+    background: color-mix(in srgb, var(--ok) 16%, transparent); color: var(--ok); }
+  .notice { display: flex; gap: 10px; padding: 12px 14px; border-radius: 14px; background: var(--warn-bg);
+    border: 1px solid color-mix(in srgb, var(--warn) 45%, transparent); margin: 14px 0; }
+  .notice b { color: var(--warn); }
+  .notice .ico { font-size: 18px; line-height: 1.2; }
+  h2 { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 22px 2px 10px; font-weight: 700; }
+  .cards { display: grid; gap: 10px; }
+  .ex { position: relative; text-align: left; width: 100%; border: 1.5px solid var(--line); background: var(--card); color: inherit;
+    border-radius: var(--radius); padding: 14px 14px 14px 14px; display: grid; grid-template-columns: 48px 1fr 22px; gap: 12px; align-items: center;
+    font: inherit; cursor: pointer; transition: border-color .15s, background .15s, transform .1s; }
+  .ex:active { transform: scale(.985); }
+  .ex[aria-checked="true"] { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 9%, var(--card)); }
+  .mono { width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center; font-weight: 800; font-size: 20px; color: #fff; }
+  .nob .mono { background: linear-gradient(135deg, #2563eb, #7c3aed); }
+  .tob .mono { background: linear-gradient(135deg, #0891b2, #10b981); }
+  .ex .name { font-weight: 700; font-size: 16px; }
+  .ex .aud { font-size: 12px; font-weight: 600; color: var(--accent); margin: 1px 0 3px; }
+  .ex .desc { font-size: 13px; color: var(--muted); }
+  .radio { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--line); display: grid; place-items: center; }
+  .ex[aria-checked="true"] .radio { border-color: var(--accent); background: var(--accent); }
+  .ex[aria-checked="true"] .radio::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-ink); }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }
+  .check { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: start; cursor: pointer; font-size: 14px; }
+  .check input { width: 20px; height: 20px; margin: 1px 0 0; accent-color: var(--accent); }
+  ul.steps { list-style: none; counter-reset: s; margin: 0; padding: 0; display: grid; gap: 10px; }
+  ul.steps li { counter-increment: s; display: grid; grid-template-columns: 26px 1fr; gap: 10px; font-size: 14px; }
+  ul.steps li::before { content: counter(s); width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: 13px;
+    background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
+  ul.steps small { display: block; color: var(--muted); font-size: 12.5px; }
+  .facts { display: grid; gap: 9px; margin: 0; padding: 0; list-style: none; font-size: 14px; }
+  .facts li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; }
+  .locked { text-align: center; padding: 22px 16px; }
+  .locked .big { width: 64px; height: 64px; margin: 0 auto 10px; font-size: 28px; border-radius: 20px; }
+  .locked h3 { margin: 6px 0 2px; font-size: 20px; }
+  .kv { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 14px; }
+  .kv:first-child { border-top: 0; } .kv span:first-child { color: var(--muted); }
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+    background: linear-gradient(to top, var(--bg) 70%, transparent); }
+  .bar .in { max-width: 560px; margin: 0 auto; }
+  .btn { width: 100%; border: 0; border-radius: 14px; padding: 15px; font: inherit; font-weight: 700; font-size: 16px; cursor: pointer;
+    background: var(--accent); color: var(--accent-ink); transition: opacity .15s, transform .1s; }
+  .btn:active { transform: scale(.985); } .btn[disabled] { opacity: .35; cursor: not-allowed; }
+  .hint { text-align: center; color: var(--muted); font-size: 12.5px; margin-top: 8px; min-height: 17px; }
+  .hidden { display: none !important; }
+  .fine { color: var(--muted); font-size: 12.5px; margin-top: 18px; text-align: center; }
+  .skeleton { padding: 40px 0; text-align: center; color: var(--muted); }
+</style>
+</head>
+<body>
+<div id="app"><div class="skeleton">Loading…</div></div>
+<div class="bar hidden" id="bar"><div class="in"><button class="btn" id="cta" disabled></button><div class="hint" id="hint"></div></div></div>
+
+<script>
+(function () {
+  "use strict";
+  var tg = window.Telegram && window.Telegram.WebApp;
+  var q = new URLSearchParams(location.search);
+  var safeName = function (v) { return /^[A-Za-z0-9_]{4,64}$/.test(v || "") ? v : ""; };
+  var EX = {
+    nobitex: { code: "nob", label: "Nobitex", letter: "N", cls: "nob", aud: "Built for Persian speakers",
+               desc: "Iranian exchange · futures trading in USDT. The auto-trade bot speaks Persian.", bot: safeName(q.get("nob")) || "TIC2TICbot" },
+    toobit:  { code: "tob", label: "Toobit",  letter: "T", cls: "tob", aud: "Built for English speakers",
+               desc: "Global exchange · USDT-M perpetual futures. The auto-trade bot speaks English.", bot: safeName(q.get("tob")) || "TIC2TBTbot" }
+  };
+  var me = safeName(q.get("me"));
+  var chosen = EX[q.get("ex")] ? q.get("ex") : "";
+  var open = q.get("open") !== "0";
+  var days = parseInt(q.get("d") || "0", 10) || 0;
+  var selected = "";
+  var $ = function (id) { return document.getElementById(id); };
+  var app = $("app"), bar = $("bar"), cta = $("cta"), hint = $("hint");
+
+  if (tg) {
+    try { tg.ready(); tg.expand(); tg.disableVerticalSwipes && tg.disableVerticalSwipes(); } catch (e) {}
+    var p = tg.themeParams || {};
+    // Follow the user's Telegram theme when it provides one; the CSS variables above are the fallback.
+    var set = function (k, v) { if (v) document.documentElement.style.setProperty(k, v); };
+    if (p.bg_color) {
+      set("--bg", p.bg_color); set("--text", p.text_color); set("--muted", p.hint_color || "#8b97a8");
+      set("--card", p.secondary_bg_color || p.bg_color); set("--card2", p.secondary_bg_color || p.bg_color);
+    }
+  }
+  function tap(kind) { try { tg && tg.HapticFeedback && tg.HapticFeedback.impactOccurred(kind || "light"); } catch (e) {} }
+  function link(url) { if (tg && tg.openTelegramLink) { tg.openTelegramLink(url); } else { window.open(url, "_blank"); } }
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]; }); }
+
+  function header(sub, badge) {
+    return '<header><div class="logo">🤖</div><div><h1>Auto Trading</h1><div class="sub">' + sub + '</div></div></header>' + (badge || "");
+  }
+
+  function renderChoose() {
+    var cards = Object.keys(EX).map(function (k) {
+      var e = EX[k];
+      return '<button class="ex ' + e.cls + '" role="radio" aria-checked="false" data-ex="' + k + '">' +
+        '<div class="mono">' + e.letter + '</div><div><div class="name">' + e.label + '</div><div class="aud">' + e.aud + '</div><div class="desc">' + e.desc + '</div></div>' +
+        '<div class="radio"></div></button>';
+    }).join("");
+    app.innerHTML = header("Your signals, traded on your own exchange account") +
+      '<div class="panel"><ul class="facts">' +
+      '<li><span>✅</span><span><b>Included in your subscription</b> — no extra fee, active as long as your subscription is.</span></li>' +
+      '<li><span>🛡</span><span>Every trade gets a stop-loss and targets. Your funds stay on <b>your</b> exchange; the key can never withdraw.</span></li>' +
+      '<li><span>⚙️</span><span>You set the risk. Open trades stay protected even if your subscription ends.</span></li></ul></div>' +
+      '<div class="notice"><span class="ico">⚠️</span><div><b>One exchange only.</b> You can use auto trading on a single exchange — never both. ' +
+      'Once you confirm, <b>only the admin can change it.</b></div></div>' +
+      '<h2>Choose your exchange</h2><div class="cards" role="radiogroup" aria-label="Exchange">' + cards + '</div>' +
+      '<h2>Confirm</h2><div class="panel"><label class="check"><input type="checkbox" id="ack"><span>I understand I can use <b>one exchange only</b> and that only the admin can change it later.</span></label></div>' +
+      '<div class="fine">You will confirm once more in the chat, then connect your API key in the exchange bot.</div>';
+    bar.classList.remove("hidden");
+    var cards_ = app.querySelectorAll(".ex"), ack = $("ack");
+    function sync() {
+      cards_.forEach(function (c) { c.setAttribute("aria-checked", c.dataset.ex === selected ? "true" : "false"); });
+      var ready = !!selected && ack.checked;
+      cta.disabled = !ready;
+      cta.textContent = selected ? "Continue with " + EX[selected].label : "Choose an exchange";
+      hint.textContent = !selected ? "Pick the exchange you actually trade on." : (!ack.checked ? "Tick the confirmation to continue." : "");
+    }
+    cards_.forEach(function (c) { c.addEventListener("click", function () { selected = c.dataset.ex; tap(); sync(); }); });
+    ack.addEventListener("change", function () { tap(); sync(); });
+    cta.onclick = function () {
+      if (cta.disabled || !me) { if (!me) hint.textContent = "Open this page from the bot menu."; return; }
+      tap("medium");
+      link("https://t.me/" + me + "?start=atsel_" + EX[selected].code);
+      if (tg && tg.close) { setTimeout(function () { tg.close(); }, 250); }
+    };
+    sync();
+  }
+
+  function renderLocked() {
+    var e = EX[chosen];
+    app.innerHTML = header("Included in your subscription", "") +
+      '<div class="panel locked"><div class="logo big mono ' + e.cls + '" style="margin:0 auto 10px;color:#fff;width:64px;height:64px;font-size:28px;border-radius:20px">' + e.letter + '</div>' +
+      '<span class="badge">🔒 Assigned to you</span><h3>' + e.label + '</h3><div class="sub">' + e.aud + '</div>' +
+      '<div style="margin-top:12px;text-align:left">' +
+      '<div class="kv"><span>Exchange</span><span>' + e.label + '</span></div>' +
+      '<div class="kv"><span>Fee</span><span>Included</span></div>' +
+      (days > 0 ? '<div class="kv"><span>Subscription</span><span>' + days + ' day' + (days === 1 ? '' : 's') + ' left</span></div>' : '') +
+      '</div></div>' +
+      '<h2>Set it up in 4 steps</h2><div class="panel"><ul class="steps">' +
+      '<li><div><b>Open the ' + e.label + ' bot</b><small>Tap the button below.</small></div></li>' +
+      '<li><div><b>Accept the terms</b><small>Read them once; it takes a minute.</small></div></li>' +
+      '<li><div><b>Connect your API key</b><small>Permissions: <b>Read + Trade only</b>. Never enable Withdraw.</small></div></li>' +
+      '<li><div><b>Set your risk</b><small>The bot suggests safe settings from your budget.</small></div></li></ul></div>' +
+      '<div class="notice"><span class="ico">🔒</span><div>Your account works on <b>' + e.label + '</b> only. To switch exchange, ask the admin through <b>Support</b>.</div></div>';
+    bar.classList.remove("hidden");
+    cta.disabled = false; cta.textContent = "Open " + e.label + " bot"; hint.textContent = "@" + e.bot;
+    cta.onclick = function () { tap("medium"); link("https://t.me/" + e.bot); };
+  }
+
+  function renderClosed() {
+    app.innerHTML = header("Temporarily unavailable") +
+      '<div class="panel"><b>New activations are closed for now.</b><div class="sub" style="margin-top:6px">Please check back soon — your subscription is not affected.</div></div>';
+  }
+
+  if (chosen) renderLocked(); else if (!open) renderClosed(); else renderChoose();
+})();
+</script>
+</body>
+</html>
