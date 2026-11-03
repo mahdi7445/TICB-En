@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "PUMP",
-    "tf_label": "1M",
-    "entry": 0.004504,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000310",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T19:11:09.566622+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "PUMP",
     "tf_label": "1M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-03T19:37:49.620787+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ZEC",
+    "tf_label": "15M",
+    "entry": 1206.2,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000600",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-03T20:45:45.766177+00:00"
   }
 ]
