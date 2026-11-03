@@ -4,18 +4,6 @@
     "ticker": "INJ",
     "tf_label": "5M",
     "entry": 7.775,
-    "level": 1,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000312",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T19:56:07.144277+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "5M",
-    "entry": 7.775,
     "level": 2,
     "result_r": 0.8,
     "source_signal_id": "ALT-000312",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-03T21:06:20.933844+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PUMP",
+    "tf_label": "5M",
+    "entry": 0.004279,
+    "level": 1.5,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000603",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-03T21:18:21.197949+00:00"
   }
 ]
