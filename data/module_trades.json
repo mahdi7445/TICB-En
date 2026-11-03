@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793732819999,
+      "last_ms": 1793732879999,
       "bar_ms": 1792497600000,
       "mfe_r": 2.5319,
       "mae_r": 0.9262,
@@ -63,65 +63,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793732830049
-    },
-    "TC-000109": {
-      "id": "TC-000109",
-      "module": "CN15",
-      "symbol": "ETH/USD",
-      "tf": "15m",
-      "side": "BUY",
-      "entry": 2286.94,
-      "sl0": 2281.9,
-      "sl": 2286.94,
-      "risk": 5.039999999999964,
-      "targets": [
-        2297.02,
-        2302.06,
-        2307.1,
-        2317.18
-      ],
-      "levels": [
-        2.0,
-        3.0,
-        4.0,
-        6.0
-      ],
-      "weights": [
-        0.3,
-        0.25,
-        0.2,
-        0.1
-      ],
-      "trail": 1.5,
-      "hit": [
-        true,
-        false,
-        false,
-        false
-      ],
-      "runner_on": false,
-      "best": 2286.94,
-      "status": "open",
-      "opened_ms": 1793724321628,
-      "armed_ms": 1793724321628,
-      "last_ms": 1793732819999,
-      "bar_ms": 1793723400000,
-      "mfe_r": 2.75,
-      "mae_r": 0.3373,
-      "events": [
-        {
-          "type": "target",
-          "index": 0,
-          "price": 2297.02,
-          "banked": 0.6,
-          "ts": "2026-11-03T17:13:57.239434+00:00"
-        }
-      ],
-      "tier": "orig",
-      "profile": "Q1",
-      "msg_id": 3071,
-      "polled_ms": 1793732830049
+      "polled_ms": 1793732913398
     }
   },
   "seen": [],
