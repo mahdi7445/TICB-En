@@ -4,7 +4,7 @@
  },
  "sgnl": {
   "_profile": "v11-2026-11-03",
-  "daily_loss_filter": true,
+  "daily_loss_filter": false,
   "daily_loss_limit_r": 3.0,
   "hot_cooldown_min": 60,
   "hot_max_hold_h": 6,
@@ -224,12 +224,12 @@
   "tf_1m": true,
   "tf_4h": true,
   "tf_5m": true,
-  "weekly_loss_filter": true,
+  "weekly_loss_filter": false,
   "weekly_loss_limit_r": 8.0
  },
  "ticb": {
   "_profile": "v11-2026-11-03",
-  "daily_loss_filter": true,
+  "daily_loss_filter": false,
   "daily_loss_limit_r": 3.0,
   "hot_cooldown_min": 60,
   "hot_max_hold_h": 6,
@@ -441,7 +441,7 @@
   "risk_pct": 0.5,
   "same_side_filter": false,
   "show_risk_hint": false,
-  "streak_filter": true,
+  "streak_filter": false,
   "streak_losses": 4,
   "streak_pause_min": 240,
   "tf_15m": true,
@@ -449,7 +449,7 @@
   "tf_1m": true,
   "tf_4h": true,
   "tf_5m": true,
-  "weekly_loss_filter": true,
+  "weekly_loss_filter": false,
   "weekly_loss_limit_r": 8.0
  }
 }
