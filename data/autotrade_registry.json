@@ -1,14 +1,14 @@
 {
   "version": 1,
   "enabled": true,
-  "generated_at": 1793707409,
+  "generated_at": 1793707493,
   "entries": {
     "7234639636": {
-      "exchange": "nobitex",
+      "exchange": "toobit",
       "status": "active",
       "expiry_ts": 1825243389,
-      "chosen_at": 1793688817
+      "chosen_at": 1793707493
     }
   },
-  "sig": "7eda333b758725b8bcd02cadd7aa4d8a0ea833cb91a86c44f3928b1643b49493"
+  "sig": "27f2043ed00f451629930fea1e86d58f5b06775dbbdfcda39f7263318e68d35d"
 }

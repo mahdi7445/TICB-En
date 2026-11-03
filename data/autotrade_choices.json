@@ -1,9 +1,9 @@
 {
   "users": {
     "7234639636": {
-      "exchange": "nobitex",
-      "chosen_at": 1793688817,
-      "chosen_by": "user",
+      "exchange": "toobit",
+      "chosen_at": 1793707493,
+      "chosen_by": "admin:378486866",
       "name": "پشتیبانی آنلاین",
       "history": [
         {
@@ -11,6 +11,12 @@
           "from": null,
           "to": "nobitex",
           "by": "user"
+        },
+        {
+          "ts": 1793707493,
+          "from": "nobitex",
+          "to": "toobit",
+          "by": "admin:378486866"
         }
       ]
     }
