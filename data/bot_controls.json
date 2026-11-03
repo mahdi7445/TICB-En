@@ -216,7 +216,7 @@
   "risk_pct": 0.5,
   "same_side_filter": false,
   "show_risk_hint": false,
-  "streak_filter": true,
+  "streak_filter": false,
   "streak_losses": 4,
   "streak_pause_min": 240,
   "tf_15m": true,
