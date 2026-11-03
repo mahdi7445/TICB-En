@@ -16564,11 +16564,11 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOT/USD",
         "tf_key": "manual",
         "display": "DOT",
@@ -16590,6 +16590,17 @@
             "ts": "2026-10-29T02:13:50.433183+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-11-03T19:38:36.086163+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-03T19:38:36.089992+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 2132,
@@ -16600,7 +16611,8 @@
           "label": "4H"
         },
         "logical_tf": "4h",
-        "_stale_alert_sent_at_ms": 1793694932301
+        "_stale_alert_sent_at_ms": 1793694932301,
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
