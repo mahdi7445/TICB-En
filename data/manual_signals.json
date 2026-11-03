@@ -6793,5 +6793,19 @@
     "source_signal_id": "ALT-000600",
     "signal_message_id": 3076,
     "activated_at": "2026-11-03T19:52:23.099384+00:00"
+  },
+  {
+    "id": "src-ALT-000601",
+    "symbol": "LTC/USD",
+    "side": "SELL",
+    "entry": 54.17,
+    "sl": 54.44,
+    "status": "pending",
+    "created_at": 1793736025,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000601",
+    "signal_message_id": 3077
   }
 ]
