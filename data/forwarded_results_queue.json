@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "5M",
-    "entry": 7.775,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000312",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T19:56:08.461723+00:00"
-  },
-  {
     "kind": "sl_after_t3",
     "ticker": "INJ",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-03T21:50:28.802369+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LIGHTER",
+    "tf_label": "15M",
+    "entry": 3.36,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000602",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-03T22:35:29.882193+00:00"
   }
 ]
