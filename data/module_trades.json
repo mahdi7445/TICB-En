@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793725919999,
+      "last_ms": 1793725979999,
       "bar_ms": 1792497600000,
       "mfe_r": 2.5319,
       "mae_r": 0.9262,
@@ -63,7 +63,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793725977048
+      "polled_ms": 1793726035782
     },
     "TC-000109": {
       "id": "TC-000109",
@@ -73,7 +73,7 @@
       "side": "BUY",
       "entry": 2286.94,
       "sl0": 2281.9,
-      "sl": 2281.9,
+      "sl": 2286.94,
       "risk": 5.039999999999964,
       "targets": [
         2297.02,
@@ -95,7 +95,7 @@
       ],
       "trail": 1.5,
       "hit": [
-        false,
+        true,
         false,
         false,
         false
@@ -105,15 +105,23 @@
       "status": "open",
       "opened_ms": 1793724321628,
       "armed_ms": 1793724321628,
-      "last_ms": 1793725919999,
+      "last_ms": 1793725979999,
       "bar_ms": 1793723400000,
-      "mfe_r": 1.9722,
+      "mfe_r": 2.0357,
       "mae_r": 0.3373,
-      "events": [],
+      "events": [
+        {
+          "type": "target",
+          "index": 0,
+          "price": 2297.02,
+          "banked": 0.6,
+          "ts": "2026-11-03T17:13:57.239434+00:00"
+        }
+      ],
       "tier": "orig",
       "profile": "Q1",
       "msg_id": 3071,
-      "polled_ms": 1793725977048
+      "polled_ms": 1793726035782
     }
   },
   "seen": [],
