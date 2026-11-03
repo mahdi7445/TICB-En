@@ -6800,12 +6800,13 @@
     "side": "SELL",
     "entry": 54.17,
     "sl": 54.44,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793736025,
     "forwarded_tracking": true,
     "tf_label": "1H",
     "silent": true,
     "source_signal_id": "ALT-000601",
-    "signal_message_id": 3077
+    "signal_message_id": 3077,
+    "activated_at": "2026-11-03T20:01:13.305403+00:00"
   }
 ]
