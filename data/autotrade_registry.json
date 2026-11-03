@@ -1,13 +1,14 @@
 {
   "version": 1,
   "enabled": true,
-  "generated_at": 1793688817,
+  "generated_at": 1793704878,
   "entries": {
     "7234639636": {
       "exchange": "nobitex",
-      "status": "active",
-      "expiry_ts": 1825224772,
+      "status": "inactive",
+      "expiry_ts": 0,
       "chosen_at": 1793688817
     }
-  }
+  },
+  "sig": "5b44b3dda990eb59eb7ab7f6ab1175092fc7e0334ef44f79c8d767eca5223c57"
 }
