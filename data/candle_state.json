@@ -35065,7 +35065,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SUI/USD",
         "tf_key": "manual",
         "display": "SUI",
@@ -35075,6 +35075,17 @@
             "type": "opened",
             "ts": "2026-11-04T13:15:34.513959+00:00",
             "price": 0.9009
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-04T13:51:24.941276+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T13:51:24.944139+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3185,
@@ -35084,7 +35095,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
