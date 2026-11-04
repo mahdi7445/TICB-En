@@ -6973,5 +6973,33 @@
     "source_signal_id": "ALT-000612",
     "signal_message_id": 3105,
     "activated_at": "2026-11-04T01:51:33.840332+00:00"
+  },
+  {
+    "id": "src-ALT-000613",
+    "symbol": "ICP/USD",
+    "side": "SELL",
+    "entry": 2.446,
+    "sl": 2.466,
+    "status": "pending",
+    "created_at": 1793757087,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000613",
+    "signal_message_id": 3106
+  },
+  {
+    "id": "src-ALT-000614",
+    "symbol": "AAVE/USD",
+    "side": "SELL",
+    "entry": 124.63,
+    "sl": 126.28,
+    "status": "pending",
+    "created_at": 1793757092,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000614",
+    "signal_message_id": 3107
   }
 ]
