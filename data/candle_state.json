@@ -33459,7 +33459,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ICP/USD",
         "tf_key": "manual",
         "display": "ICP",
@@ -33469,6 +33469,17 @@
             "type": "opened",
             "ts": "2026-11-04T01:53:08.405399+00:00",
             "price": 2.446
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-04T02:06:09.021635+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T02:06:09.023943+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3106,
@@ -33478,7 +33489,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
