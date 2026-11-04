@@ -33975,6 +33975,44 @@
         "logical_tf": "4h"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000624": {
+      "open_trade": {
+        "signal_id": "ALT-000624",
+        "source_signal_id": "ALT-000624",
+        "side": "SELL",
+        "entry": 1.391,
+        "sl": 1.428,
+        "r": 0.03699999999999992,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ATOM/USD",
+        "tf_key": "manual",
+        "display": "ATOM",
+        "opened_at_ms": 1793765323254,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T04:08:43.254011+00:00",
+            "price": 1.391
+          }
+        ],
+        "signal_message_id": 3131,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
