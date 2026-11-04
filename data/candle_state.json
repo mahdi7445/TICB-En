@@ -32419,7 +32419,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "POL/USD",
         "tf_key": "manual",
         "display": "POL",
@@ -32429,6 +32429,17 @@
             "type": "opened",
             "ts": "2026-10-30T20:07:34.199958+00:00",
             "price": 0.09267
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-11-04T12:06:42.893157+00:00",
+            "price": 0.09499
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T12:06:43.395987+00:00",
+            "close_type": "opposite_signal",
+            "final_r": -0.3081009296148744
           }
         ],
         "signal_message_id": 3022,
@@ -32440,7 +32451,9 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1793562807782,
-        "_stale_alert_sent_at_ms": 1793737078808
+        "_stale_alert_sent_at_ms": 1793737078808,
+        "close_type": "opposite_signal",
+        "final_r_exact": -0.3081009296148744
       },
       "hist": []
     },
@@ -34733,6 +34746,82 @@
           "label": "5M"
         },
         "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000640": {
+      "open_trade": {
+        "signal_id": "ALT-000640",
+        "source_signal_id": "ALT-000640",
+        "side": "BUY",
+        "entry": 0.09499,
+        "sl": 0.0865,
+        "r": 0.008490000000000011,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "POL/USD",
+        "tf_key": "manual",
+        "display": "POL",
+        "opened_at_ms": 1793794004912,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T12:06:44.912397+00:00",
+            "price": 0.09499
+          }
+        ],
+        "signal_message_id": 3172,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000641": {
+      "open_trade": {
+        "signal_id": "ALT-000641",
+        "source_signal_id": "ALT-000641",
+        "side": "SELL",
+        "entry": 1.29,
+        "sl": 1.34,
+        "r": 0.050000000000000044,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "XRP/USD",
+        "tf_key": "manual",
+        "display": "XRP",
+        "opened_at_ms": 1793794004914,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T12:06:44.914912+00:00",
+            "price": 1.29
+          }
+        ],
+        "signal_message_id": 3173,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
       },
       "hist": []
     }
