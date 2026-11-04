@@ -7535,12 +7535,13 @@
     "side": "SELL",
     "entry": 0.07055,
     "sl": 0.07071,
-    "status": "pending",
+    "status": "skipped_duplicate",
     "created_at": 1793799446,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000651",
-    "signal_message_id": 3191
+    "signal_message_id": 3191,
+    "reject_reason": "duplicate of already-open trade 'MANUAL|src-ALT-000647' (same symbol/side, similar entry, opened recently)"
   }
 ]
