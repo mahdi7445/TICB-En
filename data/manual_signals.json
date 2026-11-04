@@ -6942,5 +6942,33 @@
     "silent": true,
     "source_signal_id": "ALT-000610",
     "signal_message_id": 3103
+  },
+  {
+    "id": "src-ALT-000611",
+    "symbol": "LTC/USD",
+    "side": "SELL",
+    "entry": 53.17,
+    "sl": 53.52,
+    "status": "pending",
+    "created_at": 1793757075,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000611",
+    "signal_message_id": 3104
+  },
+  {
+    "id": "src-ALT-000612",
+    "symbol": "HBAR/USD",
+    "side": "SELL",
+    "entry": 0.06818,
+    "sl": 0.06883,
+    "status": "pending",
+    "created_at": 1793757084,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000612",
+    "signal_message_id": 3105
   }
 ]
