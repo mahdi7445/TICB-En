@@ -30730,7 +30730,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SOL/USD",
         "tf_key": "manual",
         "display": "SOL",
@@ -30740,6 +30740,17 @@
             "type": "opened",
             "ts": "2026-10-30T04:08:30.111836+00:00",
             "price": 97.01
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-04T03:02:33.162655+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T03:02:33.165052+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 2922,
@@ -30751,7 +30762,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1793505509667,
-        "_stale_alert_sent_at_ms": 1793679340071
+        "_stale_alert_sent_at_ms": 1793679340071,
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -33377,8 +33389,8 @@
         "sl": 53.52,
         "r": 0.3500000000000014,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -33393,6 +33405,12 @@
             "type": "opened",
             "ts": "2026-11-04T01:51:33.837660+00:00",
             "price": 53.17
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-04T03:02:33.177854+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3104,
@@ -33591,7 +33609,7 @@
         "sl": 1189.78,
         "r": 8.259999999999991,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -33607,6 +33625,12 @@
             "type": "opened",
             "ts": "2026-11-04T02:56:09.162607+00:00",
             "price": 1181.52
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-04T03:02:33.177884+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3112,
