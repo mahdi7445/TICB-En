@@ -7715,12 +7715,13 @@
     "side": "SELL",
     "entry": 0.1634,
     "sl": 0.1659,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793812539,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000664",
-    "signal_message_id": 3253
+    "signal_message_id": 3253,
+    "activated_at": "2026-11-04T17:16:47.005511+00:00"
   }
 ]
