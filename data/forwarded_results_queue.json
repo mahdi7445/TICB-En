@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 102.51,
-    "level": null,
-    "result_r": 1.0,
-    "source_signal_id": "ALT-000337",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T07:06:05.131824+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "UNI",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T12:59:36.226732+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "5M",
+    "entry": 92.48,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000649",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T13:26:58.657421+00:00"
   }
 ]
