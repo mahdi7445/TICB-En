@@ -35049,6 +35049,120 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000646": {
+      "open_trade": {
+        "signal_id": "ALT-000646",
+        "source_signal_id": "ALT-000646",
+        "side": "SELL",
+        "entry": 0.9009,
+        "sl": 0.904,
+        "r": 0.0030999999999999917,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SUI/USD",
+        "tf_key": "manual",
+        "display": "SUI",
+        "opened_at_ms": 1793798134513,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T13:15:34.513959+00:00",
+            "price": 0.9009
+          }
+        ],
+        "signal_message_id": 3185,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000647": {
+      "open_trade": {
+        "signal_id": "ALT-000647",
+        "source_signal_id": "ALT-000647",
+        "side": "SELL",
+        "entry": 0.07051,
+        "sl": 0.07071,
+        "r": 0.00019999999999999185,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "HBAR/USD",
+        "tf_key": "manual",
+        "display": "HBAR",
+        "opened_at_ms": 1793798134516,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T13:15:34.516424+00:00",
+            "price": 0.07051
+          }
+        ],
+        "signal_message_id": 3186,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000648": {
+      "open_trade": {
+        "signal_id": "ALT-000648",
+        "source_signal_id": "ALT-000648",
+        "side": "SELL",
+        "entry": 0.856,
+        "sl": 0.859,
+        "r": 0.0030000000000000027,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "FIL/USD",
+        "tf_key": "manual",
+        "display": "FIL",
+        "opened_at_ms": 1793798134518,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T13:15:34.518749+00:00",
+            "price": 0.856
+          }
+        ],
+        "signal_message_id": 3187,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
