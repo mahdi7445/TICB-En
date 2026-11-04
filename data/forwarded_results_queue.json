@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "VVV",
-    "tf_label": "5M",
-    "entry": 23.75,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000356",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T18:39:14.389076+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "PEPE",
     "tf_label": "15M",
     "entry": 4.316e-06,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T15:12:21.186314+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "15M",
+    "entry": 3.83,
+    "level": 4,
+    "result_r": 2.15,
+    "source_signal_id": "ALT-000628",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:19:16.762598+00:00"
   }
 ]
