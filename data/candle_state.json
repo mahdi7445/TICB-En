@@ -36323,7 +36323,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -36348,6 +36348,12 @@
             "type": "rr",
             "ts": "2026-11-04T23:49:38.201024+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-04T23:56:13.278159+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
