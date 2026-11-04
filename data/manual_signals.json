@@ -7332,5 +7332,33 @@
     "silent": true,
     "source_signal_id": "ALT-000637",
     "signal_message_id": 3167
+  },
+  {
+    "id": "src-ALT-000638",
+    "symbol": "LTC/USD",
+    "side": "BUY",
+    "entry": 55.0,
+    "sl": 54.73,
+    "status": "pending",
+    "created_at": 1793791976,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000638",
+    "signal_message_id": 3168
+  },
+  {
+    "id": "src-ALT-000639",
+    "symbol": "VVV/USD",
+    "side": "BUY",
+    "entry": 24.07,
+    "sl": 23.83,
+    "status": "pending",
+    "created_at": 1793792016,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000639",
+    "signal_message_id": 3169
   }
 ]
