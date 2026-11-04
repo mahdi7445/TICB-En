@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "PEPE",
-    "tf_label": "15M",
-    "entry": 4.316e-06,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000355",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T18:58:36.207080+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "ENA",
-    "tf_label": "15M",
-    "entry": 0.1869,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000357",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T20:04:26.003139+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "INJ",
     "tf_label": "1H",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T15:19:16.762598+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "NEAR",
+    "tf_label": "15M",
+    "entry": 3.83,
+    "level": null,
+    "result_r": 2.9,
+    "source_signal_id": "ALT-000628",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:26:44.912670+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "QNT",
+    "tf_label": "5M",
+    "entry": 199.06,
+    "level": null,
+    "result_r": 2.7,
+    "source_signal_id": "ALT-000654",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:26:49.578031+00:00"
   }
 ]
