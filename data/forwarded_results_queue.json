@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "QNT",
-    "tf_label": "15M",
-    "entry": 180.86,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000311",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T20:54:41.633990+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "POL",
-    "tf_label": "4H",
-    "entry": 0.09063,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000314",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T21:02:44.046142+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "POL",
     "tf_label": "4H",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T00:23:34.302067+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LINK",
+    "tf_label": "5M",
+    "entry": 10.811,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000606",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T01:29:38.033158+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AAVE",
+    "tf_label": "5M",
+    "entry": 124.99,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000607",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T01:29:38.948620+00:00"
   }
 ]
