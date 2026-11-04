@@ -7153,5 +7153,33 @@
     "source_signal_id": "ALT-000624",
     "signal_message_id": 3131,
     "activated_at": "2026-11-04T04:08:43.254038+00:00"
+  },
+  {
+    "id": "src-ALT-000625",
+    "symbol": "ARB/USD",
+    "side": "BUY",
+    "entry": 0.1578,
+    "sl": 0.157,
+    "status": "pending",
+    "created_at": 1793768640,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000625",
+    "signal_message_id": 3134
+  },
+  {
+    "id": "src-ALT-000626",
+    "symbol": "DOGE/USD",
+    "side": "BUY",
+    "entry": 0.07413,
+    "sl": 0.0732,
+    "status": "pending",
+    "created_at": 1793768668,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000626",
+    "signal_message_id": 3135
   }
 ]
