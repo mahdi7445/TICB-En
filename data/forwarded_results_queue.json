@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "WLD",
-    "tf_label": "5M",
-    "entry": 0.4549,
-    "level": null,
-    "result_r": 0.7,
-    "source_signal_id": "ALT-000363",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T11:53:40.850842+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "INJ",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T17:15:15.795802+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "FIL",
+    "tf_label": "5M",
+    "entry": 0.868,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000666",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T17:44:00.180484+00:00"
   }
 ]
