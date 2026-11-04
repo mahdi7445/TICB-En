@@ -126,10 +126,10 @@
     "TS1|ETH/USD|1h": 1793257200000,
     "CN1M|BTC/USD|1m": 1792837920000,
     "CN1M|ETH/USD|1m": 1792837920000,
-    "CN5M|BTC/USD|5m": 1793823600000,
-    "CN5M|ETH/USD|5m": 1793823600000,
-    "CN15|BTC/USD|15m": 1793822400000,
-    "CN15|ETH/USD|15m": 1793822400000,
+    "CN5M|BTC/USD|5m": 1793823900000,
+    "CN5M|ETH/USD|5m": 1793823900000,
+    "CN15|BTC/USD|15m": 1793823300000,
+    "CN15|ETH/USD|15m": 1793823300000,
     "CN1H|BTC/USD|1h": 1793257200000,
     "CN1H|ETH/USD|1h": 1793257200000,
     "CN4H|BTC/USD|4h": 1793808000000,
@@ -168,10 +168,10 @@
     "HOT|ENA/USD|15m|BUY": 1792507500000,
     "FBR|BTC/USD|5m": 1793263200000,
     "FBR|ETH/USD|5m": 1793263200000,
-    "TKF|BTC/USD|15m": 1793822400000,
-    "TKF|ETH/USD|15m": 1793822400000,
-    "TKS|BTC/USD|15m": 1793822400000,
-    "TKS|ETH/USD|15m": 1793822400000
+    "TKF|BTC/USD|15m": 1793823300000,
+    "TKF|ETH/USD|15m": 1793823300000,
+    "TKS|BTC/USD|15m": 1793823300000,
+    "TKS|ETH/USD|15m": 1793823300000
   },
   "diag": {
     "CN1M": {
@@ -185,34 +185,34 @@
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 6126,
+      "checks": 6128,
       "nodata": 0,
       "raw": 4,
       "blocked": {},
       "opened": 4,
-      "last_check": 1793823922
+      "last_check": 1793824230
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 6380,
+      "checks": 6382,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1793823330
+      "last_check": 1793824233
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 2568,
+      "checks": 2570,
       "nodata": 0,
       "raw": 9,
       "blocked": {
         "same_side_cap": 1
       },
       "opened": 8,
-      "last_check": 1793823330
+      "last_check": 1793824233
     },
     "TS1": {
       "since": 1792450810,
@@ -330,12 +330,12 @@
     },
     "TKS": {
       "since": 1793360230,
-      "checks": 996,
+      "checks": 998,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1793823330
+      "last_check": 1793824233
     }
   },
   "hot_daily": {
