@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "ADA",
-    "tf_label": "15M",
-    "entry": 0.2119,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000333",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T02:55:37.796538+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "LINK",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T05:18:12.741182+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARB",
+    "tf_label": "15M",
+    "entry": 0.1578,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000632",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T05:46:46.499200+00:00"
   }
 ]
