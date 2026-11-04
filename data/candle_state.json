@@ -32982,13 +32982,13 @@
         "sl": 0.004245,
         "r": 3.4000000000000176e-05,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PUMP/USD",
         "tf_key": "manual",
         "display": "PUMP",
@@ -32998,6 +32998,17 @@
             "type": "opened",
             "ts": "2026-11-03T20:48:44.257885+00:00",
             "price": 0.004279
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-11-04T00:02:22.156962+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T00:02:22.159316+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 1.88
           }
         ],
         "signal_message_id": 3080,
@@ -33007,7 +33018,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     }
