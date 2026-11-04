@@ -33270,7 +33270,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "JUP/USD",
         "tf_key": "manual",
         "display": "JUP",
@@ -33280,6 +33280,17 @@
             "type": "opened",
             "ts": "2026-11-04T01:24:51.679299+00:00",
             "price": 0.2437
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-04T01:31:15.528753+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T01:31:15.531075+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3098,
@@ -33289,7 +33300,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
