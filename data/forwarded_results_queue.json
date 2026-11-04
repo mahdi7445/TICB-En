@@ -4,18 +4,6 @@
     "ticker": "ARB",
     "tf_label": "5M",
     "entry": 0.1712,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000327",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T00:25:41.724726+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ARB",
-    "tf_label": "5M",
-    "entry": 0.1712,
     "level": 4,
     "result_r": 1.4,
     "source_signal_id": "ALT-000327",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T04:14:00.092718+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "HBAR",
+    "tf_label": "15M",
+    "entry": 0.06818,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000612",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T04:56:20.820461+00:00"
   }
 ]
