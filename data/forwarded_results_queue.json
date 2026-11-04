@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "TAO",
-    "tf_label": "15M",
-    "entry": 254.09,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000332",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T03:10:44.741686+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "TAO",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T06:08:57.947022+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.4508,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000633",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T07:51:27.219540+00:00"
   }
 ]
