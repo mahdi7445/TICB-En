@@ -1,29 +1,5 @@
 [
   {
-    "kind": "module_closed",
-    "ticker": "ATOM",
-    "tf_label": "15M",
-    "entry": 1.728,
-    "level": null,
-    "result_r": 4.0,
-    "source_signal_id": "ALT-000318",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T06:10:29.050752+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "BNB",
-    "tf_label": "15M",
-    "entry": 738.56,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000336",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T06:10:35.842247+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "SOL",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T11:17:33.211874+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SUI",
+    "tf_label": "15M",
+    "entry": 0.9139,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000637",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T12:04:52.877410+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LTC",
+    "tf_label": "15M",
+    "entry": 55.0,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000638",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T12:04:53.938174+00:00"
   }
 ]
