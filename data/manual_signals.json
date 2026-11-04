@@ -7033,5 +7033,33 @@
     "source_signal_id": "ALT-000616",
     "signal_message_id": 3112,
     "activated_at": "2026-11-04T02:56:09.162630+00:00"
+  },
+  {
+    "id": "src-ALT-000617",
+    "symbol": "ATOM/USD",
+    "side": "SELL",
+    "entry": 1.388,
+    "sl": 1.396,
+    "status": "pending",
+    "created_at": 1793761360,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000617",
+    "signal_message_id": 3116
+  },
+  {
+    "id": "src-ALT-000618",
+    "symbol": "RENDER/USD",
+    "side": "SELL",
+    "entry": 1.457,
+    "sl": 1.472,
+    "status": "pending",
+    "created_at": 1793761390,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000618",
+    "signal_message_id": 3117
   }
 ]
