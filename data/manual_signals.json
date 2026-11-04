@@ -7025,12 +7025,13 @@
     "side": "SELL",
     "entry": 1181.52,
     "sl": 1189.78,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793760903,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000616",
-    "signal_message_id": 3112
+    "signal_message_id": 3112,
+    "activated_at": "2026-11-04T02:56:09.162630+00:00"
   }
 ]
