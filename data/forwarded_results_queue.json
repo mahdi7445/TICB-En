@@ -1,30 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "RENDER",
-    "tf_label": "1H",
-    "entry": 1.71,
-    "level": 0.75,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000319",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T14:18:36.788178+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "UNI",
-    "tf_label": "15M",
-    "entry": 6.95,
-    "level": 3,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000340",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T14:18:43.601860+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "UNI",
     "tf_label": "15M",
     "entry": 6.95,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T14:35:16.073432+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "QNT",
+    "tf_label": "5M",
+    "entry": 199.06,
+    "level": 1.5,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000654",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T14:42:37.199070+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "QNT",
+    "tf_label": "5M",
+    "entry": 199.06,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000654",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T14:42:38.109487+00:00"
   }
 ]
