@@ -7557,5 +7557,19 @@
     "silent": true,
     "source_signal_id": "ALT-000653",
     "signal_message_id": 3194
+  },
+  {
+    "id": "src-ALT-000654",
+    "symbol": "QNT/USD",
+    "side": "BUY",
+    "entry": 199.06,
+    "sl": 197.29,
+    "status": "pending",
+    "created_at": 1793800356,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000654",
+    "signal_message_id": 3195
   }
 ]
