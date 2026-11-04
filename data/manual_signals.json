@@ -7078,5 +7078,61 @@
     "source_signal_id": "ALT-000619",
     "signal_message_id": 3123,
     "activated_at": "2026-11-04T03:30:38.319572+00:00"
+  },
+  {
+    "id": "src-ALT-000620",
+    "symbol": "SUI/USD",
+    "side": "BUY",
+    "entry": 0.8733,
+    "sl": 0.8195,
+    "status": "pending",
+    "created_at": 1793765199,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000620",
+    "signal_message_id": 3127
+  },
+  {
+    "id": "src-ALT-000621",
+    "symbol": "OP/USD",
+    "side": "BUY",
+    "entry": 0.1073,
+    "sl": 0.09855,
+    "status": "pending",
+    "created_at": 1793765200,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000621",
+    "signal_message_id": 3128
+  },
+  {
+    "id": "src-ALT-000622",
+    "symbol": "AAVE/USD",
+    "side": "BUY",
+    "entry": 124.91,
+    "sl": 115.35,
+    "status": "pending",
+    "created_at": 1793765201,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000622",
+    "signal_message_id": 3129
+  },
+  {
+    "id": "src-ALT-000623",
+    "symbol": "LDO/USD",
+    "side": "BUY",
+    "entry": 0.325,
+    "sl": 0.3028,
+    "status": "pending",
+    "created_at": 1793765202,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000623",
+    "signal_message_id": 3130
   }
 ]
