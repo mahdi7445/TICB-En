@@ -33547,7 +33547,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ARB/USD",
         "tf_key": "manual",
         "display": "ARB",
@@ -33557,6 +33557,17 @@
             "type": "opened",
             "ts": "2026-11-04T02:06:56.215385+00:00",
             "price": 0.1558
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-04T02:20:07.614384+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T02:20:07.617036+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3110,
@@ -33566,7 +33577,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     }
