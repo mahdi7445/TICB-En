@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "ATOM",
-    "tf_label": "15M",
-    "entry": 1.728,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000318",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T22:42:31.947522+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "DOT",
     "tf_label": "4H",
     "entry": 1.18,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T01:57:35.058071+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ICP",
+    "tf_label": "15M",
+    "entry": 2.446,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000613",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T02:04:54.109050+00:00"
   }
 ]
