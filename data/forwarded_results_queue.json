@@ -1,42 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ADA",
-    "tf_label": "5M",
-    "entry": 0.2134,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000315",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T20:23:43.717346+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "APT",
-    "tf_label": "15M",
-    "entry": 0.7454,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000316",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T20:23:44.568128+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "APT",
-    "tf_label": "15M",
-    "entry": 0.7454,
-    "level": null,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000316",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T20:31:20.092507+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "QNT",
     "tf_label": "15M",
     "entry": 180.86,
@@ -5998,5 +5962,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T00:01:31.850579+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.433,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000604",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T00:23:32.625454+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.433,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000604",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T00:23:33.713073+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.433,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000604",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T00:23:34.302067+00:00"
   }
 ]
