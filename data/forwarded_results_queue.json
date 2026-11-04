@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "INJ",
-    "tf_label": "1H",
-    "entry": 7.63,
-    "level": null,
-    "result_r": 0.7,
-    "source_signal_id": "ALT-000352",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T23:17:08.398229+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "XMR",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T15:26:49.578031+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "DOT",
+    "tf_label": "15M",
+    "entry": 0.9329,
+    "level": null,
+    "result_r": 2.9,
+    "source_signal_id": "ALT-000627",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:33:46.077368+00:00"
   }
 ]
