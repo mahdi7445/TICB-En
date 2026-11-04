@@ -33069,7 +33069,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TIA/USD",
         "tf_key": "manual",
         "display": "TIA",
@@ -33097,6 +33097,17 @@
             "ts": "2026-11-04T00:24:26.096633+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-11-04T06:27:27.726651+00:00",
+            "note": "manually closed by admin (final_r=+2.10)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T06:27:27.730055+00:00",
+            "close_type": "admin_override",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 3088,
@@ -33108,7 +33119,8 @@
         },
         "logical_tf": "5m",
         "_replay_checked_ms": 1793773151936,
-        "_stale_alert_sent_at_ms": 1793773151936
+        "_stale_alert_sent_at_ms": 1793773151936,
+        "close_type": "admin_override"
       },
       "hist": []
     },
