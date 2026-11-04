@@ -34261,7 +34261,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -34280,6 +34280,12 @@
             "type": "rr",
             "ts": "2026-11-04T10:48:58.409232+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-04T15:13:34.590998+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
@@ -34427,7 +34433,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -34446,6 +34452,12 @@
             "type": "rr",
             "ts": "2026-11-04T14:50:41.018566+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-04T15:13:34.591075+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
