@@ -1,53 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "AAVE",
-    "tf_label": "1H",
-    "entry": 138.53,
-    "level": 2,
-    "result_r": 0.7,
-    "source_signal_id": "ALT-000353",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T15:24:26.291991+00:00"
-  },
-  {
-    "kind": "sl_after_t2",
-    "ticker": "RENDER",
-    "tf_label": "1H",
-    "entry": 1.71,
-    "level": null,
-    "result_r": 0.75,
-    "source_signal_id": "ALT-000319",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T16:17:59.447040+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "1H",
-    "entry": 7.63,
-    "level": 2,
-    "result_r": 0.7,
-    "source_signal_id": "ALT-000352",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T16:30:34.255352+00:00"
-  },
-  {
-    "kind": "sl_after_t2",
-    "ticker": "ALGO",
-    "tf_label": "1H",
-    "entry": 0.1046,
-    "level": null,
-    "result_r": 2.5,
-    "source_signal_id": "ALT-000345",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T16:56:02.208166+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "VVV",
     "tf_label": "5M",
@@ -5998,5 +5950,53 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-11-04T15:12:11.660355+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOT",
+    "tf_label": "15M",
+    "entry": 0.9329,
+    "level": 4,
+    "result_r": 2.15,
+    "source_signal_id": "ALT-000627",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:12:14.821566+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 92.21,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000630",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:12:16.464645+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 92.21,
+    "level": 4,
+    "result_r": 2.15,
+    "source_signal_id": "ALT-000630",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:12:17.427512+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "QNT",
+    "tf_label": "5M",
+    "entry": 199.06,
+    "level": 5,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000654",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:12:21.186314+00:00"
   }
 ]
