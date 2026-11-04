@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "XMR",
-    "tf_label": "15M",
-    "entry": 604.26,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000367",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T16:54:32.542766+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "UNI",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T20:10:53.270314+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ARB",
+    "tf_label": "5M",
+    "entry": 0.1634,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000664",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T20:39:28.502778+00:00"
   }
 ]
