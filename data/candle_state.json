@@ -30656,7 +30656,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "NEAR/USD",
         "tf_key": "manual",
         "display": "NEAR",
@@ -30678,6 +30678,17 @@
             "ts": "2026-11-04T15:20:45.698721+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-11-04T15:28:14.470168+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T15:28:14.473183+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.9
           }
         ],
         "signal_message_id": 2920,
@@ -30689,7 +30700,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1793505509667,
-        "_stale_alert_sent_at_ms": 1793765952303
+        "_stale_alert_sent_at_ms": 1793765952303,
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
@@ -35474,13 +35486,13 @@
         "sl": 197.29,
         "r": 1.7700000000000102,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "QNT/USD",
         "tf_key": "manual",
         "display": "QNT",
@@ -35490,6 +35502,17 @@
             "type": "opened",
             "ts": "2026-11-04T13:53:02.191344+00:00",
             "price": 199.06
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-11-04T15:28:14.486744+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T15:28:14.488831+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.7
           }
         ],
         "signal_message_id": 3195,
@@ -35499,7 +35522,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
