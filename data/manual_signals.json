@@ -7603,5 +7603,47 @@
     "source_signal_id": "ALT-000656",
     "signal_message_id": 3236,
     "activated_at": "2026-11-04T15:56:52.859624+00:00"
+  },
+  {
+    "id": "src-ALT-000657",
+    "symbol": "AVAX/USD",
+    "side": "SELL",
+    "entry": 8.93,
+    "sl": 9.53,
+    "status": "pending",
+    "created_at": 1793808282,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000657",
+    "signal_message_id": 3238
+  },
+  {
+    "id": "src-ALT-000658",
+    "symbol": "XLM/USD",
+    "side": "SELL",
+    "entry": 0.1684,
+    "sl": 0.1785,
+    "status": "pending",
+    "created_at": 1793808283,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000658",
+    "signal_message_id": 3239
+  },
+  {
+    "id": "src-ALT-000659",
+    "symbol": "FIL/USD",
+    "side": "SELL",
+    "entry": 0.886,
+    "sl": 0.948,
+    "status": "pending",
+    "created_at": 1793808284,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000659",
+    "signal_message_id": 3240
   }
 ]
