@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 102.56,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000335",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T05:23:32.220660+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "ATOM",
     "tf_label": "15M",
     "entry": 1.728,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T10:47:58.973908+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 636.32,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000636",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T10:55:32.073550+00:00"
   }
 ]
