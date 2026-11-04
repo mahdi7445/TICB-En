@@ -5899,7 +5899,7 @@
     "level": 1,
     "result_r": 0.2,
     "source_signal_id": "ALT-000647",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T14:06:06.240328+00:00"
   },
@@ -5911,7 +5911,7 @@
     "level": 2,
     "result_r": 0.8,
     "source_signal_id": "ALT-000647",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T14:06:06.763574+00:00"
   },
@@ -5923,7 +5923,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000648",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T14:06:07.290334+00:00"
   },
@@ -5935,7 +5935,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000650",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T14:06:09.281205+00:00"
   },
@@ -5947,7 +5947,7 @@
     "level": 2,
     "result_r": 0.6,
     "source_signal_id": "ALT-000651",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T14:06:10.575833+00:00"
   },
@@ -5959,7 +5959,7 @@
     "level": 3,
     "result_r": 1.35,
     "source_signal_id": "ALT-000651",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T14:06:11.434475+00:00"
   },
@@ -5971,7 +5971,7 @@
     "level": null,
     "result_r": 2.25,
     "source_signal_id": "ALT-000651",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T14:06:11.891477+00:00"
   },
@@ -5984,7 +5984,7 @@
     "result_r": -1.0,
     "source_signal_id": "ALT-000652",
     "status": "pending",
-    "attempts": 0,
+    "attempts": 9,
     "queued_at": "2026-11-04T14:06:12.366909+00:00"
   },
   {
@@ -5995,7 +5995,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000653",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T14:06:16.226049+00:00"
   }
