@@ -6935,13 +6935,14 @@
     "side": "SELL",
     "entry": 0.8768,
     "sl": 0.8789,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793757030,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000610",
-    "signal_message_id": 3103
+    "signal_message_id": 3103,
+    "activated_at": "2026-11-04T01:50:45.237117+00:00"
   },
   {
     "id": "src-ALT-000611",

@@ -33317,6 +33317,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000610": {
+      "open_trade": {
+        "signal_id": "ALT-000610",
+        "source_signal_id": "ALT-000610",
+        "side": "SELL",
+        "entry": 0.8768,
+        "sl": 0.8789,
+        "r": 0.0020999999999999908,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SUI/USD",
+        "tf_key": "manual",
+        "display": "SUI",
+        "opened_at_ms": 1793757045237,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T01:50:45.237092+00:00",
+            "price": 0.8768
+          }
+        ],
+        "signal_message_id": 3103,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
