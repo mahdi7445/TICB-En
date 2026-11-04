@@ -63,7 +63,7 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793791861721
+      "polled_ms": 1793791919904
     },
     "TC-000110": {
       "id": "TC-000110",
@@ -73,7 +73,7 @@
       "side": "BUY",
       "entry": 2245.85,
       "sl0": 2157.9686384014644,
-      "sl": 2157.9686384014644,
+      "sl": 2245.85,
       "risk": 87.88136159853548,
       "targets": [
         2333.7313615985354,
@@ -95,7 +95,7 @@
       ],
       "trail": 1.5,
       "hit": [
-        false,
+        true,
         false,
         false,
         false
@@ -105,15 +105,23 @@
       "status": "open",
       "opened_ms": 1793764817018,
       "armed_ms": 1793764817018,
-      "last_ms": 1793791859999,
+      "last_ms": 1793791919999,
       "bar_ms": 1793750400000,
-      "mfe_r": 0.9932,
+      "mfe_r": 1.0095,
       "mae_r": 0.0205,
-      "events": [],
+      "events": [
+        {
+          "type": "target",
+          "index": 0,
+          "price": 2333.7313615985354,
+          "banked": 0.2,
+          "ts": "2026-11-04T11:32:01.280743+00:00"
+        }
+      ],
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 3125,
-      "polled_ms": 1793791861721
+      "polled_ms": 1793791919904
     }
   },
   "seen": [],
