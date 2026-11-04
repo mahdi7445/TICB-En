@@ -1,29 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "ATOM",
-    "tf_label": "1H",
-    "entry": 1.626,
-    "level": null,
-    "result_r": 0.7,
-    "source_signal_id": "ALT-000361",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T15:03:18.036979+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "WLD",
-    "tf_label": "15M",
-    "entry": 0.4457,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000368",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T15:03:20.785003+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "XMR",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T19:54:10.647679+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 4.0,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000668",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T20:10:52.640270+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 4.0,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000668",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T20:10:53.270314+00:00"
   }
 ]
