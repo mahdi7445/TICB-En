@@ -1,53 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "WLD",
-    "tf_label": "5M",
-    "entry": 0.4549,
-    "level": 2,
-    "result_r": 0.7,
-    "source_signal_id": "ALT-000363",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T08:59:26.922314+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "SEI",
-    "tf_label": "4H",
-    "entry": 0.05703,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000262",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T09:20:18.528155+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "LDO",
-    "tf_label": "15M",
-    "entry": 0.361,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000364",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T11:40:19.091936+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "LDO",
-    "tf_label": "15M",
-    "entry": 0.361,
-    "level": null,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000364",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T11:46:48.889304+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "WLD",
     "tf_label": "5M",
@@ -5998,5 +5950,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T17:08:40.214405+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "DOGE",
+    "tf_label": "15M",
+    "entry": 0.07413,
+    "level": null,
+    "result_r": 2.9,
+    "source_signal_id": "ALT-000626",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T17:15:09.989347+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "XLM",
+    "tf_label": "15M",
+    "entry": 0.1607,
+    "level": null,
+    "result_r": 2.9,
+    "source_signal_id": "ALT-000629",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T17:15:10.999230+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 92.21,
+    "level": null,
+    "result_r": 2.9,
+    "source_signal_id": "ALT-000630",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T17:15:12.080459+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.4642,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000656",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T17:15:15.795802+00:00"
   }
 ]
