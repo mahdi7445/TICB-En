@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "15M",
-    "entry": 11.854,
-    "level": 1,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000330",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T03:10:42.646531+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "SUI",
     "tf_label": "15M",
     "entry": 0.9624,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T05:46:46.499200+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARB",
+    "tf_label": "15M",
+    "entry": 0.1578,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000632",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T05:54:06.861116+00:00"
   }
 ]
