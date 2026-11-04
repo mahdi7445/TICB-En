@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "CAP",
-    "tf_label": "5M",
-    "entry": 0.102,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000373",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T17:15:08.533768+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "AAVE",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T23:48:37.759524+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 7.703,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000670",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T23:55:54.811935+00:00"
   }
 ]
