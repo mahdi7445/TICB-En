@@ -33689,7 +33689,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ATOM/USD",
         "tf_key": "manual",
         "display": "ATOM",
@@ -33699,6 +33699,17 @@
             "type": "opened",
             "ts": "2026-11-04T03:04:07.155377+00:00",
             "price": 1.388
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-04T03:30:38.349819+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T03:30:38.352004+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3116,
@@ -33708,7 +33719,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -33747,6 +33759,44 @@
           "label": "15M"
         },
         "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000619": {
+      "open_trade": {
+        "signal_id": "ALT-000619",
+        "source_signal_id": "ALT-000619",
+        "side": "SELL",
+        "entry": 0.5996,
+        "sl": 0.6021,
+        "r": 0.0024999999999999467,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "APT/USD",
+        "tf_key": "manual",
+        "display": "APT",
+        "opened_at_ms": 1793763038319,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T03:30:38.319549+00:00",
+            "price": 0.5996
+          }
+        ],
+        "signal_message_id": 3123,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
       },
       "hist": []
     }
