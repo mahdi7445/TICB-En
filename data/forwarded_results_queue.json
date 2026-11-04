@@ -4,18 +4,6 @@
     "ticker": "TAO",
     "tf_label": "15M",
     "entry": 251.49,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000371",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T17:00:38.271507+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "TAO",
-    "tf_label": "15M",
-    "entry": 251.49,
     "level": 3,
     "result_r": 1.35,
     "source_signal_id": "ALT-000371",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T21:58:02.699588+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "4H",
+    "entry": 7.08,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000591",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T22:12:35.672643+00:00"
   }
 ]
