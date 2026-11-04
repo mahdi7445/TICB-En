@@ -7423,5 +7423,19 @@
     "source_signal_id": "ALT-000643",
     "signal_message_id": 3178,
     "activated_at": "2026-11-04T12:17:22.920124+00:00"
+  },
+  {
+    "id": "src-ALT-000644",
+    "symbol": "INJ/USD",
+    "side": "SELL",
+    "entry": 7.67,
+    "sl": 7.72,
+    "status": "pending",
+    "created_at": 1793795055,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000644",
+    "signal_message_id": 3181
   }
 ]
