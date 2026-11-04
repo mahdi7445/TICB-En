@@ -1,18 +1,6 @@
 [
   {
     "kind": "breakeven",
-    "ticker": "LINK",
-    "tf_label": "15M",
-    "entry": 11.854,
-    "level": null,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000330",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T03:49:53.165483+00:00"
-  },
-  {
-    "kind": "breakeven",
     "ticker": "SUI",
     "tf_label": "15M",
     "entry": 0.9624,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T07:51:31.805254+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.4508,
+    "level": null,
+    "result_r": 1.3,
+    "source_signal_id": "ALT-000633",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T08:07:22.226824+00:00"
   }
 ]
