@@ -1,53 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "OP",
-    "tf_label": "1H",
-    "entry": 0.1114,
-    "level": null,
-    "result_r": 2.5,
-    "source_signal_id": "ALT-000351",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T14:25:19.530784+00:00"
-  },
-  {
-    "kind": "sl_after_t2",
-    "ticker": "NEAR",
-    "tf_label": "15M",
-    "entry": 4.48,
-    "level": null,
-    "result_r": 2.5,
-    "source_signal_id": "ALT-000350",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T14:38:18.047157+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "AAVE",
-    "tf_label": "4H",
-    "entry": 146.75,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000254",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T15:11:04.820139+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ALGO",
-    "tf_label": "1H",
-    "entry": 0.1046,
-    "level": 4,
-    "result_r": 1.7,
-    "source_signal_id": "ALT-000345",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T15:17:58.823823+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "ATOM",
     "tf_label": "4H",
@@ -5998,5 +5950,53 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-04T14:56:49.347986+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "4H",
+    "entry": 124.91,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000622",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:04:33.554549+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LDO",
+    "tf_label": "4H",
+    "entry": 0.325,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000623",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:04:34.470125+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOGE",
+    "tf_label": "15M",
+    "entry": 0.07413,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000626",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:04:35.545297+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XLM",
+    "tf_label": "15M",
+    "entry": 0.1607,
+    "level": 4,
+    "result_r": 2.15,
+    "source_signal_id": "ALT-000629",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T15:04:39.309491+00:00"
   }
 ]
