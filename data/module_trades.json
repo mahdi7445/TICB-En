@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1792512025755,
       "armed_ms": 1792512025755,
-      "last_ms": 1793764739999,
+      "last_ms": 1793764799999,
       "bar_ms": 1792497600000,
       "mfe_r": 2.7432,
       "mae_r": 0.9262,
@@ -63,31 +63,81 @@
       "tier": "verified",
       "profile": "CLASSIC",
       "msg_id": 2046,
-      "polled_ms": 1793764770005
+      "polled_ms": 1793764830512
+    },
+    "TC-000110": {
+      "id": "TC-000110",
+      "module": "SWP",
+      "symbol": "ETH/USD",
+      "tf": "4h",
+      "side": "BUY",
+      "entry": 2245.85,
+      "sl0": 2157.9686384014644,
+      "sl": 2157.9686384014644,
+      "risk": 87.88136159853548,
+      "targets": [
+        2333.7313615985354,
+        2421.612723197071,
+        2597.375446394142,
+        2773.1381695912128
+      ],
+      "levels": [
+        1.0,
+        2.0,
+        4.0,
+        6.0
+      ],
+      "weights": [
+        0.2,
+        0.3,
+        0.15,
+        0.1
+      ],
+      "trail": 1.5,
+      "hit": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "runner_on": false,
+      "best": 2245.85,
+      "status": "open",
+      "opened_ms": 1793764817018,
+      "armed_ms": 1793764817018,
+      "last_ms": 1793764817018,
+      "bar_ms": 1793750400000,
+      "mfe_r": 0.0,
+      "mae_r": 0.0,
+      "events": [],
+      "tier": "verified",
+      "profile": "CLASSIC",
+      "msg_id": 3125,
+      "polled_ms": 1793764830512
     }
   },
   "seen": [],
   "checked": {
-    "HDV3|BTC/USD|4h": 1793736000000,
-    "HDV3|ETH/USD|4h": 1793736000000,
-    "SWP|BTC/USD|4h": 1793736000000,
-    "SWP|ETH/USD|4h": 1793736000000,
+    "HDV3|BTC/USD|4h": 1793750400000,
+    "HDV3|ETH/USD|4h": 1793750400000,
+    "SWP|BTC/USD|4h": 1793750400000,
+    "SWP|ETH/USD|4h": 1793750400000,
     "TS1|BTC/USD|1h": 1793257200000,
     "TS1|ETH/USD|1h": 1793257200000,
     "CN1M|BTC/USD|1m": 1792837920000,
     "CN1M|ETH/USD|1m": 1792837920000,
-    "CN5M|BTC/USD|5m": 1793764200000,
-    "CN5M|ETH/USD|5m": 1793764200000,
-    "CN15|BTC/USD|15m": 1793763000000,
-    "CN15|ETH/USD|15m": 1793763000000,
+    "CN5M|BTC/USD|5m": 1793764500000,
+    "CN5M|ETH/USD|5m": 1793764500000,
+    "CN15|BTC/USD|15m": 1793763900000,
+    "CN15|ETH/USD|15m": 1793763900000,
     "CN1H|BTC/USD|1h": 1793257200000,
     "CN1H|ETH/USD|1h": 1793257200000,
-    "CN4H|BTC/USD|4h": 1793736000000,
-    "CN4H|ETH/USD|4h": 1793736000000,
+    "CN4H|BTC/USD|4h": 1793750400000,
+    "CN4H|ETH/USD|4h": 1793750400000,
     "TKF|BTC/USD|5m": 1793263200000,
     "TKF|ETH/USD|5m": 1793263200000,
-    "TPS|BTC/USD|1h": 1793757600000,
-    "TPS|ETH/USD|1h": 1793757600000,
+    "TPS|BTC/USD|1h": 1793761200000,
+    "TPS|ETH/USD|1h": 1793761200000,
     "MRA|BTC/USD|1h": 1793257200000,
     "MRA|ETH/USD|1h": 1793257200000,
     "MRB|BTC/USD|1h": 1793257200000,
@@ -118,10 +168,10 @@
     "HOT|ENA/USD|15m|BUY": 1792507500000,
     "FBR|BTC/USD|5m": 1793263200000,
     "FBR|ETH/USD|5m": 1793263200000,
-    "TKF|BTC/USD|15m": 1793763000000,
-    "TKF|ETH/USD|15m": 1793763000000,
-    "TKS|BTC/USD|15m": 1793763000000,
-    "TKS|ETH/USD|15m": 1793763000000
+    "TKF|BTC/USD|15m": 1793763900000,
+    "TKF|ETH/USD|15m": 1793763900000,
+    "TKS|BTC/USD|15m": 1793763900000,
+    "TKS|ETH/USD|15m": 1793763900000
   },
   "diag": {
     "CN1M": {
@@ -135,34 +185,34 @@
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 5730,
+      "checks": 5732,
       "nodata": 0,
       "raw": 4,
       "blocked": {},
       "opened": 4,
-      "last_check": 1793764501
+      "last_check": 1793764820
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 6248,
+      "checks": 6250,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1793763917
+      "last_check": 1793764824
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 2436,
+      "checks": 2438,
       "nodata": 0,
       "raw": 9,
       "blocked": {
         "same_side_cap": 1
       },
       "opened": 8,
-      "last_check": 1793763917
+      "last_check": 1793764823
     },
     "TS1": {
       "since": 1792450810,
@@ -184,12 +234,12 @@
     },
     "TPS": {
       "since": 1792450819,
-      "checks": 722,
+      "checks": 724,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1793761233
+      "last_check": 1793764825
     },
     "MRA": {
       "since": 1792450819,
@@ -211,32 +261,32 @@
     },
     "HDV3": {
       "since": 1792454401,
-      "checks": 180,
+      "checks": 182,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1793750426
+      "last_check": 1793764818
     },
     "SWP": {
       "since": 1792454402,
-      "checks": 180,
+      "checks": 182,
       "nodata": 0,
-      "raw": 4,
+      "raw": 5,
       "blocked": {
         "already_open": 2
       },
-      "opened": 2,
-      "last_check": 1793750426
+      "opened": 3,
+      "last_check": 1793764818
     },
     "CN4H": {
       "since": 1792454412,
-      "checks": 180,
+      "checks": 182,
       "nodata": 0,
       "raw": 2,
       "blocked": {},
       "opened": 2,
-      "last_check": 1793750431
+      "last_check": 1793764823
     },
     "HOT": {
       "since": 1792486027,
@@ -280,12 +330,12 @@
     },
     "TKS": {
       "since": 1793360230,
-      "checks": 864,
+      "checks": 866,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1793763917
+      "last_check": 1793764825
     }
   },
   "hot_daily": {
@@ -328,7 +378,7 @@
     "CN15|BTC/USD": 1792638024193,
     "TPS|BTC/USD": 1792573216072,
     "CN5M|ETH/USD": 1793387701248,
-    "SWP|ETH/USD": 1792699221674,
+    "SWP|ETH/USD": 1793764817018,
     "CN15|ETH/USD": 1793724321628,
     "TPS|ETH/USD": 1792922405976,
     "FBR|ETH/USD": 1793009110963,
@@ -339,8 +389,8 @@
     "CN1H|ETH/USD": 1793257223539
   },
   "mx_day": {
-    "day": "2026-11-03",
-    "CN15": 1
+    "day": "2026-11-04",
+    "SWP": 1
   },
   "daily": {
     "day": "2026-10-26",
