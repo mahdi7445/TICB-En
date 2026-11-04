@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#07070a">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src https://telegram.org 'sha256-PUF2bz9pLsifR0GnWCvM8y0rI5jszhodg0VQlk8uMJI='; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; font-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Auto Trading · ترید خودکار</title>
+<link rel="preconnect" href="https://telegram.org">
+<script async src="https://telegram.org/js/telegram-web-app.js" id="tgs"></script>
+<style>
+  :root {
+    --bg:#07070a; --bg2:#0d0d12; --card:#111117; --card2:#17171f; --line:rgba(212,166,42,.20); --line2:rgba(255,255,255,.07);
+    --text:#f5f0e4; --muted:#a8a191; --dim:#7b766a;
+    --g1:#f8dd86; --g2:#e0b43a; --g3:#a67c12; --gold:linear-gradient(135deg,#f8dd86 0%,#e0b43a 48%,#a67c12 100%);
+    --ok:#4ade80; --warn:#f5b942; --danger:#f87171; --radius:18px;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Vazirmatn,Tahoma,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  body{background:radial-gradient(900px 420px at 50% -120px,rgba(224,180,58,.16),transparent 70%),var(--bg);min-height:100vh}
+  .wrap{max-width:560px;margin:0 auto;padding:16px 16px calc(120px + env(safe-area-inset-bottom))}
+  .top{display:flex;justify-content:flex-end;min-height:34px}
+  .langbtn{border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--g1);border-radius:999px;padding:6px 14px;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+  .hero{text-align:center;padding:4px 0 6px}
+  .logo{width:116px;height:116px;border-radius:50%;margin:2px auto 14px;display:block;box-shadow:0 0 0 1px rgba(248,221,134,.35),0 0 38px rgba(224,180,58,.30),0 10px 30px rgba(0,0,0,.6)}
+  h1{margin:0;font-size:27px;line-height:1.15;letter-spacing:-.01em;font-weight:800;background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .tag{margin:6px 0 0;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+  html[dir=rtl] .tag{letter-spacing:0;font-size:12.5px}
+  .lead{margin:12px auto 0;max-width:430px;color:var(--muted);font-size:14.5px}
+  .pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:14px}
+  .pill{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;font-size:12.5px;font-weight:600;border:1px solid var(--line);background:rgba(224,180,58,.07);color:var(--g1)}
+  .pill.ok{border-color:rgba(74,222,128,.35);background:rgba(74,222,128,.08);color:var(--ok)}
+  h2{display:flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--g2);margin:26px 2px 11px;font-weight:700}
+  html[dir=rtl] h2{letter-spacing:0;font-size:14px}
+  h2::after{content:"";flex:1;height:1px;background:linear-gradient(to right,var(--line),transparent)}
+  html[dir=rtl] h2::after{background:linear-gradient(to left,var(--line),transparent)}
+  .panel{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line2);border-radius:var(--radius);padding:14px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .ben{padding:13px;border-radius:16px;background:var(--card);border:1px solid var(--line2)}
+  .ben .i{font-size:20px;line-height:1}
+  .ben b{display:block;margin:7px 0 2px;font-size:14px}
+  .ben span{font-size:12.5px;color:var(--muted);display:block;line-height:1.45}
+  .notice{display:flex;gap:10px;padding:13px 14px;border-radius:16px;background:rgba(245,185,66,.09);border:1px solid rgba(245,185,66,.4);margin:14px 0 0;font-size:14px}
+  .notice b{color:var(--warn)} .notice .ico{font-size:18px;line-height:1.2}
+  .cards{display:grid;gap:11px}
+  .ex{position:relative;text-align:start;width:100%;border:1.5px solid var(--line2);background:linear-gradient(180deg,var(--card2),var(--card));color:inherit;border-radius:var(--radius);padding:14px;
+    display:grid;grid-template-columns:50px 1fr 24px;gap:13px;align-items:center;font:inherit;cursor:pointer;transition:border-color .18s,box-shadow .18s,transform .1s}
+  .ex:active{transform:scale(.985)}
+  .ex[aria-checked="true"]{border-color:var(--g2);box-shadow:0 0 0 1px rgba(224,180,58,.35),0 8px 28px rgba(224,180,58,.12)}
+  .mono{width:50px;height:50px;border-radius:15px;display:grid;place-items:center;font-weight:800;font-size:21px;color:#fff;flex:none}
+  .mono.nob{background:linear-gradient(135deg,#2f6bff,#8b45f0)} .mono.tob{background:linear-gradient(135deg,#0ea5c6,#14c98a)}
+  .ex .name{font-weight:700;font-size:16.5px}
+  .ex .aud{font-size:12.5px;font-weight:700;color:var(--g1);margin:1px 0 4px}
+  .ex .desc{font-size:12.8px;color:var(--muted);line-height:1.45}
+  .ex .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .chip{font-size:11.5px;padding:2px 9px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line2);color:var(--muted)}
+  .radio{width:24px;height:24px;border-radius:50%;border:2px solid rgba(255,255,255,.22);display:grid;place-items:center;align-self:start;margin-top:2px}
+  .ex[aria-checked="true"] .radio{border-color:var(--g2);background:var(--gold)}
+  .ex[aria-checked="true"] .radio::after{content:"";width:9px;height:9px;border-radius:50%;background:#1a1405}
+  .check{display:grid;grid-template-columns:22px 1fr;gap:11px;align-items:start;cursor:pointer;font-size:14px}
+  .check input{width:20px;height:20px;margin:1px 0 0;accent-color:#e0b43a}
+  .steps{list-style:none;margin:0;padding:0;display:grid;gap:0}
+  .steps li{display:grid;grid-template-columns:34px 1fr;gap:12px;font-size:14px;position:relative;padding-bottom:16px}
+  .steps li:last-child{padding-bottom:0}
+  .steps li::before{content:attr(data-n);width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:13px;color:#1a1405;background:var(--gold);z-index:1}
+  .steps li::after{content:"";position:absolute;top:30px;bottom:0;inset-inline-start:14.5px;width:1px;background:linear-gradient(var(--g3),transparent)}
+  .steps li:last-child::after{display:none}
+  .steps small{display:block;color:var(--muted);font-size:12.8px;margin-top:1px}
+  .kv{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid var(--line2);font-size:14px}
+  .kv:first-child{border-top:0} .kv span:first-child{color:var(--muted)} .kv span:last-child{font-weight:600;text-align:end}
+  .sec{display:grid;gap:11px;margin:0;padding:0;list-style:none;font-size:13.8px}
+  .sec li{display:grid;grid-template-columns:24px 1fr;gap:9px}
+  .sec b{color:var(--g1)}
+  details{border:1px solid var(--line2);background:var(--card);border-radius:14px;padding:0 14px;margin-bottom:9px}
+  summary{cursor:pointer;list-style:none;padding:13px 0;font-weight:600;font-size:14px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--g2);font-size:20px;line-height:1;font-weight:400;transition:transform .2s}
+  details[open] summary::after{transform:rotate(45deg)}
+  details p{margin:0 0 13px;color:var(--muted);font-size:13.5px}
+  .locked{text-align:center;padding:20px 16px 8px}
+  .locked .mono{margin:0 auto 10px;width:66px;height:66px;font-size:30px;border-radius:21px}
+  .locked h3{margin:8px 0 2px;font-size:22px}
+  .locked .sub{color:var(--muted);font-size:13px}
+  .badge{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;border-radius:999px;font-size:12.5px;font-weight:700;border:1px solid var(--line);background:rgba(224,180,58,.08);color:var(--g1)}
+  .bar{position:fixed;left:0;right:0;bottom:0;padding:14px 16px calc(14px + env(safe-area-inset-bottom));background:linear-gradient(to top,var(--bg) 68%,transparent);z-index:5}
+  .bar .in{max-width:560px;margin:0 auto}
+  .btn{position:relative;overflow:hidden;width:100%;border:0;border-radius:16px;padding:16px;font:inherit;font-weight:800;font-size:16px;cursor:pointer;color:#1a1405;background:var(--gold);
+    box-shadow:0 8px 26px rgba(224,180,58,.28);transition:opacity .15s,transform .1s,box-shadow .2s}
+  .btn:not([disabled])::after{content:"";position:absolute;top:0;bottom:0;width:60px;left:-80px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);animation:shine 3.8s ease-in-out infinite}
+  @keyframes shine{0%,55%{left:-80px}100%{left:120%}}
+  .btn:active{transform:scale(.985)} .btn[disabled]{opacity:.35;cursor:not-allowed;box-shadow:none}
+  .hint{text-align:center;color:var(--muted);font-size:12.5px;margin-top:8px;min-height:18px}
+  .hidden{display:none !important}
+  .foot{text-align:center;margin-top:26px;color:var(--dim);font-size:12px;line-height:1.6}
+  .foot b{display:block;color:var(--g2);letter-spacing:.18em;font-size:11px;text-transform:uppercase;margin-bottom:5px}
+  html[dir=rtl] .foot b{letter-spacing:0;font-size:12px}
+  .skeleton{padding:80px 0;text-align:center;color:var(--muted)}
+  .fade{animation:fade .35s ease both} @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  @media (max-width:360px){.grid2{grid-template-columns:1fr}}
+  @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+</style>
+</head>
+<body>
+<div class="wrap"><div id="app"><div class="skeleton">…</div></div></div>
+<div class="bar hidden" id="bar"><div class="in"><button class="btn" id="cta" type="button" disabled></button><div class="hint" id="hint"></div></div></div>
+<noscript><div style="padding:30px;text-align:center;color:#a8a191">Please open this page inside Telegram · این صفحه را داخل تلگرام باز کنید</div></noscript>
+<script>
+(function () {
+  "use strict";
+  var LOGO = "data:image/webp;base64,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";
+  var tg = null;   // set by initTg() when the (async) Telegram script is ready - the page never waits for it
+  var q = new URLSearchParams(location.search);
+  var safeName = function (v) { return /^[A-Za-z0-9_]{4,64}$/.test(v || "") ? v : ""; };
+  var BOTS = { nobitex: safeName(q.get("nob")) || "TIC2TICbot", toobit: safeName(q.get("tob")) || "TIC2TBTbot" };
+  var CODE = { nobitex: "nob", toobit: "tob" };
+  var LET = { nobitex: "N", toobit: "T" };
+  var T = {
+    en: {
+      dir: "ltr", sw: "فارسی", title: "Auto Trading", tag: "Exclusive. Accurate. Profitable.",
+      leadChoose: "Let a trading bot place the channel's signals for you — on your own exchange account, with your own risk settings.",
+      leadLocked: "Your auto-trading is set up. Continue in your exchange bot.",
+      active: "Active subscriber", incl: "Included · no extra fee", left: "left", dayOne: "day", dayMany: "days",
+      hWhy: "Why Auto Trading", hPick: "Choose your exchange", hConfirm: "Confirm", hHow: "How it works", hSec: "Security & your funds", hFaq: "Details",
+      b1t: "Hands-free execution", b1d: "Entry, stop-loss and 4 targets are placed for you the moment a signal fires.",
+      b2t: "Built-in protection", b2d: "Every trade carries a stop-loss; targets and trailing runner are managed automatically.",
+      b3t: "Your risk, your rules", b3d: "Set risk, leverage and trade count. A daily loss cap keeps a bad day small.",
+      b4t: "Always included", b4d: "Part of your subscription — active exactly as long as your subscription is.",
+      nob: "Nobitex", tob: "Toobit", nobAud: "For Persian speakers", tobAud: "For English speakers",
+      nobDesc: "Iranian exchange with USDT futures. The auto-trade bot speaks Persian.", tobDesc: "Global exchange with USDT-M perpetual futures. The auto-trade bot speaks English.",
+      nobC1: "🇮🇷 Persian bot", nobC2: "USDT futures", tobC1: "🌐 English bot", tobC2: "USDT-M perpetuals",
+      warn: "<b>One exchange only.</b> Auto trading works on a single exchange — never both. Once you confirm, <b>only the admin can change it.</b>",
+      ack: "I understand I can use <b>one exchange only</b> and that only the admin can change it later.",
+      fine: "You will confirm once more in the chat, then connect your API key inside the exchange bot.",
+      pick: "Choose an exchange", cont: "Continue with ", hintPick: "Pick the exchange you actually trade on.", hintAck: "Tick the confirmation to continue.",
+      fromMenu: "Please open this page from the bot's menu.",
+      h1: "Choose one exchange", h1d: "Pick where you trade. You will confirm once more in the chat.",
+      h2: "Accept the terms", h2d: "Open the exchange bot and read the terms once — about a minute.",
+      h3: "Connect your API key", h3d: "Permissions: <b>Read + Trade only</b>. Never enable Withdraw.",
+      h4: "Set your risk", h4d: "The bot suggests safe settings based on your budget. Then trading runs by itself.",
+      s1: "<b>Trade-only keys.</b> The bot asks for Read and Trade permission only and can never withdraw.",
+      s2: "<b>Funds stay with you.</b> Money never leaves your own exchange account.",
+      s3: "<b>Encrypted storage.</b> Your key is stored encrypted and you can disconnect it at any moment.",
+      s4: "<b>Protected trades.</b> If your subscription ends, open trades stay protected and keys are removed once nothing is open.",
+      s5: "<b>Verified identity.</b> Access is checked against your subscription on the server — this page cannot grant access by itself.",
+      f1q: "Is there an extra fee?", f1a: "No. Auto trading is included with your active subscription. It runs exactly as long as your subscription does.",
+      f2q: "Can I use both exchanges?", f2a: "No. One member can use one exchange only. Choose the one you actually trade on.",
+      f3q: "Can I switch exchange later?", f3a: "Only the admin can move you to the other exchange. Message the admin through Support and it is done in one tap.",
+      f4q: "What happens when my subscription ends?", f4a: "No new trades are opened. Trades that are already open keep their stop-loss and targets and are managed to the end. Renew and everything resumes.",
+      f5q: "Which API permissions are needed?", f5a: "Read and Trade only. Never enable Withdraw — a key with withdrawal permission should not be used.",
+      f6q: "Is profit guaranteed?", f6a: "No. Trading involves risk and losses can happen. The system applies strict risk rules, but results are never guaranteed — trade only with money you can afford to risk.",
+      assigned: "🔒 Assigned to you", kEx: "Exchange", kFee: "Fee", feeV: "Included", kSub: "Subscription", kBot: "Bot", kStat: "Status", statV: "Assigned",
+      lockNote: "Your account works on <b>{x}</b> only. To switch exchange, ask the admin through <b>Support</b>.", openBot: "Open {x} bot",
+      closedT: "Temporarily unavailable", closedB: "New activations are closed for now.", closedS: "Please check back soon — your subscription is not affected.",
+      risk: "Trading carries risk. Past results do not guarantee future profit."
+    },
+    fa: {
+      dir: "rtl", sw: "English", title: "ترید خودکار", tag: "اختصاصی. دقیق. سودآور.",
+      leadChoose: "اجازه دهید ربات، سیگنال‌های کانال را برای شما معامله کند — روی حساب خودتان و با تنظیمات ریسک خودتان.",
+      leadLocked: "ترید خودکار شما فعال شده است. ادامه را در ربات صرافی انجام دهید.",
+      active: "مشترک فعال", incl: "شامل اشتراک · بدون هزینه‌ی جدا", left: "مانده", dayOne: "روز", dayMany: "روز",
+      hWhy: "چرا ترید خودکار", hPick: "صرافی خود را انتخاب کنید", hConfirm: "تأیید", hHow: "چطور کار می‌کند", hSec: "امنیت و دارایی شما", hFaq: "جزئیات",
+      b1t: "اجرای خودکار", b1d: "ورود، حد ضرر و ۴ تارگت همان لحظه‌ی صدور سیگنال برای شما ثبت می‌شود.",
+      b2t: "محافظت داخلی", b2d: "هر معامله حد ضرر دارد؛ تارگت‌ها و رانر متحرک خودکار مدیریت می‌شوند.",
+      b3t: "ریسک با شما", b3d: "ریسک، اهرم و تعداد معاملات را خودتان تعیین می‌کنید. سقف ضرر روزانه هم دارید.",
+      b4t: "همیشه شامل اشتراک", b4d: "جزو اشتراک شماست و دقیقاً تا زمانی که اشتراک فعال است، روشن می‌ماند.",
+      nob: "نوبیتکس", tob: "توبیت", nobAud: "مخصوص فارسی‌زبانان", tobAud: "مخصوص انگلیسی‌زبانان",
+      nobDesc: "صرافی ایرانی با فیوچرز USDT. ربات ترید خودکار کاملاً فارسی است.", tobDesc: "صرافی جهانی با فیوچرز دائمی USDT-M. ربات ترید خودکار انگلیسی است.",
+      nobC1: "🇮🇷 ربات فارسی", nobC2: "فیوچرز USDT", tobC1: "🌐 ربات انگلیسی", tobC2: "فیوچرز دائمی USDT-M",
+      warn: "<b>فقط یک صرافی.</b> ترید خودکار فقط روی یک صرافی کار می‌کند — هرگز هر دو. بعد از تأیید، <b>فقط ادمین می‌تواند آن را تغییر دهد.</b>",
+      ack: "می‌دانم که فقط <b>روی یک صرافی</b> می‌توانم فعال باشم و تغییر آن فقط با ادمین است.",
+      fine: "یک‌بار دیگر در چت تأیید می‌کنید و بعد کلید API را داخل ربات صرافی وصل می‌کنید.",
+      pick: "یک صرافی انتخاب کنید", cont: "ادامه با ", hintPick: "صرافی‌ای را که واقعاً در آن معامله می‌کنید انتخاب کنید.", hintAck: "برای ادامه، تیک تأیید را بزنید.",
+      fromMenu: "لطفاً این صفحه را از منوی ربات باز کنید.",
+      h1: "یک صرافی انتخاب کنید", h1d: "صرافی‌ای که در آن معامله می‌کنید را بزنید. یک‌بار دیگر در چت تأیید می‌کنید.",
+      h2: "پذیرش شرایط", h2d: "ربات صرافی را باز کنید و شرایط را یک‌بار بخوانید — حدود یک دقیقه.",
+      h3: "اتصال کلید API", h3d: "دسترسی: <b>فقط Read + Trade</b>. هرگز Withdraw را فعال نکنید.",
+      h4: "تنظیم ریسک", h4d: "ربات از روی بودجه‌تان تنظیمات امن پیشنهاد می‌دهد؛ بعد معامله خودکار انجام می‌شود.",
+      s1: "<b>کلید فقط برای معامله.</b> ربات فقط دسترسی خواندن و معامله می‌خواهد و هرگز برداشت نمی‌کند.",
+      s2: "<b>پول پیش خودتان می‌ماند.</b> دارایی هرگز از حساب صرافی خودتان خارج نمی‌شود.",
+      s3: "<b>ذخیره‌ی رمزنگاری‌شده.</b> کلید شما رمزنگاری‌شده نگه‌داری می‌شود و هر لحظه می‌توانید آن را قطع کنید.",
+      s4: "<b>معاملات محافظت‌شده.</b> با پایان اشتراک، معاملات باز محافظت می‌شوند و بعد از بسته‌شدن همه، کلید پاک می‌شود.",
+      s5: "<b>تأیید سمت سرور.</b> دسترسی بر اساس اشتراک شما در سرور بررسی می‌شود — این صفحه به‌تنهایی دسترسی نمی‌دهد.",
+      f1q: "هزینه‌ی جداگانه دارد؟", f1a: "خیر. ترید خودکار جزو اشتراک فعال شماست و دقیقاً تا زمانی که اشتراک دارید روشن است.",
+      f2q: "می‌توانم هر دو صرافی را داشته باشم؟", f2a: "خیر. هر عضو فقط روی یک صرافی فعال می‌شود. همان صرافی‌ای را که واقعاً در آن معامله می‌کنید انتخاب کنید.",
+      f3q: "بعداً می‌توانم صرافی را عوض کنم؟", f3a: "فقط ادمین می‌تواند شما را به صرافی دیگر منتقل کند. از بخش پشتیبانی به ادمین پیام بدهید.",
+      f4q: "با پایان اشتراک چه می‌شود؟", f4a: "معامله‌ی جدید باز نمی‌شود. معاملات بازِ قبلی با حد ضرر و تارگت تا پایان مدیریت می‌شوند. با تمدید اشتراک همه‌چیز ادامه پیدا می‌کند.",
+      f5q: "کلید API چه دسترسی‌هایی لازم دارد؟", f5a: "فقط Read و Trade. هرگز Withdraw را فعال نکنید — کلیدی که اجازه‌ی برداشت دارد نباید استفاده شود.",
+      f6q: "سود تضمینی است؟", f6a: "خیر. معامله ریسک دارد و ضرر ممکن است رخ دهد. سیستم قوانین ریسک سخت‌گیرانه دارد ولی نتیجه تضمین نمی‌شود — فقط با پولی که توان ریسکش را دارید معامله کنید.",
+      assigned: "🔒 اختصاص‌یافته به شما", kEx: "صرافی", kFee: "هزینه", feeV: "شامل اشتراک", kSub: "اشتراک", kBot: "ربات", kStat: "وضعیت", statV: "اختصاص داده شد",
+      lockNote: "حساب شما فقط روی <b>{x}</b> کار می‌کند. برای تغییر صرافی از بخش <b>پشتیبانی</b> به ادمین پیام بدهید.", openBot: "باز کردن ربات {x}",
+      closedT: "موقتاً در دسترس نیست", closedB: "فعال‌سازی جدید فعلاً بسته است.", closedS: "کمی بعد دوباره سر بزنید — اشتراک شما تغییری نمی‌کند.",
+      risk: "معامله ریسک دارد. نتایج گذشته سود آینده را تضمین نمی‌کند."
+    }
+  };
+  var me = safeName(q.get("me"));
+  var chosen = BOTS[q.get("ex")] ? q.get("ex") : "";
+  var open = q.get("open") !== "0";
+  var days = Math.max(0, Math.min(3650, parseInt(q.get("d") || "0", 10) || 0));
+  var selected = "";
+  var lang = "en";
+  var $ = function (id) { return document.getElementById(id); };
+  var app = $("app"), bar = $("bar"), cta = $("cta"), hint = $("hint");
+
+  var langLocked = false;
+  (function pickLang() {
+    var saved = ""; try { saved = localStorage.getItem("at_lang") || ""; } catch (e) {}
+    langLocked = chosen === "nobitex" || q.get("lg") === "fa" || q.get("lg") === "en" || saved === "fa" || saved === "en";
+    lang = chosen === "nobitex" ? "fa" : (q.get("lg") === "fa" ? "fa" : (saved === "fa" || saved === "en" ? saved : "en"));
+  })();
+
+  function initTg() {
+    if (tg || !(window.Telegram && window.Telegram.WebApp)) return;
+    tg = window.Telegram.WebApp;
+    try {
+      tg.ready(); tg.expand();
+      tg.disableVerticalSwipes && tg.disableVerticalSwipes();
+      tg.setHeaderColor && tg.setHeaderColor("#07070a");
+      tg.setBackgroundColor && tg.setBackgroundColor("#07070a");
+      tg.setBottomBarColor && tg.setBottomBarColor("#07070a");
+    } catch (e) {}
+    try {
+      var tgl = ((tg.initDataUnsafe && tg.initDataUnsafe.user && tg.initDataUnsafe.user.language_code) || "").toLowerCase();
+      if (!langLocked && !selected && tgl.indexOf("fa") === 0 && lang !== "fa") { lang = "fa"; render(); }
+    } catch (e) {}
+  }
+  function tap(kind) { try { tg && tg.HapticFeedback && tg.HapticFeedback.impactOccurred(kind || "light"); } catch (e) {} }
+  function link(url) { if (tg && tg.openTelegramLink) { tg.openTelegramLink(url); } else { window.open(url, "_blank", "noopener"); } }
+  function X() { return T[lang]; }
+  function num(n) { return lang === "fa" ? String(n).replace(/\d/g, function (d) { return "۰۱۲۳۴۵۶۷۸۹"[d]; }) : String(n); }
+
+  function hero(lead, pills) {
+    var x = X();
+    var sw = chosen === "nobitex" ? "" : '<button id="lang" class="langbtn" type="button">' + x.sw + '</button>';
+    return '<div class="top">' + sw + '</div><div class="hero fade"><img class="logo" alt="TC · Trade is cool" src="' + LOGO + '" width="116" height="116">' +
+      '<h1>' + x.title + '</h1><p class="tag">' + x.tag + '</p><p class="lead">' + lead + '</p><div class="pills">' + pills + '</div></div>';
+  }
+  function pillsHtml() {
+    var x = X();
+    var dl = days > 0 ? ' · ' + num(days) + ' ' + (days === 1 ? x.dayOne : x.dayMany) + ' ' + x.left : "";
+    return '<span class="pill ok">✅ ' + x.active + dl + '</span><span class="pill">🎁 ' + x.incl + '</span>';
+  }
+  function bindLang() {
+    var b = $("lang");
+    if (b) b.onclick = function () { lang = lang === "fa" ? "en" : "fa"; try { localStorage.setItem("at_lang", lang); } catch (e) {} tap(); render(); window.scrollTo(0, 0); };
+  }
+  function faq() {
+    var x = X(), out = "";
+    for (var i = 1; i <= 6; i++) out += "<details><summary>" + x["f" + i + "q"] + "</summary><p>" + x["f" + i + "a"] + "</p></details>";
+    return out;
+  }
+  function security() {
+    var x = X();
+    return '<div class="panel"><ul class="sec"><li><span>🔑</span><span>' + x.s1 + '</span></li><li><span>🏦</span><span>' + x.s2 + '</span></li><li><span>🔐</span><span>' + x.s3 +
+      '</span></li><li><span>🛡</span><span>' + x.s4 + '</span></li><li><span>✔️</span><span>' + x.s5 + '</span></li></ul></div>';
+  }
+  function steps() {
+    var x = X();
+    return '<div class="panel"><ol class="steps">' + [1, 2, 3, 4].map(function (i) {
+      return '<li data-n="' + num(i) + '"><div><b>' + x["h" + i] + '</b><small>' + x["h" + i + "d"] + '</small></div></li>';
+    }).join("") + '</ol></div>';
+  }
+  function benefits() {
+    var x = X();
+    var it = [["⚡", "b1"], ["🛡", "b2"], ["🎛", "b3"], ["🎁", "b4"]];
+    return '<div class="grid2">' + it.map(function (a) {
+      return '<div class="ben"><div class="i">' + a[0] + '</div><b>' + x[a[1] + "t"] + '</b><span>' + x[a[1] + "d"] + '</span></div>';
+    }).join("") + '</div>';
+  }
+  function foot() { var x = X(); return '<div class="foot"><b>' + x.tag + '</b>' + x.risk + '</div>'; }
+
+  function renderChoose() {
+    var x = X();
+    var cards = ["nobitex", "toobit"].map(function (k) {
+      var c = CODE[k];
+      return '<button class="ex" type="button" role="radio" aria-checked="false" data-ex="' + k + '">' +
+        '<div class="mono ' + c + '">' + LET[k] + '</div><div><div class="name">' + x[c] + '</div><div class="aud">' + x[c + "Aud"] + '</div><div class="desc">' + x[c + "Desc"] + '</div>' +
+        '<div class="meta"><span class="chip">' + x[c + "C1"] + '</span><span class="chip">' + x[c + "C2"] + '</span></div></div><div class="radio"></div></button>';
+    }).join("");
+    app.innerHTML = hero(x.leadChoose, pillsHtml()) +
+      '<h2>' + x.hWhy + '</h2>' + benefits() +
+      '<h2>' + x.hHow + '</h2>' + steps() +
+      '<h2>' + x.hPick + '</h2><div class="cards" role="radiogroup">' + cards + '</div>' +
+      '<div class="notice"><span class="ico">⚠️</span><div>' + x.warn + '</div></div>' +
+      '<h2>' + x.hConfirm + '</h2><div class="panel"><label class="check"><input type="checkbox" id="ack"><span>' + x.ack + '</span></label></div>' +
+      '<h2>' + x.hSec + '</h2>' + security() +
+      '<h2>' + x.hFaq + '</h2>' + faq() + foot();
+    bar.classList.remove("hidden");
+    var cards_ = app.querySelectorAll(".ex"), ack = $("ack");
+    function sync() {
+      cards_.forEach(function (c) { c.setAttribute("aria-checked", c.dataset.ex === selected ? "true" : "false"); });
+      cta.disabled = !(selected && ack.checked);
+      cta.textContent = selected ? x.cont + x[CODE[selected]] : x.pick;
+      hint.textContent = !selected ? x.hintPick : (!ack.checked ? x.hintAck : x.fine);
+    }
+    cards_.forEach(function (c) { c.addEventListener("click", function () { selected = c.dataset.ex; tap(); sync(); }); });
+    ack.addEventListener("change", function () { tap(); sync(); });
+    cta.onclick = function () {
+      if (cta.disabled) return;
+      if (!me) { hint.textContent = x.fromMenu; return; }
+      tap("medium");
+      link("https://t.me/" + me + "?start=atsel_" + CODE[selected]);
+      if (tg && tg.close) { setTimeout(function () { tg.close(); }, 250); }
+    };
+    sync(); bindLang();
+  }
+
+  function renderLocked() {
+    var x = X(), c = CODE[chosen], name = x[c], bot = BOTS[chosen];
+    var dl = days > 0 ? '<div class="kv"><span>' + x.kSub + '</span><span>' + num(days) + ' ' + (days === 1 ? x.dayOne : x.dayMany) + ' ' + x.left + '</span></div>' : '';
+    app.innerHTML = hero(x.leadLocked, pillsHtml()) +
+      '<div class="panel locked fade"><div class="mono ' + c + '">' + LET[chosen] + '</div><span class="badge">' + x.assigned + '</span><h3>' + name + '</h3><div class="sub">' + x[c + "Aud"] + '</div>' +
+      '<div style="margin-top:12px;text-align:start"><div class="kv"><span>' + x.kEx + '</span><span>' + name + '</span></div>' +
+      '<div class="kv"><span>' + x.kBot + '</span><span dir="ltr">@' + bot + '</span></div>' +
+      '<div class="kv"><span>' + x.kFee + '</span><span>' + x.feeV + '</span></div>' + dl +
+      '<div class="kv"><span>' + x.kStat + '</span><span>' + x.statV + '</span></div></div></div>' +
+      '<div class="notice"><span class="ico">🔒</span><div>' + x.lockNote.replace("{x}", name) + '</div></div>' +
+      '<h2>' + x.hHow + '</h2>' + steps() +
+      '<h2>' + x.hSec + '</h2>' + security() +
+      '<h2>' + x.hFaq + '</h2>' + faq() + foot();
+    bar.classList.remove("hidden");
+    cta.disabled = false; cta.textContent = x.openBot.replace("{x}", name); hint.textContent = "\u2066@" + bot + "\u2069";
+    cta.onclick = function () { tap("medium"); link("https://t.me/" + bot); };
+    bindLang();
+  }
+
+  function renderClosed() {
+    var x = X();
+    app.innerHTML = hero(x.closedT, "") + '<div class="panel fade"><b>' + x.closedB + '</b><div style="color:var(--muted);margin-top:6px;font-size:13.5px">' + x.closedS + '</div></div>' + foot();
+    bar.classList.add("hidden");
+    bindLang();
+  }
+
+  function render() {
+    document.documentElement.lang = lang; document.documentElement.dir = X().dir;
+    if (chosen) renderLocked(); else if (!open) renderClosed(); else renderChoose();
+  }
+  render();
+  initTg();
+  var tgs = document.getElementById("tgs");
+  if (tgs) tgs.addEventListener("load", initTg);
+  setTimeout(initTg, 1500);
+})();
+</script>
+</body>
+</html>
