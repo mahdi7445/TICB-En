@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "ARB",
-    "tf_label": "15M",
-    "entry": 0.1714,
-    "level": 2,
-    "result_r": 0.0,
-    "source_signal_id": "ALT-000338",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T05:13:28.987379+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "SOL",
     "tf_label": "15M",
     "entry": 102.51,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T09:49:40.838458+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 636.32,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000636",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T10:19:11.227365+00:00"
   }
 ]
