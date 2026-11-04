@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "NEAR",
-    "tf_label": "15M",
-    "entry": 4.636,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000342",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T07:31:11.345601+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "BNB",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T13:51:00.446748+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 7.67,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000644",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T14:06:03.048428+00:00"
   }
 ]
