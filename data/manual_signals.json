@@ -7258,5 +7258,19 @@
     "source_signal_id": "ALT-000631",
     "signal_message_id": 3141,
     "reject_reason": "duplicate of already-open trade 'MANUAL|src-ALT-000628' (same symbol/side, similar entry, opened recently)"
+  },
+  {
+    "id": "src-ALT-000633",
+    "symbol": "TIA/USD",
+    "side": "BUY",
+    "entry": 0.4508,
+    "sl": 0.4498,
+    "status": "pending",
+    "created_at": 1793778295,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000633",
+    "signal_message_id": 3151
   }
 ]
