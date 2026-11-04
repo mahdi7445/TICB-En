@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "ZEC",
-    "tf_label": "5M",
-    "entry": 1218.89,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000317",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T22:03:02.395421+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "FIL",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T01:29:41.887014+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 623.58,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000608",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T01:43:38.461177+00:00"
   }
 ]
