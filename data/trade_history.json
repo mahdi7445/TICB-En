@@ -24565,5 +24565,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000610",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-04T01:50:45.237092+00:00",
+        "price": 0.8768
+      },
+      {
+        "type": "stop",
+        "ts": "2026-11-04T01:58:57.541172+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-04T01:58:57.543620+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "SUI/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "SELL",
+    "entry": 0.8768,
+    "sl": 0.8789,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-11-04T01:50:45.237000+00:00",
+    "closed_at": "2026-11-04T01:58:57.543620+00:00",
+    "r_pct": 0.2395,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
