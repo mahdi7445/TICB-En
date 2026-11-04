@@ -7648,5 +7648,19 @@
     "source_signal_id": "ALT-000659",
     "signal_message_id": 3240,
     "activated_at": "2026-11-04T16:05:58.961353+00:00"
+  },
+  {
+    "id": "src-ALT-000660",
+    "symbol": "SEI/USD",
+    "side": "SELL",
+    "entry": 0.05026,
+    "sl": 0.05039,
+    "status": "pending",
+    "created_at": 1793808762,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000660",
+    "signal_message_id": 3241
   }
 ]
