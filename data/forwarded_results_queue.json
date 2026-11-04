@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "JUP",
-    "tf_label": "5M",
-    "entry": 0.2979,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000322",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T00:25:35.606058+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ARB",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T04:05:55.355165+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AAVE",
+    "tf_label": "15M",
+    "entry": 124.63,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000614",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T04:14:00.092718+00:00"
   }
 ]
