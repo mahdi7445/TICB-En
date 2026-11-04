@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "TAO",
-    "tf_label": "15M",
-    "entry": 251.49,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000371",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T17:15:06.341892+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "TAO",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T22:12:35.672643+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 7.703,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000670",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T23:34:18.232393+00:00"
   }
 ]
