@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "UNI",
-    "tf_label": "5M",
-    "entry": 6.923,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000320",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T00:17:10.032168+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ARB",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T03:09:08.160512+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ATOM",
+    "tf_label": "15M",
+    "entry": 1.388,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000617",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T03:29:38.015543+00:00"
   }
 ]
