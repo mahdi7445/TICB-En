@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "DOGE",
-    "tf_label": "5M",
-    "entry": 0.07669,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000369",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T14:56:26.347235+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ATOM",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T18:41:58.152537+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARB",
+    "tf_label": "5M",
+    "entry": 0.1634,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000664",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T19:54:10.647679+00:00"
   }
 ]
