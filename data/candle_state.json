@@ -34526,7 +34526,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ARB/USD",
         "tf_key": "manual",
         "display": "ARB",
@@ -34542,6 +34542,17 @@
             "ts": "2026-11-04T11:20:30.541319+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-04T12:17:22.953414+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T12:17:22.955939+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.6
           }
         ],
         "signal_message_id": 3159,
@@ -34551,7 +34562,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
@@ -34726,7 +34738,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "VVV/USD",
         "tf_key": "manual",
         "display": "VVV",
@@ -34736,6 +34748,17 @@
             "type": "opened",
             "ts": "2026-11-04T11:34:30.526448+00:00",
             "price": 24.07
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-04T12:17:22.968926+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T12:17:22.971039+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3169,
@@ -34745,7 +34768,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -34822,6 +34846,82 @@
           "label": "4H"
         },
         "logical_tf": "4h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000642": {
+      "open_trade": {
+        "signal_id": "ALT-000642",
+        "source_signal_id": "ALT-000642",
+        "side": "SELL",
+        "entry": 8.626,
+        "sl": 8.663,
+        "r": 0.03700000000000081,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "AVAX/USD",
+        "tf_key": "manual",
+        "display": "AVAX",
+        "opened_at_ms": 1793794642917,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T12:17:22.917394+00:00",
+            "price": 8.626
+          }
+        ],
+        "signal_message_id": 3177,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000643": {
+      "open_trade": {
+        "signal_id": "ALT-000643",
+        "source_signal_id": "ALT-000643",
+        "side": "SELL",
+        "entry": 0.09356,
+        "sl": 0.09434,
+        "r": 0.000779999999999989,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "POL/USD",
+        "tf_key": "manual",
+        "display": "POL",
+        "opened_at_ms": 1793794642920,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-04T12:17:22.920117+00:00",
+            "price": 0.09356
+          }
+        ],
+        "signal_message_id": 3178,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
       },
       "hist": []
     }
