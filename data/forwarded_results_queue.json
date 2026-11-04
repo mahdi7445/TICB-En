@@ -1,29 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "PUMP",
-    "tf_label": "1M",
-    "entry": 0.004504,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000310",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T19:11:12.230009+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "5M",
-    "entry": 7.775,
-    "level": 1,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000312",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-23T19:56:07.144277+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "INJ",
     "tf_label": "5M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-03T20:45:45.766177+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.433,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000604",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T01:09:14.715269+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ATOM",
+    "tf_label": "5M",
+    "entry": 1.4054,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000605",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T01:09:15.610003+00:00"
   }
 ]
