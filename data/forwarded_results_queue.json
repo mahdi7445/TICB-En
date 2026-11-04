@@ -2,42 +2,6 @@
   {
     "kind": "stop",
     "ticker": "ADA",
-    "tf_label": "5M",
-    "entry": 0.2092,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000328",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T00:53:00.042676+00:00"
-  },
-  {
-    "kind": "sl_after_t3",
-    "ticker": "ARB",
-    "tf_label": "5M",
-    "entry": 0.1712,
-    "level": null,
-    "result_r": 2.1,
-    "source_signal_id": "ALT-000327",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T01:05:11.401248+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "PEPE",
-    "tf_label": "15M",
-    "entry": 4.521e-06,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000329",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-24T02:33:47.985149+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "ADA",
     "tf_label": "15M",
     "entry": 0.2119,
     "level": null,
@@ -5998,5 +5962,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T05:11:07.353584+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 3.829,
+    "level": 1,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000631",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T05:18:11.376309+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 3.829,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000631",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T05:18:12.268689+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 3.829,
+    "level": null,
+    "result_r": 1.3,
+    "source_signal_id": "ALT-000631",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-04T05:18:12.741182+00:00"
   }
 ]
