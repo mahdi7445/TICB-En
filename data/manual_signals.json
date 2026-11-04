@@ -7543,5 +7543,19 @@
     "source_signal_id": "ALT-000651",
     "signal_message_id": 3191,
     "reject_reason": "duplicate of already-open trade 'MANUAL|src-ALT-000647' (same symbol/side, similar entry, opened recently)"
+  },
+  {
+    "id": "src-ALT-000653",
+    "symbol": "SEI/USD",
+    "side": "BUY",
+    "entry": 0.04883,
+    "sl": 0.04865,
+    "status": "pending",
+    "created_at": 1793800293,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000653",
+    "signal_message_id": 3194
   }
 ]
