@@ -1,0 +1,64 @@
+name: Deploy Mini-App (GitHub Pages)
+
+# مینی‌اپ Auto Trading (پوشه‌ی docs/) یک سایت استاتیک است و برای آنلاین ماندن هیچ ورک‌فلوی همیشه‌روشنی نیاز ندارد.
+# قبلاً Pages به‌صورت «Deploy from a branch» بود و GitHub روی هر push (از جمله کامیت‌های داده‌ی ربات‌ها) یک
+# «pages build and deployment» جدا اجرا می‌کرد ⇒ ده‌ها اجرای پشت‌سرهم. این ورک‌فلو فقط وقتی docs/ تغییر کند
+# (یا دستی) اجرا می‌شود و کامیت‌های data/ هرگز آن را راه نمی‌اندازند.
+# یک‌بار تنظیم لازم: Settings → Pages → Build and deployment → Source = «GitHub Actions».
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: "Stage site (served at BOTH /autotrade/ and /docs/autotrade/)"
+        run: |
+          set -e
+          mkdir -p _site
+          cp -r docs/. _site/
+          # Whichever copy of the page exists in the repo, publish it at BOTH URLs (no physical duplicate required).
+          if [ -f _site/autotrade/index.html ]; then SRC=_site/autotrade/index.html
+          elif [ -f _site/docs/autotrade/index.html ]; then SRC=_site/docs/autotrade/index.html
+          else echo "::error::docs/autotrade/index.html is missing in the repository"; exit 1; fi
+          mkdir -p _site/autotrade _site/docs/autotrade
+          [ "$SRC" = "_site/autotrade/index.html" ] || cp "$SRC" _site/autotrade/index.html
+          [ "$SRC" = "_site/docs/autotrade/index.html" ] || cp "$SRC" _site/docs/autotrade/index.html
+          touch _site/.nojekyll
+          find _site -type f | sort
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
