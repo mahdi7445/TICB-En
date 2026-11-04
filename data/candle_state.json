@@ -34613,7 +34613,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SUI/USD",
         "tf_key": "manual",
         "display": "SUI",
@@ -34623,6 +34623,17 @@
             "type": "opened",
             "ts": "2026-11-04T11:33:42.112708+00:00",
             "price": 0.9139
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-04T12:05:55.574673+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T12:05:55.577158+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3167,
@@ -34632,7 +34643,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -34651,7 +34663,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LTC/USD",
         "tf_key": "manual",
         "display": "LTC",
@@ -34661,6 +34673,17 @@
             "type": "opened",
             "ts": "2026-11-04T11:34:30.523964+00:00",
             "price": 55.0
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-04T12:05:55.590445+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T12:05:55.592583+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3168,
@@ -34670,7 +34693,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
