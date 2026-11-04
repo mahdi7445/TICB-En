@@ -33139,7 +33139,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ATOM/USD",
         "tf_key": "manual",
         "display": "ATOM",
@@ -33149,6 +33149,17 @@
             "type": "opened",
             "ts": "2026-11-04T01:02:03.652743+00:00",
             "price": 1.4054
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-11-04T07:08:57.203085+00:00",
+            "note": "manually closed by admin (final_r=-1.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-04T07:08:57.206505+00:00",
+            "close_type": "admin_override",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3092,
@@ -33160,7 +33171,8 @@
         },
         "logical_tf": "5m",
         "_replay_checked_ms": 1793775932943,
-        "_stale_alert_sent_at_ms": 1793775932943
+        "_stale_alert_sent_at_ms": 1793775932943,
+        "close_type": "admin_override"
       },
       "hist": []
     },
