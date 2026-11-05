@@ -1,17 +1,5 @@
 [
   {
-    "kind": "module_closed",
-    "ticker": "PEPE",
-    "tf_label": "15M",
-    "entry": 4.879e-06,
-    "level": null,
-    "result_r": -0.34,
-    "source_signal_id": "ALT-000441",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T14:24:18.148623+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "LINK",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T23:13:09.721845+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "APT",
+    "tf_label": "5M",
+    "entry": 0.5819,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000725",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T23:48:58.535186+00:00"
   }
 ]
