@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ARB",
-    "tf_label": "15M",
-    "entry": 0.1668,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000388",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T03:10:20.560420+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "SHIB",
     "tf_label": "15M",
     "entry": 4.818e-06,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T10:45:45.243164+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "FIL",
+    "tf_label": "5M",
+    "entry": 0.867,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000676",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T11:15:05.043655+00:00"
   }
 ]
