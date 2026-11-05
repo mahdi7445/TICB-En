@@ -39280,6 +39280,44 @@
         "logical_tf": "1m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000725": {
+      "open_trade": {
+        "signal_id": "ALT-000725",
+        "source_signal_id": "ALT-000725",
+        "side": "SELL",
+        "entry": 0.5819,
+        "sl": 0.5843,
+        "r": 0.0024000000000000687,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "APT/USD",
+        "tf_key": "manual",
+        "display": "APT",
+        "opened_at_ms": 1793922203817,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T23:43:23.817406+00:00",
+            "price": 0.5819
+          }
+        ],
+        "signal_message_id": 3437,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
