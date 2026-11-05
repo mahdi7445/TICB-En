@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "QNT",
-    "tf_label": "5M",
-    "entry": 194.01,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000375",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T21:05:00.056505+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "AVAX",
     "tf_label": "15M",
     "entry": 8.941,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T02:42:43.460224+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 1309.83,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000671",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T02:49:42.201477+00:00"
   }
 ]
