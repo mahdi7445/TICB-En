@@ -1,53 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "SUI",
-    "tf_label": "15M",
-    "entry": 0.9057,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000400",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T08:36:16.669606+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "LDO",
-    "tf_label": "1H",
-    "entry": 0.365,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000379",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T08:43:05.345619+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "POL",
-    "tf_label": "15M",
-    "entry": 0.08892,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000405",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T14:23:30.260840+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "OP",
-    "tf_label": "4H",
-    "entry": 0.1107,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000404",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T15:02:54.488404+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "APT",
     "tf_label": "1H",
@@ -5998,5 +5950,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T15:08:41.866008+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "SUI",
+    "tf_label": "4H",
+    "entry": 0.8733,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000620",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T15:15:11.526424+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AVAX",
+    "tf_label": "4H",
+    "entry": 8.93,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000657",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T15:15:16.664176+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XLM",
+    "tf_label": "4H",
+    "entry": 0.1684,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000658",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T15:15:17.868931+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "15M",
+    "entry": 8.26,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000681",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T15:15:26.610407+00:00"
   }
 ]
