@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ARB",
-    "tf_label": "15M",
-    "entry": 0.1693,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000372",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T23:33:35.757097+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "RENDER",
     "tf_label": "1H",
     "entry": 1.719,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T04:35:51.480567+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "ATOM",
+    "tf_label": "15M",
+    "entry": 1.488,
+    "level": null,
+    "result_r": 3.68,
+    "source_signal_id": "ALT-000672",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T05:04:44.229511+00:00"
   }
 ]
