@@ -7858,5 +7858,19 @@
     "source_signal_id": "ALT-000673",
     "signal_message_id": 3289,
     "activated_at": "2026-11-05T06:05:45.266985+00:00"
+  },
+  {
+    "id": "src-ALT-000674",
+    "symbol": "XLM/USD",
+    "side": "SELL",
+    "entry": 0.1656,
+    "sl": 0.166,
+    "status": "pending",
+    "created_at": 1793866048,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000674",
+    "signal_message_id": 3292
   }
 ]
