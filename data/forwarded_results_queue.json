@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "XMR",
-    "tf_label": "15M",
-    "entry": 589.2,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000391",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T03:02:41.732872+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "AVAX",
     "tf_label": "15M",
     "entry": 8.829,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T06:53:07.159601+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XLM",
+    "tf_label": "5M",
+    "entry": 0.1656,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000674",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T08:14:47.383881+00:00"
   }
 ]
