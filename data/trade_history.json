@@ -28596,5 +28596,56 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000696",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-05T16:44:17.008166+00:00",
+        "price": 0.1098
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-05T16:47:42.326957+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-11-05T16:47:42.327027+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-05T16:47:42.330613+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "CAP/USD",
+    "tf": "manual",
+    "logical_tf": "1m",
+    "side": "SELL",
+    "entry": 0.1098,
+    "sl": 0.1104,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-11-05T16:44:17.008000+00:00",
+    "closed_at": "2026-11-05T16:47:42.330613+00:00",
+    "r_pct": 0.5464,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
