@@ -38255,7 +38255,7 @@
           "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ATOM/USD",
         "tf_key": "manual",
         "display": "ATOM",
@@ -38289,6 +38289,17 @@
             "ts": "2026-11-05T19:51:52.947821+00:00",
             "level_r": 6,
             "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-11-05T20:17:58.599459+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T20:17:58.602133+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.2
           }
         ],
         "signal_message_id": 3378,
@@ -38298,7 +38309,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "runner_stop"
       },
       "hist": []
     },
