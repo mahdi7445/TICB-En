@@ -8412,5 +8412,47 @@
     "silent": true,
     "source_signal_id": "ALT-000710",
     "signal_message_id": 3391
+  },
+  {
+    "id": "src-ALT-000711",
+    "symbol": "HBAR/USD",
+    "side": "BUY",
+    "entry": 0.06771,
+    "sl": 0.06736,
+    "status": "pending",
+    "created_at": 1793907274,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000711",
+    "signal_message_id": 3392
+  },
+  {
+    "id": "src-ALT-000712",
+    "symbol": "ICP/USD",
+    "side": "BUY",
+    "entry": 2.471,
+    "sl": 2.455,
+    "status": "pending",
+    "created_at": 1793907275,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000712",
+    "signal_message_id": 3393
+  },
+  {
+    "id": "src-ALT-000713",
+    "symbol": "SHIB/USD",
+    "side": "BUY",
+    "entry": 4.553e-06,
+    "sl": 4.533e-06,
+    "status": "pending",
+    "created_at": 1793907290,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000713",
+    "signal_message_id": 3394
   }
 ]
