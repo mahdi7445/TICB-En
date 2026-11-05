@@ -38174,7 +38174,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "POL/USD",
         "tf_key": "manual",
         "display": "POL",
@@ -38184,6 +38184,17 @@
             "type": "opened",
             "ts": "2026-11-05T18:23:46.437146+00:00",
             "price": 0.09249
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T19:05:24.634714+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T19:05:24.637485+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3376,
@@ -38193,7 +38204,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -38207,7 +38219,7 @@
         "r": 0.006000000000000005,
         "hit": {
           "1": true,
-          "2": false,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -38227,6 +38239,12 @@
             "type": "rr",
             "ts": "2026-11-05T18:36:53.048913+00:00",
             "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-05T19:05:24.655898+00:00",
+            "level_r": 2,
             "note": "forwarded"
           }
         ],
