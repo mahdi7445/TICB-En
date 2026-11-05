@@ -36177,13 +36177,13 @@
         "sl": 0.35,
         "r": 0.006000000000000005,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LDO/USD",
         "tf_key": "manual",
         "display": "LDO",
@@ -36193,6 +36193,17 @@
             "type": "opened",
             "ts": "2026-11-04T17:52:46.617602+00:00",
             "price": 0.344
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-11-05T06:08:07.198388+00:00",
+            "note": "manually closed by admin (final_r=+0.20)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T06:08:07.202112+00:00",
+            "close_type": "admin_override",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 3258,
@@ -36204,7 +36215,8 @@
         },
         "logical_tf": "15m",
         "_replay_checked_ms": 1793857279121,
-        "_stale_alert_sent_at_ms": 1793836722143
+        "_stale_alert_sent_at_ms": 1793836722143,
+        "close_type": "admin_override"
       },
       "hist": []
     },
