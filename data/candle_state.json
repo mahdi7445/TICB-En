@@ -38472,6 +38472,120 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000711": {
+      "open_trade": {
+        "signal_id": "ALT-000711",
+        "source_signal_id": "ALT-000711",
+        "side": "BUY",
+        "entry": 0.06771,
+        "sl": 0.06736,
+        "r": 0.0003500000000000031,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "HBAR/USD",
+        "tf_key": "manual",
+        "display": "HBAR",
+        "opened_at_ms": 1793907336038,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T19:35:36.038449+00:00",
+            "price": 0.06771
+          }
+        ],
+        "signal_message_id": 3392,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000712": {
+      "open_trade": {
+        "signal_id": "ALT-000712",
+        "source_signal_id": "ALT-000712",
+        "side": "BUY",
+        "entry": 2.471,
+        "sl": 2.455,
+        "r": 0.016000000000000014,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ICP/USD",
+        "tf_key": "manual",
+        "display": "ICP",
+        "opened_at_ms": 1793907336071,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T19:35:36.071634+00:00",
+            "price": 2.471
+          }
+        ],
+        "signal_message_id": 3393,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000713": {
+      "open_trade": {
+        "signal_id": "ALT-000713",
+        "source_signal_id": "ALT-000713",
+        "side": "BUY",
+        "entry": 4.553e-06,
+        "sl": 4.533e-06,
+        "r": 2.0000000000000656e-08,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SHIB/USD",
+        "tf_key": "manual",
+        "display": "SHIB",
+        "opened_at_ms": 1793907336074,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T19:35:36.074758+00:00",
+            "price": 4.553e-06
+          }
+        ],
+        "signal_message_id": 3394,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
