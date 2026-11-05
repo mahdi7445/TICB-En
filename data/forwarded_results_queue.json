@@ -2,18 +2,6 @@
   {
     "kind": "stop",
     "ticker": "DOGE",
-    "tf_label": "1H",
-    "entry": 0.0761,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000354",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-27T17:27:50.643042+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "DOGE",
     "tf_label": "5M",
     "entry": 0.07804,
     "level": null,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T18:28:09.814249+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "INJ",
+    "tf_label": "15M",
+    "entry": 7.957,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000703",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T18:35:12.504658+00:00"
   }
 ]
