@@ -8158,5 +8158,19 @@
     "source_signal_id": "ALT-000693",
     "signal_message_id": 3344,
     "activated_at": "2026-11-05T16:10:30.228707+00:00"
+  },
+  {
+    "id": "src-ALT-000694",
+    "symbol": "LIGHTER/USD",
+    "side": "BUY",
+    "entry": 3.38,
+    "sl": 3.29,
+    "status": "pending",
+    "created_at": 1793895889,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000694",
+    "signal_message_id": 3348
   }
 ]
