@@ -4,18 +4,6 @@
     "ticker": "LINK",
     "tf_label": "15M",
     "entry": 11.555,
-    "level": 4,
-    "result_r": 2.15,
-    "source_signal_id": "ALT-000431",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T02:22:30.444690+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "15M",
-    "entry": 11.555,
     "level": 6,
     "result_r": 2.75,
     "source_signal_id": "ALT-000431",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T19:51:08.268422+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "ATOM",
+    "tf_label": "5M",
+    "entry": 1.412,
+    "level": null,
+    "result_r": 3.2,
+    "source_signal_id": "ALT-000705",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T20:17:11.020796+00:00"
   }
 ]
