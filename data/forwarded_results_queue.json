@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "15M",
-    "entry": 11.555,
-    "level": 6,
-    "result_r": 2.75,
-    "source_signal_id": "ALT-000431",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T02:22:30.869554+00:00"
-  },
-  {
     "kind": "runner_stop",
     "ticker": "LINK",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T20:17:11.020796+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ICP",
+    "tf_label": "15M",
+    "entry": 2.471,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000712",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T20:39:28.785023+00:00"
   }
 ]
