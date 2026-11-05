@@ -1,18 +1,6 @@
 [
   {
     "kind": "breakeven",
-    "ticker": "AAVE",
-    "tf_label": "1H",
-    "entry": 138.53,
-    "level": null,
-    "result_r": 0.7,
-    "source_signal_id": "ALT-000353",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T17:22:19.546739+00:00"
-  },
-  {
-    "kind": "breakeven",
     "ticker": "CAP",
     "tf_label": "5M",
     "entry": 0.102,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-04T23:55:54.811935+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 7.703,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000670",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T00:18:10.225427+00:00"
   }
 ]
