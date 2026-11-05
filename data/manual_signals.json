@@ -8585,12 +8585,13 @@
     "side": "SELL",
     "entry": 0.4134,
     "sl": 0.4172,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793918245,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000722",
-    "signal_message_id": 3426
+    "signal_message_id": 3426,
+    "activated_at": "2026-11-05T22:38:22.683621+00:00"
   }
 ]
