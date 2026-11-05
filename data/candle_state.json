@@ -36983,7 +36983,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ZEC/USD",
         "tf_key": "manual",
         "display": "ZEC",
@@ -36999,6 +36999,17 @@
             "ts": "2026-11-05T13:49:15.249783+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-05T13:57:25.488456+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T13:57:25.491887+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 3308,
@@ -37008,7 +37019,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
@@ -37040,6 +37052,44 @@
           }
         ],
         "signal_message_id": 3310,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000684": {
+      "open_trade": {
+        "signal_id": "ALT-000684",
+        "source_signal_id": "ALT-000684",
+        "side": "SELL",
+        "entry": 0.1943,
+        "sl": 0.1947,
+        "r": 0.00040000000000001146,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ADA/USD",
+        "tf_key": "manual",
+        "display": "ADA",
+        "opened_at_ms": 1793887045429,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T13:57:25.429021+00:00",
+            "price": 0.1943
+          }
+        ],
+        "signal_message_id": 3312,
         "forwarded_tracking": true,
         "manual_tf_cfg": {
           "td_interval": "5min",

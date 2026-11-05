@@ -8015,12 +8015,13 @@
     "side": "SELL",
     "entry": 0.1943,
     "sl": 0.1947,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793886974,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000684",
-    "signal_message_id": 3312
+    "signal_message_id": 3312,
+    "activated_at": "2026-11-05T13:57:25.429042+00:00"
   }
 ]
