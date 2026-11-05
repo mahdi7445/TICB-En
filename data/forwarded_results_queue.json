@@ -1,41 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "XDC",
-    "tf_label": "1H",
-    "entry": 0.03301,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000403",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T20:06:00.599622+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "XRP",
-    "tf_label": "1H",
-    "entry": 1.298,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000409",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T21:05:48.225203+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "ADA",
-    "tf_label": "1H",
-    "entry": 0.2068,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000410",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T21:05:51.394712+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "XRP",
     "tf_label": "1H",
@@ -5998,5 +5962,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T15:58:13.426328+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 8.19,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000691",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T16:23:56.781392+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SHIB",
+    "tf_label": "15M",
+    "entry": 4.47e-06,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000692",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T16:23:57.831215+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "JUP",
+    "tf_label": "15M",
+    "entry": 0.2374,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000693",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T16:23:58.905381+00:00"
   }
 ]
