@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "SUI",
-    "tf_label": "15M",
-    "entry": 0.9088,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000384",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T05:05:20.218735+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "LTC",
     "tf_label": "15M",
     "entry": 56.41,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T14:03:14.733792+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PEPE",
+    "tf_label": "5M",
+    "entry": 4.911e-06,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000683",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T14:10:48.058967+00:00"
   }
 ]
