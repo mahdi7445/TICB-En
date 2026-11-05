@@ -8263,5 +8263,33 @@
     "source_signal_id": "ALT-000700",
     "signal_message_id": 3357,
     "activated_at": "2026-11-05T17:01:39.805650+00:00"
+  },
+  {
+    "id": "src-ALT-000701",
+    "symbol": "LDO/USD",
+    "side": "SELL",
+    "entry": 0.32,
+    "sl": 0.323,
+    "status": "pending",
+    "created_at": 1793898510,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000701",
+    "signal_message_id": 3367
+  },
+  {
+    "id": "src-ALT-000702",
+    "symbol": "ZRO/USD",
+    "side": "SELL",
+    "entry": 1.63,
+    "sl": 1.72,
+    "status": "pending",
+    "created_at": 1793898545,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000702",
+    "signal_message_id": 3368
   }
 ]
