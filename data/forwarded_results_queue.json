@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "ZEC",
-    "tf_label": "4H",
-    "entry": 1143.32,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000358",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-27T12:34:25.415605+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "NEAR",
     "tf_label": "5M",
     "entry": 4.41,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:14:58.785351+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "HBAR",
+    "tf_label": "5M",
+    "entry": 0.06801,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000697",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T17:22:42.697545+00:00"
   }
 ]
