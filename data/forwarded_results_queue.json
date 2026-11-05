@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "AVAX",
-    "tf_label": "15M",
-    "entry": 8.829,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000386",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T03:10:18.573819+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "HBAR",
     "tf_label": "15M",
     "entry": 0.07665,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T08:14:47.383881+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LDO",
+    "tf_label": "15M",
+    "entry": 0.344,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000667",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T09:47:54.092936+00:00"
   }
 ]
