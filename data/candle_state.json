@@ -37672,6 +37672,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000695": {
+      "open_trade": {
+        "signal_id": "ALT-000695",
+        "source_signal_id": "ALT-000695",
+        "side": "SELL",
+        "entry": 0.3475,
+        "sl": 0.3498,
+        "r": 0.0023000000000000242,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "WLD/USD",
+        "tf_key": "manual",
+        "display": "WLD",
+        "opened_at_ms": 1793896811414,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T16:40:11.414674+00:00",
+            "price": 0.3475
+          }
+        ],
+        "signal_message_id": 3349,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
