@@ -28612,7 +28612,7 @@
         "r": 0.004139999999999991,
         "hit": {
           "1": true,
-          "2": false,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -28632,6 +28632,12 @@
             "type": "rr",
             "ts": "2026-10-29T20:50:31.240858+00:00",
             "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-05T23:14:15.784589+00:00",
+            "level_r": 2,
             "note": "forwarded"
           }
         ],
@@ -38121,7 +38127,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ZRO/USD",
         "tf_key": "manual",
         "display": "ZRO",
@@ -38131,6 +38137,17 @@
             "type": "opened",
             "ts": "2026-11-05T17:09:52.966780+00:00",
             "price": 1.63
+          },
+          {
+            "type": "module_closed",
+            "ts": "2026-11-05T23:14:15.784675+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T23:14:15.789268+00:00",
+            "close_type": "module_closed",
+            "final_r": 0.68
           }
         ],
         "signal_message_id": 3368,
@@ -38141,7 +38158,8 @@
           "label": "15M"
         },
         "logical_tf": "15m",
-        "_replay_checked_ms": 1793920354495
+        "_replay_checked_ms": 1793920354495,
+        "close_type": "module_closed"
       },
       "hist": []
     },
@@ -38334,7 +38352,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ARB/USD",
         "tf_key": "manual",
         "display": "ARB",
@@ -38344,6 +38362,17 @@
             "type": "opened",
             "ts": "2026-11-05T18:51:35.631793+00:00",
             "price": 0.1574
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T23:14:15.815323+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T23:14:15.819044+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3382,
@@ -38353,7 +38382,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -39096,8 +39126,8 @@
         "sl": 0.1836,
         "r": 0.0019000000000000128,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -39112,6 +39142,12 @@
             "type": "opened",
             "ts": "2026-11-05T22:10:11.523312+00:00",
             "price": 0.1817
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-05T23:14:15.845150+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3424,
@@ -39134,8 +39170,8 @@
         "sl": 0.4172,
         "r": 0.0038000000000000256,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -39150,6 +39186,12 @@
             "type": "opened",
             "ts": "2026-11-05T22:38:22.683599+00:00",
             "price": 0.4134
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-05T23:14:15.845233+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3426,
