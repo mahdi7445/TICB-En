@@ -37011,6 +37011,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000683": {
+      "open_trade": {
+        "signal_id": "ALT-000683",
+        "source_signal_id": "ALT-000683",
+        "side": "SELL",
+        "entry": 4.911e-06,
+        "sl": 4.933e-06,
+        "r": 2.199999999999996e-08,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "PEPE/USD",
+        "tf_key": "manual",
+        "display": "PEPE",
+        "opened_at_ms": 1793886602977,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T13:50:02.977930+00:00",
+            "price": 4.911e-06
+          }
+        ],
+        "signal_message_id": 3310,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
