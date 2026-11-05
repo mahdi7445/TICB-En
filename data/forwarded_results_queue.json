@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "SHIB",
-    "tf_label": "15M",
-    "entry": 4.818e-06,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000389",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T03:10:21.574995+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "PEPE",
     "tf_label": "15M",
     "entry": 4.248e-06,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T11:15:05.043655+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "BCH",
+    "tf_label": "15M",
+    "entry": 287.43,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000677",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T11:29:28.139488+00:00"
   }
 ]
