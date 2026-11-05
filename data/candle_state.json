@@ -38411,7 +38411,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SEI/USD",
         "tf_key": "manual",
         "display": "SEI",
@@ -38427,6 +38427,17 @@
             "ts": "2026-11-05T19:51:52.947857+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-05T21:02:53.718313+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T21:02:53.745760+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.6
           }
         ],
         "signal_message_id": 3386,
@@ -38436,7 +38447,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
@@ -38631,7 +38643,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SHIB/USD",
         "tf_key": "manual",
         "display": "SHIB",
@@ -38647,6 +38659,17 @@
             "ts": "2026-11-05T19:45:25.580228+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-05T21:02:53.760537+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T21:02:53.762865+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.6
           }
         ],
         "signal_message_id": 3394,
@@ -38656,7 +38679,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
@@ -38751,7 +38775,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "AVAX/USD",
         "tf_key": "manual",
         "display": "AVAX",
@@ -38761,6 +38785,17 @@
             "type": "opened",
             "ts": "2026-11-05T20:33:43.772926+00:00",
             "price": 8.41
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T21:02:53.776846+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T21:02:53.779104+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3406,
@@ -38770,7 +38805,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -38789,7 +38825,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -38799,6 +38835,17 @@
             "type": "opened",
             "ts": "2026-11-05T20:48:33.867457+00:00",
             "price": 0.1851
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T21:02:53.792810+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T21:02:53.795099+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3408,
@@ -38808,7 +38855,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
