@@ -1,56 +1,5 @@
 {
-  "trades": {
-    "TC-000111": {
-      "id": "TC-000111",
-      "module": "TPS",
-      "symbol": "ETH/USD",
-      "tf": "1h",
-      "side": "BUY",
-      "entry": 2423.99,
-      "sl0": 2289.1888290866377,
-      "sl": 2289.1888290866377,
-      "risk": 134.80117091336206,
-      "targets": [
-        2626.1917563700426,
-        2828.393512740086,
-        3097.99585456681,
-        3502.3993673068962
-      ],
-      "levels": [
-        1.5,
-        3.0,
-        5.0,
-        8.0
-      ],
-      "weights": [
-        0.4,
-        0.25,
-        0.15,
-        0.1
-      ],
-      "trail": 2.0,
-      "hit": [
-        false,
-        false,
-        false,
-        false
-      ],
-      "runner_on": false,
-      "best": 2423.99,
-      "status": "open",
-      "opened_ms": 1793808017293,
-      "armed_ms": 1793808017293,
-      "last_ms": 1793891399999,
-      "bar_ms": 1793804400000,
-      "mfe_r": 0.151,
-      "mae_r": 0.9981,
-      "events": [],
-      "tier": "candidate",
-      "profile": "H3",
-      "msg_id": 3237,
-      "polled_ms": 1793891427713
-    }
-  },
+  "trades": {},
   "seen": [],
   "checked": {
     "HDV3|BTC/USD|4h": 1793865600000,

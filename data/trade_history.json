@@ -28227,5 +28227,48 @@
     "ladder": "CLASSIC",
     "trigger": null,
     "hot_move_pct": null
+  },
+  {
+    "signal_id": "TC-000111",
+    "events": [
+      {
+        "type": "stop",
+        "price": 2289.1888290866377,
+        "final_r": -1.0,
+        "ts": "2026-11-05T15:11:26.412407+00:00"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-05T15:11:26.980725+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "1h",
+    "logical_tf": "1h",
+    "side": "BUY",
+    "entry": 2423.99,
+    "sl": 2289.1888290866377,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "stop",
+    "opened_at": "2026-11-04T16:00:17.293000+00:00",
+    "closed_at": "2026-11-05T15:11:26.980725+00:00",
+    "r_pct": 5.5611,
+    "mfe_r": 0.151,
+    "mae_r": 1.0459,
+    "quality_tier": "candidate",
+    "strategy": "module:TPS",
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": 5.5611,
+    "fee_r_est": null,
+    "net_r_est": null,
+    "module": "TPS",
+    "ladder": "H3",
+    "trigger": null,
+    "hot_move_pct": null
   }
 ]
