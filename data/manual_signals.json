@@ -8068,5 +8068,47 @@
     "source_signal_id": "ALT-000687",
     "signal_message_id": 3337,
     "activated_at": "2026-11-05T16:07:00.768435+00:00"
+  },
+  {
+    "id": "src-ALT-000688",
+    "symbol": "LINK/USD",
+    "side": "BUY",
+    "entry": 10.71,
+    "sl": 9.77,
+    "status": "pending",
+    "created_at": 1793894901,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000688",
+    "signal_message_id": 3338
+  },
+  {
+    "id": "src-ALT-000689",
+    "symbol": "BCH/USD",
+    "side": "SELL",
+    "entry": 279.41,
+    "sl": 298.38,
+    "status": "pending",
+    "created_at": 1793894902,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000689",
+    "signal_message_id": 3339
+  },
+  {
+    "id": "src-ALT-000690",
+    "symbol": "AAVE/USD",
+    "side": "BUY",
+    "entry": 123.97,
+    "sl": 112.19,
+    "status": "pending",
+    "created_at": 1793894903,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000690",
+    "signal_message_id": 3340
   }
 ]
