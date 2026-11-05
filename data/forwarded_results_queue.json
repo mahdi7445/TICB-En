@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "CAP",
-    "tf_label": "5M",
-    "entry": 0.102,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000373",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T17:41:45.647428+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "QNT",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T00:18:10.225427+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ATOM",
+    "tf_label": "15M",
+    "entry": 1.488,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000672",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T02:42:43.460224+00:00"
   }
 ]
