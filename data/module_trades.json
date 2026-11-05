@@ -40,15 +40,15 @@
       "status": "open",
       "opened_ms": 1793898912554,
       "armed_ms": 1793898912554,
-      "last_ms": 1793901779999,
+      "last_ms": 1793901839999,
       "bar_ms": 1793898000000,
-      "mfe_r": 0.8389,
+      "mfe_r": 0.852,
       "mae_r": 0.0794,
       "events": [],
       "tier": "orig",
       "profile": "Q1",
       "msg_id": 3370,
-      "polled_ms": 1793901816559
+      "polled_ms": 1793901874171
     }
   },
   "seen": [],
