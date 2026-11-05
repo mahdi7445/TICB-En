@@ -36651,7 +36651,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "APT/USD",
         "tf_key": "manual",
         "display": "APT",
@@ -36661,6 +36661,17 @@
             "type": "opened",
             "ts": "2026-11-05T09:27:43.039949+00:00",
             "price": 0.642
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T10:46:52.601266+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T10:46:52.605424+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3294,
@@ -36670,7 +36681,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
