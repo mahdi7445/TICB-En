@@ -1,65 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "LINK",
-    "tf_label": "4H",
-    "entry": 11.75,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000446",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T12:18:05.393393+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "SUI",
-    "tf_label": "4H",
-    "entry": 0.9389,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000447",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T12:18:06.576125+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "LDO",
-    "tf_label": "4H",
-    "entry": 0.377,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000448",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T12:39:19.037069+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "PEPE",
-    "tf_label": "15M",
-    "entry": 4.853e-06,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000453",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T14:14:47.437166+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "XRP",
-    "tf_label": "5M",
-    "entry": 1.319,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000454",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T14:15:46.439977+00:00"
-  },
-  {
     "kind": "module_closed",
     "ticker": "PEPE",
     "tf_label": "15M",
@@ -5998,5 +5938,65 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T23:05:35.410857+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOGE",
+    "tf_label": "4H",
+    "entry": 0.07917,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000521",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T23:12:45.467223+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "ZRO",
+    "tf_label": "15M",
+    "entry": 1.63,
+    "level": null,
+    "result_r": 0.68,
+    "source_signal_id": "ALT-000702",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T23:13:05.050189+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ARB",
+    "tf_label": "15M",
+    "entry": 0.1574,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000706",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T23:13:06.153709+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.1817,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000721",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T23:13:08.637008+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TIA",
+    "tf_label": "15M",
+    "entry": 0.4134,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000722",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T23:13:09.721845+00:00"
   }
 ]
