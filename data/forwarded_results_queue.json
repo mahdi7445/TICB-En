@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "SHIB",
-    "tf_label": "15M",
-    "entry": 4.808e-06,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000395",
-    "status": "unmatched",
-    "attempts": 120,
-    "queued_at": "2026-10-26T04:19:03.567420+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "OP",
     "tf_label": "15M",
     "entry": 0.11,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T13:41:06.437067+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 1312.76,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000682",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T13:48:05.832227+00:00"
   }
 ]
