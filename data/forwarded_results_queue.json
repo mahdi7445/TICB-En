@@ -1,65 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "LTC",
-    "tf_label": "15M",
-    "entry": 57.16,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000433",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T00:21:19.576524+00:00"
-  },
-  {
-    "kind": "module_closed",
-    "ticker": "ZEC",
-    "tf_label": "15M",
-    "entry": 1296.11,
-    "level": null,
-    "result_r": 0.95,
-    "source_signal_id": "ALT-000427",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T00:35:28.363337+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "PEPE",
-    "tf_label": "4H",
-    "entry": 4.281e-06,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000392",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T01:34:52.540562+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "15M",
-    "entry": 11.555,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000431",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T02:00:40.320065+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "15M",
-    "entry": 11.555,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000431",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T02:09:25.049199+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "LINK",
     "tf_label": "15M",
@@ -5998,5 +5938,65 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T19:44:46.596422+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 613.74,
+    "level": null,
+    "result_r": 1.3,
+    "source_signal_id": "ALT-000699",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T19:50:57.794791+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ATOM",
+    "tf_label": "5M",
+    "entry": 1.412,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000705",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T19:50:59.894267+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SEI",
+    "tf_label": "15M",
+    "entry": 0.04577,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000708",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T19:51:03.531639+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "HBAR",
+    "tf_label": "15M",
+    "entry": 0.06771,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000711",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T19:51:07.033025+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ICP",
+    "tf_label": "15M",
+    "entry": 2.471,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000712",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T19:51:08.268422+00:00"
   }
 ]
