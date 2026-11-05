@@ -7933,5 +7933,19 @@
     "source_signal_id": "ALT-000678",
     "signal_message_id": 3300,
     "activated_at": "2026-11-05T11:18:05.056731+00:00"
+  },
+  {
+    "id": "src-ALT-000679",
+    "symbol": "BCH/USD",
+    "side": "BUY",
+    "entry": 288.99,
+    "sl": 264.42,
+    "status": "pending",
+    "created_at": 1793880521,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000679",
+    "signal_message_id": 3303
   }
 ]
