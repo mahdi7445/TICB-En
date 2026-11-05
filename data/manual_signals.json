@@ -8352,5 +8352,19 @@
     "silent": true,
     "source_signal_id": "ALT-000706",
     "signal_message_id": 3382
+  },
+  {
+    "id": "src-ALT-000707",
+    "symbol": "AAVE/USD",
+    "side": "BUY",
+    "entry": 127.86,
+    "sl": 126.88,
+    "status": "pending",
+    "created_at": 1793904648,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000707",
+    "signal_message_id": 3383
   }
 ]
