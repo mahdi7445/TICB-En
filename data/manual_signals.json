@@ -8307,5 +8307,19 @@
     "silent": true,
     "source_signal_id": "ALT-000703",
     "signal_message_id": 3375
+  },
+  {
+    "id": "src-ALT-000704",
+    "symbol": "POL/USD",
+    "side": "SELL",
+    "entry": 0.09249,
+    "sl": 0.09296,
+    "status": "pending",
+    "created_at": 1793902932,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000704",
+    "signal_message_id": 3376
   }
 ]
