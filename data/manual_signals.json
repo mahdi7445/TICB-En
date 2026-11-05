@@ -7940,12 +7940,13 @@
     "side": "BUY",
     "entry": 288.99,
     "sl": 264.42,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793880521,
     "forwarded_tracking": true,
     "tf_label": "4H",
     "silent": true,
     "source_signal_id": "ALT-000679",
-    "signal_message_id": 3303
+    "signal_message_id": 3303,
+    "activated_at": "2026-11-05T12:09:02.225669+00:00"
   }
 ]
