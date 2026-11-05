@@ -37500,7 +37500,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "AVAX/USD",
         "tf_key": "manual",
         "display": "AVAX",
@@ -37510,6 +37510,17 @@
             "type": "opened",
             "ts": "2026-11-05T16:10:30.222692+00:00",
             "price": 8.19
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T16:24:45.291987+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T16:24:45.294970+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3341,
@@ -37519,7 +37530,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -37538,7 +37550,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SHIB/USD",
         "tf_key": "manual",
         "display": "SHIB",
@@ -37548,6 +37560,17 @@
             "type": "opened",
             "ts": "2026-11-05T16:10:30.225731+00:00",
             "price": 4.47e-06
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T16:24:45.320768+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T16:24:45.323368+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3342,
@@ -37557,7 +37580,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -37576,7 +37600,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "JUP/USD",
         "tf_key": "manual",
         "display": "JUP",
@@ -37586,6 +37610,17 @@
             "type": "opened",
             "ts": "2026-11-05T16:10:30.228698+00:00",
             "price": 0.2374
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T16:24:45.345261+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T16:24:45.347849+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3344,
@@ -37595,7 +37630,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     }
