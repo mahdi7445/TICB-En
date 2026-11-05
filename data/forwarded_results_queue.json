@@ -5899,7 +5899,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000694",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:07:08.214152+00:00"
   },
@@ -5911,7 +5911,7 @@
     "level": 3,
     "result_r": 1.35,
     "source_signal_id": "ALT-000695",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:07:08.905943+00:00"
   },
@@ -5923,7 +5923,7 @@
     "level": 1,
     "result_r": 0.8,
     "source_signal_id": "ALT-000697",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:07:09.979274+00:00"
   },
@@ -5935,7 +5935,7 @@
     "level": 2,
     "result_r": 0.8,
     "source_signal_id": "ALT-000697",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:07:11.090731+00:00"
   },
@@ -5947,7 +5947,7 @@
     "level": 4,
     "result_r": 1.4,
     "source_signal_id": "ALT-000697",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:07:11.427328+00:00"
   },
@@ -5959,7 +5959,7 @@
     "level": 1,
     "result_r": 0.2,
     "source_signal_id": "ALT-000698",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:07:14.184458+00:00"
   },
@@ -5971,7 +5971,7 @@
     "level": 1,
     "result_r": 0.2,
     "source_signal_id": "ALT-000700",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:07:16.451984+00:00"
   },
@@ -5983,7 +5983,7 @@
     "level": 2,
     "result_r": 0.8,
     "source_signal_id": "ALT-000700",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:07:17.117840+00:00"
   },
@@ -5995,7 +5995,7 @@
     "level": 4,
     "result_r": 1.4,
     "source_signal_id": "ALT-000700",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:07:17.462617+00:00"
   }
