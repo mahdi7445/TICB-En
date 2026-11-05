@@ -37710,6 +37710,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000696": {
+      "open_trade": {
+        "signal_id": "ALT-000696",
+        "source_signal_id": "ALT-000696",
+        "side": "SELL",
+        "entry": 0.1098,
+        "sl": 0.1104,
+        "r": 0.0006000000000000033,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "CAP/USD",
+        "tf_key": "manual",
+        "display": "CAP",
+        "opened_at_ms": 1793897057008,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T16:44:17.008166+00:00",
+            "price": 0.1098
+          }
+        ],
+        "signal_message_id": 3350,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
