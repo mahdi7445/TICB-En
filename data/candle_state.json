@@ -37794,7 +37794,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "HBAR/USD",
         "tf_key": "manual",
         "display": "HBAR",
@@ -37822,6 +37822,17 @@
             "ts": "2026-11-05T17:08:19.541053+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-11-05T17:23:16.104009+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T17:23:16.107047+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 3354,
@@ -37831,7 +37842,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
