@@ -37694,13 +37694,13 @@
         "sl": 0.3498,
         "r": 0.0023000000000000242,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "WLD/USD",
         "tf_key": "manual",
         "display": "WLD",
@@ -37710,6 +37710,17 @@
             "type": "opened",
             "ts": "2026-11-05T16:40:11.414674+00:00",
             "price": 0.3475
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-11-05T19:19:17.944789+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T19:19:17.947497+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 1.88
           }
         ],
         "signal_message_id": 3349,
@@ -37719,7 +37730,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
@@ -37919,7 +37931,7 @@
         "r": 4.0499999999999545,
         "hit": {
           "1": true,
-          "2": false,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -37939,6 +37951,12 @@
             "type": "rr",
             "ts": "2026-11-05T18:44:05.495051+00:00",
             "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-05T19:19:17.963452+00:00",
+            "level_r": 2,
             "note": "forwarded"
           }
         ],
@@ -38306,8 +38324,8 @@
         "sl": 126.88,
         "r": 0.980000000000004,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -38322,6 +38340,12 @@
             "type": "opened",
             "ts": "2026-11-05T18:52:23.265398+00:00",
             "price": 127.86
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-05T19:19:17.963500+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3383,
