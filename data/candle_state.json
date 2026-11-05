@@ -36911,7 +36911,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BCH/USD",
         "tf_key": "manual",
         "display": "BCH",
@@ -36921,6 +36921,17 @@
             "type": "opened",
             "ts": "2026-11-05T12:09:02.225647+00:00",
             "price": 288.99
+          },
+          {
+            "type": "opposite_signal",
+            "ts": "2026-11-05T16:09:38.665751+00:00",
+            "price": 279.41
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T16:09:39.198366+00:00",
+            "close_type": "opposite_signal",
+            "final_r": -0.3899063899063894
           }
         ],
         "signal_message_id": 3303,
@@ -36930,7 +36941,9 @@
           "bar_seconds": 14400,
           "label": "4H"
         },
-        "logical_tf": "4h"
+        "logical_tf": "4h",
+        "close_type": "opposite_signal",
+        "final_r_exact": -0.3899063899063894
       },
       "hist": []
     },
@@ -37355,6 +37368,120 @@
           "label": "1H"
         },
         "logical_tf": "1h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000688": {
+      "open_trade": {
+        "signal_id": "ALT-000688",
+        "source_signal_id": "ALT-000688",
+        "side": "BUY",
+        "entry": 10.71,
+        "sl": 9.77,
+        "r": 0.9400000000000013,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "LINK/USD",
+        "tf_key": "manual",
+        "display": "LINK",
+        "opened_at_ms": 1793894978665,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T16:09:38.665566+00:00",
+            "price": 10.71
+          }
+        ],
+        "signal_message_id": 3338,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000689": {
+      "open_trade": {
+        "signal_id": "ALT-000689",
+        "source_signal_id": "ALT-000689",
+        "side": "SELL",
+        "entry": 279.41,
+        "sl": 298.38,
+        "r": 18.96999999999997,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "BCH/USD",
+        "tf_key": "manual",
+        "display": "BCH",
+        "opened_at_ms": 1793894980724,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T16:09:40.724505+00:00",
+            "price": 279.41
+          }
+        ],
+        "signal_message_id": 3339,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000690": {
+      "open_trade": {
+        "signal_id": "ALT-000690",
+        "source_signal_id": "ALT-000690",
+        "side": "BUY",
+        "entry": 123.97,
+        "sl": 112.19,
+        "r": 11.780000000000001,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "AAVE/USD",
+        "tf_key": "manual",
+        "display": "AAVE",
+        "opened_at_ms": 1793894980727,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T16:09:40.727648+00:00",
+            "price": 123.97
+          }
+        ],
+        "signal_message_id": 3340,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
       },
       "hist": []
     }
