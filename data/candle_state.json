@@ -36456,7 +36456,7 @@
           "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
         "closed": false,
@@ -36480,6 +36480,12 @@
             "type": "rr",
             "ts": "2026-11-05T03:19:56.818494+00:00",
             "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-05T04:36:15.221849+00:00",
+            "level_r": 6,
             "note": "forwarded"
           }
         ],
