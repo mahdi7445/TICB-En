@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "UNI",
-    "tf_label": "15M",
-    "entry": 6.87,
-    "level": null,
-    "result_r": 2.25,
-    "source_signal_id": "ALT-000370",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-25T22:53:52.155627+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "ARB",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T03:33:11.915497+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ATOM",
+    "tf_label": "15M",
+    "entry": 1.488,
+    "level": 6,
+    "result_r": 2.75,
+    "source_signal_id": "ALT-000672",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T04:35:51.480567+00:00"
   }
 ]
