@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "APT",
-    "tf_label": "1H",
-    "entry": 0.718,
-    "level": null,
-    "result_r": 0.7,
-    "source_signal_id": "ALT-000344",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T15:10:27.120899+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "TIA",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T15:15:26.610407+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "INJ",
+    "tf_label": "15M",
+    "entry": 8.26,
+    "level": null,
+    "result_r": 2.25,
+    "source_signal_id": "ALT-000681",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T15:23:07.762003+00:00"
   }
 ]
