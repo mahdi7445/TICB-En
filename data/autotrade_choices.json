@@ -19,6 +19,20 @@
           "by": "admin:378486866"
         }
       ]
+    },
+    "8408956752": {
+      "exchange": "toobit",
+      "chosen_at": 1793893397,
+      "chosen_by": "user",
+      "name": "Sahar beauty",
+      "history": [
+        {
+          "ts": 1793893397,
+          "from": null,
+          "to": "toobit",
+          "by": "user"
+        }
+      ]
     }
   },
   "settings": {

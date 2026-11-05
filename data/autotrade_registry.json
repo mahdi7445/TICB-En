@@ -1,14 +1,20 @@
 {
   "version": 1,
   "enabled": true,
-  "generated_at": 1793877403,
+  "generated_at": 1793893397,
   "entries": {
     "7234639636": {
       "exchange": "toobit",
       "status": "active",
       "expiry_ts": 1825243389,
       "chosen_at": 1793707493
+    },
+    "8408956752": {
+      "exchange": "toobit",
+      "status": "active",
+      "expiry_ts": 1825342712,
+      "chosen_at": 1793893397
     }
   },
-  "sig": "27f2043ed00f451629930fea1e86d58f5b06775dbbdfcda39f7263318e68d35d"
+  "sig": "ca4136e2144f9f1b37885f3589f4faae2020c9008bf39369f649f5e8ef378da1"
 }
