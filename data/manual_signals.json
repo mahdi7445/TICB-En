@@ -8548,5 +8548,33 @@
     "source_signal_id": "ALT-000719",
     "signal_message_id": 3421,
     "activated_at": "2026-11-05T22:00:43.099318+00:00"
+  },
+  {
+    "id": "src-ALT-000720",
+    "symbol": "LINK/USD",
+    "side": "SELL",
+    "entry": 10.685,
+    "sl": 10.721,
+    "status": "pending",
+    "created_at": 1793916497,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000720",
+    "signal_message_id": 3423
+  },
+  {
+    "id": "src-ALT-000721",
+    "symbol": "ADA/USD",
+    "side": "SELL",
+    "entry": 0.1817,
+    "sl": 0.1836,
+    "status": "pending",
+    "created_at": 1793916513,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000721",
+    "signal_message_id": 3424
   }
 ]
