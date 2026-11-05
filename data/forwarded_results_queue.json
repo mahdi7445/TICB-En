@@ -1,53 +1,5 @@
 [
   {
-    "kind": "runner_stop",
-    "ticker": "LINK",
-    "tf_label": "15M",
-    "entry": 11.555,
-    "level": null,
-    "result_r": 3.43,
-    "source_signal_id": "ALT-000431",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T02:22:31.662492+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "PONS",
-    "tf_label": "1M",
-    "entry": 0.2921,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000438",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T07:32:42.971641+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "BCH",
-    "tf_label": "15M",
-    "entry": 297.25,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000437",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T07:57:12.710762+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "LDO",
-    "tf_label": "1H",
-    "entry": 0.374,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000434",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T08:20:51.148534+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "LINK",
     "tf_label": "1H",
@@ -5998,5 +5950,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T20:39:28.785023+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "SEI",
+    "tf_label": "15M",
+    "entry": 0.04577,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000708",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T21:01:42.519890+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "SHIB",
+    "tf_label": "15M",
+    "entry": 4.553e-06,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000713",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T21:01:47.256782+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 8.41,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000716",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T21:01:50.901955+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.1851,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000717",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T21:01:52.003356+00:00"
   }
 ]
