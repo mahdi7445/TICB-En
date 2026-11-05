@@ -29183,5 +29183,57 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000712",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-05T19:35:36.071634+00:00",
+        "price": 2.471
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-05T19:51:52.947912+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-11-05T20:40:05.015348+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-05T20:40:05.018394+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.6
+      }
+    ],
+    "symbol": "ICP/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 2.471,
+    "sl": 2.455,
+    "final_r": 0.6,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-11-05T19:35:36.071000+00:00",
+    "closed_at": "2026-11-05T20:40:05.018394+00:00",
+    "r_pct": 0.6475,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
