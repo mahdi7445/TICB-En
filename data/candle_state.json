@@ -37077,7 +37077,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ADA/USD",
         "tf_key": "manual",
         "display": "ADA",
@@ -37087,9 +37087,59 @@
             "type": "opened",
             "ts": "2026-11-05T13:57:25.429021+00:00",
             "price": 0.1943
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T14:04:08.806982+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T14:04:08.809779+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3312,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m",
+        "close_type": "stop"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000685": {
+      "open_trade": {
+        "signal_id": "ALT-000685",
+        "source_signal_id": "ALT-000685",
+        "side": "BUY",
+        "entry": 3.957,
+        "sl": 3.941,
+        "r": 0.016000000000000014,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "NEAR/USD",
+        "tf_key": "manual",
+        "display": "NEAR",
+        "opened_at_ms": 1793887448755,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-05T14:04:08.755654+00:00",
+            "price": 3.957
+          }
+        ],
+        "signal_message_id": 3314,
         "forwarded_tracking": true,
         "manual_tf_cfg": {
           "td_interval": "5min",
