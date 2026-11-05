@@ -8110,5 +8110,47 @@
     "silent": true,
     "source_signal_id": "ALT-000690",
     "signal_message_id": 3340
+  },
+  {
+    "id": "src-ALT-000691",
+    "symbol": "AVAX/USD",
+    "side": "SELL",
+    "entry": 8.19,
+    "sl": 8.35,
+    "status": "pending",
+    "created_at": 1793894960,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000691",
+    "signal_message_id": 3341
+  },
+  {
+    "id": "src-ALT-000692",
+    "symbol": "SHIB/USD",
+    "side": "SELL",
+    "entry": 4.47e-06,
+    "sl": 4.548e-06,
+    "status": "pending",
+    "created_at": 1793894976,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000692",
+    "signal_message_id": 3342
+  },
+  {
+    "id": "src-ALT-000693",
+    "symbol": "JUP/USD",
+    "side": "SELL",
+    "entry": 0.2374,
+    "sl": 0.2425,
+    "status": "pending",
+    "created_at": 1793894987,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000693",
+    "signal_message_id": 3344
   }
 ]
