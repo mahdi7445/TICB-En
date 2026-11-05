@@ -1,30 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "TAO",
-    "tf_label": "15M",
-    "entry": 248.64,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000401",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T08:29:50.372432+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "ALGO",
-    "tf_label": "15M",
-    "entry": 0.1029,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000402",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T08:29:51.361820+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "SUI",
     "tf_label": "15M",
     "entry": 0.9057,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T14:46:08.752113+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "FIL",
+    "tf_label": "4H",
+    "entry": 0.886,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000659",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T15:08:38.515549+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "15M",
+    "entry": 8.26,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000681",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T15:08:41.866008+00:00"
   }
 ]
