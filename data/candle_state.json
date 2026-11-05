@@ -36751,7 +36751,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BCH/USD",
         "tf_key": "manual",
         "display": "BCH",
@@ -36761,6 +36761,17 @@
             "type": "opened",
             "ts": "2026-11-05T10:47:41.083006+00:00",
             "price": 287.43
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-05T11:30:04.434193+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-05T11:30:04.437338+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3298,
@@ -36770,7 +36781,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
