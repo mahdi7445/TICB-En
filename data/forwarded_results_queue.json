@@ -1,41 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "TRX",
-    "tf_label": "1H",
-    "entry": 0.3289,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000415",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-27T20:12:28.150024+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "LINK",
-    "tf_label": "1H",
-    "entry": 11.27,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000420",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-27T21:33:11.130253+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "LINK",
-    "tf_label": "5M",
-    "entry": 11.42,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000425",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-27T21:33:11.978932+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ZEC",
     "tf_label": "15M",
@@ -5998,5 +5962,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T19:04:26.138803+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "WLD",
+    "tf_label": "5M",
+    "entry": 0.3475,
+    "level": null,
+    "result_r": 1.88,
+    "source_signal_id": "ALT-000695",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T19:19:01.323406+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 613.74,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000699",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T19:19:02.162905+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "15M",
+    "entry": 127.86,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000707",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T19:19:06.981942+00:00"
   }
 ]
