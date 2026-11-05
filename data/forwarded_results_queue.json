@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "NEAR",
-    "tf_label": "5M",
-    "entry": 4.41,
-    "level": 4,
-    "result_r": 1.7,
-    "source_signal_id": "ALT-000421",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-27T12:47:58.046450+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "NEAR",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T17:22:42.697545+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SEI",
+    "tf_label": "5M",
+    "entry": 0.04549,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000698",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T17:43:45.510733+00:00"
   }
 ]
