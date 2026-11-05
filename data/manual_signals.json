@@ -8188,5 +8188,19 @@
     "source_signal_id": "ALT-000695",
     "signal_message_id": 3349,
     "activated_at": "2026-11-05T16:40:11.414695+00:00"
+  },
+  {
+    "id": "src-ALT-000696",
+    "symbol": "CAP/USD",
+    "side": "SELL",
+    "entry": 0.1098,
+    "sl": 0.1104,
+    "status": "pending",
+    "created_at": 1793896988,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000696",
+    "signal_message_id": 3350
   }
 ]
