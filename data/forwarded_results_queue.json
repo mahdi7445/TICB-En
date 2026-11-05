@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "PEPE",
-    "tf_label": "15M",
-    "entry": 4.281e-06,
-    "level": null,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000414",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-26T23:29:16.901416+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "FIL",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T16:47:00.735669+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "WLD",
+    "tf_label": "5M",
+    "entry": 0.3475,
+    "level": 1.5,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000695",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-05T16:59:44.844778+00:00"
   }
 ]
