@@ -8,7 +8,7 @@
       "side": "SELL",
       "entry": 76071.2,
       "sl0": 76621.8,
-      "sl": 76621.8,
+      "sl": 76071.2,
       "risk": 550.6000000000058,
       "targets": [
         74969.99999999999,
@@ -30,7 +30,7 @@
       ],
       "trail": 1.5,
       "hit": [
-        false,
+        true,
         false,
         false,
         false
@@ -40,15 +40,23 @@
       "status": "open",
       "opened_ms": 1793898912554,
       "armed_ms": 1793898912554,
-      "last_ms": 1793977499999,
+      "last_ms": 1793977559999,
       "bar_ms": 1793898000000,
-      "mfe_r": 1.9455,
+      "mfe_r": 2.3269,
       "mae_r": 0.6498,
-      "events": [],
+      "events": [
+        {
+          "type": "target",
+          "index": 0,
+          "price": 74969.99999999999,
+          "banked": 0.6,
+          "ts": "2026-11-06T15:06:16.073297+00:00"
+        }
+      ],
       "tier": "orig",
       "profile": "Q1",
       "msg_id": 3370,
-      "polled_ms": 1793977516360
+      "polled_ms": 1793977575977
     }
   },
   "seen": [],
