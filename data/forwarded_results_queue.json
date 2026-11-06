@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SUI",
-    "tf_label": "15M",
-    "entry": 0.9447,
-    "level": 4,
-    "result_r": 2.15,
-    "source_signal_id": "ALT-000472",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T01:45:14.159187+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "AAVE",
     "tf_label": "15M",
     "entry": 134.72,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T20:05:53.639308+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 1.191,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000754",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T20:25:07.370008+00:00"
   }
 ]
