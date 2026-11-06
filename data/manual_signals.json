@@ -8923,5 +8923,19 @@
     "source_signal_id": "ALT-000744",
     "signal_message_id": 3486,
     "activated_at": "2026-11-06T10:48:16.700897+00:00"
+  },
+  {
+    "id": "src-ALT-000745",
+    "symbol": "AKE/USD",
+    "side": "BUY",
+    "entry": 0.005016,
+    "sl": 0.004629,
+    "status": "pending",
+    "created_at": 1793962937,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000745",
+    "signal_message_id": 3488
   }
 ]
