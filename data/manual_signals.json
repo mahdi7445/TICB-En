@@ -8743,5 +8743,19 @@
     "source_signal_id": "ALT-000732",
     "signal_message_id": 3450,
     "activated_at": "2026-11-06T01:21:04.767526+00:00"
+  },
+  {
+    "id": "src-ALT-000733",
+    "symbol": "ALGO/USD",
+    "side": "BUY",
+    "entry": 0.09311,
+    "sl": 0.09244,
+    "status": "pending",
+    "created_at": 1793929801,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000733",
+    "signal_message_id": 3454
   }
 ]
