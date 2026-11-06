@@ -30902,5 +30902,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000744",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-06T10:48:16.700868+00:00",
+        "price": 267.38
+      },
+      {
+        "type": "stop",
+        "ts": "2026-11-06T10:54:56.615981+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-06T10:54:56.620952+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "BCH/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 267.38,
+    "sl": 266.55,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-11-06T10:48:16.700000+00:00",
+    "closed_at": "2026-11-06T10:54:56.620952+00:00",
+    "r_pct": 0.3104,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
