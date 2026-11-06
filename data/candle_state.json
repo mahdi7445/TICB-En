@@ -40868,6 +40868,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000756": {
+      "open_trade": {
+        "signal_id": "ALT-000756",
+        "source_signal_id": "ALT-000756",
+        "side": "SELL",
+        "entry": 0.827,
+        "sl": 0.83,
+        "r": 0.0030000000000000027,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "FIL/USD",
+        "tf_key": "manual",
+        "display": "FIL",
+        "opened_at_ms": 1793979972771,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-06T15:46:12.771055+00:00",
+            "price": 0.827
+          }
+        ],
+        "signal_message_id": 3515,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
