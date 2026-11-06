@@ -39889,6 +39889,12 @@
             "ts": "2026-11-06T07:11:30.665486+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-06T07:40:35.235622+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3458,
