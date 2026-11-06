@@ -31501,5 +31501,57 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "TC-000114",
+    "events": [
+      {
+        "type": "target",
+        "index": 0,
+        "price": 74969.99999999999,
+        "banked": 0.6,
+        "ts": "2026-11-06T15:06:16.073297+00:00"
+      },
+      {
+        "type": "stop",
+        "price": 76071.2,
+        "final_r": 0.6,
+        "ts": "2026-11-06T22:03:17.155402+00:00"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-06T22:03:17.578086+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.6
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "15m",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 76071.2,
+    "sl": 76621.8,
+    "final_r": 0.6,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "breakeven",
+    "opened_at": "2026-11-05T17:15:12.554000+00:00",
+    "closed_at": "2026-11-06T22:03:17.578086+00:00",
+    "r_pct": 0.7238,
+    "mfe_r": 2.3269,
+    "mae_r": 0.6498,
+    "quality_tier": "orig",
+    "strategy": "module:CN15",
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": 0.7238,
+    "fee_r_est": null,
+    "net_r_est": null,
+    "module": "CN15",
+    "ladder": "Q1",
+    "trigger": null,
+    "hot_move_pct": null
   }
 ]
