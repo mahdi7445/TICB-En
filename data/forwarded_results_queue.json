@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "XRP",
-    "tf_label": "5M",
-    "entry": 1.3305,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000471",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T21:29:00.529354+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "HBAR",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T14:40:34.588749+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.1866,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000749",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T14:45:47.158999+00:00"
   }
 ]
