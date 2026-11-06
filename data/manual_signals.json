@@ -8953,5 +8953,19 @@
     "source_signal_id": "ALT-000746",
     "signal_message_id": 3490,
     "activated_at": "2026-11-06T11:49:56.519022+00:00"
+  },
+  {
+    "id": "src-ALT-000747",
+    "symbol": "PUMP/USD",
+    "side": "BUY",
+    "entry": 0.004046,
+    "sl": 0.003985,
+    "status": "pending",
+    "created_at": 1793968521,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000747",
+    "signal_message_id": 3492
   }
 ]
