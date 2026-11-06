@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ENA",
-    "tf_label": "5M",
-    "entry": 0.1955,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000460",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T17:50:22.102145+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "JUP",
     "tf_label": "15M",
     "entry": 0.278,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T03:34:08.692265+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "APT",
+    "tf_label": "15M",
+    "entry": 0.5997,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000732",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T03:38:05.013976+00:00"
   }
 ]
