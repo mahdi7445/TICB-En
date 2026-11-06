@@ -5,7 +5,7 @@
  "sgnl": {
   "_profile": "v12-2026-11-06",
   "daily_loss_filter": true,
-  "daily_loss_limit_r": 3.0,
+  "daily_loss_limit_r": 8.0,
   "hot_cooldown_min": 60,
   "hot_max_hold_h": 6,
   "hot_max_per_day": 4,
@@ -261,8 +261,8 @@
  },
  "ticb": {
   "_profile": "v12-2026-11-06",
-  "daily_loss_filter": false,
-  "daily_loss_limit_r": 3.0,
+  "daily_loss_filter": true,
+  "daily_loss_limit_r": 4.5,
   "hot_cooldown_min": 60,
   "hot_max_hold_h": 6,
   "hot_max_per_day": 4,
