@@ -17,5 +17,11 @@
     "chat_id": 8408956752,
     "expiry_ts": 1825342712,
     "reminded": false
+  },
+  {
+    "user_id": 156056127,
+    "chat_id": 156056127,
+    "expiry_ts": 1825503498,
+    "reminded": false
   }
 ]
