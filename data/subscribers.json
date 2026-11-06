@@ -22,6 +22,7 @@
     "user_id": 156056127,
     "chat_id": 156056127,
     "expiry_ts": 1825489171,
-    "reminded": false
+    "reminded": false,
+    "period_total_days": 365.0
   }
 ]
