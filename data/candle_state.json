@@ -39899,7 +39899,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XRP/USD",
         "tf_key": "manual",
         "display": "XRP",
@@ -39927,6 +39927,17 @@
             "ts": "2026-11-06T07:40:35.235622+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-11-06T08:28:14.189167+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-06T08:28:14.193386+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.9
           }
         ],
         "signal_message_id": 3458,
@@ -39936,7 +39947,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
