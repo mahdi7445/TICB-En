@@ -8690,12 +8690,13 @@
     "side": "BUY",
     "entry": 0.1848,
     "sl": 0.1837,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793927936,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000729",
-    "signal_message_id": 3447
+    "signal_message_id": 3447,
+    "activated_at": "2026-11-06T01:19:30.066488+00:00"
   }
 ]
