@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "PONS",
-    "tf_label": "1M",
-    "entry": 0.2885,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000469",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T19:51:23.237080+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "PONS",
     "tf_label": "1M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T07:10:56.450669+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 8.118,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000742",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T07:25:31.025649+00:00"
   }
 ]
