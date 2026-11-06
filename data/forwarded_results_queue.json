@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "ADA",
-    "tf_label": "15M",
-    "entry": 0.206,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000475",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T01:05:01.479614+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "SUI",
     "tf_label": "15M",
     "entry": 0.9447,
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-06T15:00:46.365703+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ZEC",
+    "tf_label": "15M",
+    "entry": 1352.63,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000753",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T15:37:55.303114+00:00"
   }
 ]
