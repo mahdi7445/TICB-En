@@ -1,17 +1,5 @@
 [
   {
-    "kind": "runner_stop",
-    "ticker": "APT",
-    "tf_label": "15M",
-    "entry": 0.6955,
-    "level": null,
-    "result_r": 3.82,
-    "source_signal_id": "ALT-000466",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T20:06:07.687959+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "FIL",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T10:53:56.349720+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ALGO",
+    "tf_label": "15M",
+    "entry": 0.09311,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000733",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T11:44:38.733259+00:00"
   }
 ]
