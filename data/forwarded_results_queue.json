@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "JUP",
-    "tf_label": "15M",
-    "entry": 0.278,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000452",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T18:05:10.195989+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "XRP",
     "tf_label": "5M",
     "entry": 1.328,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T03:38:05.013976+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SUI",
+    "tf_label": "5M",
+    "entry": 0.8574,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000737",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T04:08:21.900997+00:00"
   }
 ]
