@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "HBAR",
-    "tf_label": "15M",
-    "entry": 0.0752,
-    "level": null,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000474",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T00:30:18.132115+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "NEAR",
     "tf_label": "1H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T14:46:25.026183+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "APT",
+    "tf_label": "15M",
+    "entry": 0.6039,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000738",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T14:54:09.102947+00:00"
   }
 ]
