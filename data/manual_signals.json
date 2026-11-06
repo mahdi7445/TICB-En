@@ -9125,12 +9125,13 @@
     "side": "SELL",
     "entry": 1.585,
     "sl": 1.598,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794001770,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000758",
-    "signal_message_id": 3527
+    "signal_message_id": 3527,
+    "activated_at": "2026-11-06T21:50:07.508614+00:00"
   }
 ]
