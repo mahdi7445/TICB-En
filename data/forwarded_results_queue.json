@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "FIL",
-    "tf_label": "15M",
-    "entry": 0.908,
-    "level": 4,
-    "result_r": 2.15,
-    "source_signal_id": "ALT-000467",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T20:06:09.289737+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "PEPE",
     "tf_label": "15M",
     "entry": 4.92e-06,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T12:26:33.882370+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ALGO",
+    "tf_label": "15M",
+    "entry": 0.09311,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000733",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T12:55:53.265735+00:00"
   }
 ]
