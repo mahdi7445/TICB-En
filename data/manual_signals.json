@@ -8660,13 +8660,14 @@
     "side": "BUY",
     "entry": 0.1009,
     "sl": 0.08932,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793923640,
     "forwarded_tracking": true,
     "tf_label": "4H",
     "silent": true,
     "source_signal_id": "ALT-000727",
-    "signal_message_id": 3445
+    "signal_message_id": 3445,
+    "activated_at": "2026-11-06T00:07:40.982835+00:00"
   },
   {
     "id": "src-ALT-000728",
@@ -8674,12 +8675,13 @@
     "side": "BUY",
     "entry": 0.319,
     "sl": 0.2845,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793923641,
     "forwarded_tracking": true,
     "tf_label": "4H",
     "silent": true,
     "source_signal_id": "ALT-000728",
-    "signal_message_id": 3446
+    "signal_message_id": 3446,
+    "activated_at": "2026-11-06T00:07:40.987337+00:00"
   }
 ]
