@@ -30697,5 +30697,50 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000733",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-06T01:51:05.252102+00:00",
+        "price": 0.09311
+      },
+      {
+        "type": "admin_override",
+        "ts": "2026-11-06T07:56:23.967503+00:00",
+        "note": "manually closed by admin (final_r=+0.20)"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-06T07:56:23.972017+00:00",
+        "close_type": "admin_override",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "ALGO/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 0.09311,
+    "sl": 0.09244,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "admin_override",
+    "close_reason": "admin_override",
+    "opened_at": "2026-11-06T01:51:05.252000+00:00",
+    "closed_at": "2026-11-06T07:56:23.972017+00:00",
+    "r_pct": 0.7196,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]

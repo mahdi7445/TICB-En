@@ -39735,13 +39735,13 @@
         "sl": 0.09244,
         "r": 0.0006700000000000039,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ALGO/USD",
         "tf_key": "manual",
         "display": "ALGO",
@@ -39751,6 +39751,17 @@
             "type": "opened",
             "ts": "2026-11-06T01:51:05.252102+00:00",
             "price": 0.09311
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-11-06T07:56:23.967503+00:00",
+            "note": "manually closed by admin (final_r=+0.20)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-06T07:56:23.972017+00:00",
+            "close_type": "admin_override",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 3454,
@@ -39762,7 +39773,8 @@
         },
         "logical_tf": "15m",
         "_replay_checked_ms": 1793951632070,
-        "_stale_alert_sent_at_ms": 1793951632070
+        "_stale_alert_sent_at_ms": 1793951632070,
+        "close_type": "admin_override"
       },
       "hist": []
     },
