@@ -6,18 +6,6 @@
     "entry": 11.75,
     "level": null,
     "result_r": 0.7,
-    "source_signal_id": "ALT-000449",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T19:36:55.015919+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "LINK",
-    "tf_label": "1H",
-    "entry": 11.75,
-    "level": null,
-    "result_r": 0.7,
     "source_signal_id": "ALT-000450",
     "status": "unmatched",
     "attempts": 120,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T05:07:19.676982+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 1263.92,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000740",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T05:43:46.300477+00:00"
   }
 ]
