@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "ALGO",
-    "tf_label": "15M",
-    "entry": 0.1038,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000470",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T20:06:12.114551+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "PEPE",
     "tf_label": "4H",
     "entry": 4.281e-06,
@@ -5998,5 +5986,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-11-06T13:33:02.380043+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 8.307,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000748",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T13:33:05.650056+00:00"
   }
 ]
