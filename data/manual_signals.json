@@ -9110,12 +9110,13 @@
     "side": "SELL",
     "entry": 1338.42,
     "sl": 1359.43,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793992029,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000757",
-    "signal_message_id": 3522
+    "signal_message_id": 3522,
+    "activated_at": "2026-11-06T19:08:32.780594+00:00"
   }
 ]
