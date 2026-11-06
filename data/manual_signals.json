@@ -8773,5 +8773,19 @@
     "source_signal_id": "ALT-000734",
     "signal_message_id": 3456,
     "activated_at": "2026-11-06T03:02:01.867997+00:00"
+  },
+  {
+    "id": "src-ALT-000735",
+    "symbol": "NEAR/USD",
+    "side": "SELL",
+    "entry": 3.702,
+    "sl": 3.737,
+    "status": "pending",
+    "created_at": 1793935030,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000735",
+    "signal_message_id": 3457
   }
 ]
