@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ALGO",
-    "tf_label": "15M",
-    "entry": 0.1015,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000461",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T17:37:43.292717+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "ENA",
     "tf_label": "5M",
     "entry": 0.1955,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T02:54:18.912402+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "1H",
+    "entry": 0.1855,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000734",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T03:34:08.692265+00:00"
   }
 ]
