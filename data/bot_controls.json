@@ -506,7 +506,7 @@
   "same_side_filter": false,
   "show_risk_hint": false,
   "streak_filter": true,
-  "streak_losses": 4,
+  "streak_losses": 5,
   "streak_pause_min": 240,
   "tf_15m": true,
   "tf_1h": true,
