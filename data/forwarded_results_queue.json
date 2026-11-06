@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "APT",
-    "tf_label": "15M",
-    "entry": 0.6955,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000466",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T19:57:06.144659+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "ADA",
     "tf_label": "5M",
     "entry": 0.2043,
@@ -5998,5 +5986,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-11-06T07:39:49.622669+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "15M",
+    "entry": 3.702,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000735",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T07:40:02.610974+00:00"
   }
 ]
