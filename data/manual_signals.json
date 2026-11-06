@@ -8653,5 +8653,33 @@
     "source_signal_id": "ALT-000726",
     "signal_message_id": 3439,
     "activated_at": "2026-11-05T23:50:37.257777+00:00"
+  },
+  {
+    "id": "src-ALT-000727",
+    "symbol": "OP/USD",
+    "side": "BUY",
+    "entry": 0.1009,
+    "sl": 0.08932,
+    "status": "pending",
+    "created_at": 1793923640,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000727",
+    "signal_message_id": 3445
+  },
+  {
+    "id": "src-ALT-000728",
+    "symbol": "LDO/USD",
+    "side": "BUY",
+    "entry": 0.319,
+    "sl": 0.2845,
+    "status": "pending",
+    "created_at": 1793923641,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000728",
+    "signal_message_id": 3446
   }
 ]
