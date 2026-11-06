@@ -4,18 +4,6 @@
     "ticker": "AAVE",
     "tf_label": "15M",
     "entry": 134.72,
-    "level": 4,
-    "result_r": 2.15,
-    "source_signal_id": "ALT-000473",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T01:45:14.782884+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "AAVE",
-    "tf_label": "15M",
-    "entry": 134.72,
     "level": 6,
     "result_r": 2.75,
     "source_signal_id": "ALT-000473",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T20:25:07.370008+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "RENDER",
+    "tf_label": "15M",
+    "entry": 1.585,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000758",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T22:03:17.521120+00:00"
   }
 ]
