@@ -4,18 +4,6 @@
     "ticker": "FIL",
     "tf_label": "15M",
     "entry": 0.908,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000467",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T20:06:08.217045+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "FIL",
-    "tf_label": "15M",
-    "entry": 0.908,
     "level": 4,
     "result_r": 2.15,
     "source_signal_id": "ALT-000467",
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-06T11:44:38.733259+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "APT",
+    "tf_label": "15M",
+    "entry": 0.6039,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000738",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T12:26:33.882370+00:00"
   }
 ]
