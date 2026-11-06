@@ -1,5 +1,11 @@
 [
   {
+    "user_id": 90,
+    "chat_id": 90,
+    "expiry_ts": 1800690591,
+    "reminded": false
+  },
+  {
     "user_id": 7234639636,
     "chat_id": 7234639636,
     "expiry_ts": 1825243389,
@@ -11,12 +17,5 @@
     "chat_id": 8408956752,
     "expiry_ts": 1825342712,
     "reminded": false
-  },
-  {
-    "user_id": 156056127,
-    "chat_id": 156056127,
-    "expiry_ts": 1825489171,
-    "reminded": false,
-    "period_total_days": 365.0
   }
 ]
