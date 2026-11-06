@@ -39547,6 +39547,120 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000730": {
+      "open_trade": {
+        "signal_id": "ALT-000730",
+        "source_signal_id": "ALT-000730",
+        "side": "SELL",
+        "entry": 0.4177,
+        "sl": 0.4187,
+        "r": 0.0010000000000000009,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TIA/USD",
+        "tf_key": "manual",
+        "display": "TIA",
+        "opened_at_ms": 1793928064758,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-06T01:21:04.758491+00:00",
+            "price": 0.4177
+          }
+        ],
+        "signal_message_id": 3448,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000731": {
+      "open_trade": {
+        "signal_id": "ALT-000731",
+        "source_signal_id": "ALT-000731",
+        "side": "BUY",
+        "entry": 0.8597,
+        "sl": 0.8546,
+        "r": 0.005099999999999993,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SUI/USD",
+        "tf_key": "manual",
+        "display": "SUI",
+        "opened_at_ms": 1793928064763,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-06T01:21:04.763008+00:00",
+            "price": 0.8597
+          }
+        ],
+        "signal_message_id": 3449,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000732": {
+      "open_trade": {
+        "signal_id": "ALT-000732",
+        "source_signal_id": "ALT-000732",
+        "side": "BUY",
+        "entry": 0.5997,
+        "sl": 0.597,
+        "r": 0.0027000000000000357,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "APT/USD",
+        "tf_key": "manual",
+        "display": "APT",
+        "opened_at_ms": 1793928064767,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-06T01:21:04.767514+00:00",
+            "price": 0.5997
+          }
+        ],
+        "signal_message_id": 3450,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
