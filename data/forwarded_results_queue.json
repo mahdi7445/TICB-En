@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "AAVE",
-    "tf_label": "15M",
-    "entry": 134.72,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000473",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T01:39:11.221669+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "DOT",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T16:38:50.513784+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "PEPE",
+    "tf_label": "15M",
+    "entry": 5.046e-06,
+    "level": null,
+    "result_r": -0.1,
+    "source_signal_id": "ALT-000746",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T17:52:52.667866+00:00"
   }
 ]
