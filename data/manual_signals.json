@@ -9013,5 +9013,33 @@
     "source_signal_id": "ALT-000750",
     "signal_message_id": 3501,
     "activated_at": "2026-11-06T14:06:06.084971+00:00"
+  },
+  {
+    "id": "src-ALT-000751",
+    "symbol": "AAVE/USD",
+    "side": "BUY",
+    "entry": 131.29,
+    "sl": 130.55,
+    "status": "pending",
+    "created_at": 1793979068,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000751",
+    "signal_message_id": 3508
+  },
+  {
+    "id": "src-ALT-000752",
+    "symbol": "TAO/USD",
+    "side": "BUY",
+    "entry": 225.07,
+    "sl": 222.49,
+    "status": "pending",
+    "created_at": 1793979072,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000752",
+    "signal_message_id": 3509
   }
 ]
