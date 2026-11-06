@@ -33,6 +33,20 @@
           "by": "user"
         }
       ]
+    },
+    "156056127": {
+      "exchange": "toobit",
+      "chosen_at": 1793953383,
+      "chosen_by": "user",
+      "name": "Mad",
+      "history": [
+        {
+          "ts": 1793953383,
+          "from": null,
+          "to": "toobit",
+          "by": "user"
+        }
+      ]
     }
   },
   "settings": {
