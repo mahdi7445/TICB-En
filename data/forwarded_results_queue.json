@@ -1,29 +1,5 @@
 [
   {
-    "kind": "module_closed",
-    "ticker": "PEPE",
-    "tf_label": "15M",
-    "entry": 4.92e-06,
-    "level": null,
-    "result_r": 1.49,
-    "source_signal_id": "ALT-000468",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T01:39:09.024541+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "SUI",
-    "tf_label": "15M",
-    "entry": 0.9447,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000472",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T01:39:10.042388+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "AAVE",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T16:16:58.504396+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "JUP",
+    "tf_label": "5M",
+    "entry": 0.2478,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000755",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T16:38:49.515808+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "FIL",
+    "tf_label": "5M",
+    "entry": 0.827,
+    "level": null,
+    "result_r": 1.3,
+    "source_signal_id": "ALT-000756",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T16:38:50.513784+00:00"
   }
 ]
