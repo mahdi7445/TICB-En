@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ADA",
-    "tf_label": "5M",
-    "entry": 0.2043,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000465",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T20:02:03.692046+00:00"
-  },
-  {
     "kind": "sl_after_t3",
     "ticker": "ADA",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T07:40:02.610974+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "NEAR",
+    "tf_label": "15M",
+    "entry": 3.702,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000735",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T08:19:20.646315+00:00"
   }
 ]
