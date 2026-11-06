@@ -8765,12 +8765,13 @@
     "side": "BUY",
     "entry": 0.1855,
     "sl": 0.1836,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793934067,
     "forwarded_tracking": true,
     "tf_label": "1H",
     "silent": true,
     "source_signal_id": "ALT-000734",
-    "signal_message_id": 3456
+    "signal_message_id": 3456,
+    "activated_at": "2026-11-06T03:02:01.867997+00:00"
   }
 ]
