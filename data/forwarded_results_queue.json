@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "FIL",
-    "tf_label": "15M",
-    "entry": 0.908,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000467",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T19:50:14.190129+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "PONS",
     "tf_label": "1M",
     "entry": 0.2885,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T06:21:09.216138+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 1.211,
+    "level": 4,
+    "result_r": 2.15,
+    "source_signal_id": "ALT-000736",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T07:10:56.450669+00:00"
   }
 ]
