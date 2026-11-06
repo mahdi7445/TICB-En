@@ -40818,6 +40818,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000755": {
+      "open_trade": {
+        "signal_id": "ALT-000755",
+        "source_signal_id": "ALT-000755",
+        "side": "SELL",
+        "entry": 0.2478,
+        "sl": 0.2495,
+        "r": 0.001700000000000007,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "JUP/USD",
+        "tf_key": "manual",
+        "display": "JUP",
+        "opened_at_ms": 1793979585957,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-06T15:39:45.957467+00:00",
+            "price": 0.2478
+          }
+        ],
+        "signal_message_id": 3513,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
