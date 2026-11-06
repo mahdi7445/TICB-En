@@ -30336,5 +30336,57 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000732",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-06T01:21:04.767514+00:00",
+        "price": 0.5997
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-06T02:54:50.528702+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-11-06T03:38:37.634521+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-06T03:38:37.638026+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.6
+      }
+    ],
+    "symbol": "APT/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 0.5997,
+    "sl": 0.597,
+    "final_r": 0.6,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-11-06T01:21:04.767000+00:00",
+    "closed_at": "2026-11-06T03:38:37.638026+00:00",
+    "r_pct": 0.4502,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
