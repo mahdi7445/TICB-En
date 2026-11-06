@@ -9041,5 +9041,19 @@
     "silent": true,
     "source_signal_id": "ALT-000752",
     "signal_message_id": 3509
+  },
+  {
+    "id": "src-ALT-000753",
+    "symbol": "ZEC/USD",
+    "side": "BUY",
+    "entry": 1352.63,
+    "sl": 1337.66,
+    "status": "pending",
+    "created_at": 1793979080,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000753",
+    "signal_message_id": 3510
   }
 ]
