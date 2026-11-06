@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "DOT",
-    "tf_label": "15M",
-    "entry": 1.015,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000463",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T01:45:13.801426+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "SUI",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T17:52:52.667866+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "BCH",
+    "tf_label": "15M",
+    "entry": 265.36,
+    "level": null,
+    "result_r": 0.08,
+    "source_signal_id": "ALT-000750",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T20:05:53.639308+00:00"
   }
 ]
