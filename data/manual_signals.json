@@ -8780,13 +8780,14 @@
     "side": "SELL",
     "entry": 3.702,
     "sl": 3.737,
-    "status": "pending",
+    "status": "active",
     "created_at": 1793935030,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000735",
-    "signal_message_id": 3457
+    "signal_message_id": 3457,
+    "activated_at": "2026-11-06T03:17:23.447244+00:00"
   },
   {
     "id": "src-ALT-000736",

@@ -39775,6 +39775,44 @@
         "logical_tf": "1h"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000735": {
+      "open_trade": {
+        "signal_id": "ALT-000735",
+        "source_signal_id": "ALT-000735",
+        "side": "SELL",
+        "entry": 3.702,
+        "sl": 3.737,
+        "r": 0.03500000000000014,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "NEAR/USD",
+        "tf_key": "manual",
+        "display": "NEAR",
+        "opened_at_ms": 1793935043447,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-06T03:17:23.447224+00:00",
+            "price": 3.702
+          }
+        ],
+        "signal_message_id": 3457,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
