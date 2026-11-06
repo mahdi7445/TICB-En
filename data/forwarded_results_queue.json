@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t3",
-    "ticker": "FIL",
-    "tf_label": "15M",
-    "entry": 0.908,
-    "level": null,
-    "result_r": 2.9,
-    "source_signal_id": "ALT-000467",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T20:14:38.780216+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ALGO",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-06T13:55:19.148054+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "ALGO",
+    "tf_label": "15M",
+    "entry": 0.09311,
+    "level": null,
+    "result_r": 2.25,
+    "source_signal_id": "ALT-000733",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T14:03:08.293585+00:00"
   }
 ]
