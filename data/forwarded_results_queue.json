@@ -1,54 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "1H",
-    "entry": 11.75,
-    "level": 2,
-    "result_r": 0.7,
-    "source_signal_id": "ALT-000450",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T14:24:20.236539+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "XLM",
-    "tf_label": "15M",
-    "entry": 0.1687,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000455",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T15:04:23.108335+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "LDO",
-    "tf_label": "1H",
-    "entry": 0.367,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000456",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T15:12:01.634634+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "POL",
-    "tf_label": "15M",
-    "entry": 0.09129,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000451",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-28T15:25:27.847352+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "XRP",
     "tf_label": "15M",
     "entry": 1.3134,
@@ -5998,5 +5950,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-05T23:59:20.700180+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.1817,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000721",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T00:06:31.992554+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "TIA",
+    "tf_label": "15M",
+    "entry": 0.4134,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000722",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T00:06:32.968597+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SEI",
+    "tf_label": "5M",
+    "entry": 0.04464,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000723",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T00:06:34.069632+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ALGO",
+    "tf_label": "5M",
+    "entry": 0.09131,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000726",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-06T00:06:35.169109+00:00"
   }
 ]
