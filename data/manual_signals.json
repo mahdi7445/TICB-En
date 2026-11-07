@@ -9208,5 +9208,19 @@
     "source_signal_id": "ALT-000763",
     "signal_message_id": 3540,
     "activated_at": "2026-11-07T07:43:32.075207+00:00"
+  },
+  {
+    "id": "src-ALT-000764",
+    "symbol": "UAI/USD",
+    "side": "SELL",
+    "entry": 0.1244,
+    "sl": 0.1302,
+    "status": "pending",
+    "created_at": 1794038260,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000764",
+    "signal_message_id": 3541
   }
 ]
