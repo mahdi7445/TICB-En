@@ -37364,7 +37364,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "CAP/USD",
         "tf_key": "manual",
         "display": "CAP",
@@ -37374,6 +37374,17 @@
             "type": "opened",
             "ts": "2026-11-05T16:07:00.768412+00:00",
             "price": 0.1085
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-07T08:10:30.838878+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-07T08:10:30.842929+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3337,
@@ -37384,7 +37395,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_replay_checked_ms": 1794037980057
+        "_replay_checked_ms": 1794037980057,
+        "close_type": "stop"
       },
       "hist": []
     },
