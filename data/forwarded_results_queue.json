@@ -1,17 +1,5 @@
 [
   {
-    "kind": "runner_stop",
-    "ticker": "AAVE",
-    "tf_label": "15M",
-    "entry": 134.72,
-    "level": null,
-    "result_r": 3.7,
-    "source_signal_id": "ALT-000473",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T02:26:19.315147+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ADA",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T08:50:49.520010+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AKE",
+    "tf_label": "5M",
+    "entry": 0.006114,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000765",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T09:20:21.861410+00:00"
   }
 ]
