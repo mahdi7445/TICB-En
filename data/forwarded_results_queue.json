@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "ATOM",
-    "tf_label": "4H",
-    "entry": 1.639,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000479",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T02:05:44.181439+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "USELESS",
     "tf_label": "1M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T03:01:30.789446+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "BCH",
+    "tf_label": "4H",
+    "entry": 279.41,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000689",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T03:44:50.527578+00:00"
   }
 ]
