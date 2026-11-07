@@ -42075,7 +42075,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "UNI/USD",
         "tf_key": "manual",
         "display": "UNI",
@@ -42085,6 +42085,17 @@
             "type": "opened",
             "ts": "2026-11-07T21:14:29.727743+00:00",
             "price": 7.064
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-07T21:51:27.217213+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-07T21:51:27.220211+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3575,
@@ -42094,7 +42105,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
