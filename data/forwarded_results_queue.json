@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ICP",
-    "tf_label": "15M",
-    "entry": 2.529,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000487",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T05:12:20.673666+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "APT",
     "tf_label": "15M",
     "entry": 0.6582,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T15:49:30.215380+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 8.098,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000776",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T18:13:27.539452+00:00"
   }
 ]
