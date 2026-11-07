@@ -41527,7 +41527,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "KOR/USD",
         "tf_key": "manual",
         "display": "KOR",
@@ -41543,6 +41543,17 @@
             "ts": "2026-11-07T14:58:39.362231+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "module_closed",
+            "ts": "2026-11-07T15:43:43.541855+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-07T15:43:43.545812+00:00",
+            "close_type": "module_closed",
+            "final_r": 2.32
           }
         ],
         "signal_message_id": 3549,
@@ -41553,7 +41564,8 @@
           "label": "15M"
         },
         "logical_tf": "15m",
-        "_replay_checked_ms": 1794066122257
+        "_replay_checked_ms": 1794066122257,
+        "close_type": "module_closed"
       },
       "hist": []
     },
