@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "NEAR",
-    "tf_label": "5M",
-    "entry": 4.329,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000507",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T09:04:07.267356+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "OP",
     "tf_label": "1H",
     "entry": 0.1079,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T21:49:57.261307+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "15M",
+    "entry": 3.631,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000778",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T22:05:19.854504+00:00"
   }
 ]
