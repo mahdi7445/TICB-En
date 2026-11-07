@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "SEI",
-    "tf_label": "15M",
-    "entry": 0.05108,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000489",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T04:51:03.318516+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "LDO",
     "tf_label": "15M",
     "entry": 0.364,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T14:58:12.246888+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ETC",
+    "tf_label": "5M",
+    "entry": 6.971,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000766",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T15:28:00.055829+00:00"
   }
 ]
