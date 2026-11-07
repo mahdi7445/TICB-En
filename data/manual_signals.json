@@ -9155,12 +9155,13 @@
     "side": "SELL",
     "entry": 693.69,
     "sl": 696.47,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794010030,
     "forwarded_tracking": true,
     "tf_label": "1H",
     "silent": true,
     "source_signal_id": "ALT-000760",
-    "signal_message_id": 3531
+    "signal_message_id": 3531,
+    "activated_at": "2026-11-07T00:08:30.988176+00:00"
   }
 ]
