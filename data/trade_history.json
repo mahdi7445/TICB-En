@@ -31914,5 +31914,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000765",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-07T09:15:12.939620+00:00",
+        "price": 0.006114
+      },
+      {
+        "type": "stop",
+        "ts": "2026-11-07T09:21:38.536503+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-07T09:21:38.540779+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "AKE/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 0.006114,
+    "sl": 0.0057,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-11-07T09:15:12.939000+00:00",
+    "closed_at": "2026-11-07T09:21:38.540779+00:00",
+    "r_pct": 6.7713,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
