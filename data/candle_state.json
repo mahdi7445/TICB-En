@@ -41286,6 +41286,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000763": {
+      "open_trade": {
+        "signal_id": "ALT-000763",
+        "source_signal_id": "ALT-000763",
+        "side": "SELL",
+        "entry": 0.003041,
+        "sl": 0.003102,
+        "r": 6.100000000000029e-05,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "KOR/USD",
+        "tf_key": "manual",
+        "display": "KOR",
+        "opened_at_ms": 1794037412075,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-07T07:43:32.075186+00:00",
+            "price": 0.003041
+          }
+        ],
+        "signal_message_id": 3540,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
