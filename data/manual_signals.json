@@ -9140,12 +9140,13 @@
     "side": "SELL",
     "entry": 1.177,
     "sl": 1.185,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794009947,
     "forwarded_tracking": true,
     "tf_label": "1H",
     "silent": true,
     "source_signal_id": "ALT-000759",
-    "signal_message_id": 3530
+    "signal_message_id": 3530,
+    "activated_at": "2026-11-07T00:06:58.099581+00:00"
   }
 ]
