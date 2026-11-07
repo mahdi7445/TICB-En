@@ -9252,5 +9252,19 @@
     "silent": true,
     "source_signal_id": "ALT-000766",
     "signal_message_id": 3548
+  },
+  {
+    "id": "src-ALT-000767",
+    "symbol": "KOR/USD",
+    "side": "SELL",
+    "entry": 0.00281,
+    "sl": 0.003007,
+    "status": "pending",
+    "created_at": 1794044310,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000767",
+    "signal_message_id": 3549
   }
 ]
