@@ -41175,7 +41175,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BNB/USD",
         "tf_key": "manual",
         "display": "BNB",
@@ -41185,6 +41185,17 @@
             "type": "opened",
             "ts": "2026-11-07T00:08:30.988154+00:00",
             "price": 693.69
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-07T12:05:01.681977+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-07T12:05:01.686182+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3531,
@@ -41195,7 +41206,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_replay_checked_ms": 1794052353730
+        "_replay_checked_ms": 1794052353730,
+        "close_type": "stop"
       },
       "hist": []
     },
