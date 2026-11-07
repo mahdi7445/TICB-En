@@ -9193,5 +9193,19 @@
     "source_signal_id": "ALT-000762",
     "signal_message_id": 3538,
     "activated_at": "2026-11-07T04:35:13.294238+00:00"
+  },
+  {
+    "id": "src-ALT-000763",
+    "symbol": "KOR/USD",
+    "side": "SELL",
+    "entry": 0.003041,
+    "sl": 0.003102,
+    "status": "pending",
+    "created_at": 1794037389,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000763",
+    "signal_message_id": 3540
   }
 ]
