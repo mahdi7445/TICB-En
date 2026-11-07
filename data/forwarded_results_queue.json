@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "LDO",
-    "tf_label": "15M",
-    "entry": 0.364,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000483",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T05:12:18.556218+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "ATOM",
     "tf_label": "15M",
     "entry": 1.59,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T15:28:00.055829+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "KOR",
+    "tf_label": "15M",
+    "entry": 0.00281,
+    "level": null,
+    "result_r": 2.32,
+    "source_signal_id": "ALT-000767",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T15:42:29.085137+00:00"
   }
 ]
