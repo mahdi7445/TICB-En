@@ -157,7 +157,7 @@
   {
     "key": "ALT-000766",
     "final_r": null,
-    "status": "pending",
+    "status": "already_closed_needs_value",
     "requested_at": "2026-11-07T19:04:14.807312+00:00",
     "mode": "replay"
   }
