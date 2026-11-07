@@ -41907,6 +41907,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000776": {
+      "open_trade": {
+        "signal_id": "ALT-000776",
+        "source_signal_id": "ALT-000776",
+        "side": "SELL",
+        "entry": 8.098,
+        "sl": 8.134,
+        "r": 0.03599999999999959,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "INJ/USD",
+        "tf_key": "manual",
+        "display": "INJ",
+        "opened_at_ms": 1794071711919,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-07T17:15:11.919203+00:00",
+            "price": 8.098
+          }
+        ],
+        "signal_message_id": 3566,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
