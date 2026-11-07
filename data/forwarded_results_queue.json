@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "FIL",
-    "tf_label": "4H",
-    "entry": 0.959,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000326",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T07:19:20.099748+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "BCH",
     "tf_label": "15M",
     "entry": 278.68,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T20:22:50.569886+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "BCH",
+    "tf_label": "1H",
+    "entry": 306.8,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000188",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T20:46:45.259256+00:00"
   }
 ]
