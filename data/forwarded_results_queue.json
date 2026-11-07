@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "USELESS",
-    "tf_label": "1M",
-    "entry": 0.1552,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000482",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T02:13:39.285296+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "ALGO",
     "tf_label": "4H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T08:09:13.713771+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "KOR",
+    "tf_label": "5M",
+    "entry": 0.003041,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000763",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T08:14:49.772244+00:00"
   }
 ]
