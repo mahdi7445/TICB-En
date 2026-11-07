@@ -146,5 +146,12 @@
     "status": "already_closed_needs_value",
     "requested_at": "2026-11-06T17:57:29.991595+00:00",
     "mode": "replay"
+  },
+  {
+    "key": "ALT-000757",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-07T04:21:01.179037+00:00",
+    "mode": "replay"
   }
 ]
