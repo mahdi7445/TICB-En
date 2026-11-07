@@ -41454,6 +41454,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000766": {
+      "open_trade": {
+        "signal_id": "ALT-000766",
+        "source_signal_id": "ALT-000766",
+        "side": "SELL",
+        "entry": 6.971,
+        "sl": 6.991,
+        "r": 0.019999999999999574,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ETC/USD",
+        "tf_key": "manual",
+        "display": "ETC",
+        "opened_at_ms": 1794044324586,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-07T09:38:44.586285+00:00",
+            "price": 6.971
+          }
+        ],
+        "signal_message_id": 3548,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {

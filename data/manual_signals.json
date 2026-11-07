@@ -9245,13 +9245,14 @@
     "side": "SELL",
     "entry": 6.971,
     "sl": 6.991,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794044241,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000766",
-    "signal_message_id": 3548
+    "signal_message_id": 3548,
+    "activated_at": "2026-11-07T09:38:44.586306+00:00"
   },
   {
     "id": "src-ALT-000767",
