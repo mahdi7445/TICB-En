@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "OP",
-    "tf_label": "1H",
-    "entry": 0.1079,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000498",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T10:35:31.266067+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "ADA",
     "tf_label": "1H",
     "entry": 0.199,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T22:05:19.854504+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "CAP",
+    "tf_label": "1M",
+    "entry": 0.10399,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000780",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T22:11:38.140417+00:00"
   }
 ]
