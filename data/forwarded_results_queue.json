@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "BCH",
-    "tf_label": "15M",
-    "entry": 278.68,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000506",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T08:18:52.363454+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "NEAR",
     "tf_label": "5M",
     "entry": 4.329,
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-07T20:46:45.259256+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 7.064,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000779",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T21:49:57.261307+00:00"
   }
 ]
