@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ADA",
-    "tf_label": "15M",
-    "entry": 0.2017,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000481",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T02:32:44.860641+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "XMR",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-07T09:20:21.861410+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "BNB",
+    "tf_label": "1H",
+    "entry": 693.69,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000760",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T12:03:43.332794+00:00"
   }
 ]
