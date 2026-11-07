@@ -9373,5 +9373,19 @@
     "source_signal_id": "ALT-000774",
     "signal_message_id": 3564,
     "activated_at": "2026-11-07T16:09:39.859828+00:00"
+  },
+  {
+    "id": "src-ALT-000775",
+    "symbol": "TIA/USD",
+    "side": "BUY",
+    "entry": 0.4445,
+    "sl": 0.4399,
+    "status": "pending",
+    "created_at": 1794069456,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000775",
+    "signal_message_id": 3565
   }
 ]
