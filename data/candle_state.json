@@ -41324,6 +41324,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000764": {
+      "open_trade": {
+        "signal_id": "ALT-000764",
+        "source_signal_id": "ALT-000764",
+        "side": "SELL",
+        "entry": 0.1244,
+        "sl": 0.1302,
+        "r": 0.0058000000000000135,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "UAI/USD",
+        "tf_key": "manual",
+        "display": "UAI",
+        "opened_at_ms": 1794038363469,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-07T07:59:23.469264+00:00",
+            "price": 0.1244
+          }
+        ],
+        "signal_message_id": 3541,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
