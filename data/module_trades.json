@@ -18,8 +18,8 @@
     "CN1H|ETH/USD|1h": 1793257200000,
     "CN4H|BTC/USD|4h": 1793995200000,
     "CN4H|ETH/USD|4h": 1793995200000,
-    "TKF|BTC/USD|5m": 1793263200000,
-    "TKF|ETH/USD|5m": 1793263200000,
+    "TKF|BTC/USD|5m": 1794021900000,
+    "TKF|ETH/USD|5m": 1794021900000,
     "TPS|BTC/USD|1h": 1794016800000,
     "TPS|ETH/USD|1h": 1794016800000,
     "MRA|BTC/USD|1h": 1793257200000,
@@ -78,14 +78,14 @@
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 6822,
+      "checks": 6824,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1794022226
+      "last_check": 1794022284
     },
     "CN15": {
       "since": 1792449921,
