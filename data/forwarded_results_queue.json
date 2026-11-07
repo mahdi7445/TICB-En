@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "USELESS",
-    "tf_label": "1M",
-    "entry": 0.1552,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000482",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T02:20:40.846504+00:00"
-  },
-  {
     "kind": "runner_stop",
     "ticker": "AAVE",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-11-07T08:50:46.769142+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "UAI",
+    "tf_label": "5M",
+    "entry": 0.1244,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000764",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-07T08:50:49.520010+00:00"
   }
 ]
