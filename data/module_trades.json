@@ -10,16 +10,16 @@
     "TS1|ETH/USD|1h": 1793257200000,
     "CN1M|BTC/USD|1m": 1792837920000,
     "CN1M|ETH/USD|1m": 1792837920000,
-    "CN5M|BTC/USD|5m": 1794042900000,
-    "CN5M|ETH/USD|5m": 1794042900000,
+    "CN5M|BTC/USD|5m": 1794043200000,
+    "CN5M|ETH/USD|5m": 1794043200000,
     "CN15|BTC/USD|15m": 1794042000000,
     "CN15|ETH/USD|15m": 1794042000000,
     "CN1H|BTC/USD|1h": 1793257200000,
     "CN1H|ETH/USD|1h": 1793257200000,
     "CN4H|BTC/USD|4h": 1794024000000,
     "CN4H|ETH/USD|4h": 1794024000000,
-    "TKF|BTC/USD|5m": 1794042900000,
-    "TKF|ETH/USD|5m": 1794042900000,
+    "TKF|BTC/USD|5m": 1794043200000,
+    "TKF|ETH/USD|5m": 1794043200000,
     "TPS|BTC/USD|1h": 1794038400000,
     "TPS|ETH/USD|1h": 1794038400000,
     "MRA|BTC/USD|1h": 1793257200000,
@@ -69,23 +69,23 @@
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 7588,
+      "checks": 7590,
       "nodata": 0,
       "raw": 6,
       "blocked": {},
       "opened": 6,
-      "last_check": 1794043220
+      "last_check": 1794043511
     },
     "TKF": {
       "since": 1792449614,
-      "checks": 6964,
+      "checks": 6966,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "already_open": 2
       },
       "opened": 1,
-      "last_check": 1794043220
+      "last_check": 1794043511
     },
     "CN15": {
       "since": 1792449921,
