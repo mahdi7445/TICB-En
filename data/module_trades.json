@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1794049213805,
       "armed_ms": 1794049213805,
-      "last_ms": 1794112679999,
+      "last_ms": 1794112799999,
       "bar_ms": 1794045600000,
       "mfe_r": 0.5243,
       "mae_r": 0.0447,
@@ -48,7 +48,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 3553,
-      "polled_ms": 1794112711526
+      "polled_ms": 1794112819629
     }
   },
   "seen": [],
@@ -61,8 +61,8 @@
     "TS1|ETH/USD|1h": 1793257200000,
     "CN1M|BTC/USD|1m": 1792837920000,
     "CN1M|ETH/USD|1m": 1792837920000,
-    "CN5M|BTC/USD|5m": 1794112200000,
-    "CN5M|ETH/USD|5m": 1794112200000,
+    "CN5M|BTC/USD|5m": 1794112500000,
+    "CN5M|ETH/USD|5m": 1794112500000,
     "CN15|BTC/USD|15m": 1794111300000,
     "CN15|ETH/USD|15m": 1794111300000,
     "CN1H|BTC/USD|1h": 1793257200000,
@@ -120,12 +120,12 @@
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 8050,
+      "checks": 8052,
       "nodata": 0,
       "raw": 6,
       "blocked": {},
       "opened": 6,
-      "last_check": 1794112529
+      "last_check": 1794112822
     },
     "TKF": {
       "since": 1792449614,
