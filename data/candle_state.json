@@ -42279,11 +42279,11 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
-          "6": false
+          "4": true,
+          "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SEI/USD",
         "tf_key": "manual",
         "display": "SEI",
@@ -42305,6 +42305,17 @@
             "ts": "2026-11-08T20:03:45.703319+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-11-08T22:42:03.519374+00:00",
+            "note": "manually closed by admin (final_r=+3.38)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-08T22:42:03.524023+00:00",
+            "close_type": "admin_override",
+            "final_r": 3.375
           }
         ],
         "signal_message_id": 3580,
@@ -42316,7 +42327,9 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1794175824041,
-        "_stale_alert_sent_at_ms": 1794175824041
+        "_stale_alert_sent_at_ms": 1794175824041,
+        "runner_r": 5.499999999999952,
+        "close_type": "admin_override"
       },
       "hist": []
     },
