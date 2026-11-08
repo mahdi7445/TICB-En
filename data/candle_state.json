@@ -11944,6 +11944,12 @@
             "ts": "2026-11-05T15:16:17.663781+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-08T21:55:23.480593+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 1720,
