@@ -167,5 +167,26 @@
     "status": "applied",
     "requested_at": "2026-11-08T22:41:27.742782+00:00",
     "mode": "replay"
+  },
+  {
+    "key": "ALT-000770",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-08T23:54:02.506205+00:00",
+    "mode": "replay"
+  },
+  {
+    "key": "ALT-000773",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-08T23:54:09.411483+00:00",
+    "mode": "replay"
+  },
+  {
+    "key": "ALT-000777",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-08T23:54:15.064405+00:00",
+    "mode": "replay"
   }
 ]
