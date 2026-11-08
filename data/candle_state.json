@@ -42215,6 +42215,82 @@
         "logical_tf": "4h"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000782": {
+      "open_trade": {
+        "signal_id": "ALT-000782",
+        "source_signal_id": "ALT-000782",
+        "side": "SELL",
+        "entry": 3.686,
+        "sl": 3.705,
+        "r": 0.019000000000000128,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "NEAR/USD",
+        "tf_key": "manual",
+        "display": "NEAR",
+        "opened_at_ms": 1794104575616,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-08T02:22:55.616609+00:00",
+            "price": 3.686
+          }
+        ],
+        "signal_message_id": 3581,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000783": {
+      "open_trade": {
+        "signal_id": "ALT-000783",
+        "source_signal_id": "ALT-000783",
+        "side": "SELL",
+        "entry": 1240.59,
+        "sl": 1250.33,
+        "r": 9.740000000000009,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ZEC/USD",
+        "tf_key": "manual",
+        "display": "ZEC",
+        "opened_at_ms": 1794104575619,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-08T02:22:55.619074+00:00",
+            "price": 1240.59
+          }
+        ],
+        "signal_message_id": 3582,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
