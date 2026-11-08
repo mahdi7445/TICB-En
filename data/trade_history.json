@@ -32456,5 +32456,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000783",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-08T02:22:55.619074+00:00",
+        "price": 1240.59
+      },
+      {
+        "type": "stop",
+        "ts": "2026-11-08T03:06:04.690463+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-08T03:06:04.695362+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ZEC/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "SELL",
+    "entry": 1240.59,
+    "sl": 1250.33,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-11-08T02:22:55.619000+00:00",
+    "closed_at": "2026-11-08T03:06:04.695362+00:00",
+    "r_pct": 0.7851,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
