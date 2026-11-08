@@ -9478,5 +9478,33 @@
     "source_signal_id": "ALT-000781",
     "signal_message_id": 3580,
     "activated_at": "2026-11-08T00:03:25.408150+00:00"
+  },
+  {
+    "id": "src-ALT-000782",
+    "symbol": "NEAR/USD",
+    "side": "SELL",
+    "entry": 3.686,
+    "sl": 3.705,
+    "status": "pending",
+    "created_at": 1794104511,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000782",
+    "signal_message_id": 3581
+  },
+  {
+    "id": "src-ALT-000783",
+    "symbol": "ZEC/USD",
+    "side": "SELL",
+    "entry": 1240.59,
+    "sl": 1250.33,
+    "status": "pending",
+    "created_at": 1794104535,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000783",
+    "signal_message_id": 3582
   }
 ]
