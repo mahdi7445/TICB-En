@@ -42231,7 +42231,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "NEAR/USD",
         "tf_key": "manual",
         "display": "NEAR",
@@ -42241,6 +42241,17 @@
             "type": "opened",
             "ts": "2026-11-08T02:22:55.616609+00:00",
             "price": 3.686
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-08T03:05:15.963030+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-08T03:05:15.968039+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3581,
@@ -42250,7 +42261,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
