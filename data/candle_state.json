@@ -35013,7 +35013,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "POL/USD",
         "tf_key": "manual",
         "display": "POL",
@@ -35023,6 +35023,17 @@
             "type": "opened",
             "ts": "2026-11-04T12:06:44.912397+00:00",
             "price": 0.09499
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-08T22:03:19.471784+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-08T22:03:19.476864+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3172,
@@ -35034,7 +35045,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1793965399154,
-        "_stale_alert_sent_at_ms": 1794140027512
+        "_stale_alert_sent_at_ms": 1794140027512,
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -41632,8 +41644,8 @@
         "sl": 53.14,
         "r": 1.0,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -41648,6 +41660,12 @@
             "type": "opened",
             "ts": "2026-11-07T10:44:57.134804+00:00",
             "price": 52.14
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-08T22:03:19.507781+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3550,
@@ -41671,8 +41689,8 @@
         "sl": 8.48,
         "r": 0.17999999999999972,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -41687,6 +41705,12 @@
             "type": "opened",
             "ts": "2026-11-07T10:44:57.139391+00:00",
             "price": 8.3
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-08T22:03:19.507881+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3551,
@@ -41710,8 +41734,8 @@
         "sl": 11.08,
         "r": 0.25,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -41726,6 +41750,12 @@
             "type": "opened",
             "ts": "2026-11-07T10:44:57.143939+00:00",
             "price": 10.83
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-08T22:03:19.507956+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3552,
@@ -41805,8 +41835,8 @@
         "sl": 0.8753,
         "r": 0.018799999999999928,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -41821,6 +41851,12 @@
             "type": "opened",
             "ts": "2026-11-07T16:09:39.850400+00:00",
             "price": 0.8565
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-08T22:03:19.508028+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3562,
@@ -41844,8 +41880,8 @@
         "sl": 0.9133,
         "r": 0.020000000000000018,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -41860,6 +41896,12 @@
             "type": "opened",
             "ts": "2026-11-07T16:09:39.855191+00:00",
             "price": 0.8933
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-08T22:03:19.508098+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3563,

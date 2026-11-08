@@ -5923,7 +5923,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000640",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-08T22:01:42.914991+00:00"
   },
@@ -5935,7 +5935,7 @@
     "level": 2,
     "result_r": 0.8,
     "source_signal_id": "ALT-000689",
-    "status": "pending",
+    "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-08T22:01:49.393864+00:00"
   },
@@ -5947,7 +5947,7 @@
     "level": 2,
     "result_r": 0.7,
     "source_signal_id": "ALT-000768",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-08T22:01:55.698258+00:00"
   },
@@ -5959,7 +5959,7 @@
     "level": 2,
     "result_r": 0.7,
     "source_signal_id": "ALT-000769",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-08T22:01:56.669722+00:00"
   },
@@ -5971,7 +5971,7 @@
     "level": 2,
     "result_r": 0.7,
     "source_signal_id": "ALT-000770",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-08T22:01:57.808409+00:00"
   },
@@ -5983,7 +5983,7 @@
     "level": 2,
     "result_r": 0.7,
     "source_signal_id": "ALT-000772",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-08T22:01:59.034269+00:00"
   },
@@ -5995,7 +5995,7 @@
     "level": 2,
     "result_r": 0.7,
     "source_signal_id": "ALT-000773",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-08T22:02:00.223813+00:00"
   }
