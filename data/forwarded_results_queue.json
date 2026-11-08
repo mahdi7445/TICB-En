@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "SOL",
-    "tf_label": "1H",
-    "entry": 100.17,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000493",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-10-29T11:04:02.401739+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "LDO",
     "tf_label": "1H",
     "entry": 0.363,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-08T16:07:23.260589+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "4H",
+    "entry": 4.16,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000560",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-08T16:53:38.492696+00:00"
   }
 ]
