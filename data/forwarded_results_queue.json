@@ -3,18 +3,6 @@
     "kind": "stop",
     "ticker": "SOL",
     "tf_label": "1H",
-    "entry": 99.94,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000504",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T10:57:16.964886+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "SOL",
-    "tf_label": "1H",
     "entry": 100.17,
     "level": null,
     "result_r": -1.0,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-08T14:24:05.515202+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ICP",
+    "tf_label": "4H",
+    "entry": 2.414,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000777",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-08T16:07:23.260589+00:00"
   }
 ]
