@@ -9560,12 +9560,13 @@
     "side": "SELL",
     "entry": 0.146,
     "sl": 0.1467,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794177962,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000787",
-    "signal_message_id": 3609
+    "signal_message_id": 3609,
+    "activated_at": "2026-11-08T22:47:14.116720+00:00"
   }
 ]
