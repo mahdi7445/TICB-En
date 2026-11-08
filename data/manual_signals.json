@@ -9523,5 +9523,19 @@
     "source_signal_id": "ALT-000784",
     "signal_message_id": 3585,
     "activated_at": "2026-11-08T07:02:49.473084+00:00"
+  },
+  {
+    "id": "src-ALT-000785",
+    "symbol": "PEPE/USD",
+    "side": "SELL",
+    "entry": 4.973e-06,
+    "sl": 4.994e-06,
+    "status": "pending",
+    "created_at": 1794141649,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000785",
+    "signal_message_id": 3588
   }
 ]
