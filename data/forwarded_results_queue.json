@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "SEI",
-    "tf_label": "1H",
-    "entry": 0.05153,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000501",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T14:38:08.015990+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "AAVE",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-08T22:52:51.667877+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 597.98,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000786",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-08T23:02:28.910234+00:00"
   }
 ]
