@@ -9821,5 +9821,19 @@
     "silent": true,
     "source_signal_id": "ALT-000804",
     "signal_message_id": 3655
+  },
+  {
+    "id": "src-ALT-000805",
+    "symbol": "ARB/USD",
+    "side": "SELL",
+    "entry": 0.172,
+    "sl": 0.1741,
+    "status": "pending",
+    "created_at": 1794204996,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000805",
+    "signal_message_id": 3656
   }
 ]
