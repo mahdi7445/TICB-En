@@ -1,53 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "LINK",
-    "tf_label": "4H",
-    "entry": 11.82,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000324",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:49:15.078627+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "NEAR",
-    "tf_label": "4H",
-    "entry": 4.68,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000325",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:49:16.323942+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "TRX",
-    "tf_label": "4H",
-    "entry": 0.3299,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000378",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:49:19.901407+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "BCH",
-    "tf_label": "4H",
-    "entry": 288.73,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000430",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:49:21.095896+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "BNB",
     "tf_label": "4H",
@@ -5998,5 +5950,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T07:45:32.625009+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LTC",
+    "tf_label": "15M",
+    "entry": 50.57,
+    "level": 4,
+    "result_r": 2.15,
+    "source_signal_id": "ALT-000803",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:53:33.115097+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "LTC",
+    "tf_label": "15M",
+    "entry": 50.57,
+    "level": null,
+    "result_r": 2.9,
+    "source_signal_id": "ALT-000803",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:53:33.784920+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOT",
+    "tf_label": "15M",
+    "entry": 0.8617,
+    "level": 3,
+    "result_r": 1.35,
+    "source_signal_id": "ALT-000804",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:53:34.486234+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "DOT",
+    "tf_label": "15M",
+    "entry": 0.8617,
+    "level": null,
+    "result_r": 2.25,
+    "source_signal_id": "ALT-000804",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:53:34.865672+00:00"
   }
 ]
