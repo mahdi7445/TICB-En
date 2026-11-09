@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "LTC",
-    "tf_label": "5M",
-    "entry": 55.89,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000528",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T21:50:14.238210+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "DOT",
     "tf_label": "5M",
     "entry": 0.9332,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T10:36:57.331080+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 1.108,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000799",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T11:14:35.530005+00:00"
   }
 ]
