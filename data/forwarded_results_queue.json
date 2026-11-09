@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "5M",
-    "entry": 10.9,
-    "level": 6,
-    "result_r": 2.0,
-    "source_signal_id": "ALT-000535",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T00:19:11.524535+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "OP",
     "tf_label": "5M",
     "entry": 0.1008,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T15:50:40.226630+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "LINK",
+    "tf_label": "5M",
+    "entry": 10.618,
+    "level": null,
+    "result_r": 4.59,
+    "source_signal_id": "ALT-000836",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T15:58:15.470984+00:00"
   }
 ]
