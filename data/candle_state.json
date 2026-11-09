@@ -42845,7 +42845,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "INJ/USD",
         "tf_key": "manual",
         "display": "INJ",
@@ -42855,9 +42855,135 @@
             "type": "opened",
             "ts": "2026-11-09T00:23:57.017891+00:00",
             "price": 8.086
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-09T00:40:05.071161+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T00:40:05.075238+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3624,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m",
+        "close_type": "stop"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000793": {
+      "open_trade": {
+        "signal_id": "ALT-000793",
+        "source_signal_id": "ALT-000793",
+        "side": "BUY",
+        "entry": 0.06934,
+        "sl": 0.06912,
+        "r": 0.00021999999999999797,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "DOGE/USD",
+        "tf_key": "manual",
+        "display": "DOGE",
+        "opened_at_ms": 1794184805001,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-09T00:40:05.001264+00:00",
+            "price": 0.06934
+          }
+        ],
+        "signal_message_id": 3626,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000794": {
+      "open_trade": {
+        "signal_id": "ALT-000794",
+        "source_signal_id": "ALT-000794",
+        "side": "BUY",
+        "entry": 10.485,
+        "sl": 10.45,
+        "r": 0.03500000000000014,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "LINK/USD",
+        "tf_key": "manual",
+        "display": "LINK",
+        "opened_at_ms": 1794184805005,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-09T00:40:05.005905+00:00",
+            "price": 10.485
+          }
+        ],
+        "signal_message_id": 3627,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000795": {
+      "open_trade": {
+        "signal_id": "ALT-000795",
+        "source_signal_id": "ALT-000795",
+        "side": "BUY",
+        "entry": 0.8676,
+        "sl": 0.8646,
+        "r": 0.0030000000000000027,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "DOT/USD",
+        "tf_key": "manual",
+        "display": "DOT",
+        "opened_at_ms": 1794184805010,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-09T00:40:05.010329+00:00",
+            "price": 0.8676
+          }
+        ],
+        "signal_message_id": 3628,
         "forwarded_tracking": true,
         "manual_tf_cfg": {
           "td_interval": "5min",
