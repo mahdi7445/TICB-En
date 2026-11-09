@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "DOT",
-    "tf_label": "5M",
-    "entry": 0.9332,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000529",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T21:50:14.969238+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "SOL",
     "tf_label": "5M",
     "entry": 97.59,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T11:14:35.530005+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 86.04,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000821",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T11:17:53.980575+00:00"
   }
 ]
