@@ -43890,7 +43890,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOT/USD",
         "tf_key": "manual",
         "display": "DOT",
@@ -43900,6 +43900,17 @@
             "type": "opened",
             "ts": "2026-11-09T07:31:24.963601+00:00",
             "price": 0.8517
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-09T08:27:22.355933+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T08:27:22.360198+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3673,
@@ -43909,7 +43920,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -44028,7 +44040,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TIA/USD",
         "tf_key": "manual",
         "display": "TIA",
@@ -44038,6 +44050,17 @@
             "type": "opened",
             "ts": "2026-11-09T07:32:12.081367+00:00",
             "price": 0.4092
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-09T08:27:22.389012+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T08:27:22.393302+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3676,
@@ -44047,7 +44070,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -44266,7 +44290,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "NEAR/USD",
         "tf_key": "manual",
         "display": "NEAR",
@@ -44276,6 +44300,17 @@
             "type": "opened",
             "ts": "2026-11-09T08:13:26.976879+00:00",
             "price": 3.46
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-09T08:27:22.421466+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T08:27:22.425435+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3694,
@@ -44285,7 +44320,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
