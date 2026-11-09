@@ -43859,6 +43859,120 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000814": {
+      "open_trade": {
+        "signal_id": "ALT-000814",
+        "source_signal_id": "ALT-000814",
+        "side": "SELL",
+        "entry": 212.31,
+        "sl": 213.63,
+        "r": 1.3199999999999932,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TAO/USD",
+        "tf_key": "manual",
+        "display": "TAO",
+        "opened_at_ms": 1794209532076,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-09T07:32:12.076673+00:00",
+            "price": 212.31
+          }
+        ],
+        "signal_message_id": 3675,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000815": {
+      "open_trade": {
+        "signal_id": "ALT-000815",
+        "source_signal_id": "ALT-000815",
+        "side": "SELL",
+        "entry": 0.4092,
+        "sl": 0.4127,
+        "r": 0.003500000000000003,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TIA/USD",
+        "tf_key": "manual",
+        "display": "TIA",
+        "opened_at_ms": 1794209532081,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-09T07:32:12.081367+00:00",
+            "price": 0.4092
+          }
+        ],
+        "signal_message_id": 3676,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000816": {
+      "open_trade": {
+        "signal_id": "ALT-000816",
+        "source_signal_id": "ALT-000816",
+        "side": "SELL",
+        "entry": 1.085,
+        "sl": 1.091,
+        "r": 0.006000000000000005,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "XRP/USD",
+        "tf_key": "manual",
+        "display": "XRP",
+        "opened_at_ms": 1794209532086,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-09T07:32:12.086044+00:00",
+            "price": 1.085
+          }
+        ],
+        "signal_message_id": 3677,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
