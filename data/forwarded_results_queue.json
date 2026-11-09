@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "DOT",
-    "tf_label": "5M",
-    "entry": 1.005,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000518",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T18:43:36.031833+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "LINK",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-09T02:26:08.858806+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "FIL",
+    "tf_label": "15M",
+    "entry": 0.747,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000796",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T02:53:06.230929+00:00"
   }
 ]
