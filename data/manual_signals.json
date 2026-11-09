@@ -9952,5 +9952,47 @@
     "silent": true,
     "source_signal_id": "ALT-000813",
     "signal_message_id": 3674
+  },
+  {
+    "id": "src-ALT-000814",
+    "symbol": "TAO/USD",
+    "side": "SELL",
+    "entry": 212.31,
+    "sl": 213.63,
+    "status": "pending",
+    "created_at": 1794209449,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000814",
+    "signal_message_id": 3675
+  },
+  {
+    "id": "src-ALT-000815",
+    "symbol": "TIA/USD",
+    "side": "SELL",
+    "entry": 0.4092,
+    "sl": 0.4127,
+    "status": "pending",
+    "created_at": 1794209452,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000815",
+    "signal_message_id": 3676
+  },
+  {
+    "id": "src-ALT-000816",
+    "symbol": "XRP/USD",
+    "side": "SELL",
+    "entry": 1.085,
+    "sl": 1.091,
+    "status": "pending",
+    "created_at": 1794209467,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000816",
+    "signal_message_id": 3677
   }
 ]
