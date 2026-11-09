@@ -1,53 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ICP",
-    "tf_label": "5M",
-    "entry": 2.521,
-    "level": 6,
-    "result_r": 2.0,
-    "source_signal_id": "ALT-000524",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:42:32.330017+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "5M",
-    "entry": 7.81,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000525",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:42:33.365449+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "PEPE",
-    "tf_label": "5M",
-    "entry": 5.156e-06,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000526",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:42:34.562937+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "TAO",
-    "tf_label": "4H",
-    "entry": 256.5,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000255",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:49:09.521082+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "LINK",
     "tf_label": "4H",
@@ -5998,5 +5950,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T07:38:34.688322+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LINK",
+    "tf_label": "5M",
+    "entry": 10.22,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000809",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:45:28.310015+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SUI",
+    "tf_label": "5M",
+    "entry": 0.8072,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000810",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:45:28.979340+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "LTC",
+    "tf_label": "5M",
+    "entry": 49.83,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000811",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:45:29.977726+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 6.67,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000813",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:45:32.625009+00:00"
   }
 ]
