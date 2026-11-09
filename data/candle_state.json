@@ -43322,7 +43322,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PEPE/USD",
         "tf_key": "manual",
         "display": "PEPE",
@@ -43338,6 +43338,17 @@
             "ts": "2026-11-09T06:24:33.576521+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-09T08:20:06.589697+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T08:20:06.593980+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.7
           }
         ],
         "signal_message_id": 3641,
@@ -43347,7 +43358,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
@@ -44192,8 +44204,8 @@
         "sl": 674.22,
         "r": 1.6299999999999955,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -44208,6 +44220,12 @@
             "type": "opened",
             "ts": "2026-11-09T08:13:26.971897+00:00",
             "price": 675.85
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-09T08:20:06.622990+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3693,
