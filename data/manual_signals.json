@@ -10153,5 +10153,47 @@
     "source_signal_id": "ALT-000826",
     "signal_message_id": 3718,
     "activated_at": "2026-11-09T11:37:36.052587+00:00"
+  },
+  {
+    "id": "src-ALT-000827",
+    "symbol": "PEPE/USD",
+    "side": "SELL",
+    "entry": 5.021e-06,
+    "sl": 5.53e-06,
+    "status": "pending",
+    "created_at": 1794226211,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000827",
+    "signal_message_id": 3720
+  },
+  {
+    "id": "src-ALT-000828",
+    "symbol": "TRX/USD",
+    "side": "BUY",
+    "entry": 0.3174,
+    "sl": 0.313,
+    "status": "pending",
+    "created_at": 1794226212,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000828",
+    "signal_message_id": 3721
+  },
+  {
+    "id": "src-ALT-000829",
+    "symbol": "RENDER/USD",
+    "side": "SELL",
+    "entry": 1.59,
+    "sl": 1.73,
+    "status": "pending",
+    "created_at": 1794226215,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000829",
+    "signal_message_id": 3722
   }
 ]
