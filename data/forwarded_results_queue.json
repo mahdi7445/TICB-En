@@ -1,30 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "XRP",
-    "tf_label": "5M",
-    "entry": 1.249,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000542",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T22:44:24.618251+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "5M",
-    "entry": 10.9,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000535",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T22:57:42.951224+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "FIL",
     "tf_label": "5M",
     "entry": 0.825,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T15:13:22.438618+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "LTC",
+    "tf_label": "1H",
+    "entry": 52.14,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000768",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T15:20:46.818412+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LTC",
+    "tf_label": "5M",
+    "entry": 51.67,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000832",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T15:21:03.246703+00:00"
   }
 ]
