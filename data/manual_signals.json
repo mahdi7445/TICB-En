@@ -9793,5 +9793,33 @@
     "source_signal_id": "ALT-000802",
     "signal_message_id": 3650,
     "activated_at": "2026-11-09T05:31:12.604498+00:00"
+  },
+  {
+    "id": "src-ALT-000803",
+    "symbol": "LTC/USD",
+    "side": "SELL",
+    "entry": 50.57,
+    "sl": 50.77,
+    "status": "pending",
+    "created_at": 1794204983,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000803",
+    "signal_message_id": 3654
+  },
+  {
+    "id": "src-ALT-000804",
+    "symbol": "DOT/USD",
+    "side": "SELL",
+    "entry": 0.8617,
+    "sl": 0.8659,
+    "status": "pending",
+    "created_at": 1794204985,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000804",
+    "signal_message_id": 3655
   }
 ]
