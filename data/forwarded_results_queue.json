@@ -6283,7 +6283,7 @@
     "level": null,
     "result_r": -1.0,
     "source_signal_id": "ALT-000825",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T16:16:24.422802+00:00"
   }
