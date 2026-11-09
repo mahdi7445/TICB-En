@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "AAVE",
-    "tf_label": "5M",
-    "entry": 134.56,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000514",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T17:20:01.227045+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "DOT",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-09T00:10:04.231014+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 8.086,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000792",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T00:39:15.314641+00:00"
   }
 ]
