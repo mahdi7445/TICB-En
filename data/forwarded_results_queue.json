@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "BNB",
-    "tf_label": "4H",
-    "entry": 745.74,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000491",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:49:24.586368+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "DOGE",
     "tf_label": "4H",
     "entry": 0.07917,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T07:53:34.865672+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "5M",
+    "entry": 85.58,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000817",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T08:17:07.237481+00:00"
   }
 ]
