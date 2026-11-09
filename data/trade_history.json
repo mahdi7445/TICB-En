@@ -34418,5 +34418,65 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "TC-000119",
+    "events": [
+      {
+        "type": "target",
+        "index": 0,
+        "price": 2106.3100000000004,
+        "banked": 0.7,
+        "ts": "2026-11-09T08:24:31.718078+00:00"
+      },
+      {
+        "type": "target",
+        "index": 1,
+        "price": 2122.1100000000006,
+        "banked": 1.7,
+        "ts": "2026-11-09T08:55:21.142743+00:00"
+      },
+      {
+        "type": "stop",
+        "price": 2106.3100000000004,
+        "final_r": 2.5,
+        "ts": "2026-11-09T09:25:24.936296+00:00"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-09T09:25:25.324458+00:00",
+        "close_type": "stop_after_t2",
+        "final_r": 2.5
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "5m",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 2090.51,
+    "sl": 2082.61,
+    "final_r": 2.5,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "stop_after_t2",
+    "close_reason": "stop_after_t2",
+    "opened_at": "2026-11-09T07:55:09.028000+00:00",
+    "closed_at": "2026-11-09T09:25:25.324458+00:00",
+    "r_pct": 0.3779,
+    "mfe_r": 4.481,
+    "mae_r": 0.3949,
+    "quality_tier": "orig",
+    "strategy": "module:CN5M",
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": 0.3779,
+    "fee_r_est": null,
+    "net_r_est": null,
+    "module": "CN5M",
+    "ladder": "Q3",
+    "trigger": null,
+    "hot_move_pct": null
   }
 ]
