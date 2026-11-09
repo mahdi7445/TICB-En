@@ -1,41 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "ARB",
-    "tf_label": "4H",
-    "entry": 0.1789,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000260",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:42:12.328876+00:00"
-  },
-  {
-    "kind": "sl_after_t2",
-    "ticker": "ZEC",
-    "tf_label": "4H",
-    "entry": 1143.32,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000358",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:42:21.479387+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "OP",
-    "tf_label": "4H",
-    "entry": 0.1131,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000477",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:42:25.033777+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ICP",
     "tf_label": "5M",
@@ -5998,5 +5962,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T07:15:31.078720+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "DOGE",
+    "tf_label": "5M",
+    "entry": 0.06807,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000808",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:38:25.453926+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TAO",
+    "tf_label": "5M",
+    "entry": 212.31,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000814",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:38:32.337488+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XRP",
+    "tf_label": "5M",
+    "entry": 1.085,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000816",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:38:34.688322+00:00"
   }
 ]
