@@ -9568,5 +9568,61 @@
     "source_signal_id": "ALT-000787",
     "signal_message_id": 3609,
     "activated_at": "2026-11-08T22:47:14.116720+00:00"
+  },
+  {
+    "id": "src-ALT-000788",
+    "symbol": "NEAR/USD",
+    "side": "BUY",
+    "entry": 3.58,
+    "sl": 3.25,
+    "status": "pending",
+    "created_at": 1794182464,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000788",
+    "signal_message_id": 3617
+  },
+  {
+    "id": "src-ALT-000789",
+    "symbol": "TIA/USD",
+    "side": "BUY",
+    "entry": 0.4111,
+    "sl": 0.3731,
+    "status": "pending",
+    "created_at": 1794182465,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000789",
+    "signal_message_id": 3618
+  },
+  {
+    "id": "src-ALT-000790",
+    "symbol": "ZEC/USD",
+    "side": "BUY",
+    "entry": 1211.07,
+    "sl": 1077.69,
+    "status": "pending",
+    "created_at": 1794182466,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000790",
+    "signal_message_id": 3619
+  },
+  {
+    "id": "src-ALT-000791",
+    "symbol": "BNB/USD",
+    "side": "BUY",
+    "entry": 683.9,
+    "sl": 663.39,
+    "status": "pending",
+    "created_at": 1794182467,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000791",
+    "signal_message_id": 3620
   }
 ]
