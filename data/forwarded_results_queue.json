@@ -1,41 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "HBAR",
-    "tf_label": "5M",
-    "entry": 0.06969,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000538",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T22:37:56.803364+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "SHIB",
-    "tf_label": "5M",
-    "entry": 4.662e-06,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000540",
-    "status": "unmatched",
-    "attempts": 120,
-    "queued_at": "2026-10-29T22:37:57.545092+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "DOGE",
-    "tf_label": "5M",
-    "entry": 0.07598,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000534",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T22:44:21.416889+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "LINK",
     "tf_label": "5M",
@@ -5998,5 +5962,41 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-11-09T14:50:29.194550+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "SUI",
+    "tf_label": "1H",
+    "entry": 0.8565,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000772",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T14:51:20.619509+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "5M",
+    "entry": 10.618,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000836",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T14:51:38.141329+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "5M",
+    "entry": 10.618,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000836",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T14:51:39.006062+00:00"
   }
 ]
