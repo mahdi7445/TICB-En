@@ -10423,5 +10423,19 @@
     "source_signal_id": "ALT-000844",
     "signal_message_id": 3766,
     "activated_at": "2026-11-09T17:04:13.550252+00:00"
+  },
+  {
+    "id": "src-ALT-000845",
+    "symbol": "ETC/USD",
+    "side": "SELL",
+    "entry": 6.89,
+    "sl": 6.94,
+    "status": "pending",
+    "created_at": 1794247533,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000845",
+    "signal_message_id": 3773
   }
 ]
