@@ -4,18 +4,6 @@
     "ticker": "ICP",
     "tf_label": "5M",
     "entry": 2.521,
-    "level": 1,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000524",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:35:41.496981+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ICP",
-    "tf_label": "5M",
-    "entry": 2.521,
     "level": 2,
     "result_r": 0.8,
     "source_signal_id": "ALT-000524",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T06:23:27.809842+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.1735,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000807",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T06:46:52.830483+00:00"
   }
 ]
