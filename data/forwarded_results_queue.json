@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "5M",
-    "entry": 7.81,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000525",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:35:43.464657+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "PEPE",
     "tf_label": "5M",
     "entry": 5.156e-06,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T06:53:15.284846+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "FIL",
+    "tf_label": "15M",
+    "entry": 0.747,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000796",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T07:08:34.342033+00:00"
   }
 ]
