@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "INJ",
-    "tf_label": "5M",
-    "entry": 7.36,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000565",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T05:56:35.866979+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "TRX",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T20:36:54.234720+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOT",
+    "tf_label": "5M",
+    "entry": 0.8787,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000839",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T21:46:32.969013+00:00"
   }
 ]
