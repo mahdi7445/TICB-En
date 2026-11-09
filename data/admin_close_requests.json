@@ -188,5 +188,12 @@
     "status": "applied",
     "requested_at": "2026-11-08T23:54:15.064405+00:00",
     "mode": "replay"
+  },
+  {
+    "key": "ALT-000772",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-09T04:09:50.517298+00:00",
+    "mode": "replay"
   }
 ]
