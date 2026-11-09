@@ -44879,13 +44879,13 @@
         "sl": 51.44,
         "r": 0.23000000000000398,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LTC/USD",
         "tf_key": "manual",
         "display": "LTC",
@@ -44895,6 +44895,17 @@
             "type": "opened",
             "ts": "2026-11-09T14:14:55.772656+00:00",
             "price": 51.67
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-09T15:21:55.574889+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T15:21:55.618449+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.7
           }
         ],
         "signal_message_id": 3732,
@@ -44904,7 +44915,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
