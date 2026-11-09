@@ -45097,7 +45097,7 @@
           "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LINK/USD",
         "tf_key": "manual",
         "display": "LINK",
@@ -45125,6 +45125,17 @@
             "ts": "2026-11-09T15:44:09.733807+00:00",
             "level_r": 6,
             "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-11-09T15:59:43.169743+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T15:59:43.172629+00:00",
+            "close_type": "runner_stop",
+            "final_r": 4.59
           }
         ],
         "signal_message_id": 3737,
@@ -45134,7 +45145,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "runner_stop"
       },
       "hist": []
     },
