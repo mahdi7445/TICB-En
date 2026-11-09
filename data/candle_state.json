@@ -44575,6 +44575,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000826": {
+      "open_trade": {
+        "signal_id": "ALT-000826",
+        "source_signal_id": "ALT-000826",
+        "side": "BUY",
+        "entry": 0.8286,
+        "sl": 0.8249,
+        "r": 0.0037000000000000366,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SUI/USD",
+        "tf_key": "manual",
+        "display": "SUI",
+        "opened_at_ms": 1794224256052,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-09T11:37:36.052561+00:00",
+            "price": 0.8286
+          }
+        ],
+        "signal_message_id": 3718,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
