@@ -1,54 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "DOT",
-    "tf_label": "5M",
-    "entry": 1.005,
-    "level": 6,
-    "result_r": 2.0,
-    "source_signal_id": "ALT-000518",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:07:16.278387+00:00"
-  },
-  {
-    "kind": "runner_stop",
-    "ticker": "DOT",
-    "tf_label": "5M",
-    "entry": 1.005,
-    "level": null,
-    "result_r": 3.38,
-    "source_signal_id": "ALT-000518",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:14:54.447173+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "LDO",
-    "tf_label": "4H",
-    "entry": 0.381,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000257",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:35:19.276182+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "SOL",
-    "tf_label": "4H",
-    "entry": 103.53,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000258",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:35:20.185079+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "BNB",
     "tf_label": "4H",
     "entry": 745.74,
@@ -5998,5 +5950,53 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T03:22:11.539338+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZAMA",
+    "tf_label": "1M",
+    "entry": 0.07586,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000476",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T04:18:02.733706+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZAMA",
+    "tf_label": "1M",
+    "entry": 0.07586,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000476",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T04:18:05.075776+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZAMA",
+    "tf_label": "1M",
+    "entry": 0.07586,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000476",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T04:18:07.557080+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZAMA",
+    "tf_label": "1M",
+    "entry": 0.07586,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000476",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T04:18:10.003947+00:00"
   }
 ]
