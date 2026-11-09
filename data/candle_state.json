@@ -44164,6 +44164,82 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000819": {
+      "open_trade": {
+        "signal_id": "ALT-000819",
+        "source_signal_id": "ALT-000819",
+        "side": "BUY",
+        "entry": 675.85,
+        "sl": 674.22,
+        "r": 1.6299999999999955,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "BNB/USD",
+        "tf_key": "manual",
+        "display": "BNB",
+        "opened_at_ms": 1794212006971,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-09T08:13:26.971897+00:00",
+            "price": 675.85
+          }
+        ],
+        "signal_message_id": 3693,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000820": {
+      "open_trade": {
+        "signal_id": "ALT-000820",
+        "source_signal_id": "ALT-000820",
+        "side": "SELL",
+        "entry": 3.46,
+        "sl": 3.5,
+        "r": 0.040000000000000036,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "NEAR/USD",
+        "tf_key": "manual",
+        "display": "NEAR",
+        "opened_at_ms": 1794212006976,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-09T08:13:26.976879+00:00",
+            "price": 3.46
+          }
+        ],
+        "signal_message_id": 3694,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
