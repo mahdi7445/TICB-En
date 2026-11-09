@@ -1,30 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "ICP",
-    "tf_label": "5M",
-    "entry": 2.521,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000524",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:35:42.489864+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "5M",
-    "entry": 7.81,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000525",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:35:43.133036+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "INJ",
     "tf_label": "5M",
     "entry": 7.81,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T06:51:15.384112+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LTC",
+    "tf_label": "15M",
+    "entry": 50.57,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000803",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T06:53:12.175022+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 3.537,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000806",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T06:53:15.284846+00:00"
   }
 ]
