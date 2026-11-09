@@ -201,5 +201,12 @@
     "final_r": null,
     "status": "applied",
     "requested_at": "2026-11-09T06:46:16.358412+00:00"
+  },
+  {
+    "key": "ALT-000659",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-09T16:20:09.920869+00:00",
+    "mode": "market"
   }
 ]
