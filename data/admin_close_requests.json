@@ -208,5 +208,12 @@
     "status": "applied",
     "requested_at": "2026-11-09T16:20:09.920869+00:00",
     "mode": "market"
+  },
+  {
+    "key": "ALT-000822",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-09T17:30:44.707376+00:00",
+    "mode": "replay"
   }
 ]
