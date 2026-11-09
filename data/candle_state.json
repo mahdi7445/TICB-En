@@ -43417,11 +43417,11 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LTC/USD",
         "tf_key": "manual",
         "display": "LTC",
@@ -43437,6 +43437,23 @@
             "ts": "2026-11-09T06:54:14.862888+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-09T07:54:38.816056+00:00",
+            "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-11-09T07:54:38.816149+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T07:54:38.820736+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.9
           }
         ],
         "signal_message_id": 3654,
@@ -43446,7 +43463,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
@@ -43465,7 +43483,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOT/USD",
         "tf_key": "manual",
         "display": "DOT",
@@ -43481,6 +43499,17 @@
             "ts": "2026-11-09T07:16:39.023374+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-11-09T07:54:38.849335+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T07:54:38.853256+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 2.25
           }
         ],
         "signal_message_id": 3655,
@@ -43490,7 +43519,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
