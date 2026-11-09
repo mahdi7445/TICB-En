@@ -1,18 +1,6 @@
 [
   {
     "kind": "runner_stop",
-    "ticker": "ATOM",
-    "tf_label": "5M",
-    "entry": 1.569,
-    "level": null,
-    "result_r": 4.26,
-    "source_signal_id": "ALT-000523",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:49:29.222731+00:00"
-  },
-  {
-    "kind": "runner_stop",
     "ticker": "ICP",
     "tf_label": "5M",
     "entry": 2.521,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T08:19:10.264247+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XPL",
+    "tf_label": "15M",
+    "entry": 0.0505,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000818",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T08:21:06.405441+00:00"
   }
 ]
