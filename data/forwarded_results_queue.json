@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "POL",
-    "tf_label": "5M",
-    "entry": 0.08884,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000567",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T05:49:59.003172+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "INJ",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T19:43:30.109109+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "15M",
+    "entry": 0.1787,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000850",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T20:36:54.234720+00:00"
   }
 ]
