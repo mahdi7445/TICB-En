@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "JUP",
-    "tf_label": "5M",
-    "entry": 0.2554,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000533",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T22:31:13.624446+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "SUI",
     "tf_label": "5M",
     "entry": 0.8842,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T12:51:55.506025+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "5M",
+    "entry": 8.87,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000833",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T14:29:11.280152+00:00"
   }
 ]
