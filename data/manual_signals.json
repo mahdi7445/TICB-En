@@ -9785,12 +9785,13 @@
     "side": "SELL",
     "entry": 0.1734,
     "sl": 0.1741,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794202228,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000802",
-    "signal_message_id": 3650
+    "signal_message_id": 3650,
+    "activated_at": "2026-11-09T05:31:12.604498+00:00"
   }
 ]
