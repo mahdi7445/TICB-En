@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "PEPE",
-    "tf_label": "5M",
-    "entry": 4.481e-06,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000541",
-    "status": "unmatched",
-    "attempts": 120,
-    "queued_at": "2026-10-29T23:31:44.657325+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "LINK",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T15:40:56.353485+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.1812,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000837",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T15:42:37.494524+00:00"
   }
 ]
