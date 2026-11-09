@@ -10348,5 +10348,19 @@
     "source_signal_id": "ALT-000839",
     "signal_message_id": 3761,
     "activated_at": "2026-11-09T16:31:50.605668+00:00"
+  },
+  {
+    "id": "src-ALT-000840",
+    "symbol": "HBAR/USD",
+    "side": "SELL",
+    "entry": 0.06787,
+    "sl": 0.0681,
+    "status": "pending",
+    "created_at": 1794242785,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000840",
+    "signal_message_id": 3762
   }
 ]
