@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "JUP",
-    "tf_label": "5M",
-    "entry": 0.2529,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000566",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T05:09:30.390581+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "UNI",
     "tf_label": "5M",
     "entry": 6.75,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T18:19:25.475350+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "HBAR",
+    "tf_label": "5M",
+    "entry": 0.06787,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000840",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T18:27:39.575052+00:00"
   }
 ]
