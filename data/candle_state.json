@@ -41865,7 +41865,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SUI/USD",
         "tf_key": "manual",
         "display": "SUI",
@@ -41881,6 +41881,17 @@
             "ts": "2026-11-08T22:03:19.508028+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-11-09T04:10:35.085028+00:00",
+            "note": "manually closed by admin (final_r=+1.30)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T04:10:35.089549+00:00",
+            "close_type": "admin_override",
+            "final_r": 1.3
           }
         ],
         "signal_message_id": 3562,
@@ -41892,7 +41903,8 @@
         },
         "logical_tf": "1h",
         "_replay_checked_ms": 1794196337977,
-        "_stale_alert_sent_at_ms": 1794188095561
+        "_stale_alert_sent_at_ms": 1794188095561,
+        "close_type": "admin_override"
       },
       "hist": []
     },
