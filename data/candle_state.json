@@ -44172,7 +44172,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XPL/USD",
         "tf_key": "manual",
         "display": "XPL",
@@ -44182,6 +44182,17 @@
             "type": "opened",
             "ts": "2026-11-09T08:11:51.048265+00:00",
             "price": 0.0505
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-09T08:21:44.002798+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T08:21:44.007064+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3692,
@@ -44191,7 +44202,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
