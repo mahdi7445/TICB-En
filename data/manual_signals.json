@@ -10092,5 +10092,47 @@
     "silent": true,
     "source_signal_id": "ALT-000822",
     "signal_message_id": 3713
+  },
+  {
+    "id": "src-ALT-000823",
+    "symbol": "AAVE/USD",
+    "side": "BUY",
+    "entry": 132.07,
+    "sl": 130.69,
+    "status": "pending",
+    "created_at": 1794223394,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000823",
+    "signal_message_id": 3714
+  },
+  {
+    "id": "src-ALT-000824",
+    "symbol": "PUMP/USD",
+    "side": "BUY",
+    "entry": 0.003648,
+    "sl": 0.003631,
+    "status": "pending",
+    "created_at": 1794223400,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000824",
+    "signal_message_id": 3715
+  },
+  {
+    "id": "src-ALT-000825",
+    "symbol": "QNT/USD",
+    "side": "BUY",
+    "entry": 201.73,
+    "sl": 198.97,
+    "status": "pending",
+    "created_at": 1794223404,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000825",
+    "signal_message_id": 3716
   }
 ]
