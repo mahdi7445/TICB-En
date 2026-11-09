@@ -10438,5 +10438,33 @@
     "source_signal_id": "ALT-000845",
     "signal_message_id": 3773,
     "activated_at": "2026-11-09T18:05:59.873024+00:00"
+  },
+  {
+    "id": "src-ALT-000846",
+    "symbol": "XLM/USD",
+    "side": "SELL",
+    "entry": 0.147,
+    "sl": 0.1477,
+    "status": "pending",
+    "created_at": 1794248462,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000846",
+    "signal_message_id": 3776
+  },
+  {
+    "id": "src-ALT-000847",
+    "symbol": "POL/USD",
+    "side": "SELL",
+    "entry": 0.08932,
+    "sl": 0.09002,
+    "status": "pending",
+    "created_at": 1794248491,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000847",
+    "signal_message_id": 3777
   }
 ]
