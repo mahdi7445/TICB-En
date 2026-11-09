@@ -43069,7 +43069,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "FIL/USD",
         "tf_key": "manual",
         "display": "FIL",
@@ -43085,6 +43085,17 @@
             "ts": "2026-11-09T02:54:10.465072+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-09T07:09:49.618158+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T07:09:49.622587+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.6
           }
         ],
         "signal_message_id": 3631,
@@ -43096,7 +43107,8 @@
         },
         "logical_tf": "15m",
         "_replay_checked_ms": 1794207060698,
-        "_stale_alert_sent_at_ms": 1794207060698
+        "_stale_alert_sent_at_ms": 1794207060698,
+        "close_type": "breakeven"
       },
       "hist": []
     },
