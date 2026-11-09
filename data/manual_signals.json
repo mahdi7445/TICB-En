@@ -9710,12 +9710,13 @@
     "side": "BUY",
     "entry": 600.68,
     "sl": 596.99,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794186117,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000797",
-    "signal_message_id": 3633
+    "signal_message_id": 3633,
+    "activated_at": "2026-11-09T01:02:30.702123+00:00"
   }
 ]
