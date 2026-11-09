@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t3",
-    "ticker": "PEPE",
-    "tf_label": "5M",
-    "entry": 5.156e-06,
-    "level": null,
-    "result_r": 2.1,
-    "source_signal_id": "ALT-000526",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T21:23:37.332860+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "LTC",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-09T09:33:18.702815+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "BNB",
+    "tf_label": "5M",
+    "entry": 675.85,
+    "level": null,
+    "result_r": 2.5,
+    "source_signal_id": "ALT-000819",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T10:36:57.331080+00:00"
   }
 ]
