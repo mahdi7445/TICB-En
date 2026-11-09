@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "BNB",
-    "tf_label": "4H",
-    "entry": 745.74,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000491",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:35:36.794355+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "ATOM",
     "tf_label": "5M",
     "entry": 1.569,
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-09T04:18:10.003947+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "ZAMA",
+    "tf_label": "1M",
+    "entry": 0.07586,
+    "level": null,
+    "result_r": 10.98,
+    "source_signal_id": "ALT-000476",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T05:40:00.762383+00:00"
   }
 ]
