@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "LINK",
-    "tf_label": "5M",
-    "entry": 10.9,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000535",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T22:44:22.107929+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "XRP",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T14:51:39.006062+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "AVAX",
+    "tf_label": "4H",
+    "entry": 8.93,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000657",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T15:13:22.438618+00:00"
   }
 ]
