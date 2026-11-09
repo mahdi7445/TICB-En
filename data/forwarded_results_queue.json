@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "SEI",
-    "tf_label": "5M",
-    "entry": 0.05384,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000515",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T16:38:12.721179+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "HBAR",
-    "tf_label": "5M",
-    "entry": 0.07443,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000519",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T17:06:04.986315+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "AAVE",
     "tf_label": "5M",
@@ -5998,5 +5974,29 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-11-09T00:09:46.160172+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SEI",
+    "tf_label": "4H",
+    "entry": 0.04548,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000781",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T00:10:00.103516+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SEI",
+    "tf_label": "4H",
+    "entry": 0.04548,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000781",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T00:10:04.231014+00:00"
   }
 ]
