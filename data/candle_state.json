@@ -44902,13 +44902,13 @@
         "sl": 0.325,
         "r": 0.0040000000000000036,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LDO/USD",
         "tf_key": "manual",
         "display": "LDO",
@@ -44918,6 +44918,17 @@
             "type": "opened",
             "ts": "2026-11-09T13:33:16.000610+00:00",
             "price": 0.329
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-09T22:10:42.891408+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T22:10:42.898215+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.7
           }
         ],
         "signal_message_id": 3727,
@@ -44929,7 +44940,8 @@
         },
         "logical_tf": "15m",
         "_replay_checked_ms": 1794261126056,
-        "_stale_alert_sent_at_ms": 1794252808444
+        "_stale_alert_sent_at_ms": 1794252808444,
+        "close_type": "breakeven"
       },
       "hist": []
     },
