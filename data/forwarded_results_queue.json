@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "ATOM",
-    "tf_label": "5M",
-    "entry": 1.569,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000523",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:35:40.861291+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "ICP",
     "tf_label": "5M",
     "entry": 2.521,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T05:52:03.254289+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PEPE",
+    "tf_label": "5M",
+    "entry": 5.091e-06,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000801",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T06:23:27.809842+00:00"
   }
 ]
