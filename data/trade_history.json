@@ -34478,5 +34478,64 @@
     "ladder": "Q3",
     "trigger": null,
     "hot_move_pct": null
+  },
+  {
+    "signal_id": "ALT-000819",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-09T08:13:26.971897+00:00",
+        "price": 675.85
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-09T08:20:06.622990+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-09T08:58:00.529447+00:00",
+        "level_r": 4,
+        "note": "forwarded"
+      },
+      {
+        "type": "sl_after_t2",
+        "ts": "2026-11-09T10:38:01.373554+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-09T10:38:01.377850+00:00",
+        "close_type": "sl_after_t2",
+        "final_r": 2.5
+      }
+    ],
+    "symbol": "BNB/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 675.85,
+    "sl": 674.22,
+    "final_r": 2.5,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "close_type": "sl_after_t2",
+    "close_reason": "Stopped after Target 2 (Target 1-2 banked, rest closed at Target 1 price)",
+    "opened_at": "2026-11-09T08:13:26.971000+00:00",
+    "closed_at": "2026-11-09T10:38:01.377850+00:00",
+    "r_pct": 0.2412,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
