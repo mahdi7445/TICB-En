@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "XRP",
-    "tf_label": "4H",
-    "entry": 1.33,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000478",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-29T20:07:13.887096+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "DOT",
     "tf_label": "5M",
     "entry": 1.005,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T03:09:34.138381+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 1.117,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000800",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T03:22:11.539338+00:00"
   }
 ]
