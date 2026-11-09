@@ -43648,7 +43648,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOGE/USD",
         "tf_key": "manual",
         "display": "DOGE",
@@ -43658,6 +43658,17 @@
             "type": "opened",
             "ts": "2026-11-09T07:31:24.944656+00:00",
             "price": 0.06807
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-09T07:38:58.048910+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T07:38:58.053386+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3669,
@@ -43667,7 +43678,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -43876,7 +43888,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TAO/USD",
         "tf_key": "manual",
         "display": "TAO",
@@ -43886,6 +43898,17 @@
             "type": "opened",
             "ts": "2026-11-09T07:32:12.076673+00:00",
             "price": 212.31
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-09T07:38:58.081966+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T07:38:58.085917+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3675,
@@ -43895,7 +43918,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -43952,7 +43976,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XRP/USD",
         "tf_key": "manual",
         "display": "XRP",
@@ -43962,6 +43986,17 @@
             "type": "opened",
             "ts": "2026-11-09T07:32:12.086044+00:00",
             "price": 1.085
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-09T07:38:58.114479+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T07:38:58.118541+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3677,
@@ -43971,7 +44006,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
