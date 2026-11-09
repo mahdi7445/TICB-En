@@ -35899,7 +35899,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "FIL/USD",
         "tf_key": "manual",
         "display": "FIL",
@@ -35921,6 +35921,17 @@
             "ts": "2026-11-08T14:25:13.703737+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-11-09T16:21:13.059472+00:00",
+            "note": "manually closed by admin (final_r=+1.65)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-09T16:21:13.063647+00:00",
+            "close_type": "admin_override",
+            "final_r": 1.6468
           }
         ],
         "signal_message_id": 3240,
@@ -35932,7 +35943,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1793980247722,
-        "_stale_alert_sent_at_ms": 1794241037019
+        "_stale_alert_sent_at_ms": 1794241037019,
+        "close_type": "admin_override"
       },
       "hist": []
     },
