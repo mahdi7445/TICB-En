@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "JUP",
-    "tf_label": "5M",
-    "entry": 0.2529,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000566",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T06:18:33.678914+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "ALGO",
     "tf_label": "5M",
     "entry": 0.09353,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T22:02:39.149503+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "LDO",
+    "tf_label": "5M",
+    "entry": 0.325,
+    "level": null,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000822",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-09T22:10:11.613811+00:00"
   }
 ]
