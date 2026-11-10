@@ -47624,7 +47624,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LINK/USD",
         "tf_key": "manual",
         "display": "LINK",
@@ -47634,6 +47634,17 @@
             "type": "opened",
             "ts": "2026-11-10T20:34:56.318599+00:00",
             "price": 10.32
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-10T23:14:23.827321+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-10T23:14:23.832236+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3890,
@@ -47643,7 +47654,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     },
