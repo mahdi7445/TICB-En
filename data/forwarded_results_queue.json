@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "BNB",
-    "tf_label": "5M",
-    "entry": 697.62,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000575",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T13:02:46.396643+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "UNI",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T09:44:58.216207+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "INJ",
+    "tf_label": "15M",
+    "entry": 7.98,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000859",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T10:30:23.736824+00:00"
   }
 ]
