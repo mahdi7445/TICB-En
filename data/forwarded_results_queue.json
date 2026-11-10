@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SOL",
-    "tf_label": "5M",
-    "entry": 94.26,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000588",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T19:49:54.253194+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "SUI",
     "tf_label": "5M",
     "entry": 0.8827,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T16:56:42.751162+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "BAT",
+    "tf_label": "1M",
+    "entry": 0.12199,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000874",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T17:07:33.055191+00:00"
   }
 ]
