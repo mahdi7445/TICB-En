@@ -46115,7 +46115,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "AAVE/USD",
         "tf_key": "manual",
         "display": "AAVE",
@@ -46125,6 +46125,17 @@
             "type": "opened",
             "ts": "2026-11-10T07:13:22.872444+00:00",
             "price": 126.8
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-10T07:27:27.748422+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-10T07:27:27.751764+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3805,
@@ -46134,7 +46145,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
