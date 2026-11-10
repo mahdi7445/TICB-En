@@ -10843,5 +10843,19 @@
     "source_signal_id": "ALT-000872",
     "signal_message_id": 3866,
     "activated_at": "2026-11-10T16:35:42.798185+00:00"
+  },
+  {
+    "id": "src-ALT-000873",
+    "symbol": "ICP/USD",
+    "side": "SELL",
+    "entry": 2.364,
+    "sl": 2.387,
+    "status": "pending",
+    "created_at": 1794329361,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000873",
+    "signal_message_id": 3867
   }
 ]
