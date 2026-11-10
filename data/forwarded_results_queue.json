@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "XMR",
-    "tf_label": "5M",
-    "entry": 584.26,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000573",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T08:11:19.011803+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "XMR",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-10T07:41:24.506268+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 563.06,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000853",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T07:56:24.925370+00:00"
   }
 ]
