@@ -1,30 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SUI",
-    "tf_label": "5M",
-    "entry": 0.8827,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000590",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T19:49:56.151470+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "INJ",
-    "tf_label": "15M",
-    "entry": 7.09,
-    "level": null,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000585",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T19:56:29.442678+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "TIA",
     "tf_label": "5M",
     "entry": 0.4513,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T17:18:34.936244+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 3.486,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000875",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T17:21:59.432155+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "5M",
+    "entry": 8.16,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000876",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T17:22:00.558559+00:00"
   }
 ]
