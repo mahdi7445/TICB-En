@@ -10603,5 +10603,19 @@
     "source_signal_id": "ALT-000856",
     "signal_message_id": 3811,
     "activated_at": "2026-11-10T08:08:38.996655+00:00"
+  },
+  {
+    "id": "src-ALT-000857",
+    "symbol": "AAVE/USD",
+    "side": "SELL",
+    "entry": 126.16,
+    "sl": 127.69,
+    "status": "pending",
+    "created_at": 1794298535,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000857",
+    "signal_message_id": 3812
   }
 ]
