@@ -45384,7 +45384,7 @@
           "label": "5M"
         },
         "logical_tf": "5m",
-        "_replay_checked_ms": 1794296976042
+        "_replay_checked_ms": 1794298823920
       },
       "hist": []
     },
@@ -45603,7 +45603,7 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_replay_checked_ms": 1794296976042
+        "_replay_checked_ms": 1794298823920
       },
       "hist": []
     },
@@ -45642,7 +45642,7 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_replay_checked_ms": 1794296976042
+        "_replay_checked_ms": 1794298823920
       },
       "hist": []
     },
