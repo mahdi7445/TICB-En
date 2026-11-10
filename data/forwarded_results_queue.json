@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t3",
-    "ticker": "OP",
-    "tf_label": "5M",
-    "entry": 0.1108,
-    "level": null,
-    "result_r": 2.1,
-    "source_signal_id": "ALT-000586",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T18:22:53.194937+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "INJ",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T15:38:44.200497+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 1.061,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000869",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T15:40:26.779478+00:00"
   }
 ]
