@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "DOGE",
-    "tf_label": "1H",
-    "entry": 0.09235,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000161",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T12:08:00.660338+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "OP",
     "tf_label": "4H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T09:15:18.308452+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "XRP",
+    "tf_label": "5M",
+    "entry": 1.0886,
+    "level": null,
+    "result_r": 2.5,
+    "source_signal_id": "ALT-000858",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T09:23:17.355699+00:00"
   }
 ]
