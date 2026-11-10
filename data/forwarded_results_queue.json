@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t3",
-    "ticker": "SHIB",
-    "tf_label": "5M",
-    "entry": 4.781e-06,
-    "level": null,
-    "result_r": 2.1,
-    "source_signal_id": "ALT-000577",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T14:46:39.207987+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "BCH",
     "tf_label": "4H",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T13:33:02.658756+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "ETC",
+    "tf_label": "15M",
+    "entry": 6.89,
+    "level": null,
+    "result_r": 2.25,
+    "source_signal_id": "ALT-000845",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T13:40:32.840187+00:00"
   }
 ]
