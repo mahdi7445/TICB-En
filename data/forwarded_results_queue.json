@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "XMR",
-    "tf_label": "5M",
-    "entry": 584.26,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000573",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T08:18:18.037275+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "TRX",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T07:56:24.925370+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XRP",
+    "tf_label": "5M",
+    "entry": 1.0886,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000858",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T09:07:18.517025+00:00"
   }
 ]
