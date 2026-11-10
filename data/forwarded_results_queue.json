@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "AAVE",
-    "tf_label": "5M",
-    "entry": 126.75,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000568",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T06:52:30.160631+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "TAO",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T03:48:33.387880+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 6.916,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000852",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T05:42:56.302903+00:00"
   }
 ]
