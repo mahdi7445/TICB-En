@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "XRP",
-    "tf_label": "4H",
-    "entry": 1.33,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000478",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T06:32:17.724046+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "AAVE",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-09T23:46:33.562602+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TIA",
+    "tf_label": "5M",
+    "entry": 0.426,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000851",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T00:01:01.823415+00:00"
   }
 ]
