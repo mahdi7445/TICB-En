@@ -44769,7 +44769,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PEPE/USD",
         "tf_key": "manual",
         "display": "PEPE",
@@ -44779,6 +44779,17 @@
             "type": "opened",
             "ts": "2026-11-09T12:10:26.933975+00:00",
             "price": 5.021e-06
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-10T14:59:47.220737+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-10T14:59:47.226055+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3720,
@@ -44789,7 +44800,8 @@
           "label": "4H"
         },
         "logical_tf": "4h",
-        "_replay_checked_ms": 1794320865284
+        "_replay_checked_ms": 1794320865284,
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -45370,7 +45382,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "DOT/USD",
         "tf_key": "manual",
         "display": "DOT",
@@ -45392,6 +45404,17 @@
             "ts": "2026-11-10T03:49:33.571916+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-11-10T14:59:47.256150+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-10T14:59:47.260533+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 2.5
           }
         ],
         "signal_message_id": 3761,
@@ -45402,7 +45425,8 @@
           "label": "5M"
         },
         "logical_tf": "5m",
-        "_replay_checked_ms": 1794321915122
+        "_replay_checked_ms": 1794321915122,
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
