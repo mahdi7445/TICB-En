@@ -46579,6 +46579,120 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000863": {
+      "open_trade": {
+        "signal_id": "ALT-000863",
+        "source_signal_id": "ALT-000863",
+        "side": "SELL",
+        "entry": 217.54,
+        "sl": 218.57,
+        "r": 1.0300000000000011,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TAO/USD",
+        "tf_key": "manual",
+        "display": "TAO",
+        "opened_at_ms": 1794318610437,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-10T13:50:10.437275+00:00",
+            "price": 217.54
+          }
+        ],
+        "signal_message_id": 3835,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000864": {
+      "open_trade": {
+        "signal_id": "ALT-000864",
+        "source_signal_id": "ALT-000864",
+        "side": "SELL",
+        "entry": 0.08689,
+        "sl": 0.08738,
+        "r": 0.0004900000000000043,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "POL/USD",
+        "tf_key": "manual",
+        "display": "POL",
+        "opened_at_ms": 1794318610442,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-10T13:50:10.442193+00:00",
+            "price": 0.08689
+          }
+        ],
+        "signal_message_id": 3837,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000865": {
+      "open_trade": {
+        "signal_id": "ALT-000865",
+        "source_signal_id": "ALT-000865",
+        "side": "SELL",
+        "entry": 0.253,
+        "sl": 0.2538,
+        "r": 0.0008000000000000229,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "JUP/USD",
+        "tf_key": "manual",
+        "display": "JUP",
+        "opened_at_ms": 1794318610447,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-10T13:50:10.447138+00:00",
+            "price": 0.253
+          }
+        ],
+        "signal_message_id": 3838,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
