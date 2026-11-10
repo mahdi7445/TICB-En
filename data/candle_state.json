@@ -47557,6 +47557,44 @@
         "logical_tf": "4h"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000881": {
+      "open_trade": {
+        "signal_id": "ALT-000881",
+        "source_signal_id": "ALT-000881",
+        "side": "SELL",
+        "entry": 1.82,
+        "sl": 2.11,
+        "r": 0.2899999999999998,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "PIEVERSE/USD",
+        "tf_key": "manual",
+        "display": "PIEVERSE",
+        "opened_at_ms": 1794341476845,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-10T20:11:16.845076+00:00",
+            "price": 1.82
+          }
+        ],
+        "signal_message_id": 3888,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1h",
+          "bar_seconds": 3600,
+          "label": "1H"
+        },
+        "logical_tf": "1h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
