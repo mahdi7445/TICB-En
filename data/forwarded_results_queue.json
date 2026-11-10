@@ -1,17 +1,5 @@
 [
   {
-    "kind": "runner_stop",
-    "ticker": "TIA",
-    "tf_label": "5M",
-    "entry": 0.4513,
-    "level": null,
-    "result_r": 3.94,
-    "source_signal_id": "ALT-000587",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T20:05:33.147840+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "SUI",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T18:02:35.571083+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "PEPE",
+    "tf_label": "15M",
+    "entry": 5.22e-06,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000871",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T18:40:09.942630+00:00"
   }
 ]
