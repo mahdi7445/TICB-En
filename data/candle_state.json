@@ -45661,7 +45661,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ETC/USD",
         "tf_key": "manual",
         "display": "ETC",
@@ -45677,6 +45677,17 @@
             "ts": "2026-11-09T23:47:25.760079+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-11-10T13:42:06.633446+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-10T13:42:06.639392+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 2.25
           }
         ],
         "signal_message_id": 3773,
@@ -45688,7 +45699,8 @@
         },
         "logical_tf": "15m",
         "_replay_checked_ms": 1794317320164,
-        "_stale_alert_sent_at_ms": 1794294557752
+        "_stale_alert_sent_at_ms": 1794294557752,
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
