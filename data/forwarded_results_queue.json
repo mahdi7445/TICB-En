@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "TAO",
-    "tf_label": "5M",
-    "entry": 236.01,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000594",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T22:33:30.409091+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "SOL",
     "tf_label": "5M",
     "entry": 94.26,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T21:55:48.574517+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "BNB",
+    "tf_label": "15M",
+    "entry": 673.97,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000872",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T22:18:33.238320+00:00"
   }
 ]
