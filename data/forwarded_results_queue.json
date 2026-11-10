@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "TIA",
-    "tf_label": "5M",
-    "entry": 0.4513,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000587",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T19:49:53.322054+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "SOL",
     "tf_label": "5M",
     "entry": 94.26,
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-10T16:33:06.994469+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "BAT",
+    "tf_label": "1M",
+    "entry": 0.12199,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000874",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T16:56:42.751162+00:00"
   }
 ]
