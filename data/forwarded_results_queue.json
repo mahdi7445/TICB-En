@@ -1,17 +1,5 @@
 [
   {
-    "kind": "module_closed",
-    "ticker": "CRV",
-    "tf_label": "15M",
-    "entry": 0.2853,
-    "level": null,
-    "result_r": -0.17,
-    "source_signal_id": "ALT-000582",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T21:42:19.820759+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "TAO",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T19:24:34.997522+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ARB",
+    "tf_label": "15M",
+    "entry": 0.1583,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000885",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T21:55:48.574517+00:00"
   }
 ]
