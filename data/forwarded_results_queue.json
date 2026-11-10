@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "DOT",
-    "tf_label": "5M",
-    "entry": 0.9496,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000570",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T07:40:45.257307+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "DOT",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T05:50:07.774992+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "UNI",
+    "tf_label": "5M",
+    "entry": 6.916,
+    "level": null,
+    "result_r": 2.5,
+    "source_signal_id": "ALT-000852",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T06:13:46.045791+00:00"
   }
 ]
