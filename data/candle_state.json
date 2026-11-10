@@ -45856,7 +45856,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "JUP/USD",
         "tf_key": "manual",
         "display": "JUP",
@@ -45866,6 +45866,17 @@
             "type": "opened",
             "ts": "2026-11-09T18:53:28.315786+00:00",
             "price": 0.2542
+          },
+          {
+            "type": "admin_override",
+            "ts": "2026-11-10T05:39:25.733175+00:00",
+            "note": "manually closed by admin (final_r=-1.00)"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-10T05:39:25.736139+00:00",
+            "close_type": "admin_override",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3782,
@@ -45877,7 +45888,8 @@
         },
         "logical_tf": "15m",
         "_replay_checked_ms": 1794288971572,
-        "_stale_alert_sent_at_ms": 1794278517474
+        "_stale_alert_sent_at_ms": 1794278517474,
+        "close_type": "admin_override"
       },
       "hist": []
     },
