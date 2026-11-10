@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SUI",
-    "tf_label": "5M",
-    "entry": 0.8974,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000593",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T22:41:12.771326+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "TAO",
     "tf_label": "5M",
     "entry": 236.01,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T23:13:41.825396+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PEPE",
+    "tf_label": "5M",
+    "entry": 5.229e-06,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000877",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T23:57:39.227461+00:00"
   }
 ]
