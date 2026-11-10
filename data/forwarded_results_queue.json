@@ -4,18 +4,6 @@
     "ticker": "TIA",
     "tf_label": "5M",
     "entry": 0.4513,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000587",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T19:29:48.266087+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "TIA",
-    "tf_label": "5M",
-    "entry": 0.4513,
     "level": 4,
     "result_r": 1.4,
     "source_signal_id": "ALT-000587",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T15:46:35.957159+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "ARB",
+    "tf_label": "4H",
+    "entry": 0.1578,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000561",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T16:33:06.994469+00:00"
   }
 ]
