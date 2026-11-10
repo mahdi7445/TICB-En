@@ -46055,6 +46055,82 @@
         "close_type": "sl_after_t2"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000853": {
+      "open_trade": {
+        "signal_id": "ALT-000853",
+        "source_signal_id": "ALT-000853",
+        "side": "SELL",
+        "entry": 563.06,
+        "sl": 565.98,
+        "r": 2.9200000000000728,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "XMR/USD",
+        "tf_key": "manual",
+        "display": "XMR",
+        "opened_at_ms": 1794294802869,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-10T07:13:22.869323+00:00",
+            "price": 563.06
+          }
+        ],
+        "signal_message_id": 3804,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-000854": {
+      "open_trade": {
+        "signal_id": "ALT-000854",
+        "source_signal_id": "ALT-000854",
+        "side": "SELL",
+        "entry": 126.8,
+        "sl": 127.43,
+        "r": 0.6300000000000097,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "AAVE/USD",
+        "tf_key": "manual",
+        "display": "AAVE",
+        "opened_at_ms": 1794294802872,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-10T07:13:22.872444+00:00",
+            "price": 126.8
+          }
+        ],
+        "signal_message_id": 3805,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
