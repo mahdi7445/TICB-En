@@ -47519,6 +47519,44 @@
         "close_type": "sl_after_t2"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000880": {
+      "open_trade": {
+        "signal_id": "ALT-000880",
+        "source_signal_id": "ALT-000880",
+        "side": "BUY",
+        "entry": 0.1593,
+        "sl": 0.1422,
+        "r": 0.017100000000000004,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ARB/USD",
+        "tf_key": "manual",
+        "display": "ARB",
+        "opened_at_ms": 1794340922806,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-10T20:02:02.806945+00:00",
+            "price": 0.1593
+          }
+        ],
+        "signal_message_id": 3887,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
