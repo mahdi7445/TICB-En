@@ -37147,5 +37147,91 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000875",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-10T17:06:38.351324+00:00",
+        "price": 3.486
+      },
+      {
+        "type": "stop",
+        "ts": "2026-11-10T17:23:05.906874+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-10T17:23:05.911708+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "NEAR/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "SELL",
+    "entry": 3.486,
+    "sl": 3.502,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-11-10T17:06:38.351000+00:00",
+    "closed_at": "2026-11-10T17:23:05.911708+00:00",
+    "r_pct": 0.459,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000876",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-10T17:15:39.451412+00:00",
+        "price": 8.16
+      },
+      {
+        "type": "stop",
+        "ts": "2026-11-10T17:23:05.942133+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-10T17:23:05.946630+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "AVAX/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "SELL",
+    "entry": 8.16,
+    "sl": 8.2,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-11-10T17:15:39.451000+00:00",
+    "closed_at": "2026-11-10T17:23:05.946630+00:00",
+    "r_pct": 0.4902,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
