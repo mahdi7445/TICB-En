@@ -37038,5 +37038,56 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "TC-000117",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-09T06:10:12.492082+00:00",
+        "price": 74446.0
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-10T15:54:16.554151+00:00",
+        "price": 73317.59000000001,
+        "level_r": 1
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-11-10T16:05:43.392211+00:00",
+        "price": 74526.05
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-10T16:05:43.763042+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "1h",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 74526.05,
+    "sl": 74526.05,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-11-09T06:10:12.492000+00:00",
+    "closed_at": "2026-11-10T16:05:43.763042+00:00",
+    "r_pct": 1.6215,
+    "mfe_r": 1.024,
+    "mae_r": -0.862,
+    "quality_tier": "experimental",
+    "strategy": "pin+htf1d-v1",
+    "htf_trend": -1,
+    "htf_aligned": true,
+    "stop_pct": 1.6215,
+    "fee_r_est": 0.0925,
+    "net_r_est": 0.1075
   }
 ]
