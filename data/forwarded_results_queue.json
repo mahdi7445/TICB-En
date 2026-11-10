@@ -1,42 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "TRX",
-    "tf_label": "5M",
-    "entry": 0.3484,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000571",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T08:37:46.118497+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "TRX",
-    "tf_label": "5M",
-    "entry": 0.3484,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000571",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T08:37:46.953192+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "POL",
-    "tf_label": "4H",
-    "entry": 0.09203,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000522",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T10:41:58.395071+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "DOGE",
     "tf_label": "1H",
     "entry": 0.09235,
@@ -5998,5 +5962,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T09:07:18.517025+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "5M",
+    "entry": 126.16,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000857",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T09:15:16.231503+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XRP",
+    "tf_label": "5M",
+    "entry": 1.0886,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000858",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T09:15:16.986310+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "15M",
+    "entry": 7.98,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000859",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T09:15:18.308452+00:00"
   }
 ]
