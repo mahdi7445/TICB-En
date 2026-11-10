@@ -1,18 +1,6 @@
 [
   {
     "kind": "module_closed",
-    "ticker": "TRX",
-    "tf_label": "5M",
-    "entry": 0.341,
-    "level": null,
-    "result_r": 2.43,
-    "source_signal_id": "ALT-000579",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T20:59:40.355408+00:00"
-  },
-  {
-    "kind": "module_closed",
     "ticker": "CRV",
     "tf_label": "15M",
     "entry": 0.2853,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T18:54:52.984032+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 1040.29,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000878",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T19:24:34.997522+00:00"
   }
 ]
