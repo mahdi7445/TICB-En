@@ -11023,5 +11023,19 @@
     "source_signal_id": "ALT-000884",
     "signal_message_id": 3892,
     "activated_at": "2026-11-10T20:35:46.112780+00:00"
+  },
+  {
+    "id": "src-ALT-000885",
+    "symbol": "ARB/USD",
+    "side": "SELL",
+    "entry": 0.1583,
+    "sl": 0.1599,
+    "status": "pending",
+    "created_at": 1794346472,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000885",
+    "signal_message_id": 3895
   }
 ]
