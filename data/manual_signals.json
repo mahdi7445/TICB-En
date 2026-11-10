@@ -10963,5 +10963,19 @@
     "source_signal_id": "ALT-000880",
     "signal_message_id": 3887,
     "activated_at": "2026-11-10T20:02:02.806967+00:00"
+  },
+  {
+    "id": "src-ALT-000881",
+    "symbol": "PIEVERSE/USD",
+    "side": "SELL",
+    "entry": 1.82,
+    "sl": 2.11,
+    "status": "pending",
+    "created_at": 1794341419,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000881",
+    "signal_message_id": 3888
   }
 ]
