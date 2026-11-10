@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "UNI",
-    "tf_label": "5M",
-    "entry": 6.87,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000576",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T13:36:44.110838+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "UNI",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-10T10:30:23.736824+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XMR",
+    "tf_label": "4H",
+    "entry": 599.64,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000583",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-10T10:44:35.123566+00:00"
   }
 ]
