@@ -11165,12 +11165,13 @@
     "side": "SELL",
     "entry": 5.165e-06,
     "sl": 5.189e-06,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794385768,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000894",
-    "signal_message_id": 3919
+    "signal_message_id": 3919,
+    "activated_at": "2026-11-11T08:31:02.869829+00:00"
   }
 ]
