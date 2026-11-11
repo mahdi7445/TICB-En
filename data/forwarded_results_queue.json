@@ -1,29 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "DOT",
-    "tf_label": "5M",
-    "entry": 0.973,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000596",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-31T20:35:48.781754+00:00"
-  },
-  {
-    "kind": "sl_after_t3",
-    "ticker": "DOT",
-    "tf_label": "5M",
-    "entry": 0.973,
-    "level": null,
-    "result_r": 2.1,
-    "source_signal_id": "ALT-000596",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-03T19:37:49.620787+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "ZEC",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T12:06:38.372345+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 574.59,
+    "level": null,
+    "result_r": 2.5,
+    "source_signal_id": "ALT-000895",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T12:26:36.271808+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XLM",
+    "tf_label": "15M",
+    "entry": 0.1482,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000896",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T12:26:37.279373+00:00"
   }
 ]
