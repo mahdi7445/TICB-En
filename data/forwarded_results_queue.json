@@ -1,17 +1,5 @@
 [
   {
-    "kind": "runner_stop",
-    "ticker": "SOL",
-    "tf_label": "5M",
-    "entry": 94.26,
-    "level": null,
-    "result_r": 3.55,
-    "source_signal_id": "ALT-000588",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-31T01:31:03.826146+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "DOT",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T07:11:18.549377+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 996.82,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000892",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T08:28:14.645737+00:00"
   }
 ]
