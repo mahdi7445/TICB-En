@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "TAO",
-    "tf_label": "5M",
-    "entry": 236.01,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000594",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T23:09:40.257852+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "SUI",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T01:42:12.965026+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AAVE",
+    "tf_label": "15M",
+    "entry": 123.68,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000884",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T02:19:45.018125+00:00"
   }
 ]
