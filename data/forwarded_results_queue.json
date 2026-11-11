@@ -4,18 +4,6 @@
     "ticker": "TIA",
     "tf_label": "5M",
     "entry": 0.433,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000604",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T00:23:33.713073+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "TIA",
-    "tf_label": "5M",
-    "entry": 0.433,
     "level": 4,
     "result_r": 1.4,
     "source_signal_id": "ALT-000604",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T22:40:44.319694+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PEPE",
+    "tf_label": "5M",
+    "entry": 4.747e-06,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000900",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T23:10:14.244288+00:00"
   }
 ]
