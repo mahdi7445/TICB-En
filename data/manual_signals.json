@@ -11173,5 +11173,19 @@
     "source_signal_id": "ALT-000894",
     "signal_message_id": 3919,
     "activated_at": "2026-11-11T08:31:02.869829+00:00"
+  },
+  {
+    "id": "src-ALT-000895",
+    "symbol": "XMR/USD",
+    "side": "BUY",
+    "entry": 574.59,
+    "sl": 573.14,
+    "status": "pending",
+    "created_at": 1794392443,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000895",
+    "signal_message_id": 3924
   }
 ]
