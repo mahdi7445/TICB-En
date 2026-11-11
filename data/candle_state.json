@@ -47951,7 +47951,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "AVAX/USD",
         "tf_key": "manual",
         "display": "AVAX",
@@ -47961,6 +47961,17 @@
             "type": "opened",
             "ts": "2026-11-11T05:50:08.758071+00:00",
             "price": 8.432
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-11T05:57:12.932711+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-11T05:57:12.938184+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3909,
@@ -47970,7 +47981,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     }
