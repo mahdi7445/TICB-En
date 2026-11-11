@@ -38345,5 +38345,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000889",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-11T06:49:00.429772+00:00",
+        "price": 6.45
+      },
+      {
+        "type": "stop",
+        "ts": "2026-11-11T15:38:32.802915+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-11T15:38:32.808655+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "UNI/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "SELL",
+    "entry": 6.45,
+    "sl": 6.54,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-11-11T06:49:00.429000+00:00",
+    "closed_at": "2026-11-11T15:38:32.808655+00:00",
+    "r_pct": 1.3953,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
