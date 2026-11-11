@@ -4,18 +4,6 @@
     "ticker": "SHIB",
     "tf_label": "15M",
     "entry": 4.787e-06,
-    "level": 3,
-    "result_r": 2.15,
-    "source_signal_id": "ALT-000597",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-10-31T08:28:11.722125+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "SHIB",
-    "tf_label": "15M",
-    "entry": 4.787e-06,
     "level": 4,
     "result_r": 2.15,
     "source_signal_id": "ALT-000597",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T10:19:31.559633+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 574.59,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000895",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T10:56:59.037430+00:00"
   }
 ]
