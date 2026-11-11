@@ -11218,5 +11218,19 @@
     "source_signal_id": "ALT-000898",
     "signal_message_id": 3933,
     "activated_at": "2026-11-11T13:19:33.503126+00:00"
+  },
+  {
+    "id": "src-ALT-000899",
+    "symbol": "ICP/USD",
+    "side": "BUY",
+    "entry": 2.611,
+    "sl": 2.597,
+    "status": "pending",
+    "created_at": 1794430274,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000899",
+    "signal_message_id": 3938
   }
 ]
