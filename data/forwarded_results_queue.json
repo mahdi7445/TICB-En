@@ -1,29 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "RENDER",
-    "tf_label": "5M",
-    "entry": 1.615,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000595",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-31T01:03:01.888438+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "RENDER",
-    "tf_label": "5M",
-    "entry": 1.615,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000595",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-31T01:24:18.059295+00:00"
-  },
-  {
     "kind": "runner_stop",
     "ticker": "SOL",
     "tf_label": "5M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T05:55:42.159075+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "LTC",
+    "tf_label": "15M",
+    "entry": 50.37,
+    "level": null,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000883",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T07:11:16.645004+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ICP",
+    "tf_label": "5M",
+    "entry": 2.553,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000890",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T07:11:18.549377+00:00"
   }
 ]
