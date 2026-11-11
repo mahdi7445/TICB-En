@@ -11203,5 +11203,19 @@
     "source_signal_id": "ALT-000896",
     "signal_message_id": 3929,
     "activated_at": "2026-11-11T12:09:33.151305+00:00"
+  },
+  {
+    "id": "src-ALT-000898",
+    "symbol": "AVAX/USD",
+    "side": "SELL",
+    "entry": 8.539,
+    "sl": 8.56,
+    "status": "pending",
+    "created_at": 1794403120,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000898",
+    "signal_message_id": 3933
   }
 ]
