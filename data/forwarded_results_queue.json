@@ -1,42 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SHIB",
-    "tf_label": "15M",
-    "entry": 4.787e-06,
-    "level": 4,
-    "result_r": 2.15,
-    "source_signal_id": "ALT-000597",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-10-31T08:28:14.845730+00:00"
-  },
-  {
-    "kind": "sl_after_t3",
-    "ticker": "SHIB",
-    "tf_label": "15M",
-    "entry": 4.787e-06,
-    "level": null,
-    "result_r": 2.9,
-    "source_signal_id": "ALT-000597",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-10-31T08:56:16.454697+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "KMNO",
-    "tf_label": "1H",
-    "entry": 0.03195,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000598",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-31T12:37:23.893796+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "DOT",
     "tf_label": "5M",
     "entry": 0.973,
@@ -5998,5 +5962,41 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T10:56:59.037430+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "1H",
+    "entry": 3.68,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000774",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T12:06:23.198139+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ATOM",
+    "tf_label": "1H",
+    "entry": 1.38,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000844",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T12:06:31.385934+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 574.59,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000895",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T12:06:38.372345+00:00"
   }
 ]
