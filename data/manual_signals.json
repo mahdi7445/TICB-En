@@ -11052,5 +11052,19 @@
     "silent": true,
     "source_signal_id": "ALT-000886",
     "signal_message_id": 3905
+  },
+  {
+    "id": "src-ALT-000887",
+    "symbol": "JUP/USD",
+    "side": "BUY",
+    "entry": 0.2618,
+    "sl": 0.2602,
+    "status": "pending",
+    "created_at": 1794372619,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000887",
+    "signal_message_id": 3906
   }
 ]
