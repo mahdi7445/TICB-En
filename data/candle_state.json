@@ -48125,7 +48125,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "UNI/USD",
         "tf_key": "manual",
         "display": "UNI",
@@ -48135,6 +48135,17 @@
             "type": "opened",
             "ts": "2026-11-11T07:20:51.344197+00:00",
             "price": 6.38
+          },
+          {
+            "type": "module_closed",
+            "ts": "2026-11-11T13:25:59.378967+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-11T13:25:59.416147+00:00",
+            "close_type": "module_closed",
+            "final_r": -0.76
           }
         ],
         "signal_message_id": 3915,
@@ -48144,7 +48155,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "module_closed"
       },
       "hist": []
     },
@@ -48443,7 +48455,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "AVAX/USD",
         "tf_key": "manual",
         "display": "AVAX",
@@ -48453,6 +48465,17 @@
             "type": "opened",
             "ts": "2026-11-11T13:19:33.503102+00:00",
             "price": 8.539
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-11T13:25:59.445200+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-11T13:25:59.448804+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3933,
@@ -48462,7 +48485,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "stop"
       },
       "hist": []
     }
