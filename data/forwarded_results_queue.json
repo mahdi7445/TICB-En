@@ -1,29 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "TAO",
-    "tf_label": "5M",
-    "entry": 236.01,
-    "level": 6,
-    "result_r": 2.0,
-    "source_signal_id": "ALT-000594",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-30T23:50:45.299340+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "SOL",
-    "tf_label": "5M",
-    "entry": 94.26,
-    "level": 6,
-    "result_r": 2.0,
-    "source_signal_id": "ALT-000588",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-31T00:19:56.659963+00:00"
-  },
-  {
     "kind": "runner_stop",
     "ticker": "TAO",
     "tf_label": "5M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T03:04:02.389740+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ICP",
+    "tf_label": "15M",
+    "entry": 2.589,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000886",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T05:03:51.758127+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "JUP",
+    "tf_label": "15M",
+    "entry": 0.2618,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000887",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T05:03:52.737605+00:00"
   }
 ]
