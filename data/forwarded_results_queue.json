@@ -1,17 +1,5 @@
 [
   {
-    "kind": "runner_stop",
-    "ticker": "TAO",
-    "tf_label": "5M",
-    "entry": 236.01,
-    "level": null,
-    "result_r": 3.62,
-    "source_signal_id": "ALT-000594",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-10-31T01:03:01.216994+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "RENDER",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T05:03:52.737605+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 8.432,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000888",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T05:55:42.159075+00:00"
   }
 ]
