@@ -42792,7 +42792,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "NEAR/USD",
         "tf_key": "manual",
         "display": "NEAR",
@@ -42802,6 +42802,17 @@
             "type": "opened",
             "ts": "2026-11-09T00:02:02.846562+00:00",
             "price": 3.58
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-11T12:07:51.444033+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-11T12:07:51.448208+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3617,
@@ -42813,7 +42824,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1794353548024,
-        "_stale_alert_sent_at_ms": 1794355616947
+        "_stale_alert_sent_at_ms": 1794355616947,
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -45697,7 +45709,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ATOM/USD",
         "tf_key": "manual",
         "display": "ATOM",
@@ -45707,6 +45719,17 @@
             "type": "opened",
             "ts": "2026-11-09T17:04:13.550242+00:00",
             "price": 1.38
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-11T12:07:51.517100+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-11T12:07:51.520552+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3766,
@@ -45717,7 +45740,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_replay_checked_ms": 1794385757539
+        "_replay_checked_ms": 1794385757539,
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -48291,7 +48315,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -48310,6 +48334,12 @@
             "type": "rr",
             "ts": "2026-11-11T10:58:22.025030+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-11T12:07:51.577465+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
