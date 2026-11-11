@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "LTC",
-    "tf_label": "1H",
-    "entry": 54.17,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000601",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-03T21:06:20.933844+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "PUMP",
-    "tf_label": "5M",
-    "entry": 0.004279,
-    "level": 1.5,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000603",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-03T21:18:21.197949+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "PUMP",
     "tf_label": "5M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T12:33:42.158721+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "UNI",
+    "tf_label": "15M",
+    "entry": 6.38,
+    "level": null,
+    "result_r": -0.76,
+    "source_signal_id": "ALT-000891",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T13:25:16.165314+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 8.539,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000898",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T13:25:18.126526+00:00"
   }
 ]
