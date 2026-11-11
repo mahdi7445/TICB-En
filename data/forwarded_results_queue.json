@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ZEC",
-    "tf_label": "15M",
-    "entry": 1206.2,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000600",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-03T20:45:45.766177+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "LTC",
     "tf_label": "1H",
     "entry": 54.17,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T12:26:37.279373+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 8.64,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000893",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T12:33:42.158721+00:00"
   }
 ]
