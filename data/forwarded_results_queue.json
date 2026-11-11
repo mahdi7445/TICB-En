@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "PUMP",
-    "tf_label": "5M",
-    "entry": 0.004279,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000603",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-03T21:50:28.802369+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "LIGHTER",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T13:25:18.126526+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "FIL",
+    "tf_label": "15M",
+    "entry": 0.768,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000897",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-11T15:29:59.721299+00:00"
   }
 ]
