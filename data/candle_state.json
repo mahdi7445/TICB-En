@@ -49103,7 +49103,7 @@
         "sl": 0.1999,
         "r": 0.0116,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -49119,6 +49119,12 @@
             "type": "opened",
             "ts": "2026-11-12T08:12:08.603548+00:00",
             "price": 0.1883
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T12:01:40.108063+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3965,
@@ -49315,7 +49321,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LTC/USD",
         "tf_key": "manual",
         "display": "LTC",
@@ -49331,6 +49337,17 @@
             "ts": "2026-11-12T11:54:25.884458+00:00",
             "level_r": 2,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-11-12T12:01:40.108190+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-12T12:01:40.112866+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 2.25
           }
         ],
         "signal_message_id": 3983,
@@ -49340,7 +49357,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
