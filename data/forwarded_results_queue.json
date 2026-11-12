@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "HBAR",
-    "tf_label": "15M",
-    "entry": 0.07055,
-    "level": null,
-    "result_r": 2.25,
-    "source_signal_id": "ALT-000651",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:06:11.891477+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "FIL",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T14:50:05.730698+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "PEPE",
+    "tf_label": "5M",
+    "entry": 4.424e-06,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000920",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T15:13:57.052972+00:00"
   }
 ]
