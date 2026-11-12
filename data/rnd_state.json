@@ -14,8 +14,126 @@
    "x": "🔬 Deep research requested"
   }
  ],
- "last": {},
- "proposals": [],
+ "last": {
+  "light_ts": 1794494728.537736,
+  "n": 98,
+  "research": {
+   "ai": false,
+   "cycle": 1,
+   "generated": "2026-11-12 13:11 UTC",
+   "tested": 40
+  }
+ },
+ "proposals": [
+  {
+   "auto_ok": true,
+   "created": 1794494728.551369,
+   "desc": "Enable NEW strategy RD2 “Inside #962” (PASS, 4H) — lab: +0.18R/trade, PF 1.30, win 40%, t=4.8, ladder Q2",
+   "ev": {
+    "avg": 0.17924390490063458,
+    "h1": 0.18398457183096012,
+    "h2": 0.17213919186181773,
+    "n": 1884,
+    "pf": 1.2978745229321411,
+    "t": 4.823032304916878,
+    "win": 40.445859872611464
+   },
+   "id": "55538ad5",
+   "key": "RD2",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
+  },
+  {
+   "auto_ok": true,
+   "created": 1794494728.5513842,
+   "desc": "Enable NEW strategy RD3 “Breakout #469” (CAND, 4H) — lab: +0.16R/trade, PF 1.25, win 36%, t=2.3, ladder auto",
+   "ev": {
+    "avg": 0.16174717573035746,
+    "h1": 0.1192646802141065,
+    "h2": 0.22547091900473396,
+    "n": 650,
+    "pf": 1.2507332023578388,
+    "t": 2.3260541476693737,
+    "win": 36.46153846153846
+   },
+   "id": "4c205e44",
+   "key": "RD3",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
+  },
+  {
+   "auto_ok": true,
+   "created": 1794494728.5513957,
+   "desc": "Enable NEW strategy RD4 “Squeeze #360” (CAND, 1H) — lab: +0.07R/trade, PF 1.11, win 37%, t=1.5, ladder auto",
+   "ev": {
+    "avg": 0.07075684404289989,
+    "h1": 0.03172986490773591,
+    "h2": 0.1292192587873755,
+    "n": 1249,
+    "pf": 1.1061616109195744,
+    "t": 1.4603955733822636,
+    "win": 37.229783827061645
+   },
+   "id": "b63c5a18",
+   "key": "RD4",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
+  },
+  {
+   "auto_ok": true,
+   "created": 1794494728.551413,
+   "desc": "Enable NEW strategy RD6 “Momentum #581” (CAND, 4H) — lab: +0.18R/trade, PF 1.42, win 30%, t=3.2, ladder auto",
+   "ev": {
+    "avg": 0.18383141092642846,
+    "h1": 0.06894897900644889,
+    "h2": 0.35593829950088846,
+    "n": 662,
+    "pf": 1.4180275693634181,
+    "t": 3.2264321980872666,
+    "win": 30.362537764350456
+   },
+   "id": "e99e5551",
+   "key": "RD6",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
+  }
+ ],
  "protected": {},
  "requests": [
   {
@@ -25,5 +143,42 @@
   }
  ],
  "settings": {},
- "slots": {}
+ "slots": {
+  "RD1": {
+   "cycle": 1,
+   "name": "Squeeze #400",
+   "spec_id": "e805876b66",
+   "status": "FAIL"
+  },
+  "RD2": {
+   "cycle": 1,
+   "name": "Inside #962",
+   "spec_id": "7bba3e0a28",
+   "status": "PASS"
+  },
+  "RD3": {
+   "cycle": 1,
+   "name": "Breakout #469",
+   "spec_id": "591fbd749e",
+   "status": "CAND"
+  },
+  "RD4": {
+   "cycle": 1,
+   "name": "Squeeze #360",
+   "spec_id": "68563d87ac",
+   "status": "CAND"
+  },
+  "RD5": {
+   "cycle": 1,
+   "name": "Breakout #126",
+   "spec_id": "14c200dbbe",
+   "status": "FAIL"
+  },
+  "RD6": {
+   "cycle": 1,
+   "name": "Momentum #581",
+   "spec_id": "2a8d530ed4",
+   "status": "CAND"
+  }
+ }
 }
