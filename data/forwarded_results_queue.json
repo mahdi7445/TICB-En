@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "XLM",
-    "tf_label": "15M",
-    "entry": 0.1607,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000629",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T10:41:00.867208+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "DOT",
     "tf_label": "15M",
     "entry": 0.9329,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T12:51:44.697711+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "RENDER",
+    "tf_label": "15M",
+    "entry": 1.503,
+    "level": 2,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000915",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T13:06:45.790332+00:00"
   }
 ]
