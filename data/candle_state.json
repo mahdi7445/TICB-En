@@ -48815,6 +48815,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000906": {
+      "open_trade": {
+        "signal_id": "ALT-000906",
+        "source_signal_id": "ALT-000906",
+        "side": "SELL",
+        "entry": 0.0433,
+        "sl": 0.04351,
+        "r": 0.00021000000000000185,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SEI/USD",
+        "tf_key": "manual",
+        "display": "SEI",
+        "opened_at_ms": 1794463771332,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-12T06:09:31.332887+00:00",
+            "price": 0.0433
+          }
+        ],
+        "signal_message_id": 3954,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
