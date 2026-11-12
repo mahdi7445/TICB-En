@@ -48708,7 +48708,7 @@
           "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
         "closed": false,
@@ -48732,6 +48732,12 @@
             "type": "rr",
             "ts": "2026-11-12T06:52:22.920139+00:00",
             "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T06:59:33.132811+00:00",
+            "level_r": 6,
             "note": "forwarded"
           }
         ],
