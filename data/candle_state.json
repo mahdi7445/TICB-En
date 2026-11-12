@@ -49204,7 +49204,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -49229,6 +49229,12 @@
             "type": "rr",
             "ts": "2026-11-12T10:25:23.700346+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T13:30:24.253716+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
