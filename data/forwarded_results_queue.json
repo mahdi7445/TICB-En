@@ -1,30 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "5M",
-    "entry": 7.67,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000644",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:06:03.048428+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "HBAR",
-    "tf_label": "5M",
-    "entry": 0.07051,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000647",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:06:06.240328+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "HBAR",
     "tf_label": "5M",
     "entry": 0.07051,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T13:28:56.678861+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARIA",
+    "tf_label": "5M",
+    "entry": 0.1883,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000910",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T13:50:30.714281+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "TON",
+    "tf_label": "5M",
+    "entry": 1.205,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000911",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T13:50:31.522452+00:00"
   }
 ]
