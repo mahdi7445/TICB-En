@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "XMR",
-    "tf_label": "5M",
-    "entry": 623.58,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000608",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T01:43:38.461177+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "SUI",
     "tf_label": "5M",
     "entry": 0.8768,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T06:07:03.696812+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "XMR",
+    "tf_label": "15M",
+    "entry": 567.54,
+    "level": null,
+    "result_r": 2.25,
+    "source_signal_id": "ALT-000904",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T06:21:57.126075+00:00"
   }
 ]
