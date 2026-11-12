@@ -4,18 +4,6 @@
     "ticker": "ARB",
     "tf_label": "15M",
     "entry": 0.1578,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000632",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T05:46:46.499200+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ARB",
-    "tf_label": "15M",
-    "entry": 0.1578,
     "level": 3,
     "result_r": 1.35,
     "source_signal_id": "ALT-000632",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T11:22:57.575112+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "15M",
+    "entry": 116.81,
+    "level": 6,
+    "result_r": 2.75,
+    "source_signal_id": "ALT-000913",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T11:36:49.543797+00:00"
   }
 ]
