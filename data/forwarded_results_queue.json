@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "HBAR",
-    "tf_label": "5M",
-    "entry": 0.07051,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000647",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:06:06.763574+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "FIL",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T13:50:31.522452+00:00"
+  },
+  {
+    "kind": "module_closed",
+    "ticker": "ARIA",
+    "tf_label": "5M",
+    "entry": 0.1883,
+    "level": null,
+    "result_r": 2.93,
+    "source_signal_id": "ALT-000910",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T14:13:31.043515+00:00"
   }
 ]
