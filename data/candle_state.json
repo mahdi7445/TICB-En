@@ -49275,6 +49275,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000914": {
+      "open_trade": {
+        "signal_id": "ALT-000914",
+        "source_signal_id": "ALT-000914",
+        "side": "SELL",
+        "entry": 49.4,
+        "sl": 49.57,
+        "r": 0.1700000000000017,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "LTC/USD",
+        "tf_key": "manual",
+        "display": "LTC",
+        "opened_at_ms": 1794483535392,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-12T11:38:55.392674+00:00",
+            "price": 49.4
+          }
+        ],
+        "signal_message_id": 3983,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
