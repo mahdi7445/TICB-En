@@ -42935,7 +42935,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BNB/USD",
         "tf_key": "manual",
         "display": "BNB",
@@ -42945,6 +42945,17 @@
             "type": "opened",
             "ts": "2026-11-09T00:02:02.859987+00:00",
             "price": 683.9
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-12T11:54:25.845392+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-12T11:54:25.850605+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3620,
@@ -42956,7 +42967,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1794353548024,
-        "_stale_alert_sent_at_ms": 1794355616947
+        "_stale_alert_sent_at_ms": 1794355616947,
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -49297,8 +49309,8 @@
         "sl": 49.57,
         "r": 0.1700000000000017,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -49313,6 +49325,12 @@
             "type": "opened",
             "ts": "2026-11-12T11:38:55.392674+00:00",
             "price": 49.4
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T11:54:25.884458+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3983,
