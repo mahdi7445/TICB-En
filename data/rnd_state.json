@@ -167,6 +167,11 @@
    "k": "apply",
    "t": 1794496822.400893,
    "x": "✋ Enable NEW strategy RD6 “Momentum #581” (CAND, 4H) — lab: +0.18R/trade, PF 1.42, win 30%, t=3.2, ladder auto"
+  },
+  {
+   "k": "request",
+   "t": 1794497948.119448,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
@@ -298,7 +303,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794486563.1476257
+   "t": 1794497948.119448
   }
  ],
  "settings": {},
