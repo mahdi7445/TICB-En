@@ -1,41 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "FIL",
-    "tf_label": "15M",
-    "entry": 0.856,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000652",
-    "status": "unmatched",
-    "attempts": 120,
-    "queued_at": "2026-11-04T14:06:12.366909+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "SEI",
-    "tf_label": "5M",
-    "entry": 0.04883,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000653",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:06:16.226049+00:00"
-  },
-  {
-    "kind": "sl_after_t2",
-    "ticker": "HBAR",
-    "tf_label": "5M",
-    "entry": 0.07051,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000647",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:28:11.603936+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "INJ",
     "tf_label": "5M",
@@ -5998,5 +5962,41 @@
     "status": "unmatched",
     "attempts": 120,
     "queued_at": "2026-11-12T15:13:57.052972+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ATOM",
+    "tf_label": "15M",
+    "entry": 1.394,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000919",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T16:11:03.871880+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ETC",
+    "tf_label": "15M",
+    "entry": 6.55,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000922",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T16:11:04.715919+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SEI",
+    "tf_label": "15M",
+    "entry": 0.04197,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000923",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T16:11:05.610607+00:00"
   }
 ]
