@@ -49035,7 +49035,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "QNT/USD",
         "tf_key": "manual",
         "display": "QNT",
@@ -49045,6 +49045,17 @@
             "type": "opened",
             "ts": "2026-11-12T07:46:34.792119+00:00",
             "price": 164.48
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-12T10:25:23.662118+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-12T10:25:23.667435+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3964,
@@ -49054,7 +49065,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -49106,7 +49118,7 @@
         "r": 0.020000000000000018,
         "hit": {
           "1": true,
-          "2": false,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -49126,6 +49138,12 @@
             "type": "rr",
             "ts": "2026-11-12T08:43:07.138471+00:00",
             "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T10:25:23.700346+00:00",
+            "level_r": 2,
             "note": "forwarded"
           }
         ],
