@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "LTC",
-    "tf_label": "15M",
-    "entry": 53.17,
-    "level": null,
-    "result_r": 2.25,
-    "source_signal_id": "ALT-000611",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T03:09:04.753912+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ZEC",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T08:42:48.403390+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "15M",
+    "entry": 3.461,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000912",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T09:29:21.565404+00:00"
   }
 ]
