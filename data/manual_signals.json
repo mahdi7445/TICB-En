@@ -11368,5 +11368,19 @@
     "source_signal_id": "ALT-000908",
     "signal_message_id": 3963,
     "activated_at": "2026-11-12T07:22:13.225215+00:00"
+  },
+  {
+    "id": "src-ALT-000909",
+    "symbol": "QNT/USD",
+    "side": "SELL",
+    "entry": 164.48,
+    "sl": 166.34,
+    "status": "pending",
+    "created_at": 1794469525,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000909",
+    "signal_message_id": 3964
   }
 ]
