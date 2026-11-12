@@ -48709,13 +48709,13 @@
         "sl": 10.12,
         "r": 0.08000000000000007,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LINK/USD",
         "tf_key": "manual",
         "display": "LINK",
@@ -48725,6 +48725,23 @@
             "type": "opened",
             "ts": "2026-11-12T05:16:43.949315+00:00",
             "price": 10.04
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T13:16:26.923345+00:00",
+            "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t2",
+            "ts": "2026-11-12T13:16:26.923660+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-12T13:16:26.928854+00:00",
+            "close_type": "sl_after_t2",
+            "final_r": 2.25
           }
         ],
         "signal_message_id": 3948,
@@ -48734,7 +48751,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "sl_after_t2"
       },
       "hist": []
     },
@@ -49397,7 +49415,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -49416,6 +49434,12 @@
             "type": "rr",
             "ts": "2026-11-12T13:08:09.741701+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T13:16:26.963731+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
@@ -49515,13 +49539,13 @@
         "sl": 0.0946,
         "r": 0.0003999999999999976,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "OP/USD",
         "tf_key": "manual",
         "display": "OP",
@@ -49531,6 +49555,29 @@
             "type": "opened",
             "ts": "2026-11-12T13:08:59.210143+00:00",
             "price": 0.0942
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T13:16:26.963878+00:00",
+            "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T13:16:26.964107+00:00",
+            "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-11-12T13:16:26.964225+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-12T13:16:26.969814+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.9
           }
         ],
         "signal_message_id": 3998,
@@ -49540,7 +49587,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     }
