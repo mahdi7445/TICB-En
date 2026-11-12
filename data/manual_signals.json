@@ -11398,5 +11398,19 @@
     "source_signal_id": "ALT-000910",
     "signal_message_id": 3965,
     "activated_at": "2026-11-12T08:12:08.603565+00:00"
+  },
+  {
+    "id": "src-ALT-000911",
+    "symbol": "TON/USD",
+    "side": "BUY",
+    "entry": 1.205,
+    "sl": 1.185,
+    "status": "pending",
+    "created_at": 1794472128,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000911",
+    "signal_message_id": 3966
   }
 ]
