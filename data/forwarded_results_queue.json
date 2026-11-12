@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "LTC",
-    "tf_label": "15M",
-    "entry": 53.17,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000611",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T03:09:03.872513+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "LTC",
     "tf_label": "15M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T07:06:10.765934+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TON",
+    "tf_label": "5M",
+    "entry": 1.205,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000911",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T08:42:48.403390+00:00"
   }
 ]
