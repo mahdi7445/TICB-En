@@ -49154,7 +49154,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -49179,6 +49179,12 @@
             "type": "rr",
             "ts": "2026-11-12T12:53:11.105335+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T13:51:31.058331+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
@@ -49208,7 +49214,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TON/USD",
         "tf_key": "manual",
         "display": "TON",
@@ -49236,6 +49242,17 @@
             "ts": "2026-11-12T13:30:24.253716+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-11-12T13:51:31.058463+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-12T13:51:31.063380+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 3966,
@@ -49245,7 +49262,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     },
