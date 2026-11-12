@@ -48705,9 +48705,9 @@
         "sl": 4.582e-06,
         "r": 2.3000000000000457e-08,
         "hit": {
-          "1": false,
-          "2": false,
-          "4": false,
+          "1": true,
+          "2": true,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -48721,6 +48721,18 @@
             "type": "opened",
             "ts": "2026-11-12T05:17:31.255774+00:00",
             "price": 4.559e-06
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T06:52:22.919954+00:00",
+            "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T06:52:22.920139+00:00",
+            "level_r": 4,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3949,
