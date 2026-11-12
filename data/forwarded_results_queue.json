@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "PEPE",
-    "tf_label": "5M",
-    "entry": 5.059e-06,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000634",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T09:49:40.838458+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "XMR",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T12:29:45.425074+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "UNI",
+    "tf_label": "4H",
+    "entry": 7.35,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000599",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T12:37:29.685299+00:00"
   }
 ]
