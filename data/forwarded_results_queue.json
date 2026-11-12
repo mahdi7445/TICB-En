@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "SUI",
-    "tf_label": "5M",
-    "entry": 0.9009,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000646",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T13:51:00.446748+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "INJ",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T13:21:28.689193+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "TON",
+    "tf_label": "5M",
+    "entry": 1.205,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000911",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T13:28:56.678861+00:00"
   }
 ]
