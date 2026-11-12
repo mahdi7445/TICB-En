@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1794049213805,
       "armed_ms": 1794049213805,
-      "last_ms": 1794485639999,
+      "last_ms": 1794485699999,
       "bar_ms": 1794045600000,
       "mfe_r": 3.9677,
       "mae_r": 0.2272,
@@ -56,7 +56,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 3553,
-      "polled_ms": 1794485662384
+      "polled_ms": 1794485719831
     },
     "TC-000122": {
       "id": "TC-000122",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1794484813275,
       "armed_ms": 1794484813275,
-      "last_ms": 1794485639999,
+      "last_ms": 1794485699999,
       "bar_ms": 1794481200000,
       "mfe_r": 0.0883,
       "mae_r": 0.1651,
@@ -106,7 +106,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 3989,
-      "polled_ms": 1794485662384
+      "polled_ms": 1794485719831
     }
   },
   "seen": [],
@@ -119,10 +119,10 @@
     "TS1|ETH/USD|1h": 1793257200000,
     "CN1M|BTC/USD|1m": 1792837920000,
     "CN1M|ETH/USD|1m": 1792837920000,
-    "CN5M|BTC/USD|5m": 1794485100000,
-    "CN5M|ETH/USD|5m": 1794485100000,
-    "CN15|BTC/USD|15m": 1794483900000,
-    "CN15|ETH/USD|15m": 1794483900000,
+    "CN5M|BTC/USD|5m": 1794485400000,
+    "CN5M|ETH/USD|5m": 1794485400000,
+    "CN15|BTC/USD|15m": 1794484800000,
+    "CN15|ETH/USD|15m": 1794484800000,
     "CN1H|BTC/USD|1h": 1793257200000,
     "CN1H|ETH/USD|1h": 1793257200000,
     "CN4H|BTC/USD|4h": 1794470400000,
@@ -184,14 +184,14 @@
     },
     "CN5M": {
       "since": 1792449613,
-      "checks": 10536,
+      "checks": 10538,
       "nodata": 0,
       "raw": 9,
       "blocked": {
         "loss_streak(6)": 1
       },
       "opened": 8,
-      "last_check": 1794485410
+      "last_check": 1794485702
     },
     "TKF": {
       "since": 1792449614,
@@ -206,7 +206,7 @@
     },
     "CN15": {
       "since": 1792449921,
-      "checks": 4038,
+      "checks": 4040,
       "nodata": 0,
       "raw": 13,
       "blocked": {
@@ -214,7 +214,7 @@
         "already_open": 1
       },
       "opened": 11,
-      "last_check": 1794484819
+      "last_check": 1794485704
     },
     "TS1": {
       "since": 1792450810,
