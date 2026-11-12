@@ -49021,6 +49021,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000910": {
+      "open_trade": {
+        "signal_id": "ALT-000910",
+        "source_signal_id": "ALT-000910",
+        "side": "SELL",
+        "entry": 0.1883,
+        "sl": 0.1999,
+        "r": 0.0116,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ARIA/USD",
+        "tf_key": "manual",
+        "display": "ARIA",
+        "opened_at_ms": 1794471128603,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-12T08:12:08.603548+00:00",
+            "price": 0.1883
+          }
+        ],
+        "signal_message_id": 3965,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
