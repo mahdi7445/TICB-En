@@ -37511,7 +37511,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LINK/USD",
         "tf_key": "manual",
         "display": "LINK",
@@ -37521,6 +37521,17 @@
             "type": "opened",
             "ts": "2026-11-05T16:09:38.665566+00:00",
             "price": 10.71
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-12T14:29:13.584369+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-12T14:29:13.589975+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3338,
@@ -37532,7 +37543,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1794066804208,
-        "_stale_alert_sent_at_ms": 1794327455871
+        "_stale_alert_sent_at_ms": 1794327455871,
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -49466,7 +49478,7 @@
           "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
         "closed": false,
@@ -49490,6 +49502,12 @@
             "type": "rr",
             "ts": "2026-11-12T13:16:26.963731+00:00",
             "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T14:29:13.631136+00:00",
+            "level_r": 6,
             "note": "forwarded"
           }
         ],
