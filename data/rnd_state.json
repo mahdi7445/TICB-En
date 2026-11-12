@@ -1,0 +1,24 @@
+{
+ "applied": [],
+ "blacklist": [],
+ "changes": {},
+ "journal": [
+  {
+   "k": "request",
+   "t": 1794486518.3612063,
+   "x": "🔬 Deep research requested"
+  }
+ ],
+ "last": {},
+ "proposals": [],
+ "protected": {},
+ "requests": [
+  {
+   "done": false,
+   "kind": "research",
+   "t": 1794486518.3612063
+  }
+ ],
+ "settings": {},
+ "slots": {}
+}
