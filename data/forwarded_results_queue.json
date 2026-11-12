@@ -1,29 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "TIA",
-    "tf_label": "5M",
-    "entry": 0.4508,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000633",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T08:07:22.226824+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "ATOM",
-    "tf_label": "4H",
-    "entry": 1.391,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000624",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T08:23:20.158022+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "NEAR",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T11:53:53.636762+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARIA",
+    "tf_label": "5M",
+    "entry": 0.1883,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000910",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T12:00:36.254863+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "LTC",
+    "tf_label": "15M",
+    "entry": 49.4,
+    "level": null,
+    "result_r": 2.25,
+    "source_signal_id": "ALT-000914",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T12:00:37.863742+00:00"
   }
 ]
