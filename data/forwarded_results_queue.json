@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "LTC",
-    "tf_label": "15M",
-    "entry": 53.17,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000611",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T03:01:42.823104+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "ZEC",
     "tf_label": "5M",
     "entry": 1181.52,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T06:51:13.463500+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PEPE",
+    "tf_label": "15M",
+    "entry": 4.559e-06,
+    "level": 6,
+    "result_r": 2.75,
+    "source_signal_id": "ALT-000903",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T06:58:41.109734+00:00"
   }
 ]
