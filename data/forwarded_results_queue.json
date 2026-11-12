@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "XMR",
-    "tf_label": "5M",
-    "entry": 636.32,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000636",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T10:19:11.227365+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "XLM",
     "tf_label": "15M",
     "entry": 0.1607,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T12:37:29.685299+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ARIA",
+    "tf_label": "5M",
+    "entry": 0.1883,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000910",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T12:51:44.697711+00:00"
   }
 ]
