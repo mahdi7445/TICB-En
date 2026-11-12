@@ -38431,5 +38431,71 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000900",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-11T21:07:27.725901+00:00",
+        "price": 4.747e-06
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-11T21:34:39.607325+00:00",
+        "level_r": 2,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-11T23:10:49.996249+00:00",
+        "level_r": 4,
+        "note": "forwarded"
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-11T23:18:14.240852+00:00",
+        "level_r": 6,
+        "note": "forwarded"
+      },
+      {
+        "type": "sl_after_t3",
+        "ts": "2026-11-12T02:55:34.364624+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-12T02:55:34.368777+00:00",
+        "close_type": "sl_after_t3",
+        "final_r": 3.6
+      }
+    ],
+    "symbol": "PEPE/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "SELL",
+    "entry": 4.747e-06,
+    "sl": 4.783e-06,
+    "final_r": 3.6,
+    "targets_hit": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "close_type": "sl_after_t3",
+    "close_reason": "Stopped after Target 3 (Target 1-3 banked, rest closed at Target 2 price)",
+    "opened_at": "2026-11-11T21:07:27.725000+00:00",
+    "closed_at": "2026-11-12T02:55:34.368777+00:00",
+    "r_pct": 0.7584,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
