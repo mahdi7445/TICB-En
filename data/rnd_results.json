@@ -1,0 +1,519 @@
+{
+ "ai": {
+  "analysis": [],
+  "error": "no ANTHROPIC_API_KEY secret",
+  "model": "claude-sonnet-5-5",
+  "used": false
+ },
+ "ai_calls_today": {
+  "2026-11-12": 0
+ },
+ "ai_hints": [],
+ "archive": [
+  {
+   "score": 7.823032304916878,
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.05
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-12T09:51Z",
+    "family": "inside",
+    "id": "RD2",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962",
+    "origin": "search",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "spec_id": "7bba3e0a28",
+   "status": "PASS"
+  },
+  {
+   "score": 6.226432198087267,
+   "spec": {
+    "all": [
+     [
+      "ret:3",
+      ">",
+      2.5
+     ],
+     [
+      "rng",
+      ">",
+      2.0
+     ],
+     [
+      "closepos",
+      ">",
+      0.75
+     ],
+     [
+      "volr:20",
+      ">",
+      1.2
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-12T09:51Z",
+    "family": "momentum",
+    "id": "RD6",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Momentum #581",
+    "origin": "search",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "15m",
+     "4h"
+    ],
+    "why": "momentum idea (guided random search)"
+   },
+   "spec_id": "2a8d530ed4",
+   "status": "CAND"
+  },
+  {
+   "score": 5.326054147669374,
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.3
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.8
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-12T09:51Z",
+    "family": "breakout",
+    "id": "RD3",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469",
+    "origin": "search",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "spec_id": "591fbd749e",
+   "status": "CAND"
+  },
+  {
+   "score": 4.460395573382264,
+   "spec": {
+    "all": [
+     [
+      "atrp:14",
+      "<",
+      0.8
+     ],
+     [
+      "close",
+      ">",
+      "hh:10"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.2
+     ],
+     [
+      "adx:14",
+      "<",
+      28.0
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-12T09:51Z",
+    "family": "squeeze",
+    "id": "RD4",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.3,
+    "name": "Squeeze #360",
+    "origin": "search",
+    "stop": {
+     "buf": 0.3,
+     "kind": "swing",
+     "n": 12
+    },
+    "tfs": [
+     "15m",
+     "1h"
+    ],
+    "why": "squeeze idea (guided random search)"
+   },
+   "spec_id": "68563d87ac",
+   "status": "CAND"
+  },
+  {
+   "score": 1.9078261776864642,
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:50"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.6
+     ],
+     [
+      "close",
+      ">",
+      "ema:50"
+     ],
+     [
+      "closepos",
+      ">",
+      0.7
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-12T09:51Z",
+    "family": "breakout",
+    "id": "RD5",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #126",
+    "origin": "search",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "spec_id": "14c200dbbe",
+   "status": "FAIL"
+  },
+  {
+   "score": -0.2326514468509664,
+   "spec": {
+    "all": [
+     [
+      "atrp:14",
+      "<",
+      0.8
+     ],
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.5
+     ],
+     [
+      "adx:14",
+      "<",
+      28.0
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-12T09:51Z",
+    "family": "squeeze",
+    "id": "RD1",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Squeeze #400",
+    "origin": "search",
+    "stop": {
+     "k": 2.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "15m"
+    ],
+    "why": "squeeze idea (guided random search)"
+   },
+   "spec_id": "e805876b66",
+   "status": "FAIL"
+  }
+ ],
+ "cycle": 1,
+ "generated": "2026-11-12 13:11 UTC",
+ "history": [
+  {
+   "family": "squeeze",
+   "n": 3263,
+   "name": "Squeeze #400",
+   "origin": "search",
+   "t": 10.111,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2838,
+   "name": "Inside #962",
+   "origin": "search",
+   "t": 9.469,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2891,
+   "name": "Breakout #469",
+   "origin": "search",
+   "t": 9.411,
+   "tf": "15m"
+  },
+  {
+   "family": "squeeze",
+   "n": 2579,
+   "name": "Squeeze #360",
+   "origin": "search",
+   "t": 8.609,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2687,
+   "name": "Breakout #126",
+   "origin": "search",
+   "t": 7.796,
+   "tf": "15m"
+  },
+  {
+   "family": "momentum",
+   "n": 566,
+   "name": "Momentum #581",
+   "origin": "search",
+   "t": 7.698,
+   "tf": "15m"
+  },
+  {
+   "family": "momentum",
+   "n": 924,
+   "name": "Momentum #726",
+   "origin": "search",
+   "t": 7.228,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 969,
+   "name": "Breakout #284",
+   "origin": "search",
+   "t": 6.997,
+   "tf": "1h"
+  },
+  {
+   "family": "inside",
+   "n": 1190,
+   "name": "Inside #689",
+   "origin": "search",
+   "t": 6.992,
+   "tf": "1h"
+  },
+  {
+   "family": "inside",
+   "n": 497,
+   "name": "Inside #860",
+   "origin": "search",
+   "t": 6.132,
+   "tf": "1h"
+  },
+  {
+   "family": "momentum",
+   "n": 648,
+   "name": "Momentum #205",
+   "origin": "search",
+   "t": 5.804,
+   "tf": "4h"
+  },
+  {
+   "family": "cross",
+   "n": 643,
+   "name": "Cross #326",
+   "origin": "search",
+   "t": 5.236,
+   "tf": "15m"
+  }
+ ],
+ "prescreened": 32,
+ "slots": {
+  "RD1": {
+   "avg_r": -0.007610969918519916,
+   "best_ladder": null,
+   "fail_reasons": [
+    "split/t",
+    "PF",
+    "win",
+    "cost"
+   ],
+   "family": "squeeze",
+   "n": 2594,
+   "name": "Squeeze #400",
+   "origin": "search",
+   "pf": 0.9889993459589885,
+   "spec_id": "e805876b66",
+   "status": "FAIL",
+   "symbols_positive": 0.4666666666666667,
+   "t": -0.2326514468509664,
+   "test_r": 0.0186903293429586,
+   "tf": "15m",
+   "train_r": -0.0251564381919227,
+   "win": 36.507324595219735
+  },
+  "RD2": {
+   "avg_r": 0.17924390490063458,
+   "best_ladder": "Q2",
+   "fail_reasons": [],
+   "family": "inside",
+   "n": 1884,
+   "name": "Inside #962",
+   "origin": "search",
+   "pf": 1.2978745229321411,
+   "spec_id": "7bba3e0a28",
+   "status": "PASS",
+   "symbols_positive": 0.9090909090909091,
+   "t": 4.823032304916878,
+   "test_r": 0.17213919186181773,
+   "tf": "4h",
+   "train_r": 0.18398457183096012,
+   "win": 40.445859872611464
+  },
+  "RD3": {
+   "avg_r": 0.16174717573035746,
+   "best_ladder": null,
+   "fail_reasons": [
+    "split/t",
+    "win"
+   ],
+   "family": "breakout",
+   "n": 650,
+   "name": "Breakout #469",
+   "origin": "search",
+   "pf": 1.2507332023578388,
+   "spec_id": "591fbd749e",
+   "status": "CAND",
+   "symbols_positive": 0.8235294117647058,
+   "t": 2.3260541476693737,
+   "test_r": 0.22547091900473396,
+   "tf": "4h",
+   "train_r": 0.1192646802141065,
+   "win": 36.46153846153846
+  },
+  "RD4": {
+   "avg_r": 0.07075684404289989,
+   "best_ladder": null,
+   "fail_reasons": [
+    "split/t",
+    "PF",
+    "win"
+   ],
+   "family": "squeeze",
+   "n": 1249,
+   "name": "Squeeze #360",
+   "origin": "search",
+   "pf": 1.1061616109195744,
+   "spec_id": "68563d87ac",
+   "status": "CAND",
+   "symbols_positive": 0.6,
+   "t": 1.4603955733822636,
+   "test_r": 0.1292192587873755,
+   "tf": "1h",
+   "train_r": 0.03172986490773591,
+   "win": 37.229783827061645
+  },
+  "RD5": {
+   "avg_r": 0.11288328405976955,
+   "best_ladder": null,
+   "fail_reasons": [
+    "split/t",
+    "PF",
+    "win"
+   ],
+   "family": "breakout",
+   "n": 856,
+   "name": "Breakout #126",
+   "origin": "search",
+   "pf": 1.172780138342257,
+   "spec_id": "14c200dbbe",
+   "status": "FAIL",
+   "symbols_positive": 0.85,
+   "t": 1.9078261776864642,
+   "test_r": 0.22077262541621342,
+   "tf": "4h",
+   "train_r": 0.04074674588187436,
+   "win": 35.51401869158878
+  },
+  "RD6": {
+   "avg_r": 0.18383141092642846,
+   "best_ladder": null,
+   "fail_reasons": [
+    "split/t",
+    "win"
+   ],
+   "family": "momentum",
+   "n": 662,
+   "name": "Momentum #581",
+   "origin": "search",
+   "pf": 1.4180275693634181,
+   "spec_id": "2a8d530ed4",
+   "status": "CAND",
+   "symbols_positive": 0.8947368421052632,
+   "t": 3.2264321980872666,
+   "test_r": 0.35593829950088846,
+   "tf": "4h",
+   "train_r": 0.06894897900644889,
+   "win": 30.362537764350456
+  }
+ },
+ "tested": 40,
+ "ts": 1794489061.8508928
+}
