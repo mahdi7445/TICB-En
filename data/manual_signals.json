@@ -11360,12 +11360,13 @@
     "side": "BUY",
     "entry": 1.042,
     "sl": 1.037,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794468062,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000908",
-    "signal_message_id": 3963
+    "signal_message_id": 3963,
+    "activated_at": "2026-11-12T07:22:13.225215+00:00"
   }
 ]
