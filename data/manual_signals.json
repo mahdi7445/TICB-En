@@ -11383,5 +11383,19 @@
     "source_signal_id": "ALT-000909",
     "signal_message_id": 3964,
     "activated_at": "2026-11-12T07:46:34.792136+00:00"
+  },
+  {
+    "id": "src-ALT-000910",
+    "symbol": "ARIA/USD",
+    "side": "SELL",
+    "entry": 0.1883,
+    "sl": 0.1999,
+    "status": "pending",
+    "created_at": 1794471048,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000910",
+    "signal_message_id": 3965
   }
 ]
