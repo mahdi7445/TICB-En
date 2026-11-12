@@ -49232,7 +49232,7 @@
           "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
         "closed": false,
@@ -49256,6 +49256,12 @@
             "type": "rr",
             "ts": "2026-11-12T11:24:19.013094+00:00",
             "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-12T11:37:17.759725+00:00",
+            "level_r": 6,
             "note": "forwarded"
           }
         ],
