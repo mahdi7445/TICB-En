@@ -1,7 +1,7 @@
 {
  "ai": {
   "analysis": [],
-  "error": "no ANTHROPIC_API_KEY secret",
+  "error": "HTTPError: HTTP Error 400: Bad Request",
   "model": "claude-sonnet-5-5",
   "used": false
  },
@@ -11,7 +11,7 @@
  "ai_hints": [],
  "archive": [
   {
-   "score": 7.823032304916878,
+   "score": 7.880165341264087,
    "spec": {
     "all": [
      [
@@ -53,7 +53,50 @@
    "status": "PASS"
   },
   {
-   "score": 6.226432198087267,
+   "score": 7.4861661530483286,
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.065
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-12T16:18Z",
+    "family": "inside",
+    "id": "RD5",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v9",
+    "origin": "mutation",
+    "parent": "7bba3e0a28",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "spec_id": "217008e9f1",
+   "status": "PASS"
+  },
+  {
+   "score": 6.18168820128941,
    "spec": {
     "all": [
      [
@@ -99,7 +142,53 @@
    "status": "CAND"
   },
   {
-   "score": 5.326054147669374,
+   "score": 5.9548991355700505,
+   "spec": {
+    "all": [
+     [
+      "ret:3",
+      ">",
+      1.0
+     ],
+     [
+      "rng",
+      ">",
+      2.0
+     ],
+     [
+      "closepos",
+      ">",
+      0.75
+     ],
+     [
+      "volr:20",
+      ">",
+      1.5
+     ]
+    ],
+    "cooldown": 12,
+    "created": "2026-11-12T16:18Z",
+    "family": "momentum",
+    "id": "RD1",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Momentum #481",
+    "origin": "search",
+    "stop": {
+     "k": 2.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "15m",
+     "1h"
+    ],
+    "why": "momentum idea (guided random search)"
+   },
+   "spec_id": "ec74472c09",
+   "status": "CAND"
+  },
+  {
+   "score": 5.3260659888279145,
    "spec": {
     "all": [
      [
@@ -143,53 +232,6 @@
     "why": "breakout idea (guided random search)"
    },
    "spec_id": "591fbd749e",
-   "status": "CAND"
-  },
-  {
-   "score": 4.460395573382264,
-   "spec": {
-    "all": [
-     [
-      "atrp:14",
-      "<",
-      0.8
-     ],
-     [
-      "close",
-      ">",
-      "hh:10"
-     ],
-     [
-      "volr:20",
-      ">",
-      1.2
-     ],
-     [
-      "adx:14",
-      "<",
-      28.0
-     ]
-    ],
-    "cooldown": 3,
-    "created": "2026-11-12T09:51Z",
-    "family": "squeeze",
-    "id": "RD4",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.3,
-    "name": "Squeeze #360",
-    "origin": "search",
-    "stop": {
-     "buf": 0.3,
-     "kind": "swing",
-     "n": 12
-    },
-    "tfs": [
-     "15m",
-     "1h"
-    ],
-    "why": "squeeze idea (guided random search)"
-   },
-   "spec_id": "68563d87ac",
    "status": "CAND"
   },
   {
@@ -239,6 +281,53 @@
    "status": "FAIL"
   },
   {
+   "score": 1.5971031273852307,
+   "spec": {
+    "all": [
+     [
+      "atrp:14",
+      "<",
+      0.8
+     ],
+     [
+      "close",
+      ">",
+      "hh:10"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.2
+     ],
+     [
+      "adx:14",
+      "<",
+      28.0
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-12T09:51Z",
+    "family": "squeeze",
+    "id": "RD4",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.3,
+    "name": "Squeeze #360",
+    "origin": "search",
+    "stop": {
+     "buf": 0.3,
+     "kind": "swing",
+     "n": 12
+    },
+    "tfs": [
+     "15m",
+     "1h"
+    ],
+    "why": "squeeze idea (guided random search)"
+   },
+   "spec_id": "68563d87ac",
+   "status": "FAIL"
+  },
+  {
    "score": -0.2326514468509664,
    "spec": {
     "all": [
@@ -284,8 +373,8 @@
    "status": "FAIL"
   }
  ],
- "cycle": 1,
- "generated": "2026-11-12 13:11 UTC",
+ "cycle": 2,
+ "generated": "2026-11-12 19:46 UTC",
  "history": [
   {
    "family": "squeeze",
@@ -382,53 +471,148 @@
    "origin": "search",
    "t": 5.236,
    "tf": "15m"
+  },
+  {
+   "family": "momentum",
+   "n": 2130,
+   "name": "Momentum #481",
+   "origin": "search",
+   "t": 10.069,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2795,
+   "name": "Inside #962 · v9",
+   "origin": "mutation",
+   "t": 9.871,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 3498,
+   "name": "Breakout #469 · v5",
+   "origin": "mutation",
+   "t": 9.841,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2841,
+   "name": "Inside #962 · v8",
+   "origin": "mutation",
+   "t": 9.721,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3383,
+   "name": "Inside #145",
+   "origin": "search",
+   "t": 9.693,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2899,
+   "name": "Breakout #469 · v5",
+   "origin": "mutation",
+   "t": 9.452,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2850,
+   "name": "Breakout #126 · v6",
+   "origin": "mutation",
+   "t": 8.796,
+   "tf": "15m"
+  },
+  {
+   "family": "squeeze",
+   "n": 2703,
+   "name": "Squeeze #360 · v4",
+   "origin": "mutation",
+   "t": 8.72,
+   "tf": "15m"
+  },
+  {
+   "family": "squeeze",
+   "n": 2389,
+   "name": "Squeeze #360 · v4",
+   "origin": "mutation",
+   "t": 8.404,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2865,
+   "name": "Inside #729",
+   "origin": "search",
+   "t": 8.138,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 1594,
+   "name": "Inside #198",
+   "origin": "search",
+   "t": 8.116,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2678,
+   "name": "Breakout #126 · v2",
+   "origin": "mutation",
+   "t": 7.965,
+   "tf": "15m"
   }
  ],
- "prescreened": 32,
+ "prescreened": 33,
  "slots": {
   "RD1": {
-   "avg_r": -0.007610969918519916,
+   "avg_r": 0.12064416773049015,
    "best_ladder": null,
    "fail_reasons": [
     "split/t",
     "PF",
-    "win",
-    "cost"
+    "win"
    ],
-   "family": "squeeze",
-   "n": 2594,
-   "name": "Squeeze #400",
+   "family": "momentum",
+   "n": 1803,
+   "name": "Momentum #481",
    "origin": "search",
-   "pf": 0.9889993459589885,
-   "spec_id": "e805876b66",
-   "status": "FAIL",
-   "symbols_positive": 0.4666666666666667,
-   "t": -0.2326514468509664,
-   "test_r": 0.0186903293429586,
-   "tf": "15m",
-   "train_r": -0.0251564381919227,
-   "win": 36.507324595219735
+   "pf": 1.1859489968771084,
+   "spec_id": "ec74472c09",
+   "status": "CAND",
+   "symbols_positive": 0.6956521739130435,
+   "t": 2.954899135570051,
+   "test_r": 0.16538000026846195,
+   "tf": "1h",
+   "train_r": 0.09076510104000392,
+   "win": 36.882972823072656
   },
   "RD2": {
-   "avg_r": 0.17924390490063458,
+   "avg_r": 0.18157303514428716,
    "best_ladder": "Q2",
    "fail_reasons": [],
    "family": "inside",
-   "n": 1884,
+   "n": 1883,
    "name": "Inside #962",
    "origin": "search",
-   "pf": 1.2978745229321411,
+   "pf": 1.3018558309373294,
    "spec_id": "7bba3e0a28",
    "status": "PASS",
    "symbols_positive": 0.9090909090909091,
-   "t": 4.823032304916878,
-   "test_r": 0.17213919186181773,
+   "t": 4.880165341264087,
+   "test_r": 0.17637127667188354,
    "tf": "4h",
-   "train_r": 0.18398457183096012,
-   "win": 40.445859872611464
+   "train_r": 0.1850470173304629,
+   "win": 40.46733935209772
   },
   "RD3": {
-   "avg_r": 0.16174717573035746,
+   "avg_r": 0.1617479520606853,
    "best_ladder": null,
    "fail_reasons": [
     "split/t",
@@ -438,18 +622,18 @@
    "n": 650,
    "name": "Breakout #469",
    "origin": "search",
-   "pf": 1.2507332023578388,
+   "pf": 1.250734707334439,
    "spec_id": "591fbd749e",
    "status": "CAND",
    "symbols_positive": 0.8235294117647058,
-   "t": 2.3260541476693737,
+   "t": 2.3260659888279145,
    "test_r": 0.22547091900473396,
    "tf": "4h",
-   "train_r": 0.1192646802141065,
+   "train_r": 0.11926597409798619,
    "win": 36.46153846153846
   },
   "RD4": {
-   "avg_r": 0.07075684404289989,
+   "avg_r": 0.0774435512044936,
    "best_ladder": null,
    "fail_reasons": [
     "split/t",
@@ -457,43 +641,39 @@
     "win"
    ],
    "family": "squeeze",
-   "n": 1249,
+   "n": 1248,
    "name": "Squeeze #360",
    "origin": "search",
-   "pf": 1.1061616109195744,
+   "pf": 1.1166682846087979,
    "spec_id": "68563d87ac",
-   "status": "CAND",
+   "status": "FAIL",
    "symbols_positive": 0.6,
-   "t": 1.4603955733822636,
-   "test_r": 0.1292192587873755,
+   "t": 1.5971031273852307,
+   "test_r": 0.13853905059173152,
    "tf": "1h",
-   "train_r": 0.03172986490773591,
-   "win": 37.229783827061645
+   "train_r": 0.03660431364617948,
+   "win": 37.5
   },
   "RD5": {
-   "avg_r": 0.11288328405976955,
-   "best_ladder": null,
-   "fail_reasons": [
-    "split/t",
-    "PF",
-    "win"
-   ],
-   "family": "breakout",
-   "n": 856,
-   "name": "Breakout #126",
-   "origin": "search",
-   "pf": 1.172780138342257,
-   "spec_id": "14c200dbbe",
-   "status": "FAIL",
-   "symbols_positive": 0.85,
-   "t": 1.9078261776864642,
-   "test_r": 0.22077262541621342,
+   "avg_r": 0.14279592948378536,
+   "best_ladder": "H3",
+   "fail_reasons": [],
+   "family": "inside",
+   "n": 2024,
+   "name": "Inside #962 · v9",
+   "origin": "mutation",
+   "pf": 1.2586056536657513,
+   "spec_id": "217008e9f1",
+   "status": "PASS",
+   "symbols_positive": 0.8260869565217391,
+   "t": 4.4861661530483286,
+   "test_r": 0.13232624343341118,
    "tf": "4h",
-   "train_r": 0.04074674588187436,
-   "win": 35.51401869158878
+   "train_r": 0.1497814695997682,
+   "win": 45.50395256916996
   },
   "RD6": {
-   "avg_r": 0.18383141092642846,
+   "avg_r": 0.18117885509865483,
    "best_ladder": null,
    "fail_reasons": [
     "split/t",
@@ -503,17 +683,17 @@
    "n": 662,
    "name": "Momentum #581",
    "origin": "search",
-   "pf": 1.4180275693634181,
+   "pf": 1.4119824953836064,
    "spec_id": "2a8d530ed4",
    "status": "CAND",
    "symbols_positive": 0.8947368421052632,
-   "t": 3.2264321980872666,
-   "test_r": 0.35593829950088846,
+   "t": 3.1816882012894103,
+   "test_r": 0.35679563455203245,
    "tf": "4h",
-   "train_r": 0.06894897900644889,
-   "win": 30.362537764350456
+   "train_r": 0.06395354891441034,
+   "win": 30.211480362537763
   }
  },
  "tested": 40,
- "ts": 1794489061.8508928
+ "ts": 1794512785.6625812
 }
