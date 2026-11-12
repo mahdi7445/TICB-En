@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "LINK",
-    "tf_label": "5M",
-    "entry": 10.811,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000606",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T01:29:38.033158+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "AAVE",
     "tf_label": "5M",
     "entry": 124.99,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-11T23:17:18.005795+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "PEPE",
+    "tf_label": "5M",
+    "entry": 4.747e-06,
+    "level": null,
+    "result_r": 3.6,
+    "source_signal_id": "ALT-000900",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T02:55:08.860801+00:00"
   }
 ]
