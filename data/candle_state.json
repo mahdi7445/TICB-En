@@ -49159,6 +49159,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000913": {
+      "open_trade": {
+        "signal_id": "ALT-000913",
+        "source_signal_id": "ALT-000913",
+        "side": "SELL",
+        "entry": 116.81,
+        "sl": 117.32,
+        "r": 0.5099999999999909,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "AAVE/USD",
+        "tf_key": "manual",
+        "display": "AAVE",
+        "opened_at_ms": 1794476429788,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-12T09:40:29.788147+00:00",
+            "price": 116.81
+          }
+        ],
+        "signal_message_id": 3971,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "15min",
+          "bar_seconds": 900,
+          "label": "15M"
+        },
+        "logical_tf": "15m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
