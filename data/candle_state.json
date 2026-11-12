@@ -49158,7 +49158,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ARIA/USD",
         "tf_key": "manual",
         "display": "ARIA",
@@ -49186,6 +49186,17 @@
             "ts": "2026-11-12T13:51:31.058331+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "module_closed",
+            "ts": "2026-11-12T14:15:04.752617+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-12T14:15:04.757525+00:00",
+            "close_type": "module_closed",
+            "final_r": 2.93
           }
         ],
         "signal_message_id": 3965,
@@ -49196,7 +49207,8 @@
           "label": "5M"
         },
         "logical_tf": "5m",
-        "_replay_checked_ms": 1794492792096
+        "_replay_checked_ms": 1794492792096,
+        "close_type": "module_closed"
       },
       "hist": []
     },
