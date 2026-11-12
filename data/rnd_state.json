@@ -177,6 +177,16 @@
    "k": "request",
    "t": 1794497994.3418207,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "mode",
+   "t": 1794503630.2702043,
+   "x": "Mode → 🤖 Auto (within guardrails)"
+  },
+  {
+   "k": "mode",
+   "t": 1794503634.9502919,
+   "x": "Mode → ✋ Semi-auto (you approve)"
   }
  ],
  "last": {
@@ -311,7 +321,9 @@
    "t": 1794497994.3418207
   }
  ],
- "settings": {},
+ "settings": {
+  "mode": "semi"
+ },
  "slots": {
   "RD1": {
    "cycle": 1,
