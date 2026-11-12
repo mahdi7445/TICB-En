@@ -48711,7 +48711,7 @@
           "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PEPE/USD",
         "tf_key": "manual",
         "display": "PEPE",
@@ -48739,6 +48739,17 @@
             "ts": "2026-11-12T06:59:33.132811+00:00",
             "level_r": 6,
             "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-11-12T07:07:35.284931+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-12T07:07:35.290302+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.43
           }
         ],
         "signal_message_id": 3949,
@@ -48748,7 +48759,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "runner_stop"
       },
       "hist": []
     },
