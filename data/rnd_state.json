@@ -187,11 +187,16 @@
    "k": "mode",
    "t": 1794503634.9502919,
    "x": "Mode → ✋ Semi-auto (you approve)"
+  },
+  {
+   "k": "request",
+   "t": 1794508604.0747292,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
-  "light_ts": 1794494728.537736,
-  "n": 98,
+  "light_ts": 1794508615.895258,
+  "n": 99,
   "research": {
    "ai": false,
    "cycle": 1,
@@ -318,7 +323,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794497994.3418207
+   "t": 1794508604.0747292
   }
  ],
  "settings": {
