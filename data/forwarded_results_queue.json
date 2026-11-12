@@ -1,30 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ATOM",
-    "tf_label": "15M",
-    "entry": 1.388,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000617",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T03:29:38.015543+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "APT",
-    "tf_label": "5M",
-    "entry": 0.5996,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000619",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T03:36:29.214081+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "RENDER",
     "tf_label": "15M",
     "entry": 1.457,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-12T09:57:42.298954+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "DOGE",
+    "tf_label": "15M",
+    "entry": 0.06683,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000901",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T10:09:23.363229+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 82.75,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000905",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-12T10:09:25.369443+00:00"
   }
 ]
