@@ -11593,5 +11593,19 @@
     "source_signal_id": "ALT-000924",
     "signal_message_id": 4033,
     "activated_at": "2026-11-13T00:07:40.791680+00:00"
+  },
+  {
+    "id": "src-ALT-000925",
+    "symbol": "BARD/USD",
+    "side": "BUY",
+    "entry": 0.1544,
+    "sl": 0.1321,
+    "status": "pending",
+    "created_at": 1794564067,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-000925",
+    "signal_message_id": 4043
   }
 ]
