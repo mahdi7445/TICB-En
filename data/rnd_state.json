@@ -465,7 +465,8 @@
   }
  ],
  "settings": {
-  "mode": "semi"
+  "mode": "semi",
+  "target_pf": 1.3
  },
  "slots": {
   "RD1": {
