@@ -1,20 +1,220 @@
 {
  "ai": {
   "analysis": [],
-  "at": 1794556995.178741,
-  "error": "HTTP 400 — درخواست/اعتبار حساب مشکل دارد (مثلاً اعتبار تمام شده) — Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
+  "at": 1794569813.7241297,
+  "error": "claude: HTTP 400 — درخواست/اعتبار حساب مشکل دارد (مثلاً اعتبار تمام شده یا نام مدل نادرست) — Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.; openai: HTTP 429 — سقف نرخ/اعتبار پر شده — You have no credits remaining. Add credits",
   "key_seen": true,
   "key_src": "ANTHROPIC_API_KEY",
   "model": "claude-sonnet-5-5",
+  "providers": {
+   "claude": {
+    "error": "HTTP 400 — درخواست/اعتبار حساب مشکل دارد (مثلاً اعتبار تمام شده یا نام مدل نادرست) — Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
+    "model": "claude-sonnet-5-5",
+    "n": 0,
+    "used": false
+   },
+   "deepseek": {
+    "error": "HTTP 402 — اعتبار حساب تمام شده — Insufficient Balance (request_id: e6d3e8ea-cac4-4210-ad00-7a0cca43ab9a)",
+    "model": "deepseek-chat",
+    "n": 0,
+    "used": false
+   },
+   "gemini": {
+    "error": "HTTP 404 — نام مدل اشتباه است (متغیر <NAME>_MODEL را تنظیم کنید) — This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use models/gemini-3.1-pro-preview for the l",
+    "model": "gemini-2.5-pro",
+    "n": 0,
+    "used": false
+   },
+   "grok": {
+    "error": "HTTP 403 — کلید اجازه‌ی این مدل/عملیات را ندارد — Your newly created team doesn't have any credits or licenses yet. You can purchase those on https://console.x.ai/team/609d7202-5f07-4799-95b",
+    "model": "grok-4",
+    "n": 0,
+    "used": false
+   },
+   "mistral": {
+    "skipped": "no key"
+   },
+   "openai": {
+    "error": "HTTP 429 — سقف نرخ/اعتبار پر شده — You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+    "model": "gpt-4.1",
+    "n": 0,
+    "used": false
+   },
+   "openrouter": {
+    "error": "reply was not valid JSON",
+    "model": "google/gemini-2.5-pro",
+    "n": 0,
+    "used": false
+   }
+  },
   "used": false
  },
+ "ai_calls_by": {
+  "2026-11-13": {
+   "claude": 1,
+   "deepseek": 1,
+   "gemini": 1,
+   "grok": 1,
+   "openai": 1,
+   "openrouter": 1
+  }
+ },
  "ai_calls_today": {
-  "2026-11-13": 0
+  "2026-11-13": 6
  },
  "ai_hints": [],
  "archive": [
   {
-   "score": 8.111188844448817,
+   "fails": [
+    "dd",
+    "streak"
+   ],
+   "score": 6.938584376381403,
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.05
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-12T09:51Z",
+    "family": "inside",
+    "id": "RD2",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962",
+    "origin": "search",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "spec_id": "7bba3e0a28",
+   "status": "FAIL"
+  },
+  {
+   "fails": [
+    "dd",
+    "streak"
+   ],
+   "score": 6.8101614002811885,
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.065
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-12T16:18Z",
+    "family": "inside",
+    "id": "RD5",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v9",
+    "origin": "mutation",
+    "parent": "7bba3e0a28",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "spec_id": "217008e9f1",
+   "status": "FAIL"
+  },
+  {
+   "fails": [
+    "dd",
+    "streak"
+   ],
+   "score": 5.271430299293039,
+   "spec": {
+    "all": [
+     [
+      "ret:3",
+      ">",
+      2.5
+     ],
+     [
+      "rng",
+      ">",
+      2.0
+     ],
+     [
+      "closepos",
+      ">",
+      0.75
+     ],
+     [
+      "volr:20",
+      ">",
+      1.2
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-12T09:51Z",
+    "family": "momentum",
+    "id": "RD6",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Momentum #581",
+    "origin": "search",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "15m",
+     "4h"
+    ],
+    "why": "momentum idea (guided random search)"
+   },
+   "spec_id": "2a8d530ed4",
+   "status": "FAIL"
+  },
+  {
+   "fails": [
+    "win",
+    "pf_min",
+    "dd",
+    "streak"
+   ],
+   "score": 5.0596166649828,
    "spec": {
     "all": [
      [
@@ -58,95 +258,67 @@
     "why": "momentum idea (guided random search)"
    },
    "spec_id": "4b0f7e61a9",
-   "status": "PASS"
+   "status": "FAIL"
   },
   {
-   "score": 7.258883683809632,
+   "fails": [
+    "win",
+    "pf_min",
+    "dd",
+    "streak"
+   ],
+   "score": 4.916842392458502,
    "spec": {
     "all": [
      [
-      "inside",
-      "==",
+      "ret:3",
+      ">",
       1.0
      ],
      [
-      "close",
+      "rng",
       ">",
-      "ema:100"
+      2.0
      ],
      [
-      "slope:34",
+      "closepos",
       ">",
-      0.065
+      0.75
+     ],
+     [
+      "volr:20",
+      ">",
+      1.5
      ]
     ],
-    "cooldown": 3,
+    "cooldown": 12,
     "created": "2026-11-12T16:18Z",
-    "family": "inside",
-    "id": "RD5",
+    "family": "momentum",
+    "id": "RD1",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.5,
-    "name": "Inside #962 · v9",
-    "origin": "mutation",
-    "parent": "7bba3e0a28",
-    "stop": {
-     "k": 3.0,
-     "kind": "atr"
-    },
-    "tfs": [
-     "5m",
-     "15m",
-     "4h"
-    ],
-    "why": "inside idea (guided random search)"
-   },
-   "spec_id": "217008e9f1",
-   "status": "PASS"
-  },
-  {
-   "score": 7.18312129101432,
-   "spec": {
-    "all": [
-     [
-      "inside",
-      "==",
-      1.0
-     ],
-     [
-      "close",
-      ">",
-      "ema:100"
-     ],
-     [
-      "slope:34",
-      ">",
-      0.05
-     ]
-    ],
-    "cooldown": 3,
-    "created": "2026-11-12T09:51Z",
-    "family": "inside",
-    "id": "RD2",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Inside #962",
+    "name": "Momentum #481",
     "origin": "search",
     "stop": {
-     "k": 3.0,
+     "k": 2.0,
      "kind": "atr"
     },
     "tfs": [
-     "5m",
      "15m",
-     "4h"
+     "1h"
     ],
-    "why": "inside idea (guided random search)"
+    "why": "momentum idea (guided random search)"
    },
-   "spec_id": "7bba3e0a28",
-   "status": "PASS"
+   "spec_id": "ec74472c09",
+   "status": "FAIL"
   },
   {
-   "score": 6.667548101749885,
+   "fails": [
+    "win",
+    "dd",
+    "streak"
+   ],
+   "score": 4.59937696615318,
    "spec": {
     "all": [
      [
@@ -190,99 +362,7 @@
     "why": "breakout idea (guided random search)"
    },
    "spec_id": "591fbd749e",
-   "status": "CAND"
-  },
-  {
-   "score": 5.852595376371482,
-   "spec": {
-    "all": [
-     [
-      "ret:3",
-      ">",
-      1.0
-     ],
-     [
-      "rng",
-      ">",
-      2.0
-     ],
-     [
-      "closepos",
-      ">",
-      0.75
-     ],
-     [
-      "volr:20",
-      ">",
-      1.5
-     ]
-    ],
-    "cooldown": 12,
-    "created": "2026-11-12T16:18Z",
-    "family": "momentum",
-    "id": "RD1",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Momentum #481",
-    "origin": "search",
-    "stop": {
-     "k": 2.0,
-     "kind": "atr"
-    },
-    "tfs": [
-     "15m",
-     "1h"
-    ],
-    "why": "momentum idea (guided random search)"
-   },
-   "spec_id": "ec74472c09",
-   "status": "CAND"
-  },
-  {
-   "score": 5.415053995429782,
-   "spec": {
-    "all": [
-     [
-      "ret:3",
-      ">",
-      2.5
-     ],
-     [
-      "rng",
-      ">",
-      2.0
-     ],
-     [
-      "closepos",
-      ">",
-      0.75
-     ],
-     [
-      "volr:20",
-      ">",
-      1.2
-     ]
-    ],
-    "cooldown": 6,
-    "created": "2026-11-12T09:51Z",
-    "family": "momentum",
-    "id": "RD6",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.2,
-    "name": "Momentum #581",
-    "origin": "search",
-    "stop": {
-     "k": 3.0,
-     "kind": "atr"
-    },
-    "tfs": [
-     "15m",
-     "4h"
-    ],
-    "why": "momentum idea (guided random search)"
-   },
-   "spec_id": "2a8d530ed4",
-   "status": "CAND"
+   "status": "FAIL"
   },
   {
    "score": 1.9078261776864642,
@@ -423,8 +503,23 @@
    "status": "FAIL"
   }
  ],
- "cycle": 3,
- "generated": "2026-11-13 10:51 UTC",
+ "cycle": 4,
+ "gate": {
+  "avg": 0.05,
+  "dd": 7.0,
+  "n": 100,
+  "payoff": 1.2,
+  "pf_max": 1.6,
+  "pf_min": 1.2,
+  "risk": 1.0,
+  "rr": 2.5,
+  "split": true,
+  "streak": 6,
+  "stress": true,
+  "t": 2.0,
+  "win": 45.0
+ },
+ "generated": "2026-11-13 15:08 UTC",
  "history": [
   {
    "family": "squeeze",
@@ -713,128 +808,790 @@
    "origin": "search",
    "t": 6.896,
    "tf": "15m"
-  }
- ],
- "prescreened": 28,
- "slots": {
-  "RD1": {
-   "avg_r": 0.14464020642257167,
-   "best_ladder": "Q3",
-   "fail_reasons": [
-    "split/t",
-    "win"
-   ],
-   "family": "momentum",
-   "n": 1192,
-   "name": "Momentum #481",
-   "origin": "search",
-   "pf": 1.224407908980008,
-   "spec_id": "ec74472c09",
-   "status": "CAND",
-   "symbols_positive": 0.7333333333333333,
-   "t": 2.8525953763714824,
-   "test_r": 0.14983751733645492,
-   "tf": "1h",
-   "train_r": 0.1411729094912118,
-   "win": 37.41610738255034
   },
-  "RD2": {
-   "avg_r": 0.16492842731563961,
-   "best_ladder": "H3",
-   "fail_reasons": [],
-   "family": "inside",
-   "n": 1363,
-   "name": "Inside #962",
-   "origin": "search",
-   "pf": 1.299209291860322,
-   "spec_id": "7bba3e0a28",
-   "status": "PASS",
-   "symbols_positive": 0.8,
-   "t": 4.18312129101432,
-   "test_r": 0.14369740046496943,
-   "tf": "4h",
-   "train_r": 0.17911709397471667,
-   "win": 45.56126192223037
-  },
-  "RD3": {
-   "avg_r": 0.19101207502707365,
-   "best_ladder": "Q3",
-   "fail_reasons": [
-    "split/t",
-    "win"
-   ],
+  {
    "family": "breakout",
-   "n": 1116,
-   "name": "Breakout #469",
-   "origin": "search",
-   "pf": 1.3074431896471328,
-   "spec_id": "591fbd749e",
-   "status": "CAND",
-   "symbols_positive": 0.8125,
-   "t": 3.6675481017498854,
-   "test_r": 0.23582814923314685,
-   "tf": "4h",
-   "train_r": 0.16106770257548214,
-   "win": 38.88888888888889
+   "n": 3353,
+   "name": "Breakout #469 · v9",
+   "origin": "mutation",
+   "t": 11.267,
+   "tf": "15m"
   },
-  "RD4": {
-   "avg_r": 0.1854444058370759,
-   "best_ladder": "Q3",
-   "fail_reasons": [],
+  {
    "family": "momentum",
-   "n": 2326,
+   "n": 2193,
+   "name": "Momentum #481 · v5",
+   "origin": "mutation",
+   "t": 10.29,
+   "tf": "15m"
+  },
+  {
+   "family": "momentum",
+   "n": 2130,
+   "name": "Momentum #481 · v9",
+   "origin": "mutation",
+   "t": 10.277,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2440,
+   "name": "Breakout #469 · fix71",
+   "origin": "improve",
+   "t": 10.129,
+   "tf": "15m"
+  },
+  {
+   "family": "momentum",
+   "n": 1701,
+   "name": "Momentum #530",
+   "origin": "search",
+   "t": 9.999,
+   "tf": "15m"
+  },
+  {
+   "family": "momentum",
+   "n": 2006,
+   "name": "Momentum #481 · fix77",
+   "origin": "improve",
+   "t": 9.888,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2793,
+   "name": "Inside #962 · v7",
+   "origin": "mutation",
+   "t": 9.704,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2853,
+   "name": "Inside #962 · v3",
+   "origin": "mutation",
+   "t": 9.692,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2835,
+   "name": "Inside #962 · v3",
+   "origin": "mutation",
+   "t": 9.545,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2471,
+   "name": "Breakout #469 · fix96",
+   "origin": "improve",
+   "t": 9.544,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2886,
+   "name": "Breakout #469 · fix32",
+   "origin": "improve",
+   "t": 9.505,
+   "tf": "15m"
+  },
+  {
+   "family": "momentum",
+   "n": 1990,
    "name": "Momentum #481 · v4",
    "origin": "mutation",
-   "pf": 1.2930895789496157,
-   "spec_id": "4b0f7e61a9",
-   "status": "PASS",
-   "symbols_positive": 0.9090909090909091,
-   "t": 5.111188844448817,
-   "test_r": 0.0035768582592784286,
-   "tf": "15m",
-   "train_r": 0.30681980855745533,
-   "win": 40.111779879621665
-  },
-  "RD5": {
-   "avg_r": 0.16843848158934382,
-   "best_ladder": "H3",
-   "fail_reasons": [],
-   "family": "inside",
-   "n": 1352,
-   "name": "Inside #962 · v9",
-   "origin": "mutation",
-   "pf": 1.3068304961816355,
-   "spec_id": "217008e9f1",
-   "status": "PASS",
-   "symbols_positive": 0.8666666666666667,
-   "t": 4.258883683809632,
-   "test_r": 0.1645459394826428,
-   "tf": "4h",
-   "train_r": 0.17103510955447981,
-   "win": 45.78402366863905
-  },
-  "RD6": {
-   "avg_r": 0.22457659514488393,
-   "best_ladder": "Q1",
+   "t": 9.256,
+   "tf": "15m"
+  }
+ ],
+ "improved": 12,
+ "prescreened": 31,
+ "slots": {
+  "RD1": {
+   "avg_r": 0.11900553902013986,
+   "best_ladder": "Q3",
+   "dd_pct": 85.95,
    "fail_reasons": [
     "split/t",
-    "win"
+    "PF",
+    "win",
+    "criteria: Win rate % 36.848 (need ≥ 45); Profit factor 1.183 (need ≥ 1.2); Max drawdown % 85.951 (need ≤ 7); Max losing streak 57 (need < 6)"
    ],
    "family": "momentum",
-   "n": 320,
+   "gate": {
+    "checks": [
+     {
+      "k": "win",
+      "lim": "≥ 45",
+      "n": "Win rate %",
+      "ok": false,
+      "v": 36.848
+     },
+     {
+      "k": "pf_min",
+      "lim": "≥ 1.2",
+      "n": "Profit factor",
+      "ok": false,
+      "v": 1.183
+     },
+     {
+      "k": "pf_max",
+      "lim": "≤ 1.6",
+      "n": "PF overfit cap",
+      "ok": true,
+      "v": 1.183
+     },
+     {
+      "k": "rr",
+      "lim": "≥ 2.5",
+      "n": "Planned R:R",
+      "ok": true,
+      "v": 9.0
+     },
+     {
+      "k": "payoff",
+      "lim": "≥ 1.2",
+      "n": "Avg win / avg loss",
+      "ok": true,
+      "v": 2.028
+     },
+     {
+      "k": "dd",
+      "lim": "≤ 7",
+      "n": "Max drawdown %",
+      "ok": false,
+      "v": 85.951
+     },
+     {
+      "k": "streak",
+      "lim": "< 6",
+      "n": "Max losing streak",
+      "ok": false,
+      "v": 57.0
+     },
+     {
+      "k": "avg",
+      "lim": "≥ 0.05",
+      "n": "Net R / trade",
+      "ok": true,
+      "v": 0.119
+     },
+     {
+      "k": "t",
+      "lim": "≥ 2",
+      "n": "|t| strength",
+      "ok": true,
+      "v": 2.917
+     },
+     {
+      "k": "n",
+      "lim": "≥ 100",
+      "n": "Backtest trades",
+      "ok": true,
+      "v": 1802.0
+     },
+     {
+      "k": "stress",
+      "lim": "> 0",
+      "n": "Net R at 1.5× costs",
+      "ok": true,
+      "v": 0.104
+     },
+     {
+      "k": "split",
+      "lim": "> 0",
+      "n": "Worst half (train/test)",
+      "ok": true,
+      "v": 0.087
+     }
+    ],
+    "passed": 8,
+    "total": 12
+   },
+   "n": 1802,
+   "name": "Momentum #481",
+   "origin": "search",
+   "pf": 1.183321644206665,
+   "spec_id": "ec74472c09",
+   "status": "FAIL",
+   "streak": 57,
+   "symbols_positive": 0.6956521739130435,
+   "t": 2.916842392458502,
+   "test_r": 0.16626087590038424,
+   "tf": "1h",
+   "train_r": 0.08748740961157724,
+   "win": 36.847946725860155
+  },
+  "RD2": {
+   "avg_r": 0.14047160917008075,
+   "best_ladder": "H3",
+   "dd_pct": 61.78,
+   "fail_reasons": [
+    "criteria: Max drawdown % 61.784 (need ≤ 7); Max losing streak 20 (need < 6)"
+   ],
+   "family": "inside",
+   "gate": {
+    "checks": [
+     {
+      "k": "win",
+      "lim": "≥ 45",
+      "n": "Win rate %",
+      "ok": true,
+      "v": 45.335
+     },
+     {
+      "k": "pf_min",
+      "lim": "≥ 1.2",
+      "n": "Profit factor",
+      "ok": true,
+      "v": 1.254
+     },
+     {
+      "k": "pf_max",
+      "lim": "≤ 1.6",
+      "n": "PF overfit cap",
+      "ok": true,
+      "v": 1.254
+     },
+     {
+      "k": "rr",
+      "lim": "≥ 2.5",
+      "n": "Planned R:R",
+      "ok": true,
+      "v": 8.0
+     },
+     {
+      "k": "payoff",
+      "lim": "≥ 1.2",
+      "n": "Avg win / avg loss",
+      "ok": true,
+      "v": 1.512
+     },
+     {
+      "k": "dd",
+      "lim": "≤ 7",
+      "n": "Max drawdown %",
+      "ok": false,
+      "v": 61.784
+     },
+     {
+      "k": "streak",
+      "lim": "< 6",
+      "n": "Max losing streak",
+      "ok": false,
+      "v": 20.0
+     },
+     {
+      "k": "avg",
+      "lim": "≥ 0.05",
+      "n": "Net R / trade",
+      "ok": true,
+      "v": 0.14
+     },
+     {
+      "k": "t",
+      "lim": "≥ 2",
+      "n": "|t| strength",
+      "ok": true,
+      "v": 4.439
+     },
+     {
+      "k": "n",
+      "lim": "≥ 100",
+      "n": "Backtest trades",
+      "ok": true,
+      "v": 2047.0
+     },
+     {
+      "k": "stress",
+      "lim": "> 0",
+      "n": "Net R at 1.5× costs",
+      "ok": true,
+      "v": 0.133
+     },
+     {
+      "k": "split",
+      "lim": "> 0",
+      "n": "Worst half (train/test)",
+      "ok": true,
+      "v": 0.121
+     }
+    ],
+    "passed": 10,
+    "total": 12
+   },
+   "n": 2047,
+   "name": "Inside #962",
+   "origin": "search",
+   "pf": 1.2540401951173692,
+   "spec_id": "7bba3e0a28",
+   "status": "FAIL",
+   "streak": 20,
+   "symbols_positive": 0.8260869565217391,
+   "t": 4.438584376381403,
+   "test_r": 0.12090261161186593,
+   "tf": "4h",
+   "train_r": 0.153522919430812,
+   "win": 45.33463605276013
+  },
+  "RD3": {
+   "avg_r": 0.1635649796085658,
+   "best_ladder": "Q3",
+   "dd_pct": 43.51,
+   "fail_reasons": [
+    "split/t",
+    "win",
+    "criteria: Win rate % 36.518 (need ≥ 45); Max drawdown % 43.51 (need ≤ 7); Max losing streak 17 (need < 6)"
+   ],
+   "family": "breakout",
+   "gate": {
+    "checks": [
+     {
+      "k": "win",
+      "lim": "≥ 45",
+      "n": "Win rate %",
+      "ok": false,
+      "v": 36.518
+     },
+     {
+      "k": "pf_min",
+      "lim": "≥ 1.2",
+      "n": "Profit factor",
+      "ok": true,
+      "v": 1.254
+     },
+     {
+      "k": "pf_max",
+      "lim": "≤ 1.6",
+      "n": "PF overfit cap",
+      "ok": true,
+      "v": 1.254
+     },
+     {
+      "k": "rr",
+      "lim": "≥ 2.5",
+      "n": "Planned R:R",
+      "ok": true,
+      "v": 9.0
+     },
+     {
+      "k": "payoff",
+      "lim": "≥ 1.2",
+      "n": "Avg win / avg loss",
+      "ok": true,
+      "v": 2.18
+     },
+     {
+      "k": "dd",
+      "lim": "≤ 7",
+      "n": "Max drawdown %",
+      "ok": false,
+      "v": 43.51
+     },
+     {
+      "k": "streak",
+      "lim": "< 6",
+      "n": "Max losing streak",
+      "ok": false,
+      "v": 17.0
+     },
+     {
+      "k": "avg",
+      "lim": "≥ 0.05",
+      "n": "Net R / trade",
+      "ok": true,
+      "v": 0.164
+     },
+     {
+      "k": "t",
+      "lim": "≥ 2",
+      "n": "|t| strength",
+      "ok": true,
+      "v": 2.349
+     },
+     {
+      "k": "n",
+      "lim": "≥ 100",
+      "n": "Backtest trades",
+      "ok": true,
+      "v": 649.0
+     },
+     {
+      "k": "stress",
+      "lim": "> 0",
+      "n": "Net R at 1.5× costs",
+      "ok": true,
+      "v": 0.156
+     },
+     {
+      "k": "split",
+      "lim": "> 0",
+      "n": "Worst half (train/test)",
+      "ok": true,
+      "v": 0.122
+     }
+    ],
+    "passed": 9,
+    "total": 12
+   },
+   "n": 649,
+   "name": "Breakout #469",
+   "origin": "search",
+   "pf": 1.2537771214051394,
+   "spec_id": "591fbd749e",
+   "status": "FAIL",
+   "streak": 17,
+   "symbols_positive": 0.8235294117647058,
+   "t": 2.3493769661531796,
+   "test_r": 0.22547091900473396,
+   "tf": "4h",
+   "train_r": 0.12218825918953317,
+   "win": 36.517719568567024
+  },
+  "RD4": {
+   "avg_r": 0.1124932755584989,
+   "best_ladder": "Q3",
+   "dd_pct": 78.32,
+   "fail_reasons": [
+    "split/t",
+    "PF",
+    "win",
+    "criteria: Win rate % 36.543 (need ≥ 45); Profit factor 1.172 (need ≥ 1.2); Max drawdown % 78.32 (need ≤ 7); Max losing streak 41 (need < 6)"
+   ],
+   "family": "momentum",
+   "gate": {
+    "checks": [
+     {
+      "k": "win",
+      "lim": "≥ 45",
+      "n": "Win rate %",
+      "ok": false,
+      "v": 36.543
+     },
+     {
+      "k": "pf_min",
+      "lim": "≥ 1.2",
+      "n": "Profit factor",
+      "ok": false,
+      "v": 1.172
+     },
+     {
+      "k": "pf_max",
+      "lim": "≤ 1.6",
+      "n": "PF overfit cap",
+      "ok": true,
+      "v": 1.172
+     },
+     {
+      "k": "rr",
+      "lim": "≥ 2.5",
+      "n": "Planned R:R",
+      "ok": true,
+      "v": 9.0
+     },
+     {
+      "k": "payoff",
+      "lim": "≥ 1.2",
+      "n": "Avg win / avg loss",
+      "ok": true,
+      "v": 2.036
+     },
+     {
+      "k": "dd",
+      "lim": "≤ 7",
+      "n": "Max drawdown %",
+      "ok": false,
+      "v": 78.32
+     },
+     {
+      "k": "streak",
+      "lim": "< 6",
+      "n": "Max losing streak",
+      "ok": false,
+      "v": 41.0
+     },
+     {
+      "k": "avg",
+      "lim": "≥ 0.05",
+      "n": "Net R / trade",
+      "ok": true,
+      "v": 0.112
+     },
+     {
+      "k": "t",
+      "lim": "≥ 2",
+      "n": "|t| strength",
+      "ok": true,
+      "v": 3.06
+     },
+     {
+      "k": "n",
+      "lim": "≥ 100",
+      "n": "Backtest trades",
+      "ok": true,
+      "v": 2233.0
+     },
+     {
+      "k": "stress",
+      "lim": "> 0",
+      "n": "Net R at 1.5× costs",
+      "ok": true,
+      "v": 0.097
+     },
+     {
+      "k": "split",
+      "lim": "> 0",
+      "n": "Worst half (train/test)",
+      "ok": true,
+      "v": 0.103
+     }
+    ],
+    "passed": 8,
+    "total": 12
+   },
+   "n": 2233,
+   "name": "Momentum #481 · v4",
+   "origin": "mutation",
+   "pf": 1.17227986347608,
+   "spec_id": "4b0f7e61a9",
+   "status": "FAIL",
+   "streak": 41,
+   "symbols_positive": 0.75,
+   "t": 3.059616664982799,
+   "test_r": 0.1264294380919082,
+   "tf": "1h",
+   "train_r": 0.10318862335172678,
+   "win": 36.54276757725034
+  },
+  "RD5": {
+   "avg_r": 0.13680474972276005,
+   "best_ladder": "H3",
+   "dd_pct": 61.78,
+   "fail_reasons": [
+    "criteria: Max drawdown % 61.782 (need ≤ 7); Max losing streak 20 (need < 6)"
+   ],
+   "family": "inside",
+   "gate": {
+    "checks": [
+     {
+      "k": "win",
+      "lim": "≥ 45",
+      "n": "Win rate %",
+      "ok": true,
+      "v": 45.199
+     },
+     {
+      "k": "pf_min",
+      "lim": "≥ 1.2",
+      "n": "Profit factor",
+      "ok": true,
+      "v": 1.247
+     },
+     {
+      "k": "pf_max",
+      "lim": "≤ 1.6",
+      "n": "PF overfit cap",
+      "ok": true,
+      "v": 1.247
+     },
+     {
+      "k": "rr",
+      "lim": "≥ 2.5",
+      "n": "Planned R:R",
+      "ok": true,
+      "v": 8.0
+     },
+     {
+      "k": "payoff",
+      "lim": "≥ 1.2",
+      "n": "Avg win / avg loss",
+      "ok": true,
+      "v": 1.512
+     },
+     {
+      "k": "dd",
+      "lim": "≤ 7",
+      "n": "Max drawdown %",
+      "ok": false,
+      "v": 61.782
+     },
+     {
+      "k": "streak",
+      "lim": "< 6",
+      "n": "Max losing streak",
+      "ok": false,
+      "v": 20.0
+     },
+     {
+      "k": "avg",
+      "lim": "≥ 0.05",
+      "n": "Net R / trade",
+      "ok": true,
+      "v": 0.137
+     },
+     {
+      "k": "t",
+      "lim": "≥ 2",
+      "n": "|t| strength",
+      "ok": true,
+      "v": 4.31
+     },
+     {
+      "k": "n",
+      "lim": "≥ 100",
+      "n": "Backtest trades",
+      "ok": true,
+      "v": 2031.0
+     },
+     {
+      "k": "stress",
+      "lim": "> 0",
+      "n": "Net R at 1.5× costs",
+      "ok": true,
+      "v": 0.129
+     },
+     {
+      "k": "split",
+      "lim": "> 0",
+      "n": "Worst half (train/test)",
+      "ok": true,
+      "v": 0.133
+     }
+    ],
+    "passed": 10,
+    "total": 12
+   },
+   "n": 2031,
+   "name": "Inside #962 · v9",
+   "origin": "mutation",
+   "pf": 1.2467946768222273,
+   "spec_id": "217008e9f1",
+   "status": "FAIL",
+   "streak": 20,
+   "symbols_positive": 0.8260869565217391,
+   "t": 4.3101614002811885,
+   "test_r": 0.1331532755579431,
+   "tf": "4h",
+   "train_r": 0.13924206375888173,
+   "win": 45.199409158050216
+  },
+  "RD6": {
+   "avg_r": 0.17251387017721095,
+   "best_ladder": "H3",
+   "dd_pct": 32.16,
+   "fail_reasons": [
+    "split/t",
+    "win",
+    "criteria: Max drawdown % 32.157 (need ≤ 7); Max losing streak 12 (need < 6)"
+   ],
+   "family": "momentum",
+   "gate": {
+    "checks": [
+     {
+      "k": "win",
+      "lim": "≥ 45",
+      "n": "Win rate %",
+      "ok": true,
+      "v": 45.709
+     },
+     {
+      "k": "pf_min",
+      "lim": "≥ 1.2",
+      "n": "Profit factor",
+      "ok": true,
+      "v": 1.316
+     },
+     {
+      "k": "pf_max",
+      "lim": "≤ 1.6",
+      "n": "PF overfit cap",
+      "ok": true,
+      "v": 1.316
+     },
+     {
+      "k": "rr",
+      "lim": "≥ 2.5",
+      "n": "Planned R:R",
+      "ok": true,
+      "v": 8.0
+     },
+     {
+      "k": "payoff",
+      "lim": "≥ 1.2",
+      "n": "Avg win / avg loss",
+      "ok": true,
+      "v": 1.563
+     },
+     {
+      "k": "dd",
+      "lim": "≤ 7",
+      "n": "Max drawdown %",
+      "ok": false,
+      "v": 32.157
+     },
+     {
+      "k": "streak",
+      "lim": "< 6",
+      "n": "Max losing streak",
+      "ok": false,
+      "v": 12.0
+     },
+     {
+      "k": "avg",
+      "lim": "≥ 0.05",
+      "n": "Net R / trade",
+      "ok": true,
+      "v": 0.173
+     },
+     {
+      "k": "t",
+      "lim": "≥ 2",
+      "n": "|t| strength",
+      "ok": true,
+      "v": 2.771
+     },
+     {
+      "k": "n",
+      "lim": "≥ 100",
+      "n": "Backtest trades",
+      "ok": true,
+      "v": 536.0
+     },
+     {
+      "k": "stress",
+      "lim": "> 0",
+      "n": "Net R at 1.5× costs",
+      "ok": true,
+      "v": 0.166
+     },
+     {
+      "k": "split",
+      "lim": "> 0",
+      "n": "Worst half (train/test)",
+      "ok": true,
+      "v": 0.129
+     }
+    ],
+    "passed": 10,
+    "total": 12
+   },
+   "n": 536,
    "name": "Momentum #581",
    "origin": "search",
-   "pf": 1.3623718131223437,
+   "pf": 1.315519878734353,
    "spec_id": "2a8d530ed4",
-   "status": "CAND",
-   "symbols_positive": 0.8,
-   "t": 2.4150539954297816,
-   "test_r": 0.33321612864657335,
+   "status": "FAIL",
+   "streak": 12,
+   "symbols_positive": 0.8947368421052632,
+   "t": 2.7714302992930384,
+   "test_r": 0.23687281199589746,
    "tf": "4h",
-   "train_r": 0.15215023947709097,
-   "win": 38.4375
+   "train_r": 0.1294074138189006,
+   "win": 45.7089552238806
   }
  },
- "tested": 39,
- "ts": 1794567099.0672152
+ "tested": 38,
+ "ts": 1794582512.4720037
 }
