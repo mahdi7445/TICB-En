@@ -21,7 +21,7 @@
   }
  },
  "findings": [],
- "generated": "2026-11-13 09:53",
+ "generated": "2026-11-13 10:58",
  "n_total": 100,
  "overall": {
   "30d": {
@@ -49,7 +49,7 @@
   "win": 38.0
  },
  "settings": {
-  "ai_calls_day": 4,
+  "ai_calls_day": 12,
   "ai_model": "claude-sonnet-5-5",
   "ai_on": true,
   "cands": 40,
