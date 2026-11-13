@@ -49943,7 +49943,7 @@
         "sl": 0.1321,
         "r": 0.022300000000000014,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
@@ -49959,6 +49959,12 @@
             "type": "opened",
             "ts": "2026-11-13T10:01:55.470749+00:00",
             "price": 0.1544
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-13T12:34:08.536992+00:00",
+            "level_r": 1,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 4043,
@@ -50137,7 +50143,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "NIGHT/USD",
         "tf_key": "manual",
         "display": "NIGHT",
@@ -50147,6 +50153,17 @@
             "type": "opened",
             "ts": "2026-11-13T11:26:36.651411+00:00",
             "price": 0.04369
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-13T12:34:08.537083+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-13T12:34:08.540907+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 4051,
@@ -50156,7 +50173,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     }
