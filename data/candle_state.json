@@ -50267,7 +50267,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "STX/USD",
         "tf_key": "manual",
         "display": "STX",
@@ -50295,6 +50295,17 @@
             "ts": "2026-11-13T15:37:14.265350+00:00",
             "level_r": 4,
             "note": "forwarded"
+          },
+          {
+            "type": "sl_after_t3",
+            "ts": "2026-11-13T15:51:48.847968+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-13T15:51:48.851853+00:00",
+            "close_type": "sl_after_t3",
+            "final_r": 2.1
           }
         ],
         "signal_message_id": 4061,
@@ -50304,7 +50315,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "sl_after_t3"
       },
       "hist": []
     }
