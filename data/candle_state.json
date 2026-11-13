@@ -49971,6 +49971,50 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000926": {
+      "open_trade": {
+        "signal_id": "ALT-000926",
+        "source_signal_id": "ALT-000926",
+        "side": "BUY",
+        "entry": 0.2897,
+        "sl": 0.2886,
+        "r": 0.0010999999999999899,
+        "hit": {
+          "1": true,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "STX/USD",
+        "tf_key": "manual",
+        "display": "STX",
+        "opened_at_ms": 1794564306068,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-13T10:05:06.068772+00:00",
+            "price": 0.2897
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-13T10:05:06.142185+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          }
+        ],
+        "signal_message_id": 4044,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "1min",
+          "bar_seconds": 60,
+          "label": "1M"
+        },
+        "logical_tf": "1m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
