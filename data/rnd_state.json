@@ -277,13 +277,13 @@
   }
  ],
  "last": {
-  "light_ts": 1794567510.3742375,
+  "light_ts": 1794571134.3650994,
   "n": 100,
   "research": {
    "ai": false,
-   "cycle": 2,
-   "generated": "2026-11-12 19:46 UTC",
-   "tested": 40
+   "cycle": 3,
+   "generated": "2026-11-13 10:51 UTC",
+   "tested": 39
   }
  },
  "proposals": [
@@ -471,37 +471,37 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 2,
+   "cycle": 3,
    "name": "Momentum #481",
    "spec_id": "ec74472c09",
    "status": "CAND"
   },
   "RD2": {
-   "cycle": 2,
+   "cycle": 3,
    "name": "Inside #962",
    "spec_id": "7bba3e0a28",
    "status": "PASS"
   },
   "RD3": {
-   "cycle": 2,
+   "cycle": 3,
    "name": "Breakout #469",
    "spec_id": "591fbd749e",
    "status": "CAND"
   },
   "RD4": {
-   "cycle": 2,
-   "name": "Squeeze #360",
-   "spec_id": "68563d87ac",
-   "status": "FAIL"
+   "cycle": 3,
+   "name": "Momentum #481 · v4",
+   "spec_id": "4b0f7e61a9",
+   "status": "PASS"
   },
   "RD5": {
-   "cycle": 2,
+   "cycle": 3,
    "name": "Inside #962 · v9",
    "spec_id": "217008e9f1",
    "status": "PASS"
   },
   "RD6": {
-   "cycle": 2,
+   "cycle": 3,
    "name": "Momentum #581",
    "spec_id": "2a8d530ed4",
    "status": "CAND"
