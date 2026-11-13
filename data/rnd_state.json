@@ -467,6 +467,7 @@
  "settings": {
   "ai_calls_day": 4,
   "ai_mistral": false,
+  "g_win": 41.0,
   "mode": "semi",
   "target_pf": 1.3
  },
