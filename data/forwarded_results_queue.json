@@ -1,30 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "DOGE",
-    "tf_label": "15M",
-    "entry": 0.07413,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000626",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T15:04:35.545297+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "XLM",
-    "tf_label": "15M",
-    "entry": 0.1607,
-    "level": 4,
-    "result_r": 2.15,
-    "source_signal_id": "ALT-000629",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T15:04:39.309491+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "OP",
     "tf_label": "4H",
     "entry": 0.1073,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-13T13:53:09.679199+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "STX",
+    "tf_label": "1M",
+    "entry": 0.2998,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000930",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T13:56:01.671377+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "STX",
+    "tf_label": "1M",
+    "entry": 0.2998,
+    "level": null,
+    "result_r": 1.3,
+    "source_signal_id": "ALT-000930",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T13:56:04.329064+00:00"
   }
 ]
