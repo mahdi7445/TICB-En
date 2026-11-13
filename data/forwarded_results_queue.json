@@ -1,30 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 92.21,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000630",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:49:42.724929+00:00"
-  },
-  {
-    "kind": "sl_after_t2",
-    "ticker": "ALGO",
-    "tf_label": "4H",
-    "entry": 0.1059,
-    "level": null,
-    "result_r": 0.5,
-    "source_signal_id": "ALT-000323",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:56:49.347986+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "AAVE",
     "tf_label": "4H",
     "entry": 124.91,
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-13T11:06:19.450025+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "BARD",
+    "tf_label": "15M",
+    "entry": 0.1544,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000925",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T12:33:23.671970+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NIGHT",
+    "tf_label": "5M",
+    "entry": 0.04369,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000929",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T12:33:25.437794+00:00"
   }
 ]
