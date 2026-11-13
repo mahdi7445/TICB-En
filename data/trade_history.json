@@ -40149,5 +40149,56 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000925",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-13T10:01:55.470749+00:00",
+        "price": 0.1544
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-13T12:34:08.536992+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "module_closed",
+        "ts": "2026-11-13T16:04:04.946728+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-13T16:04:04.950749+00:00",
+        "close_type": "module_closed",
+        "final_r": 0.45
+      }
+    ],
+    "symbol": "BARD/USD",
+    "tf": "manual",
+    "logical_tf": "15m",
+    "side": "BUY",
+    "entry": 0.1544,
+    "sl": 0.1321,
+    "final_r": 0.45,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "module_closed",
+    "close_reason": "module_closed",
+    "opened_at": "2026-11-13T10:01:55.470000+00:00",
+    "closed_at": "2026-11-13T16:04:04.950749+00:00",
+    "r_pct": 14.443,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]

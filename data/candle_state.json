@@ -49949,7 +49949,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "BARD/USD",
         "tf_key": "manual",
         "display": "BARD",
@@ -49965,6 +49965,17 @@
             "ts": "2026-11-13T12:34:08.536992+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "module_closed",
+            "ts": "2026-11-13T16:04:04.946728+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-13T16:04:04.950749+00:00",
+            "close_type": "module_closed",
+            "final_r": 0.45
           }
         ],
         "signal_message_id": 4043,
@@ -49974,7 +49985,8 @@
           "bar_seconds": 900,
           "label": "15M"
         },
-        "logical_tf": "15m"
+        "logical_tf": "15m",
+        "close_type": "module_closed"
       },
       "hist": []
     },
