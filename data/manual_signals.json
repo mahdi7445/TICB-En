@@ -11653,5 +11653,19 @@
     "source_signal_id": "ALT-000928",
     "signal_message_id": 4049,
     "activated_at": "2026-11-13T11:01:03.149891+00:00"
+  },
+  {
+    "id": "src-ALT-000929",
+    "symbol": "NIGHT/USD",
+    "side": "SELL",
+    "entry": 0.04369,
+    "sl": 0.04428,
+    "status": "pending",
+    "created_at": 1794569160,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000929",
+    "signal_message_id": 4051
   }
 ]
