@@ -4,18 +4,6 @@
     "ticker": "SOL",
     "tf_label": "15M",
     "entry": 92.21,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000630",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T15:12:16.464645+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 92.21,
     "level": 4,
     "result_r": 2.15,
     "source_signal_id": "ALT-000630",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-13T15:36:43.021263+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "STX",
+    "tf_label": "1M",
+    "entry": 0.2932,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000931",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T15:51:02.784985+00:00"
   }
 ]
