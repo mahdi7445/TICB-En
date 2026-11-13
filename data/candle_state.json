@@ -50435,7 +50435,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "XCN/USD",
         "tf_key": "manual",
         "display": "XCN",
@@ -50445,6 +50445,17 @@
             "type": "opened",
             "ts": "2026-11-13T21:28:35.813300+00:00",
             "price": 0.003233
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-13T21:31:48.885543+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-13T21:31:48.890982+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 4072,
@@ -50454,7 +50465,8 @@
           "bar_seconds": 60,
           "label": "1M"
         },
-        "logical_tf": "1m"
+        "logical_tf": "1m",
+        "close_type": "stop"
       },
       "hist": []
     }
