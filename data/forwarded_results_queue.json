@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "DOT",
-    "tf_label": "15M",
-    "entry": 0.9329,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000627",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:49:39.588656+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "NEAR",
     "tf_label": "15M",
     "entry": 3.83,
@@ -5998,5 +5986,17 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-11-13T10:04:16.853101+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "STX",
+    "tf_label": "1M",
+    "entry": 0.2897,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000926",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T10:04:54.984423+00:00"
   }
 ]
