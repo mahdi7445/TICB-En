@@ -1,6 +1,6 @@
 {
- "cycle": 2,
- "set": "2026-11-12T16:18Z",
+ "cycle": 3,
+ "set": "2026-11-13T08:03Z",
  "slots": {
   "RD1": {
    "prescreen": {
@@ -154,55 +154,55 @@
   },
   "RD4": {
    "prescreen": {
-    "avg": 0.2719,
-    "n": 2579,
-    "t": 8.609,
+    "avg": 0.3405,
+    "n": 2431,
+    "t": 10.507,
     "tf": "15m"
    },
-   "set": "2026-11-12T09:51Z",
+   "set": "2026-11-13T08:03Z",
    "spec": {
     "all": [
      [
-      "atrp:14",
-      "<",
-      0.8
+      "ret:3",
+      ">",
+      1.0
      ],
      [
-      "close",
+      "rng",
       ">",
-      "hh:10"
+      2.0
+     ],
+     [
+      "closepos",
+      ">",
+      0.637
      ],
      [
       "volr:20",
       ">",
-      1.2
-     ],
-     [
-      "adx:14",
-      "<",
-      28.0
+      1.5
      ]
     ],
-    "cooldown": 3,
-    "created": "2026-11-12T09:51Z",
-    "family": "squeeze",
+    "cooldown": 12,
+    "created": "2026-11-13T08:03Z",
+    "family": "momentum",
     "id": "RD4",
     "max_stop_atr": 4.0,
-    "min_risk_pct": 0.3,
-    "name": "Squeeze #360",
-    "origin": "search",
+    "min_risk_pct": 0.5,
+    "name": "Momentum #481 · v4",
+    "origin": "mutation",
+    "parent": "ec74472c09",
     "stop": {
-     "buf": 0.3,
-     "kind": "swing",
-     "n": 12
+     "k": 2.0,
+     "kind": "atr"
     },
     "tfs": [
      "15m",
      "1h"
     ],
-    "why": "squeeze idea (guided random search)"
+    "why": "momentum idea (guided random search)"
    },
-   "spec_id": "68563d87ac"
+   "spec_id": "4b0f7e61a9"
   },
   "RD5": {
    "prescreen": {
