@@ -11608,5 +11608,19 @@
     "source_signal_id": "ALT-000925",
     "signal_message_id": 4043,
     "activated_at": "2026-11-13T10:01:55.470775+00:00"
+  },
+  {
+    "id": "src-ALT-000926",
+    "symbol": "STX/USD",
+    "side": "BUY",
+    "entry": 0.2897,
+    "sl": 0.2886,
+    "status": "pending",
+    "created_at": 1794564240,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000926",
+    "signal_message_id": 4044
   }
 ]
