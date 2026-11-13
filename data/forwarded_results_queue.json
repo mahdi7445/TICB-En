@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "OP",
-    "tf_label": "4H",
-    "entry": 0.1073,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000621",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T15:12:08.484351+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "DOGE",
     "tf_label": "15M",
     "entry": 0.07413,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-13T13:56:04.329064+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "STX",
+    "tf_label": "1M",
+    "entry": 0.2932,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000931",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T15:22:10.839451+00:00"
   }
 ]
