@@ -70,7 +70,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 3553,
-      "polled_ms": 1794532921402
+      "polled_ms": 1794532979720
     },
     "TC-000122": {
       "id": "TC-000122",
@@ -120,7 +120,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 3989,
-      "polled_ms": 1794532921402
+      "polled_ms": 1794532979720
     }
   },
   "seen": [],
