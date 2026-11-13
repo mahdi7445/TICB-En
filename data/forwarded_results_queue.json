@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "AAVE",
-    "tf_label": "4H",
-    "entry": 124.91,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000622",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T15:04:33.554549+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "LDO",
     "tf_label": "4H",
     "entry": 0.325,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-13T12:33:25.437794+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "UNI",
+    "tf_label": "15M",
+    "entry": 5.76,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000927",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T13:36:31.103178+00:00"
   }
 ]
