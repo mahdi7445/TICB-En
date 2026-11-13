@@ -269,11 +269,16 @@
    "k": "apply",
    "t": 1794533863.3377132,
    "x": "✋ Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto"
+  },
+  {
+   "k": "request",
+   "t": 1794555809.9381056,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
-  "light_ts": 1794552428.613083,
-  "n": 99,
+  "light_ts": 1794555801.688422,
+  "n": 100,
   "research": {
    "ai": false,
    "cycle": 2,
@@ -456,7 +461,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794508604.0747292
+   "t": 1794555809.9381056
   }
  ],
  "settings": {
