@@ -4,18 +4,6 @@
     "ticker": "QNT",
     "tf_label": "5M",
     "entry": 199.06,
-    "level": 1.5,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000654",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T14:42:37.199070+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "QNT",
-    "tf_label": "5M",
-    "entry": 199.06,
     "level": 3,
     "result_r": 1.35,
     "source_signal_id": "ALT-000654",
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-13T03:24:12.516175+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "TRX",
+    "tf_label": "4H",
+    "entry": 0.3174,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000828",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T03:30:18.321117+00:00"
   }
 ]
