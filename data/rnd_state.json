@@ -465,6 +465,7 @@
   }
  ],
  "settings": {
+  "ai_calls_day": 24,
   "mode": "semi",
   "target_pf": 1.3
  },
