@@ -2,11 +2,13 @@
  "blocked": {},
  "events": [],
  "last_error": "",
- "last_ok": 1794555161.669323,
- "last_try": 1794555161.669323,
+ "last_ok": 1794555945.0268912,
+ "last_try": 1794555945.0268912,
  "news_seen": [],
  "pause": {},
- "settings": {},
+ "settings": {
+  "pause_h": 5
+ },
  "snapshot": {
   "0G": "TRADING",
   "1000000MOG": "TRADING",
