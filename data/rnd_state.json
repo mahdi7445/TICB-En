@@ -195,12 +195,12 @@
   }
  ],
  "last": {
-  "light_ts": 1794508625.0730553,
+  "light_ts": 1794530260.133228,
   "n": 99,
   "research": {
    "ai": false,
-   "cycle": 1,
-   "generated": "2026-11-12 13:11 UTC",
+   "cycle": 2,
+   "generated": "2026-11-12 19:46 UTC",
    "tested": 40
   }
  },
@@ -316,6 +316,60 @@
      "sgnl"
     ]
    }
+  },
+  {
+   "auto_ok": true,
+   "created": 1794530260.5687935,
+   "desc": "Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto",
+   "ev": {
+    "avg": 0.12064416773049015,
+    "h1": 0.09076510104000392,
+    "h2": 0.16538000026846195,
+    "n": 1803,
+    "pf": 1.1859489968771084,
+    "t": 2.954899135570051,
+    "win": 36.882972823072656
+   },
+   "id": "d9724cf2",
+   "key": "RD1",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
+  },
+  {
+   "auto_ok": true,
+   "created": 1794530260.5688255,
+   "desc": "Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3",
+   "ev": {
+    "avg": 0.14279592948378536,
+    "h1": 0.1497814695997682,
+    "h2": 0.13232624343341118,
+    "n": 2024,
+    "pf": 1.2586056536657513,
+    "t": 4.4861661530483286,
+    "win": 45.50395256916996
+   },
+   "id": "e6f01a7d",
+   "key": "RD5",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
   }
  ],
  "protected": {},
@@ -331,37 +385,37 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 1,
-   "name": "Squeeze #400",
-   "spec_id": "e805876b66",
-   "status": "FAIL"
+   "cycle": 2,
+   "name": "Momentum #481",
+   "spec_id": "ec74472c09",
+   "status": "CAND"
   },
   "RD2": {
-   "cycle": 1,
+   "cycle": 2,
    "name": "Inside #962",
    "spec_id": "7bba3e0a28",
    "status": "PASS"
   },
   "RD3": {
-   "cycle": 1,
+   "cycle": 2,
    "name": "Breakout #469",
    "spec_id": "591fbd749e",
    "status": "CAND"
   },
   "RD4": {
-   "cycle": 1,
+   "cycle": 2,
    "name": "Squeeze #360",
    "spec_id": "68563d87ac",
-   "status": "CAND"
-  },
-  "RD5": {
-   "cycle": 1,
-   "name": "Breakout #126",
-   "spec_id": "14c200dbbe",
    "status": "FAIL"
   },
+  "RD5": {
+   "cycle": 2,
+   "name": "Inside #962 · v9",
+   "spec_id": "217008e9f1",
+   "status": "PASS"
+  },
   "RD6": {
-   "cycle": 1,
+   "cycle": 2,
    "name": "Momentum #581",
    "spec_id": "2a8d530ed4",
    "status": "CAND"
