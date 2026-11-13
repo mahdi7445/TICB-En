@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "LDO",
-    "tf_label": "4H",
-    "entry": 0.325,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000623",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T15:04:34.470125+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "DOGE",
     "tf_label": "15M",
     "entry": 0.07413,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-13T13:36:31.103178+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "STX",
+    "tf_label": "1M",
+    "entry": 0.2998,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000930",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-13T13:53:09.679199+00:00"
   }
 ]
