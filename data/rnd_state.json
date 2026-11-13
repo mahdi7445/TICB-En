@@ -131,11 +131,78 @@
    "section": null,
    "state": "active",
    "t": 1794496822.400893
+  },
+  {
+   "base": {
+    "avg": 0.0,
+    "n": 0,
+    "pf": 0.0
+   },
+   "by": "admin",
+   "desc": "Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3",
+   "id": "e6f01a7d",
+   "key": "RD5",
+   "kind": "enable",
+   "new": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   },
+   "old": {
+    "sgnl": {
+     "mod_RD5": false,
+     "mx_RD5_day": 0
+    },
+    "ticb": {
+     "mod_RD5": false,
+     "mx_RD5_day": 0
+    }
+   },
+   "rb_n": 30,
+   "rule": null,
+   "section": null,
+   "state": "active",
+   "t": 1794533838.1615827
+  },
+  {
+   "base": {
+    "avg": 0.0,
+    "n": 0,
+    "pf": 0.0
+   },
+   "by": "admin",
+   "desc": "Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto",
+   "id": "d9724cf2",
+   "key": "RD1",
+   "kind": "enable",
+   "new": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   },
+   "old": {
+    "sgnl": {
+     "mod_RD1": false,
+     "mx_RD1_day": 0
+    },
+    "ticb": {
+     "mod_RD1": false,
+     "mx_RD1_day": 0
+    }
+   },
+   "rb_n": 30,
+   "rule": null,
+   "section": null,
+   "state": "active",
+   "t": 1794533863.3377132
   }
  ],
  "blacklist": [],
  "changes": {
-  "20769": 0
+  "20769": 0,
+  "20770": 0
  },
  "journal": [
   {
@@ -192,6 +259,16 @@
    "k": "request",
    "t": 1794508604.0747292,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "apply",
+   "t": 1794533838.1615827,
+   "x": "✋ Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3"
+  },
+  {
+   "k": "apply",
+   "t": 1794533863.3377132,
+   "x": "✋ Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto"
   }
  ],
  "last": {
@@ -318,6 +395,7 @@
    }
   },
   {
+   "applied_at": 1794533863.3377132,
    "auto_ok": true,
    "created": 1794530260.5687935,
    "desc": "Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto",
@@ -336,7 +414,7 @@
    "rule": null,
    "section": null,
    "src": "research",
-   "status": "pending",
+   "status": "applied",
    "value": {
     "sections": [
      "ticb",
@@ -345,6 +423,7 @@
    }
   },
   {
+   "applied_at": 1794533838.1615827,
    "auto_ok": true,
    "created": 1794530260.5688255,
    "desc": "Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3",
@@ -363,7 +442,7 @@
    "rule": null,
    "section": null,
    "src": "research",
-   "status": "pending",
+   "status": "applied",
    "value": {
     "sections": [
      "ticb",
