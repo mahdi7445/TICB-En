@@ -11728,5 +11728,19 @@
     "source_signal_id": "ALT-000933",
     "signal_message_id": 4068,
     "activated_at": "2026-11-13T16:55:17.386465+00:00"
+  },
+  {
+    "id": "src-ALT-000934",
+    "symbol": "XCN/USD",
+    "side": "BUY",
+    "entry": 0.003233,
+    "sl": 0.003223,
+    "status": "pending",
+    "created_at": 1794605242,
+    "forwarded_tracking": true,
+    "tf_label": "1M",
+    "silent": true,
+    "source_signal_id": "ALT-000934",
+    "signal_message_id": 4072
   }
 ]
