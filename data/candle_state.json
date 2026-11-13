@@ -44907,7 +44907,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "TRX/USD",
         "tf_key": "manual",
         "display": "TRX",
@@ -44917,6 +44917,17 @@
             "type": "opened",
             "ts": "2026-11-09T12:10:26.936594+00:00",
             "price": 0.3174
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-13T03:31:34.197789+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-13T03:31:34.201601+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3721,
@@ -44927,7 +44938,8 @@
           "label": "4H"
         },
         "logical_tf": "4h",
-        "_replay_checked_ms": 1794386786012
+        "_replay_checked_ms": 1794386786012,
+        "close_type": "stop"
       },
       "hist": []
     },
