@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1794049213805,
       "armed_ms": 1794049213805,
-      "last_ms": 1794541079999,
+      "last_ms": 1794541139999,
       "bar_ms": 1794045600000,
       "mfe_r": 8.3911,
       "mae_r": 0.2272,
@@ -70,7 +70,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 3553,
-      "polled_ms": 1794541129964
+      "polled_ms": 1794541189215
     },
     "TC-000122": {
       "id": "TC-000122",
@@ -112,7 +112,7 @@
       "status": "open",
       "opened_ms": 1794484813275,
       "armed_ms": 1794484813275,
-      "last_ms": 1794541079999,
+      "last_ms": 1794541139999,
       "bar_ms": 1794481200000,
       "mfe_r": 1.649,
       "mae_r": 0.1651,
@@ -120,7 +120,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 3989,
-      "polled_ms": 1794541129964
+      "polled_ms": 1794541189215
     }
   },
   "seen": [],
