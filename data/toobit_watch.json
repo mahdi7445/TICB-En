@@ -2,11 +2,12 @@
  "blocked": {},
  "events": [],
  "last_error": "",
- "last_ok": 1794646946.309716,
- "last_try": 1794646946.309716,
+ "last_ok": 1794666513.6584108,
+ "last_try": 1794666513.6584108,
  "news_seen": [],
  "pause": {},
  "settings": {
+  "auto_pause": true,
   "pause_h": 5
  },
  "snapshot": {
