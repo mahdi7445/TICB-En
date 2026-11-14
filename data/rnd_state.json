@@ -420,24 +420,19 @@
   }
  ],
  "last": {
-  "light_ts": 1794686217.1302218,
-  "modules_seen": 1794673133.3707705,
+  "light_ts": 1794688452.703956,
+  "modules_seen": 1794688273.484431,
   "modules_status": {
    "BZ15": "NA",
-   "BZ1H": "FAIL",
+   "BZ1H": "NA",
    "BZ1M": "NA",
-   "BZ4H": "FAIL",
+   "BZ4H": "NA",
    "BZ5M": "NA",
-   "CNDL@15m": "FAIL",
-   "CNDL@1h": "FAIL",
-   "CNDL@1m": "FAIL",
-   "CNDL@4h": "FAIL",
-   "CNDL@5m": "FAIL",
    "DKS": "NA",
-   "FBR": "FAIL",
+   "FBR": "NA",
    "LSM": "NA",
-   "MRA": "FAIL",
-   "MRB": "FAIL",
+   "MRA": "NA",
+   "MRB": "NA",
    "MTC": "NA",
    "MTS": "NA",
    "RD1": "NA",
@@ -446,26 +441,27 @@
    "RD4": "NA",
    "RD5": "NA",
    "RD6": "NA",
-   "RFD": "FAIL",
+   "RFD": "NA",
    "RSM": "NA",
-   "SMM": "FAIL",
-   "SMS": "FAIL",
-   "SWR": "FAIL",
-   "TKF": "FAIL",
+   "SMM": "NA",
+   "SMS": "NA",
+   "SWR": "NA",
+   "TKF": "NA",
    "TKM": "NA",
    "TKS": "NA",
-   "TPB": "FAIL",
-   "TPS": "FAIL",
+   "TPB": "NA",
+   "TPS": "NA",
    "VCB": "NA",
    "VCR": "NA"
   },
   "n": 102,
   "research": {
-   "ai": true,
-   "cycle": 8,
-   "generated": "2026-11-14 15:03 UTC",
+   "ai": false,
+   "cycle": 9,
+   "generated": "2026-11-14 20:24 UTC",
    "tested": 40
-  }
+  },
+  "research_seen": 1794687889.2146506
  },
  "proposals": [
   {
@@ -728,39 +724,39 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 8,
+   "cycle": 9,
    "name": "Inside #962 · v7",
    "spec_id": "fe9bfbc84d",
-   "status": "PASS"
+   "status": "FAIL"
   },
   "RD2": {
-   "cycle": 8,
+   "cycle": 9,
    "name": "Breakout #469 · v9",
    "spec_id": "b76ce9f3fd",
-   "status": "CAND"
+   "status": "FAIL"
   },
   "RD3": {
-   "cycle": 8,
+   "cycle": 9,
    "name": "Inside #962 · v7",
    "spec_id": "217008e9f1",
-   "status": "PASS"
+   "status": "FAIL"
   },
   "RD4": {
-   "cycle": 8,
+   "cycle": 9,
    "name": "Breakout #469 · v3",
    "spec_id": "aa7a2091aa",
-   "status": "PASS"
+   "status": "FAIL"
   },
   "RD5": {
-   "cycle": 8,
-   "name": "ATR Vol Compress Break",
-   "spec_id": "f803849198",
+   "cycle": 9,
+   "name": "Inside #962 · v5",
+   "spec_id": "44f876abe2",
    "status": "FAIL"
   },
   "RD6": {
-   "cycle": 8,
-   "name": "BB Squeeze Breakout",
-   "spec_id": "a4652e847e",
+   "cycle": 9,
+   "name": "Inside #962 · v7",
+   "spec_id": "760cdbde9c",
    "status": "FAIL"
   }
  }
