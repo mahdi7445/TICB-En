@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "FIL",
-    "tf_label": "5M",
-    "entry": 0.868,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000666",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T17:44:00.180484+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "FIL",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-14T12:40:09.047105+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ENA",
+    "tf_label": "5M",
+    "entry": 0.127,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000942",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T13:06:10.452317+00:00"
   }
 ]
