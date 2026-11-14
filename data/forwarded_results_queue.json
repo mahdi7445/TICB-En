@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "RENDER",
-    "tf_label": "15M",
-    "entry": 1.599,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000673",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T06:53:07.159601+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "XLM",
     "tf_label": "5M",
     "entry": 0.1656,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-14T17:34:17.713606+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "FIL",
+    "tf_label": "4H",
+    "entry": 0.886,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000659",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T18:52:22.024914+00:00"
   }
 ]
