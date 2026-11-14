@@ -407,6 +407,11 @@
    "k": "apply",
    "t": 1794669026.4180233,
    "x": "✋ 🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift."
+  },
+  {
+   "k": "request",
+   "t": 1794685711.1061096,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
@@ -701,7 +706,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794666352.4257202
+   "t": 1794685711.1061096
   }
  ],
  "settings": {
