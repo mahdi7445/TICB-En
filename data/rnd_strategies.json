@@ -1,63 +1,15 @@
 {
- "cycle": 6,
- "set": "2026-11-14T07:23Z",
+ "cycle": 7,
+ "set": "2026-11-14T10:39Z",
  "slots": {
   "RD1": {
    "prescreen": {
-    "avg": 0.3174,
-    "n": 3228,
-    "t": 11.073,
+    "avg": 0.301,
+    "n": 3392,
+    "t": 10.835,
     "tf": "15m"
    },
-   "set": "2026-11-14T07:23Z",
-   "spec": {
-    "all": [
-     [
-      "close",
-      ">",
-      "hh:20"
-     ],
-     [
-      "volr:20",
-      ">",
-      1.3
-     ],
-     [
-      "close",
-      ">",
-      "ema:200"
-     ]
-    ],
-    "cooldown": 6,
-    "created": "2026-11-14T07:23Z",
-    "family": "breakout",
-    "id": "RD1",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.2,
-    "name": "Breakout #469 · v9",
-    "origin": "mutation",
-    "parent": "e8a7db1f52",
-    "stop": {
-     "k": 3.0,
-     "kind": "atr"
-    },
-    "tfs": [
-     "5m",
-     "15m",
-     "4h"
-    ],
-    "why": "breakout idea (guided random search)"
-   },
-   "spec_id": "3ff9e041b6"
-  },
-  "RD2": {
-   "prescreen": {
-    "avg": 0.3044,
-    "n": 3402,
-    "t": 10.984,
-    "tf": "15m"
-   },
-   "set": "2026-11-14T07:23Z",
+   "set": "2026-11-14T10:39Z",
    "spec": {
     "all": [
      [
@@ -73,18 +25,18 @@
      [
       "slope:34",
       ">",
-      0.05
+      0.055
      ]
     ],
     "cooldown": 3,
-    "created": "2026-11-14T07:23Z",
+    "created": "2026-11-14T10:39Z",
     "family": "inside",
-    "id": "RD2",
+    "id": "RD1",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.5,
-    "name": "Inside #962 · v3",
-    "origin": "mutation",
-    "parent": "7bba3e0a28",
+    "name": "Inside #962 · fix62",
+    "origin": "improve",
+    "parent": "ec4ca7bc36",
     "stop": {
      "k": 2.5,
      "kind": "atr"
@@ -96,16 +48,64 @@
     ],
     "why": "inside idea (guided random search)"
    },
-   "spec_id": "ec4ca7bc36"
+   "spec_id": "eaf1d7c191"
+  },
+  "RD2": {
+   "prescreen": {
+    "avg": 0.2962,
+    "n": 3394,
+    "t": 10.685,
+    "tf": "15m"
+   },
+   "set": "2026-11-14T10:39Z",
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.065
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-14T10:39Z",
+    "family": "inside",
+    "id": "RD2",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · fix61",
+    "origin": "improve",
+    "parent": "ec4ca7bc36",
+    "stop": {
+     "k": 2.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "spec_id": "982ac3d525"
   },
   "RD3": {
    "prescreen": {
-    "avg": 0.4178,
-    "n": 1653,
-    "t": 10.34,
+    "avg": 0.4298,
+    "n": 1609,
+    "t": 10.505,
     "tf": "15m"
    },
-   "set": "2026-11-14T07:23Z",
+   "set": "2026-11-14T10:39Z",
    "spec": {
     "all": [
      [
@@ -126,18 +126,18 @@
      [
       "volr:20",
       ">",
-      1.5
+      1.8
      ]
     ],
     "cooldown": 12,
-    "created": "2026-11-14T07:23Z",
+    "created": "2026-11-14T10:39Z",
     "family": "momentum",
     "id": "RD3",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.5,
-    "name": "Momentum #481 · fix97",
+    "name": "Momentum #481 · fix92",
     "origin": "improve",
-    "parent": "f1e96064e8",
+    "parent": "4c142d9690",
     "stop": {
      "k": 3.0,
      "kind": "atr"
@@ -148,42 +148,48 @@
     ],
     "why": "momentum idea (guided random search)"
    },
-   "spec_id": "4c142d9690"
+   "spec_id": "7fda48b80c"
   },
   "RD4": {
    "prescreen": {
-    "avg": 0.3042,
-    "n": 2894,
-    "t": 10.188,
+    "avg": 0.4479,
+    "n": 1470,
+    "t": 10.357,
     "tf": "15m"
    },
-   "set": "2026-11-14T07:23Z",
+   "set": "2026-11-14T10:39Z",
    "spec": {
     "all": [
      [
-      "inside",
-      "==",
-      1.0
+      "ret:3",
+      ">",
+      1.2
      ],
      [
-      "close",
+      "rng",
       ">",
-      "ema:50"
+      2.0
      ],
      [
-      "slope:34",
+      "closepos",
       ">",
-      0.02
+      0.75
+     ],
+     [
+      "volr:20",
+      ">",
+      1.5
      ]
     ],
-    "cooldown": 6,
-    "created": "2026-11-14T07:23Z",
-    "family": "inside",
+    "cooldown": 12,
+    "created": "2026-11-14T10:39Z",
+    "family": "momentum",
     "id": "RD4",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.5,
-    "name": "Inside #668",
-    "origin": "search",
+    "name": "Momentum #481 · fix44",
+    "origin": "improve",
+    "parent": "4c142d9690",
     "stop": {
      "k": 3.0,
      "kind": "atr"
@@ -192,18 +198,18 @@
      "15m",
      "1h"
     ],
-    "why": "inside idea (guided random search)"
+    "why": "momentum idea (guided random search)"
    },
-   "spec_id": "1b019454e2"
+   "spec_id": "63487a2ff6"
   },
   "RD5": {
    "prescreen": {
-    "avg": 0.318,
-    "n": 2568,
-    "t": 9.885,
+    "avg": 0.356,
+    "n": 2181,
+    "t": 10.099,
     "tf": "15m"
    },
-   "set": "2026-11-14T07:23Z",
+   "set": "2026-11-14T10:39Z",
    "spec": {
     "all": [
      [
@@ -228,14 +234,72 @@
      ]
     ],
     "cooldown": 6,
-    "created": "2026-11-14T07:23Z",
+    "created": "2026-11-14T10:39Z",
     "family": "breakout",
     "id": "RD5",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.2,
-    "name": "Breakout #469 · v2",
-    "origin": "mutation",
-    "parent": "e8a7db1f52",
+    "name": "Breakout #469 · fix2",
+    "origin": "improve",
+    "parent": "6d369d7c60",
+    "stop": {
+     "k": 3.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "spec_id": "2cf6ea10ed"
+  },
+  "RD6": {
+   "prescreen": {
+    "avg": 0.3227,
+    "n": 2542,
+    "t": 9.964,
+    "tf": "15m"
+   },
+   "set": "2026-11-14T10:39Z",
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.105
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.88
+     ],
+     [
+      "rng",
+      ">",
+      0.8
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-14T10:39Z",
+    "family": "breakout",
+    "id": "RD6",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix67",
+    "origin": "improve",
+    "parent": "6d369d7c60",
     "stop": {
      "k": 3.0,
      "kind": "atr"
@@ -247,59 +311,7 @@
     ],
     "why": "breakout idea (guided random search)"
    },
-   "spec_id": "6d369d7c60"
-  },
-  "RD6": {
-   "prescreen": {
-    "avg": 0.3355,
-    "n": 1593,
-    "t": 8.284,
-    "tf": "15m"
-   },
-   "set": "2026-11-14T07:23Z",
-   "spec": {
-    "all": [
-     [
-      "ret:3",
-      ">",
-      1.0
-     ],
-     [
-      "rng",
-      ">",
-      2.0
-     ],
-     [
-      "closepos",
-      ">",
-      0.825
-     ],
-     [
-      "volr:20",
-      ">",
-      1.5
-     ]
-    ],
-    "cooldown": 12,
-    "created": "2026-11-14T07:23Z",
-    "family": "momentum",
-    "id": "RD6",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Momentum #481 · fix58",
-    "origin": "improve",
-    "parent": "f1e96064e8",
-    "stop": {
-     "buf": 0.1,
-     "kind": "candle"
-    },
-    "tfs": [
-     "15m",
-     "1h"
-    ],
-    "why": "momentum idea (guided random search)"
-   },
-   "spec_id": "1008164ec0"
+   "spec_id": "4b0fcab057"
   }
  }
 }
