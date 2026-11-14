@@ -299,6 +299,16 @@
    "k": "mode",
    "t": 1794647143.6878927,
    "x": "Mode → 🤖 Auto (within guardrails)"
+  },
+  {
+   "k": "request",
+   "t": 1794647230.1284866,
+   "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "mode",
+   "t": 1794647239.7683465,
+   "x": "Mode → ✋ Semi-auto (you approve)"
   }
  ],
  "last": {
@@ -485,8 +495,8 @@
  "requests": [
   {
    "done": false,
-   "kind": "modules",
-   "t": 1794647125.0173364
+   "kind": "research",
+   "t": 1794647230.1284866
   }
  ],
  "settings": {
@@ -496,7 +506,7 @@
   "g_on": false,
   "g_rr": 2.0,
   "g_win": 40.0,
-  "mode": "auto",
+  "mode": "semi",
   "target_pf": 1.3
  },
  "slots": {
