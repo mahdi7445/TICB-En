@@ -1,29 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "TIA",
-    "tf_label": "5M",
-    "entry": 0.4642,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000656",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T16:26:38.352526+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "ATOM",
-    "tf_label": "5M",
-    "entry": 1.471,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000663",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T17:08:40.214405+00:00"
-  },
-  {
     "kind": "sl_after_t3",
     "ticker": "DOGE",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-14T02:26:46.925170+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOGE",
+    "tf_label": "4H",
+    "entry": 0.07917,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000521",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T02:32:57.274407+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "OP",
+    "tf_label": "4H",
+    "entry": 0.1009,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000727",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T02:33:06.528122+00:00"
   }
 ]
