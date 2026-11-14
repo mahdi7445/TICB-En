@@ -317,8 +317,8 @@
   }
  ],
  "last": {
-  "light_ts": 1794652817.1674528,
-  "modules_seen": 1794650378.4311059,
+  "light_ts": 1794654788.521611,
+  "modules_seen": 1794654295.4714873,
   "modules_status": {
    "BZ15": "NA",
    "BZ1H": "NA",
@@ -354,10 +354,10 @@
   },
   "n": 100,
   "research": {
-   "ai": false,
-   "cycle": 6,
-   "generated": "2026-11-14 10:00 UTC",
-   "tested": 39
+   "ai": true,
+   "cycle": 7,
+   "generated": "2026-11-14 11:04 UTC",
+   "tested": 38
   }
  },
  "proposals": [
@@ -528,6 +528,28 @@
      "sgnl"
     ]
    }
+  },
+  {
+   "auto_ok": false,
+   "created": 1794654788.5372028,
+   "desc": "🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop.",
+   "ev": {
+    "avg": 0,
+    "h1": 0,
+    "h2": 0,
+    "n": 0,
+    "pf": 0,
+    "t": 0,
+    "win": 0
+   },
+   "id": "4b76e0dd",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "rule": null,
+   "section": "ticb",
+   "src": "ai",
+   "status": "pending",
+   "value": 0.4
   }
  ],
  "protected": {},
@@ -550,39 +572,39 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 6,
-   "name": "Breakout #469 · v9",
-   "spec_id": "3ff9e041b6",
+   "cycle": 7,
+   "name": "Inside #962 · fix62",
+   "spec_id": "eaf1d7c191",
    "status": "FAIL"
   },
   "RD2": {
-   "cycle": 6,
-   "name": "Inside #962 · v3",
-   "spec_id": "ec4ca7bc36",
+   "cycle": 7,
+   "name": "Inside #962 · fix61",
+   "spec_id": "982ac3d525",
    "status": "FAIL"
   },
   "RD3": {
-   "cycle": 6,
-   "name": "Momentum #481 · fix97",
-   "spec_id": "4c142d9690",
+   "cycle": 7,
+   "name": "Momentum #481 · fix92",
+   "spec_id": "7fda48b80c",
    "status": "FAIL"
   },
   "RD4": {
-   "cycle": 6,
-   "name": "Inside #668",
-   "spec_id": "1b019454e2",
+   "cycle": 7,
+   "name": "Momentum #481 · fix44",
+   "spec_id": "63487a2ff6",
    "status": "FAIL"
   },
   "RD5": {
-   "cycle": 6,
-   "name": "Breakout #469 · v2",
-   "spec_id": "6d369d7c60",
+   "cycle": 7,
+   "name": "Breakout #469 · fix2",
+   "spec_id": "2cf6ea10ed",
    "status": "FAIL"
   },
   "RD6": {
-   "cycle": 6,
-   "name": "Momentum #481 · fix58",
-   "spec_id": "1008164ec0",
+   "cycle": 7,
+   "name": "Breakout #469 · fix67",
+   "spec_id": "4b0fcab057",
    "status": "FAIL"
   }
  }
