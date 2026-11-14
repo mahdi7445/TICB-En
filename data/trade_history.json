@@ -40956,5 +40956,48 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "TC-000125",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-14T18:20:24.478366+00:00",
+        "price": 1834.9
+      },
+      {
+        "type": "stop",
+        "ts": "2026-11-14T18:32:14.128180+00:00",
+        "price": 1840.42
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-14T18:32:14.651795+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 1831.28,
+    "sl": 1840.42,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-11-14T18:20:24.478000+00:00",
+    "closed_at": "2026-11-14T18:32:14.651795+00:00",
+    "r_pct": 0.4991,
+    "mfe_r": 0.433,
+    "mae_r": -1.0,
+    "quality_tier": "experimental",
+    "strategy": "pin+htf1d-v1",
+    "htf_trend": -1,
+    "htf_aligned": true,
+    "stop_pct": 0.4991,
+    "fee_r_est": 0.3005,
+    "net_r_est": -1.3005
   }
 ]
