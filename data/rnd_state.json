@@ -412,6 +412,11 @@
    "k": "request",
    "t": 1794685711.1061096,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "request",
+   "t": 1794685732.2409534,
+   "x": "🧩 Re-test of all modules requested"
   }
  ],
  "last": {
@@ -705,8 +710,8 @@
  "requests": [
   {
    "done": false,
-   "kind": "research",
-   "t": 1794685711.1061096
+   "kind": "modules",
+   "t": 1794685732.2409534
   }
  ],
  "settings": {
@@ -718,6 +723,7 @@
   "g_rr": 2.0,
   "g_win": 40.0,
   "mode": "semi",
+  "modules_apply": false,
   "target_pf": 1.3
  },
  "slots": {
