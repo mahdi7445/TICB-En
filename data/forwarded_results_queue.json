@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "FIL",
-    "tf_label": "5M",
-    "entry": 0.868,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000666",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T17:51:01.168149+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "LTC",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-14T13:06:10.452317+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NIGHT",
+    "tf_label": "15M",
+    "entry": 0.04775,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000944",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T13:25:38.064593+00:00"
   }
 ]
