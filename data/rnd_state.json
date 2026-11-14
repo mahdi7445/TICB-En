@@ -483,6 +483,7 @@
   "ai_calls_day": 4,
   "ai_mistral": false,
   "g_dd": 8.0,
+  "g_on": false,
   "g_rr": 2.0,
   "g_win": 40.0,
   "mode": "semi",
