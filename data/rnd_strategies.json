@@ -1,15 +1,15 @@
 {
- "cycle": 7,
- "set": "2026-11-14T10:39Z",
+ "cycle": 8,
+ "set": "2026-11-14T11:38Z",
  "slots": {
   "RD1": {
    "prescreen": {
-    "avg": 0.301,
-    "n": 3392,
-    "t": 10.835,
+    "avg": 0.2959,
+    "n": 3401,
+    "t": 10.683,
     "tf": "15m"
    },
-   "set": "2026-11-14T10:39Z",
+   "set": "2026-11-14T11:38Z",
    "spec": {
     "all": [
      [
@@ -25,17 +25,17 @@
      [
       "slope:34",
       ">",
-      0.055
+      0.057
      ]
     ],
     "cooldown": 3,
-    "created": "2026-11-14T10:39Z",
+    "created": "2026-11-14T11:38Z",
     "family": "inside",
     "id": "RD1",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.5,
-    "name": "Inside #962 · fix62",
-    "origin": "improve",
+    "name": "Inside #962 · v7",
+    "origin": "mutation",
     "parent": "ec4ca7bc36",
     "stop": {
      "k": 2.5,
@@ -48,16 +48,69 @@
     ],
     "why": "inside idea (guided random search)"
    },
-   "spec_id": "eaf1d7c191"
+   "spec_id": "fe9bfbc84d"
   },
   "RD2": {
    "prescreen": {
-    "avg": 0.2962,
-    "n": 3394,
-    "t": 10.685,
+    "avg": 0.3053,
+    "n": 3060,
+    "t": 10.435,
     "tf": "15m"
    },
-   "set": "2026-11-14T10:39Z",
+   "set": "2026-11-14T11:38Z",
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.105
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.748
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-14T11:38Z",
+    "family": "breakout",
+    "id": "RD2",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · v9",
+    "origin": "mutation",
+    "parent": "6d369d7c60",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "spec_id": "b76ce9f3fd"
+  },
+  "RD3": {
+   "prescreen": {
+    "avg": 0.3015,
+    "n": 2801,
+    "t": 9.88,
+    "tf": "15m"
+   },
+   "set": "2026-11-14T11:38Z",
    "spec": {
     "all": [
      [
@@ -77,16 +130,16 @@
      ]
     ],
     "cooldown": 3,
-    "created": "2026-11-14T10:39Z",
+    "created": "2026-11-14T11:38Z",
     "family": "inside",
-    "id": "RD2",
+    "id": "RD3",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.5,
-    "name": "Inside #962 · fix61",
-    "origin": "improve",
-    "parent": "ec4ca7bc36",
+    "name": "Inside #962 · v7",
+    "origin": "mutation",
+    "parent": "7bba3e0a28",
     "stop": {
-     "k": 2.5,
+     "k": 3.0,
      "kind": "atr"
     },
     "tfs": [
@@ -96,222 +149,156 @@
     ],
     "why": "inside idea (guided random search)"
    },
-   "spec_id": "982ac3d525"
+   "spec_id": "217008e9f1"
   },
-  "RD3": {
+  "RD4": {
    "prescreen": {
-    "avg": 0.4298,
-    "n": 1609,
-    "t": 10.505,
+    "avg": 0.2845,
+    "n": 2679,
+    "t": 9.1,
     "tf": "15m"
    },
-   "set": "2026-11-14T10:39Z",
+   "set": "2026-11-14T11:38Z",
    "spec": {
     "all": [
      [
-      "ret:3",
+      "close",
       ">",
-      1.0
-     ],
-     [
-      "rng",
-      ">",
-      2.0
-     ],
-     [
-      "closepos",
-      ">",
-      0.75
+      "hh:20"
      ],
      [
       "volr:20",
       ">",
-      1.8
+      0.91
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.88
      ]
     ],
-    "cooldown": 12,
-    "created": "2026-11-14T10:39Z",
-    "family": "momentum",
-    "id": "RD3",
+    "cooldown": 6,
+    "created": "2026-11-14T11:38Z",
+    "family": "breakout",
+    "id": "RD4",
     "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Momentum #481 · fix92",
-    "origin": "improve",
-    "parent": "4c142d9690",
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · v3",
+    "origin": "mutation",
+    "parent": "e8a7db1f52",
     "stop": {
      "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "spec_id": "aa7a2091aa"
+  },
+  "RD5": {
+   "prescreen": {
+    "avg": 0.1932,
+    "n": 4950,
+    "t": 8.634,
+    "tf": "15m"
+   },
+   "set": "2026-11-14T11:38Z",
+   "spec": {
+    "all": [
+     [
+      "atrp:14",
+      "<",
+      2.0
+     ],
+     [
+      "close",
+      "x>",
+      "hh:10"
+     ],
+     [
+      "htf:1h:trend",
+      "==",
+      1.0
+     ],
+     [
+      "volr:14",
+      ">",
+      1.1
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-14T11:38Z",
+    "id": "RD5",
+    "max_stop_atr": 3.0,
+    "min_risk_pct": 0.2,
+    "name": "ATR Vol Compress Break",
+    "origin": "ai:gemini",
+    "stop": {
+     "k": 1.8,
      "kind": "atr"
     },
     "tfs": [
      "15m",
      "1h"
     ],
-    "why": "momentum idea (guided random search)"
+    "why": "Enter breakouts above recent 10-bar high after low-volatility ATR compression."
    },
-   "spec_id": "7fda48b80c"
+   "spec_id": "f803849198"
   },
-  "RD4": {
+  "RD6": {
    "prescreen": {
-    "avg": 0.4479,
-    "n": 1470,
-    "t": 10.357,
+    "avg": 0.2812,
+    "n": 2198,
+    "t": 8.183,
     "tf": "15m"
    },
-   "set": "2026-11-14T10:39Z",
+   "set": "2026-11-14T11:38Z",
    "spec": {
     "all": [
      [
-      "ret:3",
+      "bbpos:20",
+      "x>",
+      0.95
+     ],
+     [
+      "volr:14",
       ">",
       1.2
      ],
      [
-      "rng",
-      ">",
-      2.0
-     ],
-     [
-      "closepos",
-      ">",
-      0.75
-     ],
-     [
-      "volr:20",
-      ">",
-      1.5
+      "htf:4h:trend",
+      "==",
+      1.0
      ]
     ],
-    "cooldown": 12,
-    "created": "2026-11-14T10:39Z",
-    "family": "momentum",
-    "id": "RD4",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Momentum #481 · fix44",
-    "origin": "improve",
-    "parent": "4c142d9690",
+    "cooldown": 8,
+    "created": "2026-11-14T11:38Z",
+    "id": "RD6",
+    "max_stop_atr": 3.5,
+    "min_risk_pct": 0.25,
+    "name": "BB Squeeze Breakout",
+    "origin": "ai:gemini",
     "stop": {
-     "k": 3.0,
-     "kind": "atr"
+     "buf": 0.2,
+     "kind": "swing",
+     "n": 8
     },
     "tfs": [
      "15m",
      "1h"
     ],
-    "why": "momentum idea (guided random search)"
+    "why": "Exploit Bollinger Band compression expansion when backed by volume and 4h trend."
    },
-   "spec_id": "63487a2ff6"
-  },
-  "RD5": {
-   "prescreen": {
-    "avg": 0.356,
-    "n": 2181,
-    "t": 10.099,
-    "tf": "15m"
-   },
-   "set": "2026-11-14T10:39Z",
-   "spec": {
-    "all": [
-     [
-      "close",
-      ">",
-      "hh:20"
-     ],
-     [
-      "volr:20",
-      ">",
-      1.105
-     ],
-     [
-      "close",
-      ">",
-      "ema:200"
-     ],
-     [
-      "closepos",
-      ">",
-      0.88
-     ]
-    ],
-    "cooldown": 6,
-    "created": "2026-11-14T10:39Z",
-    "family": "breakout",
-    "id": "RD5",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.2,
-    "name": "Breakout #469 · fix2",
-    "origin": "improve",
-    "parent": "6d369d7c60",
-    "stop": {
-     "k": 3.5,
-     "kind": "atr"
-    },
-    "tfs": [
-     "5m",
-     "15m",
-     "4h"
-    ],
-    "why": "breakout idea (guided random search)"
-   },
-   "spec_id": "2cf6ea10ed"
-  },
-  "RD6": {
-   "prescreen": {
-    "avg": 0.3227,
-    "n": 2542,
-    "t": 9.964,
-    "tf": "15m"
-   },
-   "set": "2026-11-14T10:39Z",
-   "spec": {
-    "all": [
-     [
-      "close",
-      ">",
-      "hh:20"
-     ],
-     [
-      "volr:20",
-      ">",
-      1.105
-     ],
-     [
-      "close",
-      ">",
-      "ema:200"
-     ],
-     [
-      "closepos",
-      ">",
-      0.88
-     ],
-     [
-      "rng",
-      ">",
-      0.8
-     ]
-    ],
-    "cooldown": 6,
-    "created": "2026-11-14T10:39Z",
-    "family": "breakout",
-    "id": "RD6",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.2,
-    "name": "Breakout #469 · fix67",
-    "origin": "improve",
-    "parent": "6d369d7c60",
-    "stop": {
-     "k": 3.0,
-     "kind": "atr"
-    },
-    "tfs": [
-     "5m",
-     "15m",
-     "4h"
-    ],
-    "why": "breakout idea (guided random search)"
-   },
-   "spec_id": "4b0fcab057"
+   "spec_id": "a4652e847e"
   }
  }
 }
