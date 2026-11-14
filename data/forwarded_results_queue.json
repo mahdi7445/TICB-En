@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "NEAR",
-    "tf_label": "5M",
-    "entry": 4.0,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000668",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T20:10:52.640270+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "NEAR",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-14T14:04:55.391431+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "NEAR",
+    "tf_label": "4H",
+    "entry": 3.58,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000788",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T14:24:20.721718+00:00"
   }
 ]
