@@ -28637,7 +28637,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -28662,6 +28662,12 @@
             "type": "rr",
             "ts": "2026-11-05T23:14:15.784589+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-14T02:34:10.246130+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
@@ -39613,7 +39619,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "OP/USD",
         "tf_key": "manual",
         "display": "OP",
@@ -39623,6 +39629,17 @@
             "type": "opened",
             "ts": "2026-11-06T00:07:40.982814+00:00",
             "price": 0.1009
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-14T02:34:10.246201+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-14T02:34:10.274821+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3445,
@@ -39634,7 +39651,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1794095746217,
-        "_stale_alert_sent_at_ms": 1794356310383
+        "_stale_alert_sent_at_ms": 1794356310383,
+        "close_type": "stop"
       },
       "hist": []
     },
