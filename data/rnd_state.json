@@ -216,6 +216,44 @@
    "section": "ticb",
    "state": "active",
    "t": 1794654951.4705527
+  },
+  {
+   "base": {
+    "avg": -0.018,
+    "n": 50,
+    "pf": 0.971
+   },
+   "by": "admin",
+   "desc": "🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R.",
+   "id": "a0c3da7d",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "new": 0.25,
+   "old": 0.4,
+   "rb_n": 30,
+   "rule": null,
+   "section": "ticb",
+   "state": "active",
+   "t": 1794669026.416737
+  },
+  {
+   "base": {
+    "avg": -0.6988,
+    "n": 9,
+    "pf": 0.335
+   },
+   "by": "admin",
+   "desc": "🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift.",
+   "id": "1b7cb659",
+   "key": "mx_CN5M_cd",
+   "kind": "ctl",
+   "new": 12,
+   "old": 0,
+   "rb_n": 30,
+   "rule": null,
+   "section": "ticb",
+   "state": "active",
+   "t": 1794669026.4180233
   }
  ],
  "blacklist": [],
@@ -359,6 +397,16 @@
    "k": "request",
    "t": 1794666352.4257202,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "apply",
+   "t": 1794669026.416737,
+   "x": "✋ 🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R."
+  },
+  {
+   "k": "apply",
+   "t": 1794669026.4180233,
+   "x": "✋ 🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift."
   }
  ],
  "last": {
@@ -598,6 +646,7 @@
    "value": 0.4
   },
   {
+   "applied_at": 1794669026.416737,
    "auto_ok": false,
    "created": 1794668802.1351032,
    "desc": "🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R.",
@@ -616,10 +665,11 @@
    "rule": null,
    "section": "ticb",
    "src": "ai",
-   "status": "pending",
+   "status": "applied",
    "value": 0.25
   },
   {
+   "applied_at": 1794669026.4180233,
    "auto_ok": false,
    "created": 1794668802.1352687,
    "desc": "🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift.",
@@ -638,7 +688,7 @@
    "rule": null,
    "section": "ticb",
    "src": "ai",
-   "status": "pending",
+   "status": "applied",
    "value": 12
   }
  ],
