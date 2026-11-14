@@ -309,6 +309,11 @@
    "k": "mode",
    "t": 1794647239.7683465,
    "x": "Mode → ✋ Semi-auto (you approve)"
+  },
+  {
+   "k": "request",
+   "t": 1794654680.8805683,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
@@ -530,7 +535,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794647230.1284866
+   "t": 1794654680.8805683
   }
  ],
  "settings": {
