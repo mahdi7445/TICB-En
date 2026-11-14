@@ -11893,5 +11893,19 @@
     "source_signal_id": "ALT-000944",
     "signal_message_id": 4093,
     "activated_at": "2026-11-14T12:28:13.481843+00:00"
+  },
+  {
+    "id": "src-ALT-000945",
+    "symbol": "UNI/USD",
+    "side": "SELL",
+    "entry": 5.143,
+    "sl": 5.155,
+    "status": "pending",
+    "created_at": 1794671404,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000945",
+    "signal_message_id": 4110
   }
 ]
