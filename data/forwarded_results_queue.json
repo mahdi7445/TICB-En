@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "SEI",
-    "tf_label": "5M",
-    "entry": 0.05026,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000660",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T16:19:17.016789+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "PEPE",
     "tf_label": "5M",
     "entry": 5.17e-06,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-14T01:05:12.173328+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ATOM",
+    "tf_label": "4H",
+    "entry": 1.43,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000924",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T01:48:25.894039+00:00"
   }
 ]
