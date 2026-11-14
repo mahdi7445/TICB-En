@@ -312,13 +312,47 @@
   }
  ],
  "last": {
-  "light_ts": 1794648751.0115542,
+  "light_ts": 1794651008.0169108,
+  "modules_seen": 1794650378.4311059,
+  "modules_status": {
+   "BZ15": "NA",
+   "BZ1H": "NA",
+   "BZ1M": "NA",
+   "BZ4H": "NA",
+   "BZ5M": "NA",
+   "CNDL@1m": "FAIL",
+   "DKS": "NA",
+   "FBR": "NA",
+   "LSM": "NA",
+   "MRA": "NA",
+   "MRB": "NA",
+   "MTC": "NA",
+   "MTS": "NA",
+   "RD1": "NA",
+   "RD2": "NA",
+   "RD3": "NA",
+   "RD4": "NA",
+   "RD5": "NA",
+   "RD6": "NA",
+   "RFD": "NA",
+   "RSM": "NA",
+   "SMM": "FAIL",
+   "SMS": "NA",
+   "SWR": "FAIL",
+   "TKF": "NA",
+   "TKM": "NA",
+   "TKS": "NA",
+   "TPB": "NA",
+   "TPS": "NA",
+   "VCB": "NA",
+   "VCR": "NA"
+  },
   "n": 100,
   "research": {
    "ai": false,
-   "cycle": 5,
-   "generated": "2026-11-13 23:31 UTC",
-   "tested": 38
+   "cycle": 6,
+   "generated": "2026-11-14 10:00 UTC",
+   "tested": 39
   }
  },
  "proposals": [
@@ -511,39 +545,39 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 5,
-   "name": "Inside #962 · fix56",
-   "spec_id": "41c923a2c6",
+   "cycle": 6,
+   "name": "Breakout #469 · v9",
+   "spec_id": "3ff9e041b6",
    "status": "FAIL"
   },
   "RD2": {
-   "cycle": 5,
-   "name": "Inside #962 · v4",
-   "spec_id": "2f6931ed6f",
+   "cycle": 6,
+   "name": "Inside #962 · v3",
+   "spec_id": "ec4ca7bc36",
    "status": "FAIL"
   },
   "RD3": {
-   "cycle": 5,
-   "name": "Breakout #469 · fix99",
-   "spec_id": "e8a7db1f52",
+   "cycle": 6,
+   "name": "Momentum #481 · fix97",
+   "spec_id": "4c142d9690",
    "status": "FAIL"
   },
   "RD4": {
-   "cycle": 5,
-   "name": "Momentum #481 · v4",
-   "spec_id": "f1e96064e8",
+   "cycle": 6,
+   "name": "Inside #668",
+   "spec_id": "1b019454e2",
    "status": "FAIL"
   },
   "RD5": {
-   "cycle": 5,
-   "name": "Momentum #462",
-   "spec_id": "ec28de2558",
+   "cycle": 6,
+   "name": "Breakout #469 · v2",
+   "spec_id": "6d369d7c60",
    "status": "FAIL"
   },
   "RD6": {
-   "cycle": 5,
-   "name": "Breakout #469 · fix85",
-   "spec_id": "e71b1ad544",
+   "cycle": 6,
+   "name": "Momentum #481 · fix58",
+   "spec_id": "1008164ec0",
    "status": "FAIL"
   }
  }
