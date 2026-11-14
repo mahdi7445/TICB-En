@@ -609,6 +609,7 @@
  "settings": {
   "ai_calls_day": 8,
   "ai_mistral": false,
+  "g_avg": 0.1,
   "g_dd": 8.0,
   "g_on": false,
   "g_rr": 2.0,
