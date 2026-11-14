@@ -11832,5 +11832,19 @@
     "silent": true,
     "source_signal_id": "ALT-000940",
     "signal_message_id": 4086
+  },
+  {
+    "id": "src-ALT-000941",
+    "symbol": "LINK/USD",
+    "side": "SELL",
+    "entry": 9.54,
+    "sl": 10.31,
+    "status": "pending",
+    "created_at": 1794629118,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000941",
+    "signal_message_id": 4087
   }
 ]
