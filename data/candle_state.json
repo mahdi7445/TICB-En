@@ -32922,7 +32922,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -32947,6 +32947,12 @@
             "type": "rr",
             "ts": "2026-11-12T12:38:38.369259+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-14T20:55:41.412739+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
@@ -49648,7 +49654,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -49667,6 +49673,12 @@
             "type": "rr",
             "ts": "2026-11-14T14:05:29.378853+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-14T20:55:41.426867+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
