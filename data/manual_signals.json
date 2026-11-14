@@ -12013,5 +12013,19 @@
     "source_signal_id": "ALT-000952",
     "signal_message_id": 4122,
     "activated_at": "2026-11-14T17:34:04.139339+00:00"
+  },
+  {
+    "id": "src-ALT-000953",
+    "symbol": "JUP/USD",
+    "side": "BUY",
+    "entry": 0.2574,
+    "sl": 0.231,
+    "status": "pending",
+    "created_at": 1794686759,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000953",
+    "signal_message_id": 4131
   }
 ]
