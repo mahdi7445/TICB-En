@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "TIA",
-    "tf_label": "5M",
-    "entry": 0.4642,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000656",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T17:15:15.795802+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "FIL",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-14T07:21:08.018479+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AKE",
+    "tf_label": "5M",
+    "entry": 0.01259,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000943",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T12:40:09.047105+00:00"
   }
 ]
