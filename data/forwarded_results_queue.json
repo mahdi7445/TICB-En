@@ -1,18 +1,6 @@
 [
   {
     "kind": "sl_after_t3",
-    "ticker": "DOGE",
-    "tf_label": "15M",
-    "entry": 0.07413,
-    "level": null,
-    "result_r": 2.9,
-    "source_signal_id": "ALT-000626",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T17:15:09.989347+00:00"
-  },
-  {
-    "kind": "sl_after_t3",
     "ticker": "XLM",
     "tf_label": "15M",
     "entry": 0.1607,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-14T02:33:06.528122+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.1634,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000939",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T06:00:17.572562+00:00"
   }
 ]
