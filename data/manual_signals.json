@@ -11848,5 +11848,19 @@
     "source_signal_id": "ALT-000941",
     "signal_message_id": 4087,
     "activated_at": "2026-11-14T04:06:19.946673+00:00"
+  },
+  {
+    "id": "src-ALT-000942",
+    "symbol": "ENA/USD",
+    "side": "SELL",
+    "entry": 0.127,
+    "sl": 0.1287,
+    "status": "pending",
+    "created_at": 1794655664,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000942",
+    "signal_message_id": 4091
   }
 ]
