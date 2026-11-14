@@ -723,7 +723,7 @@
   "g_rr": 2.0,
   "g_win": 40.0,
   "mode": "semi",
-  "modules_apply": false,
+  "modules_apply": true,
   "target_pf": 1.3
  },
  "slots": {
