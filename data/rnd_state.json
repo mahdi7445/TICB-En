@@ -362,7 +362,7 @@
   }
  ],
  "last": {
-  "light_ts": 1794666984.0904484,
+  "light_ts": 1794668802.1185133,
   "modules_seen": 1794654295.4714873,
   "modules_status": {
    "BZ15": "NA",
@@ -400,9 +400,9 @@
   "n": 100,
   "research": {
    "ai": true,
-   "cycle": 7,
-   "generated": "2026-11-14 11:04 UTC",
-   "tested": 38
+   "cycle": 8,
+   "generated": "2026-11-14 15:03 UTC",
+   "tested": 40
   }
  },
  "proposals": [
@@ -596,6 +596,50 @@
    "src": "ai",
    "status": "applied",
    "value": 0.4
+  },
+  {
+   "auto_ok": false,
+   "created": 1794668802.1351032,
+   "desc": "🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R.",
+   "ev": {
+    "avg": 0,
+    "h1": 0,
+    "h2": 0,
+    "n": 0,
+    "pf": 0,
+    "t": 0,
+    "win": 0
+   },
+   "id": "a0c3da7d",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "rule": null,
+   "section": "ticb",
+   "src": "ai",
+   "status": "pending",
+   "value": 0.25
+  },
+  {
+   "auto_ok": false,
+   "created": 1794668802.1352687,
+   "desc": "🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift.",
+   "ev": {
+    "avg": 0,
+    "h1": 0,
+    "h2": 0,
+    "n": 0,
+    "pf": 0,
+    "t": 0,
+    "win": 0
+   },
+   "id": "1b7cb659",
+   "key": "mx_CN5M_cd",
+   "kind": "ctl",
+   "rule": null,
+   "section": "ticb",
+   "src": "ai",
+   "status": "pending",
+   "value": 12
   }
  ],
  "protected": {},
@@ -619,39 +663,39 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 7,
-   "name": "Inside #962 · fix62",
-   "spec_id": "eaf1d7c191",
-   "status": "FAIL"
+   "cycle": 8,
+   "name": "Inside #962 · v7",
+   "spec_id": "fe9bfbc84d",
+   "status": "PASS"
   },
   "RD2": {
-   "cycle": 7,
-   "name": "Inside #962 · fix61",
-   "spec_id": "982ac3d525",
-   "status": "FAIL"
+   "cycle": 8,
+   "name": "Breakout #469 · v9",
+   "spec_id": "b76ce9f3fd",
+   "status": "CAND"
   },
   "RD3": {
-   "cycle": 7,
-   "name": "Momentum #481 · fix92",
-   "spec_id": "7fda48b80c",
-   "status": "FAIL"
+   "cycle": 8,
+   "name": "Inside #962 · v7",
+   "spec_id": "217008e9f1",
+   "status": "PASS"
   },
   "RD4": {
-   "cycle": 7,
-   "name": "Momentum #481 · fix44",
-   "spec_id": "63487a2ff6",
-   "status": "FAIL"
+   "cycle": 8,
+   "name": "Breakout #469 · v3",
+   "spec_id": "aa7a2091aa",
+   "status": "PASS"
   },
   "RD5": {
-   "cycle": 7,
-   "name": "Breakout #469 · fix2",
-   "spec_id": "2cf6ea10ed",
+   "cycle": 8,
+   "name": "ATR Vol Compress Break",
+   "spec_id": "f803849198",
    "status": "FAIL"
   },
   "RD6": {
-   "cycle": 7,
-   "name": "Breakout #469 · fix67",
-   "spec_id": "4b0fcab057",
+   "cycle": 8,
+   "name": "BB Squeeze Breakout",
+   "spec_id": "a4652e847e",
    "status": "FAIL"
   }
  }
