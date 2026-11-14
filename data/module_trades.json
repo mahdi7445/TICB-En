@@ -89,8 +89,8 @@
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792510500000,
-    "SMS|BTC/USD|5m": 1794656400000,
-    "SMS|ETH/USD|5m": 1794656400000,
+    "SMS|BTC/USD|5m": 1794656700000,
+    "SMS|ETH/USD|5m": 1794656700000,
     "TPB|BTC/USD|1h": 1794650400000,
     "TPB|ETH/USD|1h": 1794650400000,
     "HOT|ARB/USD|15m|SELL": 1792509300000,
@@ -257,12 +257,12 @@
     },
     "SMS": {
       "since": 1792499819,
-      "checks": 2746,
+      "checks": 2748,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1794656702
+      "last_check": 1794657026
     },
     "TPB": {
       "since": 1792499822,
