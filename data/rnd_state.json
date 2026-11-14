@@ -344,10 +344,15 @@
    "k": "apply",
    "t": 1794654951.4705527,
    "x": "✋ 🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop."
+  },
+  {
+   "k": "request",
+   "t": 1794661352.8916132,
+   "x": "🧩 Re-test of all modules requested"
   }
  ],
  "last": {
-  "light_ts": 1794660354.694931,
+  "light_ts": 1794661392.5740438,
   "modules_seen": 1794654295.4714873,
   "modules_status": {
    "BZ15": "NA",
@@ -588,7 +593,7 @@
   {
    "done": false,
    "kind": "modules",
-   "t": 1794654885.9678266
+   "t": 1794661352.8916132
   }
  ],
  "settings": {
