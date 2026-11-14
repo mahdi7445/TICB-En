@@ -720,7 +720,7 @@
   "g_avg": 0.1,
   "g_dd": 8.0,
   "g_on": false,
-  "g_rr": 2.0,
+  "g_rr": 1.5,
   "g_win": 40.0,
   "mode": "semi",
   "modules_apply": true,
