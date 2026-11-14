@@ -197,12 +197,32 @@
    "section": null,
    "state": "active",
    "t": 1794533863.3377132
+  },
+  {
+   "base": {
+    "avg": -0.018,
+    "n": 50,
+    "pf": 0.971
+   },
+   "by": "admin",
+   "desc": "🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop.",
+   "id": "4b76e0dd",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "new": 0.4,
+   "old": 0.3,
+   "rb_n": 30,
+   "rule": null,
+   "section": "ticb",
+   "state": "active",
+   "t": 1794654951.4705527
   }
  ],
  "blacklist": [],
  "changes": {
   "20769": 0,
-  "20770": 0
+  "20770": 0,
+  "20771": 0
  },
  "journal": [
   {
@@ -319,6 +339,11 @@
    "k": "request",
    "t": 1794654885.9678266,
    "x": "🧩 Re-test of all modules requested"
+  },
+  {
+   "k": "apply",
+   "t": 1794654951.4705527,
+   "x": "✋ 🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop."
   }
  ],
  "last": {
@@ -535,6 +560,7 @@
    }
   },
   {
+   "applied_at": 1794654951.4705527,
    "auto_ok": false,
    "created": 1794654788.5372028,
    "desc": "🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop.",
@@ -553,7 +579,7 @@
    "rule": null,
    "section": "ticb",
    "src": "ai",
-   "status": "pending",
+   "status": "applied",
    "value": 0.4
   }
  ],
