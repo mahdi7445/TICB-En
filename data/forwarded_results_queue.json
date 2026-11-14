@@ -1,29 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "NEAR",
-    "tf_label": "5M",
-    "entry": 4.0,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000668",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T20:10:53.270314+00:00"
-  },
-  {
-    "kind": "breakeven",
-    "ticker": "ARB",
-    "tf_label": "5M",
-    "entry": 0.1634,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000664",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T20:39:28.502778+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "ATOM",
     "tf_label": "15M",
@@ -5998,5 +5974,29 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-14T14:24:20.721718+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 10.83,
+    "level": 6,
+    "result_r": 2.6,
+    "source_signal_id": "ALT-000770",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T14:30:24.355180+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AVAX",
+    "tf_label": "1H",
+    "entry": 8.73,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000843",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T14:30:27.699206+00:00"
   }
 ]
