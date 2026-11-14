@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t3",
-    "ticker": "SOL",
-    "tf_label": "15M",
-    "entry": 92.21,
-    "level": null,
-    "result_r": 2.9,
-    "source_signal_id": "ALT-000630",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-04T17:15:12.080459+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "TIA",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-14T06:01:52.563826+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ALGO",
+    "tf_label": "4H",
+    "entry": 0.08922,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000870",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-14T07:21:08.018479+00:00"
   }
 ]
