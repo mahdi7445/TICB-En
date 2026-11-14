@@ -39671,7 +39671,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "LDO/USD",
         "tf_key": "manual",
         "display": "LDO",
@@ -39681,6 +39681,17 @@
             "type": "opened",
             "ts": "2026-11-06T00:07:40.987325+00:00",
             "price": 0.319
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-14T14:05:29.303558+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-14T14:05:29.309483+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 3446,
@@ -39692,7 +39703,8 @@
         },
         "logical_tf": "4h",
         "_replay_checked_ms": 1794095746217,
-        "_stale_alert_sent_at_ms": 1794356310383
+        "_stale_alert_sent_at_ms": 1794356310383,
+        "close_type": "stop"
       },
       "hist": []
     },
@@ -49647,8 +49659,8 @@
         "sl": 0.829,
         "r": 0.0252,
         "hit": {
-          "1": false,
-          "2": false,
+          "1": true,
+          "2": true,
           "4": false,
           "6": false
         },
@@ -49663,6 +49675,12 @@
             "type": "opened",
             "ts": "2026-11-12T12:04:08.581683+00:00",
             "price": 0.8038
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-14T14:05:29.378853+00:00",
+            "level_r": 2,
+            "note": "forwarded"
           }
         ],
         "signal_message_id": 3993,
