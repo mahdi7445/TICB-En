@@ -41136,5 +41136,48 @@
     "stop_pct": 1.0232,
     "fee_r_est": 0.1466,
     "net_r_est": 0.0534
+  },
+  {
+    "signal_id": "ALT-000955",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-15T07:11:27.859401+00:00",
+        "price": 0.05022
+      },
+      {
+        "type": "stop",
+        "ts": "2026-11-15T07:37:53.819390+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-15T07:37:53.825717+00:00",
+        "close_type": "stop",
+        "final_r": -1.0
+      }
+    ],
+    "symbol": "NIGHT/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 0.05022,
+    "sl": 0.04949,
+    "final_r": -1.0,
+    "targets_hit": [],
+    "close_type": "stop",
+    "close_reason": "Stopped out (full loss)",
+    "opened_at": "2026-11-15T07:11:27.859000+00:00",
+    "closed_at": "2026-11-15T07:37:53.825717+00:00",
+    "r_pct": 1.4536,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
