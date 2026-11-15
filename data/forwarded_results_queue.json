@@ -1,18 +1,6 @@
 [
   {
     "kind": "breakeven",
-    "ticker": "PEPE",
-    "tf_label": "5M",
-    "entry": 4.911e-06,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000683",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T14:31:24.365503+00:00"
-  },
-  {
-    "kind": "breakeven",
     "ticker": "OP",
     "tf_label": "4H",
     "entry": 0.1073,
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T10:21:05.568176+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "JUP",
+    "tf_label": "5M",
+    "entry": 0.257,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000957",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T12:17:11.467460+00:00"
   }
 ]
