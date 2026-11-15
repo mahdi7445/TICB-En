@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "OP",
-    "tf_label": "4H",
-    "entry": 0.1073,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000621",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T14:46:08.752113+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "FIL",
     "tf_label": "4H",
@@ -5998,5 +5986,19 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T12:17:11.467460+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "INJ",
+    "tf_label": "1M",
+    "entry": 7.128,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000960",
+    "side": "BUY",
+    "stop": 7.105,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T13:01:10.587925+00:00"
   }
 ]
