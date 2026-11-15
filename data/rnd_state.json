@@ -450,7 +450,7 @@
   }
  ],
  "last": {
-  "light_ts": 1794731726.6970541,
+  "light_ts": 1794733533.205251,
   "modules_seen": 1794707632.7563336,
   "modules_status": {
    "BZ15": "NA",
@@ -492,11 +492,11 @@
   "n": 103,
   "research": {
    "ai": true,
-   "cycle": 10,
-   "generated": "2026-11-15 00:33 UTC",
-   "tested": 40
+   "cycle": 11,
+   "generated": "2026-11-15 08:38 UTC",
+   "tested": 42
   },
-  "research_seen": 1794702822.33944
+  "research_seen": 1794731892.4812841
  },
  "proposals": [
   {
@@ -758,6 +758,50 @@
    "src": "ai",
    "status": "applied",
    "value": 0.5
+  },
+  {
+   "auto_ok": false,
+   "created": 1794733533.2218468,
+   "desc": "🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees.",
+   "ev": {
+    "avg": 0,
+    "h1": 0,
+    "h2": 0,
+    "n": 0,
+    "pf": 0,
+    "t": 0,
+    "win": 0
+   },
+   "id": "a4795448",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "rule": null,
+   "section": "ticb",
+   "src": "ai",
+   "status": "pending",
+   "value": 0.05
+  },
+  {
+   "auto_ok": false,
+   "created": 1794733533.222043,
+   "desc": "🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops",
+   "ev": {
+    "avg": 0,
+    "h1": 0,
+    "h2": 0,
+    "n": 0,
+    "pf": 0,
+    "t": 0,
+    "win": 0
+   },
+   "id": "491a726f",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "rule": null,
+   "section": "ticb",
+   "src": "ai",
+   "status": "pending",
+   "value": 0.3
   }
  ],
  "protected": {},
@@ -782,40 +826,40 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 10,
+   "cycle": 11,
    "name": "Inside #962 · v9",
    "spec_id": "01d6a848cb",
    "status": "CAND"
   },
   "RD2": {
-   "cycle": 10,
+   "cycle": 11,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 10,
+   "cycle": 11,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
    "status": "PASS"
   },
   "RD4": {
-   "cycle": 10,
+   "cycle": 11,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
    "status": "PASS"
   },
   "RD5": {
-   "cycle": 10,
-   "name": "BB Squeeze Expansion",
-   "spec_id": "a5e3862af3",
-   "status": "FAIL"
+   "cycle": 11,
+   "name": "Breakout #469 · fix28",
+   "spec_id": "6bbe0f69b2",
+   "status": "CAND"
   },
   "RD6": {
-   "cycle": 10,
-   "name": "Breakout #469 · v3 fix",
-   "spec_id": "aa842a4416",
-   "status": "FAIL"
+   "cycle": 11,
+   "name": "Inside #962 · fix74",
+   "spec_id": "7919faad00",
+   "status": "CAND"
   }
  }
 }
