@@ -508,7 +508,7 @@
   }
  ],
  "last": {
-  "light_ts": 1794754562.621721,
+  "light_ts": 1794756372.8293197,
   "modules_seen": 1794740717.5054517,
   "modules_status": {
    "BZ15": "NA",
@@ -550,11 +550,11 @@
   "n": 104,
   "research": {
    "ai": true,
-   "cycle": 11,
-   "generated": "2026-11-15 08:38 UTC",
-   "tested": 42
+   "cycle": 12,
+   "generated": "2026-11-15 15:18 UTC",
+   "tested": 40
   },
-  "research_seen": 1794731892.4812841
+  "research_seen": 1794755883.1602137
  },
  "proposals": [
   {
@@ -886,37 +886,37 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 11,
+   "cycle": 12,
    "name": "Inside #962 · v9",
    "spec_id": "01d6a848cb",
    "status": "CAND"
   },
   "RD2": {
-   "cycle": 11,
+   "cycle": 12,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 11,
+   "cycle": 12,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
    "status": "PASS"
   },
   "RD4": {
-   "cycle": 11,
+   "cycle": 12,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
    "status": "PASS"
   },
   "RD5": {
-   "cycle": 11,
+   "cycle": 12,
    "name": "Breakout #469 · fix28",
    "spec_id": "6bbe0f69b2",
    "status": "CAND"
   },
   "RD6": {
-   "cycle": 11,
+   "cycle": 12,
    "name": "Inside #962 · fix74",
    "spec_id": "7919faad00",
    "status": "CAND"
