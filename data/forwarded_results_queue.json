@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "15M",
-    "entry": 8.26,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000681",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:08:41.866008+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "SUI",
     "tf_label": "4H",
@@ -6002,5 +5990,19 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T14:08:07.265408+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "VVV",
+    "tf_label": "5M",
+    "entry": 19.38,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000954",
+    "side": "BUY",
+    "stop": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T14:45:41.663864+00:00"
   }
 ]
