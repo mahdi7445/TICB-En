@@ -495,10 +495,15 @@
    "k": "apply",
    "t": 1794733571.0114844,
    "x": "✋ 🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops"
+  },
+  {
+   "k": "request",
+   "t": 1794733610.7127593,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
-  "light_ts": 1794733533.205251,
+  "light_ts": 1794733602.1940794,
   "modules_seen": 1794707632.7563336,
   "modules_status": {
    "BZ15": "NA",
@@ -859,7 +864,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794688710.6223075
+   "t": 1794733610.7127593
   }
  ],
  "settings": {
