@@ -273,6 +273,44 @@
    "section": "ticb",
    "state": "active",
    "t": 1794721963.477387
+  },
+  {
+   "base": {
+    "avg": -0.018,
+    "n": 50,
+    "pf": 0.971
+   },
+   "by": "admin",
+   "desc": "🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees.",
+   "id": "a4795448",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "new": 0.05,
+   "old": 0.5,
+   "rb_n": 30,
+   "rule": null,
+   "section": "ticb",
+   "state": "active",
+   "t": 1794733571.0101175
+  },
+  {
+   "base": {
+    "avg": -0.018,
+    "n": 50,
+    "pf": 0.971
+   },
+   "by": "admin",
+   "desc": "🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops",
+   "id": "491a726f",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "new": 0.3,
+   "old": 0.05,
+   "rb_n": 30,
+   "rule": null,
+   "section": "ticb",
+   "state": "active",
+   "t": 1794733571.0114844
   }
  ],
  "blacklist": [],
@@ -447,6 +485,16 @@
    "k": "apply",
    "t": 1794721963.477387,
    "x": "✋ 🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees."
+  },
+  {
+   "k": "apply",
+   "t": 1794733571.0101175,
+   "x": "✋ 🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees."
+  },
+  {
+   "k": "apply",
+   "t": 1794733571.0114844,
+   "x": "✋ 🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops"
   }
  ],
  "last": {
@@ -760,6 +808,7 @@
    "value": 0.5
   },
   {
+   "applied_at": 1794733571.0101175,
    "auto_ok": false,
    "created": 1794733533.2218468,
    "desc": "🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees.",
@@ -778,10 +827,11 @@
    "rule": null,
    "section": "ticb",
    "src": "ai",
-   "status": "pending",
+   "status": "applied",
    "value": 0.05
   },
   {
+   "applied_at": 1794733571.0114844,
    "auto_ok": false,
    "created": 1794733533.222043,
    "desc": "🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops",
@@ -800,7 +850,7 @@
    "rule": null,
    "section": "ticb",
    "src": "ai",
-   "status": "pending",
+   "status": "applied",
    "value": 0.3
   }
  ],
