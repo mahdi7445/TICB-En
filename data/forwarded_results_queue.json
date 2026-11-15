@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "AVAX",
-    "tf_label": "4H",
-    "entry": 8.93,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000657",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:15:16.664176+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "XLM",
     "tf_label": "4H",
     "entry": 0.1684,
@@ -6006,5 +5994,19 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T16:36:32.290584+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AAVE",
+    "tf_label": "15M",
+    "entry": 104.67,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-000958",
+    "side": "BUY",
+    "stop": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T22:28:27.732003+00:00"
   }
 ]
