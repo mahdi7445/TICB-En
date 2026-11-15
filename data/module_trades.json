@@ -1,5 +1,56 @@
 {
-  "trades": {},
+  "trades": {
+    "TC-000127": {
+      "id": "TC-000127",
+      "module": "TPB",
+      "symbol": "ETH/USD",
+      "tf": "1h",
+      "side": "SELL",
+      "entry": 1805.89,
+      "sl0": 1888.9243929324282,
+      "sl": 1888.9243929324282,
+      "risk": 83.03439293242809,
+      "targets": [
+        1639.821214135144,
+        1473.7524282702877,
+        1307.6836424054316,
+        1058.5804636081473
+      ],
+      "levels": [
+        2.0,
+        4.0,
+        6.0,
+        9.0
+      ],
+      "weights": [
+        0.35,
+        0.25,
+        0.15,
+        0.1
+      ],
+      "trail": 2.0,
+      "hit": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "runner_on": false,
+      "best": 1805.89,
+      "status": "open",
+      "opened_ms": 1794754827871,
+      "armed_ms": 1794754827871,
+      "last_ms": 1794754827871,
+      "bar_ms": 1794751200000,
+      "mfe_r": 0.0,
+      "mae_r": 0.0,
+      "events": [],
+      "tier": "candidate",
+      "profile": "Q3",
+      "msg_id": 4166,
+      "polled_ms": 1794754840457
+    }
+  },
   "seen": [],
   "checked": {
     "HDV3|BTC/USD|4h": 1794729600000,
@@ -20,20 +71,20 @@
     "CN4H|ETH/USD|4h": 1794729600000,
     "TKF|BTC/USD|5m": 1794046500000,
     "TKF|ETH/USD|5m": 1794046500000,
-    "TPS|BTC/USD|1h": 1794747600000,
-    "TPS|ETH/USD|1h": 1794747600000,
-    "MRA|BTC/USD|1h": 1794747600000,
-    "MRA|ETH/USD|1h": 1794747600000,
-    "MRB|BTC/USD|1h": 1794747600000,
-    "MRB|ETH/USD|1h": 1794747600000,
+    "TPS|BTC/USD|1h": 1794751200000,
+    "TPS|ETH/USD|1h": 1794751200000,
+    "MRA|BTC/USD|1h": 1794751200000,
+    "MRA|ETH/USD|1h": 1794751200000,
+    "MRB|BTC/USD|1h": 1794751200000,
+    "MRB|ETH/USD|1h": 1794751200000,
     "HOT|ARB/USD|5m|SELL": 1792510500000,
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792510500000,
-    "SMS|BTC/USD|5m": 1794754200000,
-    "SMS|ETH/USD|5m": 1794754200000,
-    "TPB|BTC/USD|1h": 1794747600000,
-    "TPB|ETH/USD|1h": 1794747600000,
+    "SMS|BTC/USD|5m": 1794754500000,
+    "SMS|ETH/USD|5m": 1794754500000,
+    "TPB|BTC/USD|1h": 1794751200000,
+    "TPB|ETH/USD|1h": 1794751200000,
     "HOT|ARB/USD|15m|SELL": 1792509300000,
     "HOT|NEAR/USD|15m|SELL": 1792501200000,
     "HOT|TIA/USD|15m|BUY": 1792506600000,
@@ -56,8 +107,8 @@
     "TKF|ETH/USD|15m": 1794021300000,
     "TKS|BTC/USD|15m": 1794021300000,
     "TKS|ETH/USD|15m": 1794021300000,
-    "FBR|BTC/USD|15m": 1794753000000,
-    "FBR|ETH/USD|15m": 1794753000000,
+    "FBR|BTC/USD|15m": 1794753900000,
+    "FBR|ETH/USD|15m": 1794753900000,
     "BZ1H|BTC/USD|1h": 1794135600000,
     "BZ1H|ETH/USD|1h": 1794135600000,
     "BZ4H|BTC/USD|4h": 1794124800000,
@@ -127,7 +178,7 @@
     },
     "TPS": {
       "since": 1792450819,
-      "checks": 1272,
+      "checks": 1274,
       "nodata": 0,
       "raw": 7,
       "blocked": {
@@ -135,25 +186,25 @@
         "loss_streak(8)": 1
       },
       "opened": 4,
-      "last_check": 1794751216
+      "last_check": 1794754834
     },
     "MRA": {
       "since": 1792450819,
-      "checks": 802,
+      "checks": 804,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1794751216
+      "last_check": 1794754834
     },
     "MRB": {
       "since": 1792450819,
-      "checks": 802,
+      "checks": 804,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1794751216
+      "last_check": 1794754834
     },
     "HDV3": {
       "since": 1792454401,
@@ -199,18 +250,18 @@
     },
     "SMS": {
       "since": 1792499819,
-      "checks": 3398,
+      "checks": 3400,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1794754529
+      "last_check": 1794754831
     },
     "TPB": {
       "since": 1792499822,
-      "checks": 820,
+      "checks": 822,
       "nodata": 0,
-      "raw": 9,
+      "raw": 10,
       "blocked": {
         "loss_streak(8)": 1,
         "already_open": 2,
@@ -218,19 +269,19 @@
         "loss_streak(6)": 1,
         "loss_streak(7)": 1
       },
-      "opened": 2,
-      "last_check": 1794751216
+      "opened": 3,
+      "last_check": 1794754834
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 4120,
+      "checks": 4122,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "loss_streak(7)": 1
       },
       "opened": 2,
-      "last_check": 1794753911
+      "last_check": 1794754834
     },
     "TKS": {
       "since": 1793360230,
@@ -304,7 +355,7 @@
     "CN15|ETH/USD": 1793724321628,
     "TPS|ETH/USD": 1794484813275,
     "FBR|ETH/USD": 1793009110963,
-    "TPB|ETH/USD": 1793023223582,
+    "TPB|ETH/USD": 1794754827871,
     "CN4H|BTC/USD": 1793188825263,
     "CN4H|ETH/USD": 1793188825263,
     "CN1H|BTC/USD": 1793257223539,
@@ -313,17 +364,20 @@
     "CN5M|BTC/USD": 1794495305138
   },
   "mx_day": {
-    "day": "2026-11-12",
-    "TPS": 1,
-    "CN5M": 1
+    "day": "2026-11-15",
+    "TPB": 1
   },
   "daily": {
-    "day": "2026-11-12",
+    "day": "2026-11-15",
     "lowtf": 1
   },
   "outbox": [],
   "published": [
     "TPS|ETH/USD|1h|SELL|1794481200000",
-    "CN5M|BTC/USD|5m|SELL|1794495000000"
-  ]
+    "CN5M|BTC/USD|5m|SELL|1794495000000",
+    "TPB|ETH/USD|1h|SELL|1794751200000"
+  ],
+  "published_bars": {
+    "ETH|1h|SELL|1794751200000": "TPB"
+  }
 }
