@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "ADA",
-    "tf_label": "5M",
-    "entry": 0.1943,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000684",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T14:03:14.733792+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "PEPE",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T07:37:05.431505+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PENGU",
+    "tf_label": "1M",
+    "entry": 0.004818,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000956",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T08:14:15.830005+00:00"
   }
 ]
