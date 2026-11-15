@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ZEC",
-    "tf_label": "5M",
-    "entry": 1312.76,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000682",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T13:48:05.832227+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ZEC",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-15T03:07:20.455034+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "XRP",
+    "tf_label": "4H",
+    "entry": 1.29,
+    "level": null,
+    "result_r": 3.42,
+    "source_signal_id": "ALT-000641",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T04:25:18.441062+00:00"
   }
 ]
