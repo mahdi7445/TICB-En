@@ -1,6 +1,6 @@
 {
- "cycle": 10,
- "set": "2026-11-14T21:09Z",
+ "cycle": 11,
+ "set": "2026-11-15T05:12Z",
  "slots": {
   "RD1": {
    "prescreen": {
@@ -201,62 +201,12 @@
   },
   "RD5": {
    "prescreen": {
-    "avg": 0.3053,
-    "n": 2870,
-    "t": 10.107,
+    "avg": 0.3565,
+    "n": 3057,
+    "t": 12.025,
     "tf": "15m"
    },
-   "set": "2026-11-14T21:09Z",
-   "spec": {
-    "all": [
-     [
-      "bbpos:20",
-      ">",
-      1.0
-     ],
-     [
-      "volr:20",
-      ">",
-      1.5
-     ],
-     [
-      "closepos",
-      ">",
-      0.7
-     ],
-     [
-      "htf:1h:trend",
-      "==",
-      1.0
-     ]
-    ],
-    "cooldown": 6,
-    "created": "2026-11-14T21:09Z",
-    "id": "RD5",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.3,
-    "name": "BB Squeeze Expansion",
-    "origin": "ai:gemini",
-    "stop": {
-     "k": 2.5,
-     "kind": "atr"
-    },
-    "tfs": [
-     "15m",
-     "1h"
-    ],
-    "why": "Exploits Bollinger Band expansion accompanied by volume spikes in the direction of the 1h trend."
-   },
-   "spec_id": "a5e3862af3"
-  },
-  "RD6": {
-   "prescreen": {
-    "avg": 0.2899,
-    "n": 2611,
-    "t": 9.109,
-    "tf": "15m"
-   },
-   "set": "2026-11-14T21:09Z",
+   "set": "2026-11-15T05:12Z",
    "spec": {
     "all": [
      [
@@ -267,7 +217,7 @@
      [
       "volr:20",
       ">",
-      1.1
+      1.43
      ],
      [
       "close",
@@ -277,35 +227,78 @@
      [
       "closepos",
       ">",
-      0.65
-     ],
-     [
-      "atrp:14",
-      "<",
-      3.0
+      0.616
      ]
     ],
     "cooldown": 6,
-    "created": "2026-11-14T21:09Z",
-    "id": "RD6",
-    "max_stop_atr": 3.5,
-    "min_risk_pct": 0.3,
-    "name": "Breakout #469 · v3 fix",
-    "origin": "ai-fix:gemini",
-    "parent": "Breakout #469 · v3",
-    "parent_name": "Breakout #469 · v3",
+    "created": "2026-11-15T05:12Z",
+    "family": "breakout",
+    "id": "RD5",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix28",
+    "origin": "improve",
+    "parent": "1cb8a446a1",
     "stop": {
-     "buf": 0.2,
-     "kind": "swing",
-     "n": 8
+     "k": 3.0,
+     "kind": "atr"
     },
     "tfs": [
+     "5m",
      "15m",
-     "1h"
+     "4h"
     ],
-    "why": "Relaxes overly restrictive closepos requirement and adds ATR compression filter with a swing stop."
+    "why": "breakout idea (guided random search)"
    },
-   "spec_id": "aa842a4416"
+   "spec_id": "6bbe0f69b2"
+  },
+  "RD6": {
+   "prescreen": {
+    "avg": 0.3305,
+    "n": 3421,
+    "t": 11.895,
+    "tf": "15m"
+   },
+   "set": "2026-11-15T05:12Z",
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.065
+     ],
+     [
+      "volr:20",
+      ">",
+      1.5
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-15T05:12Z",
+    "family": "inside",
+    "id": "RD6",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · fix74",
+    "origin": "improve",
+    "parent": "01d6a848cb",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "spec_id": "7919faad00"
   }
  }
 }
