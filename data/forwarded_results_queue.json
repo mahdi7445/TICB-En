@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "NEAR",
-    "tf_label": "5M",
-    "entry": 3.957,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000685",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T14:17:48.941331+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "TIA",
-    "tf_label": "5M",
-    "entry": 0.4519,
-    "level": 1,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000686",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T14:17:50.013403+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "TIA",
     "tf_label": "5M",
@@ -5998,5 +5974,29 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T08:21:23.175641+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "VVV",
+    "tf_label": "5M",
+    "entry": 19.38,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000954",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T09:04:20.612874+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "JUP",
+    "tf_label": "5M",
+    "entry": 0.257,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000957",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T09:04:21.251859+00:00"
   }
 ]
