@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "SUI",
-    "tf_label": "4H",
-    "entry": 0.8733,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000620",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:15:11.526424+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "AVAX",
     "tf_label": "4H",
@@ -6004,5 +5992,19 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T14:45:41.663864+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 71.26,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000961",
+    "side": "SELL",
+    "stop": 71.69,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T16:36:32.290584+00:00"
   }
 ]
