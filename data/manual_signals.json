@@ -12028,5 +12028,33 @@
     "source_signal_id": "ALT-000953",
     "signal_message_id": 4131,
     "activated_at": "2026-11-14T20:06:57.314662+00:00"
+  },
+  {
+    "id": "src-ALT-000954",
+    "symbol": "VVV/USD",
+    "side": "BUY",
+    "entry": 19.38,
+    "sl": 18.98,
+    "status": "pending",
+    "created_at": 1794726641,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000954",
+    "signal_message_id": 4147
+  },
+  {
+    "id": "src-ALT-000955",
+    "symbol": "NIGHT/USD",
+    "side": "BUY",
+    "entry": 0.05022,
+    "sl": 0.04949,
+    "status": "pending",
+    "created_at": 1794726644,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000955",
+    "signal_message_id": 4148
   }
 ]
