@@ -51460,7 +51460,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "VVV/USD",
         "tf_key": "manual",
         "display": "VVV",
@@ -51476,6 +51476,17 @@
             "ts": "2026-11-15T09:05:47.867560+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-15T14:46:15.435243+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-15T14:46:15.439006+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 4147,
@@ -51486,7 +51497,8 @@
           "label": "5M"
         },
         "logical_tf": "5m",
-        "_replay_checked_ms": 1794752408346
+        "_replay_checked_ms": 1794752408346,
+        "close_type": "breakeven"
       },
       "hist": []
     },
