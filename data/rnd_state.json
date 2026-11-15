@@ -425,7 +425,7 @@
   }
  ],
  "last": {
-  "light_ts": 1794701096.303698,
+  "light_ts": 1794702900.320293,
   "modules_seen": 1794688273.484431,
   "modules_status": {
    "BZ15": "NA",
@@ -461,12 +461,12 @@
   },
   "n": 102,
   "research": {
-   "ai": false,
-   "cycle": 9,
-   "generated": "2026-11-14 20:24 UTC",
+   "ai": true,
+   "cycle": 10,
+   "generated": "2026-11-15 00:33 UTC",
    "tested": 40
   },
-  "research_seen": 1794687889.2146506
+  "research_seen": 1794702822.33944
  },
  "proposals": [
   {
@@ -705,6 +705,28 @@
    "src": "ai",
    "status": "applied",
    "value": 12
+  },
+  {
+   "auto_ok": false,
+   "created": 1794702900.3402195,
+   "desc": "🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees.",
+   "ev": {
+    "avg": 0,
+    "h1": 0,
+    "h2": 0,
+    "n": 0,
+    "pf": 0,
+    "t": 0,
+    "win": 0
+   },
+   "id": "e60e03a5",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "rule": null,
+   "section": "ticb",
+   "src": "ai",
+   "status": "pending",
+   "value": 0.5
   }
  ],
  "protected": {},
@@ -729,39 +751,39 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 9,
-   "name": "Inside #962 · v7",
-   "spec_id": "fe9bfbc84d",
-   "status": "FAIL"
+   "cycle": 10,
+   "name": "Inside #962 · v9",
+   "spec_id": "01d6a848cb",
+   "status": "CAND"
   },
   "RD2": {
-   "cycle": 9,
-   "name": "Breakout #469 · v9",
-   "spec_id": "b76ce9f3fd",
-   "status": "FAIL"
+   "cycle": 10,
+   "name": "Breakout #469 · v8",
+   "spec_id": "1cb8a446a1",
+   "status": "CAND"
   },
   "RD3": {
-   "cycle": 9,
-   "name": "Inside #962 · v7",
-   "spec_id": "217008e9f1",
-   "status": "FAIL"
+   "cycle": 10,
+   "name": "Inside #962 · v3",
+   "spec_id": "a53c7093bf",
+   "status": "PASS"
   },
   "RD4": {
-   "cycle": 9,
-   "name": "Breakout #469 · v3",
-   "spec_id": "aa7a2091aa",
-   "status": "FAIL"
+   "cycle": 10,
+   "name": "Breakout #469 · fix29",
+   "spec_id": "ee741fb893",
+   "status": "PASS"
   },
   "RD5": {
-   "cycle": 9,
-   "name": "Inside #962 · v5",
-   "spec_id": "44f876abe2",
+   "cycle": 10,
+   "name": "BB Squeeze Expansion",
+   "spec_id": "a5e3862af3",
    "status": "FAIL"
   },
   "RD6": {
-   "cycle": 9,
-   "name": "Inside #962 · v7",
-   "spec_id": "760cdbde9c",
+   "cycle": 10,
+   "name": "Breakout #469 · v3 fix",
+   "spec_id": "aa842a4416",
    "status": "FAIL"
   }
  }
