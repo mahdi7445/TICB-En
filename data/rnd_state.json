@@ -254,13 +254,33 @@
    "section": "ticb",
    "state": "active",
    "t": 1794669026.4180233
+  },
+  {
+   "base": {
+    "avg": -0.018,
+    "n": 50,
+    "pf": 0.971
+   },
+   "by": "admin",
+   "desc": "🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees.",
+   "id": "e60e03a5",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "new": 0.5,
+   "old": 0.25,
+   "rb_n": 30,
+   "rule": null,
+   "section": "ticb",
+   "state": "active",
+   "t": 1794721963.477387
   }
  ],
  "blacklist": [],
  "changes": {
   "20769": 0,
   "20770": 0,
-  "20771": 0
+  "20771": 0,
+  "20772": 0
  },
  "journal": [
   {
@@ -422,6 +442,11 @@
    "k": "request",
    "t": 1794688710.6223075,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "apply",
+   "t": 1794721963.477387,
+   "x": "✋ 🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees."
   }
  ],
  "last": {
@@ -712,6 +737,7 @@
    "value": 12
   },
   {
+   "applied_at": 1794721963.477387,
    "auto_ok": false,
    "created": 1794702900.3402195,
    "desc": "🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees.",
@@ -730,7 +756,7 @@
    "rule": null,
    "section": "ticb",
    "src": "ai",
-   "status": "pending",
+   "status": "applied",
    "value": 0.5
   }
  ],
