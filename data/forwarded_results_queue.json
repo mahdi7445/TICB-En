@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "PEPE",
-    "tf_label": "5M",
-    "entry": 4.911e-06,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000683",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T14:10:48.058967+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "NEAR",
     "tf_label": "5M",
@@ -5998,5 +5986,17 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T08:14:15.830005+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "PENGU",
+    "tf_label": "1M",
+    "entry": 0.004818,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000956",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T08:21:23.175641+00:00"
   }
 ]
