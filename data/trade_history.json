@@ -41085,5 +41085,56 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "TC-000126",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-15T00:53:07.114349+00:00",
+        "price": 1751.21
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-15T01:10:21.443257+00:00",
+        "price": 1724.7399999999998,
+        "level_r": 1
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-11-15T02:13:44.038164+00:00",
+        "price": 1742.57
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-15T02:13:44.390715+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "ETH/USD",
+    "tf": "5m",
+    "logical_tf": null,
+    "side": "SELL",
+    "entry": 1742.57,
+    "sl": 1742.57,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-11-15T00:53:07.114000+00:00",
+    "closed_at": "2026-11-15T02:13:44.390715+00:00",
+    "r_pct": 1.0232,
+    "mfe_r": 1.827,
+    "mae_r": -0.373,
+    "quality_tier": "experimental",
+    "strategy": "pin+htf1d-v1",
+    "htf_trend": -1,
+    "htf_aligned": true,
+    "stop_pct": 1.0232,
+    "fee_r_est": 0.1466,
+    "net_r_est": 0.0534
   }
 ]
