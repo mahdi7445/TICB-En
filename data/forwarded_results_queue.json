@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "FIL",
-    "tf_label": "4H",
-    "entry": 0.886,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000659",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:08:38.515549+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "INJ",
     "tf_label": "15M",
     "entry": 8.26,
@@ -6000,5 +5988,19 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T13:01:10.587925+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "JUP",
+    "tf_label": "5M",
+    "entry": 0.257,
+    "level": null,
+    "result_r": 2.1,
+    "source_signal_id": "ALT-000957",
+    "side": "BUY",
+    "stop": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-15T14:08:07.265408+00:00"
   }
 ]
