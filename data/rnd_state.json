@@ -515,6 +515,11 @@
    "k": "request",
    "t": 1794762178.4040422,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "request",
+   "t": 1794825238.559642,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
@@ -879,11 +884,11 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794762178.4040422
+   "t": 1794825238.559642
   }
  ],
  "settings": {
-  "ai_calls_day": 10,
+  "ai_calls_day": 6,
   "ai_mistral": false,
   "g_avg": 0.1,
   "g_dd": 8.0,
