@@ -233,14 +233,14 @@
   {
     "key": "ALT-000161",
     "final_r": null,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-11-16T22:32:57.462151+00:00",
     "mode": "snooze7"
   },
   {
     "key": "ALT-000193",
     "final_r": null,
-    "status": "pending",
+    "status": "applied",
     "requested_at": "2026-11-16T22:33:11.121540+00:00",
     "mode": "snooze7"
   }
