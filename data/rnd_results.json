@@ -1,44 +1,14 @@
 {
  "ai": {
-  "analysis": [
-   "[Google Gemini] Breakout strategies fail primarily due to low win rates (<38%), caused by entering false breakouts in low-volume or counter-HTF trend environments.",
-   "[Google Gemini] Large ATR stops (3.0-3.5) on false breakouts lead to full loss realization before trades can develop structural confirmation.",
-   "[Google Gemini] Strategies without HTF trend confirmation (htf:1h:trend / htf:4h:trend) suffer heavy drawdowns during chop or macro pullbacks.",
-   "[Google Gemini] Volatility compression (tight range or low volume prior to expansion) combined with volume expansion provides significantly higher signal reliability.",
-   "[Groq (free tier)] Low‑volume 5m breakout signals with tight ATR stops are frequently stopped out by fees.",
-   "[Groq (free tier)] Many entries lack higher‑timeframe trend confirmation, causing counter‑trend trades in choppy markets.",
-   "[Groq (free tier)] Pin‑bar signals on low TFs lose when the 4h trend is neutral or opposite, indicating a need for MTF filters.",
-   "[Groq (free tier)] ATR stop multiples (k=1.5‑3) are often too tight relative to volatility, leading to premature exits.",
-   "[Google Gemini] Breakout strategies (Breakout #469 variants) show low win rates (30-38%) and fail on split/t due to false breakouts during counter-trend consolidations.",
-   "[Google Gemini] Higher-timeframe trend alignment (htf:4h:trend or htf:1d:trend) significantly improves signal quality by eliminating counter-trend noise.",
-   "[Google Gemini] Buying pullbacks via oversold RSI (rsi:14 < 45 or crossing up 40) while price remains above long-term EMAs provides superior risk-reward over chasing fresh highs.",
-   "[Google Gemini] Breakout and inside bar strategies on low timeframes (1m, 5m) suffer from low win rates and fee drag due to false breakouts in choppy crypto market regimes."
-  ],
-  "at": 1794826998.1510346,
-  "audit": {
-   "actions": [
-    "Pause or strictly limit risk on ticb until strategy parameters and edge are re-validated",
-    "Investigate sgnl bot signal pipeline and execution trigger failures",
-    "Replenish API credits and implement automated rate-limit fallbacks for failing LLM providers",
-    "Temporarily re-route primary research/signal tasks to operational models (Gemini and Groq)"
-   ],
-   "by": "gemini",
-   "calls": {
-    "gemini": 1
-   },
-   "issues": [
-    "[Google Gemini] ticb bot is unprofitable with -24.24% net return, 0.702 profit factor, and 41.01% drawdown across 104 trades",
-    "[Google Gemini] sgnl bot is completely inactive with 0 trades recorded",
-    "[Google Gemini] Widespread LLM provider quota exhaustion (Claude, OpenAI, DeepSeek, Grok, OpenRouter down) leaving only Gemini and Groq"
-   ]
-  },
-  "error": "",
+  "analysis": [],
+  "at": 1794858853.990325,
+  "audit": {},
+  "error": "claude: HTTP 400 — درخواست/اعتبار حساب مشکل دارد (مثلاً اعتبار تمام شده یا نام مدل نادرست) — Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.; openai: HTTP 429 — سقف نرخ/اعتبار پر شده — Yo",
   "key_seen": true,
   "key_src": "ANTHROPIC_API_KEY",
   "model": "claude-sonnet-5-5",
   "providers": {
    "claude": {
-    "covered_by": "gemini",
     "error": "HTTP 400 — درخواست/اعتبار حساب مشکل دارد (مثلاً اعتبار تمام شده یا نام مدل نادرست) — Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
     "kind": "credit",
     "model": "claude-sonnet-5-5",
@@ -46,19 +16,14 @@
     "used": false
    },
    "deepseek": {
-    "covered_by": "gemini",
-    "error": "HTTP 402 — اعتبار حساب تمام شده — Insufficient Balance (request_id: 9e87a74f-f4cb-466d-93f6-c1c915186417)",
+    "error": "HTTP 402 — اعتبار حساب تمام شده — Insufficient Balance (request_id: 5cd1affe-b8c5-498a-be0a-2f021fda2a9a)",
     "kind": "credit",
     "model": "deepseek-chat",
     "n": 0,
     "used": false
    },
    "gemini": {
-    "error": "",
-    "kind": "",
-    "model": "gemini-3.6-flash",
-    "n": 9,
-    "used": true
+    "skipped": "daily budget used up"
    },
    "grok": {
     "error": "HTTP 403 — کلید اجازه‌ی این مدل/عملیات را ندارد یا اعتبار ندارد — Your newly created team doesn't have any credits or licenses yet. You can purchase those on https://console.x.ai/team/609d7202-5f07-4799-95b",
@@ -68,14 +33,13 @@
     "used": false
    },
    "groq": {
-    "error": "",
-    "kind": "",
+    "error": "reply was not valid JSON",
+    "kind": "format",
     "model": "llama-3.3-70b-versatile",
-    "n": 5,
-    "used": true
+    "n": 0,
+    "used": false
    },
    "openai": {
-    "covered_by": "gemini",
     "error": "HTTP 429 — سقف نرخ/اعتبار پر شده — You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
     "kind": "credit",
     "model": "gpt-4.1",
@@ -90,37 +54,37 @@
     "used": false
    }
   },
-  "used": true,
+  "used": false,
   "wait_s": 0
  },
  "ai_calls_by": {
   "2026-11-16": {
-   "claude": 2,
-   "deepseek": 2,
+   "claude": 3,
+   "deepseek": 3,
    "gemini": 6,
-   "grok": 2,
-   "groq": 2,
-   "openai": 2,
-   "openrouter": 2
+   "grok": 3,
+   "groq": 3,
+   "openai": 3,
+   "openrouter": 3
   }
  },
  "ai_calls_today": {
-  "2026-11-16": 18
+  "2026-11-16": 24
  },
  "ai_health": {
   "claude": {
-   "fails": 1,
+   "fails": 2,
    "kind": "credit",
    "last_err": "HTTP 400 — درخواست/اعتبار حساب مشکل دارد (مثلاً اعتبار تمام شده یا نام مدل نادرست) — Your credit balance is too low to access the Anthropic API. Please go to Pl",
-   "last_fail": 1794824893.0120533,
-   "until": 1794828493.0120533
+   "last_fail": 1794856524.4668002,
+   "until": 1794867324.4668002
   },
   "deepseek": {
-   "fails": 1,
+   "fails": 2,
    "kind": "credit",
-   "last_err": "HTTP 402 — اعتبار حساب تمام شده — Insufficient Balance (request_id: 9e87a74f-f4cb-466d-93f6-c1c915186417)",
-   "last_fail": 1794824893.39034,
-   "until": 1794828493.39034
+   "last_err": "HTTP 402 — اعتبار حساب تمام شده — Insufficient Balance (request_id: 5cd1affe-b8c5-498a-be0a-2f021fda2a9a)",
+   "last_fail": 1794856525.0686355,
+   "until": 1794867325.0686355
   },
   "gemini": {
    "fails": 0,
@@ -130,90 +94,35 @@
    "until": 0
   },
   "grok": {
-   "fails": 1,
+   "fails": 2,
    "kind": "credit",
    "last_err": "HTTP 403 — کلید اجازه‌ی این مدل/عملیات را ندارد یا اعتبار ندارد — Your newly created team doesn't have any credits or licenses yet. You can purchase those on ht",
-   "last_fail": 1794824892.845458,
-   "until": 1794828492.845458
+   "last_fail": 1794856524.4047353,
+   "until": 1794867324.4047353
   },
   "groq": {
    "fails": 0,
    "kind": "",
    "last_err": "",
-   "last_ok": 1794824899.5327413,
+   "last_ok": 1794856532.324501,
    "until": 0
   },
   "openai": {
-   "fails": 1,
+   "fails": 2,
    "kind": "credit",
    "last_err": "HTTP 429 — سقف نرخ/اعتبار پر شده — You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/bil",
-   "last_fail": 1794824893.5945508,
-   "until": 1794828493.5945508
+   "last_fail": 1794856525.5664868,
+   "until": 1794867325.5664868
   },
   "openrouter": {
-   "fails": 1,
+   "fails": 2,
    "kind": "other",
    "last_err": "empty reply",
-   "last_fail": 1794825008.6193278,
-   "until": 1794826808.6193278
+   "last_fail": 1794856543.0483146,
+   "until": 1794863743.0483146
   }
  },
- "ai_hints": [
-  {
-   "desc": "[gemini] Cap maximum stop distance to 3.0 ATR to prevent fee-heavy large losses on failed signals.",
-   "key": "mx_ticb_maxstop",
-   "section": "ticb",
-   "value": 3.0
-  },
-  {
-   "desc": "[gemini] Maintain 6-bar cooldown to prevent repetitive signal firing during choppy consolidation breaks.",
-   "key": "mx_ticb_cd",
-   "section": "ticb",
-   "value": 6
-  },
-  {
-   "desc": "[groq] cap ATR stop at 4× daily volatility to prevent excessive stop sizes",
-   "key": "mx_ticb_day",
-   "section": "ticb",
-   "value": 4.0
-  },
-  {
-   "desc": "[groq] increase cooldown to reduce overtrading on low‑TF noisy signals",
-   "key": "mx_ticb_cd",
-   "section": "ticb",
-   "value": 8
-  },
-  {
-   "desc": "[gemini] Prevents fee-eaten tiny stops on low-volatility pullbacks.",
-   "key": "nat_min_stop_pct",
-   "section": "ticb",
-   "value": 0.25
-  },
-  {
-   "desc": "[gemini] Cap maximum stop distance to maintain favorable ladder R-multiples.",
-   "key": "mx_TICB_maxstop",
-   "section": "ticb",
-   "value": 3.5
-  },
-  {
-   "desc": "[gemini] Increase minimum stop size to prevent fee-eaten tiny stopouts on low timeframe noise.",
-   "key": "nat_min_stop_pct",
-   "section": "ticb",
-   "value": 0.4
-  },
-  {
-   "desc": "[gemini] Extend cooldown on 15m candle noise strategies to prevent overtrading during consolidation.",
-   "key": "mx_CN15_cd",
-   "section": "ticb",
-   "value": 8
-  },
-  {
-   "desc": "[gemini] Prevent fee-eaten tiny stops on 5m/15m native candle strategies.",
-   "key": "nat_min_stop_pct",
-   "section": "ticb",
-   "value": 0.3
-  }
- ],
+ "ai_hints": [],
  "archive": [
   {
    "fails": [],
@@ -354,7 +263,7 @@
   },
   {
    "fails": [],
-   "score": 7.465355471426792,
+   "score": 7.358412370877843,
    "spec": {
     "all": [
      [
@@ -642,7 +551,7 @@
   },
   {
    "fails": [],
-   "score": 6.71162858838688,
+   "score": 6.705421534122664,
    "spec": {
     "all": [
      [
@@ -738,7 +647,7 @@
   },
   {
    "fails": [],
-   "score": 6.486049115938808,
+   "score": 6.446582076266079,
    "spec": {
     "all": [
      [
@@ -826,7 +735,7 @@
   },
   {
    "fails": [],
-   "score": 6.040700223836818,
+   "score": 5.858214240865822,
    "spec": {
     "all": [
      [
@@ -875,7 +784,7 @@
   },
   {
    "fails": [],
-   "score": 5.751589231707384,
+   "score": 5.752172872914024,
    "spec": {
     "all": [
      [
@@ -923,7 +832,7 @@
    "status": "CAND"
   }
  ],
- "cycle": 15,
+ "cycle": 16,
  "gate": {
   "avg": 0.1,
   "dd": 8.0,
@@ -940,104 +849,8 @@
   "t": 2.0,
   "win": 40.0
  },
- "generated": "2026-11-16 14:33 UTC",
+ "generated": "2026-11-16 23:24 UTC",
  "history": [
-  {
-   "family": "inside",
-   "n": 3363,
-   "name": "Inside #962 · v4",
-   "origin": "mutation",
-   "t": 10.524,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2683,
-   "name": "Breakout #469 · fix81",
-   "origin": "improve",
-   "t": 10.486,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2989,
-   "name": "Breakout #469 · fix4",
-   "origin": "improve",
-   "t": 11.967,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 3030,
-   "name": "Breakout #469 · fix27",
-   "origin": "improve",
-   "t": 11.625,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3030,
-   "name": "Inside #962 · fix63",
-   "origin": "improve",
-   "t": 11.094,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2611,
-   "name": "Breakout #469 · fix90",
-   "origin": "improve",
-   "t": 10.922,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3408,
-   "name": "Inside #962 · v6",
-   "origin": "mutation",
-   "t": 10.838,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3284,
-   "name": "Inside #962 · v3",
-   "origin": "mutation",
-   "t": 10.587,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2935,
-   "name": "Breakout #469 · fix95",
-   "origin": "improve",
-   "t": 10.542,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2681,
-   "name": "Breakout #469 · fix54",
-   "origin": "improve",
-   "t": 10.532,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3331,
-   "name": "Inside #962 · v2",
-   "origin": "mutation",
-   "t": 10.444,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 2542,
-   "name": "Inside #962 · fix45",
-   "origin": "improve",
-   "t": 10.326,
-   "tf": "15m"
-  },
   {
    "family": null,
    "n": 3414,
@@ -1341,13 +1154,109 @@
    "origin": "improve",
    "t": 10.832,
    "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2976,
+   "name": "Inside #962 · fix15",
+   "origin": "improve",
+   "t": 11.852,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2953,
+   "name": "Breakout #469 · fix95",
+   "origin": "improve",
+   "t": 11.464,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 3028,
+   "name": "Breakout #469 · fix5",
+   "origin": "improve",
+   "t": 11.409,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 3214,
+   "name": "Breakout #469 · v2",
+   "origin": "mutation",
+   "t": 11.136,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2579,
+   "name": "Breakout #469 · fix50",
+   "origin": "improve",
+   "t": 11.121,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2602,
+   "name": "Breakout #469 · fix97",
+   "origin": "improve",
+   "t": 11.04,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3410,
+   "name": "Inside #962 · v4",
+   "origin": "mutation",
+   "t": 11.002,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2550,
+   "name": "Breakout #469 · fix86",
+   "origin": "improve",
+   "t": 10.964,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3427,
+   "name": "Inside #962 · v3",
+   "origin": "mutation",
+   "t": 10.902,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3379,
+   "name": "Inside #962 · v6",
+   "origin": "mutation",
+   "t": 10.823,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2795,
+   "name": "Inside #962 · fix43",
+   "origin": "improve",
+   "t": 10.741,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2928,
+   "name": "Breakout #761",
+   "origin": "search",
+   "t": 10.237,
+   "tf": "15m"
   }
  ],
  "improved": 12,
- "prescreened": 49,
+ "prescreened": 33,
  "slots": {
   "RD1": {
-   "avg_r": 0.1700955517949673,
+   "avg_r": 0.1679572897720291,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1356,22 +1265,22 @@
    ],
    "family": "inside",
    "gate": null,
-   "n": 1256,
+   "n": 1258,
    "name": "Inside #962 · v9",
    "origin": "mutation",
-   "pf": 1.2718351513651007,
+   "pf": 1.2681494165477232,
    "spec_id": "01d6a848cb",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.7619047619047619,
-   "t": 3.4860491159388087,
-   "test_r": 0.20848717252825774,
+   "t": 3.446582076266079,
+   "test_r": 0.2054474825123827,
    "tf": "4h",
-   "train_r": 0.14445015308468165,
-   "win": 38.455414012738856
+   "train_r": 0.1428975322904134,
+   "win": 38.39427662957075
   },
   "RD2": {
-   "avg_r": 0.18475563466013847,
+   "avg_r": 0.16711119064585248,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1380,43 +1289,43 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 610,
+   "n": 644,
    "name": "Breakout #469 · v8",
    "origin": "mutation",
-   "pf": 1.3953005730257717,
+   "pf": 1.3545405626937663,
    "spec_id": "1cb8a446a1",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.8235294117647058,
-   "t": 3.0407002238368177,
-   "test_r": 0.23405902977881696,
+   "symbols_positive": 0.7777777777777778,
+   "t": 2.858214240865822,
+   "test_r": 0.21608399214612095,
    "tf": "4h",
-   "train_r": 0.15188670458101944,
-   "win": 31.475409836065577
+   "train_r": 0.13437807461717555,
+   "win": 31.211180124223603
   },
   "RD3": {
-   "avg_r": 0.14210755685025012,
+   "avg_r": 0.13877348301941755,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
    "family": "inside",
    "gate": null,
-   "n": 2033,
+   "n": 2030,
    "name": "Inside #962 · v3",
    "origin": "mutation",
-   "pf": 1.2568658841840863,
+   "pf": 1.2502435046772475,
    "spec_id": "a53c7093bf",
    "status": "PASS",
    "streak": null,
    "symbols_positive": 0.8260869565217391,
-   "t": 4.465355471426792,
-   "test_r": 0.14611041137707517,
+   "t": 4.358412370877843,
+   "test_r": 0.1446335628741039,
    "tf": "4h",
-   "train_r": 0.13943460887253428,
-   "win": 45.400885391047716
+   "train_r": 0.13486676311629334,
+   "win": 45.27093596059114
   },
   "RD4": {
-   "avg_r": 0.16130929942451175,
+   "avg_r": 0.16100093288408113,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1428,19 +1337,19 @@
    "n": 1529,
    "name": "Breakout #469 · fix29",
    "origin": "improve",
-   "pf": 1.2581329243336596,
+   "pf": 1.2576506747973328,
    "spec_id": "ee741fb893",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.75,
-   "t": 3.7116285883868803,
-   "test_r": 0.2718114030650371,
+   "t": 3.7054215341226637,
+   "test_r": 0.2709943745818198,
    "tf": "4h",
-   "train_r": 0.0875608943776181,
+   "train_r": 0.08759200560053036,
    "win": 37.99869195552649
   },
   "RD5": {
-   "avg_r": 0.1636793685792765,
+   "avg_r": 0.16370217083816563,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1452,19 +1361,19 @@
    "n": 620,
    "name": "Breakout #469 · fix28",
    "origin": "improve",
-   "pf": 1.3520210207632701,
+   "pf": 1.3521280604923536,
    "spec_id": "6bbe0f69b2",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.7777777777777778,
-   "t": 2.751589231707384,
-   "test_r": 0.1910626584691196,
+   "t": 2.7521728729140236,
+   "test_r": 0.19111966411634235,
    "tf": "4h",
    "train_r": 0.14542384198604777,
    "win": 30.32258064516129
   },
   "RD6": {
-   "avg_r": 0.085936534187405,
+   "avg_r": 0.08555670067832905,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1477,18 +1386,18 @@
    "n": 1659,
    "name": "Inside #962 · fix74",
    "origin": "improve",
-   "pf": 1.1308560019571112,
+   "pf": 1.1302776723149306,
    "spec_id": "7919faad00",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.782608695652174,
-   "t": 2.0573017222806427,
-   "test_r": 0.11603490294612054,
+   "symbols_positive": 0.7391304347826086,
+   "t": 2.0487502271539824,
+   "test_r": 0.115085327053579,
    "tf": "4h",
-   "train_r": 0.06585078860369938,
+   "train_r": 0.06585116508720748,
    "win": 35.1416515973478
   }
  },
- "tested": 52,
- "ts": 1794839608.9339666
+ "tested": 39,
+ "ts": 1794871489.4806726
 }
