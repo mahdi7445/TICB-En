@@ -6009,7 +6009,7 @@
     "source_signal_id": "ALT-000964",
     "side": "SELL",
     "stop": 0.01073,
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T07:45:42.219260+00:00"
   }
