@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "INJ",
-    "tf_label": "15M",
-    "entry": 8.26,
-    "level": null,
-    "result_r": 2.25,
-    "source_signal_id": "ALT-000681",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:23:07.762003+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "AAVE",
     "tf_label": "4H",
@@ -6012,5 +6000,19 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T07:45:42.219260+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 6.7,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000965",
+    "side": "SELL",
+    "stop": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-16T08:40:45.393097+00:00"
   }
 ]
