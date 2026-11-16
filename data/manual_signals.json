@@ -12148,5 +12148,19 @@
     "source_signal_id": "ALT-000961",
     "signal_message_id": 4167,
     "activated_at": "2026-11-15T15:19:03.451483+00:00"
+  },
+  {
+    "id": "src-ALT-000962",
+    "symbol": "ASTER/USD",
+    "side": "BUY",
+    "entry": 0.548,
+    "sl": 0.5377,
+    "status": "pending",
+    "created_at": 1794812819,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000962",
+    "signal_message_id": 4172
   }
 ]
