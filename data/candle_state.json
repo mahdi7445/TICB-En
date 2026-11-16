@@ -51930,7 +51930,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "NIGHT/USD",
         "tf_key": "manual",
         "display": "NIGHT",
@@ -51946,6 +51946,17 @@
             "ts": "2026-11-16T07:21:02.404761+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-16T14:34:16.436907+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-16T14:33:37+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 4173,
@@ -51956,7 +51967,8 @@
           "label": "15M"
         },
         "logical_tf": "15m",
-        "_replay_checked_ms": 1794838810053
+        "_replay_checked_ms": 1794838810053,
+        "close_type": "breakeven"
       },
       "hist": []
     },

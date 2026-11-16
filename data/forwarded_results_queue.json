@@ -6022,7 +6022,7 @@
     "side": "SELL",
     "stop": null,
     "src_ts": "2026-11-16T14:33:37+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T14:33:38.477619+00:00"
   }
