@@ -1,18 +1,6 @@
 [
   {
     "kind": "breakeven",
-    "ticker": "AAVE",
-    "tf_label": "4H",
-    "entry": 124.91,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000622",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:29:38.115539+00:00"
-  },
-  {
-    "kind": "breakeven",
     "ticker": "LDO",
     "tf_label": "4H",
     "entry": 0.325,
@@ -6014,5 +6002,19 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T08:40:45.393097+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 6.7,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000965",
+    "side": "SELL",
+    "stop": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-16T10:12:42.018320+00:00"
   }
 ]
