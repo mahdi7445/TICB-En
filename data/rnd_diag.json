@@ -21,7 +21,15 @@
   }
  },
  "findings": [],
- "generated": "2026-11-16 10:17",
+ "generated": "2026-11-16 10:57",
+ "integrity": [
+  {
+   "example": "ALT-000623",
+   "kind": "target_loss",
+   "n": 1,
+   "text": "Targets were hit but the trade is recorded as a full -1R loss (1×, e.g. ALT-000623)"
+  }
+ ],
  "n_total": 104,
  "overall": {
   "30d": {
@@ -49,7 +57,7 @@
   "win": 38.5
  },
  "settings": {
-  "ai_calls_day": 8,
+  "ai_calls_day": 6,
   "ai_model": "claude-sonnet-5-5",
   "ai_on": true,
   "cands": 40,

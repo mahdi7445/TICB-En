@@ -523,7 +523,8 @@
   }
  ],
  "last": {
-  "light_ts": 1794824269.807178,
+  "integrity_sig": "target_loss:1",
+  "light_ts": 1794826657.8129218,
   "modules_seen": 1794818396.90153,
   "modules_status": {
    "BZ15": "NA",
