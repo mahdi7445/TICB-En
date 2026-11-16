@@ -525,6 +525,11 @@
    "k": "request",
    "t": 1794828972.8844059,
    "x": "🧩 Re-test of all modules requested"
+  },
+  {
+   "k": "request",
+   "t": 1794856481.7712111,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
@@ -889,8 +894,8 @@
  "requests": [
   {
    "done": false,
-   "kind": "modules",
-   "t": 1794828972.8844059
+   "kind": "research",
+   "t": 1794856481.7712111
   }
  ],
  "settings": {
