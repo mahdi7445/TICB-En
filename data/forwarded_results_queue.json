@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "XLM",
-    "tf_label": "4H",
-    "entry": 0.1684,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000658",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:15:17.868931+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "INJ",
     "tf_label": "15M",
     "entry": 8.26,
@@ -6008,5 +5996,19 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-15T22:28:27.732003+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NIGHT",
+    "tf_label": "15M",
+    "entry": 0.04557,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000963",
+    "side": "SELL",
+    "stop": null,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-16T07:19:48.791937+00:00"
   }
 ]
