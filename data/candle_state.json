@@ -51885,7 +51885,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "ASTER/USD",
         "tf_key": "manual",
         "display": "ASTER",
@@ -51895,6 +51895,17 @@
             "type": "opened",
             "ts": "2026-11-16T07:08:00.135010+00:00",
             "price": 0.548
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-16T10:29:07.696508+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-16T10:25:20+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 4172,
@@ -51904,7 +51915,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
