@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "UNI",
-    "tf_label": "4H",
-    "entry": 7.35,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000599",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:58:13.426328+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "AVAX",
     "tf_label": "15M",
@@ -6019,5 +6007,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T10:27:28.603769+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ADA",
+    "tf_label": "5M",
+    "entry": 0.1506,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000966",
+    "side": "SELL",
+    "stop": 0.1513,
+    "src_ts": "2026-11-16T13:30:34+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-16T13:30:35.177472+00:00"
   }
 ]
