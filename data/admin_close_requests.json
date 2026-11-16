@@ -222,5 +222,12 @@
     "status": "applied",
     "requested_at": "2026-11-10T05:38:26.461520+00:00",
     "mode": "replay"
+  },
+  {
+    "key": "ALT-000521",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-16T21:10:23.469952+00:00",
+    "mode": "snooze7"
   }
 ]
