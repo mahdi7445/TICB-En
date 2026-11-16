@@ -52065,6 +52065,44 @@
         "close_type": "breakeven"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000966": {
+      "open_trade": {
+        "signal_id": "ALT-000966",
+        "source_signal_id": "ALT-000966",
+        "side": "SELL",
+        "entry": 0.1506,
+        "sl": 0.1513,
+        "r": 0.0006999999999999784,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "ADA/USD",
+        "tf_key": "manual",
+        "display": "ADA",
+        "opened_at_ms": 1794835784225,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-16T13:29:44.225239+00:00",
+            "price": 0.1506
+          }
+        ],
+        "signal_message_id": 4184,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
