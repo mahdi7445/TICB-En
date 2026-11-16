@@ -6019,7 +6019,7 @@
     "side": "SELL",
     "stop": 0.1513,
     "src_ts": "2026-11-16T13:30:34+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T13:30:35.177472+00:00"
   }
