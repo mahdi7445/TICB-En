@@ -6013,7 +6013,7 @@
     "source_signal_id": "ALT-000965",
     "side": "SELL",
     "stop": null,
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T10:12:42.018320+00:00"
   }
