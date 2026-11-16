@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "AVAX",
-    "tf_label": "15M",
-    "entry": 8.19,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000691",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T16:23:56.781392+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "SHIB",
     "tf_label": "15M",
     "entry": 4.47e-06,
@@ -6022,5 +6010,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T13:30:35.177472+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "NIGHT",
+    "tf_label": "15M",
+    "entry": 0.04557,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000963",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-16T14:33:37+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-16T14:33:38.477619+00:00"
   }
 ]
