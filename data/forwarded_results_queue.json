@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "LDO",
-    "tf_label": "4H",
-    "entry": 0.325,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000623",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:29:39.197319+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "UNI",
     "tf_label": "4H",
@@ -6016,5 +6004,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T10:12:42.018320+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "ASTER",
+    "tf_label": "5M",
+    "entry": 0.548,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000962",
+    "side": "BUY",
+    "stop": 0.5377,
+    "src_ts": "2026-11-16T10:25:20+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-16T10:27:28.603769+00:00"
   }
 ]
