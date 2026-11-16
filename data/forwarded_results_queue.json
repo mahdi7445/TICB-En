@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "INJ",
-    "tf_label": "15M",
-    "entry": 8.26,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000681",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T15:15:26.610407+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "INJ",
     "tf_label": "15M",
@@ -6010,5 +5998,19 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T07:19:48.791937+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "AKE",
+    "tf_label": "5M",
+    "entry": 0.0106,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000964",
+    "side": "SELL",
+    "stop": 0.01073,
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-16T07:45:42.219260+00:00"
   }
 ]
