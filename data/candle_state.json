@@ -52701,7 +52701,7 @@
           "6": true
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SOL/USD",
         "tf_key": "manual",
         "display": "SOL",
@@ -52735,6 +52735,17 @@
             "ts": "2026-11-17T23:10:12.432171+00:00",
             "level_r": 6,
             "note": "forwarded"
+          },
+          {
+            "type": "runner_stop",
+            "ts": "2026-11-17T23:11:03.155768+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-17T23:09:31+00:00",
+            "close_type": "runner_stop",
+            "final_r": 3.41
           }
         ],
         "signal_message_id": 4216,
@@ -52744,7 +52755,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "runner_stop"
       },
       "hist": []
     }
