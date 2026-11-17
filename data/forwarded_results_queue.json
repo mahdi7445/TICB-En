@@ -6043,7 +6043,7 @@
     "side": "BUY",
     "stop": 504.61,
     "src_ts": "2026-11-17T11:02:09+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-17T11:02:10.225592+00:00"
   }
