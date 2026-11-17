@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "SEI",
-    "tf_label": "5M",
-    "entry": 0.04549,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000698",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T17:43:45.510733+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "SEI",
     "tf_label": "5M",
@@ -6073,5 +6061,20 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-11-17T23:05:02.477446+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "5M",
+    "entry": 73.78,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000978",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-17T23:05:40+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-17T23:05:40.600690+00:00"
   }
 ]
