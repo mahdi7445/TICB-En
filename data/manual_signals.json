@@ -12388,5 +12388,19 @@
     "source_signal_id": "ALT-000977",
     "signal_message_id": 4212,
     "activated_at": "2026-11-17T16:10:43.386815+00:00"
+  },
+  {
+    "id": "src-ALT-000978",
+    "symbol": "SOL/USD",
+    "side": "BUY",
+    "entry": 73.78,
+    "sl": 73.58,
+    "status": "pending",
+    "created_at": 1794955070,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000978",
+    "signal_message_id": 4216
   }
 ]
