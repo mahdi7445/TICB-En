@@ -12395,12 +12395,13 @@
     "side": "BUY",
     "entry": 73.78,
     "sl": 73.58,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794955070,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000978",
-    "signal_message_id": 4216
+    "signal_message_id": 4216,
+    "activated_at": "2026-11-17T22:39:15.876974+00:00"
   }
 ]
