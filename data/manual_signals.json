@@ -12343,5 +12343,47 @@
     "source_signal_id": "ALT-000974",
     "signal_message_id": 4208,
     "activated_at": "2026-11-17T14:37:53.950975+00:00"
+  },
+  {
+    "id": "src-ALT-000975",
+    "symbol": "AAVE/USD",
+    "side": "BUY",
+    "entry": 112.5,
+    "sl": 110.28,
+    "status": "pending",
+    "created_at": 1794931765,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000975",
+    "signal_message_id": 4210
+  },
+  {
+    "id": "src-ALT-000976",
+    "symbol": "ATOM/USD",
+    "side": "SELL",
+    "entry": 1.32,
+    "sl": 1.41,
+    "status": "pending",
+    "created_at": 1794931788,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000976",
+    "signal_message_id": 4211
+  },
+  {
+    "id": "src-ALT-000977",
+    "symbol": "ATOM/USD",
+    "side": "SELL",
+    "entry": 1.32,
+    "sl": 1.41,
+    "status": "pending",
+    "created_at": 1794931789,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000977",
+    "signal_message_id": 4212
   }
 ]
