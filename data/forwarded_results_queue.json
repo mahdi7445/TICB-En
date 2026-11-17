@@ -6049,7 +6049,7 @@
     "side": "BUY",
     "stop": null,
     "src_ts": "2026-11-17T11:39:45+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-17T11:39:45.832508+00:00"
   }
