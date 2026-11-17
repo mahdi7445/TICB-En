@@ -12305,12 +12305,13 @@
     "side": "SELL",
     "entry": 0.05925,
     "sl": 0.05996,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794923342,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-000972",
-    "signal_message_id": 4205
+    "signal_message_id": 4205,
+    "activated_at": "2026-11-17T13:49:56.272862+00:00"
   }
 ]
