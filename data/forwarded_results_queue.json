@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "WLD",
-    "tf_label": "5M",
-    "entry": 0.3475,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000695",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T17:07:08.905943+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "HBAR",
     "tf_label": "5M",
     "entry": 0.06801,
@@ -6043,5 +6031,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-17T09:50:48.226565+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XMR",
+    "tf_label": "5M",
+    "entry": 510.85,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000971",
+    "side": "BUY",
+    "stop": 504.61,
+    "src_ts": "2026-11-17T11:02:09+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-17T11:02:10.225592+00:00"
   }
 ]
