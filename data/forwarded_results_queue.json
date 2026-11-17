@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "HBAR",
-    "tf_label": "5M",
-    "entry": 0.06801,
-    "level": 4,
-    "result_r": 1.4,
-    "source_signal_id": "ALT-000697",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T17:07:11.427328+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "SEI",
     "tf_label": "5M",
     "entry": 0.04549,
@@ -6052,5 +6040,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-17T11:39:45.832508+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 7.27,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000970",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-17T12:32:14+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-17T12:32:15.435416+00:00"
   }
 ]
