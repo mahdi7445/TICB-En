@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "CAP",
-    "tf_label": "1M",
-    "entry": 0.1098,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000696",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T16:47:00.735669+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "WLD",
     "tf_label": "5M",
@@ -6034,5 +6022,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-16T20:50:10.427268+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 7.28,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000967",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-17T07:51:40+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-17T07:51:41.301412+00:00"
   }
 ]
