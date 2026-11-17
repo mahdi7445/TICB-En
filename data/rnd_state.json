@@ -584,6 +584,16 @@
    "k": "request",
    "t": 1794910736.4566805,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "research",
+   "t": 1794925353.5335903,
+   "x": "🔬 Cycle 18: 31 ideas screened, 12 auto-improved variants · AI used: none · waiting: claude (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر), deepseek (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر), grok (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر), openai (⏳ اعتبار/سهمیه تمام شده — تل"
+  },
+  {
+   "k": "research",
+   "t": 1794925353.5335903,
+   "x": "⏳ AI unavailable: claude: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; openai: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; deepseek: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; grok: ⏳ اعتبار/سهمیه "
   }
  ],
  "last": {
@@ -610,10 +620,10 @@
     "since": 1792681928.229496,
     "win": 41.2
    },
-   "ts": 1794923544.9324605
+   "ts": 1794925353.5335903
   },
   "integrity_sig": "target_loss:1",
-  "light_ts": 1794923544.9324605,
+  "light_ts": 1794925353.5335903,
   "modules_seen": 1794888197.1750152,
   "modules_status": {
    "BZ15": "NA",
@@ -654,12 +664,12 @@
   },
   "n": 104,
   "research": {
-   "ai": true,
-   "cycle": 17,
-   "generated": "2026-11-17 08:47 UTC",
-   "tested": 52
+   "ai": false,
+   "cycle": 18,
+   "generated": "2026-11-17 14:09 UTC",
+   "tested": 40
   },
-  "research_seen": 1794905259.5212185
+  "research_seen": 1794924564.0924883
  },
  "proposals": [
   {
@@ -1037,37 +1047,37 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 17,
+   "cycle": 18,
    "name": "Inside #962 · v9",
    "spec_id": "01d6a848cb",
    "status": "CAND"
   },
   "RD2": {
-   "cycle": 17,
+   "cycle": 18,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 17,
+   "cycle": 18,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
    "status": "PASS"
   },
   "RD4": {
-   "cycle": 17,
+   "cycle": 18,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
    "status": "CAND"
   },
   "RD5": {
-   "cycle": 17,
+   "cycle": 18,
    "name": "Breakout #469 · fix28",
    "spec_id": "6bbe0f69b2",
    "status": "CAND"
   },
   "RD6": {
-   "cycle": 17,
+   "cycle": 18,
    "name": "Inside #962 · fix74",
    "spec_id": "7919faad00",
    "status": "CAND"
