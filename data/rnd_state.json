@@ -579,6 +579,11 @@
    "k": "apply",
    "t": 1794906760.430993,
    "x": "✋ 🧠 AI idea: [groq] prevent stops that are too tight relative to price movement"
+  },
+  {
+   "k": "request",
+   "t": 1794910736.4566805,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
@@ -605,10 +610,10 @@
     "since": 1792681928.229496,
     "win": 41.2
    },
-   "ts": 1794910603.9039679
+   "ts": 1794910731.6208394
   },
   "integrity_sig": "target_loss:1",
-  "light_ts": 1794910286.1543968,
+  "light_ts": 1794910731.6208394,
   "modules_seen": 1794888197.1750152,
   "modules_status": {
    "BZ15": "NA",
@@ -1015,7 +1020,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794856481.7712111
+   "t": 1794910736.4566805
   }
  ],
  "settings": {
