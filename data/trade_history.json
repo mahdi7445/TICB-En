@@ -41890,5 +41890,56 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "ALT-000967",
+    "events": [
+      {
+        "type": "opened",
+        "ts": "2026-11-17T07:21:49.166188+00:00",
+        "price": 7.28
+      },
+      {
+        "type": "rr",
+        "ts": "2026-11-17T07:52:24.660123+00:00",
+        "level_r": 1,
+        "note": "forwarded"
+      },
+      {
+        "type": "breakeven",
+        "ts": "2026-11-17T08:46:00.881943+00:00",
+        "note": "forwarded"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-17T08:45:23+00:00",
+        "close_type": "breakeven",
+        "final_r": 0.2
+      }
+    ],
+    "symbol": "INJ/USD",
+    "tf": "manual",
+    "logical_tf": "5m",
+    "side": "BUY",
+    "entry": 7.28,
+    "sl": 7.16,
+    "final_r": 0.2,
+    "targets_hit": [
+      "T1"
+    ],
+    "close_type": "breakeven",
+    "close_reason": "Breakeven (Target 1 banked, rest closed at entry)",
+    "opened_at": "2026-11-17T07:21:49.166000+00:00",
+    "closed_at": "2026-11-17T08:45:23+00:00",
+    "r_pct": 1.6484,
+    "mfe_r": null,
+    "mae_r": null,
+    "quality_tier": null,
+    "strategy": null,
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": null,
+    "fee_r_est": null,
+    "net_r_est": null
   }
 ]
