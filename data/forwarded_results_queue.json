@@ -4,18 +4,6 @@
     "ticker": "ZEC",
     "tf_label": "5M",
     "entry": 1256.3,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000700",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T17:07:17.117840+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ZEC",
-    "tf_label": "5M",
-    "entry": 1256.3,
     "level": 4,
     "result_r": 1.4,
     "source_signal_id": "ALT-000700",
@@ -6061,5 +6049,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-17T14:25:59.852184+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOGE",
+    "tf_label": "15M",
+    "entry": 0.05925,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000972",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-17T15:49:37+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-17T15:49:38.408285+00:00"
   }
 ]
