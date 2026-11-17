@@ -12260,12 +12260,13 @@
     "side": "BUY",
     "entry": 509.97,
     "sl": 504.21,
-    "status": "pending",
+    "status": "active",
     "created_at": 1794905947,
     "forwarded_tracking": true,
     "tf_label": "5M",
     "silent": true,
     "source_signal_id": "ALT-000969",
-    "signal_message_id": 4196
+    "signal_message_id": 4196,
+    "activated_at": "2026-11-17T09:00:43.353553+00:00"
   }
 ]
