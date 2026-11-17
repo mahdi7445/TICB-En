@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "WLD",
-    "tf_label": "5M",
-    "entry": 0.3475,
-    "level": 1.5,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000695",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T16:59:44.844778+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "LIGHTER",
     "tf_label": "15M",
@@ -6037,5 +6025,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-17T07:51:41.301412+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "INJ",
+    "tf_label": "5M",
+    "entry": 7.28,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000967",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-17T08:45:23+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-17T08:45:24.131146+00:00"
   }
 ]
