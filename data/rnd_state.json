@@ -594,6 +594,11 @@
    "k": "research",
    "t": 1794925353.5335903,
    "x": "⏳ AI unavailable: claude: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; openai: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; deepseek: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; grok: ⏳ اعتبار/سهمیه "
+  },
+  {
+   "k": "research",
+   "t": 1794939767.094165,
+   "x": "🔬 Cycle 19: 36 ideas screened, 12 auto-improved variants · AI used: groq"
   }
  ],
  "last": {
@@ -620,10 +625,10 @@
     "since": 1792681928.229496,
     "win": 41.2
    },
-   "ts": 1794937956.0128145
+   "ts": 1794939767.094165
   },
   "integrity_sig": "target_loss:1",
-  "light_ts": 1794937956.0128145,
+  "light_ts": 1794939767.094165,
   "modules_seen": 1794930493.9896023,
   "modules_status": {
    "BZ15": "NA",
@@ -664,12 +669,12 @@
   },
   "n": 104,
   "research": {
-   "ai": false,
-   "cycle": 18,
-   "generated": "2026-11-17 14:09 UTC",
+   "ai": true,
+   "cycle": 19,
+   "generated": "2026-11-17 18:07 UTC",
    "tested": 40
   },
-  "research_seen": 1794924564.0924883
+  "research_seen": 1794938873.2347453
  },
  "proposals": [
   {
@@ -1047,37 +1052,37 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 18,
+   "cycle": 19,
    "name": "Inside #962 · v9",
    "spec_id": "01d6a848cb",
    "status": "CAND"
   },
   "RD2": {
-   "cycle": 18,
+   "cycle": 19,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 18,
+   "cycle": 19,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
    "status": "PASS"
   },
   "RD4": {
-   "cycle": 18,
+   "cycle": 19,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
    "status": "CAND"
   },
   "RD5": {
-   "cycle": 18,
+   "cycle": 19,
    "name": "Breakout #469 · fix28",
    "spec_id": "6bbe0f69b2",
    "status": "CAND"
   },
   "RD6": {
-   "cycle": 18,
+   "cycle": 19,
    "name": "Inside #962 · fix74",
    "spec_id": "7919faad00",
    "status": "CAND"
