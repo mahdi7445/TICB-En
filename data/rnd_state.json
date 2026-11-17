@@ -582,8 +582,33 @@
   }
  ],
  "last": {
+  "guard": {
+   "all": {
+    "avg": -0.162,
+    "bad": false,
+    "base_avg": -0.268,
+    "base_n": 70,
+    "base_pf": 0.67,
+    "n": 34,
+    "pf": 0.77,
+    "since": 1792681928.229496,
+    "win": 41.2
+   },
+   "ticb": {
+    "avg": -0.162,
+    "bad": false,
+    "base_avg": -0.268,
+    "base_n": 70,
+    "base_pf": 0.67,
+    "n": 34,
+    "pf": 0.77,
+    "since": 1792681928.229496,
+    "win": 41.2
+   },
+   "ts": 1794910286.1543968
+  },
   "integrity_sig": "target_loss:1",
-  "light_ts": 1794908417.253052,
+  "light_ts": 1794910286.1543968,
   "modules_seen": 1794888197.1750152,
   "modules_status": {
    "BZ15": "NA",
