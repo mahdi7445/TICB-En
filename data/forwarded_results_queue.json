@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "XRP",
-    "tf_label": "4H",
-    "entry": 1.29,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000641",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-11-05T17:57:57.429166+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "LDO",
     "tf_label": "15M",
@@ -6079,5 +6067,20 @@
     "status": "pending",
     "attempts": 0,
     "queued_at": "2026-11-17T23:08:57.426836+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "SOL",
+    "tf_label": "5M",
+    "entry": 73.78,
+    "level": null,
+    "result_r": 3.41,
+    "source_signal_id": "ALT-000978",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-17T23:09:31+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-17T23:09:31.662364+00:00"
   }
 ]
