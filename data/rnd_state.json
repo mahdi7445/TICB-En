@@ -311,6 +311,44 @@
    "section": "ticb",
    "state": "active",
    "t": 1794733571.0114844
+  },
+  {
+   "base": {
+    "avg": -0.2492,
+    "n": 11,
+    "pf": 0.606
+   },
+   "by": "admin",
+   "desc": "🧠 AI idea: [gemini] Increase cooldown on 15m candle signals to prevent over-trading in choppy ranges.",
+   "id": "4fd48252",
+   "key": "mx_CN15_cd",
+   "kind": "ctl",
+   "new": 6,
+   "old": 0,
+   "rb_n": 30,
+   "rule": null,
+   "section": "ticb",
+   "state": "active",
+   "t": 1794906760.4298315
+  },
+  {
+   "base": {
+    "avg": 0.0,
+    "n": 0,
+    "pf": 0.0
+   },
+   "by": "admin",
+   "desc": "🧠 AI idea: [groq] prevent stops that are too tight relative to price movement",
+   "id": "aa0a9f96",
+   "key": "nat_min_stop_pct",
+   "kind": "ctl",
+   "new": 0.25,
+   "old": 0.3,
+   "rb_n": 30,
+   "rule": null,
+   "section": "sgnl",
+   "state": "active",
+   "t": 1794906760.430993
   }
  ],
  "blacklist": [],
@@ -318,7 +356,8 @@
   "20769": 0,
   "20770": 0,
   "20771": 0,
-  "20772": 0
+  "20772": 0,
+  "20774": 0
  },
  "journal": [
   {
@@ -530,6 +569,16 @@
    "k": "request",
    "t": 1794856481.7712111,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "apply",
+   "t": 1794906760.4298315,
+   "x": "✋ 🧠 AI idea: [gemini] Increase cooldown on 15m candle signals to prevent over-trading in choppy ranges."
+  },
+  {
+   "k": "apply",
+   "t": 1794906760.430993,
+   "x": "✋ 🧠 AI idea: [groq] prevent stops that are too tight relative to price movement"
   }
  ],
  "last": {
@@ -890,6 +939,7 @@
    "value": 0.3
   },
   {
+   "applied_at": 1794906760.4298315,
    "auto_ok": false,
    "created": 1794906606.1366189,
    "desc": "🧠 AI idea: [gemini] Increase cooldown on 15m candle signals to prevent over-trading in choppy ranges.",
@@ -908,10 +958,11 @@
    "rule": null,
    "section": "ticb",
    "src": "ai",
-   "status": "pending",
+   "status": "applied",
    "value": 6
   },
   {
+   "applied_at": 1794906760.430993,
    "auto_ok": false,
    "created": 1794906606.136781,
    "desc": "🧠 AI idea: [groq] prevent stops that are too tight relative to price movement",
@@ -930,7 +981,7 @@
    "rule": null,
    "section": "sgnl",
    "src": "ai",
-   "status": "pending",
+   "status": "applied",
    "value": 0.25
   }
  ],
