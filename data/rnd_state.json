@@ -1,1086 +1,1086 @@
 {
- "applied": [
-  {
-   "base": {
-    "avg": 0.0,
-    "n": 0,
-    "pf": 0.0
-   },
-   "by": "admin",
-   "desc": "Enable NEW strategy RD2 “Inside #962” (PASS, 4H) — lab: +0.18R/trade, PF 1.30, win 40%, t=4.8, ladder Q2",
-   "id": "55538ad5",
-   "key": "RD2",
-   "kind": "enable",
-   "new": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   },
-   "old": {
-    "sgnl": {
-     "mod_RD2": false,
-     "mx_RD2_day": 0
+  "applied": [
+    {
+      "base": {
+        "avg": 0.0,
+        "n": 0,
+        "pf": 0.0
+      },
+      "by": "admin",
+      "desc": "Enable NEW strategy RD2 “Inside #962” (PASS, 4H) — lab: +0.18R/trade, PF 1.30, win 40%, t=4.8, ladder Q2",
+      "id": "55538ad5",
+      "key": "RD2",
+      "kind": "enable",
+      "new": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      },
+      "old": {
+        "sgnl": {
+          "mod_RD2": false,
+          "mx_RD2_day": 0
+        },
+        "ticb": {
+          "mod_RD2": false,
+          "mx_RD2_day": 0
+        }
+      },
+      "rb_n": 30,
+      "rule": null,
+      "section": null,
+      "state": "active",
+      "t": 1794496822.3910868
     },
-    "ticb": {
-     "mod_RD2": false,
-     "mx_RD2_day": 0
-    }
-   },
-   "rb_n": 30,
-   "rule": null,
-   "section": null,
-   "state": "active",
-   "t": 1794496822.3910868
-  },
-  {
-   "base": {
-    "avg": 0.0,
-    "n": 0,
-    "pf": 0.0
-   },
-   "by": "admin",
-   "desc": "Enable NEW strategy RD3 “Breakout #469” (CAND, 4H) — lab: +0.16R/trade, PF 1.25, win 36%, t=2.3, ladder auto",
-   "id": "4c205e44",
-   "key": "RD3",
-   "kind": "enable",
-   "new": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   },
-   "old": {
-    "sgnl": {
-     "mod_RD3": false,
-     "mx_RD3_day": 0
+    {
+      "base": {
+        "avg": 0.0,
+        "n": 0,
+        "pf": 0.0
+      },
+      "by": "admin",
+      "desc": "Enable NEW strategy RD3 “Breakout #469” (CAND, 4H) — lab: +0.16R/trade, PF 1.25, win 36%, t=2.3, ladder auto",
+      "id": "4c205e44",
+      "key": "RD3",
+      "kind": "enable",
+      "new": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      },
+      "old": {
+        "sgnl": {
+          "mod_RD3": false,
+          "mx_RD3_day": 0
+        },
+        "ticb": {
+          "mod_RD3": false,
+          "mx_RD3_day": 0
+        }
+      },
+      "rb_n": 30,
+      "rule": null,
+      "section": null,
+      "state": "active",
+      "t": 1794496822.3947248
     },
-    "ticb": {
-     "mod_RD3": false,
-     "mx_RD3_day": 0
-    }
-   },
-   "rb_n": 30,
-   "rule": null,
-   "section": null,
-   "state": "active",
-   "t": 1794496822.3947248
-  },
-  {
-   "base": {
-    "avg": 0.0,
-    "n": 0,
-    "pf": 0.0
-   },
-   "by": "admin",
-   "desc": "Enable NEW strategy RD4 “Squeeze #360” (CAND, 1H) — lab: +0.07R/trade, PF 1.11, win 37%, t=1.5, ladder auto",
-   "id": "b63c5a18",
-   "key": "RD4",
-   "kind": "enable",
-   "new": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   },
-   "old": {
-    "sgnl": {
-     "mod_RD4": false,
-     "mx_RD4_day": 0
+    {
+      "base": {
+        "avg": 0.0,
+        "n": 0,
+        "pf": 0.0
+      },
+      "by": "admin",
+      "desc": "Enable NEW strategy RD4 “Squeeze #360” (CAND, 1H) — lab: +0.07R/trade, PF 1.11, win 37%, t=1.5, ladder auto",
+      "id": "b63c5a18",
+      "key": "RD4",
+      "kind": "enable",
+      "new": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      },
+      "old": {
+        "sgnl": {
+          "mod_RD4": false,
+          "mx_RD4_day": 0
+        },
+        "ticb": {
+          "mod_RD4": false,
+          "mx_RD4_day": 0
+        }
+      },
+      "rb_n": 30,
+      "rule": null,
+      "section": null,
+      "state": "active",
+      "t": 1794496822.3977873
     },
-    "ticb": {
-     "mod_RD4": false,
-     "mx_RD4_day": 0
-    }
-   },
-   "rb_n": 30,
-   "rule": null,
-   "section": null,
-   "state": "active",
-   "t": 1794496822.3977873
-  },
-  {
-   "base": {
-    "avg": 0.0,
-    "n": 0,
-    "pf": 0.0
-   },
-   "by": "admin",
-   "desc": "Enable NEW strategy RD6 “Momentum #581” (CAND, 4H) — lab: +0.18R/trade, PF 1.42, win 30%, t=3.2, ladder auto",
-   "id": "e99e5551",
-   "key": "RD6",
-   "kind": "enable",
-   "new": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   },
-   "old": {
-    "sgnl": {
-     "mod_RD6": false,
-     "mx_RD6_day": 0
+    {
+      "base": {
+        "avg": 0.0,
+        "n": 0,
+        "pf": 0.0
+      },
+      "by": "admin",
+      "desc": "Enable NEW strategy RD6 “Momentum #581” (CAND, 4H) — lab: +0.18R/trade, PF 1.42, win 30%, t=3.2, ladder auto",
+      "id": "e99e5551",
+      "key": "RD6",
+      "kind": "enable",
+      "new": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      },
+      "old": {
+        "sgnl": {
+          "mod_RD6": false,
+          "mx_RD6_day": 0
+        },
+        "ticb": {
+          "mod_RD6": false,
+          "mx_RD6_day": 0
+        }
+      },
+      "rb_n": 30,
+      "rule": null,
+      "section": null,
+      "state": "active",
+      "t": 1794496822.400893
     },
-    "ticb": {
-     "mod_RD6": false,
-     "mx_RD6_day": 0
-    }
-   },
-   "rb_n": 30,
-   "rule": null,
-   "section": null,
-   "state": "active",
-   "t": 1794496822.400893
-  },
-  {
-   "base": {
-    "avg": 0.0,
-    "n": 0,
-    "pf": 0.0
-   },
-   "by": "admin",
-   "desc": "Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3",
-   "id": "e6f01a7d",
-   "key": "RD5",
-   "kind": "enable",
-   "new": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   },
-   "old": {
-    "sgnl": {
-     "mod_RD5": false,
-     "mx_RD5_day": 0
+    {
+      "base": {
+        "avg": 0.0,
+        "n": 0,
+        "pf": 0.0
+      },
+      "by": "admin",
+      "desc": "Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3",
+      "id": "e6f01a7d",
+      "key": "RD5",
+      "kind": "enable",
+      "new": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      },
+      "old": {
+        "sgnl": {
+          "mod_RD5": false,
+          "mx_RD5_day": 0
+        },
+        "ticb": {
+          "mod_RD5": false,
+          "mx_RD5_day": 0
+        }
+      },
+      "rb_n": 30,
+      "rule": null,
+      "section": null,
+      "state": "active",
+      "t": 1794533838.1615827
     },
-    "ticb": {
-     "mod_RD5": false,
-     "mx_RD5_day": 0
-    }
-   },
-   "rb_n": 30,
-   "rule": null,
-   "section": null,
-   "state": "active",
-   "t": 1794533838.1615827
-  },
-  {
-   "base": {
-    "avg": 0.0,
-    "n": 0,
-    "pf": 0.0
-   },
-   "by": "admin",
-   "desc": "Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto",
-   "id": "d9724cf2",
-   "key": "RD1",
-   "kind": "enable",
-   "new": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   },
-   "old": {
-    "sgnl": {
-     "mod_RD1": false,
-     "mx_RD1_day": 0
+    {
+      "base": {
+        "avg": 0.0,
+        "n": 0,
+        "pf": 0.0
+      },
+      "by": "admin",
+      "desc": "Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto",
+      "id": "d9724cf2",
+      "key": "RD1",
+      "kind": "enable",
+      "new": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      },
+      "old": {
+        "sgnl": {
+          "mod_RD1": false,
+          "mx_RD1_day": 0
+        },
+        "ticb": {
+          "mod_RD1": false,
+          "mx_RD1_day": 0
+        }
+      },
+      "rb_n": 30,
+      "rule": null,
+      "section": null,
+      "state": "active",
+      "t": 1794533863.3377132
     },
-    "ticb": {
-     "mod_RD1": false,
-     "mx_RD1_day": 0
+    {
+      "base": {
+        "avg": -0.018,
+        "n": 50,
+        "pf": 0.971
+      },
+      "by": "admin",
+      "desc": "🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop.",
+      "id": "4b76e0dd",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "new": 0.4,
+      "old": 0.3,
+      "rb_n": 30,
+      "rule": null,
+      "section": "ticb",
+      "state": "active",
+      "t": 1794654951.4705527
+    },
+    {
+      "base": {
+        "avg": -0.018,
+        "n": 50,
+        "pf": 0.971
+      },
+      "by": "admin",
+      "desc": "🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R.",
+      "id": "a0c3da7d",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "new": 0.25,
+      "old": 0.4,
+      "rb_n": 30,
+      "rule": null,
+      "section": "ticb",
+      "state": "active",
+      "t": 1794669026.416737
+    },
+    {
+      "base": {
+        "avg": -0.6988,
+        "n": 9,
+        "pf": 0.335
+      },
+      "by": "admin",
+      "desc": "🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift.",
+      "id": "1b7cb659",
+      "key": "mx_CN5M_cd",
+      "kind": "ctl",
+      "new": 12,
+      "old": 0,
+      "rb_n": 30,
+      "rule": null,
+      "section": "ticb",
+      "state": "active",
+      "t": 1794669026.4180233
+    },
+    {
+      "base": {
+        "avg": -0.018,
+        "n": 50,
+        "pf": 0.971
+      },
+      "by": "admin",
+      "desc": "🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees.",
+      "id": "e60e03a5",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "new": 0.5,
+      "old": 0.25,
+      "rb_n": 30,
+      "rule": null,
+      "section": "ticb",
+      "state": "active",
+      "t": 1794721963.477387
+    },
+    {
+      "base": {
+        "avg": -0.018,
+        "n": 50,
+        "pf": 0.971
+      },
+      "by": "admin",
+      "desc": "🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees.",
+      "id": "a4795448",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "new": 0.05,
+      "old": 0.5,
+      "rb_n": 30,
+      "rule": null,
+      "section": "ticb",
+      "state": "active",
+      "t": 1794733571.0101175
+    },
+    {
+      "base": {
+        "avg": -0.018,
+        "n": 50,
+        "pf": 0.971
+      },
+      "by": "admin",
+      "desc": "🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops",
+      "id": "491a726f",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "new": 0.3,
+      "old": 0.05,
+      "rb_n": 30,
+      "rule": null,
+      "section": "ticb",
+      "state": "active",
+      "t": 1794733571.0114844
+    },
+    {
+      "base": {
+        "avg": -0.2492,
+        "n": 11,
+        "pf": 0.606
+      },
+      "by": "admin",
+      "desc": "🧠 AI idea: [gemini] Increase cooldown on 15m candle signals to prevent over-trading in choppy ranges.",
+      "id": "4fd48252",
+      "key": "mx_CN15_cd",
+      "kind": "ctl",
+      "new": 6,
+      "old": 0,
+      "rb_n": 30,
+      "rule": null,
+      "section": "ticb",
+      "state": "active",
+      "t": 1794906760.4298315
+    },
+    {
+      "base": {
+        "avg": 0.0,
+        "n": 0,
+        "pf": 0.0
+      },
+      "by": "admin",
+      "desc": "🧠 AI idea: [groq] prevent stops that are too tight relative to price movement",
+      "id": "aa0a9f96",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "new": 0.25,
+      "old": 0.3,
+      "rb_n": 30,
+      "rule": null,
+      "section": "sgnl",
+      "state": "active",
+      "t": 1794906760.430993
     }
-   },
-   "rb_n": 30,
-   "rule": null,
-   "section": null,
-   "state": "active",
-   "t": 1794533863.3377132
+  ],
+  "blacklist": [],
+  "changes": {
+    "20769": 0,
+    "20770": 0,
+    "20771": 0,
+    "20772": 0,
+    "20774": 0
   },
-  {
-   "base": {
-    "avg": -0.018,
-    "n": 50,
-    "pf": 0.971
-   },
-   "by": "admin",
-   "desc": "🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop.",
-   "id": "4b76e0dd",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "new": 0.4,
-   "old": 0.3,
-   "rb_n": 30,
-   "rule": null,
-   "section": "ticb",
-   "state": "active",
-   "t": 1794654951.4705527
+  "journal": [
+    {
+      "k": "request",
+      "t": 1794486518.3612063,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794486563.1476257,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "apply",
+      "t": 1794496822.3910868,
+      "x": "✋ Enable NEW strategy RD2 “Inside #962” (PASS, 4H) — lab: +0.18R/trade, PF 1.30, win 40%, t=4.8, ladder Q2"
+    },
+    {
+      "k": "apply",
+      "t": 1794496822.3947248,
+      "x": "✋ Enable NEW strategy RD3 “Breakout #469” (CAND, 4H) — lab: +0.16R/trade, PF 1.25, win 36%, t=2.3, ladder auto"
+    },
+    {
+      "k": "apply",
+      "t": 1794496822.3977873,
+      "x": "✋ Enable NEW strategy RD4 “Squeeze #360” (CAND, 1H) — lab: +0.07R/trade, PF 1.11, win 37%, t=1.5, ladder auto"
+    },
+    {
+      "k": "apply",
+      "t": 1794496822.400893,
+      "x": "✋ Enable NEW strategy RD6 “Momentum #581” (CAND, 4H) — lab: +0.18R/trade, PF 1.42, win 30%, t=3.2, ladder auto"
+    },
+    {
+      "k": "request",
+      "t": 1794497948.119448,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794497994.3418207,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "mode",
+      "t": 1794503630.2702043,
+      "x": "Mode → 🤖 Auto (within guardrails)"
+    },
+    {
+      "k": "mode",
+      "t": 1794503634.9502919,
+      "x": "Mode → ✋ Semi-auto (you approve)"
+    },
+    {
+      "k": "request",
+      "t": 1794508604.0747292,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "apply",
+      "t": 1794533838.1615827,
+      "x": "✋ Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3"
+    },
+    {
+      "k": "apply",
+      "t": 1794533863.3377132,
+      "x": "✋ Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto"
+    },
+    {
+      "k": "request",
+      "t": 1794555809.9381056,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794573059.8537993,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794590736.5365398,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794646785.8287623,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794647125.0173364,
+      "x": "🧩 Re-test of all modules requested"
+    },
+    {
+      "k": "mode",
+      "t": 1794647143.6878927,
+      "x": "Mode → 🤖 Auto (within guardrails)"
+    },
+    {
+      "k": "request",
+      "t": 1794647230.1284866,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "mode",
+      "t": 1794647239.7683465,
+      "x": "Mode → ✋ Semi-auto (you approve)"
+    },
+    {
+      "k": "request",
+      "t": 1794654680.8805683,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794654885.9678266,
+      "x": "🧩 Re-test of all modules requested"
+    },
+    {
+      "k": "apply",
+      "t": 1794654951.4705527,
+      "x": "✋ 🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop."
+    },
+    {
+      "k": "request",
+      "t": 1794661352.8916132,
+      "x": "🧩 Re-test of all modules requested"
+    },
+    {
+      "k": "request",
+      "t": 1794664079.7737043,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794666352.4257202,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "apply",
+      "t": 1794669026.416737,
+      "x": "✋ 🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R."
+    },
+    {
+      "k": "apply",
+      "t": 1794669026.4180233,
+      "x": "✋ 🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift."
+    },
+    {
+      "k": "request",
+      "t": 1794685711.1061096,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794685732.2409534,
+      "x": "🧩 Re-test of all modules requested"
+    },
+    {
+      "k": "request",
+      "t": 1794688710.6223075,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "apply",
+      "t": 1794721963.477387,
+      "x": "✋ 🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees."
+    },
+    {
+      "k": "apply",
+      "t": 1794733571.0101175,
+      "x": "✋ 🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees."
+    },
+    {
+      "k": "apply",
+      "t": 1794733571.0114844,
+      "x": "✋ 🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops"
+    },
+    {
+      "k": "request",
+      "t": 1794733610.7127593,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794743044.2495894,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794759628.5654573,
+      "x": "🧩 Re-test of all modules requested"
+    },
+    {
+      "k": "request",
+      "t": 1794762178.4040422,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794825238.559642,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "request",
+      "t": 1794828972.8844059,
+      "x": "🧩 Re-test of all modules requested"
+    },
+    {
+      "k": "request",
+      "t": 1794856481.7712111,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "apply",
+      "t": 1794906760.4298315,
+      "x": "✋ 🧠 AI idea: [gemini] Increase cooldown on 15m candle signals to prevent over-trading in choppy ranges."
+    },
+    {
+      "k": "apply",
+      "t": 1794906760.430993,
+      "x": "✋ 🧠 AI idea: [groq] prevent stops that are too tight relative to price movement"
+    },
+    {
+      "k": "request",
+      "t": 1794910736.4566805,
+      "x": "🔬 Deep research requested"
+    },
+    {
+      "k": "research",
+      "t": 1794925353.5335903,
+      "x": "🔬 Cycle 18: 31 ideas screened, 12 auto-improved variants · AI used: none · waiting: claude (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر), deepseek (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر), grok (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر), openai (⏳ اعتبار/سهمیه تمام شده — تل"
+    },
+    {
+      "k": "research",
+      "t": 1794925353.5335903,
+      "x": "⏳ AI unavailable: claude: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; openai: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; deepseek: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; grok: ⏳ اعتبار/سهمیه "
+    }
+  ],
+  "last": {
+    "guard": {
+      "all": {
+        "avg": -0.162,
+        "bad": false,
+        "base_avg": -0.268,
+        "base_n": 70,
+        "base_pf": 0.67,
+        "n": 34,
+        "pf": 0.77,
+        "since": 1792681928.229496,
+        "win": 41.2
+      },
+      "ticb": {
+        "avg": -0.162,
+        "bad": false,
+        "base_avg": -0.268,
+        "base_n": 70,
+        "base_pf": 0.67,
+        "n": 34,
+        "pf": 0.77,
+        "since": 1792681928.229496,
+        "win": 41.2
+      },
+      "ts": 1794928908.35975
+    },
+    "integrity_sig": "target_loss:1",
+    "light_ts": 1794928908.35975,
+    "modules_seen": 1794888197.1750152,
+    "modules_status": {
+      "BZ15": "NA",
+      "BZ1H": "FAIL",
+      "BZ1M": "NA",
+      "BZ4H": "FAIL",
+      "BZ5M": "NA",
+      "CNDL@15m": "FAIL",
+      "CNDL@1h": "FAIL",
+      "CNDL@1m": "FAIL",
+      "CNDL@4h": "FAIL",
+      "CNDL@5m": "FAIL",
+      "DKS": "NA",
+      "FBR": "FAIL",
+      "LSM": "NA",
+      "MRA": "FAIL",
+      "MRB": "FAIL",
+      "MTC": "NA",
+      "MTS": "NA",
+      "RD1": "NA",
+      "RD2": "NA",
+      "RD3": "NA",
+      "RD4": "NA",
+      "RD5": "NA",
+      "RD6": "NA",
+      "RFD": "FAIL",
+      "RSM": "NA",
+      "SMM": "FAIL",
+      "SMS": "FAIL",
+      "SWR": "FAIL",
+      "TKF": "FAIL",
+      "TKM": "NA",
+      "TKS": "NA",
+      "TPB": "FAIL",
+      "TPS": "FAIL",
+      "VCB": "NA",
+      "VCR": "NA"
+    },
+    "n": 104,
+    "research": {
+      "ai": false,
+      "cycle": 18,
+      "generated": "2026-11-17 14:09 UTC",
+      "tested": 40
+    },
+    "research_seen": 1794924564.0924883
   },
-  {
-   "base": {
-    "avg": -0.018,
-    "n": 50,
-    "pf": 0.971
-   },
-   "by": "admin",
-   "desc": "🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R.",
-   "id": "a0c3da7d",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "new": 0.25,
-   "old": 0.4,
-   "rb_n": 30,
-   "rule": null,
-   "section": "ticb",
-   "state": "active",
-   "t": 1794669026.416737
+  "proposals": [
+    {
+      "applied_at": 1794496822.3910868,
+      "auto_ok": true,
+      "created": 1794494728.551369,
+      "desc": "Enable NEW strategy RD2 “Inside #962” (PASS, 4H) — lab: +0.18R/trade, PF 1.30, win 40%, t=4.8, ladder Q2",
+      "ev": {
+        "avg": 0.17924390490063458,
+        "h1": 0.18398457183096012,
+        "h2": 0.17213919186181773,
+        "n": 1884,
+        "pf": 1.2978745229321411,
+        "t": 4.823032304916878,
+        "win": 40.445859872611464
+      },
+      "id": "55538ad5",
+      "key": "RD2",
+      "kind": "enable",
+      "rule": null,
+      "section": null,
+      "src": "research",
+      "status": "applied",
+      "value": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      }
+    },
+    {
+      "applied_at": 1794496822.3947248,
+      "auto_ok": true,
+      "created": 1794494728.5513842,
+      "desc": "Enable NEW strategy RD3 “Breakout #469” (CAND, 4H) — lab: +0.16R/trade, PF 1.25, win 36%, t=2.3, ladder auto",
+      "ev": {
+        "avg": 0.16174717573035746,
+        "h1": 0.1192646802141065,
+        "h2": 0.22547091900473396,
+        "n": 650,
+        "pf": 1.2507332023578388,
+        "t": 2.3260541476693737,
+        "win": 36.46153846153846
+      },
+      "id": "4c205e44",
+      "key": "RD3",
+      "kind": "enable",
+      "rule": null,
+      "section": null,
+      "src": "research",
+      "status": "applied",
+      "value": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      }
+    },
+    {
+      "applied_at": 1794496822.3977873,
+      "auto_ok": true,
+      "created": 1794494728.5513957,
+      "desc": "Enable NEW strategy RD4 “Squeeze #360” (CAND, 1H) — lab: +0.07R/trade, PF 1.11, win 37%, t=1.5, ladder auto",
+      "ev": {
+        "avg": 0.07075684404289989,
+        "h1": 0.03172986490773591,
+        "h2": 0.1292192587873755,
+        "n": 1249,
+        "pf": 1.1061616109195744,
+        "t": 1.4603955733822636,
+        "win": 37.229783827061645
+      },
+      "id": "b63c5a18",
+      "key": "RD4",
+      "kind": "enable",
+      "rule": null,
+      "section": null,
+      "src": "research",
+      "status": "applied",
+      "value": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      }
+    },
+    {
+      "applied_at": 1794496822.400893,
+      "auto_ok": true,
+      "created": 1794494728.551413,
+      "desc": "Enable NEW strategy RD6 “Momentum #581” (CAND, 4H) — lab: +0.18R/trade, PF 1.42, win 30%, t=3.2, ladder auto",
+      "ev": {
+        "avg": 0.18383141092642846,
+        "h1": 0.06894897900644889,
+        "h2": 0.35593829950088846,
+        "n": 662,
+        "pf": 1.4180275693634181,
+        "t": 3.2264321980872666,
+        "win": 30.362537764350456
+      },
+      "id": "e99e5551",
+      "key": "RD6",
+      "kind": "enable",
+      "rule": null,
+      "section": null,
+      "src": "research",
+      "status": "applied",
+      "value": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      }
+    },
+    {
+      "applied_at": 1794533863.3377132,
+      "auto_ok": true,
+      "created": 1794530260.5687935,
+      "desc": "Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto",
+      "ev": {
+        "avg": 0.12064416773049015,
+        "h1": 0.09076510104000392,
+        "h2": 0.16538000026846195,
+        "n": 1803,
+        "pf": 1.1859489968771084,
+        "t": 2.954899135570051,
+        "win": 36.882972823072656
+      },
+      "id": "d9724cf2",
+      "key": "RD1",
+      "kind": "enable",
+      "rule": null,
+      "section": null,
+      "src": "research",
+      "status": "applied",
+      "value": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      }
+    },
+    {
+      "applied_at": 1794533838.1615827,
+      "auto_ok": true,
+      "created": 1794530260.5688255,
+      "desc": "Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3",
+      "ev": {
+        "avg": 0.14279592948378536,
+        "h1": 0.1497814695997682,
+        "h2": 0.13232624343341118,
+        "n": 2024,
+        "pf": 1.2586056536657513,
+        "t": 4.4861661530483286,
+        "win": 45.50395256916996
+      },
+      "id": "e6f01a7d",
+      "key": "RD5",
+      "kind": "enable",
+      "rule": null,
+      "section": null,
+      "src": "research",
+      "status": "applied",
+      "value": {
+        "sections": [
+          "ticb",
+          "sgnl"
+        ]
+      }
+    },
+    {
+      "applied_at": 1794654951.4705527,
+      "auto_ok": false,
+      "created": 1794654788.5372028,
+      "desc": "🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop.",
+      "ev": {
+        "avg": 0,
+        "h1": 0,
+        "h2": 0,
+        "n": 0,
+        "pf": 0,
+        "t": 0,
+        "win": 0
+      },
+      "id": "4b76e0dd",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "rule": null,
+      "section": "ticb",
+      "src": "ai",
+      "status": "applied",
+      "value": 0.4
+    },
+    {
+      "applied_at": 1794669026.416737,
+      "auto_ok": false,
+      "created": 1794668802.1351032,
+      "desc": "🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R.",
+      "ev": {
+        "avg": 0,
+        "h1": 0,
+        "h2": 0,
+        "n": 0,
+        "pf": 0,
+        "t": 0,
+        "win": 0
+      },
+      "id": "a0c3da7d",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "rule": null,
+      "section": "ticb",
+      "src": "ai",
+      "status": "applied",
+      "value": 0.25
+    },
+    {
+      "applied_at": 1794669026.4180233,
+      "auto_ok": false,
+      "created": 1794668802.1352687,
+      "desc": "🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift.",
+      "ev": {
+        "avg": 0,
+        "h1": 0,
+        "h2": 0,
+        "n": 0,
+        "pf": 0,
+        "t": 0,
+        "win": 0
+      },
+      "id": "1b7cb659",
+      "key": "mx_CN5M_cd",
+      "kind": "ctl",
+      "rule": null,
+      "section": "ticb",
+      "src": "ai",
+      "status": "applied",
+      "value": 12
+    },
+    {
+      "applied_at": 1794721963.477387,
+      "auto_ok": false,
+      "created": 1794702900.3402195,
+      "desc": "🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees.",
+      "ev": {
+        "avg": 0,
+        "h1": 0,
+        "h2": 0,
+        "n": 0,
+        "pf": 0,
+        "t": 0,
+        "win": 0
+      },
+      "id": "e60e03a5",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "rule": null,
+      "section": "ticb",
+      "src": "ai",
+      "status": "applied",
+      "value": 0.5
+    },
+    {
+      "applied_at": 1794733571.0101175,
+      "auto_ok": false,
+      "created": 1794733533.2218468,
+      "desc": "🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees.",
+      "ev": {
+        "avg": 0,
+        "h1": 0,
+        "h2": 0,
+        "n": 0,
+        "pf": 0,
+        "t": 0,
+        "win": 0
+      },
+      "id": "a4795448",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "rule": null,
+      "section": "ticb",
+      "src": "ai",
+      "status": "applied",
+      "value": 0.05
+    },
+    {
+      "applied_at": 1794733571.0114844,
+      "auto_ok": false,
+      "created": 1794733533.222043,
+      "desc": "🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops",
+      "ev": {
+        "avg": 0,
+        "h1": 0,
+        "h2": 0,
+        "n": 0,
+        "pf": 0,
+        "t": 0,
+        "win": 0
+      },
+      "id": "491a726f",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "rule": null,
+      "section": "ticb",
+      "src": "ai",
+      "status": "applied",
+      "value": 0.3
+    },
+    {
+      "applied_at": 1794906760.4298315,
+      "auto_ok": false,
+      "created": 1794906606.1366189,
+      "desc": "🧠 AI idea: [gemini] Increase cooldown on 15m candle signals to prevent over-trading in choppy ranges.",
+      "ev": {
+        "avg": 0,
+        "h1": 0,
+        "h2": 0,
+        "n": 0,
+        "pf": 0,
+        "t": 0,
+        "win": 0
+      },
+      "id": "4fd48252",
+      "key": "mx_CN15_cd",
+      "kind": "ctl",
+      "rule": null,
+      "section": "ticb",
+      "src": "ai",
+      "status": "applied",
+      "value": 6
+    },
+    {
+      "applied_at": 1794906760.430993,
+      "auto_ok": false,
+      "created": 1794906606.136781,
+      "desc": "🧠 AI idea: [groq] prevent stops that are too tight relative to price movement",
+      "ev": {
+        "avg": 0,
+        "h1": 0,
+        "h2": 0,
+        "n": 0,
+        "pf": 0,
+        "t": 0,
+        "win": 0
+      },
+      "id": "aa0a9f96",
+      "key": "nat_min_stop_pct",
+      "kind": "ctl",
+      "rule": null,
+      "section": "sgnl",
+      "src": "ai",
+      "status": "applied",
+      "value": 0.25
+    }
+  ],
+  "protected": {},
+  "requests": [
+    {
+      "done": false,
+      "kind": "research",
+      "t": 1794910736.4566805
+    }
+  ],
+  "settings": {
+    "ai_calls_day": 6,
+    "ai_mistral": false,
+    "g_avg": 0.1,
+    "g_dd": 8.0,
+    "g_on": false,
+    "g_rr": 2.0,
+    "g_win": 40.0,
+    "mode": "semi",
+    "modules_apply": true,
+    "target_pf": 1.3
   },
-  {
-   "base": {
-    "avg": -0.6988,
-    "n": 9,
-    "pf": 0.335
-   },
-   "by": "admin",
-   "desc": "🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift.",
-   "id": "1b7cb659",
-   "key": "mx_CN5M_cd",
-   "kind": "ctl",
-   "new": 12,
-   "old": 0,
-   "rb_n": 30,
-   "rule": null,
-   "section": "ticb",
-   "state": "active",
-   "t": 1794669026.4180233
-  },
-  {
-   "base": {
-    "avg": -0.018,
-    "n": 50,
-    "pf": 0.971
-   },
-   "by": "admin",
-   "desc": "🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees.",
-   "id": "e60e03a5",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "new": 0.5,
-   "old": 0.25,
-   "rb_n": 30,
-   "rule": null,
-   "section": "ticb",
-   "state": "active",
-   "t": 1794721963.477387
-  },
-  {
-   "base": {
-    "avg": -0.018,
-    "n": 50,
-    "pf": 0.971
-   },
-   "by": "admin",
-   "desc": "🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees.",
-   "id": "a4795448",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "new": 0.05,
-   "old": 0.5,
-   "rb_n": 30,
-   "rule": null,
-   "section": "ticb",
-   "state": "active",
-   "t": 1794733571.0101175
-  },
-  {
-   "base": {
-    "avg": -0.018,
-    "n": 50,
-    "pf": 0.971
-   },
-   "by": "admin",
-   "desc": "🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops",
-   "id": "491a726f",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "new": 0.3,
-   "old": 0.05,
-   "rb_n": 30,
-   "rule": null,
-   "section": "ticb",
-   "state": "active",
-   "t": 1794733571.0114844
-  },
-  {
-   "base": {
-    "avg": -0.2492,
-    "n": 11,
-    "pf": 0.606
-   },
-   "by": "admin",
-   "desc": "🧠 AI idea: [gemini] Increase cooldown on 15m candle signals to prevent over-trading in choppy ranges.",
-   "id": "4fd48252",
-   "key": "mx_CN15_cd",
-   "kind": "ctl",
-   "new": 6,
-   "old": 0,
-   "rb_n": 30,
-   "rule": null,
-   "section": "ticb",
-   "state": "active",
-   "t": 1794906760.4298315
-  },
-  {
-   "base": {
-    "avg": 0.0,
-    "n": 0,
-    "pf": 0.0
-   },
-   "by": "admin",
-   "desc": "🧠 AI idea: [groq] prevent stops that are too tight relative to price movement",
-   "id": "aa0a9f96",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "new": 0.25,
-   "old": 0.3,
-   "rb_n": 30,
-   "rule": null,
-   "section": "sgnl",
-   "state": "active",
-   "t": 1794906760.430993
+  "slots": {
+    "RD1": {
+      "cycle": 18,
+      "name": "Inside #962 · v9",
+      "spec_id": "01d6a848cb",
+      "status": "CAND"
+    },
+    "RD2": {
+      "cycle": 18,
+      "name": "Breakout #469 · v8",
+      "spec_id": "1cb8a446a1",
+      "status": "CAND"
+    },
+    "RD3": {
+      "cycle": 18,
+      "name": "Inside #962 · v3",
+      "spec_id": "a53c7093bf",
+      "status": "PASS"
+    },
+    "RD4": {
+      "cycle": 18,
+      "name": "Breakout #469 · fix29",
+      "spec_id": "ee741fb893",
+      "status": "CAND"
+    },
+    "RD5": {
+      "cycle": 18,
+      "name": "Breakout #469 · fix28",
+      "spec_id": "6bbe0f69b2",
+      "status": "CAND"
+    },
+    "RD6": {
+      "cycle": 18,
+      "name": "Inside #962 · fix74",
+      "spec_id": "7919faad00",
+      "status": "CAND"
+    }
   }
- ],
- "blacklist": [],
- "changes": {
-  "20769": 0,
-  "20770": 0,
-  "20771": 0,
-  "20772": 0,
-  "20774": 0
- },
- "journal": [
-  {
-   "k": "request",
-   "t": 1794486518.3612063,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794486563.1476257,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "apply",
-   "t": 1794496822.3910868,
-   "x": "✋ Enable NEW strategy RD2 “Inside #962” (PASS, 4H) — lab: +0.18R/trade, PF 1.30, win 40%, t=4.8, ladder Q2"
-  },
-  {
-   "k": "apply",
-   "t": 1794496822.3947248,
-   "x": "✋ Enable NEW strategy RD3 “Breakout #469” (CAND, 4H) — lab: +0.16R/trade, PF 1.25, win 36%, t=2.3, ladder auto"
-  },
-  {
-   "k": "apply",
-   "t": 1794496822.3977873,
-   "x": "✋ Enable NEW strategy RD4 “Squeeze #360” (CAND, 1H) — lab: +0.07R/trade, PF 1.11, win 37%, t=1.5, ladder auto"
-  },
-  {
-   "k": "apply",
-   "t": 1794496822.400893,
-   "x": "✋ Enable NEW strategy RD6 “Momentum #581” (CAND, 4H) — lab: +0.18R/trade, PF 1.42, win 30%, t=3.2, ladder auto"
-  },
-  {
-   "k": "request",
-   "t": 1794497948.119448,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794497994.3418207,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "mode",
-   "t": 1794503630.2702043,
-   "x": "Mode → 🤖 Auto (within guardrails)"
-  },
-  {
-   "k": "mode",
-   "t": 1794503634.9502919,
-   "x": "Mode → ✋ Semi-auto (you approve)"
-  },
-  {
-   "k": "request",
-   "t": 1794508604.0747292,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "apply",
-   "t": 1794533838.1615827,
-   "x": "✋ Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3"
-  },
-  {
-   "k": "apply",
-   "t": 1794533863.3377132,
-   "x": "✋ Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto"
-  },
-  {
-   "k": "request",
-   "t": 1794555809.9381056,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794573059.8537993,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794590736.5365398,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794646785.8287623,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794647125.0173364,
-   "x": "🧩 Re-test of all modules requested"
-  },
-  {
-   "k": "mode",
-   "t": 1794647143.6878927,
-   "x": "Mode → 🤖 Auto (within guardrails)"
-  },
-  {
-   "k": "request",
-   "t": 1794647230.1284866,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "mode",
-   "t": 1794647239.7683465,
-   "x": "Mode → ✋ Semi-auto (you approve)"
-  },
-  {
-   "k": "request",
-   "t": 1794654680.8805683,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794654885.9678266,
-   "x": "🧩 Re-test of all modules requested"
-  },
-  {
-   "k": "apply",
-   "t": 1794654951.4705527,
-   "x": "✋ 🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop."
-  },
-  {
-   "k": "request",
-   "t": 1794661352.8916132,
-   "x": "🧩 Re-test of all modules requested"
-  },
-  {
-   "k": "request",
-   "t": 1794664079.7737043,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794666352.4257202,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "apply",
-   "t": 1794669026.416737,
-   "x": "✋ 🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R."
-  },
-  {
-   "k": "apply",
-   "t": 1794669026.4180233,
-   "x": "✋ 🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift."
-  },
-  {
-   "k": "request",
-   "t": 1794685711.1061096,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794685732.2409534,
-   "x": "🧩 Re-test of all modules requested"
-  },
-  {
-   "k": "request",
-   "t": 1794688710.6223075,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "apply",
-   "t": 1794721963.477387,
-   "x": "✋ 🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees."
-  },
-  {
-   "k": "apply",
-   "t": 1794733571.0101175,
-   "x": "✋ 🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees."
-  },
-  {
-   "k": "apply",
-   "t": 1794733571.0114844,
-   "x": "✋ 🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops"
-  },
-  {
-   "k": "request",
-   "t": 1794733610.7127593,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794743044.2495894,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794759628.5654573,
-   "x": "🧩 Re-test of all modules requested"
-  },
-  {
-   "k": "request",
-   "t": 1794762178.4040422,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794825238.559642,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "request",
-   "t": 1794828972.8844059,
-   "x": "🧩 Re-test of all modules requested"
-  },
-  {
-   "k": "request",
-   "t": 1794856481.7712111,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "apply",
-   "t": 1794906760.4298315,
-   "x": "✋ 🧠 AI idea: [gemini] Increase cooldown on 15m candle signals to prevent over-trading in choppy ranges."
-  },
-  {
-   "k": "apply",
-   "t": 1794906760.430993,
-   "x": "✋ 🧠 AI idea: [groq] prevent stops that are too tight relative to price movement"
-  },
-  {
-   "k": "request",
-   "t": 1794910736.4566805,
-   "x": "🔬 Deep research requested"
-  },
-  {
-   "k": "research",
-   "t": 1794925353.5335903,
-   "x": "🔬 Cycle 18: 31 ideas screened, 12 auto-improved variants · AI used: none · waiting: claude (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر), deepseek (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر), grok (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر), openai (⏳ اعتبار/سهمیه تمام شده — تل"
-  },
-  {
-   "k": "research",
-   "t": 1794925353.5335903,
-   "x": "⏳ AI unavailable: claude: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; openai: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; deepseek: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h38m دیگر; grok: ⏳ اعتبار/سهمیه "
-  }
- ],
- "last": {
-  "guard": {
-   "all": {
-    "avg": -0.162,
-    "bad": false,
-    "base_avg": -0.268,
-    "base_n": 70,
-    "base_pf": 0.67,
-    "n": 34,
-    "pf": 0.77,
-    "since": 1792681928.229496,
-    "win": 41.2
-   },
-   "ticb": {
-    "avg": -0.162,
-    "bad": false,
-    "base_avg": -0.268,
-    "base_n": 70,
-    "base_pf": 0.67,
-    "n": 34,
-    "pf": 0.77,
-    "since": 1792681928.229496,
-    "win": 41.2
-   },
-   "ts": 1794927164.3554208
-  },
-  "integrity_sig": "target_loss:1",
-  "light_ts": 1794927164.3554208,
-  "modules_seen": 1794888197.1750152,
-  "modules_status": {
-   "BZ15": "NA",
-   "BZ1H": "FAIL",
-   "BZ1M": "NA",
-   "BZ4H": "FAIL",
-   "BZ5M": "NA",
-   "CNDL@15m": "FAIL",
-   "CNDL@1h": "FAIL",
-   "CNDL@1m": "FAIL",
-   "CNDL@4h": "FAIL",
-   "CNDL@5m": "FAIL",
-   "DKS": "NA",
-   "FBR": "FAIL",
-   "LSM": "NA",
-   "MRA": "FAIL",
-   "MRB": "FAIL",
-   "MTC": "NA",
-   "MTS": "NA",
-   "RD1": "NA",
-   "RD2": "NA",
-   "RD3": "NA",
-   "RD4": "NA",
-   "RD5": "NA",
-   "RD6": "NA",
-   "RFD": "FAIL",
-   "RSM": "NA",
-   "SMM": "FAIL",
-   "SMS": "FAIL",
-   "SWR": "FAIL",
-   "TKF": "FAIL",
-   "TKM": "NA",
-   "TKS": "NA",
-   "TPB": "FAIL",
-   "TPS": "FAIL",
-   "VCB": "NA",
-   "VCR": "NA"
-  },
-  "n": 104,
-  "research": {
-   "ai": false,
-   "cycle": 18,
-   "generated": "2026-11-17 14:09 UTC",
-   "tested": 40
-  },
-  "research_seen": 1794924564.0924883
- },
- "proposals": [
-  {
-   "applied_at": 1794496822.3910868,
-   "auto_ok": true,
-   "created": 1794494728.551369,
-   "desc": "Enable NEW strategy RD2 “Inside #962” (PASS, 4H) — lab: +0.18R/trade, PF 1.30, win 40%, t=4.8, ladder Q2",
-   "ev": {
-    "avg": 0.17924390490063458,
-    "h1": 0.18398457183096012,
-    "h2": 0.17213919186181773,
-    "n": 1884,
-    "pf": 1.2978745229321411,
-    "t": 4.823032304916878,
-    "win": 40.445859872611464
-   },
-   "id": "55538ad5",
-   "key": "RD2",
-   "kind": "enable",
-   "rule": null,
-   "section": null,
-   "src": "research",
-   "status": "applied",
-   "value": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   }
-  },
-  {
-   "applied_at": 1794496822.3947248,
-   "auto_ok": true,
-   "created": 1794494728.5513842,
-   "desc": "Enable NEW strategy RD3 “Breakout #469” (CAND, 4H) — lab: +0.16R/trade, PF 1.25, win 36%, t=2.3, ladder auto",
-   "ev": {
-    "avg": 0.16174717573035746,
-    "h1": 0.1192646802141065,
-    "h2": 0.22547091900473396,
-    "n": 650,
-    "pf": 1.2507332023578388,
-    "t": 2.3260541476693737,
-    "win": 36.46153846153846
-   },
-   "id": "4c205e44",
-   "key": "RD3",
-   "kind": "enable",
-   "rule": null,
-   "section": null,
-   "src": "research",
-   "status": "applied",
-   "value": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   }
-  },
-  {
-   "applied_at": 1794496822.3977873,
-   "auto_ok": true,
-   "created": 1794494728.5513957,
-   "desc": "Enable NEW strategy RD4 “Squeeze #360” (CAND, 1H) — lab: +0.07R/trade, PF 1.11, win 37%, t=1.5, ladder auto",
-   "ev": {
-    "avg": 0.07075684404289989,
-    "h1": 0.03172986490773591,
-    "h2": 0.1292192587873755,
-    "n": 1249,
-    "pf": 1.1061616109195744,
-    "t": 1.4603955733822636,
-    "win": 37.229783827061645
-   },
-   "id": "b63c5a18",
-   "key": "RD4",
-   "kind": "enable",
-   "rule": null,
-   "section": null,
-   "src": "research",
-   "status": "applied",
-   "value": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   }
-  },
-  {
-   "applied_at": 1794496822.400893,
-   "auto_ok": true,
-   "created": 1794494728.551413,
-   "desc": "Enable NEW strategy RD6 “Momentum #581” (CAND, 4H) — lab: +0.18R/trade, PF 1.42, win 30%, t=3.2, ladder auto",
-   "ev": {
-    "avg": 0.18383141092642846,
-    "h1": 0.06894897900644889,
-    "h2": 0.35593829950088846,
-    "n": 662,
-    "pf": 1.4180275693634181,
-    "t": 3.2264321980872666,
-    "win": 30.362537764350456
-   },
-   "id": "e99e5551",
-   "key": "RD6",
-   "kind": "enable",
-   "rule": null,
-   "section": null,
-   "src": "research",
-   "status": "applied",
-   "value": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   }
-  },
-  {
-   "applied_at": 1794533863.3377132,
-   "auto_ok": true,
-   "created": 1794530260.5687935,
-   "desc": "Enable NEW strategy RD1 “Momentum #481” (CAND, 1H) — lab: +0.12R/trade, PF 1.19, win 37%, t=3.0, ladder auto",
-   "ev": {
-    "avg": 0.12064416773049015,
-    "h1": 0.09076510104000392,
-    "h2": 0.16538000026846195,
-    "n": 1803,
-    "pf": 1.1859489968771084,
-    "t": 2.954899135570051,
-    "win": 36.882972823072656
-   },
-   "id": "d9724cf2",
-   "key": "RD1",
-   "kind": "enable",
-   "rule": null,
-   "section": null,
-   "src": "research",
-   "status": "applied",
-   "value": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   }
-  },
-  {
-   "applied_at": 1794533838.1615827,
-   "auto_ok": true,
-   "created": 1794530260.5688255,
-   "desc": "Enable NEW strategy RD5 “Inside #962 · v9” (PASS, 4H) — lab: +0.14R/trade, PF 1.26, win 46%, t=4.5, ladder H3",
-   "ev": {
-    "avg": 0.14279592948378536,
-    "h1": 0.1497814695997682,
-    "h2": 0.13232624343341118,
-    "n": 2024,
-    "pf": 1.2586056536657513,
-    "t": 4.4861661530483286,
-    "win": 45.50395256916996
-   },
-   "id": "e6f01a7d",
-   "key": "RD5",
-   "kind": "enable",
-   "rule": null,
-   "section": null,
-   "src": "research",
-   "status": "applied",
-   "value": {
-    "sections": [
-     "ticb",
-     "sgnl"
-    ]
-   }
-  },
-  {
-   "applied_at": 1794654951.4705527,
-   "auto_ok": false,
-   "created": 1794654788.5372028,
-   "desc": "🧠 AI idea: [gemini] Raise minimum stop distance to prevent fee-eaten tiny stops during tight range chop.",
-   "ev": {
-    "avg": 0,
-    "h1": 0,
-    "h2": 0,
-    "n": 0,
-    "pf": 0,
-    "t": 0,
-    "win": 0
-   },
-   "id": "4b76e0dd",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "rule": null,
-   "section": "ticb",
-   "src": "ai",
-   "status": "applied",
-   "value": 0.4
-  },
-  {
-   "applied_at": 1794669026.416737,
-   "auto_ok": false,
-   "created": 1794668802.1351032,
-   "desc": "🧠 AI idea: [gemini] Prevent fee-eaten micro-stops on low timeframes from destroying overall strategy net R.",
-   "ev": {
-    "avg": 0,
-    "h1": 0,
-    "h2": 0,
-    "n": 0,
-    "pf": 0,
-    "t": 0,
-    "win": 0
-   },
-   "id": "a0c3da7d",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "rule": null,
-   "section": "ticb",
-   "src": "ai",
-   "status": "applied",
-   "value": 0.25
-  },
-  {
-   "applied_at": 1794669026.4180233,
-   "auto_ok": false,
-   "created": 1794668802.1352687,
-   "desc": "🧠 AI idea: [gemini] Reduce over-trading on 5m timeframes where CN5M strategy shows strong negative drift.",
-   "ev": {
-    "avg": 0,
-    "h1": 0,
-    "h2": 0,
-    "n": 0,
-    "pf": 0,
-    "t": 0,
-    "win": 0
-   },
-   "id": "1b7cb659",
-   "key": "mx_CN5M_cd",
-   "kind": "ctl",
-   "rule": null,
-   "section": "ticb",
-   "src": "ai",
-   "status": "applied",
-   "value": 12
-  },
-  {
-   "applied_at": 1794721963.477387,
-   "auto_ok": false,
-   "created": 1794702900.3402195,
-   "desc": "🧠 AI idea: [gemini] Filters out tight stops below 0.5% that get eaten by spread and trading fees.",
-   "ev": {
-    "avg": 0,
-    "h1": 0,
-    "h2": 0,
-    "n": 0,
-    "pf": 0,
-    "t": 0,
-    "win": 0
-   },
-   "id": "e60e03a5",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "rule": null,
-   "section": "ticb",
-   "src": "ai",
-   "status": "applied",
-   "value": 0.5
-  },
-  {
-   "applied_at": 1794733571.0101175,
-   "auto_ok": false,
-   "created": 1794733533.2218468,
-   "desc": "🧠 AI idea: [gemini] Prevents tiny stops on low timeframes that get instantly eaten by market spread and fees.",
-   "ev": {
-    "avg": 0,
-    "h1": 0,
-    "h2": 0,
-    "n": 0,
-    "pf": 0,
-    "t": 0,
-    "win": 0
-   },
-   "id": "a4795448",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "rule": null,
-   "section": "ticb",
-   "src": "ai",
-   "status": "applied",
-   "value": 0.05
-  },
-  {
-   "applied_at": 1794733571.0114844,
-   "auto_ok": false,
-   "created": 1794733533.222043,
-   "desc": "🧠 AI idea: [groq] Increase minimum risk percent to avoid fee‑eaten tiny stops",
-   "ev": {
-    "avg": 0,
-    "h1": 0,
-    "h2": 0,
-    "n": 0,
-    "pf": 0,
-    "t": 0,
-    "win": 0
-   },
-   "id": "491a726f",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "rule": null,
-   "section": "ticb",
-   "src": "ai",
-   "status": "applied",
-   "value": 0.3
-  },
-  {
-   "applied_at": 1794906760.4298315,
-   "auto_ok": false,
-   "created": 1794906606.1366189,
-   "desc": "🧠 AI idea: [gemini] Increase cooldown on 15m candle signals to prevent over-trading in choppy ranges.",
-   "ev": {
-    "avg": 0,
-    "h1": 0,
-    "h2": 0,
-    "n": 0,
-    "pf": 0,
-    "t": 0,
-    "win": 0
-   },
-   "id": "4fd48252",
-   "key": "mx_CN15_cd",
-   "kind": "ctl",
-   "rule": null,
-   "section": "ticb",
-   "src": "ai",
-   "status": "applied",
-   "value": 6
-  },
-  {
-   "applied_at": 1794906760.430993,
-   "auto_ok": false,
-   "created": 1794906606.136781,
-   "desc": "🧠 AI idea: [groq] prevent stops that are too tight relative to price movement",
-   "ev": {
-    "avg": 0,
-    "h1": 0,
-    "h2": 0,
-    "n": 0,
-    "pf": 0,
-    "t": 0,
-    "win": 0
-   },
-   "id": "aa0a9f96",
-   "key": "nat_min_stop_pct",
-   "kind": "ctl",
-   "rule": null,
-   "section": "sgnl",
-   "src": "ai",
-   "status": "applied",
-   "value": 0.25
-  }
- ],
- "protected": {},
- "requests": [
-  {
-   "done": false,
-   "kind": "research",
-   "t": 1794910736.4566805
-  }
- ],
- "settings": {
-  "ai_calls_day": 6,
-  "ai_mistral": false,
-  "g_avg": 0.1,
-  "g_dd": 8.0,
-  "g_on": false,
-  "g_rr": 2.0,
-  "g_win": 40.0,
-  "mode": "semi",
-  "modules_apply": true,
-  "target_pf": 1.3
- },
- "slots": {
-  "RD1": {
-   "cycle": 18,
-   "name": "Inside #962 · v9",
-   "spec_id": "01d6a848cb",
-   "status": "CAND"
-  },
-  "RD2": {
-   "cycle": 18,
-   "name": "Breakout #469 · v8",
-   "spec_id": "1cb8a446a1",
-   "status": "CAND"
-  },
-  "RD3": {
-   "cycle": 18,
-   "name": "Inside #962 · v3",
-   "spec_id": "a53c7093bf",
-   "status": "PASS"
-  },
-  "RD4": {
-   "cycle": 18,
-   "name": "Breakout #469 · fix29",
-   "spec_id": "ee741fb893",
-   "status": "CAND"
-  },
-  "RD5": {
-   "cycle": 18,
-   "name": "Breakout #469 · fix28",
-   "spec_id": "6bbe0f69b2",
-   "status": "CAND"
-  },
-  "RD6": {
-   "cycle": 18,
-   "name": "Inside #962 · fix74",
-   "spec_id": "7919faad00",
-   "status": "CAND"
-  }
- }
 }
