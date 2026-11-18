@@ -53307,6 +53307,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000992": {
+      "open_trade": {
+        "signal_id": "ALT-000992",
+        "source_signal_id": "ALT-000992",
+        "side": "SELL",
+        "entry": 3.828e-06,
+        "sl": 4.054999999999999e-06,
+        "r": 2.269999999999997e-07,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "SHIB/USD",
+        "tf_key": "manual",
+        "display": "SHIB",
+        "opened_at_ms": 1795004122632,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-18T12:15:22.632023+00:00",
+            "price": 3.828e-06
+          }
+        ],
+        "signal_message_id": 4242,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
