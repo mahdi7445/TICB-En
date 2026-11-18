@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "INJ",
-    "tf_label": "15M",
-    "entry": 7.957,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000703",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T18:35:12.504658+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ATOM",
     "tf_label": "5M",
@@ -6085,5 +6073,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-17T23:10:20.983089+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "5M",
+    "entry": 74.62,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000979",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-18T01:30:10+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-18T01:30:10.558596+00:00"
   }
 ]
