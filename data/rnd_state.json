@@ -916,6 +916,11 @@
    "k": "apply",
    "t": 1795039287.768238,
    "x": "✋ Enable NEW strategy RD12 “Inside #962 · fix74” (CAND, 4H) — lab: +0.21R/trade, PF 1.34, win 38%, t=2.2, ladder auto"
+  },
+  {
+   "k": "request",
+   "t": 1795039883.7729363,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
@@ -942,10 +947,10 @@
     "since": 1792681928.229496,
     "win": 41.2
    },
-   "ts": 1795039097.1902668
+   "ts": 1795039869.758518
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795039097.1902668,
+  "light_ts": 1795039869.758518,
   "modules_seen": 1795037804.7818272,
   "modules_status": {
    "BZ15": "NA",
@@ -1493,7 +1498,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794996912.596428
+   "t": 1795039883.7729363
   }
  ],
  "settings": {
