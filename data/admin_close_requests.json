@@ -264,5 +264,12 @@
     "status": "applied",
     "requested_at": "2026-11-18T17:24:24.760407+00:00",
     "mode": "snooze7"
+  },
+  {
+    "key": "ALT-000989",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-18T17:38:09.858737+00:00",
+    "mode": "snooze7"
   }
 ]
