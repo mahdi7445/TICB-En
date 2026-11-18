@@ -636,10 +636,10 @@
     "since": 1792681928.229496,
     "win": 41.2
    },
-   "ts": 1795006701.2748456
+   "ts": 1795008511.2425287
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795006701.2748456,
+  "light_ts": 1795008511.2425287,
   "modules_seen": 1794976865.1392045,
   "modules_status": {
    "BZ15": "NA",
