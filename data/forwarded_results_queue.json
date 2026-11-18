@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "SHIB",
-    "tf_label": "15M",
-    "entry": 4.553e-06,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000713",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T19:44:46.596422+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "XMR",
     "tf_label": "5M",
@@ -6115,5 +6103,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-18T15:43:01.289973+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 7.23,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000959",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-18T16:25:45+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-18T16:25:46.296704+00:00"
   }
 ]
