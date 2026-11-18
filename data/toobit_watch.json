@@ -13,6 +13,13 @@
  },
  "events": [
   {
+   "kind": "listed",
+   "sev": "info",
+   "symbol": "SOXX",
+   "t": 1795006100.2762754,
+   "text": "New USDT-M contract listed: SOXXUSDT"
+  },
+  {
    "action": "blocked",
    "kind": "delisted",
    "sev": "high",
@@ -30,8 +37,8 @@
   }
  ],
  "last_error": "",
- "last_ok": 1794996240.5077667,
- "last_try": 1794996240.5077667,
+ "last_ok": 1795006100.2762754,
+ "last_try": 1795006100.2762754,
  "news_seen": [],
  "pause": {},
  "settings": {
@@ -654,6 +661,7 @@
   "SOPH": "TRADING",
   "SOXL": "TRADING",
   "SOXS": "TRADING",
+  "SOXX": "TRADING",
   "SPACE": "TRADING",
   "SPCX": "TRADING",
   "SPELL": "TRADING",
