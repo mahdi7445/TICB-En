@@ -1,6 +1,6 @@
 {
- "cycle": 21,
- "set": "2026-11-18T10:43Z",
+ "cycle": 22,
+ "set": "2026-11-18T19:32Z",
  "slots": {
   "RD1": {
    "prescreen": {
@@ -133,12 +133,12 @@
   },
   "RD12": {
    "prescreen": {
-    "avg": 0.2581,
-    "n": 4602,
-    "t": 10.975,
+    "avg": 0.3147,
+    "n": 3430,
+    "t": 11.342,
     "tf": "15m"
    },
-   "set": "2026-11-18T10:43Z",
+   "set": "2026-11-18T19:32Z",
    "spec": {
     "all": [
      [
@@ -152,36 +152,32 @@
       0.065
      ],
      [
-      "htf:1h:trend",
-      "==",
-      1.0
-     ],
-     [
-      "closepos",
+      "volr:20",
       ">",
-      0.65
+      1.2
      ]
     ],
-    "cooldown": 6,
-    "created": "2026-11-18T10:43Z",
+    "cooldown": 3,
+    "created": "2026-11-18T19:32Z",
+    "family": "inside",
     "id": "RD12",
-    "max_stop_atr": 3.5,
-    "min_risk_pct": 0.3,
-    "name": "Inside #962 · v9",
-    "origin": "ai-fix:gemini",
-    "parent": "Inside #962 · v9",
-    "parent_name": "Inside #962 · v9",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · fix74",
+    "origin": "improve",
+    "parent": "01d6a848cb",
     "stop": {
-     "k": 2.2,
+     "k": 3.0,
      "kind": "atr"
     },
     "tfs": [
+     "5m",
      "15m",
      "4h"
     ],
-    "why": "Adds HTF trend alignment and close position filter with tighter ATR stop to improve win rate."
+    "why": "inside idea (guided random search)"
    },
-   "spec_id": "91fc0ecc88"
+   "spec_id": "965184c323"
   },
   "RD2": {
    "prescreen": {
@@ -546,12 +542,12 @@
   },
   "RD9": {
    "prescreen": {
-    "avg": 0.3089,
-    "n": 3789,
-    "t": 11.732,
+    "avg": 0.3558,
+    "n": 3025,
+    "t": 12.109,
     "tf": "15m"
    },
-   "set": "2026-11-18T10:43Z",
+   "set": "2026-11-18T19:32Z",
    "spec": {
     "all": [
      [
@@ -562,30 +558,20 @@
      [
       "slope:34",
       ">",
-      0.065
-     ],
-     [
-      "htf:1h:trend",
-      "==",
-      1.0
-     ],
-     [
-      "volr:20",
-      ">",
-      1.1
+      0.102
      ]
     ],
     "cooldown": 3,
-    "created": "2026-11-18T10:43Z",
+    "created": "2026-11-18T19:32Z",
+    "family": "inside",
     "id": "RD9",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.5,
-    "name": "Inside #962 v9 fix",
-    "origin": "ai-fix:groq",
-    "parent": "Inside #962 · v9",
-    "parent_name": "Inside #962 · v9",
+    "name": "Inside #962 · fix16",
+    "origin": "improve",
+    "parent": "757d1850ac",
     "stop": {
-     "k": 2.5,
+     "k": 3.0,
      "kind": "atr"
     },
     "tfs": [
@@ -593,9 +579,9 @@
      "15m",
      "4h"
     ],
-    "why": "add 1h trend and modest volume filter, widen ATR stop to avoid fee‑eaten exits"
+    "why": "inside idea (guided random search)"
    },
-   "spec_id": "4807f6b3b8"
+   "spec_id": "fc584d9239"
   }
  }
 }
