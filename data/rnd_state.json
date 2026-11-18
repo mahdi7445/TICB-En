@@ -610,6 +610,41 @@
    "k": "request",
    "t": 1794996912.596428,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "research",
+   "t": 1795012125.2857063,
+   "x": "🔬 Cycle 21: 46 ideas screened, 12 auto-improved variants · AI used: gemini, groq · covered: claude→gemini, deepseek→groq"
+  },
+  {
+   "k": "strategy",
+   "t": 1795012125.2857063,
+   "x": "🧪 RD10 “Inside #962 · v3” (mutation) → PASS · +0.14R, PF 1.25, win 45%, t=4.3, n=2051"
+  },
+  {
+   "k": "strategy",
+   "t": 1795012125.2857063,
+   "x": "🧪 RD11 “Inside #962 · fix33” (improve) → CAND · +0.23R, PF 1.37, win 40%, t=4.5, n=1226"
+  },
+  {
+   "k": "strategy",
+   "t": 1795012125.2857063,
+   "x": "🧪 RD12 “Inside #962 · v9” (ai-fix:gemini) → FAIL · +0.02R, PF 1.03, win 37%, t=0.9, n=5697"
+  },
+  {
+   "k": "strategy",
+   "t": 1795012125.2857063,
+   "x": "🧪 RD7 “Breakout #469 · fix17” (improve) → CAND · +0.20R, PF 1.45, win 32%, t=3.2, n=544"
+  },
+  {
+   "k": "strategy",
+   "t": 1795012125.2857063,
+   "x": "🧪 RD8 “Breakout #469 · fix69” (improve) → CAND · +0.20R, PF 1.43, win 32%, t=3.2, n=605"
+  },
+  {
+   "k": "strategy",
+   "t": 1795012125.2857063,
+   "x": "🧪 RD9 “Inside #962 v9 fix” (ai-fix:groq) → FAIL · -0.00R, PF 1.00, win 36%, t=-0.1, n=5535"
   }
  ],
  "last": {
@@ -636,10 +671,10 @@
     "since": 1792681928.229496,
     "win": 41.2
    },
-   "ts": 1795010316.8743877
+   "ts": 1795012125.2857063
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795010316.8743877,
+  "light_ts": 1795012125.2857063,
   "modules_seen": 1794976865.1392045,
   "modules_status": {
    "BZ15": "NA",
@@ -681,11 +716,11 @@
   "n": 104,
   "research": {
    "ai": true,
-   "cycle": 20,
-   "generated": "2026-11-18 05:49 UTC",
-   "tested": 40
+   "cycle": 21,
+   "generated": "2026-11-18 14:18 UTC",
+   "tested": 51
   },
-  "research_seen": 1794980946.2564256
+  "research_seen": 1795011537.7205975
  },
  "proposals": [
   {
@@ -1039,6 +1074,114 @@
    "src": "ai",
    "status": "applied",
    "value": 0.25
+  },
+  {
+   "auto_ok": true,
+   "created": 1795012125.3086472,
+   "desc": "Enable NEW strategy RD10 “Inside #962 · v3” (PASS, 4H) — lab: +0.14R/trade, PF 1.25, win 45%, t=4.3, ladder H3",
+   "ev": {
+    "avg": 0.1379982051161824,
+    "h1": 0.14880614252338423,
+    "h2": 0.12180604554144647,
+    "n": 2051,
+    "pf": 1.2480664379809863,
+    "t": 4.337900008702963,
+    "win": 45.099951243295955
+   },
+   "id": "567a421d",
+   "key": "RD10",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
+  },
+  {
+   "auto_ok": true,
+   "created": 1795012125.308676,
+   "desc": "Enable NEW strategy RD11 “Inside #962 · fix33” (CAND, 4H) — lab: +0.23R/trade, PF 1.37, win 40%, t=4.5, ladder auto",
+   "ev": {
+    "avg": 0.22556782863802158,
+    "h1": 0.2343642969749242,
+    "h2": 0.21239999925385983,
+    "n": 1226,
+    "pf": 1.3677163705869064,
+    "t": 4.494971734725765,
+    "win": 39.55954323001632
+   },
+   "id": "aff831c7",
+   "key": "RD11",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
+  },
+  {
+   "auto_ok": true,
+   "created": 1795012125.3087084,
+   "desc": "Enable NEW strategy RD7 “Breakout #469 · fix17” (CAND, 4H) — lab: +0.20R/trade, PF 1.45, win 32%, t=3.2, ladder auto",
+   "ev": {
+    "avg": 0.20446119435471674,
+    "h1": 0.1866503274405909,
+    "h2": 0.23109579350152876,
+    "n": 544,
+    "pf": 1.449974131320002,
+    "t": 3.178703175519671,
+    "win": 31.801470588235293
+   },
+   "id": "4b23c203",
+   "key": "RD7",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
+  },
+  {
+   "auto_ok": true,
+   "created": 1795012125.3087282,
+   "desc": "Enable NEW strategy RD8 “Breakout #469 · fix69” (CAND, 4H) — lab: +0.20R/trade, PF 1.43, win 32%, t=3.2, ladder auto",
+   "ev": {
+    "avg": 0.19715471366800927,
+    "h1": 0.16875515007287845,
+    "h2": 0.2397540590607055,
+    "n": 605,
+    "pf": 1.4269581405640657,
+    "t": 3.235006293837433,
+    "win": 32.06611570247934
+   },
+   "id": "60c219c6",
+   "key": "RD8",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
   }
  ],
  "protected": {},
@@ -1063,40 +1206,76 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 20,
+   "cycle": 21,
    "name": "Inside #962 · v9",
    "spec_id": "01d6a848cb",
    "status": "CAND"
   },
+  "RD10": {
+   "cycle": 21,
+   "name": "Inside #962 · v3",
+   "spec_id": "efd2b42a73",
+   "status": "PASS"
+  },
+  "RD11": {
+   "cycle": 21,
+   "name": "Inside #962 · fix33",
+   "spec_id": "757d1850ac",
+   "status": "CAND"
+  },
+  "RD12": {
+   "cycle": 21,
+   "name": "Inside #962 · v9",
+   "spec_id": "91fc0ecc88",
+   "status": "FAIL"
+  },
   "RD2": {
-   "cycle": 20,
+   "cycle": 21,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 20,
+   "cycle": 21,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
    "status": "PASS"
   },
   "RD4": {
-   "cycle": 20,
+   "cycle": 21,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
    "status": "CAND"
   },
   "RD5": {
-   "cycle": 20,
+   "cycle": 21,
    "name": "Breakout #469 · fix28",
    "spec_id": "6bbe0f69b2",
    "status": "CAND"
   },
   "RD6": {
-   "cycle": 20,
+   "cycle": 21,
    "name": "Inside #962 · fix74",
    "spec_id": "7919faad00",
    "status": "CAND"
+  },
+  "RD7": {
+   "cycle": 21,
+   "name": "Breakout #469 · fix17",
+   "spec_id": "949a16d965",
+   "status": "CAND"
+  },
+  "RD8": {
+   "cycle": 21,
+   "name": "Breakout #469 · fix69",
+   "spec_id": "4b5d752f2c",
+   "status": "CAND"
+  },
+  "RD9": {
+   "cycle": 21,
+   "name": "Inside #962 v9 fix",
+   "spec_id": "4807f6b3b8",
+   "status": "FAIL"
   }
  }
 }
