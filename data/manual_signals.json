@@ -12635,13 +12635,14 @@
     "side": "SELL",
     "entry": 495.98,
     "sl": 540.24,
-    "status": "pending",
+    "status": "active",
     "created_at": 1795033532,
     "forwarded_tracking": true,
     "tf_label": "4H",
     "silent": true,
     "source_signal_id": "ALT-001004",
-    "signal_message_id": 4254
+    "signal_message_id": 4254,
+    "activated_at": "2026-11-18T20:26:56.154767+00:00"
   },
   {
     "id": "src-ALT-000998",
