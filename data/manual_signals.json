@@ -12447,5 +12447,19 @@
     "silent": true,
     "source_signal_id": "ALT-000981",
     "signal_message_id": 4228
+  },
+  {
+    "id": "src-ALT-000982",
+    "symbol": "NIGHT/USD",
+    "side": "SELL",
+    "entry": 0.04342,
+    "sl": 0.04419,
+    "status": "pending",
+    "created_at": 1794992544,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000982",
+    "signal_message_id": 4229
   }
 ]
