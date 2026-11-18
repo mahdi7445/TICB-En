@@ -15,6 +15,13 @@
   {
    "kind": "listed",
    "sev": "info",
+   "symbol": "ETN",
+   "t": 1795009712.502381,
+   "text": "New USDT-M contract listed: ETNUSDT"
+  },
+  {
+   "kind": "listed",
+   "sev": "info",
    "symbol": "IBIT",
    "t": 1795009111.2895672,
    "text": "New USDT-M contract listed: IBITUSDT"
@@ -65,8 +72,8 @@
   }
  ],
  "last_error": "",
- "last_ok": 1795009111.2895672,
- "last_try": 1795009111.2895672,
+ "last_ok": 1795009712.502381,
+ "last_try": 1795009712.502381,
  "news_seen": [],
  "pause": {},
  "settings": {
@@ -322,6 +329,7 @@
   "ETH": "TRADING",
   "ETHFI": "TRADING",
   "ETHW": "TRADING",
+  "ETN": "TRADING",
   "EUL": "TRADING",
   "EUR": "TRADING",
   "EVAA": "TRADING",
