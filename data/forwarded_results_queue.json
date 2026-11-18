@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ATOM",
-    "tf_label": "5M",
-    "entry": 1.412,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000705",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T19:04:26.138803+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "WLD",
     "tf_label": "5M",
@@ -6097,5 +6085,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-18T11:10:45.091104+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "MMT",
+    "tf_label": "5M",
+    "entry": 0.2511,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000988",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-18T11:25:10+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-18T11:25:10.693403+00:00"
   }
 ]
