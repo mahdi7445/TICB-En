@@ -525,6 +525,50 @@
    "src": "research",
    "state": "active",
    "t": 1795014764.5299866
+  },
+  {
+   "base": {
+    "avg": 0.0,
+    "n": 0,
+    "pf": 0.0
+   },
+   "by": "admin",
+   "created": 1795039097.2180285,
+   "desc": "Enable NEW strategy RD12 “Inside #962 · fix74” (CAND, 4H) — lab: +0.21R/trade, PF 1.34, win 38%, t=2.2, ladder auto",
+   "ev": {
+    "avg": 0.2118314079483529,
+    "h1": 0.19347365780559703,
+    "h2": 0.23936803316248662,
+    "n": 365,
+    "pf": 1.337311144907921,
+    "t": 2.248124765168905,
+    "win": 38.082191780821915
+   },
+   "id": "f113c1ca",
+   "key": "RD12",
+   "kind": "enable",
+   "new": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   },
+   "old": {
+    "sgnl": {
+     "mod_RD12": false,
+     "mx_RD12_day": 0
+    },
+    "ticb": {
+     "mod_RD12": false,
+     "mx_RD12_day": 0
+    }
+   },
+   "rb_n": 30,
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "state": "active",
+   "t": 1795039287.768238
   }
  ],
  "blacklist": [],
@@ -867,6 +911,11 @@
    "k": "strategy",
    "t": 1795039097.1902668,
    "x": "🧪 RD9 “Inside #962 · fix16” (improve) → FAIL · +0.23R, PF 1.37, win 38%, t=1.8, n=207"
+  },
+  {
+   "k": "apply",
+   "t": 1795039287.768238,
+   "x": "✋ Enable NEW strategy RD12 “Inside #962 · fix74” (CAND, 4H) — lab: +0.21R/trade, PF 1.34, win 38%, t=2.2, ladder auto"
   }
  ],
  "last": {
@@ -1411,6 +1460,7 @@
    }
   },
   {
+   "applied_at": 1795039287.768238,
    "auto_ok": true,
    "created": 1795039097.2180285,
    "desc": "Enable NEW strategy RD12 “Inside #962 · fix74” (CAND, 4H) — lab: +0.21R/trade, PF 1.34, win 38%, t=2.2, ladder auto",
@@ -1429,7 +1479,7 @@
    "rule": null,
    "section": null,
    "src": "research",
-   "status": "pending",
+   "status": "applied",
    "value": {
     "sections": [
      "ticb",
