@@ -842,6 +842,31 @@
    "k": "apply",
    "t": 1795014764.5299866,
    "x": "✋ Enable NEW strategy RD8 “Breakout #469 · fix69” (CAND, 4H) — lab: +0.20R/trade, PF 1.43, win 32%, t=3.2, ladder auto"
+  },
+  {
+   "k": "research",
+   "t": 1795039097.1902668,
+   "x": "🔬 Cycle 22: 34 ideas screened, 12 auto-improved variants · AI used: groq · waiting: claude (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 15h13m دیگر), deepseek (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 15h13m دیگر), grok (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 15h13m دیگر), openai (⏳ اعتبار/سهمیه تمام شده —"
+  },
+  {
+   "k": "strategy",
+   "t": 1795039097.1902668,
+   "x": "🧪 RD1 “Inside #962 · v9” (mutation) → FAIL · +0.06R, PF 1.10, win 36%, t=0.7, n=280"
+  },
+  {
+   "k": "strategy",
+   "t": 1795039097.1902668,
+   "x": "🧪 RD11 “Inside #962 · fix33” (improve) → FAIL · +0.15R, PF 1.24, win 36%, t=1.3, n=222"
+  },
+  {
+   "k": "strategy",
+   "t": 1795039097.1902668,
+   "x": "🧪 RD12 “Inside #962 · fix74” (improve) → CAND · +0.21R, PF 1.34, win 38%, t=2.2, n=365"
+  },
+  {
+   "k": "strategy",
+   "t": 1795039097.1902668,
+   "x": "🧪 RD9 “Inside #962 · fix16” (improve) → FAIL · +0.23R, PF 1.37, win 38%, t=1.8, n=207"
   }
  ],
  "last": {
@@ -868,27 +893,22 @@
     "since": 1792681928.229496,
     "win": 41.2
    },
-   "ts": 1795036718.4464447
+   "ts": 1795039097.1902668
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795036718.4464447,
-  "modules_seen": 1795015840.5521846,
+  "light_ts": 1795039097.1902668,
+  "modules_seen": 1795037804.7818272,
   "modules_status": {
    "BZ15": "NA",
-   "BZ1H": "FAIL",
+   "BZ1H": "NA",
    "BZ1M": "NA",
-   "BZ4H": "FAIL",
+   "BZ4H": "NA",
    "BZ5M": "NA",
-   "CNDL@15m": "FAIL",
-   "CNDL@1h": "FAIL",
-   "CNDL@1m": "FAIL",
-   "CNDL@4h": "FAIL",
-   "CNDL@5m": "FAIL",
    "DKS": "NA",
-   "FBR": "FAIL",
+   "FBR": "NA",
    "LSM": "NA",
-   "MRA": "FAIL",
-   "MRB": "FAIL",
+   "MRA": "NA",
+   "MRB": "NA",
    "MTC": "NA",
    "MTS": "NA",
    "RD1": "NA",
@@ -903,27 +923,27 @@
    "RD7": "NA",
    "RD8": "NA",
    "RD9": "NA",
-   "RFD": "FAIL",
+   "RFD": "NA",
    "RSM": "NA",
-   "SMM": "FAIL",
-   "SMS": "FAIL",
-   "SWR": "FAIL",
-   "TKF": "FAIL",
+   "SMM": "NA",
+   "SMS": "NA",
+   "SWR": "NA",
+   "TKF": "NA",
    "TKM": "NA",
    "TKS": "NA",
-   "TPB": "FAIL",
-   "TPS": "FAIL",
+   "TPB": "NA",
+   "TPS": "NA",
    "VCB": "NA",
    "VCR": "NA"
   },
   "n": 104,
   "research": {
    "ai": true,
-   "cycle": 21,
-   "generated": "2026-11-18 14:18 UTC",
-   "tested": 51
+   "cycle": 22,
+   "generated": "2026-11-18 21:40 UTC",
+   "tested": 39
   },
-  "research_seen": 1795011537.7205975
+  "research_seen": 1795038035.1235363
  },
  "proposals": [
   {
@@ -1389,6 +1409,33 @@
      "sgnl"
     ]
    }
+  },
+  {
+   "auto_ok": true,
+   "created": 1795039097.2180285,
+   "desc": "Enable NEW strategy RD12 “Inside #962 · fix74” (CAND, 4H) — lab: +0.21R/trade, PF 1.34, win 38%, t=2.2, ladder auto",
+   "ev": {
+    "avg": 0.2118314079483529,
+    "h1": 0.19347365780559703,
+    "h2": 0.23936803316248662,
+    "n": 365,
+    "pf": 1.337311144907921,
+    "t": 2.248124765168905,
+    "win": 38.082191780821915
+   },
+   "id": "f113c1ca",
+   "key": "RD12",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
   }
  ],
  "protected": {},
@@ -1413,75 +1460,75 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Inside #962 · v9",
    "spec_id": "01d6a848cb",
-   "status": "CAND"
+   "status": "FAIL"
   },
   "RD10": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Inside #962 · v3",
    "spec_id": "efd2b42a73",
    "status": "PASS"
   },
   "RD11": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Inside #962 · fix33",
    "spec_id": "757d1850ac",
-   "status": "CAND"
-  },
-  "RD12": {
-   "cycle": 21,
-   "name": "Inside #962 · v9",
-   "spec_id": "91fc0ecc88",
    "status": "FAIL"
   },
+  "RD12": {
+   "cycle": 22,
+   "name": "Inside #962 · fix74",
+   "spec_id": "965184c323",
+   "status": "CAND"
+  },
   "RD2": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
    "status": "PASS"
   },
   "RD4": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
    "status": "CAND"
   },
   "RD5": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Breakout #469 · fix28",
    "spec_id": "6bbe0f69b2",
    "status": "CAND"
   },
   "RD6": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Inside #962 · fix74",
    "spec_id": "7919faad00",
    "status": "CAND"
   },
   "RD7": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Breakout #469 · fix17",
    "spec_id": "949a16d965",
    "status": "CAND"
   },
   "RD8": {
-   "cycle": 21,
+   "cycle": 22,
    "name": "Breakout #469 · fix69",
    "spec_id": "4b5d752f2c",
    "status": "CAND"
   },
   "RD9": {
-   "cycle": 21,
-   "name": "Inside #962 v9 fix",
-   "spec_id": "4807f6b3b8",
+   "cycle": 22,
+   "name": "Inside #962 · fix16",
+   "spec_id": "fc584d9239",
    "status": "FAIL"
   }
  }
