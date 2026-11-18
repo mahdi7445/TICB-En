@@ -12478,5 +12478,19 @@
     "source_signal_id": "ALT-000983",
     "signal_message_id": 4230,
     "activated_at": "2026-11-18T09:04:48.524472+00:00"
+  },
+  {
+    "id": "src-ALT-000984",
+    "symbol": "ATOM/USD",
+    "side": "SELL",
+    "entry": 1.298,
+    "sl": 1.332,
+    "status": "pending",
+    "created_at": 1794996306,
+    "forwarded_tracking": true,
+    "tf_label": "1H",
+    "silent": true,
+    "source_signal_id": "ALT-000984",
+    "signal_message_id": 4231
   }
 ]
