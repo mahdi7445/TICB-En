@@ -12537,5 +12537,19 @@
     "silent": true,
     "source_signal_id": "ALT-000987",
     "signal_message_id": 4235
+  },
+  {
+    "id": "src-ALT-000988",
+    "symbol": "MMT/USD",
+    "side": "BUY",
+    "entry": 0.2511,
+    "sl": 0.2414,
+    "status": "pending",
+    "created_at": 1795000754,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-000988",
+    "signal_message_id": 4236
   }
 ]
