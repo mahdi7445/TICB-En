@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "SEI",
-    "tf_label": "15M",
-    "entry": 0.04577,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000708",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T19:51:03.531639+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "HBAR",
     "tf_label": "15M",
     "entry": 0.06771,
@@ -6124,5 +6112,20 @@
     "status": "pending",
     "attempts": 36,
     "queued_at": "2026-11-18T18:41:28.573057+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 0.9792,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001003",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-18T18:46:07+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-18T18:46:08.300777+00:00"
   }
 ]
