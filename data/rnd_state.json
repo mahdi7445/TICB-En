@@ -359,6 +359,7 @@
   "20772": 0,
   "20774": 0
  },
+ "gate_defaults_v2": true,
  "journal": [
   {
    "k": "request",
@@ -604,6 +605,11 @@
    "k": "research",
    "t": 1794981821.0082965,
    "x": "🔬 Cycle 20: 35 ideas screened, 12 auto-improved variants · AI used: groq · waiting: claude (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h29m دیگر), deepseek (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h29m دیگر), grok (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 0h29m دیگر), openai (⏳ اعتبار/سهمیه تمام شده — تل"
+  },
+  {
+   "k": "request",
+   "t": 1794996912.596428,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
@@ -1040,7 +1046,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1794910736.4566805
+   "t": 1794996912.596428
   }
  ],
  "settings": {
