@@ -1503,6 +1503,7 @@
   "g_dd": 8.0,
   "g_on": false,
   "g_rr": 2.0,
+  "g_stress": false,
   "g_win": 40.0,
   "mode": "semi",
   "modules_apply": true,
