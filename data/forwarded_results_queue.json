@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "XMR",
-    "tf_label": "5M",
-    "entry": 613.74,
-    "level": null,
-    "result_r": 1.3,
-    "source_signal_id": "ALT-000699",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T19:50:57.794791+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ATOM",
     "tf_label": "5M",
@@ -6118,5 +6106,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-18T16:25:46.296704+00:00"
+  },
+  {
+    "kind": "sl_after_t2",
+    "ticker": "ENA",
+    "tf_label": "15M",
+    "entry": 0.1132,
+    "level": null,
+    "result_r": 1.3,
+    "source_signal_id": "ALT-000980",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-18T17:22:52+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-18T17:22:52.555138+00:00"
   }
 ]
