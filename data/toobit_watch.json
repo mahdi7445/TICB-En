@@ -15,6 +15,13 @@
   {
    "kind": "listed",
    "sev": "info",
+   "symbol": "CCJ",
+   "t": 1795006701.331481,
+   "text": "New USDT-M contract listed: CCJUSDT"
+  },
+  {
+   "kind": "listed",
+   "sev": "info",
    "symbol": "SOXX",
    "t": 1795006100.2762754,
    "text": "New USDT-M contract listed: SOXXUSDT"
@@ -37,8 +44,8 @@
   }
  ],
  "last_error": "",
- "last_ok": 1795006100.2762754,
- "last_try": 1795006100.2762754,
+ "last_ok": 1795006701.331481,
+ "last_try": 1795006701.331481,
  "news_seen": [],
  "pause": {},
  "settings": {
@@ -200,6 +207,7 @@
   "CATI": "TRADING",
   "CBRS": "TRADING",
   "CC": "TRADING",
+  "CCJ": "TRADING",
   "CEG": "TRADING",
   "CELO": "TRADING",
   "CELR": "TRADING",
