@@ -12598,5 +12598,19 @@
     "source_signal_id": "ALT-000991",
     "signal_message_id": 4241,
     "activated_at": "2026-11-18T11:47:09.874371+00:00"
+  },
+  {
+    "id": "src-ALT-000992",
+    "symbol": "SHIB/USD",
+    "side": "SELL",
+    "entry": 3.828e-06,
+    "sl": 4.054999999999999e-06,
+    "status": "pending",
+    "created_at": 1795004070,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-000992",
+    "signal_message_id": 4242
   }
 ]
