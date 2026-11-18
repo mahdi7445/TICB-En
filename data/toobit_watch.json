@@ -15,6 +15,13 @@
   {
    "kind": "listed",
    "sev": "info",
+   "symbol": "IBIT",
+   "t": 1795009111.2895672,
+   "text": "New USDT-M contract listed: IBITUSDT"
+  },
+  {
+   "kind": "listed",
+   "sev": "info",
    "symbol": "IGV",
    "t": 1795007906.967444,
    "text": "New USDT-M contract listed: IGVUSDT"
@@ -58,8 +65,8 @@
   }
  ],
  "last_error": "",
- "last_ok": 1795007906.967444,
- "last_try": 1795007906.967444,
+ "last_ok": 1795009111.2895672,
+ "last_try": 1795009111.2895672,
  "news_seen": [],
  "pause": {},
  "settings": {
@@ -398,6 +405,7 @@
   "HYPE": "TRADING",
   "HYPER": "TRADING",
   "HYUNDAI": "TRADING",
+  "IBIT": "TRADING",
   "IBKR": "TRADING",
   "IBM": "TRADING",
   "ICNT": "TRADING",
