@@ -52941,6 +52941,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-000983": {
+      "open_trade": {
+        "signal_id": "ALT-000983",
+        "source_signal_id": "ALT-000983",
+        "side": "SELL",
+        "entry": 0.04292,
+        "sl": 0.04376,
+        "r": 0.0008400000000000005,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "NIGHT/USD",
+        "tf_key": "manual",
+        "display": "NIGHT",
+        "opened_at_ms": 1794992688524,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-18T09:04:48.524431+00:00",
+            "price": 0.04292
+          }
+        ],
+        "signal_message_id": 4230,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
