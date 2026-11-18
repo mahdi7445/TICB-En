@@ -12763,5 +12763,33 @@
     "source_signal_id": "ALT-001001",
     "signal_message_id": 4262,
     "activated_at": "2026-11-18T20:27:44.697879+00:00"
+  },
+  {
+    "id": "src-ALT-001013",
+    "symbol": "ALGO/USD",
+    "side": "SELL",
+    "entry": 0.07731,
+    "sl": 0.08267,
+    "status": "pending",
+    "created_at": 1795039436,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-001013",
+    "signal_message_id": 4265
+  },
+  {
+    "id": "src-ALT-001014",
+    "symbol": "XMR/USD",
+    "side": "SELL",
+    "entry": 495.98,
+    "sl": 540.24,
+    "status": "pending",
+    "created_at": 1795039440,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-001014",
+    "signal_message_id": 4266
   }
 ]
