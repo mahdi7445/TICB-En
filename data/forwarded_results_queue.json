@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "POL",
-    "tf_label": "15M",
-    "entry": 0.09249,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000704",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T19:04:25.499646+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ATOM",
     "tf_label": "5M",
@@ -6094,5 +6082,20 @@
     "status": "applied",
     "attempts": 18,
     "queued_at": "2026-11-18T01:54:08.701415+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ENA",
+    "tf_label": "15M",
+    "entry": 0.1132,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000980",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-18T11:10:44+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-18T11:10:45.091104+00:00"
   }
 ]
