@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "XMR",
-    "tf_label": "5M",
-    "entry": 613.74,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000699",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T19:19:02.162905+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "AAVE",
     "tf_label": "15M",
     "entry": 127.86,
@@ -6103,5 +6091,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-18T11:32:43.303087+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ZEC",
+    "tf_label": "5M",
+    "entry": 935.05,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000990",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-18T14:38:55+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-18T14:38:56.555327+00:00"
   }
 ]
