@@ -1,17 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "WLD",
-    "tf_label": "5M",
-    "entry": 0.3475,
-    "level": null,
-    "result_r": 1.88,
-    "source_signal_id": "ALT-000695",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T19:19:01.323406+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "XMR",
     "tf_label": "5M",
@@ -6100,5 +6088,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-18T11:25:10.693403+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "MMT",
+    "tf_label": "5M",
+    "entry": 0.2511,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-000988",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-18T11:32:42+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-18T11:32:43.303087+00:00"
   }
 ]
