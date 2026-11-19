@@ -1,17 +1,5 @@
 [
   {
-    "kind": "runner_stop",
-    "ticker": "ATOM",
-    "tf_label": "5M",
-    "entry": 1.412,
-    "level": null,
-    "result_r": 3.2,
-    "source_signal_id": "ALT-000705",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T20:17:11.020796+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ICP",
     "tf_label": "15M",
@@ -6133,5 +6121,20 @@
     "status": "backfilled",
     "attempts": 94,
     "queued_at": "2026-11-18T19:00:54.983547+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 3.417,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001015",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-19T09:05:48+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-19T09:05:49.276610+00:00"
   }
 ]
