@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "LINK",
-    "tf_label": "15M",
-    "entry": 10.685,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000720",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T22:21:42.441923+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "DOT",
     "tf_label": "15M",
     "entry": 0.9205,
@@ -6169,5 +6157,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-19T17:08:15.476220+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LTC",
+    "tf_label": "1H",
+    "entry": 49.27,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000932",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-19T17:14:17+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-19T17:14:19.072622+00:00"
   }
 ]
