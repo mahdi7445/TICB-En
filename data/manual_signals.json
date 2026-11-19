@@ -12890,12 +12890,13 @@
     "side": "SELL",
     "entry": 5.97,
     "sl": 6.3,
-    "status": "pending",
+    "status": "active",
     "created_at": 1795090217,
     "forwarded_tracking": true,
     "tf_label": "4H",
     "silent": true,
     "source_signal_id": "ALT-001021",
-    "signal_message_id": 4279
+    "signal_message_id": 4279,
+    "activated_at": "2026-11-19T12:11:40.623760+00:00"
   }
 ]
