@@ -1,22 +1,32 @@
 {
  "ai": {
-  "analysis": [],
-  "at": 1795040299.5316775,
-  "audit": {},
-  "error": "claude: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر; openai: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر; deepseek: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر; grok: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر; gemini: HTTP 503 — T",
+  "analysis": [
+   "[Groq (free tier)] Many losing trades come from tiny ATR stops that get eaten by fees, especially on low‑timeframe (1m‑5m) signals.",
+   "[Groq (free tier)] Counter‑trend entries appear when higher‑timeframe trend filters are missing, causing trades to be stopped out quickly.",
+   "[Groq (free tier)] Low‑volume breakouts generate false signals; adding a volume‑ratio threshold helps filter chop.",
+   "[Groq (free tier)] Inside‑bar and pin‑bar patterns fire frequently in sideways markets; multi‑TF confirmation can prune these."
+  ],
+  "at": 1795080676.9521596,
+  "audit": {
+   "actions": [],
+   "by": "",
+   "calls": {},
+   "issues": []
+  },
+  "error": "",
   "key_seen": true,
   "key_src": "ANTHROPIC_API_KEY",
   "model": "claude-sonnet-5-5",
   "providers": {
    "claude": {
     "skipped": "cooldown",
-    "wait_s": 44741,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر"
+    "wait_s": 4497,
+    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 1h14m دیگر"
    },
    "deepseek": {
     "skipped": "cooldown",
-    "wait_s": 44742,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر"
+    "wait_s": 4498,
+    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 1h14m دیگر"
    },
    "gemini": {
     "error": "HTTP 503 — This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
@@ -27,16 +37,20 @@
    },
    "grok": {
     "skipped": "cooldown",
-    "wait_s": 44741,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر"
+    "wait_s": 4497,
+    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 1h14m دیگر"
    },
    "groq": {
-    "skipped": "daily budget used up"
+    "error": "",
+    "kind": "",
+    "model": "llama-3.3-70b-versatile",
+    "n": 7,
+    "used": true
    },
    "openai": {
     "skipped": "cooldown",
-    "wait_s": 44743,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر"
+    "wait_s": 4498,
+    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 1h14m دیگر"
    },
    "openrouter": {
     "error": "empty reply",
@@ -46,17 +60,18 @@
     "used": false
    }
   },
-  "used": false,
+  "used": true,
   "wait_s": 0
  },
  "ai_calls_by": {
   "2026-11-19": {
-   "gemini": 1,
-   "openrouter": 1
+   "gemini": 2,
+   "groq": 2,
+   "openrouter": 2
   }
  },
  "ai_calls_today": {
-  "2026-11-19": 2
+  "2026-11-19": 6
  },
  "ai_health": {
   "claude": {
@@ -74,12 +89,12 @@
    "until": 1795082869.0860293
   },
   "gemini": {
-   "fails": 3,
+   "fails": 4,
    "kind": "transient",
    "last_err": "HTTP 503 — This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-   "last_fail": 1795038165.2135637,
+   "last_fail": 1795078389.5456092,
    "last_ok": 1794996599.8739312,
-   "until": 1795039965.2135637
+   "until": 1795081989.5456092
   },
   "grok": {
    "fails": 5,
@@ -92,9 +107,9 @@
    "fails": 1,
    "kind": "credit",
    "last_err": "HTTP 429 — سقف نرخ/اعتبار پر شده — Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m7ctfceyeh8rfss3gs9sqvzf` service tier `on_demand` ",
-   "last_fail": 1795028065.8342085,
-   "last_ok": 1795028048.1893592,
-   "until": 1795031665.8342085
+   "last_fail": 1795078395.8729713,
+   "last_ok": 1795078377.1940184,
+   "until": 1795081995.8729713
   },
   "openai": {
    "fails": 5,
@@ -104,14 +119,33 @@
    "until": 1795082869.7941053
   },
   "openrouter": {
-   "fails": 9,
+   "fails": 10,
    "kind": "other",
    "last_err": "empty reply",
-   "last_fail": 1795038138.0683312,
-   "until": 1795045338.0683312
+   "last_fail": 1795078382.1318219,
+   "until": 1795085582.1318219
   }
  },
- "ai_hints": [],
+ "ai_hints": [
+  {
+   "desc": "[groq] reduce oversized ATR stops that erode profitability on low‑timeframe trades",
+   "key": "mx_ticb_maxstop",
+   "section": "ticb",
+   "value": 3.5
+  },
+  {
+   "desc": "[groq] prevent overtrading and split/t issues by lengthening cooldown between signals",
+   "key": "mx_ticb_cd",
+   "section": "ticb",
+   "value": 4
+  },
+  {
+   "desc": "[groq] ensure stop distance is at least 0.25% of price to avoid fee‑eaten tiny stops",
+   "key": "nat_min_stop_pct",
+   "section": "sgnl",
+   "value": 0.25
+  }
+ ],
  "archive": [
   {
    "fails": [],
@@ -252,7 +286,7 @@
   },
   {
    "fails": [],
-   "score": 7.603344961935539,
+   "score": 7.358161171396989,
    "spec": {
     "all": [
      [
@@ -296,7 +330,7 @@
   },
   {
    "fails": [],
-   "score": 7.563577514374205,
+   "score": 7.330432604757482,
    "spec": {
     "all": [
      [
@@ -335,7 +369,7 @@
   },
   {
    "fails": [],
-   "score": 7.5317851079170195,
+   "score": 7.308018529380259,
    "spec": {
     "all": [
      [
@@ -430,6 +464,55 @@
    "status": "FAIL"
   },
   {
+   "fails": [],
+   "score": 7.040112086952749,
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.105
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.748
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-14T21:09Z",
+    "family": "breakout",
+    "id": "RD4",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix29",
+    "origin": "improve",
+    "parent": "b76ce9f3fd",
+    "stop": {
+     "k": 3.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "spec_id": "ee741fb893",
+   "status": "PASS"
+  },
+  {
    "fails": [
     "dd",
     "streak"
@@ -480,55 +563,6 @@
    },
    "spec_id": "6d369d7c60",
    "status": "FAIL"
-  },
-  {
-   "fails": [],
-   "score": 6.989727280631426,
-   "spec": {
-    "all": [
-     [
-      "close",
-      ">",
-      "hh:20"
-     ],
-     [
-      "volr:20",
-      ">",
-      1.105
-     ],
-     [
-      "close",
-      ">",
-      "ema:200"
-     ],
-     [
-      "closepos",
-      ">",
-      0.748
-     ]
-    ],
-    "cooldown": 6,
-    "created": "2026-11-14T21:09Z",
-    "family": "breakout",
-    "id": "RD4",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.2,
-    "name": "Breakout #469 · fix29",
-    "origin": "improve",
-    "parent": "b76ce9f3fd",
-    "stop": {
-     "k": 3.5,
-     "kind": "atr"
-    },
-    "tfs": [
-     "5m",
-     "15m",
-     "4h"
-    ],
-    "why": "breakout idea (guided random search)"
-   },
-   "spec_id": "ee741fb893",
-   "status": "CAND"
   },
   {
    "fails": [
@@ -719,34 +753,39 @@
   },
   {
    "fails": [],
-   "score": 6.458569369218646,
+   "score": 6.420170526515491,
    "spec": {
     "all": [
      [
       "close",
       ">",
-      "ema:100"
-     ],
-     [
-      "slope:34",
-      ">",
-      0.065
+      "hh:20"
      ],
      [
       "volr:20",
       ">",
-      1.2
+      1.3
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.678
      ]
     ],
-    "cooldown": 3,
-    "created": "2026-11-18T19:32Z",
-    "family": "inside",
-    "id": "RD12",
+    "cooldown": 6,
+    "created": "2026-11-18T22:18Z",
+    "family": "breakout",
+    "id": "RD9",
     "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Inside #962 · fix74",
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix4",
     "origin": "improve",
-    "parent": "01d6a848cb",
+    "parent": "1cb8a446a1",
     "stop": {
      "k": 3.0,
      "kind": "atr"
@@ -756,9 +795,9 @@
      "15m",
      "4h"
     ],
-    "why": "inside idea (guided random search)"
+    "why": "breakout idea (guided random search)"
    },
-   "spec_id": "965184c323",
+   "spec_id": "4b5d752f2c",
    "status": "CAND"
   },
   {
@@ -811,7 +850,7 @@
    "status": "CAND"
   }
  ],
- "cycle": 23,
+ "cycle": 24,
  "gate": {
   "avg": 0.1,
   "dd": 8.0,
@@ -828,104 +867,8 @@
   "t": 2.0,
   "win": 40.0
  },
- "generated": "2026-11-19 01:55 UTC",
+ "generated": "2026-11-19 13:06 UTC",
  "history": [
-  {
-   "family": "inside",
-   "n": 3350,
-   "name": "Inside #962 · v8",
-   "origin": "mutation",
-   "t": 10.487,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 2524,
-   "name": "Inside #962 · fix23",
-   "origin": "improve",
-   "t": 10.411,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 3033,
-   "name": "Breakout #469 · fix38",
-   "origin": "improve",
-   "t": 12.211,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 3020,
-   "name": "Breakout #469 · fix31",
-   "origin": "improve",
-   "t": 11.625,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 3023,
-   "name": "Breakout #469 · fix6",
-   "origin": "improve",
-   "t": 11.351,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 3090,
-   "name": "Breakout #469 · fix32",
-   "origin": "improve",
-   "t": 11.172,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 2990,
-   "name": "Inside #962 · fix54",
-   "origin": "improve",
-   "t": 11.106,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3003,
-   "name": "Inside #962 · fix18",
-   "origin": "improve",
-   "t": 11.095,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2923,
-   "name": "Breakout #469 · fix2",
-   "origin": "improve",
-   "t": 11.067,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2543,
-   "name": "Breakout #469 · fix96",
-   "origin": "improve",
-   "t": 10.939,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3408,
-   "name": "Inside #962 · v7",
-   "origin": "mutation",
-   "t": 10.742,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 2794,
-   "name": "Inside #962 · fix44",
-   "origin": "improve",
-   "t": 10.651,
-   "tf": "15m"
-  },
   {
    "family": "breakout",
    "n": 2977,
@@ -1229,13 +1172,109 @@
    "origin": "mutation",
    "t": 9.402,
    "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3357,
+   "name": "Inside #962 · fix24",
+   "origin": "improve",
+   "t": 12.269,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3425,
+   "name": "Inside #962 · fix8",
+   "origin": "improve",
+   "t": 11.775,
+   "tf": "15m"
+  },
+  {
+   "family": null,
+   "n": 3837,
+   "name": "Inside #962 · fix74 v2",
+   "origin": "ai-fix:groq",
+   "t": 11.19,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3458,
+   "name": "Inside #962 · v7",
+   "origin": "mutation",
+   "t": 11.153,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2502,
+   "name": "Breakout #469 · fix57",
+   "origin": "improve",
+   "t": 10.89,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2551,
+   "name": "Breakout #469 · fix89",
+   "origin": "improve",
+   "t": 10.877,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3411,
+   "name": "Inside #962 · v2",
+   "origin": "mutation",
+   "t": 10.703,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3369,
+   "name": "Inside #962 · v6",
+   "origin": "mutation",
+   "t": 10.47,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2430,
+   "name": "Breakout #469 · fix84",
+   "origin": "improve",
+   "t": 10.191,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2801,
+   "name": "Inside #962 · fix77",
+   "origin": "improve",
+   "t": 10.132,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2522,
+   "name": "Inside #962 · fix75",
+   "origin": "improve",
+   "t": 10.086,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2530,
+   "name": "Breakout #469 · v7",
+   "origin": "mutation",
+   "t": 9.739,
+   "tf": "15m"
   }
  ],
  "improved": 12,
  "prescreened": 34,
  "slots": {
   "RD1": {
-   "avg_r": 0.21359664378892668,
+   "avg_r": 0.2046264547533393,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1244,64 +1283,64 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 549,
+   "n": 544,
    "name": "Breakout #469 · fix79",
    "origin": "improve",
-   "pf": 1.4686723087729654,
+   "pf": 1.4503378331194876,
    "spec_id": "949a16d965",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.8235294117647058,
-   "t": 3.3167280499693303,
-   "test_r": 0.25200922674967086,
+   "symbols_positive": 0.7647058823529411,
+   "t": 3.181279577633762,
+   "test_r": 0.2315081864228621,
    "tf": "4h",
-   "train_r": 0.18791041810089107,
-   "win": 32.240437158469945
+   "train_r": 0.18665032744059087,
+   "win": 31.801470588235293
   },
   "RD10": {
-   "avg_r": 0.14622324678138468,
+   "avg_r": 0.13811068986293962,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
    "family": "inside",
    "gate": null,
-   "n": 2038,
+   "n": 2048,
    "name": "Inside #962 · v3",
    "origin": "mutation",
-   "pf": 1.263541614861986,
+   "pf": 1.2476969371062048,
    "spec_id": "efd2b42a73",
    "status": "PASS",
    "streak": null,
    "symbols_positive": 0.8260869565217391,
-   "t": 4.563577514374205,
-   "test_r": 0.13021506009901324,
+   "t": 4.330432604757482,
+   "test_r": 0.12188816924695589,
    "tf": "4h",
-   "train_r": 0.1569128378884347,
-   "win": 45.24043179587831
+   "train_r": 0.14894331763582774,
+   "win": 44.970703125
   },
   "RD11": {
-   "avg_r": 0.14779685205468415,
+   "avg_r": 0.13933310007118127,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
    "family": "inside",
    "gate": null,
-   "n": 2018,
+   "n": 2027,
    "name": "Inside #962 · v3",
    "origin": "mutation",
-   "pf": 1.267103683865307,
+   "pf": 1.2504315033638123,
    "spec_id": "42716eb47f",
    "status": "PASS",
    "streak": null,
-   "symbols_positive": 0.782608695652174,
-   "t": 4.603344961935539,
-   "test_r": 0.14327708460557298,
+   "symbols_positive": 0.8260869565217391,
+   "t": 4.358161171396989,
+   "test_r": 0.13610243060081548,
    "tf": "4h",
-   "train_r": 0.1508150108140906,
-   "win": 45.39147670961348
+   "train_r": 0.1414877653182755,
+   "win": 45.09126788357178
   },
   "RD12": {
-   "avg_r": 0.18845982328995337,
+   "avg_r": 0.17893440880452893,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1310,22 +1349,22 @@
    ],
    "family": "inside",
    "gate": null,
-   "n": 1027,
+   "n": 1031,
    "name": "Inside #962 · fix74",
    "origin": "improve",
-   "pf": 1.3015745280622257,
+   "pf": 1.2854737668924028,
    "spec_id": "965184c323",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.9473684210526315,
-   "t": 3.4585693692186457,
-   "test_r": 0.22454587361984646,
+   "t": 3.295350372247437,
+   "test_r": 0.20228329143297902,
    "tf": "4h",
-   "train_r": 0.16438292931984613,
-   "win": 38.364167478091524
+   "train_r": 0.1633307056887524,
+   "win": 38.21532492725509
   },
   "RD2": {
-   "avg_r": 0.18225591796999685,
+   "avg_r": 0.18645602259882493,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1334,67 +1373,64 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 613,
+   "n": 610,
    "name": "Breakout #469 · v8",
    "origin": "mutation",
-   "pf": 1.385295414554936,
+   "pf": 1.3991356982445744,
    "spec_id": "1cb8a446a1",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.8235294117647058,
-   "t": 3.0003318735227187,
-   "test_r": 0.2383678662849418,
+   "t": 3.0665255837970244,
+   "test_r": 0.22804406011794193,
    "tf": "4h",
-   "train_r": 0.1446440943038484,
-   "win": 31.810766721044047
+   "train_r": 0.15873066425274693,
+   "win": 31.639344262295083
   },
   "RD3": {
-   "avg_r": 0.14544970969118073,
+   "avg_r": 0.1377533878553042,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
    "family": "inside",
    "gate": null,
-   "n": 2014,
+   "n": 2022,
    "name": "Inside #962 · v3",
    "origin": "mutation",
-   "pf": 1.262581487813868,
+   "pf": 1.2474276532370976,
    "spec_id": "a53c7093bf",
    "status": "PASS",
    "streak": null,
-   "symbols_positive": 0.782608695652174,
-   "t": 4.5317851079170195,
-   "test_r": 0.15383068323520602,
+   "symbols_positive": 0.8260869565217391,
+   "t": 4.308018529380259,
+   "test_r": 0.1446070543074145,
    "tf": "4h",
-   "train_r": 0.1398577687338261,
-   "win": 45.33267130089374
+   "train_r": 0.13318239349441613,
+   "win": 45.05440158259149
   },
   "RD4": {
-   "avg_r": 0.1804587745886084,
-   "best_ladder": null,
+   "avg_r": 0.14033283312872147,
+   "best_ladder": "H3",
    "dd_pct": null,
-   "fail_reasons": [
-    "split/t",
-    "win"
-   ],
+   "fail_reasons": [],
    "family": "breakout",
    "gate": null,
-   "n": 1439,
+   "n": 1733,
    "name": "Breakout #469 · fix29",
    "origin": "improve",
-   "pf": 1.2899829384416863,
+   "pf": 1.2505077250975039,
    "spec_id": "ee741fb893",
-   "status": "CAND",
+   "status": "PASS",
    "streak": null,
-   "symbols_positive": 0.8695652173913043,
-   "t": 3.9897272806314263,
-   "test_r": 0.27369221563810153,
+   "symbols_positive": 0.9130434782608695,
+   "t": 4.040112086952749,
+   "test_r": 0.14956604306742438,
    "tf": "4h",
-   "train_r": 0.11823112447909731,
-   "win": 38.290479499652534
+   "train_r": 0.13416551099449645,
+   "win": 44.48932487016734
   },
   "RD5": {
-   "avg_r": 0.1688178745111476,
+   "avg_r": 0.16512608819781927,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1403,22 +1439,22 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 625,
+   "n": 621,
    "name": "Breakout #469 · fix28",
    "origin": "improve",
-   "pf": 1.3611416503507494,
+   "pf": 1.3558671217177583,
    "spec_id": "6bbe0f69b2",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.7777777777777778,
-   "t": 2.837698997129501,
-   "test_r": 0.1998157081004486,
+   "t": 2.782190315906258,
+   "test_r": 0.1925509336752702,
    "tf": "4h",
-   "train_r": 0.14815265211828024,
-   "win": 30.880000000000003
+   "train_r": 0.14676913517662224,
+   "win": 30.595813204508858
   },
   "RD6": {
-   "avg_r": 0.08575050962403108,
+   "avg_r": 0.08445982964327003,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1428,22 +1464,22 @@
    ],
    "family": "inside",
    "gate": null,
-   "n": 1793,
+   "n": 1659,
    "name": "Inside #962 · fix74",
    "origin": "improve",
-   "pf": 1.133572858225077,
+   "pf": 1.1287256166498647,
    "spec_id": "7919faad00",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.782608695652174,
-   "t": 2.270824457691257,
-   "test_r": 0.1179921661744121,
+   "t": 2.02705347295494,
+   "test_r": 0.11429200334507854,
    "tf": "4h",
-   "train_r": 0.06421608227224171,
-   "win": 36.642498605688786
+   "train_r": 0.06455172578598278,
+   "win": 35.201928872814946
   },
   "RD7": {
-   "avg_r": 0.21359664378892668,
+   "avg_r": 0.2046264547533393,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1452,22 +1488,22 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 549,
+   "n": 544,
    "name": "Breakout #469 · fix17",
    "origin": "improve",
-   "pf": 1.4686723087729654,
+   "pf": 1.4503378331194876,
    "spec_id": "949a16d965",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.8235294117647058,
-   "t": 3.3167280499693303,
-   "test_r": 0.25200922674967086,
+   "symbols_positive": 0.7647058823529411,
+   "t": 3.181279577633762,
+   "test_r": 0.2315081864228621,
    "tf": "4h",
-   "train_r": 0.18791041810089107,
-   "win": 32.240437158469945
+   "train_r": 0.18665032744059087,
+   "win": 31.801470588235293
   },
   "RD8": {
-   "avg_r": 0.19778067636877802,
+   "avg_r": 0.2154393922224847,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1476,22 +1512,22 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 609,
+   "n": 575,
    "name": "Breakout #469 · fix69",
    "origin": "improve",
-   "pf": 1.4252077803698453,
+   "pf": 1.4737382262361418,
    "spec_id": "4b5d752f2c",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.8333333333333334,
-   "t": 3.2517075144525633,
-   "test_r": 0.2590130924305858,
+   "symbols_positive": 0.8823529411764706,
+   "t": 3.4201705265154914,
+   "test_r": 0.26919797944782664,
    "tf": "4h",
-   "train_r": 0.15684722563156953,
-   "win": 32.34811165845649
+   "train_r": 0.17960033407225678,
+   "win": 32.34782608695652
   },
   "RD9": {
-   "avg_r": 0.19778067636877802,
+   "avg_r": 0.2154393922224847,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1500,21 +1536,21 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 609,
+   "n": 575,
    "name": "Breakout #469 · fix4",
    "origin": "improve",
-   "pf": 1.4252077803698453,
+   "pf": 1.4737382262361418,
    "spec_id": "4b5d752f2c",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.8333333333333334,
-   "t": 3.2517075144525633,
-   "test_r": 0.2590130924305858,
+   "symbols_positive": 0.8823529411764706,
+   "t": 3.4201705265154914,
+   "test_r": 0.26919797944782664,
    "tf": "4h",
-   "train_r": 0.15684722563156953,
-   "win": 32.34811165845649
+   "train_r": 0.17960033407225678,
+   "win": 32.34782608695652
   }
  },
- "tested": 40,
- "ts": 1795053312.882467
+ "tested": 39,
+ "ts": 1795093618.7192636
 }
