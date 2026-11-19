@@ -306,5 +306,19 @@
     "status": "pending",
     "requested_at": "2026-11-19T15:41:51.274705+00:00",
     "mode": "snooze7"
+  },
+  {
+    "key": "ALT-000983",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-19T15:41:55.080949+00:00",
+    "mode": "snooze7"
+  },
+  {
+    "key": "ALT-000969",
+    "final_r": null,
+    "status": "pending",
+    "requested_at": "2026-11-19T15:41:58.878090+00:00",
+    "mode": "snooze7"
   }
 ]
