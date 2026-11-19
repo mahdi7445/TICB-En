@@ -54671,6 +54671,44 @@
         "logical_tf": "4h"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-001033": {
+      "open_trade": {
+        "signal_id": "ALT-001033",
+        "source_signal_id": "ALT-001033",
+        "side": "SELL",
+        "entry": 0.3457,
+        "sl": 0.3762,
+        "r": 0.03049999999999997,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TIA/USD",
+        "tf_key": "manual",
+        "display": "TIA",
+        "opened_at_ms": 1795118908154,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-19T20:08:28.154246+00:00",
+            "price": 0.3457
+          }
+        ],
+        "signal_message_id": 4298,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
