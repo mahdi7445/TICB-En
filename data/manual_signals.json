@@ -12808,5 +12808,19 @@
     "source_signal_id": "ALT-001015",
     "signal_message_id": 4267,
     "activated_at": "2026-11-19T07:06:19.225864+00:00"
+  },
+  {
+    "id": "src-ALT-001016",
+    "symbol": "VVV/USD",
+    "side": "BUY",
+    "entry": 23.36,
+    "sl": 22.9,
+    "status": "pending",
+    "created_at": 1795072248,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-001016",
+    "signal_message_id": 4268
   }
 ]
