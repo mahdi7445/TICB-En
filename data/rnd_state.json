@@ -1011,31 +1011,31 @@
  "last": {
   "guard": {
    "all": {
-    "avg": -0.162,
+    "avg": -0.196,
     "bad": false,
     "base_avg": -0.268,
     "base_n": 70,
     "base_pf": 0.67,
-    "n": 34,
-    "pf": 0.77,
+    "n": 35,
+    "pf": 0.73,
     "since": 1792681928.229496,
-    "win": 41.2
+    "win": 40.0
    },
    "ticb": {
-    "avg": -0.162,
+    "avg": -0.196,
     "bad": false,
     "base_avg": -0.268,
     "base_n": 70,
     "base_pf": 0.67,
-    "n": 34,
-    "pf": 0.77,
+    "n": 35,
+    "pf": 0.73,
     "since": 1792681928.229496,
-    "win": 41.2
+    "win": 40.0
    },
-   "ts": 1795124478.918365
+   "ts": 1795126295.7657483
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795124478.918365,
+  "light_ts": 1795126295.7657483,
   "modules_seen": 1795109066.341931,
   "modules_status": {
    "BZ15": "NA",
@@ -1080,7 +1080,7 @@
    "VCB": "NA",
    "VCR": "NA"
   },
-  "n": 104,
+  "n": 105,
   "research": {
    "ai": true,
    "cycle": 24,
