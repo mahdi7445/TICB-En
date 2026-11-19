@@ -12853,5 +12853,19 @@
     "source_signal_id": "ALT-001018",
     "signal_message_id": 4270,
     "activated_at": "2026-11-19T08:09:12.104727+00:00"
+  },
+  {
+    "id": "src-ALT-001019",
+    "symbol": "LINK/USD",
+    "side": "SELL",
+    "entry": 9.14,
+    "sl": 9.23,
+    "status": "pending",
+    "created_at": 1795077236,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-001019",
+    "signal_message_id": 4271
   }
 ]
