@@ -921,6 +921,31 @@
    "k": "request",
    "t": 1795039883.7729363,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "research",
+   "t": 1795054762.0515656,
+   "x": "🔬 Cycle 23: 34 ideas screened, 12 auto-improved variants · AI used: none · waiting: claude (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر), deepseek (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر), grok (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر), openai (⏳ اعتبار/سهمیه تمام شده —"
+  },
+  {
+   "k": "research",
+   "t": 1795054762.0515656,
+   "x": "⏳ AI unavailable: claude: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر; openai: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر; deepseek: ⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h25m دیگر; grok: ⏳ اعتبار/سهم"
+  },
+  {
+   "k": "strategy",
+   "t": 1795054762.0515656,
+   "x": "🧪 RD1 “Breakout #469 · fix79” (improve) → CAND · +0.21R, PF 1.47, win 32%, t=3.3, n=549"
+  },
+  {
+   "k": "strategy",
+   "t": 1795054762.0515656,
+   "x": "🧪 RD11 “Inside #962 · v3” (mutation) → PASS · +0.15R, PF 1.27, win 45%, t=4.6, n=2018"
+  },
+  {
+   "k": "strategy",
+   "t": 1795054762.0515656,
+   "x": "🧪 RD9 “Breakout #469 · fix4” (improve) → CAND · +0.20R, PF 1.43, win 32%, t=3.3, n=609"
   }
  ],
  "last": {
@@ -947,10 +972,10 @@
     "since": 1792681928.229496,
     "win": 41.2
    },
-   "ts": 1795052955.9248905
+   "ts": 1795054762.0515656
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795052955.9248905,
+  "light_ts": 1795054762.0515656,
   "modules_seen": 1795037804.7818272,
   "modules_status": {
    "BZ15": "NA",
@@ -992,12 +1017,12 @@
   },
   "n": 104,
   "research": {
-   "ai": true,
-   "cycle": 22,
-   "generated": "2026-11-18 21:40 UTC",
-   "tested": 39
+   "ai": false,
+   "cycle": 23,
+   "generated": "2026-11-19 01:55 UTC",
+   "tested": 40
   },
-  "research_seen": 1795038035.1235363
+  "research_seen": 1795053312.882467
  },
  "proposals": [
   {
@@ -1491,6 +1516,33 @@
      "sgnl"
     ]
    }
+  },
+  {
+   "auto_ok": true,
+   "created": 1795054762.0687315,
+   "desc": "Enable NEW strategy RD9 “Breakout #469 · fix4” (CAND, 4H) — lab: +0.20R/trade, PF 1.43, win 32%, t=3.3, ladder auto",
+   "ev": {
+    "avg": 0.19778067636877802,
+    "h1": 0.15684722563156953,
+    "h2": 0.2590130924305858,
+    "n": 609,
+    "pf": 1.4252077803698453,
+    "t": 3.2517075144525633,
+    "win": 32.34811165845649
+   },
+   "id": "8d13aea6",
+   "key": "RD9",
+   "kind": "enable",
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "status": "pending",
+   "value": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   }
   }
  ],
  "protected": {},
@@ -1516,76 +1568,76 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 22,
-   "name": "Inside #962 · v9",
-   "spec_id": "01d6a848cb",
-   "status": "FAIL"
+   "cycle": 23,
+   "name": "Breakout #469 · fix79",
+   "spec_id": "949a16d965",
+   "status": "CAND"
   },
   "RD10": {
-   "cycle": 22,
+   "cycle": 23,
    "name": "Inside #962 · v3",
    "spec_id": "efd2b42a73",
    "status": "PASS"
   },
   "RD11": {
-   "cycle": 22,
-   "name": "Inside #962 · fix33",
-   "spec_id": "757d1850ac",
-   "status": "FAIL"
+   "cycle": 23,
+   "name": "Inside #962 · v3",
+   "spec_id": "42716eb47f",
+   "status": "PASS"
   },
   "RD12": {
-   "cycle": 22,
+   "cycle": 23,
    "name": "Inside #962 · fix74",
    "spec_id": "965184c323",
    "status": "CAND"
   },
   "RD2": {
-   "cycle": 22,
+   "cycle": 23,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 22,
+   "cycle": 23,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
    "status": "PASS"
   },
   "RD4": {
-   "cycle": 22,
+   "cycle": 23,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
    "status": "CAND"
   },
   "RD5": {
-   "cycle": 22,
+   "cycle": 23,
    "name": "Breakout #469 · fix28",
    "spec_id": "6bbe0f69b2",
    "status": "CAND"
   },
   "RD6": {
-   "cycle": 22,
+   "cycle": 23,
    "name": "Inside #962 · fix74",
    "spec_id": "7919faad00",
    "status": "CAND"
   },
   "RD7": {
-   "cycle": 22,
+   "cycle": 23,
    "name": "Breakout #469 · fix17",
    "spec_id": "949a16d965",
    "status": "CAND"
   },
   "RD8": {
-   "cycle": 22,
+   "cycle": 23,
    "name": "Breakout #469 · fix69",
    "spec_id": "4b5d752f2c",
    "status": "CAND"
   },
   "RD9": {
-   "cycle": 22,
-   "name": "Inside #962 · fix16",
-   "spec_id": "fc584d9239",
-   "status": "FAIL"
+   "cycle": 23,
+   "name": "Breakout #469 · fix4",
+   "spec_id": "4b5d752f2c",
+   "status": "CAND"
   }
  }
 }
