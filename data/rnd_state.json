@@ -569,6 +569,50 @@
    "src": "research",
    "state": "active",
    "t": 1795039287.768238
+  },
+  {
+   "base": {
+    "avg": 0.0,
+    "n": 0,
+    "pf": 0.0
+   },
+   "by": "admin",
+   "created": 1795054762.0687315,
+   "desc": "Enable NEW strategy RD9 “Breakout #469 · fix4” (CAND, 4H) — lab: +0.20R/trade, PF 1.43, win 32%, t=3.3, ladder auto",
+   "ev": {
+    "avg": 0.19778067636877802,
+    "h1": 0.15684722563156953,
+    "h2": 0.2590130924305858,
+    "n": 609,
+    "pf": 1.4252077803698453,
+    "t": 3.2517075144525633,
+    "win": 32.34811165845649
+   },
+   "id": "8d13aea6",
+   "key": "RD9",
+   "kind": "enable",
+   "new": {
+    "sections": [
+     "ticb",
+     "sgnl"
+    ]
+   },
+   "old": {
+    "sgnl": {
+     "mod_RD9": false,
+     "mx_RD9_day": 0
+    },
+    "ticb": {
+     "mod_RD9": false,
+     "mx_RD9_day": 0
+    }
+   },
+   "rb_n": 30,
+   "rule": null,
+   "section": null,
+   "src": "research",
+   "state": "active",
+   "t": 1795074445.3882756
   }
  ],
  "blacklist": [],
@@ -578,7 +622,8 @@
   "20771": 0,
   "20772": 0,
   "20774": 0,
-  "20775": 0
+  "20775": 0,
+  "20776": 0
  },
  "gate_defaults_v2": true,
  "journal": [
@@ -946,6 +991,11 @@
    "k": "strategy",
    "t": 1795054762.0515656,
    "x": "🧪 RD9 “Breakout #469 · fix4” (improve) → CAND · +0.20R, PF 1.43, win 32%, t=3.3, n=609"
+  },
+  {
+   "k": "apply",
+   "t": 1795074445.3882756,
+   "x": "✋ Enable NEW strategy RD9 “Breakout #469 · fix4” (CAND, 4H) — lab: +0.20R/trade, PF 1.43, win 32%, t=3.3, ladder auto"
   }
  ],
  "last": {
@@ -1523,6 +1573,7 @@
    }
   },
   {
+   "applied_at": 1795074445.3882756,
    "auto_ok": true,
    "created": 1795054762.0687315,
    "desc": "Enable NEW strategy RD9 “Breakout #469 · fix4” (CAND, 4H) — lab: +0.20R/trade, PF 1.43, win 32%, t=3.3, ladder auto",
@@ -1541,7 +1592,7 @@
    "rule": null,
    "section": null,
    "src": "research",
-   "status": "pending",
+   "status": "applied",
    "value": {
     "sections": [
      "ticb",
