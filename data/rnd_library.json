@@ -1,6 +1,6 @@
 {
  "created": "2026-11-17 10:35",
- "cycles": 22,
+ "cycles": 23,
  "items": {
   "004eea9cad": {
    "c0": 22,
@@ -467,6 +467,73 @@
    "tests": [],
    "why": "Focuses on high-volume 30-period breakouts with strong momentum to minimize false breakouts."
   },
+  "071179a062": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Mutation), derived from #efd2b42a73"
+    ]
+   ],
+   "family": "inside",
+   "first": "2026-11-18 22:18",
+   "id": "071179a062",
+   "last": "2026-11-18 22:18",
+   "name": "Inside #962 · v4",
+   "origin": "mutation",
+   "parent": "efd2b42a73",
+   "scr": {
+    "avg": 0.3055,
+    "c": 23,
+    "n": 2394,
+    "t": 9.15,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "slope:34",
+      ">",
+      0.057
+     ],
+     [
+      "adx:14",
+      ">",
+      25.0
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-18T10:43Z",
+    "family": "inside",
+    "id": "RD10",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v4",
+    "origin": "mutation",
+    "parent": "efd2b42a73",
+    "stop": {
+     "k": 2.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "inside idea (guided random search)"
+  },
   "0a6b26448a": {
    "c0": 20,
    "c1": 20,
@@ -894,7 +961,7 @@
   },
   "15fe7c907d": {
    "c0": 19,
-   "c1": 19,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 14:41",
@@ -904,18 +971,18 @@
    "family": "breakout",
    "first": "2026-11-17 14:41",
    "id": "15fe7c907d",
-   "last": "2026-11-17 14:41",
+   "last": "2026-11-18 22:18",
    "name": "Breakout #469 · fix97",
    "origin": "improve",
    "parent": "6bbe0f69b2",
    "scr": {
-    "avg": 0.3495,
-    "c": 19,
-    "n": 3019,
-    "t": 11.748,
+    "avg": 0.3394,
+    "c": 23,
+    "n": 3036,
+    "t": 11.456,
     "tf": "15m"
    },
-   "seen": 1,
+   "seen": 2,
    "slots": [],
    "spec": {
     "all": [
@@ -969,9 +1036,81 @@
    "tests": [],
    "why": "breakout idea (guided random search)"
   },
+  "18d2c2a667": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto-improve), derived from #ee741fb893"
+    ]
+   ],
+   "family": "breakout",
+   "first": "2026-11-18 22:18",
+   "id": "18d2c2a667",
+   "last": "2026-11-18 22:18",
+   "name": "Breakout #469 · fix39",
+   "origin": "improve",
+   "parent": "ee741fb893",
+   "scr": {
+    "avg": 0.3643,
+    "c": 23,
+    "n": 2392,
+    "t": 10.942,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.105
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.823
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-14T21:09Z",
+    "family": "breakout",
+    "id": "RD4",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix39",
+    "origin": "improve",
+    "parent": "ee741fb893",
+    "stop": {
+     "k": 3.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "breakout idea (guided random search)"
+  },
   "18d69256de": {
    "c0": 22,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-18 19:32",
@@ -981,18 +1120,18 @@
    "family": "breakout",
    "first": "2026-11-18 19:32",
    "id": "18d69256de",
-   "last": "2026-11-18 19:32",
+   "last": "2026-11-18 22:18",
    "name": "Breakout #469 · fix36",
    "origin": "improve",
    "parent": "ee741fb893",
    "scr": {
-    "avg": 0.3866,
-    "c": 22,
+    "avg": 0.3861,
+    "c": 23,
     "n": 1286,
-    "t": 8.524,
+    "t": 8.514,
     "tf": "15m"
    },
-   "seen": 1,
+   "seen": 2,
    "slots": [],
    "spec": {
     "all": [
@@ -1068,7 +1207,7 @@
     "win": 38.08801213960547
    },
    "c0": 18,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 14:09",
@@ -1086,7 +1225,7 @@
    "family": "breakout",
    "first": "2026-11-17 14:09",
    "id": "1cb8a446a1",
-   "last": "2026-11-18 21:40",
+   "last": "2026-11-19 01:55",
    "name": "Breakout #469 · v8",
    "origin": "mutation",
    "parent": "e8a7db1f52",
@@ -1247,6 +1386,26 @@
      "tr": 0.19857993784305658,
      "ts": "2026-11-18 21:40",
      "win": 38.08801213960547
+    },
+    {
+     "avg": 0.18225591796999685,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": null,
+     "n": 613,
+     "pf": 1.385295414554936,
+     "st": "CAND",
+     "stk": null,
+     "sym": 0.8235294117647058,
+     "t": 3.0003318735227187,
+     "te": 0.2383678662849418,
+     "tf": "4h",
+     "tr": 0.1446440943038484,
+     "ts": "2026-11-19 01:55",
+     "win": 31.810766721044047
     }
    ],
    "why": "breakout idea (guided random search)"
@@ -2712,6 +2871,78 @@
    "tests": [],
    "why": "Bullish engulfing pattern creating dynamic high breakout aligned with daily trend."
   },
+  "37a8c4f546": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Mutation), derived from #a53c7093bf"
+    ]
+   ],
+   "family": "inside",
+   "first": "2026-11-18 22:18",
+   "id": "37a8c4f546",
+   "last": "2026-11-18 22:18",
+   "name": "Inside #962 · v3",
+   "origin": "mutation",
+   "parent": "a53c7093bf",
+   "scr": {
+    "avg": 0.2391,
+    "c": 23,
+    "n": 2283,
+    "t": 7.148,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.066
+     ],
+     [
+      "volr:20",
+      ">",
+      1.2
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-14T21:09Z",
+    "family": "inside",
+    "id": "RD3",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v3",
+    "origin": "mutation",
+    "parent": "a53c7093bf",
+    "stop": {
+     "k": 2.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "inside idea (guided random search)"
+  },
   "381f278e53": {
    "c0": 21,
    "c1": 21,
@@ -3089,7 +3320,7 @@
   },
   "3d32be3452": {
    "c0": 19,
-   "c1": 21,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 14:41",
@@ -3099,18 +3330,18 @@
    "family": "breakout",
    "first": "2026-11-17 14:41",
    "id": "3d32be3452",
-   "last": "2026-11-18 10:43",
+   "last": "2026-11-18 22:18",
    "name": "Breakout #469 · fix59",
    "origin": "improve",
    "parent": "ee741fb893",
    "scr": {
-    "avg": 0.3964,
-    "c": 21,
-    "n": 1181,
-    "t": 8.109,
+    "avg": 0.3793,
+    "c": 23,
+    "n": 1184,
+    "t": 7.786,
     "tf": "15m"
    },
-   "seen": 2,
+   "seen": 3,
    "slots": [],
    "spec": {
     "all": [
@@ -3214,6 +3445,202 @@
     "stop": {
      "k": 3.0,
      "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "breakout idea (guided random search)"
+  },
+  "42716eb47f": {
+   "best": {
+    "avg": 0.14779685205468415,
+    "c": 23,
+    "dd": null,
+    "fails": [],
+    "gp": null,
+    "gt": null,
+    "lad": "H3",
+    "n": 2018,
+    "pf": 1.267103683865307,
+    "st": "PASS",
+    "stk": null,
+    "sym": 0.782608695652174,
+    "t": 4.603344961935539,
+    "te": 0.14327708460557298,
+    "tf": "4h",
+    "tr": 0.1508150108140906,
+    "ts": "2026-11-19 01:55",
+    "win": 45.39147670961348
+   },
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Mutation), derived from #a53c7093bf"
+    ],
+    [
+     "2026-11-18 22:18",
+     "passed the quick screen (train t=10.618) → sent to the full lab"
+    ],
+    [
+     "2026-11-19 01:55",
+     "entered the full lab in slot RD11"
+    ],
+    [
+     "2026-11-19 01:55",
+     "lab verdict: PASS"
+    ]
+   ],
+   "family": "inside",
+   "first": "2026-11-18 22:18",
+   "id": "42716eb47f",
+   "last": "2026-11-19 01:55",
+   "name": "Inside #962 · v3",
+   "origin": "mutation",
+   "parent": "a53c7093bf",
+   "scr": {
+    "avg": 0.2936,
+    "c": 23,
+    "n": 3392,
+    "t": 10.618,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slot": "RD11",
+   "slots": [
+    "RD11"
+   ],
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.056
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-14T21:09Z",
+    "family": "inside",
+    "id": "RD3",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v3",
+    "origin": "mutation",
+    "parent": "a53c7093bf",
+    "stop": {
+     "k": 2.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "stage": "lab",
+   "status": "PASS",
+   "tests": [
+    {
+     "avg": 0.14779685205468415,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": "H3",
+     "n": 2018,
+     "pf": 1.267103683865307,
+     "st": "PASS",
+     "stk": null,
+     "sym": 0.782608695652174,
+     "t": 4.603344961935539,
+     "te": 0.14327708460557298,
+     "tf": "4h",
+     "tr": 0.1508150108140906,
+     "ts": "2026-11-19 01:55",
+     "win": 45.39147670961348
+    }
+   ],
+   "why": "inside idea (guided random search)"
+  },
+  "4479fdabff": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Mutation), derived from #aa7a2091aa"
+    ]
+   ],
+   "family": "breakout",
+   "first": "2026-11-18 22:18",
+   "id": "4479fdabff",
+   "last": "2026-11-18 22:18",
+   "name": "Breakout #469 · v5",
+   "origin": "mutation",
+   "parent": "aa7a2091aa",
+   "scr": {
+    "avg": 0.2013,
+    "c": 23,
+    "n": 3802,
+    "t": 7.897,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      0.91
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.88
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-14T11:38Z",
+    "family": "breakout",
+    "id": "RD4",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · v5",
+    "origin": "mutation",
+    "parent": "aa7a2091aa",
+    "stop": {
+     "buf": 0.4,
+     "kind": "candle"
     },
     "tfs": [
      "5m",
@@ -3353,6 +3780,73 @@
     }
    ],
    "why": "add 1h trend and modest volume filter, widen ATR stop to avoid fee‑eaten exits"
+  },
+  "4950f19153": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Mutation), derived from #efd2b42a73"
+    ]
+   ],
+   "family": "inside",
+   "first": "2026-11-18 22:18",
+   "id": "4950f19153",
+   "last": "2026-11-18 22:18",
+   "name": "Inside #962 · v9",
+   "origin": "mutation",
+   "parent": "efd2b42a73",
+   "scr": {
+    "avg": 0.3456,
+    "c": 23,
+    "n": 1642,
+    "t": 8.772,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "slope:34",
+      ">",
+      0.057
+     ],
+     [
+      "htf:1d:trend",
+      "==",
+      1.0
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-18T10:43Z",
+    "family": "inside",
+    "id": "RD10",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v9",
+    "origin": "mutation",
+    "parent": "efd2b42a73",
+    "stop": {
+     "k": 2.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "inside idea (guided random search)"
   },
   "49719b6478": {
    "c0": 21,
@@ -3510,27 +4004,27 @@
   },
   "4b5d752f2c": {
    "best": {
-    "avg": 0.19715471366800927,
-    "c": 21,
+    "avg": 0.19778067636877802,
+    "c": 23,
     "dd": null,
     "fails": [],
     "gp": null,
     "gt": null,
     "lad": null,
-    "n": 605,
-    "pf": 1.4269581405640657,
+    "n": 609,
+    "pf": 1.4252077803698453,
     "st": "CAND",
     "stk": null,
     "sym": 0.8333333333333334,
-    "t": 3.235006293837433,
-    "te": 0.2397540590607055,
+    "t": 3.2517075144525633,
+    "te": 0.2590130924305858,
     "tf": "4h",
-    "tr": 0.16875515007287845,
-    "ts": "2026-11-18 14:18",
-    "win": 32.06611570247934
+    "tr": 0.15684722563156953,
+    "ts": "2026-11-19 01:55",
+    "win": 32.34811165845649
    },
    "c0": 18,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 10:35",
@@ -3547,26 +4041,35 @@
     [
      "2026-11-18 14:18",
      "lab verdict: CAND"
+    ],
+    [
+     "2026-11-18 22:18",
+     "passed the quick screen (train t=11.777) → sent to the full lab"
+    ],
+    [
+     "2026-11-19 01:55",
+     "entered the full lab in slot RD9"
     ]
    ],
    "family": "breakout",
    "first": "2026-11-17 10:35",
    "id": "4b5d752f2c",
-   "last": "2026-11-18 21:40",
+   "last": "2026-11-19 01:55",
    "name": "Breakout #469 · fix57",
    "origin": "improve",
    "parent": "1cb8a446a1",
    "scr": {
-    "avg": 0.3577,
-    "c": 21,
-    "n": 3039,
-    "t": 12.023,
+    "avg": 0.3488,
+    "c": 23,
+    "n": 3053,
+    "t": 11.777,
     "tf": "15m"
    },
-   "seen": 2,
-   "slot": "RD8",
+   "seen": 3,
+   "slot": "RD9",
    "slots": [
-    "RD8"
+    "RD8",
+    "RD9"
    ],
    "spec": {
     "all": [
@@ -3653,6 +4156,26 @@
      "tr": 0.19285664221477927,
      "ts": "2026-11-18 21:40",
      "win": 37.89954337899543
+    },
+    {
+     "avg": 0.19778067636877802,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": null,
+     "n": 609,
+     "pf": 1.4252077803698453,
+     "st": "CAND",
+     "stk": null,
+     "sym": 0.8333333333333334,
+     "t": 3.2517075144525633,
+     "te": 0.2590130924305858,
+     "tf": "4h",
+     "tr": 0.15684722563156953,
+     "ts": "2026-11-19 01:55",
+     "win": 32.34811165845649
     }
    ],
    "why": "breakout idea (guided random search)"
@@ -3996,7 +4519,7 @@
   },
   "51c8010914": {
    "c0": 18,
-   "c1": 20,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 10:35",
@@ -4006,18 +4529,18 @@
    "family": "breakout",
    "first": "2026-11-17 10:35",
    "id": "51c8010914",
-   "last": "2026-11-18 02:15",
+   "last": "2026-11-18 22:18",
    "name": "Breakout #469 · fix37",
    "origin": "improve",
    "parent": "1cb8a446a1",
    "scr": {
-    "avg": 0.3473,
-    "c": 20,
-    "n": 3020,
-    "t": 11.625,
+    "avg": 0.3459,
+    "c": 23,
+    "n": 3030,
+    "t": 11.612,
     "tf": "15m"
    },
-   "seen": 2,
+   "seen": 3,
    "slots": [],
    "spec": {
     "all": [
@@ -4127,6 +4650,80 @@
    "stage": "screened",
    "tests": [],
    "why": "inside idea (guided random search)"
+  },
+  "540c3b6a4b": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "wick",
+   "first": "2026-11-18 22:18",
+   "id": "540c3b6a4b",
+   "last": "2026-11-18 22:18",
+   "name": "Wick #881",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.0718,
+    "c": 23,
+    "n": 130,
+    "t": 0.537,
+    "tf": "4h"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "low",
+      "<",
+      "ema:50"
+     ],
+     [
+      "close",
+      ">",
+      "ema:50"
+     ],
+     [
+      "lwick",
+      ">",
+      0.55
+     ],
+     [
+      "ema:50",
+      ">",
+      "ema:100"
+     ],
+     [
+      "htf:1d:trend",
+      "==",
+      1.0
+     ]
+    ],
+    "cooldown": 6,
+    "family": "wick",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Wick #881",
+    "origin": "search",
+    "stop": {
+     "buf": 0.4,
+     "kind": "candle"
+    },
+    "tfs": [
+     "5m",
+     "4h"
+    ],
+    "why": "wick idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "wick idea (guided random search)"
   },
   "5421ba914b": {
    "c0": 20,
@@ -4507,6 +5104,83 @@
    "tests": [],
    "why": "breakout idea (guided random search)"
   },
+  "5c7fddc7a0": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto-improve), derived from #ee741fb893"
+    ]
+   ],
+   "family": "breakout",
+   "first": "2026-11-18 22:18",
+   "id": "5c7fddc7a0",
+   "last": "2026-11-18 22:18",
+   "name": "Breakout #469 · fix26",
+   "origin": "improve",
+   "parent": "ee741fb893",
+   "scr": {
+    "avg": 0.3336,
+    "c": 23,
+    "n": 1778,
+    "t": 8.618,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.105
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.748
+     ],
+     [
+      "htf:4h:trend",
+      "==",
+      1.0
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-14T21:09Z",
+    "family": "breakout",
+    "id": "RD4",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix26",
+    "origin": "improve",
+    "parent": "ee741fb893",
+    "stop": {
+     "k": 3.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "breakout idea (guided random search)"
+  },
   "5dd2a5fc20": {
    "c0": 21,
    "c1": 21,
@@ -4577,7 +5251,7 @@
   },
   "5e0d0b7fe7": {
    "c0": 19,
-   "c1": 19,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 14:41",
@@ -4587,18 +5261,18 @@
    "family": "breakout",
    "first": "2026-11-17 14:41",
    "id": "5e0d0b7fe7",
-   "last": "2026-11-17 14:41",
+   "last": "2026-11-18 22:18",
    "name": "Breakout #469 · fix6",
    "origin": "improve",
    "parent": "1cb8a446a1",
    "scr": {
-    "avg": 0.2959,
-    "c": 19,
-    "n": 2876,
-    "t": 9.863,
+    "avg": 0.2927,
+    "c": 23,
+    "n": 2882,
+    "t": 9.772,
     "tf": "15m"
    },
-   "seen": 1,
+   "seen": 2,
    "slots": [],
    "spec": {
     "all": [
@@ -4794,9 +5468,150 @@
    "tests": [],
    "why": "squeeze idea (guided random search)"
   },
+  "61b8cef092": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "inside",
+   "first": "2026-11-18 22:18",
+   "id": "61b8cef092",
+   "last": "2026-11-18 22:18",
+   "name": "Inside #596",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.0978,
+    "c": 23,
+    "n": 3394,
+    "t": 3.727,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:21",
+      ">",
+      0.05
+     ],
+     [
+      "adx:14",
+      ">",
+      25.0
+     ],
+     [
+      "adx:14",
+      ">",
+      20.0
+     ]
+    ],
+    "cooldown": 12,
+    "family": "inside",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Inside #596",
+    "origin": "search",
+    "stop": {
+     "buf": 0.1,
+     "kind": "candle"
+    },
+    "tfs": [
+     "15m",
+     "1h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "inside idea (guided random search)"
+  },
+  "631691db23": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Mutation), derived from #fe9bfbc84d"
+    ]
+   ],
+   "family": "inside",
+   "first": "2026-11-18 22:18",
+   "id": "631691db23",
+   "last": "2026-11-18 22:18",
+   "name": "Inside #962 · v4",
+   "origin": "mutation",
+   "parent": "fe9bfbc84d",
+   "scr": {
+    "avg": 0.2834,
+    "c": 23,
+    "n": 2828,
+    "t": 9.402,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.057
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-14T11:38Z",
+    "family": "inside",
+    "id": "RD1",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v4",
+    "origin": "mutation",
+    "parent": "fe9bfbc84d",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "inside idea (guided random search)"
+  },
   "67d88360cf": {
    "c0": 18,
-   "c1": 21,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 10:35",
@@ -4806,18 +5621,18 @@
    "family": "breakout",
    "first": "2026-11-17 10:35",
    "id": "67d88360cf",
-   "last": "2026-11-18 10:43",
+   "last": "2026-11-18 22:18",
    "name": "Breakout #469 · fix6",
    "origin": "improve",
    "parent": "6bbe0f69b2",
    "scr": {
-    "avg": 0.3634,
-    "c": 21,
-    "n": 2574,
-    "t": 11.233,
+    "avg": 0.354,
+    "c": 23,
+    "n": 2584,
+    "t": 10.981,
     "tf": "15m"
    },
-   "seen": 2,
+   "seen": 3,
    "slots": [],
    "spec": {
     "all": [
@@ -4888,7 +5703,7 @@
     "win": 37.333333333333336
    },
    "c0": 18,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 14:09",
@@ -4906,7 +5721,7 @@
    "family": "breakout",
    "first": "2026-11-17 14:09",
    "id": "6bbe0f69b2",
-   "last": "2026-11-18 21:40",
+   "last": "2026-11-19 01:55",
    "name": "Breakout #469 · fix28",
    "origin": "improve",
    "parent": "1cb8a446a1",
@@ -5060,6 +5875,26 @@
      "tr": 0.19114678960617548,
      "ts": "2026-11-18 21:40",
      "win": 37.333333333333336
+    },
+    {
+     "avg": 0.1688178745111476,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": null,
+     "n": 625,
+     "pf": 1.3611416503507494,
+     "st": "CAND",
+     "stk": null,
+     "sym": 0.7777777777777778,
+     "t": 2.837698997129501,
+     "te": 0.1998157081004486,
+     "tf": "4h",
+     "tr": 0.14815265211828024,
+     "ts": "2026-11-19 01:55",
+     "win": 30.880000000000003
     }
    ],
    "why": "breakout idea (guided random search)"
@@ -5266,6 +6101,75 @@
    "stage": "screened",
    "tests": [],
    "why": "squeeze idea (guided random search)"
+  },
+  "6eee636f34": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "momentum",
+   "first": "2026-11-18 22:18",
+   "id": "6eee636f34",
+   "last": "2026-11-18 22:18",
+   "name": "Momentum #569",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.3463,
+    "c": 23,
+    "n": 1060,
+    "t": 7.32,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "ret:5",
+      ">",
+      2.5
+     ],
+     [
+      "rng",
+      ">",
+      1.5
+     ],
+     [
+      "closepos",
+      ">",
+      0.75
+     ],
+     [
+      "volr:20",
+      ">",
+      1.2
+     ]
+    ],
+    "cooldown": 12,
+    "family": "momentum",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Momentum #569",
+    "origin": "search",
+    "stop": {
+     "buf": 0.1,
+     "kind": "candle"
+    },
+    "tfs": [
+     "5m",
+     "15m"
+    ],
+    "why": "momentum idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "momentum idea (guided random search)"
   },
   "71afbb9614": {
    "c0": 22,
@@ -5706,7 +6610,7 @@
     "win": 36.83510638297872
    },
    "c0": 18,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 10:35",
@@ -5724,7 +6628,7 @@
    "family": "inside",
    "first": "2026-11-17 10:35",
    "id": "7919faad00",
-   "last": "2026-11-18 21:40",
+   "last": "2026-11-19 01:55",
    "name": "Inside #962 · fix11",
    "origin": "improve",
    "parent": "01d6a848cb",
@@ -5880,6 +6784,26 @@
      "tr": 0.19279322587241524,
      "ts": "2026-11-18 21:40",
      "win": 36.83510638297872
+    },
+    {
+     "avg": 0.08575050962403108,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": null,
+     "n": 1793,
+     "pf": 1.133572858225077,
+     "st": "CAND",
+     "stk": null,
+     "sym": 0.782608695652174,
+     "t": 2.270824457691257,
+     "te": 0.1179921661744121,
+     "tf": "4h",
+     "tr": 0.06421608227224171,
+     "ts": "2026-11-19 01:55",
+     "win": 36.642498605688786
     }
    ],
    "why": "inside idea (guided random search)"
@@ -6384,6 +7308,153 @@
    "stage": "screened",
    "tests": [],
    "why": "inside idea (guided random search)"
+  },
+  "862d4d3eb6": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "momentum",
+   "first": "2026-11-18 22:18",
+   "id": "862d4d3eb6",
+   "last": "2026-11-18 22:18",
+   "name": "Momentum #575",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.3466,
+    "c": 23,
+    "n": 1955,
+    "t": 9.478,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "ret:5",
+      ">",
+      1.0
+     ],
+     [
+      "rng",
+      ">",
+      2.0
+     ],
+     [
+      "closepos",
+      ">",
+      0.75
+     ],
+     [
+      "volr:20",
+      ">",
+      1.5
+     ]
+    ],
+    "cooldown": 3,
+    "family": "momentum",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.3,
+    "name": "Momentum #575",
+    "origin": "search",
+    "stop": {
+     "k": 2.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "momentum idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "momentum idea (guided random search)"
+  },
+  "873f0d0a30": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto-improve), derived from #6bbe0f69b2"
+    ]
+   ],
+   "family": "breakout",
+   "first": "2026-11-18 22:18",
+   "id": "873f0d0a30",
+   "last": "2026-11-18 22:18",
+   "name": "Breakout #469 · fix5",
+   "origin": "improve",
+   "parent": "6bbe0f69b2",
+   "scr": {
+    "avg": 0.3058,
+    "c": 23,
+    "n": 2207,
+    "t": 8.756,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.43
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.616
+     ],
+     [
+      "adx:14",
+      ">",
+      25.0
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-15T05:12Z",
+    "family": "breakout",
+    "id": "RD5",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix5",
+    "origin": "improve",
+    "parent": "6bbe0f69b2",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "breakout idea (guided random search)"
   },
   "8768f9b7f4": {
    "c0": 22,
@@ -6933,27 +8004,27 @@
   },
   "949a16d965": {
    "best": {
-    "avg": 0.20446119435471674,
-    "c": 21,
+    "avg": 0.21359664378892668,
+    "c": 23,
     "dd": null,
     "fails": [],
     "gp": null,
     "gt": null,
     "lad": null,
-    "n": 544,
-    "pf": 1.449974131320002,
+    "n": 549,
+    "pf": 1.4686723087729654,
     "st": "CAND",
     "stk": null,
-    "sym": 0.7647058823529411,
-    "t": 3.178703175519671,
-    "te": 0.23109579350152876,
+    "sym": 0.8235294117647058,
+    "t": 3.3167280499693303,
+    "te": 0.25200922674967086,
     "tf": "4h",
-    "tr": 0.1866503274405909,
-    "ts": "2026-11-18 14:18",
-    "win": 31.801470588235293
+    "tr": 0.18791041810089107,
+    "ts": "2026-11-19 01:55",
+    "win": 32.240437158469945
    },
    "c0": 18,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 10:35",
@@ -6974,26 +8045,35 @@
     [
      "2026-11-18 14:18",
      "lab verdict: CAND"
+    ],
+    [
+     "2026-11-18 22:18",
+     "passed the quick screen (train t=11.942) → sent to the full lab"
+    ],
+    [
+     "2026-11-19 01:55",
+     "entered the full lab in slot RD1"
     ]
    ],
    "family": "breakout",
    "first": "2026-11-17 10:35",
    "id": "949a16d965",
-   "last": "2026-11-18 21:40",
+   "last": "2026-11-19 01:55",
    "name": "Breakout #469 · fix32",
    "origin": "improve",
    "parent": "6bbe0f69b2",
    "scr": {
-    "avg": 0.3681,
-    "c": 21,
-    "n": 2975,
-    "t": 12.21,
+    "avg": 0.3583,
+    "c": 23,
+    "n": 2990,
+    "t": 11.942,
     "tf": "15m"
    },
-   "seen": 2,
+   "seen": 3,
    "slot": "RD7",
    "slots": [
-    "RD7"
+    "RD7",
+    "RD1"
    ],
    "spec": {
     "all": [
@@ -7080,33 +8160,53 @@
      "tr": 0.1965344460308075,
      "ts": "2026-11-18 21:40",
      "win": 37.44360902255639
+    },
+    {
+     "avg": 0.21359664378892668,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": null,
+     "n": 549,
+     "pf": 1.4686723087729654,
+     "st": "CAND",
+     "stk": null,
+     "sym": 0.8235294117647058,
+     "t": 3.3167280499693303,
+     "te": 0.25200922674967086,
+     "tf": "4h",
+     "tr": 0.18791041810089107,
+     "ts": "2026-11-19 01:55",
+     "win": 32.240437158469945
     }
    ],
    "why": "breakout idea (guided random search)"
   },
   "965184c323": {
    "best": {
-    "avg": 0.2118314079483529,
-    "c": 22,
+    "avg": 0.18845982328995337,
+    "c": 23,
     "dd": null,
     "fails": [],
     "gp": null,
     "gt": null,
     "lad": null,
-    "n": 365,
-    "pf": 1.337311144907921,
+    "n": 1027,
+    "pf": 1.3015745280622257,
     "st": "CAND",
     "stk": null,
-    "sym": 1.0,
-    "t": 2.248124765168905,
-    "te": 0.23936803316248662,
+    "sym": 0.9473684210526315,
+    "t": 3.4585693692186457,
+    "te": 0.22454587361984646,
     "tf": "4h",
-    "tr": 0.19347365780559703,
-    "ts": "2026-11-18 21:40",
-    "win": 38.082191780821915
+    "tr": 0.16438292931984613,
+    "ts": "2026-11-19 01:55",
+    "win": 38.364167478091524
    },
    "c0": 22,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-18 19:32",
@@ -7128,7 +8228,7 @@
    "family": "inside",
    "first": "2026-11-18 19:32",
    "id": "965184c323",
-   "last": "2026-11-18 21:40",
+   "last": "2026-11-19 01:55",
    "name": "Inside #962 · fix74",
    "origin": "improve",
    "parent": "01d6a848cb",
@@ -7204,6 +8304,26 @@
      "tr": 0.19347365780559703,
      "ts": "2026-11-18 21:40",
      "win": 38.082191780821915
+    },
+    {
+     "avg": 0.18845982328995337,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": null,
+     "n": 1027,
+     "pf": 1.3015745280622257,
+     "st": "CAND",
+     "stk": null,
+     "sym": 0.9473684210526315,
+     "t": 3.4585693692186457,
+     "te": 0.22454587361984646,
+     "tf": "4h",
+     "tr": 0.16438292931984613,
+     "ts": "2026-11-19 01:55",
+     "win": 38.364167478091524
     }
    ],
    "why": "inside idea (guided random search)"
@@ -7332,6 +8452,83 @@
     "name": "Breakout #469 · v7",
     "origin": "mutation",
     "parent": "aa7a2091aa",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "breakout idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "breakout idea (guided random search)"
+  },
+  "96ea891aa4": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto-improve), derived from #1cb8a446a1"
+    ]
+   ],
+   "family": "breakout",
+   "first": "2026-11-18 22:18",
+   "id": "96ea891aa4",
+   "last": "2026-11-18 22:18",
+   "name": "Breakout #469 · fix5",
+   "origin": "improve",
+   "parent": "1cb8a446a1",
+   "scr": {
+    "avg": 0.3178,
+    "c": 23,
+    "n": 2153,
+    "t": 9.129,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.3
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.616
+     ],
+     [
+      "htf:4h:trend",
+      "==",
+      1.0
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-14T21:09Z",
+    "family": "breakout",
+    "id": "RD2",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix5",
+    "origin": "improve",
+    "parent": "1cb8a446a1",
     "stop": {
      "k": 3.0,
      "kind": "atr"
@@ -7560,6 +8757,149 @@
    "tests": [],
    "why": "Enter on a mild pullback inside a higher‑timeframe uptrend, filtered by neutral RSI to avoid overbought/oversold extremes"
   },
+  "9ed293c1a2": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "momentum",
+   "first": "2026-11-18 22:18",
+   "id": "9ed293c1a2",
+   "last": "2026-11-18 22:18",
+   "name": "Momentum #318",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.3493,
+    "c": 23,
+    "n": 672,
+    "t": 5.339,
+    "tf": "1h"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "ret:3",
+      ">",
+      1.5
+     ],
+     [
+      "rng",
+      ">",
+      1.5
+     ],
+     [
+      "closepos",
+      ">",
+      0.75
+     ],
+     [
+      "volr:20",
+      ">",
+      1.5
+     ],
+     [
+      "htf:4h:trend",
+      "==",
+      1.0
+     ]
+    ],
+    "cooldown": 6,
+    "family": "momentum",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Momentum #318",
+    "origin": "search",
+    "stop": {
+     "k": 2.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "1h"
+    ],
+    "why": "momentum idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "momentum idea (guided random search)"
+  },
+  "9ef547424c": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "inside",
+   "first": "2026-11-18 22:18",
+   "id": "9ef547424c",
+   "last": "2026-11-18 22:18",
+   "name": "Inside #739",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.1253,
+    "c": 23,
+    "n": 6119,
+    "t": 6.312,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:50"
+     ],
+     [
+      "slope:21",
+      ">",
+      0.02
+     ],
+     [
+      "body",
+      ">",
+      0.4
+     ]
+    ],
+    "cooldown": 6,
+    "family": "inside",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Inside #739",
+    "origin": "search",
+    "stop": {
+     "buf": 0.4,
+     "kind": "candle"
+    },
+    "tfs": [
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "inside idea (guided random search)"
+  },
   "a1cfa6191c": {
    "c0": 21,
    "c1": 21,
@@ -7699,27 +9039,27 @@
   },
   "a53c7093bf": {
    "best": {
-    "avg": 0.13895237107723016,
-    "c": 19,
+    "avg": 0.14544970969118073,
+    "c": 23,
     "dd": null,
     "fails": [],
     "gp": null,
     "gt": null,
     "lad": "H3",
-    "n": 2024,
-    "pf": 1.2502764583245105,
+    "n": 2014,
+    "pf": 1.262581487813868,
     "st": "PASS",
     "stk": null,
     "sym": 0.782608695652174,
-    "t": 4.353493176441094,
-    "te": 0.14508343885559477,
+    "t": 4.5317851079170195,
+    "te": 0.15383068323520602,
     "tf": "4h",
-    "tr": 0.13486162568968868,
-    "ts": "2026-11-17 18:07",
-    "win": 45.20750988142292
+    "tr": 0.1398577687338261,
+    "ts": "2026-11-19 01:55",
+    "win": 45.33267130089374
    },
    "c0": 18,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 14:09",
@@ -7737,7 +9077,7 @@
    "family": "inside",
    "first": "2026-11-17 14:09",
    "id": "a53c7093bf",
-   "last": "2026-11-18 21:40",
+   "last": "2026-11-19 01:55",
    "name": "Inside #962 · v3",
    "origin": "mutation",
    "parent": "fe9bfbc84d",
@@ -7893,6 +9233,26 @@
      "tr": 0.24795043644763012,
      "ts": "2026-11-18 21:40",
      "win": 41.307371349095966
+    },
+    {
+     "avg": 0.14544970969118073,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": "H3",
+     "n": 2014,
+     "pf": 1.262581487813868,
+     "st": "PASS",
+     "stk": null,
+     "sym": 0.782608695652174,
+     "t": 4.5317851079170195,
+     "te": 0.15383068323520602,
+     "tf": "4h",
+     "tr": 0.1398577687338261,
+     "ts": "2026-11-19 01:55",
+     "win": 45.33267130089374
     }
    ],
    "why": "inside idea (guided random search)"
@@ -8051,7 +9411,7 @@
   },
   "aa7a2091aa": {
    "c0": 22,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-18 19:32",
@@ -8061,18 +9421,18 @@
    "family": "breakout",
    "first": "2026-11-18 19:32",
    "id": "aa7a2091aa",
-   "last": "2026-11-18 19:32",
+   "last": "2026-11-18 22:18",
    "name": "Breakout #469 · v6",
    "origin": "mutation",
    "parent": "aa7a2091aa",
    "scr": {
-    "avg": 0.289,
-    "c": 22,
-    "n": 2658,
-    "t": 9.22,
+    "avg": 0.2874,
+    "c": 23,
+    "n": 2663,
+    "t": 9.179,
     "tf": "15m"
    },
-   "seen": 1,
+   "seen": 2,
    "slots": [],
    "spec": {
     "all": [
@@ -9241,6 +10601,76 @@
    "tests": [],
    "why": "breakout idea (guided random search)"
   },
+  "c67e876803": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "squeeze",
+   "first": "2026-11-18 22:18",
+   "id": "c67e876803",
+   "last": "2026-11-18 22:18",
+   "name": "Squeeze #360",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.4461,
+    "c": 23,
+    "n": 46,
+    "t": 1.738,
+    "tf": "1h"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "atrp:14",
+      "<",
+      0.35
+     ],
+     [
+      "close",
+      ">",
+      "hh:10"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.5
+     ],
+     [
+      "adx:14",
+      "<",
+      28.0
+     ]
+    ],
+    "cooldown": 6,
+    "family": "squeeze",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Squeeze #360",
+    "origin": "search",
+    "stop": {
+     "k": 1.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "1h",
+     "4h"
+    ],
+    "why": "squeeze idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "squeeze idea (guided random search)"
+  },
   "c68d1a3fbf": {
    "c0": 20,
    "c1": 20,
@@ -9823,6 +11253,76 @@
    "tests": [],
    "why": "inside idea (guided random search)"
   },
+  "d51151932f": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "cross",
+   "first": "2026-11-18 22:18",
+   "id": "d51151932f",
+   "last": "2026-11-18 22:18",
+   "name": "Cross #765",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.1707,
+    "c": 23,
+    "n": 236,
+    "t": 1.6,
+    "tf": "1h"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "ema:20",
+      "x>",
+      "ema:50"
+     ],
+     [
+      "adx:14",
+      ">",
+      18.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "htf:4h:trend",
+      "==",
+      1.0
+     ]
+    ],
+    "cooldown": 3,
+    "family": "cross",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Cross #765",
+    "origin": "search",
+    "stop": {
+     "buf": 0.1,
+     "kind": "swing",
+     "n": 8
+    },
+    "tfs": [
+     "1h",
+     "4h"
+    ],
+    "why": "cross idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "cross idea (guided random search)"
+  },
   "d722b47663": {
    "c0": 20,
    "c1": 22,
@@ -9961,6 +11461,80 @@
    "stage": "screened",
    "tests": [],
    "why": "inside idea (guided random search)"
+  },
+  "d97084522a": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "wick",
+   "first": "2026-11-18 22:18",
+   "id": "d97084522a",
+   "last": "2026-11-18 22:18",
+   "name": "Wick #282",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.1988,
+    "c": 23,
+    "n": 1985,
+    "t": 5.6,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "low",
+      "<",
+      "ema:21"
+     ],
+     [
+      "close",
+      ">",
+      "ema:21"
+     ],
+     [
+      "lwick",
+      ">",
+      0.55
+     ],
+     [
+      "ema:21",
+      ">",
+      "ema:200"
+     ],
+     [
+      "adx:14",
+      ">",
+      20.0
+     ]
+    ],
+    "cooldown": 3,
+    "family": "wick",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.3,
+    "name": "Wick #282",
+    "origin": "search",
+    "stop": {
+     "buf": 0.3,
+     "kind": "swing",
+     "n": 20
+    },
+    "tfs": [
+     "15m"
+    ],
+    "why": "wick idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "wick idea (guided random search)"
   },
   "da8355a68b": {
    "c0": 19,
@@ -10322,7 +11896,7 @@
   },
   "dbce6b05d7": {
    "c0": 20,
-   "c1": 20,
+   "c1": 23,
    "ev": [
     [
      "2026-11-18 02:15",
@@ -10332,18 +11906,18 @@
    "family": "inside",
    "first": "2026-11-18 02:15",
    "id": "dbce6b05d7",
-   "last": "2026-11-18 02:15",
+   "last": "2026-11-18 22:18",
    "name": "Inside #962 · v2",
    "origin": "mutation",
    "parent": "217008e9f1",
    "scr": {
-    "avg": 0.2848,
-    "c": 20,
-    "n": 2772,
-    "t": 9.297,
+    "avg": 0.281,
+    "c": 23,
+    "n": 2785,
+    "t": 9.218,
     "tf": "15m"
    },
-   "seen": 1,
+   "seen": 2,
    "slots": [],
    "spec": {
     "all": [
@@ -10436,6 +12010,73 @@
     "parent": "757d1850ac",
     "stop": {
      "k": 3.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "inside idea (guided random search)"
+  },
+  "dec5f92cda": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Mutation), derived from #217008e9f1"
+    ]
+   ],
+   "family": "inside",
+   "first": "2026-11-18 22:18",
+   "id": "dec5f92cda",
+   "last": "2026-11-18 22:18",
+   "name": "Inside #962 · v3",
+   "origin": "mutation",
+   "parent": "217008e9f1",
+   "scr": {
+    "avg": 0.2832,
+    "c": 23,
+    "n": 2833,
+    "t": 9.408,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.055
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-14T11:38Z",
+    "family": "inside",
+    "id": "RD3",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v3",
+    "origin": "mutation",
+    "parent": "217008e9f1",
+    "stop": {
+     "k": 3.0,
      "kind": "atr"
     },
     "tfs": [
@@ -10865,6 +12506,76 @@
    "tests": [],
    "why": "inside idea (guided random search)"
   },
+  "e7eaced9e6": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "momentum",
+   "first": "2026-11-18 22:18",
+   "id": "e7eaced9e6",
+   "last": "2026-11-18 22:18",
+   "name": "Momentum #879",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.3269,
+    "c": 23,
+    "n": 106,
+    "t": 2.378,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "ret:3",
+      ">",
+      2.5
+     ],
+     [
+      "rng",
+      ">",
+      1.2
+     ],
+     [
+      "closepos",
+      ">",
+      0.75
+     ],
+     [
+      "volr:20",
+      ">",
+      1.5
+     ]
+    ],
+    "cooldown": 3,
+    "family": "momentum",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Momentum #879",
+    "origin": "search",
+    "stop": {
+     "buf": 0.3,
+     "kind": "swing",
+     "n": 20
+    },
+    "tfs": [
+     "5m",
+     "15m"
+    ],
+    "why": "momentum idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "momentum idea (guided random search)"
+  },
   "ea85b70a21": {
    "c0": 20,
    "c1": 20,
@@ -11034,7 +12745,7 @@
     "win": 38.55755894590846
    },
    "c0": 18,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-17 14:09",
@@ -11052,7 +12763,7 @@
    "family": "breakout",
    "first": "2026-11-17 14:09",
    "id": "ee741fb893",
-   "last": "2026-11-18 21:40",
+   "last": "2026-11-19 01:55",
    "name": "Breakout #469 · fix29",
    "origin": "improve",
    "parent": "b76ce9f3fd",
@@ -11206,6 +12917,26 @@
      "tr": 0.09478854625764413,
      "ts": "2026-11-18 21:40",
      "win": 39.77485928705441
+    },
+    {
+     "avg": 0.1804587745886084,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": null,
+     "n": 1439,
+     "pf": 1.2899829384416863,
+     "st": "CAND",
+     "stk": null,
+     "sym": 0.8695652173913043,
+     "t": 3.9897272806314263,
+     "te": 0.27369221563810153,
+     "tf": "4h",
+     "tr": 0.11823112447909731,
+     "ts": "2026-11-19 01:55",
+     "win": 38.290479499652534
     }
    ],
    "why": "breakout idea (guided random search)"
@@ -11435,27 +13166,27 @@
   },
   "efd2b42a73": {
    "best": {
-    "avg": 0.1379982051161824,
-    "c": 21,
+    "avg": 0.14622324678138468,
+    "c": 23,
     "dd": null,
     "fails": [],
     "gp": null,
     "gt": null,
     "lad": "H3",
-    "n": 2051,
-    "pf": 1.2480664379809863,
+    "n": 2038,
+    "pf": 1.263541614861986,
     "st": "PASS",
     "stk": null,
     "sym": 0.8260869565217391,
-    "t": 4.337900008702963,
-    "te": 0.12180604554144647,
+    "t": 4.563577514374205,
+    "te": 0.13021506009901324,
     "tf": "4h",
-    "tr": 0.14880614252338423,
-    "ts": "2026-11-18 14:18",
-    "win": 45.099951243295955
+    "tr": 0.1569128378884347,
+    "ts": "2026-11-19 01:55",
+    "win": 45.24043179587831
    },
    "c0": 21,
-   "c1": 22,
+   "c1": 23,
    "ev": [
     [
      "2026-11-18 10:43",
@@ -11477,7 +13208,7 @@
    "family": "inside",
    "first": "2026-11-18 10:43",
    "id": "efd2b42a73",
-   "last": "2026-11-18 21:40",
+   "last": "2026-11-19 01:55",
    "name": "Inside #962 · v3",
    "origin": "mutation",
    "parent": "fe9bfbc84d",
@@ -11568,6 +13299,26 @@
      "tr": 0.2680802794882652,
      "ts": "2026-11-18 21:40",
      "win": 41.689750692520775
+    },
+    {
+     "avg": 0.14622324678138468,
+     "c": 23,
+     "dd": null,
+     "fails": [],
+     "gp": null,
+     "gt": null,
+     "lad": "H3",
+     "n": 2038,
+     "pf": 1.263541614861986,
+     "st": "PASS",
+     "stk": null,
+     "sym": 0.8260869565217391,
+     "t": 4.563577514374205,
+     "te": 0.13021506009901324,
+     "tf": "4h",
+     "tr": 0.1569128378884347,
+     "ts": "2026-11-19 01:55",
+     "win": 45.24043179587831
     }
    ],
    "why": "inside idea (guided random search)"
@@ -12000,6 +13751,86 @@
    "tests": [],
    "why": "squeeze idea (guided random search)"
   },
+  "f8028c05e2": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "wick",
+   "first": "2026-11-18 22:18",
+   "id": "f8028c05e2",
+   "last": "2026-11-18 22:18",
+   "name": "Wick #301",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.1372,
+    "c": 23,
+    "n": 1432,
+    "t": 3.362,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "low",
+      "<",
+      "ema:50"
+     ],
+     [
+      "close",
+      ">",
+      "ema:50"
+     ],
+     [
+      "lwick",
+      ">",
+      0.55
+     ],
+     [
+      "ema:50",
+      ">",
+      "ema:100"
+     ],
+     [
+      "atrp:14",
+      ">",
+      0.25
+     ],
+     [
+      "adx:14",
+      ">",
+      20.0
+     ]
+    ],
+    "cooldown": 6,
+    "family": "wick",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Wick #301",
+    "origin": "search",
+    "stop": {
+     "k": 1.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "15m",
+     "1h",
+     "4h"
+    ],
+    "why": "wick idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "wick idea (guided random search)"
+  },
   "f874dcf4fd": {
    "c0": 21,
    "c1": 21,
@@ -12136,6 +13967,75 @@
    "stage": "screened",
    "tests": [],
    "why": "Enters near short-term EMA mean during aligned 1H trends using structural swing stops."
+  },
+  "fb3866b8d8": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Auto search)"
+    ]
+   ],
+   "family": "cross",
+   "first": "2026-11-18 22:18",
+   "id": "fb3866b8d8",
+   "last": "2026-11-18 22:18",
+   "name": "Cross #970",
+   "origin": "search",
+   "parent": null,
+   "scr": {
+    "avg": 0.973,
+    "c": 23,
+    "n": 40,
+    "t": 3.467,
+    "tf": "4h"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "ema:20",
+      "x>",
+      "ema:50"
+     ],
+     [
+      "adx:14",
+      ">",
+      22.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "atrp:14",
+      ">",
+      0.25
+     ]
+    ],
+    "cooldown": 3,
+    "family": "cross",
+    "id": "",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.2,
+    "name": "Cross #970",
+    "origin": "search",
+    "stop": {
+     "buf": 0.1,
+     "kind": "swing",
+     "n": 8
+    },
+    "tfs": [
+     "4h"
+    ],
+    "why": "cross idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "cross idea (guided random search)"
   },
   "fb7e968c58": {
    "c0": 20,
@@ -12405,7 +14305,74 @@
    "stage": "screened",
    "tests": [],
    "why": "wick idea (guided random search)"
+  },
+  "fe9bfbc84d": {
+   "c0": 23,
+   "c1": 23,
+   "ev": [
+    [
+     "2026-11-18 22:18",
+     "discovered (Mutation), derived from #fe9bfbc84d"
+    ]
+   ],
+   "family": "inside",
+   "first": "2026-11-18 22:18",
+   "id": "fe9bfbc84d",
+   "last": "2026-11-18 22:18",
+   "name": "Inside #962 · v6",
+   "origin": "mutation",
+   "parent": "fe9bfbc84d",
+   "scr": {
+    "avg": 0.2916,
+    "c": 23,
+    "n": 3397,
+    "t": 10.556,
+    "tf": "15m"
+   },
+   "seen": 1,
+   "slots": [],
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.057
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-14T11:38Z",
+    "family": "inside",
+    "id": "RD1",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v6",
+    "origin": "mutation",
+    "parent": "fe9bfbc84d",
+    "stop": {
+     "k": 2.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "stage": "screened",
+   "tests": [],
+   "why": "inside idea (guided random search)"
   }
  },
- "updated": "2026-11-18 21:40"
+ "updated": "2026-11-19 01:55"
 }

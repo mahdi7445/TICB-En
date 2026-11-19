@@ -1,37 +1,47 @@
 {
- "cycle": 22,
- "set": "2026-11-18T19:32Z",
+ "cycle": 23,
+ "set": "2026-11-18T22:18Z",
  "slots": {
   "RD1": {
    "prescreen": {
-    "avg": 0.3383,
-    "n": 3013,
-    "t": 11.511,
+    "avg": 0.3583,
+    "n": 2990,
+    "t": 11.942,
     "tf": "15m"
    },
-   "set": "2026-11-14T21:09Z",
+   "set": "2026-11-18T22:18Z",
    "spec": {
     "all": [
      [
       "close",
       ">",
-      "ema:100"
+      "hh:20"
      ],
      [
-      "slope:34",
+      "volr:20",
       ">",
-      0.065
+      1.43
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.678
      ]
     ],
-    "cooldown": 3,
-    "created": "2026-11-14T21:09Z",
-    "family": "inside",
+    "cooldown": 6,
+    "created": "2026-11-18T22:18Z",
+    "family": "breakout",
     "id": "RD1",
     "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Inside #962 · v9",
-    "origin": "mutation",
-    "parent": "217008e9f1",
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix79",
+    "origin": "improve",
+    "parent": "6bbe0f69b2",
     "stop": {
      "k": 3.0,
      "kind": "atr"
@@ -41,9 +51,9 @@
      "15m",
      "4h"
     ],
-    "why": "inside idea (guided random search)"
+    "why": "breakout idea (guided random search)"
    },
-   "spec_id": "01d6a848cb"
+   "spec_id": "949a16d965"
   },
   "RD10": {
    "prescreen": {
@@ -90,14 +100,19 @@
   },
   "RD11": {
    "prescreen": {
-    "avg": 0.3226,
-    "n": 3030,
-    "t": 11.077,
+    "avg": 0.2936,
+    "n": 3392,
+    "t": 10.618,
     "tf": "15m"
    },
-   "set": "2026-11-18T10:43Z",
+   "set": "2026-11-18T22:18Z",
    "spec": {
     "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
      [
       "close",
       ">",
@@ -106,20 +121,20 @@
      [
       "slope:34",
       ">",
-      0.085
+      0.056
      ]
     ],
     "cooldown": 3,
-    "created": "2026-11-18T10:43Z",
+    "created": "2026-11-18T22:18Z",
     "family": "inside",
     "id": "RD11",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.5,
-    "name": "Inside #962 · fix33",
-    "origin": "improve",
-    "parent": "01d6a848cb",
+    "name": "Inside #962 · v3",
+    "origin": "mutation",
+    "parent": "a53c7093bf",
     "stop": {
-     "k": 3.0,
+     "k": 2.5,
      "kind": "atr"
     },
     "tfs": [
@@ -129,7 +144,7 @@
     ],
     "why": "inside idea (guided random search)"
    },
-   "spec_id": "757d1850ac"
+   "spec_id": "42716eb47f"
   },
   "RD12": {
    "prescreen": {
@@ -542,34 +557,44 @@
   },
   "RD9": {
    "prescreen": {
-    "avg": 0.3558,
-    "n": 3025,
-    "t": 12.109,
+    "avg": 0.3488,
+    "n": 3053,
+    "t": 11.777,
     "tf": "15m"
    },
-   "set": "2026-11-18T19:32Z",
+   "set": "2026-11-18T22:18Z",
    "spec": {
     "all": [
      [
       "close",
       ">",
-      "ema:100"
+      "hh:20"
      ],
      [
-      "slope:34",
+      "volr:20",
       ">",
-      0.102
+      1.3
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "closepos",
+      ">",
+      0.678
      ]
     ],
-    "cooldown": 3,
-    "created": "2026-11-18T19:32Z",
-    "family": "inside",
+    "cooldown": 6,
+    "created": "2026-11-18T22:18Z",
+    "family": "breakout",
     "id": "RD9",
     "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Inside #962 · fix16",
+    "min_risk_pct": 0.2,
+    "name": "Breakout #469 · fix4",
     "origin": "improve",
-    "parent": "757d1850ac",
+    "parent": "1cb8a446a1",
     "stop": {
      "k": 3.0,
      "kind": "atr"
@@ -579,9 +604,9 @@
      "15m",
      "4h"
     ],
-    "why": "inside idea (guided random search)"
+    "why": "breakout idea (guided random search)"
    },
-   "spec_id": "fc584d9239"
+   "spec_id": "4b5d752f2c"
   }
  }
 }
