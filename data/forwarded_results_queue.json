@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "AVAX",
-    "tf_label": "15M",
-    "entry": 8.41,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000716",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T21:01:50.901955+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "ADA",
-    "tf_label": "5M",
-    "entry": 0.1851,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000717",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T21:01:52.003356+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "AAVE",
     "tf_label": "15M",
@@ -6145,5 +6121,35 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-19T10:17:14.362990+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "MMT",
+    "tf_label": "5M",
+    "entry": 0.193,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-001017",
+    "side": "SELL",
+    "stop": 0.2053,
+    "src_ts": "2026-11-19T11:33:45+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-19T11:33:46.463572+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "PUMP",
+    "tf_label": "15M",
+    "entry": 0.00269,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001018",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-19T11:33:46+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-19T11:33:47.515725+00:00"
   }
 ]
