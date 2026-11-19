@@ -53946,6 +53946,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-001017": {
+      "open_trade": {
+        "signal_id": "ALT-001017",
+        "source_signal_id": "ALT-001017",
+        "side": "SELL",
+        "entry": 0.193,
+        "sl": 0.2053,
+        "r": 0.012300000000000005,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "MMT/USD",
+        "tf_key": "manual",
+        "display": "MMT",
+        "opened_at_ms": 1795074276905,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-19T07:44:36.905725+00:00",
+            "price": 0.193
+          }
+        ],
+        "signal_message_id": 4269,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
