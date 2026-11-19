@@ -13012,5 +13012,33 @@
     "silent": true,
     "source_signal_id": "ALT-001029",
     "signal_message_id": 4292
+  },
+  {
+    "id": "src-ALT-001030",
+    "symbol": "HBAR/USD",
+    "side": "SELL",
+    "entry": 0.05509,
+    "sl": 0.05913,
+    "status": "pending",
+    "created_at": 1795104534,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-001030",
+    "signal_message_id": 4293
+  },
+  {
+    "id": "src-ALT-001031",
+    "symbol": "ARB/USD",
+    "side": "SELL",
+    "entry": 0.1238,
+    "sl": 0.1338,
+    "status": "pending",
+    "created_at": 1795104552,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-001031",
+    "signal_message_id": 4294
   }
 ]
