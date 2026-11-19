@@ -1,18 +1,6 @@
 [
   {
     "kind": "breakeven",
-    "ticker": "ICP",
-    "tf_label": "15M",
-    "entry": 2.471,
-    "level": null,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000712",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T20:39:28.785023+00:00"
-  },
-  {
-    "kind": "breakeven",
     "ticker": "SEI",
     "tf_label": "15M",
     "entry": 0.04577,
@@ -6136,5 +6124,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-19T09:05:49.276610+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "NEAR",
+    "tf_label": "5M",
+    "entry": 3.417,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001015",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-19T09:31:36+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-19T09:31:38.373749+00:00"
   }
 ]
