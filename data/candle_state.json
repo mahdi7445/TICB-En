@@ -50434,7 +50434,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -50453,6 +50453,12 @@
             "type": "rr",
             "ts": "2026-11-14T15:42:47.386328+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-19T17:15:17.994340+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
