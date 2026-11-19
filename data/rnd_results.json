@@ -1,12 +1,12 @@
 {
  "ai": {
   "analysis": [
-   "[Groq (free tier)] Many losing trades come from tiny ATR stops that get eaten by fees, especially on low‑timeframe (1m‑5m) signals.",
-   "[Groq (free tier)] Counter‑trend entries appear when higher‑timeframe trend filters are missing, causing trades to be stopped out quickly.",
-   "[Groq (free tier)] Low‑volume breakouts generate false signals; adding a volume‑ratio threshold helps filter chop.",
-   "[Groq (free tier)] Inside‑bar and pin‑bar patterns fire frequently in sideways markets; multi‑TF confirmation can prune these."
+   "[Groq (free tier)] Tiny ATR stops on low‑timeframe signals are often eaten by fees, especially on 5m/1m strategies.",
+   "[Groq (free tier)] Many losing trades occur when the lower timeframe signals go against the higher timeframe trend (counter‑trend entries).",
+   "[Groq (free tier)] Low volume spikes (volr around 1.2‑1.3) generate false breakouts and increase chop, leading to negative R.",
+   "[Groq (free tier)] Pure pattern signals without any multi‑timeframe confirmation tend to fire in ranging markets."
   ],
-  "at": 1795080676.9521596,
+  "at": 1795114651.6096709,
   "audit": {
    "actions": [],
    "by": "",
@@ -19,14 +19,18 @@
   "model": "claude-sonnet-5-5",
   "providers": {
    "claude": {
-    "skipped": "cooldown",
-    "wait_s": 4497,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 1h14m دیگر"
+    "error": "HTTP 400 — درخواست/اعتبار حساب مشکل دارد (مثلاً اعتبار تمام شده یا نام مدل نادرست) — Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
+    "kind": "credit",
+    "model": "claude-sonnet-5-5",
+    "n": 0,
+    "used": false
    },
    "deepseek": {
-    "skipped": "cooldown",
-    "wait_s": 4498,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 1h14m دیگر"
+    "error": "HTTP 402 — اعتبار حساب تمام شده — Insufficient Balance (request_id: 308459b1-cc6c-485a-8869-d1dbb71e2f33)",
+    "kind": "credit",
+    "model": "deepseek-chat",
+    "n": 0,
+    "used": false
    },
    "gemini": {
     "error": "HTTP 503 — This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
@@ -36,21 +40,25 @@
     "used": false
    },
    "grok": {
-    "skipped": "cooldown",
-    "wait_s": 4497,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 1h14m دیگر"
+    "error": "HTTP 403 — کلید اجازه‌ی این مدل/عملیات را ندارد یا اعتبار ندارد — Your newly created team doesn't have any credits or licenses yet. You can purchase those on https://console.x.ai/team/609d7202-5f07-4799-95b",
+    "kind": "credit",
+    "model": "grok-4",
+    "n": 0,
+    "used": false
    },
    "groq": {
     "error": "",
     "kind": "",
     "model": "llama-3.3-70b-versatile",
-    "n": 7,
+    "n": 6,
     "used": true
    },
    "openai": {
-    "skipped": "cooldown",
-    "wait_s": 4498,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 1h14m دیگر"
+    "error": "HTTP 429 — سقف نرخ/اعتبار پر شده — You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+    "kind": "credit",
+    "model": "gpt-4.1",
+    "n": 0,
+    "used": false
    },
    "openrouter": {
     "error": "empty reply",
@@ -65,84 +73,88 @@
  },
  "ai_calls_by": {
   "2026-11-19": {
-   "gemini": 2,
-   "groq": 2,
-   "openrouter": 2
+   "claude": 1,
+   "deepseek": 1,
+   "gemini": 3,
+   "grok": 1,
+   "groq": 4,
+   "openai": 1,
+   "openrouter": 3
   }
  },
  "ai_calls_today": {
-  "2026-11-19": 6
+  "2026-11-19": 14
  },
  "ai_health": {
   "claude": {
-   "fails": 5,
+   "fails": 6,
    "kind": "credit",
    "last_err": "HTTP 400 — درخواست/اعتبار حساب مشکل دارد (مثلاً اعتبار تمام شده یا نام مدل نادرست) — Your credit balance is too low to access the Anthropic API. Please go to Pl",
-   "last_fail": 1794996468.6716812,
-   "until": 1795082868.6716812
+   "last_fail": 1795112621.0448992,
+   "until": 1795199021.0448992
   },
   "deepseek": {
-   "fails": 5,
+   "fails": 6,
    "kind": "credit",
-   "last_err": "HTTP 402 — اعتبار حساب تمام شده — Insufficient Balance (request_id: dfa50f75-7cff-4535-be77-c4c5448030c5)",
-   "last_fail": 1794996469.0860293,
-   "until": 1795082869.0860293
+   "last_err": "HTTP 402 — اعتبار حساب تمام شده — Insufficient Balance (request_id: 308459b1-cc6c-485a-8869-d1dbb71e2f33)",
+   "last_fail": 1795112621.4338999,
+   "until": 1795199021.4338999
   },
   "gemini": {
-   "fails": 4,
+   "fails": 5,
    "kind": "transient",
    "last_err": "HTTP 503 — This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-   "last_fail": 1795078389.5456092,
+   "last_fail": 1795112649.3701932,
    "last_ok": 1794996599.8739312,
-   "until": 1795081989.5456092
+   "until": 1795116249.3701932
   },
   "grok": {
-   "fails": 5,
+   "fails": 6,
    "kind": "credit",
    "last_err": "HTTP 403 — کلید اجازه‌ی این مدل/عملیات را ندارد یا اعتبار ندارد — Your newly created team doesn't have any credits or licenses yet. You can purchase those on ht",
-   "last_fail": 1794996468.4215455,
-   "until": 1795082868.4215455
+   "last_fail": 1795112620.9005885,
+   "until": 1795199020.9005885
   },
   "groq": {
    "fails": 1,
    "kind": "credit",
    "last_err": "HTTP 429 — سقف نرخ/اعتبار پر شده — Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m7ctfceyeh8rfss3gs9sqvzf` service tier `on_demand` ",
-   "last_fail": 1795078395.8729713,
-   "last_ok": 1795078377.1940184,
-   "until": 1795081995.8729713
+   "last_fail": 1795112655.6490743,
+   "last_ok": 1795112626.9273462,
+   "until": 1795116255.6490743
   },
   "openai": {
-   "fails": 5,
+   "fails": 6,
    "kind": "credit",
    "last_err": "HTTP 429 — سقف نرخ/اعتبار پر شده — You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/bil",
-   "last_fail": 1794996469.7941053,
-   "until": 1795082869.7941053
+   "last_fail": 1795112621.984284,
+   "until": 1795199021.984284
   },
   "openrouter": {
-   "fails": 10,
+   "fails": 11,
    "kind": "other",
    "last_err": "empty reply",
-   "last_fail": 1795078382.1318219,
-   "until": 1795085582.1318219
+   "last_fail": 1795112646.5381002,
+   "until": 1795119846.5381002
   }
  },
  "ai_hints": [
   {
-   "desc": "[groq] reduce oversized ATR stops that erode profitability on low‑timeframe trades",
-   "key": "mx_ticb_maxstop",
+   "desc": "[groq] Raise daily ATR multiplier to avoid overly tight stops that get wiped by fees.",
+   "key": "mx_atr_day",
    "section": "ticb",
-   "value": 3.5
+   "value": 3.0
   },
   {
-   "desc": "[groq] prevent overtrading and split/t issues by lengthening cooldown between signals",
-   "key": "mx_ticb_cd",
+   "desc": "[groq] Cool‑down related ATR limit slightly lower to keep stop size reasonable on fast TFs.",
+   "key": "mx_atr_cd",
    "section": "ticb",
-   "value": 4
+   "value": 2.5
   },
   {
-   "desc": "[groq] ensure stop distance is at least 0.25% of price to avoid fee‑eaten tiny stops",
+   "desc": "[groq] Increase minimum stop risk percentage to ensure each trade has sufficient risk‑reward buffer.",
    "key": "nat_min_stop_pct",
-   "section": "sgnl",
+   "section": "ticb",
    "value": 0.25
   }
  ],
@@ -286,7 +298,7 @@
   },
   {
    "fails": [],
-   "score": 7.358161171396989,
+   "score": 7.396140275788093,
    "spec": {
     "all": [
      [
@@ -330,7 +342,7 @@
   },
   {
    "fails": [],
-   "score": 7.330432604757482,
+   "score": 7.36233955341576,
    "spec": {
     "all": [
      [
@@ -369,7 +381,7 @@
   },
   {
    "fails": [],
-   "score": 7.308018529380259,
+   "score": 7.346105553949259,
    "spec": {
     "all": [
      [
@@ -465,7 +477,7 @@
   },
   {
    "fails": [],
-   "score": 7.040112086952749,
+   "score": 7.067601685923619,
    "spec": {
     "all": [
      [
@@ -753,55 +765,6 @@
   },
   {
    "fails": [],
-   "score": 6.420170526515491,
-   "spec": {
-    "all": [
-     [
-      "close",
-      ">",
-      "hh:20"
-     ],
-     [
-      "volr:20",
-      ">",
-      1.3
-     ],
-     [
-      "close",
-      ">",
-      "ema:200"
-     ],
-     [
-      "closepos",
-      ">",
-      0.678
-     ]
-    ],
-    "cooldown": 6,
-    "created": "2026-11-18T22:18Z",
-    "family": "breakout",
-    "id": "RD9",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.2,
-    "name": "Breakout #469 · fix4",
-    "origin": "improve",
-    "parent": "1cb8a446a1",
-    "stop": {
-     "k": 3.0,
-     "kind": "atr"
-    },
-    "tfs": [
-     "5m",
-     "15m",
-     "4h"
-    ],
-    "why": "breakout idea (guided random search)"
-   },
-   "spec_id": "4b5d752f2c",
-   "status": "CAND"
-  },
-  {
-   "fails": [],
    "score": 6.3861946647729875,
    "spec": {
     "all": [
@@ -848,9 +811,53 @@
    },
    "spec_id": "b76ce9f3fd",
    "status": "CAND"
+  },
+  {
+   "fails": [],
+   "score": 6.318782990785454,
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.065
+     ],
+     [
+      "volr:20",
+      ">",
+      1.2
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-18T19:32Z",
+    "family": "inside",
+    "id": "RD12",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · fix74",
+    "origin": "improve",
+    "parent": "01d6a848cb",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "spec_id": "965184c323",
+   "status": "CAND"
   }
  ],
- "cycle": 24,
+ "cycle": 25,
  "gate": {
   "avg": 0.1,
   "dd": 8.0,
@@ -867,104 +874,8 @@
   "t": 2.0,
   "win": 40.0
  },
- "generated": "2026-11-19 13:06 UTC",
+ "generated": "2026-11-19 22:41 UTC",
  "history": [
-  {
-   "family": "breakout",
-   "n": 2977,
-   "name": "Breakout #469 · v2",
-   "origin": "mutation",
-   "t": 10.425,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2074,
-   "name": "Breakout #469 · fix75",
-   "origin": "improve",
-   "t": 9.954,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2975,
-   "name": "Breakout #469 · fix17",
-   "origin": "improve",
-   "t": 12.21,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 3039,
-   "name": "Breakout #469 · fix69",
-   "origin": "improve",
-   "t": 12.023,
-   "tf": "15m"
-  },
-  {
-   "family": null,
-   "n": 3789,
-   "name": "Inside #962 v9 fix",
-   "origin": "ai-fix:groq",
-   "t": 11.732,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2574,
-   "name": "Breakout #469 · fix41",
-   "origin": "improve",
-   "t": 11.233,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2595,
-   "name": "Breakout #469 · fix67",
-   "origin": "improve",
-   "t": 11.181,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 3206,
-   "name": "Breakout #469 · v8",
-   "origin": "mutation",
-   "t": 11.172,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3439,
-   "name": "Inside #962 · v3",
-   "origin": "mutation",
-   "t": 11.117,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3030,
-   "name": "Inside #962 · fix33",
-   "origin": "improve",
-   "t": 11.077,
-   "tf": "15m"
-  },
-  {
-   "family": null,
-   "n": 4602,
-   "name": "Inside #962 · v9",
-   "origin": "ai-fix:gemini",
-   "t": 10.975,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3355,
-   "name": "Inside #962 · v5",
-   "origin": "mutation",
-   "t": 10.607,
-   "tf": "15m"
-  },
   {
    "family": "inside",
    "n": 2535,
@@ -1268,13 +1179,109 @@
    "origin": "mutation",
    "t": 9.739,
    "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 3060,
+   "name": "Breakout #469 · fix9",
+   "origin": "improve",
+   "t": 11.574,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 3045,
+   "name": "Breakout #469 · fix78",
+   "origin": "improve",
+   "t": 11.258,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2993,
+   "name": "Breakout #469 · fix38",
+   "origin": "improve",
+   "t": 11.171,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2585,
+   "name": "Breakout #469 · fix14",
+   "origin": "improve",
+   "t": 11.14,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2944,
+   "name": "Breakout #469 · fix90",
+   "origin": "improve",
+   "t": 11.103,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3436,
+   "name": "Inside #962 · v8",
+   "origin": "mutation",
+   "t": 10.86,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3428,
+   "name": "Inside #962 · v9",
+   "origin": "mutation",
+   "t": 10.671,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3420,
+   "name": "Inside #962 · v8",
+   "origin": "mutation",
+   "t": 10.615,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3411,
+   "name": "Inside #962 · v5",
+   "origin": "mutation",
+   "t": 10.515,
+   "tf": "15m"
+  },
+  {
+   "family": null,
+   "n": 4568,
+   "name": "MTF Trend Breakout",
+   "origin": "ai:groq",
+   "t": 9.774,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 3167,
+   "name": "Breakout #469 · v7",
+   "origin": "mutation",
+   "t": 9.765,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2461,
+   "name": "Breakout #469 · fix8",
+   "origin": "improve",
+   "t": 9.518,
+   "tf": "15m"
   }
  ],
  "improved": 12,
- "prescreened": 34,
+ "prescreened": 31,
  "slots": {
   "RD1": {
-   "avg_r": 0.2046264547533393,
+   "avg_r": 0.1851281984412322,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1283,22 +1290,22 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 544,
+   "n": 574,
    "name": "Breakout #469 · fix79",
    "origin": "improve",
-   "pf": 1.4503378331194876,
+   "pf": 1.402660297862593,
    "spec_id": "949a16d965",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.7647058823529411,
-   "t": 3.181279577633762,
-   "test_r": 0.2315081864228621,
+   "symbols_positive": 0.7222222222222222,
+   "t": 2.9943409013327993,
+   "test_r": 0.21355880301774985,
    "tf": "4h",
-   "train_r": 0.18665032744059087,
-   "win": 31.801470588235293
+   "train_r": 0.16611936398600238,
+   "win": 31.70731707317073
   },
   "RD10": {
-   "avg_r": 0.13811068986293962,
+   "avg_r": 0.1392050743906751,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
@@ -1307,40 +1314,40 @@
    "n": 2048,
    "name": "Inside #962 · v3",
    "origin": "mutation",
-   "pf": 1.2476969371062048,
+   "pf": 1.249843070317915,
    "spec_id": "efd2b42a73",
    "status": "PASS",
    "streak": null,
    "symbols_positive": 0.8260869565217391,
-   "t": 4.330432604757482,
-   "test_r": 0.12188816924695589,
+   "t": 4.36233955341576,
+   "test_r": 0.12265180187543794,
    "tf": "4h",
-   "train_r": 0.14894331763582774,
+   "train_r": 0.15025856255231554,
    "win": 44.970703125
   },
   "RD11": {
-   "avg_r": 0.13933310007118127,
+   "avg_r": 0.14070450982319,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
    "family": "inside",
    "gate": null,
-   "n": 2027,
+   "n": 2026,
    "name": "Inside #962 · v3",
    "origin": "mutation",
-   "pf": 1.2504315033638123,
+   "pf": 1.253001137389834,
    "spec_id": "42716eb47f",
    "status": "PASS",
    "streak": null,
    "symbols_positive": 0.8260869565217391,
-   "t": 4.358161171396989,
-   "test_r": 0.13610243060081548,
+   "t": 4.396140275788093,
+   "test_r": 0.13809490483627518,
    "tf": "4h",
-   "train_r": 0.1414877653182755,
-   "win": 45.09126788357178
+   "train_r": 0.14244639430416775,
+   "win": 45.113524185587366
   },
   "RD12": {
-   "avg_r": 0.17893440880452893,
+   "avg_r": 0.18055933871680427,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1349,22 +1356,22 @@
    ],
    "family": "inside",
    "gate": null,
-   "n": 1031,
+   "n": 1030,
    "name": "Inside #962 · fix74",
    "origin": "improve",
-   "pf": 1.2854737668924028,
+   "pf": 1.2879671471187226,
    "spec_id": "965184c323",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.9473684210526315,
-   "t": 3.295350372247437,
-   "test_r": 0.20228329143297902,
+   "t": 3.3187829907854542,
+   "test_r": 0.20633931726787186,
    "tf": "4h",
-   "train_r": 0.1633307056887524,
-   "win": 38.21532492725509
+   "train_r": 0.16337268634942587,
+   "win": 38.15533980582524
   },
   "RD2": {
-   "avg_r": 0.18645602259882493,
+   "avg_r": 0.1868213583551334,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1376,40 +1383,40 @@
    "n": 610,
    "name": "Breakout #469 · v8",
    "origin": "mutation",
-   "pf": 1.3991356982445744,
+   "pf": 1.399917751514592,
    "spec_id": "1cb8a446a1",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.8235294117647058,
-   "t": 3.0665255837970244,
-   "test_r": 0.22804406011794193,
+   "t": 3.0724623632094934,
+   "test_r": 0.22895739950871302,
    "tf": "4h",
    "train_r": 0.15873066425274693,
    "win": 31.639344262295083
   },
   "RD3": {
-   "avg_r": 0.1377533878553042,
+   "avg_r": 0.13912740769217202,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
    "family": "inside",
    "gate": null,
-   "n": 2022,
+   "n": 2021,
    "name": "Inside #962 · v3",
    "origin": "mutation",
-   "pf": 1.2474276532370976,
+   "pf": 1.2499991996387252,
    "spec_id": "a53c7093bf",
    "status": "PASS",
    "streak": null,
    "symbols_positive": 0.8260869565217391,
-   "t": 4.308018529380259,
-   "test_r": 0.1446070543074145,
+   "t": 4.346105553949259,
+   "test_r": 0.1466044543135428,
    "tf": "4h",
-   "train_r": 0.13318239349441613,
-   "win": 45.05440158259149
+   "train_r": 0.1341365407642109,
+   "win": 45.076694705591294
   },
   "RD4": {
-   "avg_r": 0.14033283312872147,
+   "avg_r": 0.14139888183105712,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
@@ -1418,19 +1425,19 @@
    "n": 1733,
    "name": "Breakout #469 · fix29",
    "origin": "improve",
-   "pf": 1.2505077250975039,
+   "pf": 1.2524109584847154,
    "spec_id": "ee741fb893",
    "status": "PASS",
    "streak": null,
    "symbols_positive": 0.9130434782608695,
-   "t": 4.040112086952749,
-   "test_r": 0.14956604306742438,
+   "t": 4.067601685923619,
+   "test_r": 0.15222759235103492,
    "tf": "4h",
-   "train_r": 0.13416551099449645,
+   "train_r": 0.13416584516035018,
    "win": 44.48932487016734
   },
   "RD5": {
-   "avg_r": 0.16512608819781927,
+   "avg_r": 0.1654849526283316,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1442,19 +1449,19 @@
    "n": 621,
    "name": "Breakout #469 · fix28",
    "origin": "improve",
-   "pf": 1.3558671217177583,
+   "pf": 1.3566405189039152,
    "spec_id": "6bbe0f69b2",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.7777777777777778,
-   "t": 2.782190315906258,
-   "test_r": 0.1925509336752702,
+   "t": 2.788161146492135,
+   "test_r": 0.19344593291763226,
    "tf": "4h",
    "train_r": 0.14676913517662224,
    "win": 30.595813204508858
   },
   "RD6": {
-   "avg_r": 0.08445982964327003,
+   "avg_r": 0.08532937360971156,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1467,19 +1474,19 @@
    "n": 1659,
    "name": "Inside #962 · fix74",
    "origin": "improve",
-   "pf": 1.1287256166498647,
+   "pf": 1.1299281024725245,
    "spec_id": "7919faad00",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.782608695652174,
-   "t": 2.02705347295494,
-   "test_r": 0.11429200334507854,
+   "t": 2.0449324967485603,
+   "test_r": 0.11901285421543993,
    "tf": "4h",
-   "train_r": 0.06455172578598278,
-   "win": 35.201928872814946
+   "train_r": 0.0628511513763411,
+   "win": 35.1416515973478
   },
   "RD7": {
-   "avg_r": 0.2046264547533393,
+   "avg_r": 0.1851281984412322,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1488,22 +1495,22 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 544,
+   "n": 574,
    "name": "Breakout #469 · fix17",
    "origin": "improve",
-   "pf": 1.4503378331194876,
+   "pf": 1.402660297862593,
    "spec_id": "949a16d965",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.7647058823529411,
-   "t": 3.181279577633762,
-   "test_r": 0.2315081864228621,
+   "symbols_positive": 0.7222222222222222,
+   "t": 2.9943409013327993,
+   "test_r": 0.21355880301774985,
    "tf": "4h",
-   "train_r": 0.18665032744059087,
-   "win": 31.801470588235293
+   "train_r": 0.16611936398600238,
+   "win": 31.70731707317073
   },
   "RD8": {
-   "avg_r": 0.2154393922224847,
+   "avg_r": 0.19795427660421186,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1512,22 +1519,22 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 575,
+   "n": 605,
    "name": "Breakout #469 · fix69",
    "origin": "improve",
-   "pf": 1.4737382262361418,
+   "pf": 1.4289522010654323,
    "spec_id": "4b5d752f2c",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.8823529411764706,
-   "t": 3.4201705265154914,
-   "test_r": 0.26919797944782664,
+   "symbols_positive": 0.8333333333333334,
+   "t": 3.2483766736831603,
+   "test_r": 0.24175296640121202,
    "tf": "4h",
-   "train_r": 0.17960033407225678,
-   "win": 32.34782608695652
+   "train_r": 0.16875515007287845,
+   "win": 32.06611570247934
   },
   "RD9": {
-   "avg_r": 0.2154393922224847,
+   "avg_r": 0.19795427660421186,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1536,21 +1543,21 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 575,
+   "n": 605,
    "name": "Breakout #469 · fix4",
    "origin": "improve",
-   "pf": 1.4737382262361418,
+   "pf": 1.4289522010654323,
    "spec_id": "4b5d752f2c",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.8823529411764706,
-   "t": 3.4201705265154914,
-   "test_r": 0.26919797944782664,
+   "symbols_positive": 0.8333333333333334,
+   "t": 3.2483766736831603,
+   "test_r": 0.24175296640121202,
    "tf": "4h",
-   "train_r": 0.17960033407225678,
-   "win": 32.34782608695652
+   "train_r": 0.16875515007287845,
+   "win": 32.06611570247934
   }
  },
- "tested": 39,
- "ts": 1795093618.7192636
+ "tested": 36,
+ "ts": 1795128116.3766363
 }
