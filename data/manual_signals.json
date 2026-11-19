@@ -13062,5 +13062,19 @@
     "silent": true,
     "source_signal_id": "ALT-001032",
     "signal_message_id": 4297
+  },
+  {
+    "id": "src-ALT-001033",
+    "symbol": "TIA/USD",
+    "side": "SELL",
+    "entry": 0.3457,
+    "sl": 0.3762,
+    "status": "pending",
+    "created_at": 1795118870,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-001033",
+    "signal_message_id": 4298
   }
 ]
