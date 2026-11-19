@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "DOT",
-    "tf_label": "5M",
-    "entry": 0.9194,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000719",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T23:05:34.297574+00:00"
-  },
-  {
     "kind": "sl_after_t2",
     "ticker": "DOT",
     "tf_label": "5M",
@@ -6175,5 +6163,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-19T21:20:13.034247+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOT",
+    "tf_label": "15M",
+    "entry": 0.7207,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-001022",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-19T21:26:43+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-19T21:26:44.450075+00:00"
   }
 ]
