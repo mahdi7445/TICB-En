@@ -1067,10 +1067,10 @@
     "since": 1792681928.229496,
     "win": 40.0
    },
-   "ts": 1795164775.016716
+   "ts": 1795166584.4364085
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795164775.016716,
+  "light_ts": 1795166584.4364085,
   "modules_seen": 1795141329.504877,
   "modules_status": {
    "BZ15": "NA",
