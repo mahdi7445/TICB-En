@@ -1,15 +1,15 @@
 {
- "cycle": 27,
- "set": "2026-11-20T09:21Z",
+ "cycle": 28,
+ "set": "2026-11-20T12:07Z",
  "slots": {
   "RD1": {
    "prescreen": {
-    "avg": 0.3583,
-    "n": 2990,
-    "t": 11.942,
+    "avg": 0.3319,
+    "n": 3101,
+    "t": 11.339,
     "tf": "15m"
    },
-   "set": "2026-11-18T22:18Z",
+   "set": "2026-11-20T12:07Z",
    "spec": {
     "all": [
      [
@@ -20,7 +20,7 @@
      [
       "volr:20",
       ">",
-      1.43
+      1.3
      ],
      [
       "close",
@@ -30,82 +30,42 @@
      [
       "closepos",
       ">",
-      0.678
+      0.616
+     ],
+     [
+      "rng",
+      ">",
+      0.8
      ]
     ],
     "cooldown": 6,
-    "created": "2026-11-18T22:18Z",
+    "created": "2026-11-20T12:07Z",
     "family": "breakout",
     "id": "RD1",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.2,
-    "name": "Breakout #469 · fix79",
+    "name": "Breakout #469 · fix23",
     "origin": "improve",
-    "parent": "6bbe0f69b2",
+    "parent": "1cb8a446a1",
     "stop": {
      "k": 3.0,
      "kind": "atr"
     },
     "tfs": [
-     "5m",
-     "15m",
-     "4h"
+     "15m"
     ],
     "why": "breakout idea (guided random search)"
    },
-   "spec_id": "949a16d965"
+   "spec_id": "4a539affde"
   },
   "RD10": {
    "prescreen": {
-    "avg": 0.3059,
-    "n": 3439,
-    "t": 11.117,
+    "avg": 0.2832,
+    "n": 3365,
+    "t": 10.216,
     "tf": "15m"
    },
-   "set": "2026-11-18T10:43Z",
-   "spec": {
-    "all": [
-     [
-      "inside",
-      "==",
-      1.0
-     ],
-     [
-      "slope:34",
-      ">",
-      0.057
-     ]
-    ],
-    "cooldown": 3,
-    "created": "2026-11-18T10:43Z",
-    "family": "inside",
-    "id": "RD10",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Inside #962 · v3",
-    "origin": "mutation",
-    "parent": "fe9bfbc84d",
-    "stop": {
-     "k": 2.5,
-     "kind": "atr"
-    },
-    "tfs": [
-     "5m",
-     "15m",
-     "4h"
-    ],
-    "why": "inside idea (guided random search)"
-   },
-   "spec_id": "efd2b42a73"
-  },
-  "RD11": {
-   "prescreen": {
-    "avg": 0.2936,
-    "n": 3392,
-    "t": 10.618,
-    "tf": "15m"
-   },
-   "set": "2026-11-18T22:18Z",
+   "set": "2026-11-20T12:07Z",
    "spec": {
     "all": [
      [
@@ -121,30 +81,87 @@
      [
       "slope:34",
       ">",
-      0.056
+      0.073
      ]
     ],
     "cooldown": 3,
-    "created": "2026-11-18T22:18Z",
+    "created": "2026-11-20T12:07Z",
     "family": "inside",
-    "id": "RD11",
+    "id": "RD10",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.5,
-    "name": "Inside #962 · v3",
-    "origin": "mutation",
+    "name": "Inside #962 · fix73",
+    "origin": "improve",
     "parent": "a53c7093bf",
     "stop": {
      "k": 2.5,
      "kind": "atr"
     },
     "tfs": [
-     "5m",
-     "15m",
-     "4h"
+     "15m"
     ],
     "why": "inside idea (guided random search)"
    },
-   "spec_id": "42716eb47f"
+   "spec_id": "2e46d4cff6"
+  },
+  "RD11": {
+   "prescreen": {
+    "avg": 0.3585,
+    "n": 796,
+    "t": 6.027,
+    "tf": "1h"
+   },
+   "set": "2026-11-20T12:07Z",
+   "spec": {
+    "all": [
+     [
+      "close",
+      ">",
+      "hh:20"
+     ],
+     [
+      "volr:20",
+      ">",
+      1.3
+     ],
+     [
+      "close",
+      ">",
+      "ema:200"
+     ],
+     [
+      "htf:4h:trend",
+      "==",
+      1.0
+     ],
+     [
+      "rsi:14",
+      ">",
+      45.0
+     ],
+     [
+      "rsi:14",
+      "<",
+      70.0
+     ]
+    ],
+    "cooldown": 6,
+    "created": "2026-11-20T12:07Z",
+    "id": "RD11",
+    "max_stop_atr": 3.0,
+    "min_risk_pct": 0.3,
+    "name": "MTF Breakout Confirm",
+    "origin": "ai:groq",
+    "stop": {
+     "k": 2.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "1h"
+    ],
+    "why": "adds 4h trend and moderate RSI filter to avoid counter‑trend breakouts"
+   },
+   "spec_id": "9b93fb605e"
   },
   "RD12": {
    "prescreen": {
@@ -403,60 +420,12 @@
   },
   "RD6": {
    "prescreen": {
-    "avg": 0.3305,
-    "n": 3421,
-    "t": 11.895,
+    "avg": 0.3263,
+    "n": 3006,
+    "t": 10.892,
     "tf": "15m"
    },
-   "set": "2026-11-15T05:12Z",
-   "spec": {
-    "all": [
-     [
-      "close",
-      ">",
-      "ema:100"
-     ],
-     [
-      "slope:34",
-      ">",
-      0.065
-     ],
-     [
-      "volr:20",
-      ">",
-      1.5
-     ]
-    ],
-    "cooldown": 3,
-    "created": "2026-11-15T05:12Z",
-    "family": "inside",
-    "id": "RD6",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Inside #962 · fix74",
-    "origin": "improve",
-    "parent": "01d6a848cb",
-    "stop": {
-     "k": 3.0,
-     "kind": "atr"
-    },
-    "tfs": [
-     "5m",
-     "15m",
-     "4h"
-    ],
-    "why": "inside idea (guided random search)"
-   },
-   "spec_id": "7919faad00"
-  },
-  "RD7": {
-   "prescreen": {
-    "avg": 0.3681,
-    "n": 2975,
-    "t": 12.21,
-    "tf": "15m"
-   },
-   "set": "2026-11-18T10:43Z",
+   "set": "2026-11-20T12:07Z",
    "spec": {
     "all": [
      [
@@ -467,7 +436,7 @@
      [
       "volr:20",
       ">",
-      1.43
+      1.69
      ],
      [
       "close",
@@ -477,30 +446,74 @@
      [
       "closepos",
       ">",
-      0.678
+      0.616
      ]
     ],
     "cooldown": 6,
-    "created": "2026-11-18T10:43Z",
+    "created": "2026-11-20T12:07Z",
     "family": "breakout",
-    "id": "RD7",
+    "id": "RD6",
     "max_stop_atr": 4.0,
     "min_risk_pct": 0.2,
-    "name": "Breakout #469 · fix17",
+    "name": "Breakout #469 · fix41",
     "origin": "improve",
-    "parent": "6bbe0f69b2",
+    "parent": "1cb8a446a1",
     "stop": {
      "k": 3.0,
      "kind": "atr"
     },
     "tfs": [
-     "5m",
-     "15m",
-     "4h"
+     "15m"
     ],
     "why": "breakout idea (guided random search)"
    },
-   "spec_id": "949a16d965"
+   "spec_id": "0e127b319e"
+  },
+  "RD7": {
+   "prescreen": {
+    "avg": 0.2823,
+    "n": 3387,
+    "t": 10.226,
+    "tf": "15m"
+   },
+   "set": "2026-11-20T12:07Z",
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.065
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-20T12:07Z",
+    "family": "inside",
+    "id": "RD7",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962 · v9",
+    "origin": "mutation",
+    "parent": "217008e9f1",
+    "stop": {
+     "k": 2.5,
+     "kind": "atr"
+    },
+    "tfs": [
+     "15m"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "spec_id": "19eb00ccaf"
   },
   "RD8": {
    "prescreen": {
