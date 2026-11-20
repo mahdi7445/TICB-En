@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "UNI",
-    "tf_label": "5M",
-    "entry": 7.0,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000743",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T10:02:49.585744+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "BCH",
     "tf_label": "15M",
     "entry": 267.38,
@@ -6274,5 +6262,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:48:42.285880+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOGE",
+    "tf_label": "1H",
+    "entry": 0.09235,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000161",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T16:06:15+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T16:06:15.686225+00:00"
   }
 ]
