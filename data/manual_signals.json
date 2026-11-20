@@ -13265,12 +13265,13 @@
     "side": "SELL",
     "entry": 1.88,
     "sl": 2.04,
-    "status": "pending",
+    "status": "active",
     "created_at": 1795178951,
     "forwarded_tracking": true,
     "tf_label": "15M",
     "silent": true,
     "source_signal_id": "ALT-001046",
-    "signal_message_id": 4329
+    "signal_message_id": 4329,
+    "activated_at": "2026-11-20T12:50:15.162648+00:00"
   }
 ]
