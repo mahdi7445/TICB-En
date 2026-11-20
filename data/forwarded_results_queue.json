@@ -1,29 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "TIA",
-    "tf_label": "15M",
-    "entry": 0.4134,
-    "level": null,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000722",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T00:06:32.968597+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "SEI",
-    "tf_label": "5M",
-    "entry": 0.04464,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000723",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T00:06:34.069632+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "ALGO",
     "tf_label": "5M",
@@ -6220,5 +6196,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T04:51:06.106738+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "PEARL",
+    "tf_label": "5M",
+    "entry": 1.932,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-001043",
+    "side": "SELL",
+    "stop": 1.967,
+    "src_ts": "2026-11-20T07:49:39+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T07:49:39.986659+00:00"
   }
 ]
