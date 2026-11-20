@@ -1037,11 +1037,11 @@
     "since": 1792681928.229496,
     "win": 40.0
    },
-   "ts": 1795140094.8796132
+   "ts": 1795141910.6049345
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795140094.8796132,
-  "modules_seen": 1795109066.341931,
+  "light_ts": 1795141910.6049345,
+  "modules_seen": 1795141329.504877,
   "modules_status": {
    "BZ15": "NA",
    "BZ1H": "FAIL",
