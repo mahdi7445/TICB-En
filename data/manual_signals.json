@@ -13197,5 +13197,19 @@
     "silent": true,
     "source_signal_id": "ALT-001041",
     "signal_message_id": 4319
+  },
+  {
+    "id": "src-ALT-001042",
+    "symbol": "ADA/USD",
+    "side": "BUY",
+    "entry": 0.1498,
+    "sl": 0.1488,
+    "status": "pending",
+    "created_at": 1795147719,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-001042",
+    "signal_message_id": 4320
   }
 ]
