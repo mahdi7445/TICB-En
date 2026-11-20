@@ -13167,5 +13167,19 @@
     "silent": true,
     "source_signal_id": "ALT-001039",
     "signal_message_id": 4317
+  },
+  {
+    "id": "src-ALT-001040",
+    "symbol": "OP/USD",
+    "side": "SELL",
+    "entry": 0.0733,
+    "sl": 0.07977,
+    "status": "pending",
+    "created_at": 1795147344,
+    "forwarded_tracking": true,
+    "tf_label": "4H",
+    "silent": true,
+    "source_signal_id": "ALT-001040",
+    "signal_message_id": 4318
   }
 ]
