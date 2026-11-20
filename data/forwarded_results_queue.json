@@ -1,29 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "ADA",
-    "tf_label": "5M",
-    "entry": 0.1866,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000749",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T14:45:47.158999+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ZEC",
-    "tf_label": "4H",
-    "entry": 1219.13,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000547",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T14:46:25.026183+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "APT",
     "tf_label": "15M",
@@ -6319,5 +6295,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T22:09:36.368527+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 69.46,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-001053",
+    "side": "BUY",
+    "stop": 68.95,
+    "src_ts": "2026-11-20T23:44:49+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T23:44:50.552826+00:00"
   }
 ]
