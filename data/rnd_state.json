@@ -1071,6 +1071,46 @@
    "k": "audit",
    "t": 1795169500.6087089,
    "x": "➡️ Auditor action: Fix execution/logging code causing target hits to register as -1R losses"
+  },
+  {
+   "k": "research",
+   "t": 1795175325.2910783,
+   "x": "🔬 Cycle 27: 35 ideas screened, 11 auto-improved variants · AI used: groq · covered: claude→groq · waiting: claude (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 9h43m دیگر), deepseek (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 9h43m دیگر), grok (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 9h43m دیگر), openai (⏳ اعت"
+  },
+  {
+   "k": "strategy",
+   "t": 1795175325.2910783,
+   "x": "🧪 RD1 “Breakout #469 · fix79” (improve) → FAIL · -0.07R, PF 0.88, win 29%, t=-1.0, n=409"
+  },
+  {
+   "k": "strategy",
+   "t": 1795175325.2910783,
+   "x": "🧪 RD10 “Inside #962 · v3” (mutation) → FAIL · +0.17R, PF 1.27, win 39%, t=1.4, n=209"
+  },
+  {
+   "k": "strategy",
+   "t": 1795175325.2910783,
+   "x": "🧪 RD11 “Inside #962 · v3” (mutation) → FAIL · +0.20R, PF 1.33, win 40%, t=1.6, n=204"
+  },
+  {
+   "k": "strategy",
+   "t": 1795175325.2910783,
+   "x": "🧪 RD3 “Inside #962 · v3” (mutation) → CAND · +0.22R, PF 1.35, win 39%, t=2.6, n=468"
+  },
+  {
+   "k": "strategy",
+   "t": 1795175325.2910783,
+   "x": "🧪 RD4 “Breakout #469 · fix29” (improve) → CAND · +0.22R, PF 1.37, win 40%, t=3.0, n=538"
+  },
+  {
+   "k": "strategy",
+   "t": 1795175325.2910783,
+   "x": "🧪 RD6 “Inside #962 · fix74” (improve) → FAIL · +0.04R, PF 1.05, win 33%, t=0.6, n=657"
+  },
+  {
+   "k": "strategy",
+   "t": 1795175325.2910783,
+   "x": "🧪 RD7 “Breakout #469 · fix17” (improve) → FAIL · -0.07R, PF 0.88, win 29%, t=-1.0, n=409"
   }
  ],
  "last": {
@@ -1097,27 +1137,24 @@
     "since": 1792681928.229496,
     "win": 40.0
    },
-   "ts": 1795173120.1331418
+   "ts": 1795175325.2910783
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795173120.1331418,
-  "modules_seen": 1795141329.504877,
+  "light_ts": 1795175325.2910783,
+  "modules_seen": 1795174108.6301923,
   "modules_status": {
    "BZ15": "NA",
-   "BZ1H": "FAIL",
+   "BZ1H": "NA",
    "BZ1M": "NA",
    "BZ4H": "FAIL",
    "BZ5M": "NA",
-   "CNDL@15m": "FAIL",
-   "CNDL@1h": "FAIL",
    "CNDL@1m": "FAIL",
    "CNDL@4h": "FAIL",
-   "CNDL@5m": "FAIL",
    "DKS": "NA",
-   "FBR": "FAIL",
+   "FBR": "NA",
    "LSM": "NA",
-   "MRA": "FAIL",
-   "MRB": "FAIL",
+   "MRA": "NA",
+   "MRB": "NA",
    "MTC": "NA",
    "MTS": "NA",
    "RD1": "NA",
@@ -1135,24 +1172,24 @@
    "RFD": "FAIL",
    "RSM": "NA",
    "SMM": "FAIL",
-   "SMS": "FAIL",
+   "SMS": "NA",
    "SWR": "FAIL",
-   "TKF": "FAIL",
+   "TKF": "NA",
    "TKM": "NA",
    "TKS": "NA",
-   "TPB": "FAIL",
-   "TPS": "FAIL",
+   "TPB": "NA",
+   "TPS": "NA",
    "VCB": "NA",
    "VCR": "NA"
   },
   "n": 105,
   "research": {
    "ai": true,
-   "cycle": 26,
-   "generated": "2026-11-20 04:48 UTC",
-   "tested": 49
+   "cycle": 27,
+   "generated": "2026-11-20 11:30 UTC",
+   "tested": 40
   },
-  "research_seen": 1795150139.610646
+  "research_seen": 1795174200.907098
  },
  "proposals": [
   {
@@ -1699,73 +1736,73 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Breakout #469 · fix79",
    "spec_id": "949a16d965",
-   "status": "CAND"
+   "status": "FAIL"
   },
   "RD10": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Inside #962 · v3",
    "spec_id": "efd2b42a73",
-   "status": "PASS"
+   "status": "FAIL"
   },
   "RD11": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Inside #962 · v3",
    "spec_id": "42716eb47f",
-   "status": "PASS"
+   "status": "FAIL"
   },
   "RD12": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Inside #962 · fix74",
    "spec_id": "965184c323",
    "status": "CAND"
   },
   "RD2": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
-   "status": "PASS"
+   "status": "CAND"
   },
   "RD4": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
-   "status": "PASS"
+   "status": "CAND"
   },
   "RD5": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Breakout #469 · fix28",
    "spec_id": "6bbe0f69b2",
    "status": "CAND"
   },
   "RD6": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Inside #962 · fix74",
    "spec_id": "7919faad00",
-   "status": "CAND"
+   "status": "FAIL"
   },
   "RD7": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Breakout #469 · fix17",
    "spec_id": "949a16d965",
-   "status": "CAND"
+   "status": "FAIL"
   },
   "RD8": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Breakout #469 · fix69",
    "spec_id": "4b5d752f2c",
    "status": "CAND"
   },
   "RD9": {
-   "cycle": 26,
+   "cycle": 27,
    "name": "Breakout #469 · fix4",
    "spec_id": "4b5d752f2c",
    "status": "CAND"
