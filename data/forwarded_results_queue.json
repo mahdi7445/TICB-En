@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "ADA",
-    "tf_label": "15M",
-    "entry": 0.1848,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000729",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T01:23:18.430633+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "TIA",
     "tf_label": "5M",
     "entry": 0.4177,
@@ -6214,5 +6202,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T08:33:18.319149+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "USELESS",
+    "tf_label": "5M",
+    "entry": 0.08906,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001048",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T13:29:28+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T13:29:29.618963+00:00"
   }
 ]
