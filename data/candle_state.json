@@ -55165,6 +55165,44 @@
         "close_type": "stop"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-001043": {
+      "open_trade": {
+        "signal_id": "ALT-001043",
+        "source_signal_id": "ALT-001043",
+        "side": "SELL",
+        "entry": 1.932,
+        "sl": 1.967,
+        "r": 0.03500000000000014,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "PEARL/USD",
+        "tf_key": "manual",
+        "display": "PEARL",
+        "opened_at_ms": 1795160245070,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-20T07:37:25.070024+00:00",
+            "price": 1.932
+          }
+        ],
+        "signal_message_id": 4324,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
