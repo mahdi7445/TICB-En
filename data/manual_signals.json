@@ -13243,5 +13243,19 @@
     "source_signal_id": "ALT-001044",
     "signal_message_id": 4325,
     "activated_at": "2026-11-20T07:43:12.250923+00:00"
+  },
+  {
+    "id": "src-ALT-001045",
+    "symbol": "USELESS/USD",
+    "side": "SELL",
+    "entry": 0.08913,
+    "sl": 0.09082,
+    "status": "pending",
+    "created_at": 1795178126,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-001045",
+    "signal_message_id": 4328
   }
 ]
