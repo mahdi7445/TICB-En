@@ -6304,5 +6304,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T20:36:04.925505+00:00"
+  },
+  {
+    "kind": "breakeven",
+    "ticker": "SKY",
+    "tf_label": "15M",
+    "entry": 0.04399,
+    "level": null,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001044",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T22:09:35+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T22:09:36.368527+00:00"
   }
 ]
