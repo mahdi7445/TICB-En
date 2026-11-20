@@ -47749,13 +47749,13 @@
         "sl": 2.11,
         "r": 0.2899999999999998,
         "hit": {
-          "1": false,
+          "1": true,
           "2": false,
           "4": false,
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PIEVERSE/USD",
         "tf_key": "manual",
         "display": "PIEVERSE",
@@ -47765,6 +47765,23 @@
             "type": "opened",
             "ts": "2026-11-10T20:11:16.845076+00:00",
             "price": 1.82
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-20T00:19:35.331823+00:00",
+            "level_r": 1,
+            "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-20T00:19:35.331950+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-20T00:19:18+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 3888,
@@ -47775,7 +47792,8 @@
           "label": "1H"
         },
         "logical_tf": "1h",
-        "_replay_checked_ms": 1794386113417
+        "_replay_checked_ms": 1794386113417,
+        "close_type": "breakeven"
       },
       "hist": []
     },
