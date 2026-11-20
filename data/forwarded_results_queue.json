@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "BCH",
-    "tf_label": "15M",
-    "entry": 267.38,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000744",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T10:53:56.349720+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "ALGO",
     "tf_label": "15M",
@@ -6277,5 +6265,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T16:06:15.686225+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "DOT",
+    "tf_label": "5M",
+    "entry": 0.6777,
+    "level": null,
+    "result_r": 3.55,
+    "source_signal_id": "ALT-001049",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T16:12:19+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T16:12:19.786514+00:00"
   }
 ]
