@@ -1,41 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "SUI",
-    "tf_label": "5M",
-    "entry": 0.8574,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000737",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T04:17:02.290657+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "XRP",
-    "tf_label": "15M",
-    "entry": 1.211,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000736",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T05:07:19.676982+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "ZEC",
-    "tf_label": "5M",
-    "entry": 1263.92,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000740",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T05:43:46.300477+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "XRP",
     "tf_label": "15M",
@@ -6235,5 +6199,50 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:17:04.669600+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOGE",
+    "tf_label": "4H",
+    "entry": 0.07917,
+    "level": 6,
+    "result_r": 2.0,
+    "source_signal_id": "ALT-000521",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T15:23:31+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T15:23:31.960639+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XLM",
+    "tf_label": "4H",
+    "entry": 0.1684,
+    "level": 4,
+    "result_r": 1.4,
+    "source_signal_id": "ALT-000658",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T15:23:34+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T15:23:35.315578+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 10.83,
+    "level": 9,
+    "result_r": 3.5,
+    "source_signal_id": "ALT-000770",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T15:23:38+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T15:23:38.799423+00:00"
   }
 ]
