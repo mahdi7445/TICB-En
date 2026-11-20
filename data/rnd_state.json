@@ -1212,10 +1212,10 @@
     "since": 1792811227.99723,
     "win": 40.0
    },
-   "ts": 1795214389.2974179
+   "ts": 1795216203.6536121
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795214389.2974179,
+  "light_ts": 1795216203.6536121,
   "modules_seen": 1795194682.0070202,
   "modules_status": {
    "BZ15": "NA",
