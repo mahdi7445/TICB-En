@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "BCH",
-    "tf_label": "4H",
-    "entry": 288.99,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000679",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T07:32:23.877248+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "XRP",
     "tf_label": "4H",
@@ -6259,5 +6247,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:24:18.840084+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SUI",
+    "tf_label": "1H",
+    "entry": 0.8038,
+    "level": 6,
+    "result_r": 2.6,
+    "source_signal_id": "ALT-000917",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T15:30:06+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T15:30:06.830005+00:00"
   }
 ]
