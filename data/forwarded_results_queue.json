@@ -6199,7 +6199,7 @@
     "side": "BUY",
     "stop": 72.52,
     "src_ts": "2026-11-20T04:12:16+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T04:12:17.268236+00:00"
   }
