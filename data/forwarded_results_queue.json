@@ -1,29 +1,5 @@
 [
   {
-    "kind": "sl_after_t2",
-    "ticker": "ALGO",
-    "tf_label": "15M",
-    "entry": 0.09311,
-    "level": null,
-    "result_r": 2.25,
-    "source_signal_id": "ALT-000733",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-11-06T14:03:08.293585+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ADA",
-    "tf_label": "5M",
-    "entry": 0.1866,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000749",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T14:40:34.588749+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ADA",
     "tf_label": "5M",
@@ -6298,5 +6274,35 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T19:00:05.566080+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SHIB",
+    "tf_label": "4H",
+    "entry": 3.828e-06,
+    "level": 1.5,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000993",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T20:36:02+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T20:36:03.071457+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "ETC",
+    "tf_label": "4H",
+    "entry": 5.97,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-001021",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T20:36:04+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T20:36:04.925505+00:00"
   }
 ]
