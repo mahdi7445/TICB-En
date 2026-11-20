@@ -55181,7 +55181,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "PEARL/USD",
         "tf_key": "manual",
         "display": "PEARL",
@@ -55191,6 +55191,17 @@
             "type": "opened",
             "ts": "2026-11-20T07:37:25.070024+00:00",
             "price": 1.932
+          },
+          {
+            "type": "stop",
+            "ts": "2026-11-20T07:50:29.506527+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-20T07:49:39+00:00",
+            "close_type": "stop",
+            "final_r": -1.0
           }
         ],
         "signal_message_id": 4324,
@@ -55200,7 +55211,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "stop"
       },
       "hist": []
     },
