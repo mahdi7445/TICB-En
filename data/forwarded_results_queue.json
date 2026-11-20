@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "ALGO",
-    "tf_label": "15M",
-    "entry": 0.09311,
-    "level": 3,
-    "result_r": 1.35,
-    "source_signal_id": "ALT-000733",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-11-06T12:55:53.265735+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "PUMP",
     "tf_label": "15M",
@@ -6286,5 +6274,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T17:40:11.646129+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SKY",
+    "tf_label": "15M",
+    "entry": 0.04399,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001044",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T17:59:04+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T17:59:05.459712+00:00"
   }
 ]
