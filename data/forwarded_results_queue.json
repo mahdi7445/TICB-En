@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "TIA",
-    "tf_label": "5M",
-    "entry": 0.4177,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000730",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T01:27:23.100308+00:00"
-  },
-  {
-    "kind": "stop",
-    "ticker": "SUI",
-    "tf_label": "15M",
-    "entry": 0.8597,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000731",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T01:27:24.118941+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "APT",
     "tf_label": "15M",
@@ -6217,5 +6193,35 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T13:29:29.618963+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "DOT",
+    "tf_label": "15M",
+    "entry": 0.7207,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-001022",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T13:35:56+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T13:35:56.736488+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "USELESS",
+    "tf_label": "5M",
+    "entry": 0.08906,
+    "level": 2,
+    "result_r": 0.8,
+    "source_signal_id": "ALT-001048",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T13:36:14+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T13:36:15.490500+00:00"
   }
 ]
