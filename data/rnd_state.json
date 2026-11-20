@@ -1156,31 +1156,31 @@
  "last": {
   "guard": {
    "all": {
-    "avg": -0.196,
+    "avg": -0.195,
     "bad": false,
-    "base_avg": -0.268,
-    "base_n": 70,
-    "base_pf": 0.67,
+    "base_avg": -0.28,
+    "base_n": 71,
+    "base_pf": 0.66,
     "n": 35,
     "pf": 0.73,
-    "since": 1792681928.229496,
+    "since": 1792811227.99723,
     "win": 40.0
    },
    "ticb": {
-    "avg": -0.196,
+    "avg": -0.195,
     "bad": false,
-    "base_avg": -0.268,
-    "base_n": 70,
-    "base_pf": 0.67,
+    "base_avg": -0.28,
+    "base_n": 71,
+    "base_pf": 0.66,
     "n": 35,
     "pf": 0.73,
-    "since": 1792681928.229496,
+    "since": 1792811227.99723,
     "win": 40.0
    },
-   "ts": 1795200589.9790823
+   "ts": 1795202398.8505974
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795200589.9790823,
+  "light_ts": 1795202398.8505974,
   "modules_seen": 1795194682.0070202,
   "modules_status": {
    "BZ15": "NA",
@@ -1225,7 +1225,7 @@
    "VCB": "NA",
    "VCR": "NA"
   },
-  "n": 105,
+  "n": 106,
   "research": {
    "ai": true,
    "cycle": 28,
