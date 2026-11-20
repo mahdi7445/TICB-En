@@ -1,29 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "XRP",
-    "tf_label": "4H",
-    "entry": 1.29,
-    "level": 2,
-    "result_r": 0.8,
-    "source_signal_id": "ALT-000641",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T07:39:49.622669+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "NEAR",
-    "tf_label": "15M",
-    "entry": 3.702,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000735",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T07:40:02.610974+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "NEAR",
     "tf_label": "15M",
@@ -6262,5 +6238,35 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:30:06.830005+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "NEAR",
+    "tf_label": "4H",
+    "entry": 3.44,
+    "level": 1.5,
+    "result_r": 0.6,
+    "source_signal_id": "ALT-000936",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T15:48:06+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T15:48:06.990423+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 7.23,
+    "level": 4,
+    "result_r": 1.7,
+    "source_signal_id": "ALT-000959",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T15:48:12+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T15:48:12.520600+00:00"
   }
 ]
