@@ -10206,7 +10206,7 @@
         "hit": {
           "1": true,
           "2": true,
-          "4": false,
+          "4": true,
           "6": false
         },
         "trailing": false,
@@ -10231,6 +10231,12 @@
             "type": "rr",
             "ts": "2026-10-30T12:09:11.806354+00:00",
             "level_r": 2,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-20T16:07:04.158349+00:00",
+            "level_r": 4,
             "note": "forwarded"
           }
         ],
@@ -55519,6 +55525,44 @@
           "label": "5M"
         },
         "logical_tf": "5m"
+      },
+      "hist": []
+    },
+    "MANUAL|src-ALT-001051": {
+      "open_trade": {
+        "signal_id": "ALT-001051",
+        "source_signal_id": "ALT-001051",
+        "side": "SELL",
+        "entry": 0.3025,
+        "sl": 0.3097,
+        "r": 0.007199999999999984,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "TRX/USD",
+        "tf_key": "manual",
+        "display": "TRX",
+        "opened_at_ms": 1795190824076,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-20T16:07:04.076203+00:00",
+            "price": 0.3025
+          }
+        ],
+        "signal_message_id": 4354,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "4h",
+          "bar_seconds": 14400,
+          "label": "4H"
+        },
+        "logical_tf": "4h"
       },
       "hist": []
     }
