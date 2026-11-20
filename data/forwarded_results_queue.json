@@ -6205,5 +6205,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T04:14:17.294353+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "JUP",
+    "tf_label": "4H",
+    "entry": 0.2574,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-000953",
+    "side": "BUY",
+    "stop": 0.231,
+    "src_ts": "2026-11-20T04:51:05+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T04:51:06.106738+00:00"
   }
 ]
