@@ -55423,6 +55423,44 @@
         "close_type": "sl_after_t2"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-001049": {
+      "open_trade": {
+        "signal_id": "ALT-001049",
+        "source_signal_id": "ALT-001049",
+        "side": "SELL",
+        "entry": 0.6777,
+        "sl": 0.6828,
+        "r": 0.005099999999999993,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "DOT/USD",
+        "tf_key": "manual",
+        "display": "DOT",
+        "opened_at_ms": 1795187950343,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-20T15:19:10.343653+00:00",
+            "price": 0.6777
+          }
+        ],
+        "signal_message_id": 4339,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
