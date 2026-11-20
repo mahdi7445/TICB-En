@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "ARB",
-    "tf_label": "15M",
-    "entry": 0.1574,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000706",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T23:13:06.153709+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "ADA",
-    "tf_label": "15M",
-    "entry": 0.1817,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000721",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T23:13:08.637008+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "TIA",
     "tf_label": "15M",
@@ -6187,5 +6163,35 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T00:19:19.232450+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 0.9626,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-001036",
+    "side": "BUY",
+    "stop": 0.9588,
+    "src_ts": "2026-11-20T00:31:31+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T00:31:32.418420+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 73.43,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-001035",
+    "side": "BUY",
+    "stop": 72.87,
+    "src_ts": "2026-11-20T00:31:39+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T00:31:40.462529+00:00"
   }
 ]
