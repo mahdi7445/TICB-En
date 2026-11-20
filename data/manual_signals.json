@@ -13160,13 +13160,14 @@
     "side": "BUY",
     "entry": 6.71,
     "sl": 5.85,
-    "status": "pending",
+    "status": "active",
     "created_at": 1795147286,
     "forwarded_tracking": true,
     "tf_label": "4H",
     "silent": true,
     "source_signal_id": "ALT-001039",
-    "signal_message_id": 4317
+    "signal_message_id": 4317,
+    "activated_at": "2026-11-20T04:02:05.217964+00:00"
   },
   {
     "id": "src-ALT-001040",
