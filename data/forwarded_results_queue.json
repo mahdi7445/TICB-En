@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "CAP",
-    "tf_label": "1M",
-    "entry": 0.1081,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000724",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-05T23:59:20.700180+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "ADA",
     "tf_label": "15M",
@@ -6199,5 +6187,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T01:22:11.960059+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "SOL",
+    "tf_label": "15M",
+    "entry": 73.0,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-001041",
+    "side": "BUY",
+    "stop": 72.52,
+    "src_ts": "2026-11-20T04:12:16+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T04:12:17.268236+00:00"
   }
 ]
