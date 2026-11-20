@@ -6217,7 +6217,7 @@
     "side": "BUY",
     "stop": 0.231,
     "src_ts": "2026-11-20T04:51:05+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T04:51:06.106738+00:00"
   }
