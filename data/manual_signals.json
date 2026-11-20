@@ -13228,5 +13228,19 @@
     "source_signal_id": "ALT-001043",
     "signal_message_id": 4324,
     "activated_at": "2026-11-20T07:37:25.070049+00:00"
+  },
+  {
+    "id": "src-ALT-001044",
+    "symbol": "SKY/USD",
+    "side": "SELL",
+    "entry": 0.04399,
+    "sl": 0.04565,
+    "status": "pending",
+    "created_at": 1795160581,
+    "forwarded_tracking": true,
+    "tf_label": "15M",
+    "silent": true,
+    "source_signal_id": "ALT-001044",
+    "signal_message_id": 4325
   }
 ]
