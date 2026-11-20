@@ -6226,7 +6226,7 @@
     "side": "SELL",
     "stop": null,
     "src_ts": "2026-11-20T15:48:06+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:48:06.990423+00:00"
   },
@@ -6241,7 +6241,7 @@
     "side": "SELL",
     "stop": null,
     "src_ts": "2026-11-20T15:48:12+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:48:12.520600+00:00"
   },
