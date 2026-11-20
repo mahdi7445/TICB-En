@@ -1,18 +1,6 @@
 [
   {
     "kind": "target_hit",
-    "ticker": "ALGO",
-    "tf_label": "15M",
-    "entry": 0.09311,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000733",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-11-06T11:44:38.733259+00:00"
-  },
-  {
-    "kind": "target_hit",
     "ticker": "APT",
     "tf_label": "15M",
     "entry": 0.6039,
@@ -6280,5 +6268,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T16:12:19.786514+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "XRP",
+    "tf_label": "15M",
+    "entry": 0.9119,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001052",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-20T17:06:43+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-20T17:06:44.666492+00:00"
   }
 ]
