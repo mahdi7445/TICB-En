@@ -6196,7 +6196,7 @@
     "side": "SELL",
     "stop": null,
     "src_ts": "2026-11-20T15:23:51+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:23:52.178412+00:00"
   },
@@ -6211,7 +6211,7 @@
     "side": "SELL",
     "stop": null,
     "src_ts": "2026-11-20T15:23:57+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:23:58.265872+00:00"
   },
@@ -6226,7 +6226,7 @@
     "side": "SELL",
     "stop": null,
     "src_ts": "2026-11-20T15:24:04+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:24:06.011056+00:00"
   },
@@ -6241,7 +6241,7 @@
     "side": "SELL",
     "stop": null,
     "src_ts": "2026-11-20T15:24:16+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:24:18.511299+00:00"
   },
@@ -6256,7 +6256,7 @@
     "side": "SELL",
     "stop": null,
     "src_ts": "2026-11-20T15:24:16+00:00",
-    "status": "pending",
+    "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-20T15:24:18.840084+00:00"
   }
