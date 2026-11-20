@@ -55334,7 +55334,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "SKY/USD",
         "tf_key": "manual",
         "display": "SKY",
@@ -55350,6 +55350,17 @@
             "ts": "2026-11-20T17:59:53.617104+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-20T22:10:46.326928+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-20T22:09:35+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 4325,
@@ -55360,7 +55371,8 @@
           "label": "15M"
         },
         "logical_tf": "15m",
-        "_replay_checked_ms": 1795211284371
+        "_replay_checked_ms": 1795211284371,
+        "close_type": "breakeven"
       },
       "hist": []
     },
