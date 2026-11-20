@@ -40,15 +40,15 @@
       "status": "open",
       "opened_ms": 1794754827871,
       "armed_ms": 1794754827871,
-      "last_ms": 1795187699999,
+      "last_ms": 1795187759999,
       "bar_ms": 1794751200000,
-      "mfe_r": 1.1263,
+      "mfe_r": 1.2391,
       "mae_r": 0.7031,
       "events": [],
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4166,
-      "polled_ms": 1795187728660
+      "polled_ms": 1795187787210
     },
     "TC-000128": {
       "id": "TC-000128",
@@ -58,7 +58,7 @@
       "side": "SELL",
       "entry": 64270.8,
       "sl0": 66017.99504224477,
-      "sl": 66017.99504224477,
+      "sl": 64270.8,
       "risk": 1747.1950422447699,
       "targets": [
         60776.40991551046,
@@ -80,7 +80,7 @@
       ],
       "trail": 2.0,
       "hit": [
-        false,
+        true,
         false,
         false,
         false
@@ -90,15 +90,23 @@
       "status": "open",
       "opened_ms": 1794823226530,
       "armed_ms": 1794823226530,
-      "last_ms": 1795187699999,
+      "last_ms": 1795187759999,
       "bar_ms": 1794819600000,
-      "mfe_r": 1.9579,
+      "mfe_r": 2.0702,
       "mae_r": 0.7799,
-      "events": [],
+      "events": [
+        {
+          "type": "target",
+          "index": 0,
+          "price": 60776.40991551046,
+          "banked": 0.7,
+          "ts": "2026-11-20T15:16:28.483527+00:00"
+        }
+      ],
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4179,
-      "polled_ms": 1795187728660
+      "polled_ms": 1795187787210
     }
   },
   "seen": [],
