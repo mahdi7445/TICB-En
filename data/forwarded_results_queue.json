@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "ZEC",
-    "tf_label": "15M",
-    "entry": 1338.42,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000757",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-07T02:11:52.731286+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "XRP",
     "tf_label": "1H",
@@ -6352,5 +6340,20 @@
     "status": "already_closed",
     "attempts": 0,
     "queued_at": "2026-11-21T04:45:14.778314+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "SOL",
+    "tf_label": "5M",
+    "entry": 65.97,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001055",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-21T05:24:26+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-21T05:24:27.374584+00:00"
   }
 ]
