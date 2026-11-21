@@ -1,11 +1,12 @@
 {
  "ai": {
   "analysis": [
-   "[Groq (free tier)] Many losing trades come from low‑TF breakouts without higher‑timeframe trend confirmation, leading to frequent false signals.",
-   "[Groq (free tier)] Tiny ATR or candle stops cause fee‑eaten losses on volatile 5m/15m trades, especially when volatility spikes.",
-   "[Groq (free tier)] Strategies lacking volume filters or using too low volume ratios trade in low‑liquidity periods, increasing slippage and chop losses."
+   "[Groq (free tier)] Many losing trades come from tiny stops that are eaten by fees, especially on 5m/15m signals with aggressive ATR stops.",
+   "[Groq (free tier)] A high proportion of losses are from trades that go against the higher‑timeframe trend, indicating a need for MTF confirmation.",
+   "[Groq (free tier)] Low‑volume breakout filters (volr > 1.8) prune too many good setups and cause split‑time failures, reducing win rate.",
+   "[Groq (free tier)] Inside‑bar and pin‑bar signals perform well when combined with a clear multi‑timeframe trend and a swing‑type stop rather than a tight ATR stop."
   ],
-  "at": 1795247957.2315583,
+  "at": 1795262294.0734835,
   "audit": {
    "actions": [],
    "by": "",
@@ -19,37 +20,33 @@
   "providers": {
    "claude": {
     "skipped": "cooldown",
-    "wait_s": 60032,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 16h40m دیگر"
+    "wait_s": 45396,
+    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h36m دیگر"
    },
    "deepseek": {
     "skipped": "cooldown",
-    "wait_s": 60033,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 16h40m دیگر"
+    "wait_s": 45396,
+    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h36m دیگر"
    },
    "gemini": {
-    "error": "reply was not valid JSON",
-    "kind": "format",
-    "model": "gemini-3.6-flash",
-    "n": 0,
-    "used": false
+    "skipped": "daily budget used up"
    },
    "grok": {
     "skipped": "cooldown",
-    "wait_s": 60032,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 16h40m دیگر"
+    "wait_s": 45396,
+    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h36m دیگر"
    },
    "groq": {
     "error": "",
     "kind": "",
     "model": "llama-3.3-70b-versatile",
-    "n": 7,
+    "n": 5,
     "used": true
    },
    "openai": {
     "skipped": "cooldown",
-    "wait_s": 60033,
-    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 16h40m دیگر"
+    "wait_s": 45397,
+    "why": "⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h36m دیگر"
    },
    "openrouter": {
     "error": "empty reply",
@@ -68,13 +65,13 @@
    "deepseek": 1,
    "gemini": 6,
    "grok": 1,
-   "groq": 3,
+   "groq": 5,
    "openai": 1,
-   "openrouter": 2
+   "openrouter": 3
   }
  },
  "ai_calls_today": {
-  "2026-11-21": 15
+  "2026-11-21": 18
  },
  "ai_health": {
   "claude": {
@@ -108,11 +105,11 @@
   },
   "groq": {
    "fails": 1,
-   "kind": "credit",
-   "last_err": "HTTP 429 — سقف نرخ/اعتبار پر شده — Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m7ctfceyeh8rfss3gs9sqvzf` service tier `on_demand` ",
-   "last_fail": 1795245743.3581104,
-   "last_ok": 1795245710.5118845,
-   "until": 1795249343.3581104
+   "kind": "other",
+   "last_err": "HTTP 413 — Request too large for model `openai/gpt-oss-120b` in organization `org_01m7ctfceyeh8rfss3gs9sqvzf` service tier `on_demand` on tokens per mi",
+   "last_fail": 1795260364.6744099,
+   "last_ok": 1795260346.090132,
+   "until": 1795262164.6744099
   },
   "openai": {
    "fails": 7,
@@ -122,31 +119,31 @@
    "until": 1795305737.2725544
   },
   "openrouter": {
-   "fails": 17,
+   "fails": 18,
    "kind": "other",
    "last_err": "empty reply",
-   "last_fail": 1795245737.0978742,
-   "until": 1795252937.0978742
+   "last_fail": 1795260364.4971802,
+   "until": 1795267564.4971802
   }
  },
  "ai_hints": [
   {
-   "desc": "[groq] Allow a slightly larger ATR stop on daily‑scale trades to survive volatility spikes.",
-   "key": "mx_atr_day",
+   "desc": "[groq] Limit daily exposure to ~5 signals to curb drawdown caused by many low‑R 5m trades",
+   "key": "mx_ticb_day",
    "section": "ticb",
-   "value": 4.5
+   "value": 5
   },
   {
-   "desc": "[groq] Raise the max stop ATR for cooldown‑sensitive short‑TF strategies to reduce premature exits.",
-   "key": "mx_atr_cd",
+   "desc": "[groq] Cap ATR‑based stops at 3.5 × ATR to prevent oversized stops that erode R‑ratio on volatile periods",
+   "key": "mx_ticb_maxstop",
    "section": "ticb",
-   "value": 2.5
+   "value": 3.5
   },
   {
-   "desc": "[groq] Lower minimum risk percentage for high‑frequency signals to keep at least ~1 signal per day per symbol.",
+   "desc": "[groq] Raise minimum stop distance to 25 % of risk to avoid fee‑eaten tiny stops observed in many losing 5m strategies",
    "key": "nat_min_stop_pct",
    "section": "ticb",
-   "value": 0.15
+   "value": 0.25
   }
  ],
  "archive": [
@@ -289,7 +286,7 @@
   },
   {
    "fails": [],
-   "score": 7.383861176440449,
+   "score": 7.3375865386474874,
    "spec": {
     "all": [
      [
@@ -333,7 +330,7 @@
   },
   {
    "fails": [],
-   "score": 7.214024131867154,
+   "score": 7.196295276631834,
    "spec": {
     "all": [
      [
@@ -485,8 +482,54 @@
    "status": "FAIL"
   },
   {
+   "fails": [
+    "dd",
+    "streak"
+   ],
+   "score": 6.938584376381403,
+   "spec": {
+    "all": [
+     [
+      "inside",
+      "==",
+      1.0
+     ],
+     [
+      "close",
+      ">",
+      "ema:100"
+     ],
+     [
+      "slope:34",
+      ">",
+      0.05
+     ]
+    ],
+    "cooldown": 3,
+    "created": "2026-11-12T09:51Z",
+    "family": "inside",
+    "id": "RD2",
+    "max_stop_atr": 4.0,
+    "min_risk_pct": 0.5,
+    "name": "Inside #962",
+    "origin": "search",
+    "stop": {
+     "k": 3.0,
+     "kind": "atr"
+    },
+    "tfs": [
+     "5m",
+     "15m",
+     "4h"
+    ],
+    "why": "inside idea (guided random search)"
+   },
+   "spec_id": "7bba3e0a28",
+   "status": "FAIL"
+  },
+  {
    "fails": [],
-   "score": 6.9629146837116584,
+   "score": 6.822258469161127,
    "spec": {
     "all": [
      [
@@ -533,52 +576,6 @@
    },
    "spec_id": "65bc541477",
    "status": "CAND"
-  },
-  {
-   "fails": [
-    "dd",
-    "streak"
-   ],
-   "score": 6.938584376381403,
-   "spec": {
-    "all": [
-     [
-      "inside",
-      "==",
-      1.0
-     ],
-     [
-      "close",
-      ">",
-      "ema:100"
-     ],
-     [
-      "slope:34",
-      ">",
-      0.05
-     ]
-    ],
-    "cooldown": 3,
-    "created": "2026-11-12T09:51Z",
-    "family": "inside",
-    "id": "RD2",
-    "max_stop_atr": 4.0,
-    "min_risk_pct": 0.5,
-    "name": "Inside #962",
-    "origin": "search",
-    "stop": {
-     "k": 3.0,
-     "kind": "atr"
-    },
-    "tfs": [
-     "5m",
-     "15m",
-     "4h"
-    ],
-    "why": "inside idea (guided random search)"
-   },
-   "spec_id": "7bba3e0a28",
-   "status": "FAIL"
   },
   {
    "fails": [
@@ -676,7 +673,7 @@
   },
   {
    "fails": [],
-   "score": 6.5522614261726,
+   "score": 6.5440840615808,
    "spec": {
     "all": [
      [
@@ -816,7 +813,7 @@
   },
   {
    "fails": [],
-   "score": 6.317172000360168,
+   "score": 6.264292989097244,
    "spec": {
     "all": [
      [
@@ -864,7 +861,7 @@
    "status": "CAND"
   }
  ],
- "cycle": 31,
+ "cycle": 32,
  "gate": {
   "avg": 0.1,
   "dd": 8.0,
@@ -881,104 +878,8 @@
   "t": 2.0,
   "win": 40.0
  },
- "generated": "2026-11-21 11:24 UTC",
+ "generated": "2026-11-21 15:19 UTC",
  "history": [
-  {
-   "family": "breakout",
-   "n": 3242,
-   "name": "Breakout #469 · v5",
-   "origin": "mutation",
-   "t": 10.294,
-   "tf": "15m"
-  },
-  {
-   "family": null,
-   "n": 7907,
-   "name": "MTF Trend 15m",
-   "origin": "ai:groq",
-   "t": 10.19,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 3101,
-   "name": "Breakout #469 · fix23",
-   "origin": "improve",
-   "t": 11.339,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 3006,
-   "name": "Breakout #469 · fix41",
-   "origin": "improve",
-   "t": 10.892,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2581,
-   "name": "Breakout #469 · fix58",
-   "origin": "improve",
-   "t": 10.782,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3387,
-   "name": "Inside #962 · v9",
-   "origin": "mutation",
-   "t": 10.226,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3365,
-   "name": "Inside #962 · fix73",
-   "origin": "improve",
-   "t": 10.216,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 3383,
-   "name": "Inside #962 · v4",
-   "origin": "mutation",
-   "t": 10.194,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 1497,
-   "name": "Breakout #469 · fix26",
-   "origin": "improve",
-   "t": 9.63,
-   "tf": "15m"
-  },
-  {
-   "family": "breakout",
-   "n": 2079,
-   "name": "Breakout #469 · fix57",
-   "origin": "improve",
-   "t": 9.546,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 2790,
-   "name": "Inside #962 · fix44",
-   "origin": "improve",
-   "t": 9.501,
-   "tf": "15m"
-  },
-  {
-   "family": "inside",
-   "n": 4220,
-   "name": "Inside #962 · v7",
-   "origin": "mutation",
-   "t": 9.29,
-   "tf": "15m"
-  },
   {
    "family": "breakout",
    "n": 2727,
@@ -1282,38 +1183,109 @@
    "origin": "mutation",
    "t": 9.549,
    "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3382,
+   "name": "Inside #962 · fix76",
+   "origin": "improve",
+   "t": 12.241,
+   "tf": "15m"
+  },
+  {
+   "family": null,
+   "n": 5053,
+   "name": "Momentum Push 15M/1H v2",
+   "origin": "ai-fix:groq",
+   "t": 11.446,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2563,
+   "name": "Breakout #469 · fix97",
+   "origin": "improve",
+   "t": 11.4,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2975,
+   "name": "Breakout #469 · fix94",
+   "origin": "improve",
+   "t": 11.279,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2927,
+   "name": "Breakout #469 · fix77",
+   "origin": "improve",
+   "t": 11.177,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2517,
+   "name": "Breakout #469 · v6",
+   "origin": "mutation",
+   "t": 10.849,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 3093,
+   "name": "Breakout #469 · v2",
+   "origin": "mutation",
+   "t": 10.5,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3388,
+   "name": "Inside #962 · v5",
+   "origin": "mutation",
+   "t": 10.419,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2475,
+   "name": "Breakout #469 · v9",
+   "origin": "mutation",
+   "t": 10.369,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 3386,
+   "name": "Inside #962 · v7",
+   "origin": "mutation",
+   "t": 10.243,
+   "tf": "15m"
+  },
+  {
+   "family": "inside",
+   "n": 2790,
+   "name": "Inside #962 · fix9",
+   "origin": "improve",
+   "t": 10.101,
+   "tf": "15m"
+  },
+  {
+   "family": "breakout",
+   "n": 2814,
+   "name": "Breakout #469 · fix79",
+   "origin": "improve",
+   "t": 10.055,
+   "tf": "15m"
   }
  ],
  "improved": 12,
- "prescreened": 56,
+ "prescreened": 61,
  "slots": {
   "RD1": {
-   "avg_r": 0.007990657621264132,
-   "best_ladder": null,
-   "dd_pct": null,
-   "fail_reasons": [
-    "split/t",
-    "PF",
-    "cost"
-   ],
-   "family": "inside",
-   "gate": null,
-   "n": 6027,
-   "name": "Inside #962 · fix17",
-   "origin": "improve",
-   "pf": 1.0130526087305092,
-   "spec_id": "f1d7fc8201",
-   "status": "FAIL",
-   "streak": null,
-   "symbols_positive": 0.5909090909090909,
-   "t": 0.43883414074487465,
-   "test_r": 0.017666816598533648,
-   "tf": "15m",
-   "train_r": 0.001538992993444242,
-   "win": 42.82395885183342
-  },
-  "RD10": {
-   "avg_r": 0.004208928875595973,
+   "avg_r": 0.003827166657024996,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1324,22 +1296,48 @@
    ],
    "family": "inside",
    "gate": null,
-   "n": 9781,
-   "name": "Inside #962 · fix84",
+   "n": 9326,
+   "name": "Inside #962 · fix76",
    "origin": "improve",
-   "pf": 1.0061464128787672,
-   "spec_id": "342e205176",
+   "pf": 1.005571621413204,
+   "spec_id": "3c0ba9f60a",
    "status": "FAIL",
    "streak": null,
-   "symbols_positive": 0.5416666666666666,
-   "t": 0.2505944941729462,
-   "test_r": -0.006220492129557057,
+   "symbols_positive": 0.6086956521739131,
+   "t": 0.22163639767773782,
+   "test_r": 0.002558227552754041,
    "tf": "15m",
-   "train_r": 0.011163653550640935,
-   "win": 36.01881198241488
+   "train_r": 0.004673352858639832,
+   "win": 35.728072056615915
+  },
+  "RD10": {
+   "avg_r": 0.011705465090958288,
+   "best_ladder": null,
+   "dd_pct": null,
+   "fail_reasons": [
+    "split/t",
+    "PF",
+    "win",
+    "cost"
+   ],
+   "family": "breakout",
+   "gate": null,
+   "n": 7011,
+   "name": "Breakout #469 · fix94",
+   "origin": "improve",
+   "pf": 1.0169828103677125,
+   "spec_id": "9414668603",
+   "status": "FAIL",
+   "streak": null,
+   "symbols_positive": 0.5217391304347826,
+   "t": 0.5813920258653571,
+   "test_r": 0.010131166752736976,
+   "tf": "15m",
+   "train_r": 0.012755371614665069,
+   "win": 35.88646412779917
   },
   "RD11": {
-   "avg_r": 0.19158303461000936,
+   "avg_r": 0.1845899429356071,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1351,19 +1349,19 @@
    "n": 1333,
    "name": "Momentum Push 15M/1H",
    "origin": "ai:gemini",
-   "pf": 1.3055774153940125,
+   "pf": 1.2932319279417972,
    "spec_id": "65bc541477",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.7916666666666666,
-   "t": 3.9629146837116584,
-   "test_r": 0.23503342851088668,
+   "t": 3.8222584691611274,
+   "test_r": 0.21757689067946687,
    "tf": "1h",
    "train_r": 0.16254359738464197,
-   "win": 39.23480870217554
+   "win": 38.70967741935484
   },
   "RD12": {
-   "avg_r": 0.19459261776694364,
+   "avg_r": 0.19407321570566258,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1372,22 +1370,22 @@
    ],
    "family": "inside",
    "gate": null,
-   "n": 1030,
+   "n": 1029,
    "name": "Inside #962 · fix74",
    "origin": "improve",
-   "pf": 1.3113951331620954,
+   "pf": 1.3107545950032473,
    "spec_id": "965184c323",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.9473684210526315,
-   "t": 3.5522614261726,
-   "test_r": 0.2372680130143366,
+   "t": 3.5440840615808,
+   "test_r": 0.23302426396625298,
    "tf": "4h",
-   "train_r": 0.16614235426868165,
-   "win": 38.44660194174757
+   "train_r": 0.16806376370669454,
+   "win": 38.48396501457726
   },
   "RD2": {
-   "avg_r": 0.1724687311226269,
+   "avg_r": 0.16951202798955398,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1399,40 +1397,40 @@
    "n": 645,
    "name": "Breakout #469 · v8",
    "origin": "mutation",
-   "pf": 1.366880647092632,
+   "pf": 1.358890352680916,
    "spec_id": "1cb8a446a1",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.7777777777777778,
-   "t": 2.949628578115537,
-   "test_r": 0.22432304038734938,
+   "t": 2.898165363055979,
+   "test_r": 0.22078750038459288,
    "tf": "4h",
-   "train_r": 0.13789919161281194,
-   "win": 31.627906976744185
+   "train_r": 0.13532837972619474,
+   "win": 31.472868217054263
   },
   "RD3": {
-   "avg_r": 0.14094150581197548,
+   "avg_r": 0.13909275973320623,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
    "family": "inside",
    "gate": null,
-   "n": 2023,
+   "n": 2028,
    "name": "Inside #962 · v3",
    "origin": "mutation",
-   "pf": 1.252583359474019,
+   "pf": 1.2492061855479892,
    "spec_id": "a53c7093bf",
    "status": "PASS",
    "streak": null,
    "symbols_positive": 0.8260869565217391,
-   "t": 4.383861176440449,
-   "test_r": 0.15698136848386593,
+   "t": 4.3375865386474874,
+   "test_r": 0.1545924535299921,
    "tf": "4h",
-   "train_r": 0.13023063296429932,
-   "win": 44.93326742461691
+   "train_r": 0.12874263525706306,
+   "win": 44.92110453648915
   },
   "RD4": {
-   "avg_r": 0.14715379713386115,
+   "avg_r": 0.14642679536877215,
    "best_ladder": "H3",
    "dd_pct": null,
    "fail_reasons": [],
@@ -1441,43 +1439,42 @@
    "n": 1732,
    "name": "Breakout #469 · fix29",
    "origin": "improve",
-   "pf": 1.2630847188175656,
+   "pf": 1.2617845397554566,
    "spec_id": "ee741fb893",
    "status": "PASS",
    "streak": null,
    "symbols_positive": 0.9130434782608695,
-   "t": 4.214024131867154,
-   "test_r": 0.1685213574637424,
+   "t": 4.196295276631834,
+   "test_r": 0.16670435824956298,
    "tf": "4h",
-   "train_r": 0.13290190174540334,
+   "train_r": 0.132901914640776,
    "win": 44.57274826789838
   },
   "RD5": {
-   "avg_r": 0.15276605550763603,
+   "avg_r": 0.13062531531472077,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
-    "split/t",
-    "win"
+    "split/t"
    ],
    "family": "breakout",
    "gate": null,
-   "n": 655,
+   "n": 604,
    "name": "Breakout #469 · fix28",
    "origin": "improve",
-   "pf": 1.3276390306150798,
+   "pf": 1.2798854016344667,
    "spec_id": "6bbe0f69b2",
    "status": "CAND",
    "streak": null,
-   "symbols_positive": 0.7368421052631579,
-   "t": 2.671641795277343,
-   "test_r": 0.18394196900229326,
+   "symbols_positive": 0.6666666666666666,
+   "t": 2.4811584312600474,
+   "test_r": 0.18050066451827712,
    "tf": "4h",
-   "train_r": 0.1319821131778646,
-   "win": 30.53435114503817
+   "train_r": 0.09728323104052009,
+   "win": 53.973509933774835
   },
   "RD6": {
-   "avg_r": 0.01112334902826589,
+   "avg_r": 0.025874306859582072,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1486,24 +1483,24 @@
     "win",
     "cost"
    ],
-   "family": "breakout",
+   "family": null,
    "gate": null,
-   "n": 4536,
-   "name": "Breakout #469 · fix32",
-   "origin": "improve",
-   "pf": 1.0162775065300789,
-   "spec_id": "c588b7226d",
+   "n": 5299,
+   "name": "Momentum Push 15M/1H v2",
+   "origin": "ai-fix:groq",
+   "pf": 1.0377409669248756,
+   "spec_id": "71d4dae5bf",
    "status": "FAIL",
    "streak": null,
-   "symbols_positive": 0.5,
-   "t": 0.48718584533430703,
-   "test_r": 0.007538860935424324,
+   "symbols_positive": 0.5416666666666666,
+   "t": 1.1129482343980575,
+   "test_r": 0.018913705012988724,
    "tf": "15m",
-   "train_r": 0.013514325099014705,
-   "win": 35.714285714285715
+   "train_r": 0.03051616779534112,
+   "win": 36.327608982826945
   },
   "RD7": {
-   "avg_r": 0.02922826947035006,
+   "avg_r": 0.02730645926465441,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1514,22 +1511,22 @@
    ],
    "family": "breakout",
    "gate": null,
-   "n": 4453,
-   "name": "Breakout #469 · fix21",
+   "n": 4444,
+   "name": "Breakout #469 · fix97",
    "origin": "improve",
-   "pf": 1.0431592380183585,
+   "pf": 1.040338517629823,
    "spec_id": "757e30310f",
    "status": "FAIL",
    "streak": null,
-   "symbols_positive": 0.6521739130434783,
-   "t": 1.2366498541528108,
-   "test_r": 0.06557640448470033,
+   "symbols_positive": 0.6086956521739131,
+   "t": 1.1558610369790734,
+   "test_r": 0.05775425186527031,
    "tf": "15m",
-   "train_r": 0.004978034878222697,
-   "win": 36.29014147765551
+   "train_r": 0.007000317012630749,
+   "win": 36.296129612961295
   },
   "RD8": {
-   "avg_r": 0.20195883280116292,
+   "avg_r": 0.19881184679318925,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1541,19 +1538,19 @@
    "n": 606,
    "name": "Breakout #469 · fix69",
    "origin": "improve",
-   "pf": 1.4391246488110454,
+   "pf": 1.4300648987824247,
    "spec_id": "4b5d752f2c",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.8333333333333334,
-   "t": 3.3171720003601686,
-   "test_r": 0.25155939588909376,
+   "t": 3.2642929890972447,
+   "test_r": 0.24780561267629062,
    "tf": "4h",
-   "train_r": 0.1687551500728786,
-   "win": 32.34323432343234
+   "train_r": 0.16601436715243548,
+   "win": 32.17821782178218
   },
   "RD9": {
-   "avg_r": 0.20195883280116292,
+   "avg_r": 0.19881184679318925,
    "best_ladder": null,
    "dd_pct": null,
    "fail_reasons": [
@@ -1565,18 +1562,18 @@
    "n": 606,
    "name": "Breakout #469 · fix4",
    "origin": "improve",
-   "pf": 1.4391246488110454,
+   "pf": 1.4300648987824247,
    "spec_id": "4b5d752f2c",
    "status": "CAND",
    "streak": null,
    "symbols_positive": 0.8333333333333334,
-   "t": 3.3171720003601686,
-   "test_r": 0.25155939588909376,
+   "t": 3.2642929890972447,
+   "test_r": 0.24780561267629062,
    "tf": "4h",
-   "train_r": 0.1687551500728786,
-   "win": 32.34323432343234
+   "train_r": 0.16601436715243548,
+   "win": 32.17821782178218
   }
  },
- "tested": 38,
- "ts": 1795260297.2568955
+ "tested": 40,
+ "ts": 1795274395.0130868
 }
