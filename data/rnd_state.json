@@ -1301,6 +1301,26 @@
    "k": "strategy",
    "t": 1795261885.5307508,
    "x": "🧪 RD7 “Breakout #469 · fix21” (improve) → FAIL · +0.03R, PF 1.04, win 36%, t=1.2, n=4453"
+  },
+  {
+   "k": "research",
+   "t": 1795275698.0586166,
+   "x": "🔬 Cycle 32: 61 ideas screened, 12 auto-improved variants · AI used: groq · waiting: claude (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h36m دیگر), deepseek (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h36m دیگر), grok (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 12h36m دیگر), openai (⏳ اعتبار/سهمیه تمام شده —"
+  },
+  {
+   "k": "strategy",
+   "t": 1795275698.0586166,
+   "x": "🧪 RD1 “Inside #962 · fix76” (improve) → FAIL · +0.00R, PF 1.01, win 36%, t=0.2, n=9326"
+  },
+  {
+   "k": "strategy",
+   "t": 1795275698.0586166,
+   "x": "🧪 RD10 “Breakout #469 · fix94” (improve) → FAIL · +0.01R, PF 1.02, win 36%, t=0.6, n=7011"
+  },
+  {
+   "k": "strategy",
+   "t": 1795275698.0586166,
+   "x": "🧪 RD6 “Momentum Push 15M/1H v2” (ai-fix:groq) → FAIL · +0.03R, PF 1.04, win 36%, t=1.1, n=5299"
   }
  ],
  "last": {
@@ -1327,10 +1347,10 @@
     "since": 1792990446.291979,
     "win": 41.7
    },
-   "ts": 1795273881.898644
+   "ts": 1795275698.0586166
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795273881.898644,
+  "light_ts": 1795275698.0586166,
   "modules_seen": 1795270036.1987994,
   "modules_status": {
    "BZ15": "NA",
@@ -1378,11 +1398,11 @@
   "n": 109,
   "research": {
    "ai": true,
-   "cycle": 31,
-   "generated": "2026-11-21 11:24 UTC",
-   "tested": 38
+   "cycle": 32,
+   "generated": "2026-11-21 15:19 UTC",
+   "tested": 40
   },
-  "research_seen": 1795260297.2568955
+  "research_seen": 1795274395.0130868
  },
  "proposals": [
   {
@@ -1929,73 +1949,73 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 31,
-   "name": "Inside #962 · fix17",
-   "spec_id": "f1d7fc8201",
+   "cycle": 32,
+   "name": "Inside #962 · fix76",
+   "spec_id": "3c0ba9f60a",
    "status": "FAIL"
   },
   "RD10": {
-   "cycle": 31,
-   "name": "Inside #962 · fix84",
-   "spec_id": "342e205176",
+   "cycle": 32,
+   "name": "Breakout #469 · fix94",
+   "spec_id": "9414668603",
    "status": "FAIL"
   },
   "RD11": {
-   "cycle": 31,
+   "cycle": 32,
    "name": "Momentum Push 15M/1H",
    "spec_id": "65bc541477",
    "status": "CAND"
   },
   "RD12": {
-   "cycle": 31,
+   "cycle": 32,
    "name": "Inside #962 · fix74",
    "spec_id": "965184c323",
    "status": "CAND"
   },
   "RD2": {
-   "cycle": 31,
+   "cycle": 32,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 31,
+   "cycle": 32,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
    "status": "PASS"
   },
   "RD4": {
-   "cycle": 31,
+   "cycle": 32,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
    "status": "PASS"
   },
   "RD5": {
-   "cycle": 31,
+   "cycle": 32,
    "name": "Breakout #469 · fix28",
    "spec_id": "6bbe0f69b2",
    "status": "CAND"
   },
   "RD6": {
-   "cycle": 31,
-   "name": "Breakout #469 · fix32",
-   "spec_id": "c588b7226d",
+   "cycle": 32,
+   "name": "Momentum Push 15M/1H v2",
+   "spec_id": "71d4dae5bf",
    "status": "FAIL"
   },
   "RD7": {
-   "cycle": 31,
-   "name": "Breakout #469 · fix21",
+   "cycle": 32,
+   "name": "Breakout #469 · fix97",
    "spec_id": "757e30310f",
    "status": "FAIL"
   },
   "RD8": {
-   "cycle": 31,
+   "cycle": 32,
    "name": "Breakout #469 · fix69",
    "spec_id": "4b5d752f2c",
    "status": "CAND"
   },
   "RD9": {
-   "cycle": 31,
+   "cycle": 32,
    "name": "Breakout #469 · fix4",
    "spec_id": "4b5d752f2c",
    "status": "CAND"
