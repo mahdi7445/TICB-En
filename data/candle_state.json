@@ -51873,7 +51873,7 @@
           "1": true,
           "2": true,
           "4": true,
-          "6": false
+          "6": true
         },
         "trailing": false,
         "closed": false,
@@ -51897,6 +51897,12 @@
             "type": "rr",
             "ts": "2026-11-20T15:48:25.839056+00:00",
             "level_r": 4,
+            "note": "forwarded"
+          },
+          {
+            "type": "rr",
+            "ts": "2026-11-21T04:13:15.725214+00:00",
+            "level_r": 6,
             "note": "forwarded"
           }
         ],
