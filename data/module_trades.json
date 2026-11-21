@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1794754827871,
       "armed_ms": 1794754827871,
-      "last_ms": 1795267319999,
+      "last_ms": 1795267379999,
       "bar_ms": 1794751200000,
       "mfe_r": 3.2503,
       "mae_r": 0.7031,
@@ -56,7 +56,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4166,
-      "polled_ms": 1795267375999
+      "polled_ms": 1795267434362
     },
     "TC-000128": {
       "id": "TC-000128",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1794823226530,
       "armed_ms": 1794823226530,
-      "last_ms": 1795267319999,
+      "last_ms": 1795267379999,
       "bar_ms": 1794819600000,
       "mfe_r": 5.2489,
       "mae_r": 0.7799,
@@ -121,7 +121,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4179,
-      "polled_ms": 1795267375999
+      "polled_ms": 1795267434362
     }
   },
   "seen": [],
