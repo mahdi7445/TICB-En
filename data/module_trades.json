@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1794754827871,
       "armed_ms": 1794754827871,
-      "last_ms": 1795244339999,
+      "last_ms": 1795244399999,
       "bar_ms": 1794751200000,
       "mfe_r": 3.2503,
       "mae_r": 0.7031,
@@ -56,7 +56,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4166,
-      "polled_ms": 1795244360437
+      "polled_ms": 1795244418638
     },
     "TC-000128": {
       "id": "TC-000128",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1794823226530,
       "armed_ms": 1794823226530,
-      "last_ms": 1795244339999,
+      "last_ms": 1795244399999,
       "bar_ms": 1794819600000,
       "mfe_r": 5.2489,
       "mae_r": 0.7799,
@@ -121,7 +121,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4179,
-      "polled_ms": 1795244360437
+      "polled_ms": 1795244418638
     }
   },
   "seen": [],
@@ -144,20 +144,20 @@
     "CN4H|ETH/USD|4h": 1795219200000,
     "TKF|BTC/USD|5m": 1794046500000,
     "TKF|ETH/USD|5m": 1794046500000,
-    "TPS|BTC/USD|1h": 1795237200000,
-    "TPS|ETH/USD|1h": 1795237200000,
-    "MRA|BTC/USD|1h": 1795237200000,
-    "MRA|ETH/USD|1h": 1795237200000,
-    "MRB|BTC/USD|1h": 1795237200000,
-    "MRB|ETH/USD|1h": 1795237200000,
+    "TPS|BTC/USD|1h": 1795240800000,
+    "TPS|ETH/USD|1h": 1795240800000,
+    "MRA|BTC/USD|1h": 1795240800000,
+    "MRA|ETH/USD|1h": 1795240800000,
+    "MRB|BTC/USD|1h": 1795240800000,
+    "MRB|ETH/USD|1h": 1795240800000,
     "HOT|ARB/USD|5m|SELL": 1792510500000,
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792510500000,
-    "SMS|BTC/USD|5m": 1795243800000,
-    "SMS|ETH/USD|5m": 1795243800000,
-    "TPB|BTC/USD|1h": 1795237200000,
-    "TPB|ETH/USD|1h": 1795237200000,
+    "SMS|BTC/USD|5m": 1795244100000,
+    "SMS|ETH/USD|5m": 1795244100000,
+    "TPB|BTC/USD|1h": 1795240800000,
+    "TPB|ETH/USD|1h": 1795240800000,
     "HOT|ARB/USD|15m|SELL": 1792509300000,
     "HOT|NEAR/USD|15m|SELL": 1792501200000,
     "HOT|TIA/USD|15m|BUY": 1792506600000,
@@ -180,8 +180,8 @@
     "TKF|ETH/USD|15m": 1794021300000,
     "TKS|BTC/USD|15m": 1794021300000,
     "TKS|ETH/USD|15m": 1794021300000,
-    "FBR|BTC/USD|15m": 1795242600000,
-    "FBR|ETH/USD|15m": 1795242600000,
+    "FBR|BTC/USD|15m": 1795243500000,
+    "FBR|ETH/USD|15m": 1795243500000,
     "BZ1H|BTC/USD|1h": 1794135600000,
     "BZ1H|ETH/USD|1h": 1794135600000,
     "BZ4H|BTC/USD|4h": 1794124800000,
@@ -251,7 +251,7 @@
     },
     "TPS": {
       "since": 1792450819,
-      "checks": 1544,
+      "checks": 1546,
       "nodata": 0,
       "raw": 13,
       "blocked": {
@@ -259,25 +259,25 @@
         "loss_streak(8)": 1
       },
       "opened": 4,
-      "last_check": 1795240867
+      "last_check": 1795244436
     },
     "MRA": {
       "since": 1792450819,
-      "checks": 1074,
+      "checks": 1076,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1795240867
+      "last_check": 1795244436
     },
     "MRB": {
       "since": 1792450819,
-      "checks": 1074,
+      "checks": 1076,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1795240867
+      "last_check": 1795244436
     },
     "HDV3": {
       "since": 1792454401,
@@ -323,16 +323,16 @@
     },
     "SMS": {
       "since": 1792499819,
-      "checks": 6662,
+      "checks": 6664,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1795244111
+      "last_check": 1795244433
     },
     "TPB": {
       "since": 1792499822,
-      "checks": 1092,
+      "checks": 1094,
       "nodata": 0,
       "raw": 18,
       "blocked": {
@@ -344,18 +344,18 @@
         "loss_streak(5)": 1
       },
       "opened": 4,
-      "last_check": 1795240867
+      "last_check": 1795244436
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 5208,
+      "checks": 5210,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "loss_streak(7)": 1
       },
       "opened": 2,
-      "last_check": 1795243503
+      "last_check": 1795244436
     },
     "TKS": {
       "since": 1793360230,
