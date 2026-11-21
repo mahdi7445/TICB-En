@@ -1276,31 +1276,31 @@
  "last": {
   "guard": {
    "all": {
-    "avg": -0.195,
+    "avg": -0.203,
     "bad": false,
-    "base_avg": -0.28,
-    "base_n": 71,
+    "base_avg": -0.273,
+    "base_n": 72,
     "base_pf": 0.66,
-    "n": 35,
+    "n": 36,
     "pf": 0.73,
-    "since": 1792811227.99723,
-    "win": 40.0
+    "since": 1792947368.602434,
+    "win": 38.9
    },
    "ticb": {
-    "avg": -0.195,
+    "avg": -0.203,
     "bad": false,
-    "base_avg": -0.28,
-    "base_n": 71,
+    "base_avg": -0.273,
+    "base_n": 72,
     "base_pf": 0.66,
-    "n": 35,
+    "n": 36,
     "pf": 0.73,
-    "since": 1792811227.99723,
-    "win": 40.0
+    "since": 1792947368.602434,
+    "win": 38.9
    },
-   "ts": 1795240859.4182718
+   "ts": 1795242677.7512023
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795240859.4182718,
+  "light_ts": 1795242677.7512023,
   "modules_seen": 1795220208.4890876,
   "modules_status": {
    "BZ15": "NA",
@@ -1345,7 +1345,7 @@
    "VCB": "NA",
    "VCR": "NA"
   },
-  "n": 106,
+  "n": 108,
   "research": {
    "ai": true,
    "cycle": 30,
