@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "RENDER",
-    "tf_label": "15M",
-    "entry": 1.585,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000758",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-06T22:03:17.521120+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "LDO",
     "tf_label": "15M",
     "entry": 0.326,
@@ -6346,5 +6334,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-21T03:35:18.463490+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 7.23,
+    "level": 6,
+    "result_r": 2.6,
+    "source_signal_id": "ALT-000959",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-21T04:11:53+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-21T04:11:54.167116+00:00"
   }
 ]
