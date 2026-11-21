@@ -1,17 +1,5 @@
 [
   {
-    "kind": "breakeven",
-    "ticker": "XRP",
-    "tf_label": "1H",
-    "entry": 1.177,
-    "level": null,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000759",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-07T03:01:30.789446+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "BCH",
     "tf_label": "4H",
@@ -6358,5 +6346,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-21T05:29:38.451440+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "LINK",
+    "tf_label": "4H",
+    "entry": 9.54,
+    "level": 2,
+    "result_r": 0.7,
+    "source_signal_id": "ALT-000941",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-21T06:19:31+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-21T06:19:31.854052+00:00"
   }
 ]
