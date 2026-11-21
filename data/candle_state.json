@@ -55908,6 +55908,44 @@
         "logical_tf": "15m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-001058": {
+      "open_trade": {
+        "signal_id": "ALT-001058",
+        "source_signal_id": "ALT-001058",
+        "side": "SELL",
+        "entry": 0.005167,
+        "sl": 0.005411,
+        "r": 0.0002440000000000003,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "AKE/USD",
+        "tf_key": "manual",
+        "display": "AKE",
+        "opened_at_ms": 1795247047149,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-21T07:44:07.149035+00:00",
+            "price": 0.005167
+          }
+        ],
+        "signal_message_id": 4400,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
