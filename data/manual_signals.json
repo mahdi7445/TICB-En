@@ -13408,5 +13408,19 @@
     "source_signal_id": "ALT-001059",
     "signal_message_id": 4401,
     "activated_at": "2026-11-21T08:35:51.890777+00:00"
+  },
+  {
+    "id": "src-ALT-001060",
+    "symbol": "PEARL/USD",
+    "side": "SELL",
+    "entry": 1.68,
+    "sl": 1.72,
+    "status": "pending",
+    "created_at": 1795259985,
+    "forwarded_tracking": true,
+    "tf_label": "5M",
+    "silent": true,
+    "source_signal_id": "ALT-001060",
+    "signal_message_id": 4403
   }
 ]
