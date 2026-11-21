@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1794754827871,
       "armed_ms": 1794754827871,
-      "last_ms": 1795267139999,
+      "last_ms": 1795267199999,
       "bar_ms": 1794751200000,
       "mfe_r": 3.2503,
       "mae_r": 0.7031,
@@ -56,7 +56,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4166,
-      "polled_ms": 1795267143229
+      "polled_ms": 1795267205031
     },
     "TC-000128": {
       "id": "TC-000128",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1794823226530,
       "armed_ms": 1794823226530,
-      "last_ms": 1795267139999,
+      "last_ms": 1795267199999,
       "bar_ms": 1794819600000,
       "mfe_r": 5.2489,
       "mae_r": 0.7799,
@@ -121,7 +121,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4179,
-      "polled_ms": 1795267143229
+      "polled_ms": 1795267205031
     }
   },
   "seen": [],
@@ -154,8 +154,8 @@
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792510500000,
-    "SMS|BTC/USD|5m": 1795266600000,
-    "SMS|ETH/USD|5m": 1795266600000,
+    "SMS|BTC/USD|5m": 1795266900000,
+    "SMS|ETH/USD|5m": 1795266900000,
     "TPB|BTC/USD|1h": 1795262400000,
     "TPB|ETH/USD|1h": 1795262400000,
     "HOT|ARB/USD|15m|SELL": 1792509300000,
@@ -323,12 +323,12 @@
     },
     "SMS": {
       "since": 1792499819,
-      "checks": 6814,
+      "checks": 6816,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1795266921
+      "last_check": 1795267208
     },
     "TPB": {
       "since": 1792499822,
