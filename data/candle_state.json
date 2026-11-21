@@ -55936,7 +55936,7 @@
           "6": false
         },
         "trailing": false,
-        "closed": false,
+        "closed": true,
         "symbol": "AKE/USD",
         "tf_key": "manual",
         "display": "AKE",
@@ -55952,6 +55952,17 @@
             "ts": "2026-11-21T11:46:37.873636+00:00",
             "level_r": 1,
             "note": "forwarded"
+          },
+          {
+            "type": "breakeven",
+            "ts": "2026-11-21T13:05:09.430986+00:00",
+            "note": "forwarded"
+          },
+          {
+            "type": "closed",
+            "ts": "2026-11-21T13:04:22+00:00",
+            "close_type": "breakeven",
+            "final_r": 0.2
           }
         ],
         "signal_message_id": 4400,
@@ -55961,7 +55972,8 @@
           "bar_seconds": 300,
           "label": "5M"
         },
-        "logical_tf": "5m"
+        "logical_tf": "5m",
+        "close_type": "breakeven"
       },
       "hist": []
     },
