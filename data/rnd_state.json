@@ -1306,31 +1306,31 @@
  "last": {
   "guard": {
    "all": {
-    "avg": -0.203,
+    "avg": -0.1,
     "bad": false,
-    "base_avg": -0.273,
-    "base_n": 72,
-    "base_pf": 0.66,
+    "base_avg": -0.286,
+    "base_n": 73,
+    "base_pf": 0.65,
     "n": 36,
-    "pf": 0.73,
-    "since": 1792947368.602434,
-    "win": 38.9
+    "pf": 0.86,
+    "since": 1792990446.291979,
+    "win": 41.7
    },
    "ticb": {
-    "avg": -0.203,
+    "avg": -0.1,
     "bad": false,
-    "base_avg": -0.273,
-    "base_n": 72,
-    "base_pf": 0.66,
+    "base_avg": -0.286,
+    "base_n": 73,
+    "base_pf": 0.65,
     "n": 36,
-    "pf": 0.73,
-    "since": 1792947368.602434,
-    "win": 38.9
+    "pf": 0.86,
+    "since": 1792990446.291979,
+    "win": 41.7
    },
-   "ts": 1795266717.4214087
+   "ts": 1795268527.0388339
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795266717.4214087,
+  "light_ts": 1795268527.0388339,
   "modules_seen": 1795220208.4890876,
   "modules_status": {
    "BZ15": "NA",
@@ -1375,7 +1375,7 @@
    "VCB": "NA",
    "VCR": "NA"
   },
-  "n": 108,
+  "n": 109,
   "research": {
    "ai": true,
    "cycle": 31,
