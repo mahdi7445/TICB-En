@@ -1,17 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "BNB",
-    "tf_label": "1H",
-    "entry": 693.69,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000760",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-07T12:03:43.332794+00:00"
-  },
-  {
     "kind": "target_hit",
     "ticker": "CAP",
     "tf_label": "1M",
@@ -6382,5 +6370,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-21T13:04:23.504556+00:00"
+  },
+  {
+    "kind": "target_hit",
+    "ticker": "VVV",
+    "tf_label": "15M",
+    "entry": 21.96,
+    "level": 1,
+    "result_r": 0.2,
+    "source_signal_id": "ALT-001056",
+    "side": "BUY",
+    "stop": null,
+    "src_ts": "2026-11-21T13:18:58+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-21T13:18:58.651203+00:00"
   }
 ]
