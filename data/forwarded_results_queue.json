@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "UAI",
-    "tf_label": "5M",
-    "entry": 0.1244,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000764",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-07T08:50:49.520010+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "AKE",
     "tf_label": "5M",
     "entry": 0.006114,
@@ -6376,5 +6364,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-21T11:45:36.889940+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "PEARL",
+    "tf_label": "5M",
+    "entry": 1.68,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-001060",
+    "side": "SELL",
+    "stop": 1.72,
+    "src_ts": "2026-11-21T12:27:18+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-21T12:27:18.872635+00:00"
   }
 ]
