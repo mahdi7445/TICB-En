@@ -44300,5 +44300,65 @@
     "stop_pct": null,
     "fee_r_est": null,
     "net_r_est": null
+  },
+  {
+    "signal_id": "TC-000128",
+    "events": [
+      {
+        "type": "target",
+        "index": 0,
+        "price": 60776.40991551046,
+        "banked": 0.7,
+        "ts": "2026-11-20T15:16:28.483527+00:00"
+      },
+      {
+        "type": "target",
+        "index": 1,
+        "price": 57282.01983102092,
+        "banked": 1.7,
+        "ts": "2026-11-21T03:32:45.815821+00:00"
+      },
+      {
+        "type": "stop",
+        "price": 60776.40991551046,
+        "final_r": 2.5,
+        "ts": "2026-11-21T13:39:13.688619+00:00"
+      },
+      {
+        "type": "closed",
+        "ts": "2026-11-21T13:39:14.135702+00:00",
+        "close_type": "stop_after_t2",
+        "final_r": 2.5
+      }
+    ],
+    "symbol": "BTC/USD",
+    "tf": "1h",
+    "logical_tf": "1h",
+    "side": "SELL",
+    "entry": 64270.8,
+    "sl": 66017.99504224477,
+    "final_r": 2.5,
+    "targets_hit": [
+      "T1",
+      "T2"
+    ],
+    "close_type": "stop_after_t2",
+    "close_reason": "stop_after_t2",
+    "opened_at": "2026-11-16T10:00:26.530000+00:00",
+    "closed_at": "2026-11-21T13:39:14.135702+00:00",
+    "r_pct": 2.7185,
+    "mfe_r": 5.2489,
+    "mae_r": 0.7799,
+    "quality_tier": "candidate",
+    "strategy": "module:TPB",
+    "htf_trend": null,
+    "htf_aligned": null,
+    "stop_pct": 2.7185,
+    "fee_r_est": null,
+    "net_r_est": null,
+    "module": "TPB",
+    "ladder": "Q3",
+    "trigger": null,
+    "hot_move_pct": null
   }
 ]
