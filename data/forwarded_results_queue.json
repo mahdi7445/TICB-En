@@ -1,29 +1,5 @@
 [
   {
-    "kind": "stop",
-    "ticker": "CAP",
-    "tf_label": "1H",
-    "entry": 0.1085,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000687",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-07T08:09:13.713771+00:00"
-  },
-  {
-    "kind": "target_hit",
-    "ticker": "KOR",
-    "tf_label": "5M",
-    "entry": 0.003041,
-    "level": 2,
-    "result_r": 0.6,
-    "source_signal_id": "ALT-000763",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-07T08:14:49.772244+00:00"
-  },
-  {
     "kind": "breakeven",
     "ticker": "KOR",
     "tf_label": "5M",
@@ -6367,5 +6343,35 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-21T09:49:23.624959+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "LINK",
+    "tf_label": "1H",
+    "entry": 10.83,
+    "level": null,
+    "result_r": 4.9,
+    "source_signal_id": "ALT-000770",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-21T11:38:41+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-21T11:38:41.762016+00:00"
+  },
+  {
+    "kind": "sl_after_t3",
+    "ticker": "AVAX",
+    "tf_label": "15M",
+    "entry": 7.23,
+    "level": null,
+    "result_r": 3.6,
+    "source_signal_id": "ALT-000959",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-21T11:38:52+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-21T11:38:53.296701+00:00"
   }
 ]
