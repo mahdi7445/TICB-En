@@ -40,7 +40,7 @@
       "status": "open",
       "opened_ms": 1794754827871,
       "armed_ms": 1794754827871,
-      "last_ms": 1795260539999,
+      "last_ms": 1795260599999,
       "bar_ms": 1794751200000,
       "mfe_r": 3.2503,
       "mae_r": 0.7031,
@@ -56,7 +56,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4166,
-      "polled_ms": 1795260556472
+      "polled_ms": 1795260614086
     },
     "TC-000128": {
       "id": "TC-000128",
@@ -98,7 +98,7 @@
       "status": "open",
       "opened_ms": 1794823226530,
       "armed_ms": 1794823226530,
-      "last_ms": 1795260539999,
+      "last_ms": 1795260599999,
       "bar_ms": 1794819600000,
       "mfe_r": 5.2489,
       "mae_r": 0.7799,
@@ -121,7 +121,7 @@
       "tier": "candidate",
       "profile": "Q3",
       "msg_id": 4179,
-      "polled_ms": 1795260556472
+      "polled_ms": 1795260614086
     }
   },
   "seen": [],
@@ -154,8 +154,8 @@
     "HOT|NEAR/USD|5m|SELL": 1792501800000,
     "HOT|TIA/USD|5m|BUY": 1792507500000,
     "HOT|WLD/USD|5m|BUY": 1792510500000,
-    "SMS|BTC/USD|5m": 1795260000000,
-    "SMS|ETH/USD|5m": 1795260000000,
+    "SMS|BTC/USD|5m": 1795260300000,
+    "SMS|ETH/USD|5m": 1795260300000,
     "TPB|BTC/USD|1h": 1795255200000,
     "TPB|ETH/USD|1h": 1795255200000,
     "HOT|ARB/USD|15m|SELL": 1792509300000,
@@ -180,8 +180,8 @@
     "TKF|ETH/USD|15m": 1794021300000,
     "TKS|BTC/USD|15m": 1794021300000,
     "TKS|ETH/USD|15m": 1794021300000,
-    "FBR|BTC/USD|15m": 1795258800000,
-    "FBR|ETH/USD|15m": 1795258800000,
+    "FBR|BTC/USD|15m": 1795259700000,
+    "FBR|ETH/USD|15m": 1795259700000,
     "BZ1H|BTC/USD|1h": 1794135600000,
     "BZ1H|ETH/USD|1h": 1794135600000,
     "BZ4H|BTC/USD|4h": 1794124800000,
@@ -323,12 +323,12 @@
     },
     "SMS": {
       "since": 1792499819,
-      "checks": 6770,
+      "checks": 6772,
       "nodata": 0,
       "raw": 0,
       "blocked": {},
       "opened": 0,
-      "last_check": 1795260330
+      "last_check": 1795260619
     },
     "TPB": {
       "since": 1792499822,
@@ -348,14 +348,14 @@
     },
     "FBR": {
       "since": 1792739904,
-      "checks": 5244,
+      "checks": 5246,
       "nodata": 0,
       "raw": 3,
       "blocked": {
         "loss_streak(7)": 1
       },
       "opened": 2,
-      "last_check": 1795259726
+      "last_check": 1795260620
     },
     "TKS": {
       "since": 1793360230,
