@@ -1,17 +1,5 @@
 [
   {
-    "kind": "target_hit",
-    "ticker": "BCH",
-    "tf_label": "4H",
-    "entry": 279.41,
-    "level": 1,
-    "result_r": 0.2,
-    "source_signal_id": "ALT-000689",
-    "status": "already_closed",
-    "attempts": 0,
-    "queued_at": "2026-11-07T03:44:50.527578+00:00"
-  },
-  {
     "kind": "stop",
     "ticker": "HBAR",
     "tf_label": "15M",
@@ -6361,5 +6349,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-21T06:19:31.854052+00:00"
+  },
+  {
+    "kind": "runner_stop",
+    "ticker": "DOT",
+    "tf_label": "15M",
+    "entry": 0.7207,
+    "level": null,
+    "result_r": 4.95,
+    "source_signal_id": "ALT-001022",
+    "side": "SELL",
+    "stop": null,
+    "src_ts": "2026-11-21T06:45:40+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-21T06:45:40.800508+00:00"
   }
 ]
