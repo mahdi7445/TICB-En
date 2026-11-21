@@ -1271,6 +1271,11 @@
    "k": "strategy",
    "t": 1795233610.1388445,
    "x": "🧪 RD7 “Inside #962 · v8” (mutation) → FAIL · -0.04R, PF 0.94, win 41%, t=-2.6, n=8134"
+  },
+  {
+   "k": "request",
+   "t": 1795258361.0955122,
+   "x": "🔬 Deep research requested"
   }
  ],
  "last": {
@@ -1881,7 +1886,7 @@
   {
    "done": false,
    "kind": "research",
-   "t": 1795039883.7729363
+   "t": 1795258361.0955122
   }
  ],
  "settings": {
