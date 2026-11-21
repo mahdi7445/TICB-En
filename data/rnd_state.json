@@ -1276,6 +1276,31 @@
    "k": "request",
    "t": 1795258361.0955122,
    "x": "🔬 Deep research requested"
+  },
+  {
+   "k": "research",
+   "t": 1795261885.5307508,
+   "x": "🔬 Cycle 31: 56 ideas screened, 12 auto-improved variants · AI used: groq · waiting: claude (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 16h40m دیگر), deepseek (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 16h40m دیگر), grok (⏳ اعتبار/سهمیه تمام شده — تلاش بعدی تا 16h40m دیگر), openai (⏳ اعتبار/سهمیه تمام شده —"
+  },
+  {
+   "k": "strategy",
+   "t": 1795261885.5307508,
+   "x": "🧪 RD1 “Inside #962 · fix17” (improve) → FAIL · +0.01R, PF 1.01, win 43%, t=0.4, n=6027"
+  },
+  {
+   "k": "strategy",
+   "t": 1795261885.5307508,
+   "x": "🧪 RD10 “Inside #962 · fix84” (improve) → FAIL · +0.00R, PF 1.01, win 36%, t=0.3, n=9781"
+  },
+  {
+   "k": "strategy",
+   "t": 1795261885.5307508,
+   "x": "🧪 RD6 “Breakout #469 · fix32” (improve) → FAIL · +0.01R, PF 1.02, win 36%, t=0.5, n=4536"
+  },
+  {
+   "k": "strategy",
+   "t": 1795261885.5307508,
+   "x": "🧪 RD7 “Breakout #469 · fix21” (improve) → FAIL · +0.03R, PF 1.04, win 36%, t=1.2, n=4453"
   }
  ],
  "last": {
@@ -1302,10 +1327,10 @@
     "since": 1792947368.602434,
     "win": 38.9
    },
-   "ts": 1795260073.755406
+   "ts": 1795261885.5307508
   },
   "integrity_sig": "target_loss:1|time_order:1",
-  "light_ts": 1795260073.755406,
+  "light_ts": 1795261885.5307508,
   "modules_seen": 1795220208.4890876,
   "modules_status": {
    "BZ15": "NA",
@@ -1353,11 +1378,11 @@
   "n": 108,
   "research": {
    "ai": true,
-   "cycle": 30,
-   "generated": "2026-11-21 03:57 UTC",
-   "tested": 52
+   "cycle": 31,
+   "generated": "2026-11-21 11:24 UTC",
+   "tested": 38
   },
-  "research_seen": 1795233468.4153776
+  "research_seen": 1795260297.2568955
  },
  "proposals": [
   {
@@ -1904,73 +1929,73 @@
  },
  "slots": {
   "RD1": {
-   "cycle": 30,
-   "name": "Breakout #469 · fix69",
-   "spec_id": "7ea1dbc181",
+   "cycle": 31,
+   "name": "Inside #962 · fix17",
+   "spec_id": "f1d7fc8201",
    "status": "FAIL"
   },
   "RD10": {
-   "cycle": 30,
-   "name": "Inside #962 · fix37",
-   "spec_id": "18a513abb1",
+   "cycle": 31,
+   "name": "Inside #962 · fix84",
+   "spec_id": "342e205176",
    "status": "FAIL"
   },
   "RD11": {
-   "cycle": 30,
+   "cycle": 31,
    "name": "Momentum Push 15M/1H",
    "spec_id": "65bc541477",
    "status": "CAND"
   },
   "RD12": {
-   "cycle": 30,
+   "cycle": 31,
    "name": "Inside #962 · fix74",
    "spec_id": "965184c323",
    "status": "CAND"
   },
   "RD2": {
-   "cycle": 30,
+   "cycle": 31,
    "name": "Breakout #469 · v8",
    "spec_id": "1cb8a446a1",
    "status": "CAND"
   },
   "RD3": {
-   "cycle": 30,
+   "cycle": 31,
    "name": "Inside #962 · v3",
    "spec_id": "a53c7093bf",
    "status": "PASS"
   },
   "RD4": {
-   "cycle": 30,
+   "cycle": 31,
    "name": "Breakout #469 · fix29",
    "spec_id": "ee741fb893",
    "status": "PASS"
   },
   "RD5": {
-   "cycle": 30,
+   "cycle": 31,
    "name": "Breakout #469 · fix28",
    "spec_id": "6bbe0f69b2",
    "status": "CAND"
   },
   "RD6": {
-   "cycle": 30,
-   "name": "Breakout #469 · fix71",
-   "spec_id": "4a539affde",
+   "cycle": 31,
+   "name": "Breakout #469 · fix32",
+   "spec_id": "c588b7226d",
    "status": "FAIL"
   },
   "RD7": {
-   "cycle": 30,
-   "name": "Inside #962 · v8",
-   "spec_id": "8bec9ee5bb",
+   "cycle": 31,
+   "name": "Breakout #469 · fix21",
+   "spec_id": "757e30310f",
    "status": "FAIL"
   },
   "RD8": {
-   "cycle": 30,
+   "cycle": 31,
    "name": "Breakout #469 · fix69",
    "spec_id": "4b5d752f2c",
    "status": "CAND"
   },
   "RD9": {
-   "cycle": 30,
+   "cycle": 31,
    "name": "Breakout #469 · fix4",
    "spec_id": "4b5d752f2c",
    "status": "CAND"
