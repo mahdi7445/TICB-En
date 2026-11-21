@@ -55946,6 +55946,44 @@
         "logical_tf": "5m"
       },
       "hist": []
+    },
+    "MANUAL|src-ALT-001059": {
+      "open_trade": {
+        "signal_id": "ALT-001059",
+        "source_signal_id": "ALT-001059",
+        "side": "SELL",
+        "entry": 0.1668,
+        "sl": 0.1711,
+        "r": 0.004299999999999998,
+        "hit": {
+          "1": false,
+          "2": false,
+          "4": false,
+          "6": false
+        },
+        "trailing": false,
+        "closed": false,
+        "symbol": "CRV/USD",
+        "tf_key": "manual",
+        "display": "CRV",
+        "opened_at_ms": 1795250151890,
+        "events": [
+          {
+            "type": "opened",
+            "ts": "2026-11-21T08:35:51.890755+00:00",
+            "price": 0.1668
+          }
+        ],
+        "signal_message_id": 4401,
+        "forwarded_tracking": true,
+        "manual_tf_cfg": {
+          "td_interval": "5min",
+          "bar_seconds": 300,
+          "label": "5M"
+        },
+        "logical_tf": "5m"
+      },
+      "hist": []
     }
   },
   "tf_last_checked": {
