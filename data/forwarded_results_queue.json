@@ -1,18 +1,6 @@
 [
   {
     "kind": "stop",
-    "ticker": "HBAR",
-    "tf_label": "15M",
-    "entry": 0.06709,
-    "level": null,
-    "result_r": -1.0,
-    "source_signal_id": "ALT-000762",
-    "status": "applied",
-    "attempts": 0,
-    "queued_at": "2026-11-07T05:02:46.216571+00:00"
-  },
-  {
-    "kind": "stop",
     "ticker": "CAP",
     "tf_label": "1H",
     "entry": 0.1085,
@@ -6364,5 +6352,20 @@
     "status": "applied",
     "attempts": 0,
     "queued_at": "2026-11-21T06:45:40.800508+00:00"
+  },
+  {
+    "kind": "stop",
+    "ticker": "CRV",
+    "tf_label": "5M",
+    "entry": 0.1668,
+    "level": null,
+    "result_r": -1.0,
+    "source_signal_id": "ALT-001059",
+    "side": "SELL",
+    "stop": 0.1711,
+    "src_ts": "2026-11-21T09:49:23+00:00",
+    "status": "pending",
+    "attempts": 0,
+    "queued_at": "2026-11-21T09:49:23.624959+00:00"
   }
 ]
